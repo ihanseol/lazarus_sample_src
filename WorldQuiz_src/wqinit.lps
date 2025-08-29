@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="wqinit.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="28" HistoryIndex="27">
+      <Position1>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="28" Column="43" TopLine="25"/>
+      </Position1>
+      <Position2>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="37" Column="5" TopLine="30"/>
+      </Position2>
+      <Position3>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="44" Column="23" TopLine="24"/>
+      </Position3>
+      <Position4>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="42" Column="7" TopLine="29"/>
+      </Position4>
+      <Position5>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="41" Column="19" TopLine="29"/>
+      </Position5>
+      <Position6>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="70" Column="9" TopLine="48"/>
+      </Position6>
+      <Position7>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="95" Column="3" TopLine="67"/>
+      </Position7>
+      <Position8>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="64" Column="6" TopLine="41"/>
+      </Position8>
+      <Position9>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="65" Column="5" TopLine="52"/>
+      </Position9>
+      <Position10>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="86" TopLine="59"/>
+      </Position10>
+      <Position11>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="96" Column="21" TopLine="82"/>
+      </Position11>
+      <Position12>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="85" Column="25" TopLine="57"/>
+      </Position12>
+      <Position13>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="26" Column="34" TopLine="12"/>
+      </Position13>
+      <Position14>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="32" Column="29" TopLine="9"/>
+      </Position14>
+      <Position15>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="21" Column="29"/>
+      </Position15>
+      <Position16>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="90" Column="29" TopLine="76"/>
+      </Position16>
+      <Position17>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="91" Column="29" TopLine="76"/>
+      </Position17>
+      <Position18>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="25" TopLine="9"/>
+      </Position18>
+      <Position19>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="32" Column="28" TopLine="18"/>
+      </Position19>
+      <Position20>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="110" Column="22" TopLine="91"/>
+      </Position20>
+      <Position21>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="123" Column="37" TopLine="109"/>
+      </Position21>
+      <Position22>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="131" Column="30" TopLine="106"/>
+      </Position22>
+      <Position23>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="137" Column="13" TopLine="112"/>
+      </Position23>
+      <Position24>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="128" Column="28" TopLine="111"/>
+      </Position24>
+      <Position25>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="136" Column="60" TopLine="109"/>
+      </Position25>
+      <Position26>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="121" Column="99" TopLine="110"/>
+      </Position26>
+      <Position27>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="112" Column="12" TopLine="94"/>
+      </Position27>
+      <Position28>
+        <Filename Value="wqinit.lpr"/>
+        <Caret Line="156" TopLine="128"/>
+      </Position28>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

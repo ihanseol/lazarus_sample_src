@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="arith3.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="arithmetics3_common.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="714" Column="14" TopLine="701"/>
+      </Position1>
+      <Position2>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="187" Column="23" TopLine="155"/>
+      </Position2>
+      <Position3>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="483" Column="35" TopLine="452"/>
+      </Position3>
+      <Position4>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="488" Column="48" TopLine="467"/>
+      </Position4>
+      <Position5>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="509" Column="77" TopLine="488"/>
+      </Position5>
+      <Position6>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="16" Column="22"/>
+      </Position6>
+      <Position7>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="49" Column="32" TopLine="35"/>
+      </Position7>
+      <Position8>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="529" Column="24" TopLine="490"/>
+      </Position8>
+      <Position9>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="16" Column="22"/>
+      </Position9>
+      <Position10>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="539" Column="83" TopLine="508"/>
+      </Position10>
+      <Position11>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="553" Column="37" TopLine="514"/>
+      </Position11>
+      <Position12>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="595" Column="21" TopLine="560"/>
+      </Position12>
+      <Position13>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="705" Column="9" TopLine="680"/>
+      </Position13>
+      <Position14>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="713" Column="11" TopLine="702"/>
+      </Position14>
+      <Position15>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="748" Column="11" TopLine="729"/>
+      </Position15>
+      <Position16>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="855" Column="11" TopLine="837"/>
+      </Position16>
+      <Position17>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="904" Column="24" TopLine="886"/>
+      </Position17>
+      <Position18>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="472" Column="75" TopLine="455"/>
+      </Position18>
+      <Position19>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="50" TopLine="29"/>
+      </Position19>
+      <Position20>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="934" Column="5" TopLine="908"/>
+      </Position20>
+      <Position21>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="727" Column="83" TopLine="689"/>
+      </Position21>
+      <Position22>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="15" Column="22"/>
+      </Position22>
+      <Position23>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="719" Column="150" TopLine="700"/>
+      </Position23>
+      <Position24>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="1059" Column="110" TopLine="1046"/>
+      </Position24>
+      <Position25>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="1057" Column="80" TopLine="1045"/>
+      </Position25>
+      <Position26>
+        <Filename Value="arith3.lpr"/>
+        <Caret Line="160" Column="46" TopLine="129"/>
+      </Position26>
+      <Position27>
+        <Filename Value="arith3.lpr"/>
+        <Caret Line="140" Column="151" TopLine="117"/>
+      </Position27>
+      <Position28>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="635" Column="119" TopLine="150"/>
+      </Position28>
+      <Position29>
+        <Filename Value="arith3.lpr"/>
+        <Caret Line="17" Column="27" TopLine="174"/>
+      </Position29>
+      <Position30>
+        <Filename Value="arithmetics3_common.pas"/>
+        <Caret Line="93" Column="14" TopLine="93"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

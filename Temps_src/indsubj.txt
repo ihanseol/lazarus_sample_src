@@ -1,0 +1,35 @@
+je pense, *, $, #
+je crois, je croyais, je croirai, je croirais
+je me doute, *, $, #
+j'estime, *, $, #
+j'imagine, *, $, #
+je suppose, *, $, #
+je considère, je considérais, je concidèrerai, je concidèrerais
+je juge, *, $, #
+j'espère, j'espérais, j'espèrerai, j'espèrerais
+j'ai l'impression, *, $, #
+je m'indigne, *, $, #
+je suis certain, *, $, #
+je suis sûr, *, $, #
+-je promets, je promettais, je promettrai, je promettrais
+je me rappelle, je me rappelais, je me rappellerai, je me rappellerais
+je me souviens, je me souvenais, je me souviendrai, je me souviendrais
+je prouve, *, $, #
+je garantis, je garantissais, je garantirai, je garantirais
+?j'affirme, *, $, #
+?je conclus, je concluais, je conclurai, je conclurais
+?j'atteste, *, $, #
+?je suis convaincu, *, $, #
+je suis assuré, *, $, #
+je suis certain, *, $, #
+je suis conscient, *, $, #
+je suis sûr, *, $, #
+je suis persuadé, *, $, #
+
+il est certain, *, $, #
+il est clair, *, $, #
+il est évident, *, $, #
+-il est prévisible, *, $, #
+il est visible, *, $, #
+il est vrai, *, $, #
+il est exact, *, $, #

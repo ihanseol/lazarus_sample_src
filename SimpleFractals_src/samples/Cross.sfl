@@ -1,0 +1,9 @@
+# Cross
+
+origin = (775,320)
+displacement = 7
+
+axiom = "0F+1F+2F+3F"
+rules = { "F": "F+FF++F+F" }
+iterations = 5
+angle = 90

@@ -1,0 +1,131 @@
+# List of chemical elements
+
+# cols 1-3:   atomic number
+# cols 5-6:   element symbol
+# cols 8-20:  element name
+# cols 22-23: element group
+#   HY = hydrogen, AM = alkali metals; AE = alkaline earth metals; 13 = coumn 13 elements; 14 = column 14 elements;
+#   PN = pnictogenes; CH = chalcogenes; HA = halogenes; NG = noble gases; TM = transition metals; LA = lanthanides; AC = actinides
+# col  25:    * indicates elements that consist entirely of unstable, radioactive isotopes
+# cols 26-34: atomic mass
+# cols 36-    common ion charges
+#   data from https://www.thoughtco.com/
+
+001 H  Hydrogen      HY  001.00800 +1
+002 He Helium        NG  004.00260
+003 Li Lithium       AM  006.94000 +1
+004 Be Beryllium     AE  009.01218 +2
+005 B  Boron         13  010.81000 -3+3
+006 C  Carbon        14  012.01100 +4
+007 N  Nitrogen      PN  014.00700 -3
+008 O  Oxygen        CH  015.99900 -2
+009 F  Fluorine      HA  018.99840 -1
+010 Ne Neon          NG  020.17970
+011 Na Sodium        AM  022.98977 +1
+012 Mg Magnesium     AE  024.30500 +2
+013 Al Aluminium     13  026.98154 +3
+014 Si Silicon       14  028.08500 -4+4
+015 P  Phosphorus    PN  030.97376 -3+3+5
+016 S  Sulfur        CH  032.06000 -2+2+4+6
+017 Cl Chlorine      HA  035.45000 -1
+018 Ar Argon         NG  039.94800
+019 K  Potassium     AM  039.09830 +1
+020 Ca Calcium       AE  040.07800 +2
+021 Sc Scandium      TM  044.95591 +3
+022 Ti Titanium      TM  047.86700 +3+4
+023 V  Vanadium      TM  050.94150 +2+3+4+5
+024 Cr Chromium      TM  051.99610 +2+3+6
+025 Mn Manganese     TM  054.93804 +2+4+7
+026 Fe Iron          TM  055.84500 +2+3
+027 Co Cobalt        TM  058.93319 +2+3
+028 Ni Nickel        TM  058.69340 +2
+029 Cu Copper        TM  063.54600 +1+2
+030 Zn Zinc          TM  065.38000 +2
+031 Ga Gallium       13  069.72300 +3
+032 Ge Germanium     14  072.63000 -4+2+4
+033 As Arsenic       PN  074.92160 -3+3+5
+034 Se Selenium      CH  078.97100 -2+4+6
+035 Br Bromine       HA  079.90400 -1+1+5
+036 Kr Krypton       NG  083.79800
+037 Rb Rubidium      AM  085.46780 +1
+038 Sr Strontium     AE  087.62000 +2
+039 Y  Yttrium       TM  088.90584 +3
+040 Zr Zirconium     TM  091.22400 +4
+041 Nb Niobium       TM  092.90637 +3+5
+042 Mo Molybdenum    TM  095.95000 +3+6
+043 Tc Technetium    TM *098.00000 +6
+044 Ru Ruthenium     TM  101.07000 +3+4+8
+045 Rh Rhodium       TM  102.90550 +4
+046 Pd Palladium     TM  106.42000 +2+4
+047 Ag Silver        TM  107.86820 +1
+048 Cd Cadmium       TM  112.41400 +2
+049 In Indium        13  114.81800 +3
+050 Sn Tin           14  118.71000 +2+4
+051 Sb Antimony      PN  121.76000 -3+3+5
+052 Te Tellurium     CH  127.60000 -2+4+6
+053 I  Iodine        HA  126.90447 -1
+054 Xe Xenon         NG  131.29300
+055 Cs Caesium       AM  132.90545 +1
+056 Ba Barium        AE  137.32700 +2
+057 La Lanthanum     TM  138.90547 +3
+058 Ce Cerium        LA  140.11600 +3+4
+059 Pr Praseodymium  LA  140.90766 +3
+060 Nd Neodymium     LA  144.24200 +3+4
+061 Pm Promethium    LA *145.00000 +3
+062 Sm Samarium      LA  150.36000 +3
+063 Eu Europium      LA  151.96400 +3
+064 Gd Gadolinium    LA  157.25000 +3
+065 Tb Terbium       LA  158.92535 +3+4
+066 Dy Dysprosium    LA  162.50000 +3
+067 Ho Holmium       LA  164.93033 +3
+068 Er Erbium        LA  167.25900 +3
+069 Tm Thulium       LA  168.93422 +3
+070 Yb Ytterbium     LA  173.04500 +3
+071 Lu Lutetium      LA  174.96680 +3
+072 Hf Hafnium       TM  178.49000 +4
+073 Ta Tantalum      TM  180.94788 +5
+074 W  Tungsten      TM  183.84000 +6
+075 Re Rhenium       TM  186.20700 +2+4+6+7
+076 Os Osmium        TM  190.23000 +3+4+6+8
+077 Ir Iridium       TM  192.21700 +3+4+6
+078 Pt Platinum      TM  195.08400 +2+4+6
+079 Au Gold          TM  196.96657 +1+2+3
+080 Hg Mercury       TM  200.59200 +1+2
+081 Tl Thallium      13  204.38000 +1+3
+082 Pb Lead          14  207.20000 +2+4
+083 Bi Bismuth       PN  208.98040 +3
+084 Po Polonium      CH *209.00000 +2+4
+085 At Astatine      HA *210.00000
+086 Rn Radon         NG *222.00000
+087 Fr Francium      AM *223.00000
+088 Ra Radium        AE *226.00000 +2
+089 Ac Actinium      TM *227.00000 +3
+090 Th Thorium       AC  232.03770 +4
+091 Pa Protactinium  AC  231.03588 +5
+092 U  Uranium       AC  238.02891 +3+4+6
+093 Np Neptunium     AC *237.00000
+094 Pu Plutonium     AC *244.00000
+095 Am Americium     AC *243.00000
+096 Cm Curium        AC *247.00000
+097 Bk Berkelium     AC *247.00000
+098 Cf Californium   AC *251.00000
+099 Es Einsteinium   AC *252.00000
+100 Fm Fermium       AC *257.00000
+101 Md Mendelevium   AC *258.00000
+102 No Nobelium      AC *259.00000
+103 Lr Lawrencium    AC *266.00000
+104 Rf Rutherfordium TM *267.00000
+105 Db Dubnium       TM *268.00000
+106 Sg Seaborgium    TM *269.00000
+107 Bh Bohrium       TM *270.00000
+108 Hs Hassium       TM *277.00000
+109 Mt Meitnerium    TM *278.00000
+110 Ds Darmstadtium  TM *281.00000
+111 Rg Roentgenium   TM *282.00000
+112 Cn Copernicium   TM *285.00000
+113 Nh Nihonium      -- *286.00000
+114 Fl Flerovium     -- *289.00000
+115 Mc Moscovium     -- *290.00000
+116 Lv Livermorium   -- *293.00000
+117 Ts Tennessine    -- *294.00000
+118 Og Oganesson     -- *294.00000

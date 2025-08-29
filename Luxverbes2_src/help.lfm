@@ -1,0 +1,127 @@
+object fHelp: TfHelp
+  Left = 202
+  Height = 545
+  Top = 145
+  Width = 948
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Luxverbes2: Programm Hëllef'
+  ClientHeight = 545
+  ClientWidth = 948
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object Memo1: TMemo
+    Left = 11
+    Height = 473
+    Top = 10
+    Width = 926
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"Luxverbes2" ass e Programm, deen Exercicen iwwert d''Konjugatioun vun de lëtzebuergesche Verben (Partizip an zësummegesat Zäiten) generéiert; d''Verbe ginn aus enger Lëscht mat 400 Wierter ausgewielt. De Programm kann och benotzt gi fir de Perfekt (passé composé) an de Plusquamperfekt vun engem Verb ze affichéieren.'
+      ''
+      '===================='
+      '= De Programm-Menü ='
+      '===================='
+      ''
+      'Menüpunkt "Exercice".'
+      '====================='
+      ''
+      'Neien Exercice:'
+      '---------------'
+      'Neien Exercice (mat Zerécksetze vun de Compteure) starten. Dëse Befehl ass noutwendeg wann een Exercice fäerdeg ass an ebenfalls wann een d''Zuel vun de Froe geännert huet.'
+      ''
+      'Konjugatioun:'
+      '-------------'
+      'Affichéiere vum Perfekt an dem Plusquamperfekt vun engem ("bal beliebege") lëtzebuergesche Verb. Cf. méi wäit ënne fir Detailer.'
+      ''
+      'Zoumaachen:'
+      '-----------'
+      'De Programm verloossen.'
+      ''
+      'Menüpunkt "Astellungen".'
+      '========================'
+      ''
+      'Zuel vun de Froen:'
+      '------------------'
+      'Eragi wivill Froen den Exercice soll hunn; d''Virastellung ass 20. Fir datt dës Astellung aktiv gëtt, "Neien Exercice" am Menü "Exercice" wielen.'
+      ''
+      'Zäitenauswiel:'
+      '--------------'
+      'Auswiele wat fir eng Zäiten am Exercice gefrot solle ginne: Partizip, Perfekt an/oder Plusquamperfekt.'
+      ''
+      'Punkten op 100:'
+      '---------------'
+      'Normalerweis ginn d''Punkte vergi wéi an der Schoul zu Lëtzebuerg, also mat engem Maximum vu 60. Ass d''Astellung "Punkten op 100" ausgewielt, gëtt matt engem Maximum vun 100 gerechent (wat dat selwecht wéi eng Erfollegsquote a Prozent ass).'
+      ''
+      'Keng Verben op -éieren:'
+      '-----------------------'
+      'Keng Froe mat Verben, déi op -éieren ende, stellen (déi sinn alleguer regelméisseg...).'
+      ''
+      'Infinitiv verstoppen:'
+      '---------------------'
+      'Den Infinitiv vum Verb net op lëtzebuergesch uweisen. En plus vun der Konjugatioun ass an dësem Fall also och d''Iwwersetze vum Franséischen oder Däitschen erfuederlech.'
+      ''
+      '-en Engunge wegloossen:'
+      '-----------------------'
+      'Bei dee regelméissege Verben, deenen hire Partizip net op -t ass, ass d''Endung -en fakultativ. Hei kann ee wiele, wéi de Programm dat geréiere soll. Dës Astellung ass souwuel fir d''Exercice wéi fir déi affichéiert Konjugatiounen!'
+      ''
+      'Mat Ausnahm vun der Zuel vun de Froe, kënnen d''Astellungen och während dem Exercice geännert ginn.'
+      ''
+      'Menupunkt "Hëllef".'
+      '==================='
+      ''
+      'Hëllef:'
+      '-------'
+      'Dëse Programm-Hëllefstext uweisen .'
+      ''
+      'Iwwer:'
+      '------'
+      'Informatiounen iwwert de "Luxverbes2" Programm uweisen.'
+      ''
+      '===================='
+      '= Exercice maachen ='
+      '===================='
+      ''
+      'Mam Knäppche "Fro" gëtt eng nei Fro generéiert. Den Infinitiv vum Verb, déi gefroten Zäit an d''Persoun (+ de Genre fir déi 3. Persoun singulier) ginn ugewisen an d''Utilisatrice muss dat konjugéiert Verb eraginn. Dobäi ass ze beuechten, de betounte Pronomen ("pronom tonique") ze verwenden (also "du" a net "de", "mir" a net "mer"...); Ausnahm sinn déi onperséinlech Verbe, wou de Programm als Pronomen "ët" erwaart (z.B. "ët huet gereent").'
+      ''
+      'Nom Raginn vum konjugéierte Verb, de Knäppchen "Äntwert" drécken: De Programm kontrolléiert ob d''Äntwert richteg ass an d''Evaluatiouns-Compteuren (Zuel vun de richtegen a falschen Äntwerten, aktuell Punkte) ginn à jour gemeet.'
+      ''
+      'Wann all Froen (20 oder souvill wéi am Menü "Astellungen" ausgewielt) duurch sinn, kann een iwwert de Menüpunkt "Neien Exercice" een aneren Exercice starten.'
+      ''
+      '==============================='
+      '= D''Konjugatioun affichéieren ='
+      '==============================='
+      ''
+      'En plus vum Generéiere vun Exercice, kann de "Luxverbes2" Programm benotzt gi, fir de Perfekt (passé composé) an de Plusquamperfekt vun engem lëtzebuergesche Verb, dat d''Utilisatrice eragëtt, unzeweiseen. Wann dëst Verb eent ass, dat de Programm kennt (also ee vun dee 400 aus senger Lëscht), ass alles ok. Ass ët, par contre, eent him onbekannte Verb, da kann hie just probéieren ët richteg ze konjugéieren, ouni datt ët eng Garantie duefir gëtt, datt wat hien uweist net een oder méi Fehler opweist. Dat läit an éischter Linn dorun, datt ët kengerlee Méiglegkett gëtt, d''Metaphonèse virauszesoen. Grad bei sou Verben ass d''Chance, datt déi ugewise Konjugatioun net richteg ass, also relativ héich.'
+      ''
+      'Hei puer Detailer, wat de Programm mécht a wivill ee sech op dat verloosse ka, wat hien errechent:'
+      ''
+      '1. Verben op -éieren, déi direkt vum Franséische kommen, hunn alleguer e Partizip vun der Form Radical + -t (ouni ge-); déi ugewise Konjugatioun ass also ëmmer richteg.'
+      ''
+      '2. Bei anere Verbe probéiert de Programm ee Prefix an ee Basisverb ze detekéieren. Ass dat Basisverb eent aus senger Lëscht, konjugéiert hien d''Verb no dësem Modell, woubäi d''Positioun vum ge- bei engem separabele Prefix (sträichen, gestrach -> usträichen, ugestrach) sou wéi d''Wegfale vum ge- am Fall vun engem net separable Prefix (mierken, gemierkt -> bemierken, bemierkt) richteg gehandelt ginn. Heibäi ass ët egal op d''Verb e regelméissege Partzip op -t oder -en, e Partizip mat Metaphonèse oder en onregelméissege Partizip huet; och d''Berücksichtigung vun de Regelen vun der lëtzebuergescher Orthographie ("dédoublement de la voyelle tonique", "dessonorisation de la consonne finale"...) gëtt richteg gehandelt. Problemer gëtt ët haaptsächlech da, wann d''Verb ee Prefix enthält, deen de Programm net als solchen erkennt (net auszeschléissen dass och deen ëmgedréite Fehler méiglech ass). Eng aner Fehlerméiglechkeet ass datt dat zësummegesat Verb anescht wéi d''Basisverb konjugéiert gëtt (z.B. héieren, ech hunn héieren -> gehéieren, ech hu gehéiert, Programm: ech hu gehéieren).'
+      ''
+      '3. Fënnt de Programm kee Prefix oder kennt hien och d''Basisverb net, bleift him näischt anescht iwwreg wéi unzehuelen datt d''Verb méiglecherweis e Partizip vun der Form ge- + Radikal + -t huet (ouni ge- wann ee net separable Prefix detektéiert gouff). Huet d''Verb eng aner Form vu Partizip, ass déi ugewise Konjugatioun an esou Fäll ëmmer falsch (z.B. rënnen, geronnen, Programm: gerënnt).'
+      ''
+      '4. D''Erkenne vun dueble Prefixen ass net implementéiert; hei sinn also fehlerhaft Konjugatiounen ze erwaarden (z.B. agestoen, ech hunn agestanen, Programm: ech hunn agegestot).'
+      ''
+      '5. Als Auxiliaire fir déi zësummegesaten Zäiten hëlt de Programm d''Auxiliaire vum Basisverb oder "hunn" am Fall wou en dat net kennt. Dat ka natierlech zu Fehler féieren (z.B. "ech hunn ausgebrach"). Bei Pronominalverben hëlt de Programm ëmmer "hunn", wat och ëmmer korrekt ass.'
+      ''
+      '6. Een anere Problem ass d''Pronominalform vun dem Programm onbekannte Verben. Et ass net méiglech virauszesoen matt wéi engem grammatische Fall ee Verb konjugéiert gëtt. De Programm hëlt a sou Fäll ëmmer den Accusativ; ass et een Dativ-Verb, ass déi ugewise Konjugatioun fehlerhaft (z.B. sech fléiwen, wou de Programm "ech hu mech gefléift" amplaz "ech hu mir gefléift" uweist).'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 843
+    Height = 31
+    Top = 504
+    Width = 94
+    Caption = 'Zoumaachen'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

@@ -1,0 +1,28 @@
+acetic acid              CH3COOH        1.0490    2
+acetone                  C3H6O          0.7860    1
+acetonitrile             C2H3N          0.7860    2
+ammonia                  NH3            0.6740    2
+benzene                  C6H6           0.8790    1
+1-butanol                C4H9OH         0.8100    2
+carbon tetrachloride     CCl4           1.5867    1
+chloroform               CHCl3          1.4980    1
+cyclohexane              C6H12          0.7790    2
+cyclopentane             C5H10          0.7510    2
+dichloromethane          CH2Cl2         1.3266    2
+diethyl ether            C4H10O         0.7130    2
+dimethylformamide        C3H7NO         0.9440    2
+dimethyl sulfoxide       C2H6OS         1.0920    2
+1,4-dioxane              C4H8O2         1.0330    2
+ethanol                  C2H5OH         0.7890    1
+ethyl acetate            C4H8O2         0.8940    1
+formic acid              HCOOH          1.2100    2
+hexane                   C6H14          0.6550    2
+isopropyl alcohol*       C3H7OH         0.7850    1
+methanol                 CH3OH          0.7910    1
+nitromethane             CH3NO2         1.1371    2
+pentane                  C5H12          0.6260    2
+1-propanol*              C3H7OH         0.8030    2
+propylene carbonate      C4H6O3         1.2050    2
+tetrahydrofuran          C4H8O          0.8860    2
+toluene                  C7H8           0.8670    1
+water                    H2O            0.9980    1

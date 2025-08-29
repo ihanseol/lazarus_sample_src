@@ -1,0 +1,215 @@
+object Form1: TForm1
+  Left = 238
+  Height = 305
+  Top = 149
+  Width = 434
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Arithmetic Trainer'
+  ClientHeight = 305
+  ClientWidth = 434
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object StaticText1: TStaticText
+    Left = 9
+    Height = 17
+    Top = 16
+    Width = 418
+    Caption = 'Basic arithmetic operations with fractions (positive numbers only).'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 9
+    Height = 17
+    Top = 48
+    Width = 65
+    Caption = 'Operators:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Addition: TCheckBox
+    Left = 9
+    Height = 23
+    Top = 72
+    Width = 77
+    Caption = ' Addition'
+    Checked = True
+    Font.Height = -13
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 1
+    TabStop = False
+  end
+  object Subtraction: TCheckBox
+    Left = 110
+    Height = 23
+    Top = 72
+    Width = 94
+    Caption = ' Subtraction'
+    Checked = True
+    Font.Height = -13
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 2
+    TabStop = False
+  end
+  object Multiplication: TCheckBox
+    Left = 228
+    Height = 23
+    Top = 72
+    Width = 106
+    Caption = ' Multiplication'
+    Checked = True
+    Font.Height = -13
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 3
+    TabStop = False
+  end
+  object Division: TCheckBox
+    Left = 358
+    Height = 23
+    Top = 72
+    Width = 73
+    Caption = ' Division'
+    Checked = True
+    Font.Height = -13
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 4
+    TabStop = False
+  end
+  object ButtonStart: TButton
+    Left = 9
+    Height = 25
+    Top = 272
+    Width = 75
+    Caption = 'Start'
+    OnClick = ButtonStartClick
+    TabOrder = 7
+  end
+  object ButtonSolve: TButton
+    Left = 110
+    Height = 25
+    Top = 272
+    Width = 75
+    Caption = 'Solve'
+    Enabled = False
+    OnClick = ButtonSolveClick
+    TabOrder = 6
+  end
+  object ButtonReset: TButton
+    Left = 216
+    Height = 25
+    Top = 272
+    Width = 75
+    Caption = 'Eval/Reset'
+    Enabled = False
+    OnClick = ButtonResetClick
+    TabOrder = 8
+  end
+  object ButtonQuit: TButton
+    Left = 352
+    Height = 25
+    Top = 272
+    Width = 75
+    Caption = 'Quit'
+    OnClick = ButtonQuitClick
+    TabOrder = 9
+  end
+  object Operation: TEdit
+    Left = 110
+    Height = 25
+    Top = 184
+    Width = 144
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object Result: TEdit
+    Left = 264
+    Height = 25
+    Top = 184
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    MaxLength = 7
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object Evaluation: TEdit
+    Left = 9
+    Height = 25
+    Top = 216
+    Width = 311
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object NOperation: TEdit
+    Left = 9
+    Height = 25
+    Top = 184
+    Width = 95
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object Label2: TLabel
+    Left = 9
+    Height = 17
+    Top = 104
+    Width = 152
+    Caption = 'Operands/result display:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object DisplayFraction: TRadioButton
+    Left = 9
+    Height = 23
+    Top = 128
+    Width = 96
+    Caption = ' As fractions'
+    Checked = True
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 14
+    TabStop = True
+  end
+  object DisplayMixed: TRadioButton
+    Left = 110
+    Height = 23
+    Top = 128
+    Width = 136
+    Caption = ' As mixed numbers'
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 13
+  end
+  object Label3: TLabel
+    Left = 9
+    Height = 17
+    Top = 160
+    Width = 152
+    Caption = 'Operations to be solved:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end

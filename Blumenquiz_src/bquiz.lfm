@@ -1,0 +1,385 @@
+object fBQuiz: TfBQuiz
+  Left = 197
+  Height = 404
+  Top = 135
+  Width = 865
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Blumenquiz'
+  ClientHeight = 379
+  ClientWidth = 865
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object stTitle: TStaticText
+    Left = 228
+    Height = 32
+    Top = 5
+    Width = 409
+    Alignment = taCenter
+    Caption = 'Blumenquiz.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 13
+  end
+  object laQuestion: TLabel
+    Left = 8
+    Height = 23
+    Top = 48
+    Width = 46
+    Caption = 'Frage:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btQuestion: TButton
+    Left = 762
+    Height = 31
+    Top = 288
+    Width = 94
+    Caption = 'Start'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object edQuestion: TEdit
+    Left = 8
+    Height = 31
+    Top = 80
+    Width = 620
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object cbSeason1: TCheckBox
+    Left = 8
+    Height = 27
+    Top = 128
+    Width = 91
+    Caption = ' Frühling'
+    TabOrder = 3
+  end
+  object cbSeason2: TCheckBox
+    Left = 131
+    Height = 27
+    Top = 128
+    Width = 93
+    Caption = ' Sommer'
+    TabOrder = 4
+  end
+  object cbSeason3: TCheckBox
+    Left = 256
+    Height = 27
+    Top = 128
+    Width = 79
+    Caption = ' Herbst'
+    TabOrder = 5
+  end
+  object cbSeason4: TCheckBox
+    Left = 367
+    Height = 27
+    Top = 128
+    Width = 80
+    Caption = ' Winter'
+    TabOrder = 6
+  end
+  object cbColor1: TCheckBox
+    Left = 8
+    Height = 27
+    Top = 168
+    Width = 67
+    Caption = ' Weiß'
+    TabOrder = 7
+  end
+  object cbColor2: TCheckBox
+    Left = 131
+    Height = 27
+    Top = 168
+    Width = 64
+    Caption = ' Gelb'
+    TabOrder = 8
+  end
+  object cbColor3: TCheckBox
+    Left = 256
+    Height = 27
+    Top = 168
+    Width = 62
+    Caption = ' Blau'
+    TabOrder = 9
+  end
+  object cbColor4: TCheckBox
+    Left = 8
+    Height = 27
+    Top = 192
+    Width = 79
+    Caption = ' Violett'
+    TabOrder = 10
+  end
+  object cbColor5: TCheckBox
+    Left = 131
+    Height = 27
+    Top = 192
+    Width = 55
+    Caption = ' Rot'
+    TabOrder = 11
+  end
+  object cbColor6: TCheckBox
+    Left = 256
+    Height = 27
+    Top = 192
+    Width = 86
+    Caption = ' Orange'
+    TabOrder = 12
+  end
+  object imFlower: TImage
+    Left = 472
+    Height = 150
+    Top = 128
+    Width = 200
+    Center = True
+  end
+  object cobNames: TComboBox
+    Left = 8
+    Height = 31
+    Top = 226
+    Width = 248
+    ItemHeight = 23
+    Style = csDropDownList
+    TabOrder = 1
+    TabStop = False
+  end
+  object edName: TEdit
+    Left = 8
+    Height = 31
+    Top = 264
+    Width = 248
+    TabOrder = 2
+  end
+  object cbList: TCheckBox
+    Left = 272
+    Height = 27
+    Top = 228
+    Width = 122
+    Caption = ' Auswahlliste'
+    Checked = True
+    OnChange = cbListChange
+    State = cbChecked
+    TabOrder = 15
+    TabStop = False
+  end
+  object cbPicture: TCheckBox
+    Left = 472
+    Height = 27
+    Top = 292
+    Width = 146
+    Caption = ' Bilder anzeigen'
+    Checked = True
+    State = cbChecked
+    TabOrder = 16
+    TabStop = False
+  end
+  object sgEval: TStringGrid
+    Left = 704
+    Height = 112
+    Top = 80
+    Width = 152
+    ColCount = 2
+    FixedRows = 0
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 4
+    TabOrder = 17
+    TabStop = False
+    ColWidths = (
+      82
+      66
+    )
+    Cells = (
+      4
+      0
+      0
+      'Fragen'
+      0
+      1
+      'Richtig'
+      0
+      2
+      'Falsch'
+      0
+      3
+      'Erfolg'
+    )
+  end
+  object Label1: TLabel
+    Left = 704
+    Height = 23
+    Top = 48
+    Width = 95
+    Caption = 'Auswertung:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object imEval: TImage
+    Left = 641
+    Height = 31
+    Top = 80
+    Width = 31
+    Center = True
+  end
+  object cbFlower1: TCheckBox
+    Left = 8
+    Height = 24
+    Top = 304
+    Width = 82
+    Caption = ' Blume 1'
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 18
+  end
+  object cbFlower2: TCheckBox
+    Left = 256
+    Height = 24
+    Top = 304
+    Width = 82
+    Caption = ' Blume 2'
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 19
+  end
+  object cbFlower3: TCheckBox
+    Left = 8
+    Height = 24
+    Top = 328
+    Width = 82
+    Caption = ' Blume 3'
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 20
+  end
+  object cbFlower4: TCheckBox
+    Left = 256
+    Height = 24
+    Top = 328
+    Width = 82
+    Caption = ' Blume 4'
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 21
+  end
+  object cbFlower5: TCheckBox
+    Left = 8
+    Height = 24
+    Top = 352
+    Width = 82
+    Caption = ' Blume 5'
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 22
+  end
+  object cbFlower6: TCheckBox
+    Left = 256
+    Height = 24
+    Top = 352
+    Width = 82
+    Caption = ' Blume 6'
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 23
+  end
+  object mMenu: TMainMenu
+    Left = 760
+    Top = 208
+    object mQuiz: TMenuItem
+      Caption = 'Quiz'
+      object mQuiz1: TMenuItem
+        Caption = 'Blumen-Bilder Quiz (Name)'
+        OnClick = mQuiz1Click
+      end
+      object mQuiz2: TMenuItem
+        Caption = 'Blumen-Bilder Quiz (Blumen)'
+        OnClick = mQuiz2Click
+      end
+      object mQuiz3: TMenuItem
+        Caption = 'Blütenfarben Quiz (Farbe)'
+        OnClick = mQuiz3Click
+      end
+      object mQuiz4: TMenuItem
+        Caption = 'Blütenfarben Quiz (Blumen)'
+        OnClick = mQuiz4Click
+      end
+      object mQuiz5: TMenuItem
+        Caption = 'Blütezeit Quiz (Jahreszeit)'
+        OnClick = mQuiz5Click
+      end
+      object mQuiz6: TMenuItem
+        Caption = 'Blütezeit Quiz (Blumen)'
+        OnClick = mQuiz6Click
+      end
+      object mQuiz7: TMenuItem
+        Caption = 'Systematik Quiz (wissenschaftlich)'
+        OnClick = mQuiz7Click
+      end
+      object mQuiz8: TMenuItem
+        Caption = 'Systematik Quiz (Alternativnamen)'
+        OnClick = mQuiz8Click
+      end
+      object mQuizExit: TMenuItem
+        Caption = 'Verlassen'
+        OnClick = mQuizExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Einstellungen'
+      object mOptionsQuestions: TMenuItem
+        Caption = 'Quizfragen ...'
+        OnClick = mOptionsQuestionsClick
+      end
+      object mOptionsFlowers: TMenuItem
+        Caption = 'Blumenliste'
+        object mOptionsFlowers20: TMenuItem
+          Caption = '20 Blumen'
+          Checked = True
+          OnClick = mOptionsFlowers20Click
+        end
+        object mOptionsFlowers50: TMenuItem
+          Caption = '50 Blumen'
+          OnClick = mOptionsFlowers50Click
+        end
+        object mOptionsFlowersAll: TMenuItem
+          Caption = 'Alle Blumen (90)'
+          OnClick = mOptionsFlowersAllClick
+        end
+      end
+      object mOptionsNamesShort: TMenuItem
+        Caption = 'Kurze Namen'
+        Checked = True
+        OnClick = mOptionsNamesShortClick
+      end
+      object mOptionsNamesSimple: TMenuItem
+        Caption = 'Vereinfachte Namen'
+        Checked = True
+        OnClick = mOptionsNamesSimpleClick
+      end
+      object mOptionsGray: TMenuItem
+        Caption = 'S/w Bilder'
+        OnClick = mOptionsGrayClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Hilfe'
+      object mHelpHelp: TMenuItem
+        Caption = 'Hilfe'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'Über'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

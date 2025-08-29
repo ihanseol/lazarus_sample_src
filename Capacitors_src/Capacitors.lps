@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="7">
+      <Unit0>
+        <Filename Value="Capacitors.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="76"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="capacitors_u1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fCapacitors"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="76"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="capacitors_u2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fCircuits"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="55"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="capacitors_u3.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fDC"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="191"/>
+        <CursorPos X="37" Y="202"/>
+        <UsageCount Value="53"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="capacitors_u4.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\Programs\Lazarus\win64\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="447"/>
+        <CursorPos Y="460"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\Programs\Lazarus\win64\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1592"/>
+        <CursorPos X="14" Y="1603"/>
+        <UsageCount Value="15"/>
+      </Unit6>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="403" Column="39" TopLine="382"/>
+      </Position1>
+      <Position2>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="115" Column="20" TopLine="102"/>
+      </Position2>
+      <Position3>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="145" Column="125" TopLine="140"/>
+      </Position3>
+      <Position4>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="115" Column="19" TopLine="102"/>
+      </Position4>
+      <Position5>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="361" Column="12" TopLine="348"/>
+      </Position5>
+      <Position6>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="266" Column="53" TopLine="249"/>
+      </Position6>
+      <Position7>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="358" TopLine="355"/>
+      </Position7>
+      <Position8>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="327" Column="36" TopLine="310"/>
+      </Position8>
+      <Position9>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="148" Column="30" TopLine="138"/>
+      </Position9>
+      <Position10>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="86" Column="18" TopLine="73"/>
+      </Position10>
+      <Position11>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="352" Column="69" TopLine="341"/>
+      </Position11>
+      <Position12>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="720" TopLine="720"/>
+      </Position12>
+      <Position13>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="353" Column="57" TopLine="330"/>
+      </Position13>
+      <Position14>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="183" Column="37" TopLine="170"/>
+      </Position14>
+      <Position15>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="348" TopLine="331"/>
+      </Position15>
+      <Position16>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="809" TopLine="783"/>
+      </Position16>
+      <Position17>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="345" Column="21" TopLine="330"/>
+      </Position17>
+      <Position18>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="83" Column="18" TopLine="66"/>
+      </Position18>
+      <Position19>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="784" Column="13" TopLine="770"/>
+      </Position19>
+      <Position20>
+        <Filename Value="capacitors_u4.pas"/>
+      </Position20>
+      <Position21>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="392" TopLine="368"/>
+      </Position21>
+      <Position22>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="129" Column="65" TopLine="116"/>
+      </Position22>
+      <Position23>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="392" Column="54" TopLine="371"/>
+      </Position23>
+      <Position24>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="856" Column="29" TopLine="830"/>
+      </Position24>
+      <Position25>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="21" Column="22"/>
+      </Position25>
+      <Position26>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="862" TopLine="836"/>
+      </Position26>
+      <Position27>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="849" TopLine="831"/>
+      </Position27>
+      <Position28>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="64" Column="53" TopLine="40"/>
+      </Position28>
+      <Position29>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="11" Column="25"/>
+      </Position29>
+      <Position30>
+        <Filename Value="capacitors_u1.pas"/>
+        <Caret Line="417" Column="11" TopLine="417"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

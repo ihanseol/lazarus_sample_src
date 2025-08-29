@@ -1,0 +1,108 @@
+accountant
+account book
+administration
+auditing
+bailout
+bank account
+bank card
+bank cheque
+banker
+banknote
+bank rate
+bond market
+bookkeeping
+brokerage
+budget
+business
+capital budgeting
+cash advance
+cash bill
+cash flow
+cash management
+central bank
+chairman
+charge interest
+checkbook
+commission
+computational finance
+corporative
+credit foncier
+creditor
+credit risk
+credit transfer
+currency
+cyberbanking
+cybermoney
+debit card
+debtor
+depositor
+dirty money
+disbursement
+dollar
+economic
+economic model
+equity financing
+eurodollar
+euromoney
+federal reserve
+financer
+financial accounting
+financial institution
+financial intermediary
+financial market
+financial model
+financial risk
+financier
+floatation
+fundraiser
+guilder
+hard money
+hire purchase
+income
+indebtedness
+inflation
+infrastructure
+insurance
+interest
+interest rate
+inventory
+investment banker
+investment management
+investor
+leasing
+liquid asset
+liquidity
+logistics
+lubrication payment
+macroeconomics
+marketing
+market risk
+mathematical finance
+microeconomics
+monetary unit
+moneyback
+money change
+money holder
+money laundering
+moneylender
+moneymaker
+money supply
+monopoly money
+mortgage
+mutual fund
+paper money
+peace dividend
+pension fund
+political economy
+portfolio
+privatization
+procurement
+receivable
+retirement
+stock market
+unemployment benefit
+volatility
+wall street
+welfare
+working capital
+world bank

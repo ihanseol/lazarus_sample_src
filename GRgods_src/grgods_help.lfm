@@ -1,0 +1,114 @@
+object fHelp: TfHelp
+  Left = 303
+  Height = 603
+  Top = 143
+  Width = 1006
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Greek and Roman gods'
+  ClientHeight = 603
+  ClientWidth = 1006
+  DesignTimePPI = 120
+  Font.Height = -18
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 9
+    Height = 25
+    Top = 10
+    Width = 231
+    Caption = '"GRgods" application help.'
+    Font.Height = -18
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 9
+    Height = 505
+    Top = 48
+    Width = 988
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"GRgods" is a PC quiz application concerning ancient Greek and Roman gods. There are 7 types of quiz available:'
+      '  1. Gods and goddesses: Guess if a given god is male or female.'
+      '  2. Greek and Roman gods: Guess the Roman name of Greek god (or vice-versa).'
+      '  3. Olympian Gods: Guess if a given god lived on the Olymp or not.'
+      '  4. Gods and their realms (I): Guess the god associated with given realms.'
+      '  5. Gods and their realms (II): Guess the realms associated with a given god.'
+      '  6. Gods and their symbols (I): Guess the god associated with given symbols.'
+      '  7. Gods and their symbols (II): Guess the symbols associated with a given god.'
+      ''
+      'Menu "Quiz".'
+      '============'
+      ''
+      'Gods and goddesses.'
+      '-------------------'
+      'Start a type 1 quiz. The gods list used (full list or 14 main gods only) and the display names of the gods will depend on the options selected.'
+      ''
+      'Greek and Roman gods.'
+      '---------------------'
+      'Start a type 2 quiz. The gods list used will depend on the options selected. If the "God names" option is set to "Greek", the Greek names will be displayed and you''ll have to find the Roman ones; the contrary is true, if "Roman names" is selected. The god name may be chosen from a list or entered manually, depending of your choice in the "Options" menu.'
+      ''
+      'Olympian Gods.'
+      '--------------'
+      'Start a type 3 quiz. As 12 of the main gods are Olympian gods, this quiz always uses the full gods list. The display names of the gods will depend on the corresponding option selected.'
+      ''
+      'Gods and their realms (I)'
+      '-------------------------'
+      'Start a type 4 quiz. The god list used and the display names of the gods will depend on the options selected. The god name may be chosen from a list or entered manually, depending of your choice in the "Options" menu.'
+      ''
+      'Gods and their realms (II)'
+      '--------------------------'
+      'Start a type 5 quiz. The application displays 5 realms, from which you''ll have to select those that are associated with the god given (god list and god names depending on the options selected). If none of the realms is associated with this god, select the "--none--" checkbox.'
+      ''
+      'Gods and their symbols (I)'
+      '--------------------------'
+      'Start a type 6 quiz. This quiz always uses the main gods list. The display names of the gods will depend on the corresponding option selected. The god name may be chosen from a list or entered manually, depending of your choice in the "Options" menu.'
+      ''
+      'Gods and their symbols (II)'
+      '---------------------------'
+      'Start a type 7 quiz. The application displays 5 symbols, from which you''ll have to select those that are associated with the god given (always main gods list; god names depending on the corresponding option selected). If none of the symbols is associated with this god, select the "--none--" checkbox.'
+      ''
+      'Menu "Options".'
+      '==============='
+      ''
+      'Selection of the quiz options (not all options apply to all quiz types; cf. above). The options menu will be disabled when the quiz has been started and re-enabled again when it is over, or when you push the "Cancel" button (to leave the actual quiz).'
+      ''
+      'God names.'
+      '----------'
+      'Selection of the gods display names (Greek or Roman)'
+      ''
+      'Name input.'
+      '-----------'
+      'Selection of how you have to enter god names (selection from a list or manual input of the name)'
+      ''
+      'Main gods only.'
+      '---------------'
+      'Toggle selection of the gods list (main gods only or full list).'
+      ''
+      'Menu "Help".'
+      '------------'
+      ''
+      'Help.'
+      '-----'
+      'Display of the "GRgods" application usage help text (this document)'
+      ''
+      'About.'
+      '------'
+      'Display of the "GRgods" application author, version and date-written.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 0
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 903
+    Height = 31
+    Top = 568
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+end

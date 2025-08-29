@@ -1,0 +1,306 @@
+object Form1: TForm1
+  Left = 199
+  Height = 467
+  Top = 56
+  Width = 856
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Blackjack'
+  ClientHeight = 442
+  ClientWidth = 856
+  DesignTimePPI = 120
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object Image1: TImage
+    Left = 8
+    Height = 96
+    Top = 48
+    Width = 71
+  end
+  object Image2: TImage
+    Left = 96
+    Height = 96
+    Top = 48
+    Width = 71
+  end
+  object Image3: TImage
+    Left = 184
+    Height = 96
+    Top = 48
+    Width = 71
+  end
+  object Image4: TImage
+    Left = 272
+    Height = 96
+    Top = 48
+    Width = 71
+  end
+  object Image5: TImage
+    Left = 360
+    Height = 96
+    Top = 48
+    Width = 71
+  end
+  object Image6: TImage
+    Left = 448
+    Height = 96
+    Top = 48
+    Width = 71
+  end
+  object Image7: TImage
+    Left = 536
+    Height = 96
+    Top = 48
+    Width = 71
+  end
+  object Image8: TImage
+    Left = 624
+    Height = 96
+    Top = 48
+    Width = 71
+  end
+  object Image9: TImage
+    Left = 8
+    Height = 96
+    Top = 200
+    Width = 71
+  end
+  object Image10: TImage
+    Left = 96
+    Height = 96
+    Top = 200
+    Width = 71
+  end
+  object Image11: TImage
+    Left = 184
+    Height = 96
+    Top = 200
+    Width = 71
+  end
+  object Image12: TImage
+    Left = 272
+    Height = 96
+    Top = 200
+    Width = 71
+  end
+  object StaticText1: TStaticText
+    Left = 8
+    Height = 17
+    Top = 24
+    Width = 65
+    Caption = 'Dealer:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object StaticText2: TStaticText
+    Left = 8
+    Height = 17
+    Top = 176
+    Width = 65
+    Caption = 'Player:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Image13: TImage
+    Left = 360
+    Height = 96
+    Top = 200
+    Width = 71
+  end
+  object Image14: TImage
+    Left = 448
+    Height = 96
+    Top = 200
+    Width = 71
+  end
+  object Image15: TImage
+    Left = 536
+    Height = 96
+    Top = 200
+    Width = 71
+  end
+  object Image16: TImage
+    Left = 624
+    Height = 96
+    Top = 200
+    Width = 71
+  end
+  object StaticText3: TStaticText
+    Left = 736
+    Height = 17
+    Top = 48
+    Width = 89
+    Caption = 'Actual game:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+  end
+  object StaticText4: TStaticText
+    Left = 736
+    Height = 17
+    Top = 200
+    Width = 89
+    Caption = 'Total score:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Label1: TLabel
+    Left = 736
+    Height = 17
+    Top = 84
+    Width = 38
+    Caption = 'Dealer'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object DealerValue: TEdit
+    Left = 793
+    Height = 25
+    Top = 80
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+    Text = '0'
+  end
+  object Label2: TLabel
+    Left = 736
+    Height = 17
+    Top = 116
+    Width = 35
+    Caption = 'Player'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object PlayerValue: TEdit
+    Left = 793
+    Height = 25
+    Top = 112
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+    Text = '0'
+  end
+  object Label3: TLabel
+    Left = 736
+    Height = 17
+    Top = 236
+    Width = 38
+    Caption = 'Dealer'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 736
+    Height = 17
+    Top = 272
+    Width = 35
+    Caption = 'Player'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object DealerScore: TEdit
+    Left = 793
+    Height = 25
+    Top = 232
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+    Text = '0'
+  end
+  object PlayerScore: TEdit
+    Left = 793
+    Height = 25
+    Top = 268
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+    Text = '0'
+  end
+  object GameResult: TEdit
+    Left = 736
+    Height = 25
+    Top = 144
+    Width = 113
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object ButtonHit: TButton
+    Left = 758
+    Height = 25
+    Top = 368
+    Width = 91
+    Caption = 'Hit'
+    OnClick = ButtonHitClick
+    TabOrder = 2
+  end
+  object ButtonStay: TButton
+    Left = 758
+    Height = 25
+    Top = 408
+    Width = 91
+    Caption = 'Stay'
+    OnClick = ButtonStayClick
+    TabOrder = 3
+  end
+  object ButtonDeal: TButton
+    Left = 758
+    Height = 25
+    Top = 328
+    Width = 91
+    Caption = 'Deal'
+    OnClick = ButtonDealClick
+    TabOrder = 1
+  end
+  object MainMenu1: TMainMenu
+    left = 24
+    top = 384
+    object Game: TMenuItem
+      Caption = 'Game'
+      object Game1: TMenuItem
+        Caption = 'New'
+        OnClick = Game1Click
+      end
+      object Game2: TMenuItem
+        Caption = 'Exit'
+        OnClick = Game2Click
+      end
+    end
+    object Options: TMenuItem
+      Caption = 'Options'
+      object Options1: TMenuItem
+        Caption = 'Dealer holds on 18'
+        OnClick = Options1Click
+      end
+    end
+  end
+end

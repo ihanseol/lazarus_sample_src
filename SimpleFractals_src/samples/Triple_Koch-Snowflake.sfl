@@ -1,0 +1,9 @@
+# Triple Koch-Snowflake
+
+origin = (520,260)
+displacement = 3
+
+axiom = "1F--2F--3FGGGGGGGGGGGG4F--5F--6FGGGGGGGGGGGG0F--7F--8F"
+rules = { "F": "F+F--F+F" }
+iterations = 4
+angle = 60

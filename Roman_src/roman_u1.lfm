@@ -1,0 +1,231 @@
+object fRoman: TfRoman
+  Left = 249
+  Height = 263
+  Top = 143
+  Width = 816
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Roman numerals'
+  ClientHeight = 238
+  ClientWidth = 816
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object stTitle: TStaticText
+    Left = 176
+    Height = 38
+    Top = 10
+    Width = 350
+    Alignment = taCenter
+    Caption = 'Roman numerals test.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object cbRomArab: TCheckBox
+    Left = 10
+    Height = 27
+    Top = 64
+    Width = 160
+    Caption = ' Roman -> Arabic'
+    Checked = True
+    State = cbChecked
+    TabOrder = 5
+  end
+  object cbArabRom: TCheckBox
+    Left = 384
+    Height = 27
+    Top = 64
+    Width = 160
+    Caption = ' Arabic -> Roman'
+    Checked = True
+    State = cbChecked
+    TabOrder = 6
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 23
+    Top = 124
+    Width = 122
+    Caption = 'Roman numeral'
+    ParentColor = False
+  end
+  object edRoman: TEdit
+    Left = 144
+    Height = 31
+    Top = 120
+    Width = 176
+    TabOrder = 2
+  end
+  object Label2: TLabel
+    Left = 384
+    Height = 23
+    Top = 124
+    Width = 116
+    Caption = 'Arabic numeral'
+    ParentColor = False
+  end
+  object edArabic: TEdit
+    Left = 512
+    Height = 31
+    Top = 120
+    Width = 66
+    Alignment = taRightJustify
+    TabOrder = 3
+  end
+  object Label3: TLabel
+    Left = 664
+    Height = 23
+    Top = 64
+    Width = 83
+    Caption = 'Evaluation:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 664
+    Height = 23
+    Top = 124
+    Width = 76
+    Caption = 'Questions'
+    ParentColor = False
+  end
+  object edQuestions: TEdit
+    Left = 752
+    Height = 31
+    Top = 120
+    Width = 56
+    Alignment = taRightJustify
+    Color = clForm
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object Label5: TLabel
+    Left = 664
+    Height = 23
+    Top = 164
+    Width = 56
+    Caption = 'Correct'
+    ParentColor = False
+  end
+  object edCorrect: TEdit
+    Left = 752
+    Height = 31
+    Top = 160
+    Width = 56
+    Alignment = taRightJustify
+    Color = clForm
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object Label6: TLabel
+    Left = 664
+    Height = 23
+    Top = 204
+    Width = 58
+    Caption = 'Success'
+    ParentColor = False
+  end
+  object edSuccess: TEdit
+    Left = 752
+    Height = 31
+    Top = 200
+    Width = 56
+    Alignment = taRightJustify
+    Color = clForm
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object btQuestion: TButton
+    Left = 484
+    Height = 31
+    Top = 200
+    Width = 94
+    Caption = 'Start'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object edEval: TEdit
+    Left = 10
+    Height = 31
+    Top = 160
+    Width = 310
+    Color = clForm
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object btClear: TButton
+    Left = 226
+    Height = 31
+    Top = 200
+    Width = 94
+    Caption = 'Clear'
+    OnClick = btClearClick
+    TabOrder = 1
+  end
+  object mMenu: TMainMenu
+    left = 760
+    top = 8
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileTest: TMenuItem
+        Caption = 'New test'
+        OnClick = mFileTestClick
+      end
+      object mFileConversion: TMenuItem
+        Caption = 'Conversion'
+        OnClick = mFileConversionClick
+      end
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsQuestions: TMenuItem
+        Caption = 'Questions ...'
+        OnClick = mSettingsQuestionsClick
+      end
+      object mSettingsMax: TMenuItem
+        Caption = 'Maximum'
+        object mSettingsMax100: TMenuItem
+          Caption = '  100'
+          OnClick = mSettingsMax100Click
+        end
+        object mSettingsMax1000: TMenuItem
+          Caption = '1000'
+          Checked = True
+          OnClick = mSettingsMax1000Click
+        end
+        object mSettingsMax3999: TMenuItem
+          Caption = '3999'
+          OnClick = mSettingsMax3999Click
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpRoman: TMenuItem
+        Caption = 'Roman numerals'
+        OnClick = mHelpRomanClick
+      end
+      object mHelpHelp: TMenuItem
+        Caption = 'Program help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

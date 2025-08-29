@@ -1,0 +1,93 @@
+#1ère classe
+001 bonus, bona, bonum : bon, bonne, -
+002 miser, misera, miserum : malheureux, malheureuse, +
+003 pulcher, pulchra, pulchrum : beau, belle, -
+004 acutus, acuta, acutum : aigu, aigue, +
+005 aeger, aegra, aegrum : malade, malade, +
+006 albus, alba, album : blanc, blanche, +
+007 altus, alta, altum : haut, haute, -
+008 amarus, amara, amarun : désagréable, désagréable, +
+009 aridus, arida, aridum : sec, sèche, +
+010 bellus, bella, bellum : joli, jolie, -
+011 benignus, benigna, benignum : généreux, généreuse, +
+012 caeruleus, caerulea, caeruleum : bleu, bleue, +
+013 calidus, calida, calidum : chaud, chaude, +
+014 certus, certa, certum : certain, certaine, +
+015 fecundus, fecunda, fecundum : fertile, fertile, +
+016 clarus, clara, clarum : clair, claire, +
+017 frigidus, frigida, frigidum : froid, froide, +
+018 gratus, grata, gratum : reconnaissant, reconnaissante, +
+019 incertus, incerta, incertum : incertain, incertaine, +
+020 hibernus, hiberna, hibernum : d'hiver, d'hiver, +
+021 honestus, honesta, honestum : honnête, honnête, +
+022 humanus, humana, humanum : humain, humaine, +
+023 impiger, impigra, impigrum : travailleur, travailleuse, +
+024 iratus, irata, iratum : en colère, en colère, +
+025 jucundus, jucunda, jucundum : agréable, agréable, +
+026 laetus, laeta, laetum : joyeux, joyeuse, +
+027 latus, lata, latum : large, large, -
+028 longus, longa, longum : long, longue, -
+029 magnus, magna, magnum : grand, grande, -
+030 malus, mala, malum : mauvais, mauvaise, -
+031 mundus, munda, mundum : propre, propre, +
+032 niger, nigra, nigrum : noir, noire, +
+033 novus, nova, novum : nouveau, nouvelle, -
+034 obscurus, obscura, obscurum : obscur, obscure, +
+035 optimus, optima, optimum : excellent, excellente, -
+036 pallidus, pallida, pallidum : pâle, pâle, +
+037 parvus, parva, parvum : petit, petite, -
+038 periculosus, periculosa, periculosum : dangereux, dangereuse, +
+039 postremus, postrema, postremum : le dernier, la dernière, -
+040 profundus, profunda, profundum : profond, profonde, +
+041 prosper, prospera, prosperum : favorable, favorable, +
+042 ruber, rubra, rubrum : rouge, rouge, +
+043 sacer, sacra, sacrum : sacré, sacrée, +
+044 sanus, sana, sanum : bien portant, bien portante, +
+045 sinister, sinistra, sinistrum : maladroit, maladroite, +
+046 sordidus, sordida, sordidum : sale, sale, +
+047 stultus, stulta, stultum : stupide, stupide, +
+048 subitus, subita, subitum : imprévu, imprévue, +
+049 tener, tenera, tenerum : tendre, tendre, +
+050 validus, valida, validum : fort, forte, +
+
+#2e classe
+051 acer, acris, acre : vif, vive, +
+052 fortis, fortis, forte : courageux, courageuse, +
+053 prudens, 3id, prudentis : prudent, prudente, +
+054 audax, 3id, audacis : audacieux, audacieuse, +
+055 vetus, 3id, veteris : vieux, vieille, -
+056 absens, 3id, absentis : absent, absente, +
+057 brevis, brevis, breve : court, courte, -
+058 capax, 3id, capacis : capable, capable, +
+059 celeber, celebris, celebre : célèbre, célèbre, +
+060 celer, celeris, celere : rapide, rapide, +
+061 difficilis, difficilis, difficile : difficile, difficile, +
+062 dissimilis, dissimilis, dissimile : différent, différente, +
+063 dives, 3id, divitis : riche, riche, +
+064 dulcis, dulcis, dulce : doux, douce, +
+065 enormis, enormis, enorme : énorme, énorme, +
+066 facilis, facilis, facile : facile, facile, +
+067 felix, 3id, felicis : heureux, heureuse, +
+068 ferox, 3id, ferocis : sauvage, sauvage, +
+069 fidelis, fidelis, fidele : fidèle, fidèle, +
+070 frequens, 3id, frequentis : fréquent, fréquente, +
+071 gravis, gravis, grave : sérieux, sérieuse, +
+072 immanis, immanis, immane : affreux, affreuse, +
+073 incredibilis, incredibilis, incredibile : incroyable, incroyable, +
+074 iners, 3id, inertis : sans talent, sans talent, +
+075 innocens, 3id, innocentis : innocent, innocente, +
+076 liberalis, liberalis, liberale : libéral, libérale, +
+077 melior, melior, melius : meilleur, meilleure, -
+078 mollis, mollis, molle : mou, molle, +
+079 mortalis, mortalis, mortale : mortel, mortelle, +
+080 navalis navalis, navale : naval, navale, +
+081 pauper, 3id, pauperis : pauvre, pauvre, +
+082 recens, 3id, recentis : récent, récente, +
+083 sapiens, 3id, sapientis : intelligent, intelligente, +
+084 segnis, segnis, segne : paresseux, paresseuse, +
+085 similis, similis, simile : semblable, semblable, +
+086 singularis, singularis, singulare : remarquable, remarquable, +
+087 tristis, tristis, triste : triste, triste, +
+088 utilis, utilis, utile : utile, utile, +
+089 vilis, vilis, vile : sans valeur, sans valeur, +
+090 viridis, viridis, viride : vert, verte, +

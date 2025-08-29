@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="Morse2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="73"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="morse.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fMorse2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="73"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="translation.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fTranslation"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="69"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="common.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="test.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fTest"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="61"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="44"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="translation.pas"/>
+        <Caret Line="155" Column="19" TopLine="132"/>
+      </Position1>
+      <Position2>
+        <Filename Value="translation.pas"/>
+        <Caret Line="184" Column="19" TopLine="161"/>
+      </Position2>
+      <Position3>
+        <Filename Value="translation.pas"/>
+        <Caret Line="193" Column="19" TopLine="170"/>
+      </Position3>
+      <Position4>
+        <Filename Value="translation.pas"/>
+        <Caret Line="201" Column="13" TopLine="178"/>
+      </Position4>
+      <Position5>
+        <Filename Value="translation.pas"/>
+        <Caret Line="217" Column="19" TopLine="194"/>
+      </Position5>
+      <Position6>
+        <Filename Value="translation.pas"/>
+        <Caret Line="225" Column="48" TopLine="202"/>
+      </Position6>
+      <Position7>
+        <Filename Value="translation.pas"/>
+        <Caret Line="226" Column="15" TopLine="203"/>
+      </Position7>
+      <Position8>
+        <Filename Value="translation.pas"/>
+        <Caret Line="237" Column="19" TopLine="214"/>
+      </Position8>
+      <Position9>
+        <Filename Value="translation.pas"/>
+        <Caret Line="243" Column="17" TopLine="221"/>
+      </Position9>
+      <Position10>
+        <Filename Value="translation.pas"/>
+        <Caret Line="259" Column="19" TopLine="236"/>
+      </Position10>
+      <Position11>
+        <Filename Value="translation.pas"/>
+        <Caret Line="266" TopLine="258"/>
+      </Position11>
+      <Position12>
+        <Filename Value="test.pas"/>
+      </Position12>
+      <Position13>
+        <Filename Value="test.pas"/>
+        <Caret Line="267" TopLine="240"/>
+      </Position13>
+      <Position14>
+        <Filename Value="translation.pas"/>
+        <Caret Line="297" TopLine="270"/>
+      </Position14>
+      <Position15>
+        <Filename Value="translation.pas"/>
+        <Caret Line="3" Column="45"/>
+      </Position15>
+      <Position16>
+        <Filename Value="help.pas"/>
+        <Caret Line="3" Column="13"/>
+      </Position16>
+      <Position17>
+        <Filename Value="help.pas"/>
+        <Caret Line="44" TopLine="17"/>
+      </Position17>
+      <Position18>
+        <Filename Value="common.pas"/>
+        <Caret Line="153" Column="26" TopLine="126"/>
+      </Position18>
+      <Position19>
+        <Filename Value="morse.pas"/>
+        <Caret Line="15" Column="5"/>
+      </Position19>
+      <Position20>
+        <Filename Value="morse.pas"/>
+        <Caret Line="64" Column="22" TopLine="43"/>
+      </Position20>
+      <Position21>
+        <Filename Value="help.pas"/>
+        <Caret Line="16" Column="9"/>
+      </Position21>
+      <Position22>
+        <Filename Value="morse.pas"/>
+        <Caret Line="29" Column="29" TopLine="16"/>
+      </Position22>
+      <Position23>
+        <Filename Value="morse.pas"/>
+        <Caret Line="138" Column="25" TopLine="121"/>
+      </Position23>
+      <Position24>
+        <Filename Value="morse.pas"/>
+        <Caret Line="145" Column="12" TopLine="119"/>
+      </Position24>
+      <Position25>
+        <Filename Value="morse.pas"/>
+        <Caret Line="284" TopLine="259"/>
+      </Position25>
+      <Position26>
+        <Filename Value="translation.pas"/>
+      </Position26>
+      <Position27>
+        <Filename Value="translation.pas"/>
+        <Caret Line="137" Column="13" TopLine="114"/>
+      </Position27>
+      <Position28>
+        <Filename Value="translation.pas"/>
+        <Caret Line="167" Column="13" TopLine="144"/>
+      </Position28>
+      <Position29>
+        <Filename Value="translation.pas"/>
+        <Caret Line="270" Column="29" TopLine="256"/>
+      </Position29>
+      <Position30>
+        <Filename Value="common.pas"/>
+        <Caret Line="287" TopLine="260"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

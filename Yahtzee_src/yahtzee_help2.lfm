@@ -1,0 +1,106 @@
+object fHelp: TfHelp
+  Left = 122
+  Height = 695
+  Top = 22
+  Width = 1171
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Yahtzee'
+  ClientHeight = 695
+  ClientWidth = 1171
+  DesignTimePPI = 120
+  Font.Height = -17
+  LCLVersion = '1.8.4.0'
+  object StaticText1: TStaticText
+    Left = 453
+    Height = 29
+    Top = 10
+    Width = 265
+    Alignment = taCenter
+    Caption = '"Yahtzee" application help.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 5
+    Height = 585
+    Top = 63
+    Width = 1160
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"Yahtzee" is a Free Pascal version of the game with the same name. The rules are those of classic Yahtzee, except that the alternate, simplified Joker rule is applied. If you are new to the game, please use the "Yahtzee rules" item in the "Help" menu (note, that this will open your browser pointed to a "Wikipedia" webpage; thus an Internet connection is needed). If you know, how to play the game, but are not sure concerning the different categories and their scoring, "Yahtzee scoring" in the "Help" menu will be useful.'
+      ''
+      'The application allows to play the game in single- or multiplayer (2 or 3 players) mode. In the latter case, rolling the dices is done alternately. To do so, push the corr. button. The "Dice roll" window opens; how it looks like, depends on your actual settings. If "Use real dices" is checked, there will be 5 edit fields, where you can enter the dice values, that you got, when rolling your real dices. These values have to be the final ones, i.e. those you got after (eventually) rerolling the dices. If this option is unchecked, the application rolls the dices for you, and the window shows your actual dice values. If this is, what you want, push "Done", otherwise select (click) the dices, that you want to reroll and push the "Reroll" button. Afer 3 rollings (or if you push "Done"), the dice rolling window closes and the dices are displayed for the actual player. Now, choose a category by pushing the button to the left of it. The application calculates and fills in your score. If you''ve the right to get a bonus, you are told so and it is automatically added to your score. When all players have filled in the 13 categories, the game is over (won by the player with the highest score) and you can start a new one in the "Game" menu.'
+      ''
+      'Menu "Game".'
+      '============'
+      ''
+      'New.'
+      '----'
+      'Start a new Yahtzee game.'
+      ''
+      'Exit.'
+      '-----'
+      'Exit the application.'
+      ''
+      'Menu "Settings".'
+      '================'
+      ''
+      'Number of players.'
+      '------------------'
+      'Select the number of players (1 - 3). This automatically starts a new game.'
+      ''
+      'Yahtzee Joker rule.'
+      '-------------------'
+      'Select the rule, how the Yahtzee Joker may be used. Actually (version 1.1), only the "free choice" rule is available.'
+      ''
+      'Use real dices.'
+      '---------------'
+      'This option allows to choose between letting the application roll the dices for you and using real dices. In this latter case, roll your real dices and enter the values, you got, in the "Dice roll" window. This option, new with version 1.1, may be supplementary fun for children, especially in multi-player mode.'
+      ''
+      'Dice reroll selection.'
+      '----------------------'
+      'Normally, when selecting the dices in the dice rerolling window, the ones, that you select, are those, that will be rolled again. Some players may prefer to select those, that they want to keep. To do the application consider your selections this way, check "dices to keep" (instead of "dices to reroll").'
+      ''
+      'Autoclose dice window.'
+      '----------------------'
+      'Normally, the dice rerolling window automatically closes, after you have rolled the dices three times. To always close it manually (using the "Done" button), uncheck the default option.'
+      ''
+      'Menu "Help".'
+      '============'
+      ''
+      'Yahtzee rules.'
+      '--------------'
+      'Detailed description of the Yahtzee game (online help, by opening the corr. Wikipedia page).'
+      ''
+      'Yahtzee scoring.'
+      '----------------'
+      'Table with a short description of the 13 categories and their scoring. There are also explanations concerning the "Upper section bonus", the "Yahtzee bonus" and the (free choice) "Yahtzee Joker rule".'
+      ''
+      'Application help.'
+      '-----------------'
+      'Details, how to use the "Yahtzee" application (this text).'
+      ''
+      'About.'
+      '------'
+      'Information concerning the version, the author and the date-written of the "Yahtzee" application.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 2
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 1071
+    Height = 31
+    Top = 660
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

@@ -1,0 +1,121 @@
+object fHelp: TfHelp
+  Left = 391
+  Height = 507
+  Top = 241
+  Width = 922
+  BorderIcons = [biSystemMenu]
+  Caption = 'Solo Poker'
+  ClientHeight = 507
+  ClientWidth = 922
+  DesignTimePPI = 120
+  Font.Height = -18
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 10
+    Height = 28
+    Top = 10
+    Width = 169
+    Caption = '"SoloPoker" Help.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 10
+    Height = 401
+    Top = 48
+    Width = 902
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"SoloPoker" is a Poker game for one player.  You can play from 1 to 5 hands each turn,  and make individual bets on each of them. The total bet equals the sum of all bets made and is subtracted from your balance; the total payout equals the sum of all payouts made for the different winning hands and is added to your balance.  When you can''t make bets anymore (balance = 0), the game is normally over.'
+      ''
+      'To play the game,  choose the number of hands that you want to play  and push the "Deal" button; you will get 5 cards, placed face-down, for each hand. Now make a bet for each hand and push the "Bet" button; all cards will be shown face-up. Select the cards that you want to  keep (resp. to discard, depending on the actual game settings),  by clicking on them (clicking a selected card, deselects it).  When done,  push the "Hit" button. The application determines the winning hands, calculates the payouts and your new balance. Push "Deal" to start a new round.'
+      ''
+      'Hand             Payout (1€ bet)'
+      '--------------------------------'
+      'Pair                    1'
+      'Two Pair                2'
+      'Three of a kind         3'
+      'Straight                4'
+      'Flush                   6'
+      'Full House              9'
+      'Four of a Kind         25'
+      'Straight Flush         50'
+      'Royal Flush           800'
+      ''
+      'Menu item "Game".'
+      '================='
+      ''
+      'New.'
+      '----'
+      'Start a new Solo Poker game (balance reset to 100€).'
+      ''
+      'Exit.'
+      '-----'
+      'Exit the "SoloPoker" application.'
+      ''
+      'Menu item "Options".'
+      '===================='
+      ''
+      'Number of hands.'
+      '----------------'
+      'Select how many hands you want to play each round. Possible choices are 1 to 5; default = 5.'
+      ''
+      'Default bet.'
+      '------------'
+      'You can select a  default bet value (1€ to 5€) that,  each round,  is automatically filled in as bet for each hand.  You can individually overwrite these values,  of course. If "None" (default) is selected,  you have to fill in all bets manually.'
+      ''
+      'Use 2 card decks.'
+      '-----------------'
+      'By default, the game is played with one card deck (52 cards). When selecting this option, two card decks (104 cards) will be used. This will make winning easier...'
+      ''
+      'Click to discard (replace).'
+      '---------------------------'
+      'By default, clicking a card selects this card to be kept. If you prefer to select the cards that you want to discard, select this option.  Note that cards to keep are marked with a green, cards to discard with a red border.'
+      ''
+      'Enable face-up card.'
+      '--------------------'
+      'If this (not really useful) option is checked, the first card of each hand is displayed face-up; thus, you see its rank when you make your bet.'
+      ''
+      'Enable negative balance.'
+      '------------------------'
+      'By default,  when your  balance is 0,  the  game is over.  If this option is enabled,  you get a credit of 50€ in order to be able to continue to play.  Please, be aware that in the real world, playing with borrowed money can result in serious problems!'
+      ''
+      'Menu item "Help".'
+      '================='
+      ''
+      'Help.'
+      '------'
+      'Display application help (this text).'
+      ''
+      'About.'
+      '-------'
+      'Display application version, author, and date written.'
+      ''
+      'Notes.'
+      '======'
+      ''
+      'The game is played with 2×52 cards.  Cards are dealt from the top of the deck.  If the bottom is reached, cards are reshuffled.'
+      ''
+      'Pairs of 2 to 10 will not be considered for payout.'
+      ''
+      'The option "Enable negative balance" is only available at the beginning of a game. The number of hands to play may only be  changed at the  beginning of a round.  You should make your bets only after the cards have been dealt. In fact, if a default bet is set, all bets will be overwritten.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 818
+    Height = 31
+    Top = 472
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+end

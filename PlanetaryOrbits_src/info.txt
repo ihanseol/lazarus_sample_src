@@ -1,0 +1,43 @@
+PlanetaryOrbits.lpr Lazarus/Free Pascal project.
+===============================
+
+This Lazarus/Free Pascal application, simulating the motion of the 9 planets of our solar system around the sun, is based on an python program, included with the article "Simulating Planetary Orbits", published at the http://fiftyexamples.readthedocs.io/en/latest/index.html website. The planet data is from NASA, as published at the https://nssdc.gsfc.nasa.gov/planetary/factsheet/... pages. After starting developing Windows GUI applications some 2 years ago, PlanetaryOrbits is a further step for me in experiencing modern programming methods; in fact, instead of using variables and functions, I defined a TBodies class, with the sun and the planets as objects and the routines, dealing with them, as methods. My first (at least partially) Object oriented application!
+
+What follows is a brief description of how the program calculates the orbits and what's actually defined in the TBody class. The first part corresponds to the content of the article on the "Fifty Examples" Website.
+
+According to Isaac Newton, the force of gravitational attraction between two objects is given by:
+
+  F = g * m1 * m2 / d^2;
+
+where g is the gravitational constant (6.67428E-11), m1 and m2 the masses of the two objects, and d the distance between them. Using this equation, Newton determined a formula for calculating how long it took an object to complete an orbit around a central mass.
+
+When dealing with three or more objects, it’s generally not possible to find a tidy formula to calculate what the three bodies will do. Instead, such problems are tackled by numeric integration, a brute-force approach where you take all the object positions and velocities at time t, calculate the forces they exert on each other, update the velocities, and calculate the new positions at time t + Δt. Then you repeat this in a loop, stepping forward through time (and output or graphically display the results).
+
+The TBody class defines the body object (sun or planets), with the following properties:
+
+  BodyName (string): the body's name
+  BodyMass (string): the body's mass (in kg)
+  BodyVolume (Double): the body's volume (in m3; for information only)
+  BodyOrbitPeriod (Double): the planets' orbit period (in days; not needed for orbit calculation, but used for drawings)
+  BodyPosition (X,Y-Vector): the body's X,Y-postion at time t (in m)
+  BodyVelocity (X,Y-Vector): the body's X,Y-velocity at time t (in m/sec)
+  BodyDrawColor (TColor): the color of the body's shape on the graph
+
+The methods defined in the TBody class are as follows:
+
+  TBody.Create (procedure):
+    creation of the body object with assignment of the initial values (as published on the NASA Website)
+  TBody.Destroy (procedure):
+    standard object destruction method
+  TBody.Attraction (function, returning a X,Y-vector):
+    calculation of the attraction force between the body itself and another one
+  TBody.TotalAttraction (function, returning a X,Y-vector)
+    calculation of the attraction a body is exposed to by all other bodies
+  TBody.NewVelocity (procedure)
+    calculation of the body's (new) X,Y-velocity and assigning it to the TBody.BodyVelocity property
+  TBody.NewPosition (procedure)
+    calculation of the body's (new) X,Y-position and assigning it to the TBody.BodyPosition property
+  TBody.GetOrbitData (function, returning a record structure):
+    reading out all info concerning the body at time t
+
+Conclusion after my first OO experience: Object oriented programming is no witchery; if you are comfortable with records, there is nothing complicated in using objects (allu, June, 6th, 2018).

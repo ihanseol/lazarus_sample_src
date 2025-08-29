@@ -1,0 +1,80 @@
+Application description.
+========================
+
+"Colors" is a simple application, dealing with the physics of light, that may be used to understand and test your knowledge concerning color addition and color subtraction. Have a look at the physics help text for the theoratical background.
+
+Menu item "Exercise".
+=====================
+
+New.
+----
+Start a new exercise (or learning session).
+
+Exit.
+-----
+Exit the application.
+
+Menu item "Options".
+====================
+
+Select application options. Please note, that the new settings take only effect, when you start a new exercise. Thus, always choose "Exercise > New", after changing the program options.
+
+Learning mode.
+--------------
+If this option is selected, the application displays the color addition and/or subtraction examples, solutions included. If unchecked, the application runs as an exercise generator, and the user has to solve the color related questions.
+
+Color operations.
+-----------------
+Select, what color operations the exercises should be about: Addition, subtraction or both.
+
+Do not evaluate equation.
+-------------------------
+If this option is checked, the user has only to enter the different colors to solve the exercise. If unchecked, the color addition/subtraction equation (see below) has also to be entered.
+
+Show absorbed color.
+--------------------
+This option is for color subtraction only (and the only one, that may be changed during the exercise). It concerns the display color of the filter (in learning mode, or when the user asked for showing the exercise solution). If unchecked, the filter is drawn with the color of the pigments. If checked, it is drawn with the color, that is absorbed by the pigments.
+
+Menu item "Help".
+=================
+
+Physics help.
+-------------
+Physics of light (color addition and subtraction) basics.
+
+Application help.
+-----------------
+Application usage help text (this document).
+
+About.
+------
+Application version, author and date-written.
+
+Color addition/subtraction equations.
+=====================================
+
+The application awaits the equations in a given format, that you have to use, if you want a correct solution being evaluated as correct.
+
+Color addition:
+---------------
+Equation with the following format:
+  C1 + C2 = C3 = C
+C1, C2 and C3 may be primary colors (represented by a single letter), or secondary colors (represented by the sum of 2 primary colors, written between brackets), or (R+G+B) for white or (W+R), (W+G), (W+B) for the pale colors. C is a one letter representation of the resulting color.
+Examples:
+  blue and red bulbs: B + R = (R+B) = M
+  white and red bulbs: (R+B+G) + R = (W+R) = r
+  cyan and yellow bulbs: (G+B) + (R+G) = (W+G) = g
+
+Color subtraction.
+------------------
+Equation with one of the following formats:
+  C1 + C2 = C3 or C1 + C2 = C3 = C
+C1, C2 and C3 are as above (plus X for C3, if there is no light transmitted). C is a one letter representation of the resulting color, that has to be given, if the result isn't a primary color.
+Examples:
+  cyan light on yellow filter : (G+B) - B = G (yellow filter, absorbing blue)
+  white light on yellow filter: (R+G+B) - B = (R+G) = Y
+  yellow light on blue filter : (R+G) - (R+G) = X (blue filter, absorbing yellow)
+
+Note.
+-----
+The application awaits color symbols in the order R, G, B. Thus magenta (cf. first addition example) has to be entered as (R+B) and not as (B+R)!

@@ -1,0 +1,9 @@
+# Quadratic Snowflake
+
+origin = (250,325)
+displacement = 6
+
+axiom = "4F--6F"
+rules = { "F": "F-F+F+F-F" }
+iterations = 4
+angle = 90

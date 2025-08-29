@@ -1,0 +1,53 @@
+GerVerbs - Structure of verb files
+==================================
+
+Id.     Columns     Content
+---     -------     -------------------------------------------------------------------
+INF      1 - 20     infinitive (with "sich" for pronominal verbs)
+PRE     21 - 40     3rd pers. present tense
+PAS     41 - 60     3rd pers. simple past (if there are 2 forms, '/' used as separator)
+PPT     61 - 80     past participle (if there are 2 forms, '/' used as separator)
+CNJ          81     simple verbe: conjugation type
+PRX	                compound verb: prefix type
+AUX     	 83     auxiliary
+PRN      	 85     pronouns to be used in exercises (because of impersonal verbs, ...)
+
+Conjugation codes (CNJ):
+---------------------------------------------------------------------------------------
+ R      regular verb (2nd/3rd pers. of present tense is regular)
+ S      "stark": strong verb (2nd/3rd  pers. of present tense has a vowel modification)
+ U      "unregelmäßig": irregular verb (present tense irregularities) -> cf. [verb].txt
+ 
+Prefix codes (PRX):
+-----------------------------------------------------
+ T      "trennbar": prefix may be separated
+ N      "nicht trennbar": prefix may not be separated
+ 
+Auxiliary codes (AUX):
+---------------------------------------------------------------------------
+ H      "haben": compound tenses of verb are formed with 'to have'
+ S      "sein": compound tenses of verb are formed with 'to be'
+ X      compound tenses of verb are formed with either 'to have' or 'to be'
+ 
+Pronoun codes (PRN):
+---------------------------------------------------------------------------------------------
+ -      any person
+ M      "Mehrzahl" (plural): conjugate with plural pronouns
+ U      "unpersönlich" (impersonal): conjugate with 3rd pers. neuter pronoun ("es")
+ u      "unpersönlich": as not really presonal, conjugate with 3rd person pronoun (sg. or pl)
+
+Notes:
+======
+ 1. Insertion of "e" before "-t" and/or "-st" in present tense or simple past is coded in the program
+    (based on the verb's infinitive)
+ 2. Verbs with an infinitive (INF) ending with an '*' will not be used in the exercises!
+    These include:
+      - compound verbs, formed on a verb with 2 conjugation forms (not previewed to choose the correct one!)
+      - pronominal verbs with dative (program actually uses always accusative!)
+	  - verbs, where I'm not sure about auxiliary, prefix separation...
+
+GerVerbs - Structure of irregular present tense verb files
+==========================================================
+
+The file contains the present tense conjugation for the "6 persons".
+A verb form ending with "*" means, that it's irregular.

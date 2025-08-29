@@ -1,0 +1,9 @@
+# Box Fractal
+
+origin = (260,565)
+displacement = 6
+
+axiom = "5F-3F-2F-0F"
+rules = { "F": "F-F+F+F-F" }
+iterations = 4
+angle = 90

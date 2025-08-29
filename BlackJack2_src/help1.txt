@@ -1,0 +1,19 @@
+Blackjack card game help.
+=========================
+
+Aim of the game: The aim in Blackjack is to get closer to 21 than the dealer without exceeding this value. Value of the individual cards: the spot cards from 2 to 10 count at face value, while the court cards – King, Queen, Jack – each count as 10 and the Ace can be 1 or 11.
+
+The game: Each player receives two cards and the dealer deals himself one face up. The players can now request additional cards ("hit") until they think they are close enough to 21 and then decide to "stay". Anyone who exceeds 21 and "goes bust" loses his stake. If all players are done, the dealer draws a second card. If he has 16 or less, he has to draw another. Once he has 17 or more, he cannot draw any more. If the dealer exceeds 21 with his cards, all players still in the game have automatically won. Otherwise, only those players whose cards are closer to 21 than the dealer's win. If the player and the dealer have the same value, there is a “stand-off”, and the player’s stake is returned.
+
+Blackjack: The aim is to reach a total of 21 with the frst two cards (e.g. an Ace and a King). A Blackjack beats all other card combinations. If normally you win the same amount as you bet (1:1), with a Blackjack, you receive one and a half times your stake (3:2).
+
+Differences between my Blackjack2 program and official Blackjack rules:
+------------------------------------------------------------------------
+
+1. Blackjack is considered to be two aces (and not 21 reached with the 2 first cards).
+2. Options like "Blackjack only wins 1:1", "Busting costs 2:1" ... are NOT official Blackjack rules.
+
+Differences with Blackjack2 version 1.0:
+----------------------------------------
+
+Card dealing is done as in an official Blackjack game, the dealer taking cards when both players are done (i.e. plays with same cards against the 2 players).

@@ -1,0 +1,48 @@
+"Five Dice Grid" is a Yahtzee-based game for 1 player. The player rolls 80 dices and places them in a grid of 8 rows x 10 columns. He then must try to get the highest possible score by selecting combinations of 2 to 5 adjacent dices (i.e. dices that touch each other horizontally or vertically) that are removed from the grid. Combinations are similar to those in Yahtzee (and in Poker) and each combination increases the player's score by a given value.
+
+Menu "Game".
+============
+
+New.
+----
+Generation of a new grid with random dice values.
+
+Reset.
+------
+Reset of the dice values to those at the beginning of the actual game.
+
+Exit.
+-----
+Exit the application.
+
+Menu "Options".
+===============
+
+Remove invalid combinations.
+----------------------------
+If this option is checked (default) and the player select dices with values that don't correspond to any scoring combination, these dices are removed from the grid. If the option is unchecked and the player selects an invalid combination, an error message is displayed and the dices remain in the game.
+
+Menu "Help".
+============
+
+Help.
+-----
+Display of the "Five Dice Grid" application help text (this document).
+
+Scores.
+-------
+Display of the table with the scores of the different combinations.
+
+About.
+------
+Display of the "Five Dice Grid" application about (version, author, date-written).
+
+Playing the game.
+=================
+Select the dices by clicking them with the left mouse button (clicking a selected dice will unselect it). When done, push the "Done" button. Your score is increased by the value corresponding to the combination given by the selected dices and the dices are removed from the grid. You can restart the game, resp. play the same game another time (trying to make a better score) by choosing "Reset" in the "Game" menu. To start a new game with new dice values, choose "New" instead.
+
+Adapting the combination score values.
+======================================
+If you think that the score values of the different combinations aren't adequate, you can adapt them by editing the file scores.txt. Just replace the values stated by your own ones. Attention: Be sure that the file format remains exactly as it is, otherwise you risk that the application will not start anymore. But, don't worry: If this happens, you can restore the original file by copying it from scores.txt.bak.
+
+Enjoy! And if you like the game, please sign my guestbook at http://www.ultraguest.com/view/1633861308.

@@ -1,0 +1,129 @@
+===================================================
+= Physique: Collisions élastiques et inélastiques =
+===================================================
+
+On dit qu’il y a collision (choc) entre deux ou plusieurs corps quand ces objets subissent une interaction mutuelle de courte durée et de courte portée. Comme, normalement, les forces d’interaction sont négligeables quand les corps sont éloignés, on peut distinguer une «situation avant le choc» et une «situation après le choc».
+
+La physique des collisions étudie des situations, où des corps de masse et de vitesse (rectiligne uniforme) entrent en collision et par ce fait subissent une modification dans leur déplacement et, éventuellement aussi dans leur structure.
+
+L'application "Collisions" simule de telles collsions pour deux corps de masses m1 resp. m2 et de vitesse v1 resp. v2 avant et u1 resp. u2 après le choc. À noter que, du moins partiellement, ces corps sont considérés comme des corps ponctuels.
+
+==================
+= Choc élastique =
+==================
+
+Un choc élastique est un choc entre deux corps qui n’entraîne pas de modification de leur état interne, notamment de leur masse. Le déplacement des corps à la suite de la collision dépend de la loi d'interaction qui intervient au moment du choc et de leur position réciproque pendant ce moment.
+
+Lors du choc élastique, il y conservation:                                                                   
+ - de la quantité de mouvement (comme pour tout système isolé):
+      →       →       →       →
+   m1∙v1 + m2∙v2 = m1∙u1 + m2∙u2   
+ - de l'énergie cinétique (absence de dissipation, car les corps ne sont pas déformables):
+   m1(v1)² + m2(v2)² = m1(u1)² + m1(u2)²
+	 
+**********************************
+Choc élastique dans une dimension:
+**********************************
+
+Se plaçant dans le cas où toutes les vitesses sont colinéaires, le problème consiste mathématiquement à une système de deux équations à deux inconnues (u1 et u2), qui donne la solution suivante:
+
+  u1 = [(m1-m2) / (m1+m2)]∙v1 + [2∙m2 / (m1+m2)]∙v2
+  u2 = [2∙m1 / (m1+m2)]∙v1 + [(m2-m1) / (m1+m2)]∙v2
+	 
+Cas particulier où le corps 2 est au repos:
+
+m1 << m2:
+---------
+
+On obtient: u1 ≈ -v1 et u2 ≈ 0.
+
+Il y a rebond avec inversion du sens de la vitesse. Ayant une grande inertie, la cible ne bouge pas. Exemple: boule indéformable tombant sur un sol parfaitement rigide.
+
+m1 >> m2:
+---------
+
+On obtient: u1 ≈ v1 et u2 ≈ 2∙v1.
+
+Le corps "heurtant" conserve sa vitesse, la cible est mise en mouvement avec une vitesse double. Exemple: balle tapée avec une raquette.
+
+m1 = m2:
+--------
+
+On obtient: u1 = 0 et u2 = v1.
+
+Le corps "heurtant" est immobilisé et la cible est mise en mouvement avec la vitesse avec laquelle elle était "heurtée". Exemple: pendule de Newton.
+
+************************************
+Choc élastique dans deux dimensions:
+************************************
+
+On tombe mathématiquement sur un problème avec un système de deux équations à quatre inconnues, donc pas résolvable sans fixer l'une ou l'autre des grandeurs en jeu.
+
+Cas particulier de deux billes de billard.
+==========================================
+
+L'un des cas, souvent repris dans les cours de physique et entièrement résolvable est donné par deux billes de billard de même masses et de rayons identiques connus avec en plus, la cible étant en repos.
+
+Si θ1 est l'angle de déviation du corps 1 et θ2 celui du corps 2, on peut montrer que:
+  u1 = v1∙cos(θ1) et u2 = v2∙cos(θ2) et θ1 - θ2 = π/2
+  
+La seule variable qui reste donc à déterminer, est l'angle de déviation θ1. Dans le cas du billard, cet angle dépend d'une seule grandeur: le paramètre d'impact b, qui mesure la distance entre le centre des deux billes lors du choc. L'angle de déviation est alors donné par:
+  cos(θ1) = b / 2r (r étant le rayon des billes)
+  
+Quelques cas particuliers:
+
+"Visée pleine bille" (b = 0):
+-----------------------------
+
+On obtient θ1 = θ2 = 0 et u1 = 0, u2 = v1
+
+Ce qui n'est rien d'autre que le cas d'une collision directe entre deux corps de même masse.
+
+"Visée demi-bille" (b = r):
+---------------------------
+
+On obtient θ1 = 60° et θ2 = -30°. Vitesses après le choc: u1 = (1/2)∙v1 et u2 = (√3/2)∙v1.
+
+"Visée finesse" (b -> 2r):
+--------------------------
+
+Cas où la bille "heurtante" frôle la cible. On aura alors b -> 2r, θ1 -> 0 et θ2 -> -π/2. La cible est déviée de 90° par rapport à la ligne de visée avec une vitesse cependant très faible.
+
+====================
+= Choc inélastique =
+====================
+
+Un choc inélastique (choc mou) est une collision où les objets impliqués restent liés après le choc. Leur quantité de mouvement totale est conservée, mais une partie de leur énergie cinétique initiale est dissipée, généralement sous forme de chaleur et/ou de déformations internes des objets.
+
+La loi de la conservation de la quantité de mouvement nous donne:
+      →       →              →
+   m1∙v1 + m2∙v2 = (m1 + m2)∙u
+   
+************************************
+Choc inélastique dans une dimension:
+************************************
+
+Se plaçant dans le cas où toutes les vitesses sont colinéaires, le problème consiste mathématiquement à une équations à une inconnue (u = u1 = u2), qui donne la solutions suivante:
+
+  u = (m1∙v1 + m2∙v2) / (m1+m2)
+
+Exemples de chocs inélastiques:
+  - une boule en pâte à modeler qui tombe par terre (qui se déforme et ne rebondit pas)
+  - les réactions nucléaires (accompagnées d'un dégagement d'énergie considérable)
+
+Cas particulier où le corps 2 est en repos:
+
+m1 <<  m2:
+----------
+
+La vitesse après le choc des deux corps accollés tend vers 0. Le corps 1 est arrêté; les 2 corps restent immobiles.
+
+m1 >> m2:
+---------
+
+La vitesse après le choc des deux corps accollés tend à devenir égale à la vitesse du corps "heurtant". Ils tendent à se déplacer comme s'il n'y aurait pas eu de freinage.
+
+m1 = m2:
+--------
+
+La vitesse après le choc des deux corps accollés est la moitié de la vitesse du corps "heurtant" avant le choc

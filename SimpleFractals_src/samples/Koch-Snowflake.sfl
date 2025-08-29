@@ -1,0 +1,9 @@
+# Koch-Snowflake
+
+origin = (250,450)
+displacement = 6
+
+axiom = "0F--2F--4F"
+rules = { "F": "F+F--F+F" }
+iterations = 4
+angle = 60

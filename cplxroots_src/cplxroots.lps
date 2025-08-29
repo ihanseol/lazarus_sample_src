@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="cplxroots.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="230" Column="5" TopLine="208"/>
+      </Position1>
+      <Position2>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="14" Column="29"/>
+      </Position2>
+      <Position3>
+        <Filename Value="cplxroots.lpr"/>
+      </Position3>
+      <Position4>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="230" Column="37" TopLine="211"/>
+      </Position4>
+      <Position5>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="88" Column="72" TopLine="70"/>
+      </Position5>
+      <Position6>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="236" Column="36" TopLine="216"/>
+      </Position6>
+      <Position7>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="20" Column="6"/>
+      </Position7>
+      <Position8>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="204" Column="24" TopLine="187"/>
+      </Position8>
+      <Position9>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="265" Column="7" TopLine="239"/>
+      </Position9>
+      <Position10>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="162" Column="58" TopLine="148"/>
+      </Position10>
+      <Position11>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="213" Column="50" TopLine="199"/>
+      </Position11>
+      <Position12>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="260" Column="52" TopLine="250"/>
+      </Position12>
+      <Position13>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="131" TopLine="131"/>
+      </Position13>
+      <Position14>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="191" Column="38" TopLine="167"/>
+      </Position14>
+      <Position15>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="264" Column="7" TopLine="250"/>
+      </Position15>
+      <Position16>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="152" TopLine="142"/>
+      </Position16>
+      <Position17>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="177" Column="7" TopLine="161"/>
+      </Position17>
+      <Position18>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="188" Column="36" TopLine="163"/>
+      </Position18>
+      <Position19>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="306" Column="41" TopLine="295"/>
+      </Position19>
+      <Position20>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="221" TopLine="204"/>
+      </Position20>
+      <Position21>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="264" Column="26" TopLine="246"/>
+      </Position21>
+      <Position22>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="178" Column="16" TopLine="165"/>
+      </Position22>
+      <Position23>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="47" Column="20" TopLine="38"/>
+      </Position23>
+      <Position24>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="240" Column="21" TopLine="218"/>
+      </Position24>
+      <Position25>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="95" Column="25" TopLine="79"/>
+      </Position25>
+      <Position26>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="312" Column="37" TopLine="291"/>
+      </Position26>
+      <Position27>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="233" Column="8" TopLine="214"/>
+      </Position27>
+      <Position28>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="341" Column="10" TopLine="327"/>
+      </Position28>
+      <Position29>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="362" TopLine="336"/>
+      </Position29>
+      <Position30>
+        <Filename Value="cplxroots.lpr"/>
+        <Caret Line="290" Column="26" TopLine="271"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

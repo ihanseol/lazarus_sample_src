@@ -1,0 +1,225 @@
+object EQuiz: TEQuiz
+  Left = 198
+  Height = 304
+  Top = 104
+  Width = 601
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Europa Quiz'
+  ClientHeight = 279
+  ClientWidth = 601
+  DesignTimePPI = 120
+  Menu = QuizMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Title: TStaticText
+    Left = 40
+    Height = 46
+    Top = 10
+    Width = 510
+    Alignment = taCenter
+    Caption = 'Europa Quiz.'
+    Font.Height = -33
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 11
+    Height = 17
+    Top = 92
+    Width = 109
+    Caption = 'Europäisches Land'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object QCountry: TEdit
+    Left = 135
+    Height = 25
+    Top = 88
+    Width = 201
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 1
+  end
+  object LabelQuizSel: TLabel
+    Left = 11
+    Height = 17
+    Top = 141
+    Width = 64
+    Caption = 'Hauptstadt'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object ComboQuizItem: TComboBox
+    Left = 135
+    Height = 25
+    Top = 137
+    Width = 201
+    Font.Height = -13
+    ItemHeight = 17
+    ParentFont = False
+    TabOrder = 2
+    TabStop = False
+  end
+  object EditQuizItem: TEdit
+    Left = 135
+    Height = 25
+    Top = 137
+    Width = 201
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 3
+  end
+  object ButtonQuiz: TButton
+    Left = 512
+    Height = 35
+    Top = 240
+    Width = 80
+    Caption = 'Frage'
+    Font.Style = [fsBold]
+    OnClick = ButtonQuizClick
+    ParentFont = False
+    TabOrder = 4
+  end
+  object ButtonFlags: TButton
+    Left = 352
+    Height = 25
+    Top = 137
+    Width = 59
+    Caption = 'Flagge'
+    OnClick = ButtonFlagsClick
+    TabOrder = 5
+  end
+  object Label2: TLabel
+    Left = 472
+    Height = 17
+    Top = 92
+    Width = 40
+    Caption = 'Fragen'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object QQuestion: TEdit
+    Left = 528
+    Height = 25
+    Top = 88
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object Label3: TLabel
+    Left = 472
+    Height = 17
+    Top = 141
+    Width = 39
+    Caption = 'Richtig'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object QCorrect: TEdit
+    Left = 528
+    Height = 25
+    Top = 137
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object Label4: TLabel
+    Left = 472
+    Height = 17
+    Top = 188
+    Width = 29
+    Caption = 'Note'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object QPercent: TEdit
+    Left = 528
+    Height = 25
+    Top = 184
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object QEval: TEdit
+    Left = 11
+    Height = 25
+    Top = 184
+    Width = 325
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object QuizMenu: TMainMenu
+    left = 32
+    top = 16
+    object MenuQuiz: TMenuItem
+      Caption = 'Quiz'
+      object MenuQuizNew: TMenuItem
+        Caption = 'Neu'
+        OnClick = MenuQuizNewClick
+      end
+      object MenuQuizExit: TMenuItem
+        Caption = 'Verlassen'
+        OnClick = MenuQuizExitClick
+      end
+    end
+    object MenuSelect: TMenuItem
+      Caption = 'Auswahl'
+      object MenuSelCapital: TMenuItem
+        Caption = 'Hauptstädte (Liste)'
+        Checked = True
+        OnClick = MenuSelCapitalClick
+      end
+      object MenuSelCapital2: TMenuItem
+        Caption = 'Hauptstädte (Eingabe)'
+        OnClick = MenuSelCapital2Click
+      end
+      object MenuSelSurface: TMenuItem
+        Caption = 'Landesfläche'
+        OnClick = MenuSelSurfaceClick
+      end
+      object MenuSelInhabitants: TMenuItem
+        Caption = 'Einwohnerzahl'
+        OnClick = MenuSelInhabitantsClick
+      end
+      object MenuSelEUEntry: TMenuItem
+        Caption = 'EU Beitrittsjahr'
+        OnClick = MenuSelEUEntryClick
+      end
+      object MenuSelFlags: TMenuItem
+        Caption = 'Nationalflaggen'
+        OnClick = MenuSelFlagsClick
+      end
+    end
+    object MenuHelp: TMenuItem
+      Caption = 'Hilfe'
+      object MenuHelpAbout: TMenuItem
+        Caption = 'Über'
+        OnClick = MenuHelpAboutClick
+      end
+    end
+  end
+end

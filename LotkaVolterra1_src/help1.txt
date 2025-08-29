@@ -1,0 +1,72 @@
+The Lotka-Volterra predator-prey model.
+=======================================
+
+The Lotka-Volterra model describes the dynamics of a two-species system in which one is a predator and the other is its prey. It is based on the following (largely simplified) assumptions:
+
+  - the predator population intrinsically shrinks
+    (predator population dies out by starving if there is no prey)
+	
+  - the prey population intrinsically grows
+    (prey population infintely grows if there is no predator)
+	
+  - a larger prey population leads to a larger predator population
+    (predator population grows by eating the prey)
+	
+  - a larger predator population leads to a smaller prey population
+    (prey population shrinks by being eaten by the predator).
+	
+The Lotka-Volterra model simulates the variations of the predator and prey population sizes versus time. It is based on the following differential equations:
+
+  du                            dv
+  ──  = a∙u - b∙v∙u     and     ──  =  -c∙v + d∙u∙v 
+  dt                            dt
+  
+where:
+  u is the prey population (initial population at t=0: u = u0)
+  v is the predator population (initial population at t=0: v = v0)
+  a is the prey growth rate (prey population growth / time interval, if there is no predator)
+  c is the predator death rate (predator population shrinkage / time interval, if there is no prey)
+  b is the predation death rate (prey population shrinkage / time interval, due to predation)
+  d is the predation growth rate (predator population growth / time interval, due to predation)
+  
+Note that b and d depend on both the prey and the predator population (as given by the model assumptions).
+
+Alternate way to formulate the model's equations:
+
+  du                            dv
+  ──  = α∙u - β∙v∙u     and     ──  =  -γ∙v + ɛ∙β∙u∙v
+  dt                            dt
+  
+where:
+  u and v are the prey resp. predator populations
+  α, β and γ correspond to a, b and c in the equations above
+  ɛ is the predation efficiency rate (predator food conversion efficiency / time interval)
+  
+In this formulation, the predator population growth / time interval depends on the two parameters β and ɛ. β may be considered as predator search efficiency, and ɛ as the efficiency to convert the prey found into population growth.
+
+The model leads to one of the following 2 major equilibrium states:
+
+Populations extinction.
+-----------------------
+All prey is eaten by the predator, which then extincts itself by starving.
+
+Periodic populations oscillation.
+---------------------------------
+The prey population starts by growing, until at a certain moment there are to much predators to find enough prey and the population begins to shrink. As by less predators, less prey is eaten, the prey population now increases and with more food available, the predator population will increase again.
+These oscillations are periodic, i.e. repeating in time, maximum and minimum values reappearing after always the same number of years. The variations of both populations are very "similar", the up or down of the predator curve always being later in time than the corresponding variation of the prey.
+
+Sample data.
+------------
+Even though this model is largely simplified and not very realistic, it has shown to be valid in some cases, in particular in the case of the population variations of lynx and hares in Canada. The model's output well corresponds to these species' population sizes as recorded by Charles C. Hewitt, based on the number of pelts collected by the Hudson’s Bay Company between the years of 1821 and 1914.
+The Lotka-Volterra model parameters for this case are the following:
+  a = 0.55  b = 0.028  c = 0.84  d = 0.026
+
+Prey growth: Usage of the logistic model.
+-----------------------------------------
+In the original Lotka-Volterra model, in the absence of predator, the prey grows infintely (exponential growth model). A more realistic view is to consider a limit, that the prey population can't exceed (primarily because they wouldn't have no longer enough food). This situation may be described by the logistic growth model:
+
+  dN                
+  ──  = r∙N∙(1 - N/K)
+  dt     
+  
+where r is the growth rate and K is the so-called carrying capacity, a limiting value, that the population N cannot exceed.

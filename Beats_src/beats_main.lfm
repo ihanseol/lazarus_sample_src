@@ -1,0 +1,134 @@
+object fBeats: TfBeats
+  Left = 76
+  Height = 958
+  Top = 12
+  Width = 1121
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Beats'
+  ClientHeight = 933
+  ClientWidth = 1121
+  DesignTimePPI = 120
+  Font.Height = -18
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object StaticText1: TStaticText
+    Left = 348
+    Height = 26
+    Top = 10
+    Width = 425
+    Alignment = taCenter
+    Caption = 'Superposition of two sound waves.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object imDraw: TImage
+    Left = 10
+    Height = 780
+    Top = 105
+    Width = 1100
+  end
+  object laF1: TLabel
+    Left = 10
+    Height = 25
+    Top = 59
+    Width = 218
+    Caption = 'First wave frequency f1 (Hz)'
+  end
+  object edF1: TEdit
+    Left = 240
+    Height = 33
+    Top = 55
+    Width = 75
+    Alignment = taRightJustify
+    TabOrder = 1
+    Text = '500'
+  end
+  object laF2: TLabel
+    Left = 376
+    Height = 25
+    Top = 59
+    Width = 244
+    Caption = 'Second wave frequency f2 (Hz)'
+  end
+  object edF2: TEdit
+    Left = 632
+    Height = 33
+    Top = 55
+    Width = 75
+    Alignment = taRightJustify
+    TabOrder = 3
+    Text = '550'
+  end
+  object btCalc: TButton
+    Left = 1016
+    Height = 31
+    Top = 896
+    Width = 94
+    Caption = 'Draw'
+    OnClick = btCalcClick
+    TabOrder = 0
+  end
+  object laFB: TLabel
+    Left = 824
+    Height = 25
+    Top = 59
+    Width = 200
+    Caption = 'Frequency difference (Hz)'
+  end
+  object edFB: TEdit
+    Left = 1035
+    Height = 33
+    Top = 55
+    Width = 75
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object mMenu: TMainMenu
+    Left = 32
+    Top = 120
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileCalc: TMenuItem
+        Caption = 'New calculation'
+        OnClick = mFileCalcClick
+      end
+      object mFileAnimation: TMenuItem
+        Caption = 'New animation'
+        OnClick = mFileAnimationClick
+      end
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsSine: TMenuItem
+        Caption = 'Use sine functions'
+        OnClick = mOptionsSineClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object tiBeats: TTimer
+    Enabled = False
+    OnTimer = tiBeatsTimer
+    Left = 96
+    Top = 120
+  end
+end

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="TESTMSSQL.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mssql.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fMSSQL"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="19">
+      <Position>
+        <Filename Value="mssql.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="TESTMSSQL.lpr"/>
+        <Caret Line="3" Column="60"/>
+      </Position>
+      <Position>
+        <Filename Value="TESTMSSQL.lpr"/>
+        <Caret Line="29" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="TESTMSSQL.lpr"/>
+        <Caret Line="3" Column="60"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+        <Caret Line="3" Column="39"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+        <Caret Line="50" Column="12" TopLine="39"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+        <Caret Line="85" Column="98" TopLine="68"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+        <Caret Line="61" Column="46" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+        <Caret Line="104" Column="9" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+        <Caret Line="21" Column="25" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+        <Caret Line="43" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+        <Caret Line="93" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+        <Caret Line="58" Column="21" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+        <Caret Line="55" Column="31" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+        <Caret Line="74" Column="27" TopLine="70"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+        <Caret Line="99" Column="18" TopLine="85"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+        <Caret Line="71" Column="61" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+        <Caret Line="14" Column="43"/>
+      </Position>
+      <Position>
+        <Filename Value="mssql.pas"/>
+        <Caret Line="26" Column="60" TopLine="20"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,93 @@
+object fHelp: TfHelp
+  Left = 242
+  Height = 494
+  Top = 209
+  Width = 879
+  BorderIcons = [biSystemMenu]
+  Caption = 'Vector addition and subtraction'
+  ClientHeight = 494
+  ClientWidth = 879
+  DesignTimePPI = 120
+  Font.Height = -18
+  LCLVersion = '2.2.0.4'
+  object Memo1: TMemo
+    Left = 8
+    Height = 430
+    Top = 10
+    Width = 862
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '********************'
+      '* "Vectors" help. *'
+      '********************'
+      ''
+      '"Vectors" is an application (exercise generator) to graphically add (or subtract) 2, 3 or 4 vectors. Choose the vector operation and the number of vectors, then alternately click "Question" and "Answer" to generate the question resp. let the program check your drawing and entered values.'
+      ''
+      'To draw a vector, click the drawing surface first for its origin (a small colored disk will indicate the position clicked), then click a second time for its endpoint (the vector will be drawn; different colors being used for each vector). There is actually no "Undo" function, just the "Clear" button to completely clean the drawing surface.'
+      ''
+      'After you have drawn the vectors, enter the value of the resultant vector, using the format "( a , b )", and the vector''s magnitude and angle (see below).'
+      ''
+      'Menu item "File".'
+      '================='
+      ''
+      'Exit.'
+      '-----'
+      'Exit the application.'
+      ''
+      'Menu item "Options".'
+      '===================='
+      ''
+      'Vector operations.'
+      '------------------'
+      'Choose the vector operations, that should be used in the exercise: addition, subtraction or both.'
+      ''
+      'Number of vectors.'
+      '------------------'
+      'Choose the number of vectors to be added/subtracted; possible values are 2, 3, or 4.'
+      ''
+      'Don''t evaluate magnitude and angle.'
+      '-----------------------------------'
+      'If this option is checked, the vector''s magnitude and angle are filled-in by the application. Otherwise, you have to calculate and enter these values yourself.'
+      ''
+      'Menu item "Help".'
+      '================='
+      ''
+      'Help.'
+      '-----'
+      'Display of help concerning the usage of the "Vectors" application (this text).'
+      ''
+      'About.'
+      '------'
+      'Display of the author, the version and the date-written of the "Vectors" application.'
+      ''
+      'Graphical vector addition.'
+      '=========================='
+      ''
+      'Draw the first vector from point (0,0) to its endpoint. For all subsequent vectors, draw them by placing their origin onto the endpoint of the preceding vector. The resultant vector will have its origin at point (0,0) and its endpoint equal to the endpoint of the last vector drawn. To subtract two vectors, just add a vector of same magnitude, but with opposite direction.'
+      ''
+      'After a question has been displayed, instead of answering it, you may make the application display the drawing and all vector values by using the "Show" button. The button may also be used, after the answer has been entered; this may be useful if your answer is not correct and you want to see what you did wrong.'
+      ''
+      'Vector magnitude and angle.'
+      '==========================='
+      ''
+      'The magnitude of the vector (a , b) is equal to its length and given by √(a^2 + b^2). The angle is the one formed by the vector and the x-axis and given by Arctan(b/a).'
+      ''
+      'Note, that these values are checked on 2 decimal digits. The angle is to be given in degrees and always as positive value (between 0° and 360°).'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 776
+    Height = 31
+    Top = 456
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

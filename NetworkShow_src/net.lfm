@@ -1,0 +1,158 @@
+object fNetShow: TfNetShow
+  Left = 70
+  Height = 553
+  Top = 101
+  Width = 975
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Network state'
+  ClientHeight = 528
+  ClientWidth = 975
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object btRun: TButton
+    Left = 873
+    Height = 27
+    Top = 496
+    Width = 94
+    Caption = 'Run'
+    Font.Style = [fsBold]
+    OnClick = btRunClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object StaticText1: TStaticText
+    Left = 10
+    Height = 38
+    Top = 10
+    Width = 478
+    Caption = 'Home network: Intranet computers.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object sgNetwork: TStringGrid
+    Left = 10
+    Height = 426
+    Top = 56
+    Width = 957
+    ColCount = 6
+    FixedCols = 0
+    ParentFont = False
+    RowCount = 16
+    TabOrder = 2
+    ColWidths = (
+      103
+      328
+      137
+      122
+      196
+      67
+    )
+    RowHeights = (
+      25
+      25
+      25
+      25
+      25
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+    )
+    Cells = (
+      6
+      0
+      0
+      'Name'
+      1
+      0
+      'Description'
+      2
+      0
+      'MAC address'
+      3
+      0
+      'IP address'
+      4
+      0
+      'DNS name'
+      5
+      0
+      'State'
+    )
+  end
+  object mMenu: TMainMenu
+    Left = 784
+    Top = 8
+    object mNetwork: TMenuItem
+      Caption = 'Network'
+      object mNetworkNew: TMenuItem
+        Caption = 'New'
+        OnClick = mNetworkNewClick
+      end
+      object mNetworkExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mNetworkExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsConsole: TMenuItem
+        Caption = 'Show console window'
+        Checked = True
+        OnClick = mOptionsConsoleClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object prCmd: TProcess
+    Active = False
+    Options = []
+    Priority = ppNormal
+    StartupOptions = []
+    ShowWindow = swoNone
+    WindowColumns = 0
+    WindowHeight = 0
+    WindowLeft = 0
+    WindowRows = 0
+    WindowTop = 0
+    WindowWidth = 0
+    FillAttribute = 0
+    Left = 928
+    Top = 8
+  end
+  object tiCmd: TTimer
+    Enabled = False
+    Interval = 20
+    OnTimer = tiCmdTimer
+    Left = 880
+    Top = 8
+  end
+  object dlgOpen: TOpenDialog
+    Title = 'Open network description file'
+    Filter = 'Network description file|*.nwd'
+    Left = 832
+    Top = 8
+  end
+end

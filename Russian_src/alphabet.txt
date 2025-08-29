@@ -1,0 +1,33 @@
+А    а    a         /a/
+Б    б    b         /b/
+В    в    v         /v/
+Г    г    g         /g/
+Д    д    d         /d/
+Е    е    ye        / ʲe/  /je/  e         /e/
+Ё    ё    yo        / ʲo/  /jo/  ë    jo
+Ж    ж    ž    zh   /ʐ/
+З    з    z         /z/
+И    и    i         / ʲi/  /i/             /ɨ/
+Й    й    j         /j/          y    i
+К    к    k         /k/
+Л    л    l         /ɫ/
+М    м    m         /m/
+Н    н    n         /n/
+О    о    o         /o/
+П    п    p         /p/
+Р    р    r         /r/
+С    с    s         /s/
+Т    т    t         /t/
+У    у    u         /u/
+Ф    ф    f         /f/
+Х    х    x         /x/          h    kh
+Ц    ц    c         /ts/         ts
+Ч    ч    č    ch   /tɕ/
+Ш    ш    š    sh   /ʂ/
+Щ    щ    šč   sch  /ɕ/          shch
+Ъ    ъ    ʺ         -----
+Ы    ы    y         /ɨ/
+Ь    ь    '         / ʲ/
+Э    э    e         /e/          è
+Ю    ю    yu        / ʲu/  /ju/  ju
+Я    я    ya        / ʲa/  /ja/  ja

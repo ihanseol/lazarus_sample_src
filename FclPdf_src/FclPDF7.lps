@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="FclPDF7.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="pdf7.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fPDF7"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="95" Column="23" TopLine="78"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="49" Column="23" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="85" Column="20" TopLine="80"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="86" Column="62" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="125" Column="32" TopLine="114"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="112" Column="3" TopLine="99"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="49" Column="30" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="118" Column="52" TopLine="106"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="137" Column="30" TopLine="112"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="177" Column="40" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="167" Column="37" TopLine="149"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="168" Column="4" TopLine="117"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="132" Column="51" TopLine="120"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="148" Column="29" TopLine="142"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="168" Column="33" TopLine="151"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="182" Column="9" TopLine="162"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="117" Column="3" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="171" Column="70" TopLine="157"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="219" Column="33" TopLine="192"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="214" Column="35" TopLine="191"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="168" Column="11" TopLine="143"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="227" Column="20" TopLine="215"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="55" Column="11" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="FclPDF7.lpr"/>
+        <Caret Line="9" Column="37"/>
+      </Position>
+      <Position>
+        <Filename Value="FclPDF7.lpr"/>
+        <Caret Line="31" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="91" Column="49" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="282" Column="45" TopLine="255"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="3" Column="37"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+        <Caret Line="268" Column="17" TopLine="241"/>
+      </Position>
+      <Position>
+        <Filename Value="pdf7.pas"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

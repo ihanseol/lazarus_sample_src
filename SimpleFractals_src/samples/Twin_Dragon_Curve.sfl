@@ -1,0 +1,10 @@
+# Twin Dragon Curve
+
+origin = (660,185)
+displacement = 5
+
+axiom = "2FX+7FX"
+rules = { "X": "X+YF+",
+          "Y": "-FX-Y" }
+iterations = 12
+angle = 90

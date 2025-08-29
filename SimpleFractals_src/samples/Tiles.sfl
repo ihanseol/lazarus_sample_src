@@ -1,0 +1,9 @@
+# Tiles
+
+origin = (300,250)
+displacement = 5
+
+axiom = "9F+6F+5F+4F"
+rules = { "F": "FF+F-F+F+FF" }
+iterations = 5
+angle = 90

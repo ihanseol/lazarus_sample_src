@@ -1,0 +1,70 @@
+object fHelp: TfHelp
+  Left = 319
+  Height = 605
+  Top = 98
+  Width = 983
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Geometrie: Flächen'
+  ClientHeight = 605
+  ClientWidth = 983
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object HelpText: TMemo
+    Left = 12
+    Height = 542
+    Top = 10
+    Width = 958
+    Font.Height = -12
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'Geometry1 erstellt Mathematik-Aufgaben zur Berechnung von Inhalt und Umfang von geometrischen Flächen. Richtige und falsche Antworten, sowie eine prozentuale Note werden nach jeder Eingabe aktualisiert.'
+      ''
+      'Menu Test.'
+      '----------'
+      '  - Neu: Neuen Test starten (Auswertung wird auf Null zurückgesetzt).'
+      '  - Verlassen: Programm beenden.'
+      ''
+      'Menu Einstellungen.'
+      '-------------------'
+      '  - Berechnung: Auswählen ob der Flächeninhalt oder der Umfang berechnet werden soll.'
+      '  - Aufgaben: Auswählen welche Art von Aufgaben gestellt werden sollen:'
+      '      - Grundflächen'
+      '        Quadrat, Rechteck, Dreieck, Parallelogramm, Trapez und Kreis.'
+      '      - Alle Flächen:'
+      '        Ausser den genannten, ebenfalls gleichseitiges und gleichschenkliges Dreieck, gleichschenkliges Trapez und Kreissegment.'
+      '      - Pythagoras:'
+      '        Aufgaben mit allen Flächen, die unter Umständen zur Lösung den Satz des Pythagoras (c^2 = a^2 + b^2) benötigen.'
+      ''
+      'Menu Hilfe.'
+      '-----------    '
+      '  - Hilfe: Dieser Hiffe-Text.'
+      '  - Über: Informationen über das Geometry1 Programm.'
+      ''
+      'Formeln:'
+      '--------'
+      '  - Quadrat: A = a^2; U = 4a'
+      '  - Rechteck: A = a * b; U = 2a + 2b'
+      '  - Dreieck: A =  c * h / 2; U = a + b + c'
+      '  - Parallelogramm: A = g * h; U = 2a + 2b'
+      '  - Trapez: A = (a + c) * h / 2; U = a + b + c + d'
+      '  - Kreis: A = π * r^2; U = 2π * r'
+      '  - Kreissegment: A = π * r^2 * α / 360; U = 2r + b'
+      ''
+      'Anmerkung:'
+      '----------'
+      '  Die eingegebenen Resultate werden als auf 3 Dezimalstellen aufgerundet erwartet!'
+    )
+    ParentFont = False
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+  end
+  object btClose: TButton
+    Left = 890
+    Height = 30
+    Top = 568
+    Width = 80
+    Caption = 'Schliessen'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+end

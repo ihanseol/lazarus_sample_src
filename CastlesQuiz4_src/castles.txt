@@ -1,0 +1,92 @@
+Dänemark       N Schloss Koldinghus                      Koldinghus
+Dänemark       N Schloss Kronborg                        Kronborg Slot
+Dänemark       N Scloss Hammershus                       Hammershus
+Dänemark       N Schloss Egeskov                         Egeskov Slot
+Dänemark       N Schloss Frederiksborg                   Frederiksborg Slot
+Dänemark       N Schloss Voergaard                       Voergaard Slot
+Dänemark       N Schloss Rosenborg                       Rosenborg Slot
+Dänemark       N Schloss Nyborg                          Nyborg Slot
+Estland        N Arensburg                               Kuressaare piiskopilinnus
+Estland        N Schloss Katharinental                   KadrioRussland loss
+Italien        S -                                       Sacra di San Michele
+Italien        S -                                       Castiglia di Saluzzo
+Italien        S -                                       Castello di Serralunga d’Alba
+Italien        S Burg Runkelstein                        -
+Italien        S Schloss Prösels                         -
+Italien        S -                                       Castello di Rapallo
+Italien        S -                                       Rocca de Riva
+Italien        S -                                       Castello Ursino
+Italien        S -                                       Palazzo Vecchio
+Italien        S Schloss Wolfsthurn                      -
+Italien        S Schloss Trauttmansdorff                 -
+Italien        S Schloss Sigmundskron                    -
+Italien        S Burg Taufers                            -
+Italien        S Schloss Tirol                           -
+Italien        S -                                       Palazzo Pitti
+Italien        S -                                       Castello Principi d’Acaia di Fossano
+Italien        S -                                       Castello Aragonese d’Ischia
+Italien        S Schloss Bruneck                         -
+Italien        S -                                       Castello Reale di Govone
+Italien        S Schloss Gissbach                        -
+Italien        S Hofburg Brixen Bressanone               -
+Italien        S -                                       Villa d’Este Tivoli
+Italien        S Engelsburg                              Castel Sant’Angelo
+Italien        S Dogenpalast                             Palazzo Ducale
+Italien        S -                                       Palazzo Colonna
+Italien        S -                                       Castello di Fénis
+Italien        S -                                       Palazzo Farnese
+Italien        S -                                       Castello di Miramare
+Italien        S -                                       Castello Inferiore di Marostica
+Italien        S -                                       Villa Reale di Marlia
+Italien        S -                                       Castello di Monselice
+Italien        S -                                       Castel Nuovo
+Italien        S -                                       Fortezza Nuova Livorno
+Italien        S -                                       Palazzo dei Normanni Palermo
+Italien        S -                                       Isola del Garda
+Italien        S -                                       Villa Lante
+Italien        S -                                       Castel Juval
+Italien        S Schloss Maretsch                        -
+Italien        S -                                       Palazzo Madama
+Kroatien       O -                                       Gradina Trsat
+Lettland       N -                                       Rundāles pils muzejs
+Litauen        N -                                       Gedimino pilies
+Litauen        N Inselburg Trakai                        -
+Malta          S -                                       Casa Rocca Piccola
+Polen          O Warschauer Königsschloss                Zamek Królewski w Warszawie
+Polen          O Schloss Pleß                            Muzeum Zamkowe w Pszczynie
+Polen          O Marienburg                              Malbork
+Portugal       S -                                       Castelo de Guimarães
+Portugal       S -                                       Quinta da Esperança
+Portugal       S -                                       Palácio da Regaleira
+Portugal       S -                                       Palácio Nacional de Sintra
+Portugal       S -                                       Paço Ducal de Vila Viçosa
+Portugal       S -                                       Palácio Nacional de Queluz
+Portugal       S -                                       Castelo dos Mouros Sintra
+Portugal       S -                                       Castelo de Óbidos
+Portugal       S -                                       Paço dos Duques de Bragança Guimarães
+Rumänien       O Kirchenburg Birthälm                    Kirchenburg Biertan
+Rumänien       O Kirchenburg Baaßen                      Kirchenburg Bazna
+Rumänien       O Kirchenburg Almen                       Kirchenburg Alma Vii
+Rumänien       O Kirchenburg Bonnesdorf                  Kirchenburg Boian
+Rumänien       O Kirchenburg Scharosch                   Kirchenburg Șaroș pe Târnave
+Rumänien       O Kirchenburg Meschen                     Kirchenburg Moșna
+Rumänien       O Burg Bran                               Castelul Bran
+Russland       O Schloss Peterhof                        -
+Schweden       N -                                       Kärnan i Helsingborg
+Schweden       N Schloss Kalmar                          Kalmar slot
+Slowakei       O Burg Nitra                              Nitriansky hrad
+Slowakei       O Burg Bratislava                         Bratislavský hrad
+Slowenien      O -                                       Ptujski Grad
+Slowenien      O Schloss Negova                          Grad Negova
+Spanien        S -                                       Castillo de la Concepción
+Spanien        S -                                       Alcazaba de Málaga
+Spanien        S -                                       Finca Raixa
+Spanien        S -                                       Castell de Bellver
+Spanien        S -                                       Alcazaba de Almería
+Spanien        S -                                       Reales Alcázares de Sevilla
+Spanien        S -                                       Alhambra
+Tschechien     O Königsburg Loket                        -
+Tschechien     O Erzbischöfliches Schloss Kroměříž       Arcibiskupský zámek Kroměříž
+Tschechien     O Burg und Schloss Bečov nad Teplou       -
+Ungarn         O Schloss Gödöllői                        Gödöllői Királyi Kastély
+Zypern         S Burg von Limassol                       Lemesos Castle

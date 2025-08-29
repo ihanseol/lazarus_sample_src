@@ -1,0 +1,38 @@
+"Matrix" application help.
+==========================
+
+"Matrix" is a mathematics application that may be used to do simple matrix calculations. The operations actually supported are the following:
+  - Arithmetic operations:
+    Addition, subtraction, multiplication by a scalar, matrix multiplication, inversion.
+  - Row operations:
+    Transposition, row switching, row multiplication, row addition, row subtraction.
+For details, concerning these operations, you may want to have a look at my "Basic matrix operations" tutorial at
+  https://www.streetinfo.lu/learning/math/matrix.html
+The applications supports matrices with 1, 2, 3 or 4 rows/columns, except for the inversion, where it actually only does the calculation for 1×1 and 2×2 matrices.
+
+You can choose the operation group (arithmetic or row operation) by selecting the corresponding item in the "Calculation" menu, then the operation itself by checking one of the radio buttons displayed for the actual operation group. If the operation acts on one operand only, the second matrix and the second calculation button will be hidden.
+Entering a number from 1 – 4 into the matrix size fields (the first field is for its rows, the second for its columns), adapts the matrix displayed as soon as you left the edit field. You can now enter the row and column values of the matrix (resp. of the two matrices).
+
+To enter your own matrix values, select "Custom" in the combobox behind the matrix size input fields. The next two combobox items allow to generate a sample matrix: "Random" generates values belonging to a [minimum, maximum] interval; sequence generates subsequent values beginning with a given start-value and setting value (n+1) to value (n) plus a given step.
+The resting combobox items allow to enter some special matrices:
+  - Identity: the diagonal (from left-top to right-bottom) with 1 values, all resting elements being 0.
+  - Diagonal: the diagonal with any values, the resting elements being 0.
+  - Lower triangular: the diagonal and all elements situated below it with any value, the resting elements being 0.
+  - Upper triangular: the diagonal and all elements situated above it with any value, the resting elements being 0.
+  - Symmetric: the matrix elements being such that A[i,j] = A[j,i].
+  - Skew-symmetric: the matrix elements being such that A[i,j] = -A[j,i].
+  
+What values are to be used to fill in the variable values of the special matrices depends on the selection, that you made in "Options > Special matrices":
+  - Random values: Random values of the [min, max] interval.
+  - Value sequence: Subsequent values obtained by successive addition of a step value (ex: 0, 2, 4...).
+  - User defined: Values have to be entered by the user.
+This last option is not available for
+  - The identity matrix (that has all fixed values).
+  - The symmetric and skew-symmetric matrices (that will be filled with random values or a value sequence).
+
+The calculation is done by pushing the corresponding button. For operations that involve 2 operands, two buttons are available, for example in the case of matrix multiplication, one to calculate A ∙ B and one to calculate B ∙ A (that normally are different). If the actual operation is undefined or not possible for the actual matrix (matrices), an error message is displayed; e.g. matrix addition is only defined for 2 matrices of the same size.
+
+The minimum and maximum of the random values, as well as the starting value and the step of the value sequences may be set in the "Options" menu. In the case of random values, you can choose to use or not only integers.
+
+If you find this application helpful, please, support me and my website by signing my guestbook at
+  https://www.streetinfo.lu/guestbook.html

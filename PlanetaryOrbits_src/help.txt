@@ -1,0 +1,40 @@
+2D Planetary Orbits Simulation.
+=====================
+
+Animated simulation of the motion of the 9 planets of our solar system around the sun. Select the planets, you want to include in the simulation (the "All" button selects all planets, clicking "None" deselects them all) and push the "Start" button. To show the planetary orbits and the planet movement animation, use the "Graphics" button; click "Close" on the graphics form to return to the main window. You may pause the simulation by pushing the "Pause" button; to continue again, click "Resume". Please, note that most simulation and display settings cannot be changed during simulation (even if you pause it)!
+
+The "Settings" menu.
+-----------------------
+
+Simulation time step.
+The time step used to run the simulation. Possible values are: 1 day, 1 week and 1 month. E.g.: if you choose a time step of 1 day, each update of the distance and velocity values as well as the position of the planets on the graph corresponds to the situation "in space" after 1 more day has passed. I added this option in order to speed up planet movement in the case the outer orbits planets (which have very high revolution periods) are included in the simulation. This means: if you only wants to simulate the inner orbits planets, select a time step of 1 day, if you want to simulate all planets choose 1 week or 1 month. Note that with a time step of 1 month, there are not values enough to simulate the planets with very small revolution periods; thus, selecting Mercury and/or Venus and set the time step to 1 month, you will get an error message.
+
+Timer interval.
+Real time interval (on your computer) used for simulation update. Possible values are between 1sec to 1/1000sec. E.g. For a time step of 1 day and a timer interval of 10ms, 1/100 sec in reality corresponds to 1 day "space time". Please, note that this isn't really the case: the computation of the planets positions make necessary thousands of resource consuming mathematical operations and even very fast computers wouldn't be able to handle them during the times stated.
+Note that this setting may be changed during simulation.
+
+Display planet orbits.
+If this option is selected, the planetary orbits are drawn as colored circles/ellipses. To improve the display, the inner orbits will not be displayed if the outer orbit planets are included in the simulation and the planets themselves are displayed. Also note that with a 1 week or 1 month time step, orbits will not been drawn properly if you choose to only display the inner orbits planets (the automatically adjusted drawing scale being lots larger). A warning message will be displayed in this case; you can turn this message off by checking the "Turn orbit drawing warnings off" option.
+
+Display planet movement.
+If this option is checked, the planets selected moving around the sun are displayed. Unchecking the option allows to show the planetary orbits without the planets animation.
+
+Use sized planet images.
+If this option is unchecked, planets are shown as small colored circle shapes; if you check it, real images of the planets are used. These images are of different size, according to the real size of the corresponding planet. The sizes used are nothing more than indications (showing that earth is larger than Mars and lots smaller than Jupiter); from the point of view of the relative size of the different planets one to the other, the image sizes are completely incorrect (in reality, the Earth radius is 6x the one of Pluto and the radius of Jupiter 11x the one of the Earth).
+
+Use same horiz. and vert. scaling.
+This option has been added because of the different pixel size of width and height of the computer screen. When checked, horizontal and vertical scaling used are the same: the orbits appear as circles, as they should, but the major part of the outer orbits falls outside the screen. If unchecked, vertical scale is chosen 1/2 of horizontal scale: the orbits appear as ellipses and are completely within the screen limits in all cases. The drawing surface is chosen 1546 x 800 pixels, which corresponds to a screen resolution of 1920 x 1080 with a scale of 125%.
+
+Turn revolution messages off.
+If this option is checked, a message is displayed when a given planet has (for the first time) accomplished a complete revolution around the sun. Turning the message off is useful when simulation runs very quickly (low timer intervals and/or high simulation steps).
+
+What does this simulation really (and correctly) show?
+-----------------------------------------------------------
+1. the relative distance of the 9 planets of our solar system from the sun and to each other
+2. the planets' orbit periods (time they make to accomplish a full revolution around the sun)
+3. the direction they move when turning around the sun (Venus and Uranus turning in opposite direction of the other 7 planets)
+4. an indication of the different planets size
+
+Enjoy!
+
+PlanetaryOrbits, version 1.1, © allu, June 2018 - September 2021.

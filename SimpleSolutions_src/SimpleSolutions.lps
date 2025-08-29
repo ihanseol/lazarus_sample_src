@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="SimpleSolutions.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos Y="25"/>
+        <UsageCount Value="95"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="solutions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fSolutions"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="95"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="641" Column="15" TopLine="635"/>
+      </Position1>
+      <Position2>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="640" Column="15" TopLine="634"/>
+      </Position2>
+      <Position3>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="641" Column="15" TopLine="615"/>
+      </Position3>
+      <Position4>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="775" TopLine="759"/>
+      </Position4>
+      <Position5>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="160" TopLine="137"/>
+      </Position5>
+      <Position6>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="329" Column="99" TopLine="316"/>
+      </Position6>
+      <Position7>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="608" Column="71" TopLine="595"/>
+      </Position7>
+      <Position8>
+        <Filename Value="help.pas"/>
+        <Caret Line="38" Column="9" TopLine="14"/>
+      </Position8>
+      <Position9>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="967" Column="11" TopLine="946"/>
+      </Position9>
+      <Position10>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="970" Column="11" TopLine="949"/>
+      </Position10>
+      <Position11>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="969" Column="11" TopLine="948"/>
+      </Position11>
+      <Position12>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="968" Column="11" TopLine="947"/>
+      </Position12>
+      <Position13>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="967" Column="11" TopLine="946"/>
+      </Position13>
+      <Position14>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="968" Column="11" TopLine="947"/>
+      </Position14>
+      <Position15>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="967" Column="11" TopLine="946"/>
+      </Position15>
+      <Position16>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="949" Column="78" TopLine="943"/>
+      </Position16>
+      <Position17>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="293" TopLine="286"/>
+      </Position17>
+      <Position18>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="970" TopLine="945"/>
+      </Position18>
+      <Position19>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="162" Column="90" TopLine="150"/>
+      </Position19>
+      <Position20>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="974" Column="20" TopLine="950"/>
+      </Position20>
+      <Position21>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="946" Column="29" TopLine="926"/>
+      </Position21>
+      <Position22>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="171" Column="6" TopLine="164"/>
+      </Position22>
+      <Position23>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="225" TopLine="199"/>
+      </Position23>
+      <Position24>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="481" Column="90" TopLine="469"/>
+      </Position24>
+      <Position25>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="1027" TopLine="1001"/>
+      </Position25>
+      <Position26>
+        <Filename Value="help.pas"/>
+        <Caret Line="51" Column="73" TopLine="25"/>
+      </Position26>
+      <Position27>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="3" Column="41"/>
+      </Position27>
+      <Position28>
+        <Filename Value="help.pas"/>
+        <Caret Line="44" Column="52" TopLine="27"/>
+      </Position28>
+      <Position29>
+        <Filename Value="help.pas"/>
+        <Caret Line="66" TopLine="40"/>
+      </Position29>
+      <Position30>
+        <Filename Value="solutions.pas"/>
+        <Caret Line="929" Column="22" TopLine="918"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

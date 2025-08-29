@@ -1,0 +1,48 @@
+"Bohr" is a chemistry application about Bohr's theory of the hydrogen atom. It calculates the length of the wave emission (and draws the spectrum) for an electron passing from orbit ni to orbit nf (nf = 1 to 5; ni = nf+1 to 10).
+
+Menu "File".
+============
+
+Exit.
+-----
+Exit the application.
+
+Menu "Options".
+===============
+
+Emission series.
+----------------
+Selection of the emission series to draw the spectrum of. Possible choices: nf = 1 (Lyman series), nf = 2 (Balmer series), nf = 3 (Paschen series), nf = 4, nf = 5, nf = 1..3, nf = 1..5.
+If calculation is done for a single series, the corresponding electron orbit representation is highlighted and the wavelengths are displayed in the table. If multiple series are calculated, the series, to display the wavelengths of, may be chosen in a combobox.
+
+Wave band coloration.
+---------------------
+Selection of how to color the wave bands of the spectrum:
+ - Wave color: The visible color, if so, or plum for UV resp. dark red for IR (also affects the color displayed in the table).
+ - Wave color (extended): Similar to above, but using different colors for the different UV and IR subtypes (also affects the color in the table).
+ - None (all same color): All bands are drawn in white (the color in the table corresponding to "wave color").
+ - Spectrum series: Spectrum bands colored depending on nf (simple or extended wave color in the table).
+The option "Spectrum series" is only available for multiple series to be calculated. In this case the electron orbits are colored the same way as are the spectrum bands.
+
+Wave band width.
+----------------
+Width of the spectrum color bands. Possible choices: 1, 2 or 3 pixels.
+
+Spectrum origin at 0.
+---------------------
+To get a maximum spacing between the color bands (in order to distinguish them), the origin of the spectrum axis is by default set to the minimum wavelength of the series shown. Checking this option sets the axis origin to 0 instead.
+
+Energy values in joule.
+-----------------------
+By default, energy values in the table are displayed in electron volt (eV). Check this option if you prefer values in joule (J).
+
+Menu "Help".
+============
+
+Help.
+-----
+Display of the application usage help (this text).
+
+About.
+------
+Display of the application version, author and date-written.

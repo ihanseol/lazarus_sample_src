@@ -1,0 +1,198 @@
+# ================================ #
+# Rivers, with length over 1000km. #
+# ================================ #
+
+# In order to have "Geography1" work correctly, please, DO NOT CHANGE THIS FILE'S CONTNET!
+# ----------------------------------------------------------------------------------------
+
+# Data from https://en.wikipedia.org/wiki/List_of_rivers_by_length
+# (Some rivers ignored, because of double names, etc; Russia and Turkey considered to be part of Asia for simplicity)
+
+# List columns:
+#  1-20: River name
+# 21-24: Length in km; 31-34: Length in ft
+# 41-47: Drainage area (km2); 51-56: Average discharge (m3/s)
+# 61-80: Outflow
+# 81-82: Continent code; 91-  : Countries in drainage basin
+
+Nile                6650      4130      3254555   002800    Mediterranean       AF        Ethiopia, Eritrea, Sudan, Uganda, Tanzania, Kenya, Rwanda, Burundi, Egypt, Dem. Rep. of the Congo, South Sudan
+Amazon              6575      4086      7050000   209000    Atlantic Ocean      SA        Brazil, Peru, Bolivia, Colombia, Ecuador, Venezuela, Guyana
+Yangtze             6300      3917      1800000   031900    East China Sea      AS        China
+Mississippi         6275      3902      2980000   016200    Gulf of Mexico      NA        United States, Canada
+Yenisei             5539      3445      2580000   019600    Kara Sea            AS        Russia, Mongolia
+Yellow River        5464      3395      0745000   002110    Bohai Sea           AS        China
+Ob                  5410      3364      2990000   012800    Gulf of Ob          AS        Russia, Kazakhstan, China, Mongolia
+Paraná              4880      3030      2582672   018000    Río de la Plata     SA        Brazil, Argentina, Paraguay, Bolivia, Uruguay
+Congo               4700      2922      3680000   041800    Atlantic Ocean      AF        Dem. Rep. of the Congo, Central African Rep., Angola, Rep. of the Congo, Tanzania, Cameroon, Zambia, Burundi, Rwanda
+Amur                4444      2763      1855000   011400    Sea of Okhotsk      AS        Russia, China, Mongolia
+Lena                4400      2736      2490000   017100    Laptev Sea          AS        Russia
+Mekong              4350      2705      0810000   016000    South China Sea     AS        China, Myanmar, Laos, Thailand, Cambodia, Vietnam
+Mackenzie           4241      2637      1790000   010300    Beaufort Sea        NA        Canada
+Niger               4200      2611      2090000   009570    Gulf of Guinea      AF        Nigeria, Mali, Niger, Algeria, Guinea, Cameroon, Burkina Faso, Côte d'Ivoire, Benin, Chad
+Brahmaputra         3848      2391      0712035   019800    Ganges              AS        India, China, Nepal, Bangladesh, Bhutan
+Murray              3672      2282      1061000   000767    Southern Ocean      AU        Australia
+Tocantins           3650      2270      0950000   013598    Atlantic Ocean      SA        Brazil
+Volga               3645      2266      1380000   008080    Caspian Sea         EU        Russia
+Indus               3610      2250      0960000   007160    Arabian Sea         AS        Pakistan, India, China
+Shatt al-Arab       3596      2236      0884000   000856    Persian Gulf        AS        Iraq, Turkey, Syria
+Madeira             3380      2100      1485200   031200    Amazon              SA        Brazil, Bolivia, Peru
+Purús               3211      1995      0063166   008400    Amazon              SA        Brazil, Peru
+Yukon               3185      1980      0850000   006210    Bering Sea          NA        United States, Canada
+São Francisco       3180      1976      0610000   003300    Atlantic Ocean      SA        Brazil
+Syr                 3078      1913      0019000   000703    Aral Sea            AS        Kazakhstan, Kyrgyzstan, Uzbekistan, Tajikistan
+Salween             3060      1901      0324000   003153    Andaman Sea         AS        China, Myanmar, Thailand
+Saint Lawrence      3058      1900      1030000   010100    Gulf of St Lawrence NA        Canada, United States
+Rio Grande          3057      1900      0570000   000082    Gulf of Mexico      NA        United States, Mexico
+Lower Tunguska      2989      1857      0473000   003600    Yenisei             AS        Russia
+Danube              2888      1795      0817000   007130    Black Sea           EU        Romania, Hungary, Austria, Serbia, Germany, Slovakia, Bulgaria, Croatia, Ukraine
+Irrawaddy River     2727      1694      0404200   013000    Andaman Sea         AS        China, Myanmar
+Zambezi             2693      1673      1330000   004880    Mozambique Channel  AF        Zambia, Angola, Zimbabwe, Mozambique, Malawi, Tanzania, Namibia, Botswana
+Vilyuy              2650      1647      0454000   001480    Lena                AS        Russia
+Araguaia            2627      1632      0358125   005510    Tocantins           SA        Brazil
+Ganges              2620      1628      0907000   012037    Bay of Bengal       AS        India, Bangladesh, Nepal
+Amu Darya           2620      1628      0534739   001400    Aral Sea            AS        Uzbekistan, Turkmenistan, Tajikistan, Afghanistan
+Rio Yapurá          2615      1625      0242259   006000    Amazon              SA        Brazil, Colombia
+Saskatchewan        2570      1597      1093000   002575    Hudson Bay          NA        Canada, United States
+Paraguay            2549      1584      0900000   004300    Paraná              SA        Brazil, Paraguay, Bolivia, Argentina
+Kolyma              2513      1562      0644000   003800    East Siberian Sea   AS        Russia
+Pilcomayo           2500      1553      0270000             Paraguay            SA        Paraguay, Argentina, Bolivia
+Upper Ob            2490      1547                          Ob                  AS        Russia
+Ishim               2450      1522      0177000   000056    Irtysh              AS        Kazakhstan, Russia
+Juruá               2410      1498      0200000   006000    Amazon              SA        Peru, Brazil
+Arkansas            2348      1459      0505000   001066    Mississippi         NA        United States
+Olenyok             2292      1424      0219000   001210    Laptev Sea          AS        Russia
+Dnieper             2287      1421      0516300   001670    Black Sea           EU        Russia, Belarus, Ukraine
+Aldan               2273      1412      0729000   005060    Lena                AS        Russia
+Ubangi              2270      1410      0772800   004000    Congo               AF        Dem. Rep. of the Congo, Central African Rep., Rep. of Congo
+Negro               2250      1398      0720114   026700    Amazon              SA        Brazil, Venezuela, Colombia
+Columbia            2250      1398      0415211   007500    Pacific Ocean       NA        United States, Canada
+Pearl               2200      1376      0437000   013600    South China Sea     AS        China, Vietnam
+Ayeyarwady          2170      1348      0411000   013000    Andaman Sea         AS        Myanmar, China
+Kasai               2153      1338      0880200   010000    Congo               AF        Angola, Dem. Rep. of the Congo
+Ohio                2102      1306      0490603   007957    Mississippi         NA        United States
+Orinoco             2101      1306      1380000   033000    Atlantic Ocean      SA        Venezuela, Colombia, Guyana
+Tarim               2100      1305      0557000             Lop Nur             AS        China
+Xingu               2100      1305                          Amazon              SA        Brazil
+Orange              2092      1300                          Atlantic Ocean      AF        South Africa, Namibia, Botswana, Lesotho
+Northern Salado     2010      1249                          Paraná              SA        Argentina
+Vitim               1978      1229                          Lena                AS        Russia
+Tigris              1950      1212                          Shatt al-Arab       AS        Turkey, Iraq, Syria
+Songhua             1927      1197                          Amur                AS        China
+Tapajós             1900      1181                          Amazon              SA        Brazil
+Don                 1870      1162      0425600   000935    Sea of Azov         EU        Russia, Ukraine
+Stony Tunguska      1865      1159      0240000             Yenisei             AS        Russia
+Pechora             1809      1124      0322000   004100    Barents Sea         EU        Russia
+Kama                1805      1122      0507000   004100    Volga               EU        Russia
+Limpopo             1800      1118      0413000             Indian Ocean        AF        Mozambique, Zimbabwe, South Africa, Botswana
+Chulym              1799      1118      0134000             Ob                  AS        Russia
+Guaporé             1749      1087                          Mamoré              SA        Brazil, Bolivia
+Indigirka           1726      1072      0360400   001810    East Siberian Sea   AS        Russia
+Snake               1670      1038      0279719   001611    Columbia            NA        United States
+Senegal             1641      1020      0419659             Atlantic Ocean      AF        Guinea, Senegal, Mali, Mauritania
+Uruguay             1610      1000      0370000             Atlantic Ocean      SA        Uruguay, Argentina, Brazil
+Blue Nile           1600      0994      0326400             Nile                AF        Ethiopia, Sudan
+Churchill           1600      0994                          Hudson Bay          NA        Canada
+Khatanga            1600      0994                          Laptev Sea          AS        Russia
+Okavango            1600      0994                          Okavango Delta      AF        Namibia, Angola, Botswana
+Volta               1600      0994                          Gulf of Guinea      AF        Ghana, Burkina Faso, Togo, Côte d'Ivoire, Benin
+Beni                1599      0994      0283350   008900    Madeira             SA        Bolivia
+Platte              1594      0990                          Missouri            NA        United States
+Tobol               1591      0989                          Irtysh              AS        Kazakhstan, Russia
+Alazeya             1590      0988      0064700             East Siberian Sea   AS        Russia
+Jubba               1580      0982                          Indian Ocean        AF        Ethiopia, Somalia
+Içá                 1575      0979                          Amazon              SA        Brazil, Peru, Colombia, Ecuador
+Magdalena           1550      0963      0263858   009000    Caribbean           SA        Colombia
+Han                 1532      0952                          Yangtze             AS        China
+Kura                1515      0941      0188400   000575    Caspian Sea         AS        Turkey, Georgia, Azerbaijan
+Oka                 1500      0932      0245000   001258    Volga               EU        Russia
+Upper Murray        1500      0932                          Murray              AU        Australia
+Guaviare            1497      0930                          Orinoco             SA        Colombia
+Pecos               1490      0926                          Rio Grande          NA        United States
+Murrumbidgee River  1485      0923      0084917   000120    Murray              AU        Australia
+Upper Yenisei       1480      0920                          Yenisei             AS        Russia, Mongolia
+Godavari            1465      0910      0312812   003061    Bay of Bengal       AS        India
+Guapay              1438      0894      0102600   000264    Ichilo              SA        Bolivia
+Belaya              1420      0882      0142000   000858    Kama                EU        Russia
+Cooper              1420      0880                          Lake Eyre           AU        Australia
+Marañón             1415      0879                          Amazon              SA        Peru
+Dniester            1411      0877      0072100   000310    Black Sea           EU        Ukraine, Moldova
+Benue               1400      0870                          Niger               AF        Cameroon, Nigeria
+Yili                1400      0870                          Lake Balkhash       AS        China, Kazakhstan
+Warburton           1400      0870      0365000             Lake Eyre           AU        Australia
+Sutlej              1372      0852                          Chenab              AS        China, India, Pakistan
+Yamuna              1370      0851      0366223   002950    Ganges              AS        India
+Vyatka              1370      0851      0129000   000890    Kama                EU        Russia
+Fraser              1368      0850      0220000   003475    Pacific Ocean       NA        Canada, United States
+Grande              1360      0845                          Paraná              SA        Brazil
+Brazos              1352      0840                          Gulf of Mexico      NA        United States
+Liao                1345      0836                          Bohai Sea           AS        China
+Lachlan River       1338      0831      0084700   000049    Murrumbidgee River  AU        Australia
+Yalong              1323      0822                          Yangtze             AS        China
+Iguaçu              1320      0820                          Paraná              SA        Brazil, Argentina
+Olyokma             1320      0820                          Lena                AS        Russia
+Northern Dvina      1302      0809      0357052   003332    White Sea           EU        Russia
+Krishna             1300      0808                          Bay of Bengal       AS        India
+Iriri               1300      0808                          Xingu               SA        Brazil
+Narmada             1289      0801                          Arabian Sea         AS        India
+Lomami              1280      0795                          Congo               AF        Dem. Rep. of the Congo
+Ottawa              1271      0790      0146300   001950    Saint Lawrence      NA        Canada
+Lerma               1270      0789      0119543             Pacific Ocean       NA        Mexico
+Elbe                1252      0778      0148268   000711    North Sea           EU        Germany, Czech Republic
+Zeya                1242      0772                          Amur                AS        Russia
+Juruena             1240      0771                          Tapajós             SA        Brazil
+Upper Mississippi   1236      0768                          Mississippi         NA        United States
+Rhine               1233      0768      0185000   002330    North Sea           EU        Germany, Switzerland, Netherlands, France, Luxembourg, Austria, Belgium, Liechtenstein, Italy
+Athabasca           1231      0765      0095300             Mackenzie           NA        Canada
+Canadian            1223      0760                          Arkansas            NA        United States
+North Saskatchewan  1220      0758                          Saskatchewan        NA        Canada
+Vistula             1213      0754      0194424   001080    Baltic Sea          EU        Poland, Belarus, Ukraine
+Vaal                1210      0752                          Orange              AF        South Africa
+Shire               1200      0746                          Zambezi             AF        Mozambique, Malawi
+Ogowe               1200      0746      0223856   004706    Atlantic Ocean      AF        Gabon, Rep. of the Congo
+Nen                 1190      0739                          Songhua             AS        China
+Kızıl River         1182      0734      0115000   000400    Black Sea           AS        Turkey
+Markha River        1181      0734      0099000   000405    Vilyuy River        AS        Russia
+Green               1175      0730                          Colorado            NA        United States
+Milk                1173      0729                          Missouri            NA        United States, Canada
+Mun                 1162      0722                          Mekong              AS        Thailand
+Chindwin            1158      0720                          Ayeyarwady          AS        Myanmar
+Sankuru             1150      0715                          Kasai               AF        Dem. Rep. of the Congo
+Wu                  1150      0715      0008030   001108    Yangtze             AS        China
+Kapuas              1143      0710                          South China Sea     AS        Indonesia
+Desna               1130      0702      0088900   000360    Dnieper             EU        Russia, Belarus, Ukraine
+Helmand             1130      0702                          Hamun-i-Helmand     AS        Afghanistan, Iran
+Madre de Dios       1130      0702      0125000   004915    Beni                SA        Peru, Bolivia
+Tietê               1130      0702                          Paraná              SA        Brazil
+Vychegda            1130      0702      0121000   001160    Northern Dvina      EU        Russia
+Sepik               1126      0700      0077700             Pacific Ocean       AS        Papua New Guinea, Indonesia
+Cimarron            1123      0698                          Arkansas            NA        United States
+Anadyr              1120      0696                          Gulf of Anadyr      AS        Russia
+Paraíba do Sul      1120      0696                          Atlantic Ocean      SA        Brazil
+Jialing River       1119      0695                          Yangtze             AS        China
+Liard               1115      0693                          Mackenzie           NA        Canada
+Cumberland          1105      0687      0046830   000862    Mississippi         NA        United States
+Huallaga            1100      0684                          Marañón             SA        Peru
+Kwango              1100      0684      0263500   002700    Kasai               AF        Angola, Dem. Rep. of the Congo
+Draa                1100      0684                          Atlantic Ocean      AF        Morocco
+Gambia              1094      0680                          Atlantic Ocean      AF        Gambia, Senegal, Guinea
+Tyung               1092      0679      0049800             Vilyuy River        AS        Russia
+Chenab              1086      0675                          Indus               AS        India, Pakistan
+Yellowstone         1080      0671      0114260             Missouri            NA        United States
+Ghaghara            1080      0671      0127950   002990    Ganges              AS        India, Nepal, China
+Huai River          1078      0670      0270000   001110    Yangtze             AS        China
+Aras                1072      0665      0102000   000285    Kura                AS        Turkey, Armenia, Azerbaijan, Iran
+Chu River           1067      0663      0062500             [none]              AS        Kyrgyzstan, Kazakhstan
+Seversky Donets     1078      0670      0098900   000159    Don                 EU        Russia, Ukraine
+Bermejo             1050      0652                          Paraguay            SA        Argentina, Bolivia
+Fly                 1050      0652                          Gulf of Papua       AS        Papua New Guinea, Indonesia
+Kuskokwim           1050      0652                          Bering Sea          NA        United States
+Tennessee           1049      0652                          Ohio                NA        United States
+Oder                1045      0649      0118861   000550    Baltic Sea          EU        Poland, Germany, Czech Republic
+Aruwimi             1030      0640                          Congo               AF        Dem. Rep. of the Congo
+Daugava             1020      0634      0087900   000678    Gulf of Riga        EU        Latvia, Belarus, Russia
+Gila                1015      0631                          Colorado            NA        United States
+Loire               1012      0629      0115271   000840    Atlantic Ocean      EU        France
+Essequibo           1010      0628                          Atlantic Ocean      SA        Guyana
+Khoper              1010      0628      0061100   000150    Don                 EU        Russia
+Tagus               1006      0625      0080100   000444    Atlantic Ocean      EU        Spain, Portugal
+Flinders River      1004      0624      0109000   000122    Gulf of Carpentaria AU        Australia

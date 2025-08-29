@@ -1,0 +1,309 @@
+object FormRC: TFormRC
+  Left = 115
+  Height = 739
+  Top = 18
+  Width = 1040
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Circuits RC'
+  ClientHeight = 714
+  ClientWidth = 1040
+  DesignTimePPI = 120
+  Menu = MainMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object StaticText1: TStaticText
+    Left = 20
+    Height = 17
+    Top = 24
+    Width = 928
+    Caption = 'Un circuit RC est un circuit électrique où se trouvent en série un générateur de tension E, une résistance R et un condensateur de capacité C.'
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 3
+  end
+  object StaticText2: TStaticText
+    Left = 20
+    Height = 17
+    Top = 64
+    Width = 928
+    Caption = 'Etude de la tension aux bornes du condensateur et du courant en fonction du temps lors'
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 5
+  end
+  object RadioButtonCharge: TRadioButton
+    Left = 20
+    Height = 23
+    Top = 96
+    Width = 101
+    Caption = ' de la charge'
+    Checked = True
+    Font.Height = -13
+    OnChange = RadioButtonChargeChange
+    ParentFont = False
+    TabOrder = 6
+    TabStop = True
+  end
+  object RadioButtonDisCharge: TRadioButton
+    Left = 276
+    Height = 23
+    Top = 96
+    Width = 116
+    Caption = ' de la décharge'
+    Font.Height = -13
+    OnChange = RadioButtonDisChargeChange
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Label1: TLabel
+    Left = 20
+    Height = 17
+    Top = 148
+    Width = 55
+    Caption = 'Tension E'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Voltage: TEdit
+    Left = 80
+    Height = 25
+    Top = 144
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 276
+    Height = 17
+    Top = 148
+    Width = 73
+    Caption = 'Résistance R'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Resistance: TEdit
+    Left = 355
+    Height = 25
+    Top = 144
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 548
+    Height = 17
+    Top = 148
+    Width = 62
+    Caption = 'Capacité C'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Capacity: TEdit
+    Left = 616
+    Height = 25
+    Top = 144
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 2
+  end
+  object UnitVoltage: TComboBox
+    Left = 150
+    Height = 28
+    Top = 144
+    Width = 48
+    Font.Height = -13
+    ItemHeight = 17
+    ItemIndex = 0
+    Items.Strings = (
+      'V'
+      'mV'
+    )
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 8
+    TabStop = False
+    Text = 'V'
+  end
+  object UnitResistance: TComboBox
+    Left = 425
+    Height = 28
+    Top = 144
+    Width = 48
+    Font.Height = -13
+    ItemHeight = 17
+    ItemIndex = 1
+    Items.Strings = (
+      'MΩ'
+      'kΩ'
+      'Ω'
+    )
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 9
+    TabStop = False
+    Text = 'kΩ'
+  end
+  object UnitCapacity: TComboBox
+    Left = 685
+    Height = 28
+    Top = 144
+    Width = 48
+    Font.Height = -13
+    ItemHeight = 17
+    ItemIndex = 0
+    Items.Strings = (
+      'µF'
+      'nF'
+      'pF'
+    )
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 10
+    TabStop = False
+    Text = 'µF'
+  end
+  object Graph: TImage
+    Left = 20
+    Height = 450
+    Top = 200
+    Width = 1000
+  end
+  object Label4: TLabel
+    Left = 20
+    Height = 17
+    Top = 679
+    Width = 123
+    Caption = 'Tension maximale U0'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object CVoltageMax: TEdit
+    Left = 152
+    Height = 25
+    Top = 675
+    Width = 64
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object Label5: TLabel
+    Left = 276
+    Height = 17
+    Top = 679
+    Width = 112
+    Caption = 'Courant maximal I0'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object CCurrentMax: TEdit
+    Left = 395
+    Height = 25
+    Top = 675
+    Width = 64
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object Label6: TLabel
+    Left = 544
+    Height = 17
+    Top = 679
+    Width = 127
+    Caption = 'Constante de temps τ'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Tau: TEdit
+    Left = 680
+    Height = 25
+    Top = 675
+    Width = 64
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object ButtonCalc: TButton
+    Left = 945
+    Height = 28
+    Top = 675
+    Width = 75
+    Caption = 'Calcul'
+    OnClick = ButtonCalcClick
+    TabOrder = 4
+    TabStop = False
+    Visible = False
+  end
+  object MainMenu: TMainMenu
+    left = 960
+    top = 144
+    object MenuCalc: TMenuItem
+      Caption = 'Calcul'
+      object MenuCalcU: TMenuItem
+        Caption = 'Tension u(t)'
+        OnClick = MenuCalcUClick
+      end
+      object MenuCalcI: TMenuItem
+        Caption = 'Courant i(t)'
+        OnClick = MenuCalcIClick
+      end
+      object MenuCalcBoth: TMenuItem
+        Caption = 'u(t) et i(t)'
+        OnClick = MenuCalcBothClick
+      end
+      object MenuCalcExit: TMenuItem
+        Caption = 'Quitter'
+        OnClick = MenuCalcExitClick
+      end
+    end
+    object MenuHelp: TMenuItem
+      Caption = 'Aide'
+      object MenuHelpPhysics: TMenuItem
+        Caption = 'Physique'
+        OnClick = MenuHelpPhysicsClick
+      end
+      object MenuHelpProgram: TMenuItem
+        Caption = 'Aide'
+        OnClick = MenuHelpProgramClick
+      end
+      object MenuHelpAbout: TMenuItem
+        Caption = 'Info'
+        OnClick = MenuHelpAboutClick
+      end
+    end
+  end
+  object PopupAbout: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Text = 'Text'
+    Title = 'Circuits RC - Info'
+    Visible = False
+    left = 864
+    top = 144
+  end
+end

@@ -1,0 +1,121 @@
+object fHelp: TfHelp
+  Left = 249
+  Height = 545
+  Top = 143
+  Width = 948
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Luxverbes1: Programm Hëllef'
+  ClientHeight = 545
+  ClientWidth = 948
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object Memo1: TMemo
+    Left = 11
+    Height = 473
+    Top = 10
+    Width = 926
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"Luxverbes1" ass e Programm, deen Exercicen iwwert d''Konjugatioun vun de lëtzebuergesch Verben am Indikativ Präsens generéiert; d''Verbe ginn aus enger Lëscht mat 400 Wierter ausgewielt. De Programm kann och benotzt gi fir de Präsens vun engem Verb ze affichéieren.'
+      ''
+      '===================='
+      '= De Programm-Menü ='
+      '===================='
+      ''
+      'Menüpunkt "Exercice".'
+      '====================='
+      ''
+      'Neien Exercice:'
+      '---------------'
+      'Neien Exercice (mat Zerécksetze vun de Compteure) starten. Dëse Befehl ass noutwendeg wann een Exercice fäerdeg ass an ebenfalls wann een d''Zuel vun de Froe geännert huet.'
+      ''
+      'Konjugatioun:'
+      '-------------'
+      'Affichéiere vum Indikativ Präsens vun engem ("bal beliebege") lëtzebuerger Verb. Cf. méi wäit ënne fir Detailer.'
+      ''
+      'Zoumaachen:'
+      '-----------'
+      'De Programm verloossen.'
+      ''
+      'Menüpunkt "Astellungen".'
+      '========================'
+      ''
+      'Zuel vun de Froen:'
+      '------------------'
+      'Eragi wivill Froen den Exercice soll hunn; d''Virastellung ass 20. Fir datt dës Astellung aktiv gëtt, "Neien Exercice" am Menü "Exercice" wielen.'
+      ''
+      'Punkten op 100:'
+      '---------------'
+      'Normalerweis ginn d''Punkte vergi wéi an der Schoul zu Lëtzebuerg, also mat engem Maximum vu 60. Ass d''Astellung "Punkten op 100" ausgewielt, gëtt matt engem Maximum vun 100 gerechent (wat dat selwecht wéi eng Erfollegsquote a Prozent ass).'
+      ''
+      'Infinitiv verstoppen:'
+      '---------------------'
+      'Den Infinitiv vum Verb net op lëtzebuergesch uweisen. En plus vun der Konjugatioun ass an dësem Fall also och d''Iwwersetze vum Franséischen oder Däitschen erfuederlech.'
+      ''
+      '-éieren Froe wegloossen:'
+      '------------------------'
+      'Keng Froe mat Verben, déi op -éieren ende, stellen (déi sinn alleguer regelméisseg...).'
+      ''
+      'Pluriel Froe wegloossen:'
+      '------------------------'
+      'Keng Froe mat Konjugatioun am Pluriel stellen (de Pluriel ass bal ëmmer 100% regelméisseg).'
+      ''
+      'Mat Ausnahm vun der Zuel vun de Froe, kënnen d''Astellungen och während dem Exercice geännert ginn.'
+      ''
+      'Menupunkt "Hëllef".'
+      '==================='
+      ''
+      'Hëllef:'
+      '-------'
+      'Dëse Programm-Hëllefstext uweisen .'
+      ''
+      'Iwwer:'
+      '------'
+      'Informatiounen iwwert de "Luxverbes1" Programm uweisen.'
+      ''
+      '===================='
+      '= Exercice maachen ='
+      '===================='
+      ''
+      'Mam Knäppche "Fro" gëtt eng nei Fro generéiert. Den Infinitiv vum Verb an d''Persoun (+ de Genre fir déi 3. Persoun singulier) ginn ugewisen an d''Utilisatrice muss dat konjugéiert Verb eraginn. Dobäi ass ze beuechten, de betounte Pronomen ("pronom tonique") ze verwenden (also "du" a net "de", "mir" a net "mer"...); Ausnahm sinn déi onperséinlech Verbe, wou de Programm als Pronomen "ët" erwaart (z.B. "ët reent").'
+      ''
+      'Nom Raginn vum konjugéierte Verb, de Knäppchen "Äntwert" drécken: De Programm kontrolléiert ob d''Äntwert richteg ass an d''Evaluatiouns-Compteuren (Zuel vun de richtegen a falschen Äntwerten, aktuell Punkte) ginn à jour gemeet.'
+      ''
+      'Wann all Froen (20 oder souvill wéi am Menü "Astellungen" ausgewielt) duurch sinn, kann een iwwert de Menüpunkt "Neien Exercice" een aneren Exercice starten.'
+      ''
+      '==============================='
+      '= D''Konjugatioun affichéieren ='
+      '==============================='
+      ''
+      'En plus vum Generéiere vun Exercice, kann de "Luxverbes1" Programm benotzt gi, fir den Indikativ Präsens vun engem lëtzebuergesche Verb, dat d''Utilisatrice eragëtt, unzeweiseen. Wann dëst Verb eent ass, dat de Programm kennt (also ee vun dee 400 aus senger Lëscht), ass alles ok. Ass ët, par contre, eent him onbekannte Verb, da kann hie just probéieren ët richteg ze konjugéieren, ouni datt ët eng Garantie duefir gëtt, datt wat hien uweist net een oder méi Fehler opweist. Dat läit an éischter Linn dorun, datt ët kengerlee Méiglegkett gëtt, d''Metaphonèse an deer 2. an 3. Persoun singulier virauszesoen. Grad bei sou Verben ass d''Chance, datt déi ugewise Konjugatioun net richteg ass, also relativ héich.'
+      ''
+      'Hei puer Detailer, wat de Programm mécht a wivill ee sech op dat verloosse ka, wat hien errechent:'
+      ''
+      '1. D''Konjugatioun vu regelméissege Verben, inklusiv d''Berücksichtigung vun de Regelen vun der lëtzebuergescher Orthographie ("dédoublement de la voyelle tonique", "dessonorisation de la consonne finale"...) ass praktesch ëmmer korrekt. Problemer gëtt ët just da, wann d''Verb ee separable Prefix enthält, deen de Programm net als solchen erkennt (net auszeschléissen dass och deen ëmgedréite Fehler méiglech ass).'
+      ''
+      '2. Dem Programm onbekannt onregelméisseg Verbe bestinn aus engem Prefix + dem Basisverb an de Programm konjugéiert dat zesummegesat Verb nom Modell vun deem Basisverb (z.B. unhunn = un- + hunn; sech ausdinn = pronominal Form vun aus- + dinn). Dat heescht, datt mat dee selwechten Aschränkunge wéi bei dee regelméissege Verben, déi ugewise Konjugatioun normalerweis korrekt ass.'
+      ''
+      '3. De Problem sinn d''Verben matt Metaphonèse. Ähnlech wéi bei den onregelméissege Verbe probéiert de Programm ee Prefix an ee Basisverb ze detekéieren. Ass dat Basisverb eent aus senger Lëscht, konjugéiert hien d''Verb no dësem Modell, d''Metaphonèse gëtt also erkannt an déi ugewise Konjugatioun ass normalerweis richteg (z.B. behalen = be- + halen an de Programm weist an deer 2. Persoun singulier korrekt "du behäls" un). Fënnt de Programm kee Prefix oder kennt hien och d''Basisverb net, bleift him näischt anescht iwwreg wéi unzehuelen datt d''Verb méiglecherweis regelméisseg ass a konjugéiert ët och esou. Ass ët ee Verb mat Metaphonèse, ass déi ugewise Konjugatioun an esou Fäll ëmmer falsch (z.B. beim Verb "joen" weist de Programm "du jos, hie jot" amplaz "du jees, hie jeet" un).'
+      ''
+      '4. D''Erkenne vun dueble Prefixen ass net implementéiert; hei sinn also fehlerhaft Konjugatiounen ze erwaarden (z.B. agestoen, wou de Programm "ech gestoen an", amplaz "ech gestinn an" uweist).'
+      ''
+      '5. Een anere Problem ass d''Pronominalform vun dem Programm onbekannte Verben. Et ass net méiglech virauszesoen matt wéi engem grammatische Fall ee Verb konjugéiert gëtt. De Programm hëlt a sou Fäll ëmmer den Accusativ; ass et een Dativ-Verb, ass déi ugewise Konjugatioun fehlerhaft (z.B. sech fléiwen, wou de Programm "ech fléiwe mech" amplaz "ech fléiwe mir" uweist).'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 843
+    Height = 31
+    Top = 504
+    Width = 94
+    Caption = 'Zoumaachen'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

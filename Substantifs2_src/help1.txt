@@ -1,0 +1,155 @@
+#######################################
+# Le féminin des substantifs français #
+#######################################
+
+Règle générale:
+===============
+
+Pour les mots français, on ajoute -e au masculin, sauf si ce dernier se termine par -e.
+
+Pour les mots étrangers, on utilise généralement la même forme au féminin qu'au masculin, p.ex.
+  un manager, une manager; un yogi, une yogi.
+Ce n'est cependant pas toujours le cas; p.ex.
+  un speaker, une speakerine; un pizzaiolo, une pizzaiola.
+
+Féminins irréguliers:
+=====================
+
+Les substantifs suivants ont un féminin irrégulier (ne suivant aucune règle):
+  Masculin       Féminin                  Masculin       Féminin
+  -----------------------------------     ------------------------------
+  un clerc       une clergesse            un compagnon   une compagne
+  un copain      une copine               un dieu        une déesse
+  un duc         une duchesse             un empereur    une impératrice
+  un filou       une filoute              un garçon      une fille
+  un héros       une héroïne              un homme       une femme
+  un monsieur    une dame                 un préfet      une préfète
+  un reporter    une reportrice           un roi         une reine
+  un serviteur   une servante             un supporter   une supportrice
+  un valet       une femme de chambre     
+
+S'y ajoutent des substantifs d'origine étrangère, comme p.ex. un barman, une barmaid; un coverboy, une covergirl...
+
+Sont très souvent aussi irréguliers, les noms de relation familiale ou encore les noms d'animaux. Par exemple:
+  un père une mère; un neveu, une nièce;
+  un boeuf, une vache; un cheval, une jument.
+
+Substantifs existant uniquement au masculin.
+============================================
+
+Un certain nombre de substantifs a uniquement une forme masculine, ce qui veut dire, que non seulement la forme féminine du nom est idenique au masculin, mais aussi, qu'il faut utiliser l'article masculin. On dira ainsi "un mannequin" et pour un homme, et pour une femme.
+
+Voici une liste de noms, qui n'ont pas de correspondance au féminin:
+  un ange          un baryton          un démon         un diable
+  un grognon       un médium           un mannequin     un membre
+  un modèle
+
+Substantifs ayant la même forme au masculin et au féminin.
+==========================================================
+
+Un certain nombre de substantifs ne varie pas avec le genre. On utilisera la même forme au féminin qu'au masculin, mais avec un article féminin.
+
+Voici une liste de noms invariables avec le genre:
+  Masculin         Féminin             Masculin         Féminin
+  ---------        ----------          ----------       -----------
+  un ayant-droit   une ayant-droit     un enfant        une enfant
+  un escroc        une escroc          un gourou        une gourou
+  un jockey        une jockey          un kiné          une kiné
+  un témoin        une témoin          un dactylo       une dactylo
+  un sténo         une sténo
+
+Similaire pour les substantifs étrangers comme babysitter, coach, etc.
+
+La féminisation des titres de fonction.
+=======================================
+
+Certaines professions avaient depuis toujours une forme féminine, telle p.ex. un paysan, une paysanne ou un boulanger, une boulangère.
+
+D'autres étaient autrefois considérées comme étant des métiers d'homme; il n'y avait pas de forme féminine et on utilisait l'article masculin, ou, pour être moins sexiste et plus précis des mots composés avec "femme" ou "madame". Ainsi, il était coutûme de dire "un ministre" pour les deux sexes ou "une femme ministre" pour préciser.
+
+Avec "l'émancipation de la femme" est aussi survenue la féminisation des noms de métiers. Chose assez complexe, il me semble. En effet:
+  - Les noms féminins sont généralement des recommandations, donc pas obligatoires.
+  - Ils ne sont pas toujours acceptés, ni par les puristes de la langue, ni dans la pratique.
+  - Avec la création de nouveaux mots, il y souvent divergence sur la terminaison du féminin.
+  - Il y a dans certains cas divergence aussi entre le Québec, d'une part, et les pays européens, de l'autre.
+
+Pas facile donc pour un non-spécialiste d'écrire un programme qui concerne le féminin des substantifs sans que celui-ci comporte des formes non utilisées ou non utilisées dans certaines régions, probablement même des formes erronnées. J'ai essayé de faire de mon mieux, voici les détails:
+
+Noms de métiers toujours féminisés.
+-----------------------------------
+Tout le monde dit aujourd'hui "une ministre", "une juge" ou "une médecin"; le programme accepte donc uniquement cette forme.
+
+Noms de métiers utilisés uniquement au masculin.
+------------------------------------------------
+Il y a quelques noms de métiers, qui, en Europe, ne sont pratiquement jamais mis au féminin ou sont recommandés d'être utilisés au masculin. Le programme utilise cette forme (sexiste, peut-être) pour les mots suivants:
+  Masculin         Féminin
+  ---------        ----------------------------------
+  un poète         un poète, une femme poète
+  un peintre       un peintre, une femme peintre
+  un sculpteur     un sculpteur, une femme sculpteur
+  un maire         un maire, une femme maire
+À noter que le programme n'accepte pas le féminin utilisé au Québec "une mairesse" et, en concordance avec le point précédent, accepte uniquement "une bourgmestre".
+
+Féminisation des noms de métiers en -eur.
+-----------------------------------------
+Pour un cerain nombre d'entre eux, l'Office de la langue française au Québec a proposé une terminaison en -e, forme irrégulière difficile à faire accepter en France et en Belgique, où on utilise une forme identique au masculin. "Substantifs2" accepte les deux formes. Exemples:
+  Masculin         Féminin
+  -------------    -------------------------------
+  un professeur    une professeur, une professeure
+  un docteur       une docteur, une docteure
+  un ingénieur     une ingénieur, une ingénieure
+  un auteur        une auteur, une auteure
+  un commandeur    une commadeur, une commandeure
+
+Noms de métiers avec ou sans terminaison du féminin.
+----------------------------------------------------
+D'après l'Office de la langue française au Québec, certains mots devraient être considérés comme épicènes parce que toute tentative de les féminiser entraînerait ce qu’il y a lieu d’appeler des « collisions sémantiques » et produirait parfois même des effets cocasses. On devrait donc utilier la même forme au masculin et au féminin. En Europe, actuellement, on est d'un autre avis, et on ajoute la terminaison -e au féminin. "Substantifs2" accepte les deux formes. Exemples:
+  Masculin         Féminin
+  -------------    -------------------------
+  un commis        une commis, une commise
+  un matelot       une matelot, une matelote
+  un cuistot       une cuistot, une cuistote
+Similairement, le programme accepte aussi bien "une écrivain" et "une écrivaine". Par contre "une médecine", comme féminin de "un médecin" n'est pas accepté.
+
+Féminins spéciaux (dépendant de la terminaison du masculin).
+============================================================
+
+À la différence des féminins irréguliers, les féminins "spéciaux" suivent une certaine règle, qui dépend de la terminaison du masculin; possibilité d'exceptions (mots à retenir).
+  Masc.           Règle générale        Fém. exceptions        Noms exceptions
+  -----------------------------------------------------------------------------------------------------------------------------
+  -f ou -p        féminin en -ve
+  -x              féminin en -se
+  -er             féminin en -ère
+  -el             féminin en -elle
+  -eau            féminin en -elle
+  -(voyelle)t     féminin en -tte       féminin rég. (-te)     avocat, bigot, candidat, cheminot, dévot, idiot, lauréat,
+                                                               manchot, scélérat, soldat
+  -(voyelle)n     féminin en -nne       féminin rég. (-ne)     tous les noms en -in
+                                                               artisan, courtisan, faisan, Lapon, Persan, sultan, vétéran
+  -teur           féminin en -trice     féminin en -teuse      abatteur, acheteur, ajusteur, batteur, basketteur, chanteur,
+                                                               compteur, conteur, emprunteur, menteur, lutteur, orienteur,
+                                                               planteur, recruteur, sauveteur, skateur, solliciteur, teinteur,
+                                                               testeur, traiteur, transporteur, visiteur,
+  -eur            féminin en -euse      féminin en -trice      ambassadeur
+                                        féminin en -eresse     défendeur, enchanteur, pécheur, vengeur, bailleur (juridique),
+                                                               demandeur (juridique), vendeur (juridique), chasseur (poétique),
+                                                               charmeur (poétique)
+                                        féminin en -e          mayeur, mineur (d'âge), prieur, supérieur
+  -e ou -é        féminin régulier      féminin en -esse       abbé, comte, contremaître, maître, pauvre, prêtre, prince,
+                                                               vicomte
+
+Noms avec plusieures formes du féminin.
+=======================================
+
+Certains noms ont plusieurs formes possibles du féminin. À noter que "Substantifs2" n'en considère que deux, même s'il y en a plus. Exemples:
+  Masculin         Féminin
+  -------------    -------------------------------
+  un chef          une chef, une cheffe
+  un clown         une clowne, une clownesse
+  un inventeur     une inventrice, une inventeuse
+  un reporteur     une reportrice, une reportreuse
+
+Adaptation du programme "Substantifs2".
+=======================================
+
+Suite aux limitations de ma connaissance de la matière tout comme de toutes ces recommandations non obligatoires et pas toujours suivies, des divergences et révisions avec changement possible des terminaisons des noms de métiers féminisés, la manière, dont "Substantifs2" forme les féminins, ne devrait, pour certains cas, ne pas convenir à tout le monde. Comme tous mes programmes sont open source, ceux, qui se connaissent en programmation, sont libres de changer le programme, comme ils le désirent. Pour tout le monde, il y a une possibilité assez simple pour forcer le programme à générer un (ou deux) féminin(s) donné(s) pour un nom donné. Pour en savoir plus, voyez le fichier readme.txt, inclus dans l'archive de distribution de "Substantifs2".

@@ -1,0 +1,496 @@
+object fLatin1: TfLatin1
+  Left = 263
+  Height = 557
+  Top = 143
+  Width = 656
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Grammaire latine: Déclinaisons'
+  ClientHeight = 532
+  ClientWidth = 656
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object rbNouns: TRadioButton
+    Left = 16
+    Height = 27
+    Top = 16
+    Width = 217
+    Caption = ' Déclinaison substantifs:'
+    Checked = True
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnChange = rbNounsChange
+    ParentFont = False
+    TabOrder = 11
+    TabStop = True
+  end
+  object rbAdjs: TRadioButton
+    Left = 16
+    Height = 27
+    Top = 176
+    Width = 198
+    Caption = ' Déclinaison adjectifs:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnChange = rbAdjsChange
+    ParentFont = False
+    TabOrder = 3
+  end
+  object rbAll: TRadioButton
+    Left = 16
+    Height = 27
+    Top = 264
+    Width = 323
+    Caption = ' Déclinaison substantifs avec adjectif:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnChange = rbAllChange
+    ParentFont = False
+    TabOrder = 9
+  end
+  object cbNouns1: TCheckBox
+    Left = 45
+    Height = 27
+    Top = 56
+    Width = 185
+    Caption = ' 1ère déclinaison (40)'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 4
+    TabStop = False
+  end
+  object cbNouns2: TCheckBox
+    Left = 271
+    Height = 27
+    Top = 56
+    Width = 170
+    Caption = ' 2e déclinaison (50)'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 10
+    TabStop = False
+  end
+  object cbNouns3: TCheckBox
+    Left = 45
+    Height = 27
+    Top = 90
+    Width = 170
+    Caption = ' 3e déclinaison (60)'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 17
+    TabStop = False
+  end
+  object cbNouns4: TCheckBox
+    Left = 271
+    Height = 27
+    Top = 90
+    Width = 170
+    Caption = ' 4e déclinaison (20)'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 7
+    TabStop = False
+  end
+  object cbNouns5: TCheckBox
+    Left = 45
+    Height = 27
+    Top = 128
+    Width = 161
+    Caption = ' 5e déclinaison (8)'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 8
+    TabStop = False
+  end
+  object cbAdjs1: TCheckBox
+    Left = 45
+    Height = 27
+    Top = 216
+    Width = 185
+    Caption = ' 1ère déclinaison (50)'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 5
+    TabStop = False
+  end
+  object cbAdjs2: TCheckBox
+    Left = 271
+    Height = 27
+    Top = 216
+    Width = 170
+    Caption = ' 2e déclinaison (40)'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 6
+    TabStop = False
+  end
+  object Label1: TLabel
+    Left = 45
+    Height = 23
+    Top = 304
+    Width = 395
+    Caption = 'Avec les substantifs sélectionnés et tous les adjectifs'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object laQuestion: TLabel
+    Left = 16
+    Height = 23
+    Top = 344
+    Width = 76
+    Caption = 'Question:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edQuestion: TEdit
+    Left = 16
+    Height = 31
+    Top = 376
+    Width = 425
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 15
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 23
+    Top = 424
+    Width = 72
+    Caption = 'Réponse:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edAnswer: TEdit
+    Left = 16
+    Height = 31
+    Top = 456
+    Width = 425
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label4: TLabel
+    Left = 496
+    Height = 23
+    Top = 20
+    Width = 77
+    Caption = 'Résultats:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 496
+    Height = 23
+    Top = 60
+    Width = 76
+    Caption = 'Questions'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edRQuestion: TEdit
+    Left = 584
+    Height = 31
+    Top = 56
+    Width = 60
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 16
+  end
+  object Label6: TLabel
+    Left = 496
+    Height = 23
+    Top = 106
+    Width = 56
+    Caption = 'Correct'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edRCorrect: TEdit
+    Left = 584
+    Height = 31
+    Top = 102
+    Width = 60
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object Label7: TLabel
+    Left = 496
+    Height = 23
+    Top = 152
+    Width = 34
+    Caption = 'Faux'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edRFalse: TEdit
+    Left = 584
+    Height = 31
+    Top = 148
+    Width = 60
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object Label8: TLabel
+    Left = 496
+    Height = 23
+    Top = 198
+    Width = 51
+    Caption = 'Succès'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edRSuccess: TEdit
+    Left = 584
+    Height = 31
+    Top = 194
+    Width = 60
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object btQuestion: TButton
+    Left = 550
+    Height = 31
+    Top = 490
+    Width = 94
+    Caption = 'Question'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object edResult: TEdit
+    Left = 16
+    Height = 31
+    Top = 490
+    Width = 425
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object mMenu: TMainMenu
+    Left = 600
+    Top = 240
+    object mExercise: TMenuItem
+      Caption = 'Exercice'
+      object mExerciseNew: TMenuItem
+        Caption = 'Nouveau'
+        OnClick = mExerciseNewClick
+      end
+      object mExerciseExit: TMenuItem
+        Caption = 'Quitter'
+        OnClick = mExerciseExitClick
+      end
+    end
+    object mDeclension: TMenuItem
+      Caption = 'Déclinaisons'
+      object mDeclensionN1: TMenuItem
+        Caption = 'Substantifs I'
+        object mDeclensionN1Rosa: TMenuItem
+          Caption = 'rosa, rosae'
+          OnClick = mDeclensionN1RosaClick
+        end
+      end
+      object mDeclensionN2: TMenuItem
+        Caption = 'Substantifs II'
+        object mDeclensionN2Dominus: TMenuItem
+          Caption = 'dominus, domini'
+          OnClick = mDeclensionN2DominusClick
+        end
+        object mDeclensionN2Ager: TMenuItem
+          Caption = 'ager, agri'
+          OnClick = mDeclensionN2AgerClick
+        end
+        object mDeclensionN2Puer: TMenuItem
+          Caption = 'puer, pueri'
+          OnClick = mDeclensionN2PuerClick
+        end
+        object mDeclensionN2Templum: TMenuItem
+          Caption = 'templum, templi'
+          OnClick = mDeclensionN2TemplumClick
+        end
+      end
+      object mDeclensionN3: TMenuItem
+        Caption = 'Substantifs III'
+        object mDeclensionN3Civis: TMenuItem
+          Caption = 'civis, civis'
+          OnClick = mDeclensionN3CivisClick
+        end
+        object mDeclensionN3Mare: TMenuItem
+          Caption = 'mare, maris'
+          OnClick = mDeclensionN3MareClick
+        end
+        object mDeclensionN3Consul: TMenuItem
+          Caption = 'consul, consulis'
+          OnClick = mDeclensionN3ConsulClick
+        end
+        object mDeclensionN3Corpus: TMenuItem
+          Caption = 'corpus, corporis'
+          OnClick = mDeclensionN3CorpusClick
+        end
+        object mDeclensionN3Pater: TMenuItem
+          Caption = 'pater, patris'
+          OnClick = mDeclensionN3PaterClick
+        end
+        object mDeclensionN3Urbs: TMenuItem
+          Caption = 'urbs, urbis'
+          OnClick = mDeclensionN3UrbsClick
+        end
+        object mDeclensionN3Animal: TMenuItem
+          Caption = 'animal, animalis'
+          OnClick = mDeclensionN3AnimalClick
+        end
+        object mDeclensionN3Febris: TMenuItem
+          Caption = 'febris, febris'
+          OnClick = mDeclensionN3FebrisClick
+        end
+        object mDeclensionN3Vis: TMenuItem
+          Caption = 'vis, ---'
+          OnClick = mDeclensionN3VisClick
+        end
+      end
+      object mDeclensionN4: TMenuItem
+        Caption = 'Substantifs IV'
+        object mDeclensionN4Manus: TMenuItem
+          Caption = 'manus, manus'
+          OnClick = mDeclensionN4ManusClick
+        end
+        object mDeclensionN4Cornu: TMenuItem
+          Caption = 'cornu, cornus'
+          OnClick = mDeclensionN4CornuClick
+        end
+        object mDeclensionN4Domus: TMenuItem
+          Caption = 'domus, domus'
+          OnClick = mDeclensionN4DomusClick
+        end
+      end
+      object mDeclensionN5: TMenuItem
+        Caption = 'Substantifs V'
+        object mDeclensionN5Res: TMenuItem
+          Caption = 'res, rei'
+          OnClick = mDeclensionN5ResClick
+        end
+      end
+      object MenuItem7: TMenuItem
+        Caption = '-'
+      end
+      object mDeclensionA1: TMenuItem
+        Caption = 'Adjectifs I'
+        object mDeclensionA1Bonus: TMenuItem
+          Caption = 'bonus, bona, bonum'
+          OnClick = mDeclensionA1BonusClick
+        end
+        object mDeclensionA1Miser: TMenuItem
+          Caption = 'miser, misera, miserum'
+          OnClick = mDeclensionA1MiserClick
+        end
+        object mDeclensionA1Pulcher: TMenuItem
+          Caption = 'pulcher, pulchra, pulchrum'
+          OnClick = mDeclensionA1PulcherClick
+        end
+      end
+      object mDeclensionA2: TMenuItem
+        Caption = 'Adjectifs II'
+        object mDeclensionA2Acer: TMenuItem
+          Caption = 'acer, acris, acre'
+          OnClick = mDeclensionA2AcerClick
+        end
+        object mDeclensionA2Fortis: TMenuItem
+          Caption = 'fortis, fortis, forte'
+          OnClick = mDeclensionA2FortisClick
+        end
+        object mDeclensionA2Prudens: TMenuItem
+          Caption = 'prudens, prudens, prudens'
+          OnClick = mDeclensionA2PrudensClick
+        end
+        object mDeclensionA2Audax: TMenuItem
+          Caption = 'audax, audax, audax'
+          OnClick = mDeclensionA2AudaxClick
+        end
+        object mDeclensionA2Vetus: TMenuItem
+          Caption = 'vetus, vetus, vetus'
+          OnClick = mDeclensionA2VetusClick
+        end
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsQuestions: TMenuItem
+        Caption = 'Nombre de questions ...'
+        OnClick = mOptionsQuestionsClick
+      end
+      object mOptionsPerson: TMenuItem
+        Caption = 'Adjectifs se rapportant à une personne'
+        Checked = True
+        OnClick = mOptionsPersonClick
+      end
+      object mOptionsNominative: TMenuItem
+        Caption = 'Exclure le nominatif singulier (masculin)'
+        Checked = True
+        OnClick = mOptionsNominativeClick
+      end
+      object mOptionsFrench: TMenuItem
+        Caption = 'Questions (Noms/adjectifs) en français'
+        OnClick = mOptionsFrenchClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Aide'
+      object mHelpGrammar: TMenuItem
+        Caption = 'Aide grammaire'
+        OnClick = mHelpGrammarClick
+      end
+      object mHelpProgram: TMenuItem
+        Caption = 'Aide programme'
+        OnClick = mHelpProgramClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'Info programme'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

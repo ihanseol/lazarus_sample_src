@@ -1,0 +1,50 @@
+Extension of the Lotka-Volterra predator-prey model to 3 species.
+=================================================================
+
+The original Lotka-Volterra predator-prey model may be extended to 3 species, simulating a linear three-species food chain, where the lowest-level prey x is preyed upon by a mid-level species y, which, in turn, is preyed upon by a top level predator z.
+
+The model simulates the variations of the predator and prey population sizes versus time. It is based on the following differential equations:
+
+  dx                 dy                         dz
+  ──  = ax - bxy     ──  =  -cy + dxy - eyz     -- = -f∙z + gyz
+  dt                 dt                         dt
+
+where:
+  x represents the lowest-level population (initial population at t=0: x = x0)
+  y represents the mid-level population (initial population at t=0: y = y0)
+  z represents the top-level population (initial population at t=0: z = z0)
+  a represents the natural growth rate of the lowest-level species in the absence of a predator
+  b represents the the effect of predation on the lowest-level species by the mid-level species
+  c represents the natural death rate of the mid-level species in the absence of prey
+  d represents the efficiency and propagation rate of the mid-level species in the presence of prey
+  e represents the effect of predation on the mid-level species by the top-level species
+  f represents the natural death rate of the top-level species in the absence of prey
+  g represents the efficiency and propagation rate of the top-level species in the presence of prey
+
+a, b, c and d have exactly the same meaing as for the 2-species model. Concerning the supplementary parameters e, f and g, you can say that e for the mid-level species is equivalent to b for the lowest-level species and that f and g for the top-level species are equivalent to c and d for the mid-level species. Concerning species interaction (food chain), the lowest-level species is the prey, the top-level species the predator and the mid-level species is both prey (for the top-level species) and predator (upon the lowest-level species).
+
+In the equations above, note that, as given by the model assumptions:
+  - b and d depend on both the lowest-level and the mid-level species population.
+  - e and g depend on both the mid-level and the top-level species population.
+
+The model leads to one of the following 3 major equilibrium states. The mathematical analysis shows that the equilibrium obtained depends on the equal-less-greater relationship between the product of a and g and the product of b and f (and this independantly of the initial populations and the value of the other parameters).
+
+ag = fb: Periodic oscillation.
+------------------------------
+
+All 3 species populations vary periodically in time, i.e. repeating in time, maximum and minimum values reappearing after always the same number of years. The variations of the three populations are very "similar", the up or down of the lowest-level-level species curve always preceding (in time) the corresponding variation of the mid-level species, itself preceding the corresponding variation of the top-level species. This is "the same" as the periodic population oscillation equilibrium, you get with the original Lotka-Volterra model.
+
+ag < fb: Top-level species extinction.
+--------------------------------------
+
+g increases, f decreases the top-level population, with g also depending on the mid-level population, that itself depends on the lowest-level population. a (increasing the lowest-level population), will increse the top-level population and in a simular way b will decrease it. Thus, a small lowest-level population may lead to a situation, where the top-level species has not enough food to make it grow faster than it is reduced due to natural death and it finishes by extincting. The extincting of the top-level species will have no effect on the lowest-level and mid-level species; their populations will vary with periodic oscillations.
+
+ag > fb: Non-monotonical fluctuations.
+--------------------------------------
+
+As for ga = fb, the 3 species survive and their population sizes present oscillations in time. However, no more periodicity in this situation. The mid-level species presents variations with a relatively small amplitude and the intervals between the curve's maxima become smaller and smaller. The lowest-level and top-level species present completely non-monotonical fluctuations, both population sizes tending to +∞.
+
+Mathematical analysis of the model.
+===================================
+
+People with the required mathematical background, interested in details concerning the 3-species extended Lotka-Volterra predator-prey model (in particular the discussion of the equilibrium states), should have a look at "A Lotka-Volterra Three-species Food Chain", published by The Behrend College, Erie, PA. The text is available as PDF on the Internet...

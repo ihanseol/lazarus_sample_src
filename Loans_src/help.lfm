@@ -1,0 +1,97 @@
+object fHelp: TfHelp
+  Left = 202
+  Height = 573
+  Top = 174
+  Width = 1110
+  BorderIcons = [biSystemMenu]
+  Caption = 'Loan repayment'
+  ClientHeight = 573
+  ClientWidth = 1110
+  DesignTimePPI = 120
+  Font.Height = -18
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 11
+    Height = 30
+    Top = 10
+    Width = 260
+    Caption = '"Loans" application help.'
+    Font.Height = -22
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 11
+    Height = 464
+    Top = 56
+    Width = 1088
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"Loans" is a financial mathematics application concerning interest calculation and loan payback. The application may be used in two ways (depending on the selection in the "Settings" menu):'
+      '  - for a given number of repayment periods (years), determine the amount to pay back each month;'
+      '  - for a given monthly repayment, determine the number of repayment periods.'
+      ''
+      'The application supports 4 different interest methods: simple add-on interest, simple discount interest, simple interest amortized loan, and compound interest. These methods are briefly described when they are actually selected to do the calculations. For details, in particular concerning the formulas to be used, please, have a look at a financial math book.'
+      ''
+      'Values to be entered by the user.'
+      '---------------------------------'
+      ''
+      '  - The principal (= amount you want to borrow) and the annual interest rate (in %).'
+      '  - When calculating the monthly payback amount: the number of periods (years), you have to pay back the loan.'
+      '    When calculating the number of payback periods, the amount that you want to pay back each month.'
+      '  - For compound interest, the numbers of compounding periods per year (1=annually, 2=semi-annually, 12=monthly).'
+      ''
+      'Values calculated by the application.'
+      '-------------------------------------'
+      ''
+      '  - The net amount borrowed (except for a discount interest rate, equal to the principal)'
+      '  - The total interest to pay (largely depending on the interest method used).'
+      '  - The total sum to pay back = net amount borrowed + total interest.'
+      '  - For a given number of repayment periods, the amount to pay back each month.'
+      '    For a given monthly repayment, the number of months that it takes to pay the loan off.'
+      '  - The effective interest rate = annual interest rate (in %) calculated as a quotient of interest and amount borrowed.'
+      ''
+      'Monthly payback table.'
+      '----------------------'
+      ''
+      'After the calculation has been done, you can use the "Details" button to display the pay off of the loan in the form of a table showing the variation of the relevant values from month to month.'
+      ''
+      'The "Old balance" and "New balance" columns show the global balance (amount to pay back) at the beginning and the end of the month, starting with "Old balance" = total amount borrowed and ending with "New balance" = 0 (loan is payed off).'
+      ''
+      'The "Repayment" column shows the amount paid back that month (this is actually a constant value, as entered by the user or calculated by the application).'
+      ''
+      'The "Interest" and "Principal" columns show how much of the monthly payback amount is spent on paying back on the interests resp. on the principal. The sum of these two values is equal to the value in the "Repayment" column.'
+      ''
+      'The "Total Interest" and "Total Principal" columns show the so far paid back amount on the interests resp. the principal. The value in the last row will be equal to the total interest to pay (as calculated) resp. the principal (as entered by the user).'
+      ''
+      'With simple add-on/discount interest, there is a supplementary column labeled "Interest factor". It shows the value of the interest factor for that month as determined by the "Rule 78" and is used to calculate what amount of the monthly payback is spent that month on the payback of the interests.'
+      ''
+      'Notes.'
+      '------'
+      ''
+      '1. User input validity check is rudimentary. Thus, if you enter non-numeric values, decimals where integers are expected, or nonsense data, the behavior of the application will be unpredictable (it may hang, or crash...).'
+      '2. The message "Invalid parameters for a discount interest loan" means that the interest is greater or equal than the principal (in other words: net amount ≤ 0).'
+      '3. The application support for compound interest is limited:'
+      '   - Calculation of the number of payback periods is NOT implemented.'
+      '   - The details table shows the variation of the relevant values only from year to year.'
+      ''
+      'For questions, suggestions or comments, please mail me at allu@streetinfo.lu. If you find the application useful, please sign my guestbook at http://www.ultraguest.com/view/1633861308.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 0
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 1005
+    Height = 31
+    Top = 536
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+end

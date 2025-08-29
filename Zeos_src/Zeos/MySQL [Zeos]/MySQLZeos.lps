@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="MySQLZeos.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mysqlz.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fMySQLZ"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="41" Y="56"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="5" HistoryIndex="4">
+      <Position1>
+        <Filename Value="mysqlz.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="MySQLZeos.lpr"/>
+        <Caret Line="3" Column="48"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mysqlz.pas"/>
+        <Caret Line="13" Column="14"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mysqlz.pas"/>
+        <Caret Line="30" Column="18" TopLine="10"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mysqlz.pas"/>
+        <Caret Line="105" Column="80" TopLine="85"/>
+      </Position5>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,403 @@
+object fMuscles: TfMuscles
+  Left = 125
+  Height = 690
+  Top = 71
+  Width = 1565
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Muscle Contraction'
+  ClientHeight = 665
+  ClientWidth = 1565
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object StaticText1: TStaticText
+    Left = 523
+    Height = 30
+    Top = 5
+    Width = 518
+    Alignment = taCenter
+    Caption = 'Physiology: Tetanized muscle contraction.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 12
+  end
+  object imGraph: TImage
+    Left = 10
+    Height = 600
+    Top = 56
+    Width = 1165
+  end
+  object laModel: TLabel
+    Left = 1192
+    Height = 23
+    Top = 56
+    Width = 150
+    Caption = 'Hill''s muscle model.'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object rbHillFull: TRadioButton
+    Left = 1192
+    Height = 27
+    Top = 95
+    Width = 128
+    Caption = ' Full equation'
+    Checked = True
+    OnChange = rbHillFullChange
+    TabOrder = 13
+    TabStop = True
+  end
+  object rbHillNorm: TRadioButton
+    Left = 1381
+    Height = 27
+    Top = 95
+    Width = 117
+    Caption = ' Normalized'
+    OnChange = rbHillNormChange
+    TabOrder = 14
+  end
+  object laParamA: TLabel
+    Left = 1192
+    Height = 23
+    Top = 188
+    Width = 92
+    Caption = 'Parameter a'
+    ParentColor = False
+  end
+  object edParamA: TEdit
+    Left = 1421
+    Height = 31
+    Top = 184
+    Width = 77
+    Alignment = taRightJustify
+    TabOrder = 0
+  end
+  object laParamB: TLabel
+    Left = 1192
+    Height = 23
+    Top = 228
+    Width = 93
+    Caption = 'Parameter b'
+    ParentColor = False
+  end
+  object edParamB: TEdit
+    Left = 1421
+    Height = 31
+    Top = 224
+    Width = 77
+    Alignment = taRightJustify
+    TabOrder = 1
+  end
+  object laParamC: TLabel
+    Left = 1192
+    Height = 23
+    Top = 268
+    Width = 91
+    Caption = 'Parameter c'
+    ParentColor = False
+  end
+  object edParamC: TEdit
+    Left = 1421
+    Height = 31
+    Top = 264
+    Width = 77
+    Alignment = taRightJustify
+    TabOrder = 2
+  end
+  object edEquation: TEdit
+    Left = 1192
+    Height = 31
+    Top = 136
+    Width = 306
+    Alignment = taCenter
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 16
+    Text = '(F + a)(V + b) = c'
+  end
+  object laVMax: TLabel
+    Left = 1192
+    Height = 23
+    Top = 388
+    Width = 185
+    Caption = 'Maximum velocity Vmax'
+    ParentColor = False
+  end
+  object edVMax: TEdit
+    Left = 1421
+    Height = 31
+    Top = 384
+    Width = 77
+    Alignment = taRightJustify
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object laFMax: TLabel
+    Left = 1192
+    Height = 23
+    Top = 348
+    Width = 159
+    Caption = 'Maximum load Fmax'
+    ParentColor = False
+  end
+  object edFMax: TEdit
+    Left = 1421
+    Height = 31
+    Top = 344
+    Width = 77
+    Alignment = taRightJustify
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object laPMax: TLabel
+    Left = 1192
+    Height = 23
+    Top = 428
+    Width = 175
+    Caption = 'Maximum power Pmax'
+    ParentColor = False
+  end
+  object edPMax: TEdit
+    Left = 1421
+    Height = 31
+    Top = 424
+    Width = 77
+    Alignment = taRightJustify
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object laUPMax: TLabel
+    Left = 1506
+    Height = 23
+    Top = 428
+    Width = 51
+    Caption = 'cm·g/s'
+    ParentColor = False
+  end
+  object laUFMax: TLabel
+    Left = 1506
+    Height = 23
+    Top = 348
+    Width = 10
+    Caption = 'g'
+    ParentColor = False
+  end
+  object laUVMax: TLabel
+    Left = 1506
+    Height = 23
+    Top = 388
+    Width = 37
+    Caption = 'cm/s'
+    ParentColor = False
+  end
+  object btDraw: TButton
+    Left = 1327
+    Height = 31
+    Top = 625
+    Width = 94
+    Caption = 'Draw'
+    Enabled = False
+    OnClick = btDrawClick
+    TabOrder = 11
+  end
+  object btCompute: TButton
+    Left = 1192
+    Height = 31
+    Top = 625
+    Width = 94
+    Caption = 'Compute'
+    OnClick = btComputeClick
+    TabOrder = 10
+  end
+  object laParamK: TLabel
+    Left = 1192
+    Height = 23
+    Top = 308
+    Width = 84
+    Caption = 'Constant K'
+    ParentColor = False
+  end
+  object edParamK: TEdit
+    Left = 1421
+    Height = 31
+    Top = 304
+    Width = 77
+    Alignment = taRightJustify
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object laKinetics1: TLabel
+    Left = 1192
+    Height = 23
+    Top = 468
+    Width = 166
+    Caption = 'Attachment rate fApp'
+    ParentColor = False
+    Visible = False
+  end
+  object edKinetics1: TEdit
+    Left = 1421
+    Height = 31
+    Top = 464
+    Width = 77
+    Alignment = taRightJustify
+    TabOrder = 3
+    Visible = False
+  end
+  object laKGApp: TLabel
+    Left = 1192
+    Height = 23
+    Top = 538
+    Width = 203
+    Caption = 'Detachment rate costant k'
+    ParentColor = False
+    Visible = False
+  end
+  object edKGApp: TEdit
+    Left = 1421
+    Height = 31
+    Top = 534
+    Width = 77
+    Alignment = taRightJustify
+    TabOrder = 5
+    Visible = False
+  end
+  object btClear: TButton
+    Left = 1463
+    Height = 31
+    Top = 624
+    Width = 94
+    Caption = 'Clear'
+    OnClick = btClearClick
+    TabOrder = 15
+    TabStop = False
+  end
+  object laKinetics2: TLabel
+    Left = 1192
+    Height = 23
+    Top = 503
+    Width = 204
+    Caption = 'S2 → S3 transition rate c23'
+    ParentColor = False
+    Visible = False
+  end
+  object edKinetics2: TEdit
+    Left = 1421
+    Height = 31
+    Top = 499
+    Width = 77
+    Alignment = taRightJustify
+    TabOrder = 4
+    Visible = False
+  end
+  object laUKinetics1: TLabel
+    Left = 1506
+    Height = 23
+    Top = 468
+    Width = 23
+    Caption = 's-1'
+    ParentColor = False
+    Visible = False
+  end
+  object laUKinetics2: TLabel
+    Left = 1506
+    Height = 23
+    Top = 503
+    Width = 23
+    Caption = 's-1'
+    ParentColor = False
+    Visible = False
+  end
+  object rbKinetics2: TRadioButton
+    Left = 1192
+    Height = 27
+    Top = 573
+    Width = 135
+    Caption = ' 2-state model'
+    OnChange = rbKinetics2Change
+    TabOrder = 17
+    Visible = False
+  end
+  object rbKinetics3: TRadioButton
+    Left = 1381
+    Height = 27
+    Top = 573
+    Width = 135
+    Caption = ' 3-state model'
+    OnChange = rbKinetics3Change
+    TabOrder = 18
+    Visible = False
+  end
+  object mMenu: TMainMenu
+    Left = 1120
+    Top = 72
+    object mModel: TMenuItem
+      Caption = 'Model'
+      object mModelHill: TMenuItem
+        Caption = 'Hill''s muscle model'
+        OnClick = mModelHillClick
+      end
+      object mModelKinetic: TMenuItem
+        Caption = 'Cross-bridge kinetics model'
+        OnClick = mModelKineticClick
+      end
+      object mModelExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mModelExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsCurve: TMenuItem
+        Caption = 'Curve to be drawn'
+        object mSettingsCurveV: TMenuItem
+          Caption = 'Shortening velocity'
+          OnClick = mSettingsCurveVClick
+        end
+        object mSettingsCurveP: TMenuItem
+          Caption = 'Output power'
+          OnClick = mSettingsCurvePClick
+        end
+        object mSettingsCurveVP: TMenuItem
+          Caption = 'Velocity and power'
+          Checked = True
+          OnClick = mSettingsCurveVPClick
+        end
+      end
+      object mSettingsMultCurves: TMenuItem
+        Caption = 'Multiple curves graph'
+        Enabled = False
+        OnClick = mSettingsMultCurvesClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpPhysio: TMenuItem
+        Caption = 'Physiology help'
+        OnClick = mHelpPhysioClick
+      end
+      object mHelpHelp: TMenuItem
+        Caption = 'Application help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

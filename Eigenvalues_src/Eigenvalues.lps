@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Eigenvalues.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="eigenv.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fEigenvalues"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Programs\Lazarus\win64\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="368"/>
+        <CursorPos Y="381"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="188" Column="29" TopLine="176"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="183" Column="17" TopLine="177"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="145" Column="25" TopLine="132"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="184" Column="17" TopLine="178"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="183" Column="9" TopLine="183"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="189" Column="3" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="210" Column="54" TopLine="195"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="227" Column="5" TopLine="204"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="89" Column="20" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="90" Column="29" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="161" Column="71" TopLine="157"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="239" Column="46" TopLine="225"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="222" TopLine="212"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="224" Column="11" TopLine="212"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="228" Column="13" TopLine="212"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="220" Column="48" TopLine="220"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="233" Column="81" TopLine="211"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="230" Column="103" TopLine="228"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="234" Column="15" TopLine="220"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="249" Column="57" TopLine="236"/>
+      </Position>
+      <Position>
+        <Filename Value="Eigenvalues.lpr"/>
+        <Caret Line="3" Column="61"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="224" TopLine="198"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="55" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="108" TopLine="84"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="247" Column="43" TopLine="227"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="121" Column="39" TopLine="103"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="206" Column="11" TopLine="196"/>
+      </Position>
+      <Position>
+        <Filename Value="eigenv.pas"/>
+        <Caret Line="250" Column="7" TopLine="240"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

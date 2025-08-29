@@ -1,0 +1,285 @@
+object fVeggies: TfVeggies
+  Left = 91
+  Height = 685
+  Top = 60
+  Width = 1210
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Veggie'
+  ClientHeight = 660
+  ClientWidth = 1210
+  Color = 14745599
+  DesignTimePPI = 120
+  Font.Height = -18
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object Shape8: TShape
+    Left = 781
+    Height = 252
+    Top = 352
+    Width = 252
+  end
+  object Shape7: TShape
+    Left = 524
+    Height = 252
+    Top = 352
+    Width = 252
+  end
+  object Shape6: TShape
+    Left = 267
+    Height = 252
+    Top = 352
+    Width = 252
+  end
+  object Shape5: TShape
+    Left = 10
+    Height = 252
+    Top = 352
+    Width = 252
+  end
+  object Shape4: TShape
+    Left = 781
+    Height = 252
+    Top = 95
+    Width = 252
+  end
+  object Shape3: TShape
+    Left = 524
+    Height = 252
+    Top = 95
+    Width = 252
+  end
+  object Shape2: TShape
+    Left = 267
+    Height = 252
+    Top = 95
+    Width = 252
+  end
+  object Shape1: TShape
+    Left = 10
+    Height = 252
+    Top = 95
+    Width = 252
+  end
+  object StaticText1: TStaticText
+    Left = 410
+    Height = 30
+    Top = 10
+    Width = 390
+    Alignment = taCenter
+    Caption = 'Gemüse-Bilderquiz für Kinder.'
+    Font.Color = clBlue
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object imVeggie1: TImage
+    Left = 11
+    Height = 250
+    Top = 96
+    Width = 250
+    Center = True
+    OnClick = imVeggie1Click
+  end
+  object imVeggie2: TImage
+    Left = 268
+    Height = 250
+    Top = 96
+    Width = 250
+    Center = True
+    OnClick = imVeggie2Click
+  end
+  object laQuestion: TLabel
+    Left = 10
+    Height = 25
+    Top = 56
+    Width = 233
+    Caption = 'Welches dieser Bilder zeigt ...?'
+  end
+  object imVeggie3: TImage
+    Left = 525
+    Height = 250
+    Top = 96
+    Width = 250
+    Center = True
+    OnClick = imVeggie3Click
+  end
+  object imVeggie4: TImage
+    Left = 782
+    Height = 250
+    Top = 96
+    Width = 250
+    Center = True
+    OnClick = imVeggie4Click
+  end
+  object imVeggie5: TImage
+    Left = 11
+    Height = 250
+    Top = 353
+    Width = 250
+    Center = True
+    OnClick = imVeggie5Click
+  end
+  object imVeggie6: TImage
+    Left = 268
+    Height = 250
+    Top = 353
+    Width = 250
+    Center = True
+    OnClick = imVeggie6Click
+  end
+  object imVeggie7: TImage
+    Left = 525
+    Height = 250
+    Top = 353
+    Width = 250
+    Center = True
+    OnClick = imVeggie7Click
+  end
+  object imVeggie8: TImage
+    Left = 782
+    Height = 250
+    Top = 353
+    Width = 250
+    Center = True
+    OnClick = imVeggie8Click
+  end
+  object Label2: TLabel
+    Left = 1055
+    Height = 23
+    Top = 96
+    Width = 41
+    Caption = 'Quiz.'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentFont = False
+  end
+  object sgEval: TStringGrid
+    Left = 1055
+    Height = 124
+    Top = 176
+    Width = 148
+    ColCount = 2
+    FixedRows = 0
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 4
+    TabOrder = 1
+    ColWidths = (
+      85
+      59
+    )
+    RowHeights = (
+      30
+      30
+      30
+      30
+    )
+    Cells = (
+      4
+      0
+      0
+      'Fragen'
+      0
+      1
+      'Richtig'
+      0
+      2
+      'Falsch'
+      0
+      3
+      'Erfolg'
+    )
+  end
+  object btStart: TButton
+    Left = 1109
+    Height = 31
+    Top = 622
+    Width = 94
+    Caption = 'Frage'
+    OnClick = btStartClick
+    TabOrder = 2
+  end
+  object shSel1: TShape
+    Left = 11
+    Height = 5
+    Top = 96
+    Width = 250
+    Brush.Color = clRed
+  end
+  object shSel2: TShape
+    Left = 11
+    Height = 5
+    Top = 341
+    Width = 250
+    Brush.Color = clRed
+  end
+  object shSel3: TShape
+    Left = 11
+    Height = 250
+    Top = 96
+    Width = 5
+    Brush.Color = clRed
+  end
+  object shSel4: TShape
+    Left = 256
+    Height = 250
+    Top = 96
+    Width = 5
+    Brush.Color = clRed
+  end
+  object laQuestions: TLabel
+    Left = 1055
+    Height = 25
+    Top = 136
+    Width = 44
+    Caption = 'Frage'
+  end
+  object mMenu: TMainMenu
+    Left = 8
+    Top = 8
+    object mQuiz: TMenuItem
+      Caption = 'Quiz'
+      object mQuizNew: TMenuItem
+        Caption = 'Neu'
+        OnClick = mQuizNewClick
+      end
+      object mQuizExit: TMenuItem
+        Caption = 'Verlassen'
+        OnClick = mQuizExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Einstellungen'
+      object mOptionsVeggies: TMenuItem
+        Caption = 'Gemüsegruppe'
+        object mOptionsVeggies1: TMenuItem
+          Caption = 'Gruppe 1 (15)'
+          Checked = True
+          OnClick = mOptionsVeggies1Click
+        end
+        object mOptionsVeggies2: TMenuItem
+          Caption = 'Gruppe  2 (30)'
+          OnClick = mOptionsVeggies2Click
+        end
+        object mOptionsVeggies3: TMenuItem
+          Caption = 'Gruppe  3 (50)'
+          OnClick = mOptionsVeggies3Click
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Hilfe'
+      object mHelpHelp: TMenuItem
+        Caption = 'Hilfe'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'Über'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

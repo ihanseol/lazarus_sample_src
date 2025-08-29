@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="PlanetaryOrbits.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="78"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="orbits_simul.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fOrbits"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="78"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="orbits_classes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="78"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="orbits_draw.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fDraw"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="72"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="orbits_help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\Programs\lazarus\lcl\lclproc.pas"/>
+        <UnitName Value="LCLProc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="903"/>
+        <CursorPos Y="916"/>
+        <UsageCount Value="9"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\Programs\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4149"/>
+        <CursorPos Y="4162"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\Programs\lazarus\fpc\3.0.4\source\rtl\inc\objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="176"/>
+        <CursorPos X="38" Y="186"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="orbits_simul.pas"/>
+        <Caret Line="310" Column="46" TopLine="290"/>
+      </Position1>
+      <Position2>
+        <Filename Value="orbits_simul.pas"/>
+        <Caret Line="312" Column="46" TopLine="292"/>
+      </Position2>
+      <Position3>
+        <Filename Value="orbits_simul.pas"/>
+        <Caret Line="326" Column="36" TopLine="318"/>
+      </Position3>
+      <Position4>
+        <Filename Value="orbits_simul.pas"/>
+        <Caret Line="312" Column="24" TopLine="309"/>
+      </Position4>
+      <Position5>
+        <Filename Value="PlanetaryOrbits.lpr"/>
+        <Caret Line="15" Column="37"/>
+      </Position5>
+      <Position6>
+        <Filename Value="orbits_simul.pas"/>
+        <Caret Line="367" TopLine="356"/>
+      </Position6>
+      <Position7>
+        <Filename Value="orbits_help.pas"/>
+        <Caret Line="35" Column="9" TopLine="13"/>
+      </Position7>
+      <Position8>
+        <Filename Value="orbits_help.pas"/>
+        <Caret Line="33" Column="42" TopLine="13"/>
+      </Position8>
+      <Position9>
+        <Filename Value="orbits_draw.pas"/>
+        <Caret Line="59" Column="133" TopLine="53"/>
+      </Position9>
+      <Position10>
+        <Filename Value="orbits_classes.pas"/>
+        <Caret Line="108" Column="54" TopLine="87"/>
+      </Position10>
+      <Position11>
+        <Filename Value="orbits_draw.pas"/>
+        <Caret Line="81" TopLine="55"/>
+      </Position11>
+      <Position12>
+        <Filename Value="orbits_draw.pas"/>
+        <Caret Line="15" Column="13"/>
+      </Position12>
+      <Position13>
+        <Filename Value="orbits_draw.pas"/>
+        <Caret Line="7" Column="31"/>
+      </Position13>
+      <Position14>
+        <Filename Value="orbits_simul.pas"/>
+        <Caret Line="252" TopLine="252"/>
+      </Position14>
+      <Position15>
+        <Filename Value="orbits_simul.pas"/>
+        <Caret Line="309" Column="22" TopLine="300"/>
+      </Position15>
+      <Position16>
+        <Filename Value="PlanetaryOrbits.lpr"/>
+        <Caret Line="16" Column="40"/>
+      </Position16>
+      <Position17>
+        <Filename Value="orbits_simul.pas"/>
+        <Caret Line="615" TopLine="606"/>
+      </Position17>
+      <Position18>
+        <Filename Value="orbits_draw.pas"/>
+        <Caret Line="72" Column="39" TopLine="54"/>
+      </Position18>
+      <Position19>
+        <Filename Value="orbits_draw.pas"/>
+        <Caret Line="40" Column="22" TopLine="17"/>
+      </Position19>
+      <Position20>
+        <Filename Value="orbits_draw.pas"/>
+        <Caret Line="82" TopLine="56"/>
+      </Position20>
+      <Position21>
+        <Filename Value="orbits_draw.pas"/>
+        <Caret Line="7" Column="29"/>
+      </Position21>
+      <Position22>
+        <Filename Value="orbits_simul.pas"/>
+        <Caret Line="629" Column="70" TopLine="622"/>
+      </Position22>
+      <Position23>
+        <Filename Value="orbits_help.pas"/>
+        <Caret Line="44" TopLine="18"/>
+      </Position23>
+      <Position24>
+        <Filename Value="orbits_classes.pas"/>
+        <Caret Line="102" Column="30" TopLine="96"/>
+      </Position24>
+      <Position25>
+        <Filename Value="orbits_classes.pas"/>
+        <Caret Line="141" TopLine="119"/>
+      </Position25>
+      <Position26>
+        <Filename Value="orbits_classes.pas"/>
+        <Caret Line="158" TopLine="132"/>
+      </Position26>
+      <Position27>
+        <Filename Value="orbits_simul.pas"/>
+      </Position27>
+      <Position28>
+        <Filename Value="orbits_simul.pas"/>
+        <Caret Line="429" Column="30" TopLine="407"/>
+      </Position28>
+      <Position29>
+        <Filename Value="orbits_simul.pas"/>
+        <Caret Line="440" Column="60" TopLine="421"/>
+      </Position29>
+      <Position30>
+        <Filename Value="PlanetaryOrbits.lpr"/>
+        <Caret Line="16" Column="63"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

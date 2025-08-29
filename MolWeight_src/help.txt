@@ -1,0 +1,37 @@
+Molecular weight calculator help.
+=================================
+
+Calculation of molecular weight of standard molecules (entered as chamical formula), as well as of DNA and RNA oligonucleotides and proteins (entered as IUP/IUPAC codes).
+
+Standard molecules examples:
+  H2SO4, Ca(OH)2, CH3-(CH2)4-CH3
+
+Oligonucleotides:
+  - may be entered manually or read from file (raw data or FASTA format), spaces (for example to separate codons) being allowed
+  - base codes are normally lowercase, usage of uppercase may be allowed in "Options" menu (default = yes)
+  - also allowed in "Options" menu: the usage of 't' instead of 'u' in RNA molecules (default = no)
+  - uncertain base codes (such as 'y' = 'c' or 't'; 'n' = any base) are not considered for mol. weight calculation;
+    they may be allowed in the molecule, by checking the corresponding item in the "Options" menu (default = no)
+  - calculation may be done for single- as well as for double-stranded DNA/RNA molecules
+  - considering the assumptions made to calculate oligonucleotides mol. weight, please, read the "Oligonucleotides" help text
+  - standard DNA base codes are: a, c, g, t (in RNA, u replacing t)
+  - 2 sample nucleotide files are included with the application: dna.fasta and rna.fasta
+
+Proteins:
+  - may be entered manually or read from file (raw data or FASTA format), spaces (for example to separate 3-letter codes) being allowed
+  - may be entered, using 1-letter or 3-letters code
+  - amino acid 1-letter codes are normally uppercase, usage of lowercase may be allowed in "Options" menu (default = no)
+  - uncertain base codes (such as 'X' resp. 'Xxx' = unknown amino acid) are not considered for mol. weight calculation;
+    they may be allowed in the molecule, by checking the corresponding item in the "Options" menu (default = no)
+  - protein molecular weight is calculated by summing up the mol. weights of each respective amino acid within the protein
+  - considering the 1-letter/3-letters amino acids codes, have a look at a chemistry book
+  - 2 sample protein files are included with the application: protein.fasta and protein2.fasta (3-letter coding)
+
+An error message is displayed if the molecule entered contains invalid characters or if the program does not recognize the molecule format. In the case of uncertain bases/amino acids, an error message is displayed when uncertain IUP/IUPAC codes are not set to be allowed; if set to be allowed, a warning is displayed to indicate how many bases have not be considered to calculate the molecular weight (which as indicated will be less than the real nucleotide/protein mol. weight).
+
+Molecule chemical composition.
+------------------------------
+The item "Chemical composition" in the "Extra" menu calculates the number and percentage of the different atoms, bases resp. amino acids within the molecule. Note that you must caclulate the molecular weight of a molecule, before using this feature. Also note that all uncertain bases/amino acids will be regrouped under "Uncertain" in the grid displayed.
+
+
+Molecular weight calculator v1.0, © allu, June, 2018.

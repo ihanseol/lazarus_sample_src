@@ -1,0 +1,11 @@
+Home network: Intranet computers
+DNS=192.168.40.254
+fw-ipfire       192.168.40.254  IPFire 2.27 firewall (LAN)
+fw-ipfire       192.168.42.254  IPFire 2.27 firewall (DMZ)
+sv-ubt20        192.168.42.101  Ubuntu 20.04 server
+wk-fedr         192.168.41.105  Fedora 10 workstation
+wk-ubt20        192.168.40.104  Ubuntu 20.04 workstation
+wk-win10        192.168.47.1    Windows 10 workstation (Internet)
+wk-win10        192.168.40.1    Windows 10 workstation (LAN)
+wk-win10        192.168.41.1    Windows 10 workstation (WAN)
+wk-winnt        192.168.41.102  Windows NT 4.0 workstation

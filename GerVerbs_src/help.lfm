@@ -1,0 +1,118 @@
+object fHelp: TfHelp
+  Left = 202
+  Height = 545
+  Top = 145
+  Width = 948
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Luxverbes2: Programm Hëllef'
+  ClientHeight = 545
+  ClientWidth = 948
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object Memo1: TMemo
+    Left = 11
+    Height = 473
+    Top = 10
+    Width = 926
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"GerVerbs" ist ein Programm, das Aufgaben zur Konjugation der starken und unregelmäßigen deutschen Verben (Präsens, Präteritum und Perfekt) erstellt; die Verben werden aus 6 dem Sprachniveau angepassten Listen (zusammen ca. 1100 Verben) ausgewählt. Das Programm kann auch benutzt werden um die Konjugation dieser Verben für die 3 genannten grammatikalischen Zeiten anzuzeigen.'
+      ''
+      '================='
+      '= Programm-Menü ='
+      '================='
+      ''
+      'Menüpunkt "Datei".'
+      '=================='
+      ''
+      'Neue Aufgabe:'
+      '-------------'
+      'Neue Aufgabe (mit Zurücksetzen der Bewertugszähler) starten. Dieser Befehl ist notwendeg wenn eine Aufgabe fertig ist und ebenfalls wenn die Anzahl der Aufgaben geändert wurde.'
+      ''
+      'Konjugation:'
+      '------------'
+      'Anzeigen von Präsens, Präteritum und Perfekt von einem vom Benutzer eingegebenes Verb (siehe weiter unten).'
+      ''
+      'Verlassen:'
+      '----------'
+      'Das Programm verlassen.'
+      ''
+      'Menüpunkt "Einstellungen".'
+      '=========================='
+      ''
+      'Anzahll der Fragen:'
+      '-------------------'
+      'Eingabe wieviele Fragen die Aufgabe haben soll; Voreinstellung: 20. Damit diese Einstellung wirksam wird, "Neue Aufgabe" im Menü "Datei" wählen.'
+      ''
+      'Sprachniveau:'
+      '-------------'
+      'Mit der Auswahl eines oder mehreren Sprachniveaus (A1, A2, B1, B2, C1, C2), kann der Benutzer mitbestimmen, welche Verben in den Aufgaben zu konjugieren sind (die gebräuchlisten Verben in den unteren Sprachniveaus, wenig gebrauchte und hauptsächlich zusammengesetzte Verben in den höheren Niveaus). Voreinstellung: alle Niveaus.'
+      ''
+      'Grammatikalische Zeiten:'
+      '------------------------'
+      'Auswahl der grammatikalischen Zeiten (Präsens, Präteritum, Perfekt), die in den Aufgaben zu konjugieren sind. Voreinstellung: Alle Zeiten.'
+      ''
+      'Zusammengesetzte Verben.'
+      '------------------------'
+      'Auswahl ob in den Aufgaben nur einfache Verben (z.B. gehen) oder auch zusammengesetzte Verben (z.B. begehen, eingehen) verwendet werden. Voreinstellung: alle Verben.'
+      ''
+      'Maximale Punkte 100:'
+      '--------------------'
+      'In der Voreinstellung erfolgt die Bewertung mit Punkten zwischen 0 und 60, wie es in den luxemurgischen Schulen üblich ist. Möchte man eine Benotung mit Punkten zwischen 0 und 100 (was dann einem Prozentsatz entspricht), bitte, diese Option auswählen.'
+      ''
+      'Mit Ausnahme der Anzahl der Fragen, können die Einstellungen auch während der Aufgabe geändert werden.'
+      ''
+      'Menupunkt "Hilfe".'
+      '=================='
+      ''
+      'Hilfe:'
+      '------'
+      'Diesen Programm-Hilfstext anzeigen .'
+      ''
+      'Über:'
+      '-----'
+      'Informationen über Autor, Version und Datum des "GerVerbs" Programms anzeigen.'
+      ''
+      '========================'
+      '= Konjugationsaufgaben ='
+      '========================'
+      ''
+      'Mit dem Drückknopf "Start" wird die Aufgabe gestartet, danach mit "Frage" eine neue Frage erstellen. Der Infinitif des Verbs, die gewünschte Zeit und Person (+ Geschlecht für die 3. Person Singular) werden angezeigt und der Benutzer muss das konjugierte Verb eingeben. Die Drückknöpfe mit den spezifischen deutschen Buchstaben (ä, ö, ü, ß) ermöglichen deren Eingabe, wenn sie nicht auf der Tastatur verfügbar sind. Hat man sich total vertippt, kann der Inhalt des Eingabefeldes mit "Löschen" gelöscht werden.'
+      ''
+      'Nach der Eingabe des konjugierten Verbs, den Drückknopf "Antwort" drücken: Das Programm kontrolliert ob die Antwort richtig ist und die Benotungszähler (Zahl der richtigen und falschen Antworten, Punkte) werden aktualisiert.'
+      ''
+      'Wenn alle Fragen (20 oder soviele wie im Menü "Eistellungen" ausgewählt) durch sind, kann man über den Menüpunkt "Neue Aufgabe" eine weitere Aufgabe starten.'
+      ''
+      '======================='
+      '= Konjugationsanzeige ='
+      '======================='
+      ''
+      'Zusätzlich zum Erstellen von Aufgaben, kann "GerVerbs" benutzt werden, um die Konjugationsformen eines deutschen Verbs, das der Benutzer eingibt, in Präsens, Präteritum und Perfekt anzuzeigen. Diese Anzeige erfolgt in einem zweiten Fenster.'
+      ''
+      'Im Gegensatz zu "LuxVerbes1" (Präsens luxemburgischer Verben) und "LuxVerbes2" (Perfekt luxemburgischer Verben), behandelt die aktuelle Version von "GerVerbs" nur die dem Programm bekannten Verben, also diejenigen, die in den 6 Sprachniveau-Dateien aufgelistet sind. Dies sind mehr oder weniger alle unregelmäßigen und starken Verben, plus ihren Zusammensetzungen, denen man im Alltags-Deutsch begegnet.'
+      ''
+      'Zu beachten also, dass die Konjugation folgender Verb-Typen (zur Zeit) nicht möglich ist:'
+      ''
+      '1. Alle regelmäßige (schwache) Verben (z.B. glauben, meinen).'
+      '2. Die Pronominalform der unregelmäßigen und starken Verben (z.B. sich waschen, sich anziehen).'
+      '3. Zusammengesetzte starke Verben, die möglicherweise in den Listen fehlen.'
+      '4. Einige Verben, die zwar in den Listen sind, aber aus verschiedenen Gründen ausgeklammert wurden.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 843
+    Height = 31
+    Top = 504
+    Width = 94
+    Caption = 'Schließen'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

@@ -1,0 +1,120 @@
+Aaskraehe                     123-Kraehe              u     carrion crow                  crow                .
+Afrikanischer Strauss         -23-Strauss             s     common ostrich                ostrich             .
+Allfarblori                   ---X                          coconut lorikeet                                  .
+Amsel                         -23-Amsel                     common blackbird              blackbird           .
+Auerhuhn                      --3-                          Western capercaillie                              .
+Austernfischer                --3-                          Eurasian oystercatcher                            .
+Azurblaurabe                  ---X                          azure jay                                         .
+Bachstelze                    --3-                          white wagtail                                     .
+Blaesshuhn                    ---X                    u     Eurasian coot                                     .
+Blauer Pfau                   123-Pfau                      Indian peafowl                peafowl             .
+Blaumeise                     --3-                          Eurasian blue tit                                 .
+Blaunacken-Mausvogel          ---X                          blue-naped mousebird                              .
+Blauracke                     ---X                          European roller                                   .
+Braunkehlchen                 --3-                          whinchat                                          .
+Brillenpelikan                --3-                          Australian pelican                                .
+Brillenpinguin                --3-                          African penguin                                   .
+Buchfink                      -23-Fink                      common chaffinch              chaffinch           .
+Buntkopf-Felshuepfer          ---X                    u     grey-necked rockfowl                              .
+Dohle                         123-Dohle                     Western jackdaw               jackdaw             .
+Dorfweber                     ---X                          village weaver                                    .
+Eistaucher                    ---X                          common loon                                       .
+Eisvogel                      --3-                          common kingfisher                                 .
+Elster                        123-Elster                    Eurasian magpie               magpie              .
+Fasan                         123-Fasan                     common pheasant               pheasant            .
+Feuerhornvogel                ---X                          rufous hornbill                                   .
+Feuerliest                    ---X                          ruddy kingfisher                                  .
+Flammenkopf-Bartvogel         ---X                          red-and-yellow barbet                             .
+Gaensegeier                   123-Geier               u     griffon vulture               vulture             .
+Gelbhaubenkakadu              ---X                          sulphur-crested cockatoo                          .
+Gelbnacken-Laubenvogel        ---X                          regent bowerbird                                  .
+Gimpel                        --3-                          Eurasian bullfinch                                .
+Glanzsittich                  ---X                          scarlet-chested parrot                            .
+Goldlaubenvogel               ---X                          masked bowerbird                                  .
+Graugans                      --3-                          greylag goose                                     .
+Graureiher                    -23-Reiher                    grey heron                    heron               .
+Grauspecht                    --3-                          grey-headed woodpecker                            .
+Grosser Emu                   -23-Emu                       emu                           emu                 .
+Gruenhaeher                   --3-                    u     green jay                                         .
+Gruenspecht                   123-Specht              u     European green woodpecker     woodpecker          .
+Habicht                       -23-Habicht                   Northern goshawk              goshawk             .
+Hammerkopf                    ---X                          hamerkop                                          .
+Haubenmeise                   --3-                          European crested tit                              .
+Haubentaucher                 ---X                          great crested grebe                               .
+Hausente                      --3-                          domestic mallard                                  .
+Hausgans                      123-Gans                      domestic goose                goose               .
+Haushuhn                      123-Huhn                      chicken                       chicken             .
+Hausrotschwanz                123-Rotschwanz                black redstart                redstart            .
+Haussperling                  123-Sperling                  house sparrow                 sparrow             .
+Haustaube                     123-Taube                     domestic pigeon               pigeon              .
+Heiliger Ibis                 ---X                          African sacred ibis                               .
+Hellroter Ara                 123-Papagei                   scarlet macaw                 parrot              .
+Hoeckerschwan                 --3-                    u     mute swan                                         .
+Hoeckerstorch                 --3-                    u     Storm's stork                                     .
+Hornlund                      ---X                          horned puffin                                     .
+Hyazinth-Ara                  ---X                          hyacinth macaw                                    .
+Kaiserpinguin                 123-Pinguin                   emperor penguin               penguin             .
+Kalifornischer Kondor         -23-Kondor              b     California condor             condor              .
+Knutt                         --3-                          red knot                                          .
+Koenigsspecht                 --3-                    u     pale-billed woodpecker                            .
+Kohlmeise                     123-Meise                     great tit                     tit                 .
+Kormoran                      -23-Kormoran                  great cormorant               cormorant           .
+Kranich                       -23-Kranich                   common crane                  crane               .
+Krokodilwaechter              ---X                    u     Egyptian plover                                   .
+Kronenkranich                 ---X                          black crowned crane                               .
+Kuckuck                       -23-Kuckuck                   common cuckoo                 cuckoo              .
+Lachmoewe                     123-Moewe               u     black-headed gull             gull                .
+Loeffelente                   --3-                    u     Northern shoveler                                 .
+Maeusebussard                 -23-Bussard             u     common buzzard                buzzard             .
+Marabu                        ---X                          marabou stork                                     .
+Mehlschwalbe                  123-Schwalbe                  common house martin           swallow             .
+Nachtigall                    -23-Nachtigall                common nightingale            nightingale         .
+Nacktkopf-Paradiesvogel       ---X                          Wilson's bird-of-paradise                         .
+Nandu                         ---X                          greater rhea                                      .
+Ohrenlerche                   -23-Lerche                    horned lark                   lark                .
+Orangekoepfchen               -23-Unzertrennliche     u     red-headed lovebird           lovebird            .
+Perlsteisshuhn                ---X                    s     elegant crested tinamou                           .
+Pirol                         --3-                          Eurasian golden oriole                            .
+Prachtfregattvogel            ---X                          magnificent frigatebird                           .
+Quetzal                       ---X                          resplendent quetzal                               .
+Rauchschwalbe                 --3-                          barn swallow                                      .
+Rebhuhn                       -23-Rebhuhn                   grey partridge                partridge           .
+Riesentrappe                  ---X                          kori bustard                                      .
+Riesenturako                  ---X                          great blue turaco                                 .
+Ringeltaube                   --3-                          common wood pigeon                                .
+Rosaflamingo                  123-Flamingo                  greater flamingo              flamingo            .
+Rosaloeffler                  --3-                    u     roseate spoonbill                                 .
+Rosapelikan                   123-Pelikan                   great white pelican           pelican             .
+Rosenbrust-Schnaepper         ---X                    u     pink robin                                        .
+Rotbrust-Krontaube            ---X                          Scheepmaker's crowned pigeon                      .
+Roter Paradiesvogel           ---X                          red bird-of-paradise                              .
+Rothals-Flaumfusstaube        ---X                    s     pink-headed fruit dove                            .
+Rotkehlchen                   123-Rotkehlchen               European robin                robin               .
+Rotkopfente                   --3-                          redhead                                           .
+Rotschopftaube                ---X                          spinifex pigeon                                   .
+Saeulengaertner               ---X                    u     golden bowerbird                                  .
+Scharlachsichler              ---X                          scarlet ibis                                      .
+Schleiereule                  --3-                          barn owl                                          .
+Silbermoewe                   -23-Moewe               u     European herring gull         gull                .
+Singdrossel                   -23-Drossel                   song thrush                   thrush              .
+Sperber                       -23-Sperber                   Eurasian sparrowhawk          sparrowhawk         .
+Star                          -23-Star                      common starling               starling            .
+Steinadler                    123-Adler                     golden eagle                  eagle               .
+Stieglitz                     -23-Stieglitz                 European goldfinch            goldfinch           .
+Stockente                     123-Ente                      mallard                       mallard             .
+Trauerschwan                  --3-                          black swan                                        .
+Truthuhn                      -23-Truthuhn                  wild turkey                   turkey              .
+Turmfalke                     -23-Falke                     common kestrel                kestrel             .
+Turteltaube                   --3-                          European turtle dove                              .
+Uhu                           123-Uhu                       Eurasian eagle-owl            eagle-owl           .
+Wachtel                       -23-Wachtel                   common quail                  quail               .
+Waldkauz                      --3-                          tawny owl                                         .
+Waldohreule                   --3-                          long-eared owl                                    .
+Wanderalbatros                -23-Albatros                  wandering albatross           albatross           .
+Weissschwanz-Tropikvogel      ---X                    s     white-tailed tropicbird                           .
+Weissstorch                   123-Storch              s     white stork                   stork               .
+Weisskopf-Mausvogel           ---X                    s     white-headed mousebird                            .
+Wellensittich                 123-Wellensittich             budgerigar                    budgerigar          .
+Wiedehopf                     --3-Wiedehopf                 hoopoe                        hoopoe              .
+Zaunkoenig                    -23-Zaunkoenig          u     Eurasian wren                 wren                .
+Zwergkiwi                     ---X                          little spotted kiwi                               .

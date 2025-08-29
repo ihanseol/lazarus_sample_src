@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="MusicList.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="14" Y="18"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="music.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fMusic"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="WinLibs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="53"/>
+        <CursorPos X="24" Y="70"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ID3v2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="226" Column="74" TopLine="214"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="241" Column="57" TopLine="218"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="296" Column="57" TopLine="271"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="194" Column="13" TopLine="168"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="298" Column="5" TopLine="285"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="198" Column="16" TopLine="186"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="300" TopLine="275"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="44" Column="19" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="83" Column="29" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="127" Column="97" TopLine="105"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="204" Column="67" TopLine="182"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="237" Column="10" TopLine="216"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="257" Column="13" TopLine="236"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="287" Column="10" TopLine="266"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="178" Column="57" TopLine="170"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="317" Column="63" TopLine="312"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="329" Column="23" TopLine="311"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="126" Column="15" TopLine="103"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="352" Column="20" TopLine="345"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="665" Column="12" TopLine="640"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="693" Column="43" TopLine="654"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="360" Column="53" TopLine="345"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="359" Column="32" TopLine="343"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="12" Column="108"/>
+      </Position>
+      <Position>
+        <Filename Value="help.pas"/>
+        <Caret Line="3" Column="23"/>
+      </Position>
+      <Position>
+        <Filename Value="MusicList.lpr"/>
+        <Caret Line="18" Column="30" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="help.pas"/>
+        <Caret Line="23" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="help.pas"/>
+        <Caret Line="45" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="601" Column="91" TopLine="585"/>
+      </Position>
+      <Position>
+        <Filename Value="music.pas"/>
+        <Caret Line="775" TopLine="749"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

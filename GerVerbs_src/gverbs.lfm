@@ -1,0 +1,357 @@
+object fGVerbs: TfGVerbs
+  Left = 60
+  Height = 304
+  Top = 125
+  Width = 810
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Deutsche Grammatik: Unregelmäßige und starke Verben'
+  ClientHeight = 279
+  ClientWidth = 810
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object laQuestion: TLabel
+    Left = 16
+    Height = 25
+    Top = 8
+    Width = 47
+    Caption = 'Frage'
+    Font.Height = -18
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 23
+    Top = 55
+    Width = 35
+    Caption = 'Verb'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edVerb: TEdit
+    Left = 167
+    Height = 31
+    Top = 51
+    Width = 478
+    Color = clSilver
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object edConj: TEdit
+    Left = 167
+    Height = 31
+    Top = 89
+    Width = 478
+    Color = clSilver
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object edAnswer: TEdit
+    Left = 16
+    Height = 31
+    Top = 127
+    Width = 629
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edEval: TEdit
+    Left = 16
+    Height = 31
+    Top = 184
+    Width = 629
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object btQuestion: TButton
+    Left = 706
+    Height = 31
+    Top = 240
+    Width = 94
+    Caption = 'Frage'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object laConj: TLabel
+    Left = 16
+    Height = 23
+    Top = 93
+    Width = 93
+    Caption = 'Konjugation'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 672
+    Height = 23
+    Top = 55
+    Width = 52
+    Caption = 'Fragen'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edQuestions: TEdit
+    Left = 740
+    Height = 31
+    Top = 51
+    Width = 60
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object Label5: TLabel
+    Left = 672
+    Height = 23
+    Top = 93
+    Width = 52
+    Caption = 'Richtig'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCorrect: TEdit
+    Left = 740
+    Height = 31
+    Top = 89
+    Width = 60
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object Label6: TLabel
+    Left = 672
+    Height = 23
+    Top = 131
+    Width = 45
+    Caption = 'Falsch'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edFalse: TEdit
+    Left = 740
+    Height = 31
+    Top = 127
+    Width = 60
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object Label7: TLabel
+    Left = 672
+    Height = 23
+    Top = 188
+    Width = 53
+    Caption = 'Punkte'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSuccess: TEdit
+    Left = 740
+    Height = 31
+    Top = 184
+    Width = 60
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object btUe: TButton
+    Left = 128
+    Height = 31
+    Top = 240
+    Width = 31
+    Caption = 'ü'
+    OnClick = btUeClick
+    TabOrder = 13
+    TabStop = False
+  end
+  object btOe: TButton
+    Left = 72
+    Height = 31
+    Top = 240
+    Width = 31
+    Caption = 'ö'
+    OnClick = btOeClick
+    TabOrder = 11
+    TabStop = False
+  end
+  object btAe: TButton
+    Left = 16
+    Height = 31
+    Top = 240
+    Width = 31
+    Caption = 'ä'
+    OnClick = btAeClick
+    TabOrder = 12
+    TabStop = False
+  end
+  object btSs: TButton
+    Left = 184
+    Height = 31
+    Top = 240
+    Width = 31
+    Caption = 'ß'
+    OnClick = btSsClick
+    TabOrder = 10
+    TabStop = False
+  end
+  object btClear: TButton
+    Left = 551
+    Height = 31
+    Top = 240
+    Width = 94
+    Caption = 'Löschen'
+    OnClick = btClearClick
+    TabOrder = 9
+    TabStop = False
+  end
+  object mMenu: TMainMenu
+    left = 752
+    top = 8
+    object mFile: TMenuItem
+      Caption = 'Datei'
+      object mFileExercise: TMenuItem
+        Caption = 'Neue Aufgabe'
+        OnClick = mFileExerciseClick
+      end
+      object mFileConj: TMenuItem
+        Caption = 'Konjugation'
+        OnClick = mFileConjClick
+      end
+      object mFileExit: TMenuItem
+        Caption = 'Verlassen'
+        OnClick = mFileExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Einstellungen'
+      object mSettingsQuestions: TMenuItem
+        Caption = 'Anzahl der Fragen ...'
+        OnClick = mSettingsQuestionsClick
+      end
+      object MenuItem2: TMenuItem
+        Caption = '-'
+      end
+      object mSettingsLevel: TMenuItem
+        Caption = 'Sprachniveau'
+        object mSettingsLevelA1: TMenuItem
+          Caption = 'Niveau A1'
+          Checked = True
+          OnClick = mSettingsLevelA1Click
+        end
+        object mSettingsLevelA2: TMenuItem
+          Caption = 'Niveau A2'
+          Checked = True
+          OnClick = mSettingsLevelA2Click
+        end
+        object mSettingsLevelB1: TMenuItem
+          Caption = 'Niveau B1'
+          Checked = True
+          OnClick = mSettingsLevelB1Click
+        end
+        object mSettingsLevelB2: TMenuItem
+          Caption = 'Niveau B2'
+          Checked = True
+          OnClick = mSettingsLevelB2Click
+        end
+        object mSettingsLevelC1: TMenuItem
+          Caption = 'Niveau C1'
+          Checked = True
+          OnClick = mSettingsLevelC1Click
+        end
+        object mSettingsLevelC2: TMenuItem
+          Caption = 'Niveau C2'
+          Checked = True
+          OnClick = mSettingsLevelC2Click
+        end
+        object MenuItem4: TMenuItem
+          Caption = '-'
+        end
+        object mSettingsLevelAll: TMenuItem
+          Caption = 'Alle auswählen'
+          OnClick = mSettingsLevelAllClick
+        end
+        object mSettingsLevelNone: TMenuItem
+          Caption = 'Alle löschen'
+          OnClick = mSettingsLevelNoneClick
+        end
+      end
+      object mSettingsTenses: TMenuItem
+        Caption = 'Grammatikalische Zeiten'
+        object mSettingsTensesPT: TMenuItem
+          Caption = 'Präsens'
+          Checked = True
+          OnClick = mSettingsTensesPTClick
+        end
+        object mSettingsTensesSP: TMenuItem
+          Caption = 'Präteritum'
+          Checked = True
+          OnClick = mSettingsTensesSPClick
+        end
+        object mSettingsTensesPF: TMenuItem
+          Caption = 'Perfekt'
+          Checked = True
+          OnClick = mSettingsTensesPFClick
+        end
+      end
+      object mSettingsCompound: TMenuItem
+        Caption = 'Zusammengesetzte Verben'
+        Checked = True
+        OnClick = mSettingsCompoundClick
+      end
+      object MenuItem3: TMenuItem
+        Caption = '-'
+      end
+      object mSettingsP100: TMenuItem
+        Caption = 'Maximale Note 100'
+        OnClick = mSettingsP100Click
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Hilfe'
+      object mHelpHelp: TMenuItem
+        Caption = 'Hilfe'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'Über'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

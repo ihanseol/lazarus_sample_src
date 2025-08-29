@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="MariaDB2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mariadb.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fMariaDB2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="39" Y="25"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="6" HistoryIndex="5">
+      <Position1>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="42" Column="14" TopLine="17"/>
+      </Position1>
+      <Position2>
+        <Filename Value="MariaDB2.lpr"/>
+        <Caret Line="3" Column="34"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="105" Column="42" TopLine="79"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mariadb.pas"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="12" Column="20"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="18" Column="21" TopLine="12"/>
+      </Position6>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

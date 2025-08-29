@@ -1,0 +1,674 @@
+object fColorCircles: TfColorCircles
+  Left = 14
+  Height = 525
+  Top = 57
+  Width = 1459
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Color Circles'
+  ClientHeight = 500
+  ClientWidth = 1459
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Shape2: TShape
+    Left = 555
+    Height = 490
+    Top = 5
+    Width = 490
+  end
+  object Shape1: TShape
+    Left = 5
+    Height = 490
+    Top = 5
+    Width = 490
+  end
+  object shCircle101: TShape
+    Left = 10
+    Height = 96
+    Top = 10
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle102: TShape
+    Left = 106
+    Height = 96
+    Top = 10
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle103: TShape
+    Left = 202
+    Height = 96
+    Top = 10
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle104: TShape
+    Left = 298
+    Height = 96
+    Top = 10
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle105: TShape
+    Left = 394
+    Height = 96
+    Top = 10
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle106: TShape
+    Left = 10
+    Height = 96
+    Top = 106
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle107: TShape
+    Left = 106
+    Height = 96
+    Top = 106
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle108: TShape
+    Left = 202
+    Height = 96
+    Top = 106
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle109: TShape
+    Left = 298
+    Height = 96
+    Top = 106
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle110: TShape
+    Left = 394
+    Height = 96
+    Top = 106
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle111: TShape
+    Left = 10
+    Height = 96
+    Top = 202
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle112: TShape
+    Left = 106
+    Height = 96
+    Top = 202
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle113: TShape
+    Left = 202
+    Height = 96
+    Top = 202
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle114: TShape
+    Left = 298
+    Height = 96
+    Top = 202
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle115: TShape
+    Left = 394
+    Height = 96
+    Top = 202
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle116: TShape
+    Left = 10
+    Height = 96
+    Top = 298
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle117: TShape
+    Left = 106
+    Height = 96
+    Top = 298
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle118: TShape
+    Left = 202
+    Height = 96
+    Top = 298
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle119: TShape
+    Left = 298
+    Height = 96
+    Top = 298
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle120: TShape
+    Left = 394
+    Height = 96
+    Top = 298
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle121: TShape
+    Left = 10
+    Height = 96
+    Top = 394
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle122: TShape
+    Left = 106
+    Height = 96
+    Top = 394
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle123: TShape
+    Left = 202
+    Height = 96
+    Top = 394
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle124: TShape
+    Left = 298
+    Height = 96
+    Top = 394
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle125: TShape
+    Left = 394
+    Height = 96
+    Top = 394
+    Width = 96
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shCircle201: TShape
+    Left = 560
+    Height = 96
+    Top = 11
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle201MouseDown
+    Shape = stCircle
+  end
+  object shCircle202: TShape
+    Left = 656
+    Height = 96
+    Top = 11
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle202MouseDown
+    Shape = stCircle
+  end
+  object shCircle203: TShape
+    Left = 752
+    Height = 96
+    Top = 11
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle203MouseDown
+    Shape = stCircle
+  end
+  object shCircle204: TShape
+    Left = 848
+    Height = 96
+    Top = 11
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle204MouseDown
+    Shape = stCircle
+  end
+  object shCircle205: TShape
+    Left = 944
+    Height = 96
+    Top = 11
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle205MouseDown
+    Shape = stCircle
+  end
+  object shCircle206: TShape
+    Left = 560
+    Height = 96
+    Top = 107
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle206MouseDown
+    Shape = stCircle
+  end
+  object shCircle207: TShape
+    Left = 656
+    Height = 96
+    Top = 107
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle207MouseDown
+    Shape = stCircle
+  end
+  object shCircle208: TShape
+    Left = 752
+    Height = 96
+    Top = 107
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle208MouseDown
+    Shape = stCircle
+  end
+  object shCircle209: TShape
+    Left = 848
+    Height = 96
+    Top = 107
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle209MouseDown
+    Shape = stCircle
+  end
+  object shCircle210: TShape
+    Left = 944
+    Height = 96
+    Top = 107
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle210MouseDown
+    Shape = stCircle
+  end
+  object shCircle211: TShape
+    Left = 560
+    Height = 96
+    Top = 203
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle211MouseDown
+    Shape = stCircle
+  end
+  object shCircle212: TShape
+    Left = 656
+    Height = 96
+    Top = 203
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle212MouseDown
+    Shape = stCircle
+  end
+  object shCircle213: TShape
+    Left = 752
+    Height = 96
+    Top = 203
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle213MouseDown
+    Shape = stCircle
+  end
+  object shCircle214: TShape
+    Left = 848
+    Height = 96
+    Top = 203
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle214MouseDown
+    Shape = stCircle
+  end
+  object shCircle215: TShape
+    Left = 944
+    Height = 96
+    Top = 203
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle215MouseDown
+    Shape = stCircle
+  end
+  object shCircle216: TShape
+    Left = 560
+    Height = 96
+    Top = 299
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle216MouseDown
+    Shape = stCircle
+  end
+  object shCircle217: TShape
+    Left = 656
+    Height = 96
+    Top = 299
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle217MouseDown
+    Shape = stCircle
+  end
+  object shCircle218: TShape
+    Left = 752
+    Height = 96
+    Top = 299
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle218MouseDown
+    Shape = stCircle
+  end
+  object shCircle219: TShape
+    Left = 848
+    Height = 96
+    Top = 299
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle219MouseDown
+    Shape = stCircle
+  end
+  object shCircle220: TShape
+    Left = 944
+    Height = 96
+    Top = 299
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle220MouseDown
+    Shape = stCircle
+  end
+  object shCircle221: TShape
+    Left = 560
+    Height = 96
+    Top = 394
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle221MouseDown
+    Shape = stCircle
+  end
+  object shCircle222: TShape
+    Left = 656
+    Height = 96
+    Top = 394
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle222MouseDown
+    Shape = stCircle
+  end
+  object shCircle223: TShape
+    Left = 752
+    Height = 96
+    Top = 394
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle223MouseDown
+    Shape = stCircle
+  end
+  object shCircle224: TShape
+    Left = 848
+    Height = 96
+    Top = 394
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle224MouseDown
+    Shape = stCircle
+  end
+  object shCircle225: TShape
+    Left = 944
+    Height = 96
+    Top = 394
+    Width = 96
+    Brush.Color = clRed
+    OnMouseDown = shCircle225MouseDown
+    Shape = stCircle
+  end
+  object edName1: TEdit
+    Left = 1112
+    Height = 31
+    Top = 43
+    Width = 150
+    TabStop = False
+    TabOrder = 7
+    Text = 'Player 1'
+  end
+  object edName2: TEdit
+    Left = 1304
+    Height = 31
+    Top = 43
+    Width = 150
+    TabStop = False
+    TabOrder = 1
+    Text = 'Player 2'
+  end
+  object Label1: TLabel
+    Left = 1112
+    Height = 23
+    Top = 111
+    Width = 37
+    Caption = 'Time'
+    ParentColor = False
+  end
+  object edTime1: TEdit
+    Left = 1162
+    Height = 31
+    Top = 107
+    Width = 100
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+    Text = '0:00,00'
+  end
+  object laTime2: TLabel
+    Left = 1304
+    Height = 23
+    Top = 111
+    Width = 37
+    Caption = 'Time'
+    ParentColor = False
+  end
+  object edTime2: TEdit
+    Left = 1354
+    Height = 31
+    Top = 107
+    Width = 100
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+    Text = '0:00,00'
+  end
+  object Label3: TLabel
+    Left = 1112
+    Height = 23
+    Top = 176
+    Width = 42
+    Caption = 'Score'
+    ParentColor = False
+  end
+  object edScore1: TEdit
+    Left = 1162
+    Height = 31
+    Top = 172
+    Width = 100
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+    Text = '0'
+  end
+  object laScore2: TLabel
+    Left = 1304
+    Height = 23
+    Top = 176
+    Width = 42
+    Caption = 'Score'
+    ParentColor = False
+  end
+  object edScore2: TEdit
+    Left = 1354
+    Height = 31
+    Top = 172
+    Width = 100
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+    Text = '0'
+  end
+  object Memo1: TMemo
+    Left = 1112
+    Height = 73
+    Top = 232
+    Width = 342
+    Color = clCream
+    Font.Height = -15
+    Lines.Strings = (
+      'The circles on both sides have identical colors (at the same position in the grid), except one. Find and click it at the right side as quick as possible!'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 6
+    TabStop = False
+  end
+  object btStart: TButton
+    Left = 1354
+    Height = 31
+    Top = 459
+    Width = 100
+    Caption = 'Start'
+    OnClick = btStartClick
+    TabOrder = 0
+  end
+  object mMenu: TMainMenu
+    left = 1128
+    top = 328
+    object mGame: TMenuItem
+      Caption = 'Game'
+      object mGameNew: TMenuItem
+        Caption = 'New'
+        OnClick = mGameNewClick
+      end
+      object mGameExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mGameExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsPlayers: TMenuItem
+        Caption = 'Number of players'
+        object mSettingsPlayers1: TMenuItem
+          Caption = '1'
+          Checked = True
+          OnClick = mSettingsPlayers1Click
+        end
+        object mSettingsPlayers2: TMenuItem
+          Caption = '2'
+          OnClick = mSettingsPlayers2Click
+        end
+      end
+      object mSettingsCircles: TMenuItem
+        Caption = 'Number of circles'
+        object mSettingsCircles4: TMenuItem
+          Caption = '4 x 4'
+          OnClick = mSettingsCircles4Click
+        end
+        object mSettingsCircles5: TMenuItem
+          Caption = '5 x 5'
+          Checked = True
+          OnClick = mSettingsCircles5Click
+        end
+        object mSettingsCircles6: TMenuItem
+          Caption = '6 x 6'
+          OnClick = mSettingsCircles6Click
+        end
+        object mSettingsCircles8: TMenuItem
+          Caption = '8 x 8'
+          OnClick = mSettingsCircles8Click
+        end
+      end
+      object mSettingsColors: TMenuItem
+        Caption = 'Number of colors'
+        object mSettingsColors3: TMenuItem
+          Caption = '3'
+          OnClick = mSettingsColors3Click
+        end
+        object mSettingsColors4: TMenuItem
+          Caption = '4'
+          Checked = True
+          OnClick = mSettingsColors4Click
+        end
+        object mSettingsColors5: TMenuItem
+          Caption = '5'
+          OnClick = mSettingsColors5Click
+        end
+        object mSettingsColors6: TMenuItem
+          Caption = '6'
+          OnClick = mSettingsColors6Click
+        end
+      end
+      object mSettingsColorsEasy: TMenuItem
+        Caption = 'Usage of "easy" colors'
+        OnClick = mSettingsColorsEasyClick
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object mSettingsHighScores: TMenuItem
+        Caption = 'Usage of highscore list'
+        OnClick = mSettingsHighScoresClick
+      end
+      object mSettingsTScoring: TMenuItem
+        Caption = 'Scoring by time difference'
+        Enabled = False
+        OnClick = mSettingsTScoringClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object tiColorCircles: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = tiColorCirclesTimer
+    left = 1392
+    top = 328
+  end
+end

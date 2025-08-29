@@ -1,0 +1,72 @@
+object fHelp: TfHelp
+  Left = 454
+  Height = 628
+  Top = 80
+  Width = 983
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Geometrie: Flächen'
+  ClientHeight = 628
+  ClientWidth = 983
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object HelpText: TMemo
+    Left = 12
+    Height = 566
+    Top = 10
+    Width = 958
+    Font.Height = -12
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'Geometry2 erstellt Mathematik-Aufgaben zur Berechnung von Volumen und Oberfläche von geometrischen Körper. Richtige und falsche Antworten, sowie eine prozentuale Note werden nach jeder Eingabe aktualisiert.'
+      ''
+      'Menu Test.'
+      '----------'
+      '  - Neu: Neuen Test starten (Auswertung wird auf Null zurückgesetzt).'
+      '  - Verlassen: Programm beenden.'
+      ''
+      'Menu Einstellungen.'
+      '-------------------'
+      '  - Berechnung: Auswählen ob der Volumen oder die Oberfläche berechnet werden soll.'
+      '  - Aufgaben: Auswählen welche Art von Aufgaben gestellt werden sollen:'
+      '      - Grundkörper'
+      '        Würfel, Quader, Zylinder, Kegel, Kugel und Pyramide mit quadratischer Grundfläche.'
+      '      - Alle Körper:'
+      '        Ausser den genannten, ebenfalls Pyramide mit rechteckiger Grundfläche, Pyramidenstumpf und Kegelstumpf.'
+      '      - Pythagoras:'
+      '        Aufgaben mit allen Körpern, die unter Umständen zur Lösung den Satz des Pythagoras (c^2 = a^2 + b^2) benötigen.'
+      ''
+      'Menu Hilfe.'
+      '-----------    '
+      '  - Hilfe: Dieser Hiffe-Text.'
+      '  - Über: Informationen über das Geometry2 Programm.'
+      ''
+      'Formeln:'
+      '--------'
+      '  - Würfel: V = a^3; O = 6 * a^2'
+      '  - Quader: V = a * b * c; O = 2 * (a*b + a*c + b*c)'
+      '  - Zylinder: V = r^2 * π * h; O = (2 * r^2 * π) + (2 * r * π * h)'
+      '  - Kegel: V = 1/3 * r^2 * π * h; O = (π * r * s) + (r^2 * π)'
+      '  - Kugel: V = 4/3 * r^3 * π; O = 4 * r^2 * π'
+      '  - Pyramide mit quadratischer Grundfläche: V = 1/3 * a^2 * h; O = (2 * a * hs) + (a^2)'
+      '  - Pyramide mit rechteckiger Grundfläche: V = 1/3 * a * b * h; O = (a*ha + b*hb) + (a*b)'
+      '  - Pyramidenstumpf: V = 1/3 * h * [a2*b2 + sqrt(a1*b1*a2*b2) + a1*b1]; O = [(b1 + b2)*hb + (a1 + a2)*ha ] + (a2*b2) + (a1*b1)'
+      '  - Kegelstumpf: V = 1/3 * h * π * (r^2 + r*R + R^2); O = [π * m * (r + R)] + (R^2 * π) + (r^2 * π)'
+      ''
+      'Anmerkung:'
+      '----------'
+      '  Die eingegebenen Resultate werden als auf 3 Dezimalstellen aufgerundet erwartet!'
+    )
+    ParentFont = False
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+  end
+  object btClose: TButton
+    Left = 890
+    Height = 30
+    Top = 592
+    Width = 80
+    Caption = 'Schliessen'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+end

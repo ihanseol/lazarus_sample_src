@@ -1,0 +1,102 @@
+object fBacteria3A: TfBacteria3A
+  Left = 249
+  Height = 376
+  Top = 143
+  Width = 497
+  BorderIcons = []
+  Caption = 'Bacteria growth in the chemostat'
+  ClientHeight = 376
+  ClientWidth = 497
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object StaticText1: TStaticText
+    Left = 125
+    Height = 30
+    Top = 10
+    Width = 246
+    Alignment = taCenter
+    Caption = 'Chemostat growth analysis'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object sgAnalysis: TStringGrid
+    Left = 10
+    Height = 220
+    Top = 48
+    Width = 477
+    ColCount = 3
+    FixedRows = 0
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 8
+    TabOrder = 3
+    TabStop = False
+    TitleFont.Height = -17
+    TitleFont.Name = 'Consolas'
+    ColWidths = (
+      292
+      91
+      90
+    )
+    Cells = (
+      8
+      0
+      0
+      'Dilution rate'
+      0
+      1
+      'Mean residence time'
+      0
+      2
+      'Survival boundary'
+      0
+      3
+      'Breakeven concentration'
+      0
+      4
+      'Washout equilibrium: bacteria'
+      0
+      5
+      'Washout equilibrium: nutrient'
+      0
+      6
+      'Survival equilibrium: bacteria'
+      0
+      7
+      'Survival equilibrium: nutrient'
+    )
+  end
+  object stEquilibrium: TStaticText
+    Left = 10
+    Height = 32
+    Top = 280
+    Width = 477
+    Caption = 'N(t) will converge to the survival equilibrium'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object btClose: TButton
+    Left = 393
+    Height = 31
+    Top = 320
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 17
+    Top = 352
+    Width = 325
+    Caption = '(Second colum: graph adapted bacteria/nutrient values)'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+end

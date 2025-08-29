@@ -1,0 +1,70 @@
+"Decay1" program help.
+**********************
+
+"Decay1" is a nuclear physics application, generating exercises concerning radioactive decay, more precisely asking the user to find the equation for a given decay type of a given isotope.
+
+Menu item "File".
+=================
+
+New.
+----
+Start a new exercise, with a number of questions as selected (default = 10).
+
+Exit.
+-----
+Exit the application.
+
+Menu item "Settings".
+=====================
+
+Number of questions.
+--------------------
+User entry of the number of questions, the exercise should have (minimum 5). This option only becomes active, after choosing "New" in the "File" menu.
+
+Display decay description.
+--------------------------
+Toggle to display or not a 1-sentence description of the decay types (default = no).
+
+Enable isotope buttons.
+-----------------------
+Toggle or not to enable the "parent isotope" and "daughter isotope" buttons (default = no).
+These buttons concern the decay equation. When disabled, the user has to enter the two isotopes all manually; when enabled, this entry into the equation field is done automatically (cf. "Entering the decay formula" below).
+
+Equations display format.
+-------------------------
+The decay equations, as they appear in most physics texts, use the formula of the helium nucleus (2He-4) to describe the α-particle; you may change this by checking the "Use α instead of helium nucleus" option.
+For β- and β+ decay, physics books often do the contrary as for α decay and use β- for the electron and β+ for the positron. You may want to change this: simply check "Use e-/e+ instead of β-/β+". Note, that in the ε (EC) decay equation, the electron is always written as e-.
+
+Menu item "Help".
+=================
+
+Periodic table.
+---------------
+Display the table of chemical elements with their atomic number and mass number; you'll need to know these values to do the exercise (cf. physics help text).
+
+Physics help.
+-------------
+Physics background concerning radioactive decay.
+
+Program help.
+-------------
+Help concerning the usage of the "Decay1" application (this text).
+
+About.
+------
+Version, author and date-written of the "Decay1" application.
+
+Doing the exercises.
+====================
+
+Push the "Question" button to generate a question, i.e. to display the parent isotope and the decay type (α, β-, β+, ε). Fill in the atomic number (number of protons), the mass number and the number of neutrons for the isotope. Isotopes are displayed as X-nnn, where X is the chemical element's symbol and nnn the mass number of the actual isotope (one of several existing or synthetically created isotopes of a given element). Starting from this isotope and considering the decay type, determine Z, A and N and the symbol (remember that you have to use a Y-mmm notation) of the daughter isotope. Then, enter the decay equation and push the "Answer" button to check your answers.
+Any field with a wrong value will be highlighted in red; a "correct" or "false" icon at the left of the button indicates the global evaluation of your answer and the evaluation counters are updated.
+You may use the "Show" button to display the correct answer (with the equation re-formatted; see below). Note, that "Show" only reacts after you have pushed the "Answer" button.
+
+Entering the decay equation.
+============================
+
+Most symbols used in he decay equations have no corresponding key on an ordinary PC-keyboard; you may use the buttons below the equation field instead.
+α, β-, β+ particles are entered with the corresponding button. For the electron captured during ε decay, use the "electron" button. Neutrinos will be displayed in the equation as v, antineutrinos as ṽ.
+The parent and daughter isotope have to be entered with Z and A specified (N ignored, as just being A - Z); use the format ZX-A (without any spaces and X representing the element symbol). When displaying the equation with the "Show" button, the display of the nuclide is somewhat prettier, Z being written as subscript, as it usually is; writing A as superscript at the left of the element symbol, as it should be, is actually not implemented.
+With default settings, you have to enter the isotopes all manually. You can choose to do this with a simple button push by checking the "Enable isotope buttons" option. The nuclide entered will be ZX-A, with Z and A taken from the corresponding edit fields and X being the element symbol part of the value in the isotope edit field.

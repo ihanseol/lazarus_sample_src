@@ -1,0 +1,98 @@
+object fHelp: TfHelp
+  Left = 249
+  Height = 522
+  Top = 143
+  Width = 914
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Roman numerals'
+  ClientHeight = 522
+  ClientWidth = 914
+  DesignTimePPI = 120
+  LCLVersion = '2.2.0.4'
+  object edHelp: TMemo
+    Left = 10
+    Height = 454
+    Top = 10
+    Width = 894
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'The numeral system of the ancient Maya.'
+      '***************************************'
+      ''
+      'In their numeral system, the ancient Maya used three symbols to represent all numbers:'
+      '  - a dot has a numerical value of 1;'
+      '  - a line (or bar) a numerical value of 5;'
+      '  - a shell has the value of 0.'
+      '  '
+      'Concerning the numbers from 0 to 19, zero is represented by a shell, 1 to 4 are represented by dots, multiples of five are represented by lines, with extra dots being added to complete the numbers. To note, that Maya wrote their numbers from top to bottom rather than from left to right.'
+      ''
+      'Our own number system uses powers of tens ("ones place", "tens place", "hundreds place"): it''s a decimal or base-10 system. The ancient Maya used a vigesimal (base-20) notation in which each position is a power of twenty ("ones place", "twenty place", "four hundred place"). Calculating with numbers in a system with a base other than 10 is something, computer scientists are well familiar with (binary system, hexadecimal system). You also should have learned about it, when you took some serious math classes. For those, who don''t understand, what I''m taking about, search Google for "numbers base conversion", or simply have a look at the Maya numerals website of Dr Diane Davies (https://www.mayaarchaeologist.co.uk/school-resources/maya-world/mayamaths/), where you''ll find explanations and examples of how to convert numbers from base 10 (Arabic numbers) to base 20 (Maya numbers) and vice-versa.'
+      ''
+      'The "MayaNumbers" application.'
+      '******************************'
+      ''
+      'The application has a double functionality:'
+      '  - Maya numbers conversion;'
+      '  - Maya numbers knowledge test.'
+      'Which of these functionalities is actually used depends on the item that you select in the "File" menu. Please note, that in test mode, both "Arabic -> Maya" and "Maya -> Arabic" may be checked, whereas in conversion mode, you may only select one of them.'
+      'To enter a number in Arabic notation, just enter it in the corresponding edit field. To enter a number in Maya notation, select the number symbol fields (by clicking them with your mouse) one after the other (starting at the top), then double-click the numeral symbol that you want to place into this field.'
+      'In test mode, push the "Start/Next" button to generate a question, then the "Answer" button to check your answer. In conversion mode, click the "Convert" button to do the conversion.'
+      'The "Clear" button works in 2 different ways: If a Maya numeral symbol field is selected, this field will be cleared (and unselected); if not, pushing "Clear" clears all input fields.'
+      'The number of test questions and the maximum number to be used for the test questions may be chosen in the "Settings" menu. Please note, that your selection only becomes active when you start a new test.'
+      'The maximum number being converted by the application is 3,199,999, what corresponds to 20^5 - 1, the largest number that fits into the 5 number symbol fields.'
+      ''
+      'Menu "File".'
+      '============'
+      ''
+      'New test.'
+      '---------'
+      'Start a new test with the actually selected options.'
+      ''
+      'Conversion.'
+      '-----------'
+      'Convert a Maya number to an Arabic number, or vice-versa.'
+      ''
+      'Exit.'
+      '-----'
+      'Exit the application.'
+      ''
+      'Menu "Settings".'
+      '================'
+      ''
+      'Questions...'
+      '------------'
+      'Choose the number of questions (conversions to do) for the next test.'
+      ''
+      'Maximum.'
+      '--------'
+      'Choose the maximum number to be asked to convert during the next test. Possible values are: 100 (default), 1000, 10000, 1000000.'
+      ''
+      'Menu "Help".'
+      '============'
+      ''
+      'Help.'
+      '-----'
+      'Display help concerning the Maya number system and the usage of the "MayNumbers" application (this document).'
+      ''
+      'About.'
+      '------'
+      'Display author, version and date-written of the "MayNumbers" application.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 810
+    Height = 31
+    Top = 480
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

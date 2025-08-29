@@ -1,0 +1,165 @@
+object fOpAmp: TfOpAmp
+  Left = 271
+  Height = 720
+  Top = 29
+  Width = 911
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Operational amplifiers'
+  ClientHeight = 695
+  ClientWidth = 911
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  LCLVersion = '2.0.10.0'
+  object StaticText1: TStaticText
+    Left = 252
+    Height = 30
+    Top = 10
+    Width = 406
+    Alignment = taCenter
+    Caption = 'Operational amplifiers applications.'
+    Font.Height = -20
+    Font.Style = [fsBold, fsUnderline]
+    ParentFont = False
+    TabOrder = 6
+  end
+  object StaticText2: TStaticText
+    Left = 10
+    Height = 32
+    Top = 544
+    Width = 275
+    Caption = 'Linear op-amp applications.'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentFont = False
+    TabOrder = 7
+  end
+  object btComp: TButton
+    Left = 10
+    Height = 31
+    Top = 662
+    Width = 200
+    Caption = 'Comparator'
+    OnClick = btCompClick
+    TabOrder = 4
+  end
+  object btMult: TButton
+    Left = 240
+    Height = 31
+    Top = 662
+    Width = 200
+    Caption = 'Astable multivibrator'
+    OnClick = btMultClick
+    TabOrder = 5
+  end
+  object StaticText3: TStaticText
+    Left = 10
+    Height = 32
+    Top = 627
+    Width = 275
+    Caption = 'Non-linear op-amp applications.'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentFont = False
+    TabOrder = 8
+  end
+  object btInv: TButton
+    Left = 10
+    Height = 31
+    Top = 579
+    Width = 200
+    Caption = 'Inverting amplifier'
+    OnClick = btInvClick
+    TabOrder = 0
+  end
+  object btAdd: TButton
+    Left = 470
+    Height = 31
+    Top = 579
+    Width = 200
+    Caption = 'Adder circuits'
+    OnClick = btAddClick
+    TabOrder = 2
+  end
+  object btDiff: TButton
+    Left = 702
+    Height = 31
+    Top = 579
+    Width = 200
+    Caption = 'Differential amplifier'
+    OnClick = btDiffClick
+    TabOrder = 3
+  end
+  object btAmp1: TButton
+    Left = 240
+    Height = 31
+    Top = 579
+    Width = 200
+    Caption = 'Non-inverting amplifier'
+    OnClick = btAmp1Click
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 10
+    Height = 472
+    Top = 56
+    Width = 892
+    Color = clCream
+    Font.Height = -13
+    Lines.Strings = (
+      'The operational amplifier (op-amp) is an integrated circuit (IC),  that has characteristics, that very closely resemble those of an ideal amplifier.'
+      ''
+      'Both positive and negative voltage supplies (Vcc+ and Vcc-) are required, and the datasheet will specify their values for the particular op-amp you are using (the "OpAmplifiers" application uses the LM741, connected to +15V and -15V).'
+      ''
+      'An input at the inverting input (Vin-) results in an output that is 180 degrees out of phase with the input. An input at the non-inverting input (Vin+) results in an output that is in phase with the input.'
+      ''
+      'Basic operation of an op-amp: The output voltage is proportional to the difference between the non-inverting and the inverting input voltages:'
+      '  Vout = Aol ∙ (Vin+ − Vin−)'
+      '  '
+      'Aol is called the open-loop voltage gain of the op-amp. Typically, Aol is very large, e.g. 200000 for LM741.'
+      ''
+      'The output voltage Vout can however only be within a range set by two saturation voltages:'
+      '  Vsat- ≤ Vout ≤ Vsat+'
+      '  '
+      'with Vsat+ ≈ Vcc+ − 1V  and Vsat- ≈ Vcc- + 1V (+14V and -14V in the "OpAmplifiers" application).'
+      ''
+      'The output current is also restricted: for the LM741 it must be less than 25 mA. Finally, the input impedance of the two inputs is very high, so very little current flows into these inputs.'
+      ''
+      'These restrictions along with the large value of Aol mean that any small difference between the inputs will cause the output to saturate (e.g. 70 μV for the LM741 with ±15 V power supplies). This is the basis for the non-linear applications of the op-amp.'
+      ''
+      'Linear application circuits can be analyzed by applying the so-called golden rules of ideal linear op-amp operation:'
+      '  1. The output will do whatever is necessary to make the voltage difference between the inputs zero.'
+      '  2. No current flows into the inputs.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 9
+    TabStop = False
+  end
+  object mMenu: TMainMenu
+    Left = 848
+    Top = 440
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpElectronics: TMenuItem
+        Caption = 'Electronics help'
+        OnClick = mHelpElectronicsClick
+      end
+      object mHelpHelp: TMenuItem
+        Caption = 'Application help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

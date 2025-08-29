@@ -1,0 +1,90 @@
+Acker-Hahnenfuß               --3       Hahnenfuß           G    0407      Ranunculus arvensis
+Alpen-Edelweiß                -23       Edelweiß            W    0709      Leontopodium nivale
+Alpen-Soldanelle              --3       Soldanelle          b    0406      Soldanella alpina             Alpentroddelblume, Gewöhnliches Alpenglöckchen, Großes Alpenglöckchen
+Aurikel                       --3                           G    0406      Primula auricula              -Alpenaurikel
+Bastard-Schwertlilie          -23       Schwertlilie        b    0506      Iris spuria                   Salzwiesen-Schwertlilie
+Behaarte Primel               -23       Primel              rV   0607      Primula hirsuta               Behaarte Schlüsselblume, Rote Felsen-Primel
+Berg-Aster                    -23       Aster               b    0710      Aster amellus                 Kalk-Aster
+Bienen-Ragwurz                --3       Ragwurz             r              Ophrys apifera
+Blaue Lupine                  123       Lupine              -B             Lupinus angustifolius         Schmalblättrige Lupine
+Blutwurz                      --3                           G    0510      Potentilla erecta             Dilledapp, Durmentill, Natternwurz, Rotwurz, Ruhrwurz, Siebenfinger
+Breitblättrige Glockenblume   -23       Glockenblume        b    0608      Campanula latifolia           -Breitblatt-Glockenblume
+Buchs-Kreuzblume              -23       Kreuzblume          -X   0405 0910 Polygala chamaebuxus          Alpen-Zwergbuchs, -Buchsblättrige Kreuzblume, -Buchsblättriges Kreuzblümchen, Immergrüne Kreuzblume, Waldmyrte
+Bunter Eisenhut               -23       Eisenhut            Vv   0709      Aconitum variegatum           Gescheckter Eisenhut
+Bunte Schwertlilie            123       Schwertlilie        G    0506      Iris variegata                -Bunt-Schwertlilie
+Buschwindröschen              -23                           W              Anemone nemorosa
+Clusius-Enzian                -23       Enzian              B    0508      Gentiana clusii               Stängelloser Kalk-Enzian, Echter Alpenenzian, Kalk-Glocken-Enzian
+Echte Kugelblume              123       Kugelblume          v    0407      Globularia bisnagarica        -Gewöhnliche Kugelblume, Hochstiel-Kugelblume
+Echter Eibisch                --3       Eibisch             W    0708      Althaea officinalis           Arznei-Eibisch
+Echte Schlüsselblume          123       Schlüsselblume      G    0205 0406 Primula veris
+Essig-Rose                    123       Rose                R    0607      Rosa gallica                  Gallica-Rose
+Feld-Rose                     -23       Rose                W    0607      Rosa arvensis                 Acker-Rose, Ranken-Rose, Wald-Rose, Große Hunds-Rose, Hundsdorn, Kriechende Rose
+Feuer-Lilie                   -23       Lilie               ROG  0506      Lilium bulbiferum
+Frauenschuh                   -23                           G    0506      Cypripedium calceolus         -Gelber Frauenschuh, -Gelb-Frauenschuh, -Rotbrauner Frauenschuh, -Marienfrauenschuh, -Europäischer Frauenschuh
+Frühlings-Knotenblume         --3       Knotenblume         W    0304      Leucojum vernum               Märzenbecher, Märzbecher, Märzglöckchen, Großes Schneeglöckchen
+Frühlings-Krokus              -23       Krokus              -X   0306      Crocus vernus                 Frühlings-Safran
+Garten-Chrysantheme           -23       Chrysantheme        -X             Chrysanthemum × grandiflorum
+Garten-Dahlie                 123       Dahlie              -X   0710      Dahlia × hortensis
+Gartenkürbis                  --3       Kürbis              G    0608      Cucurbita pepo
+Garten-Stiefmütterchen        123       Stiefmütterchen     -X             Viola wittrockiana
+Gelbe Azalee                  -23       Azalee              -G             Rhododendron luteum           Pontische Azalee
+Gelbe Narzisse                123       Narzisse            -G             Narcissus pseudonarcissus     Osterglocke, Osterglöckchen, Falscher Narzissus, Trompeten-Narzisse
+Gemeine Nachtkerze            --3       Nachtkerze          GO   0609      Oenothera biennis             -Gewöhnliche Nachtkerze
+Gemeine Pfingstrose           -23       Pfingstrose         -X   0506      Paeonia officinalis           -Echte Pfingstrose, Bauern-Pfingstrose, Garten-Pfingstrose
+Gemeine Wegwarte              --3       Wegwarte            B    0610      Cichorium intybus             -Gewöhnliche Wegwarte, Zichorie
+Gewöhnliche Kuhschelle        --3       Kuhschelle          RV   0305      Pulsatilla vulgaris           Gewöhnliche Küchenschelle
+Gewöhnliche Mahonie           --3       Mahonie             G    0306      Mahonia aquifolium            Stechdornblättrige Mahonie
+Gewöhnlicher Blutweiderich    --3       Blutweiderich       V    0609      Lythrum salicaria
+Gewöhnlicher Gilbweiderich    --3       Gilbweiderich       G    0608      Lysimachia vulgaris           Rispen-Gilbweiderich, Gewöhnlicher Felberich
+Gewöhnliche Stockrose         --3       Stockrose           -X   0210      Alcea rosea                   Stockmalve, Garten-Pappelrose, Bauernrose, Garten-Stockrose
+Glocken-Heide                 --3                           r    0609      Erica tetralix                -Moor-Glockenheide, Sumpfheide, Torfheide, Forchheide, Frühlingsheide
+Große Kapuzinerkresse         --3       Kapuzinerkresse     GOR            Tropaeolum majus
+Großes Löwenmaul              -23       Löwenmaul           -X   0609      Antirrhinum majus             Garten-Löwenmaul
+Gänseblümchen                 123                           W    0311      Bellis perennis               -Ausdauerndes Gänseblümchen, -Mehrjähriges Gänseblümchen
+Heide-Nelke                   -23       Nelke               P    0609      Dianthus deltoides
+Hoher Rittersporn             -23       Rittersporn         BV   0608      Delphinium elatum
+Horn-Veilchen                 123       Veilchen            v    0510      Viola cornuta
+Huflattich                    -23                           G    0204      Tussilago farfara
+Jakobs-Greiskraut             --3       Greiskraut          G              Jacobaea vulgaris             -Jakob-Greiskraut, Jakobs-Kreuzkraut, Jakobskraut
+Klatschmohn                   123       Mohn                RP   0507      Papaver rhoeas                Mohnblume, Klatschrose
+Kleines Immergrün             --3       Immergrün           b    0306      Vinca minor                   Kleines Singrün
+Kleines Knabenkraut           --3       Knabenkraut         V              Anacamptis morio
+Knollenbegonien               -23                           -X             Begonia × tuberhybrida
+Kornblume                     123                           -X   0610      Cyanus segetum                Zyane
+Kronen-Anemone                -23       Anemone             RVB  0105 1212 Anemone coronaria             Garten-Anemone
+Kuckucks-Lichtnelke           --3       Lichtnelke          rR   0507      Silene flos-cuculi
+Leberblümchen                 --3                           Bb   0304      Hepatica nobilis              -Gewöhnliches Leberblümchen, -Dreilappiges Leberblümchen
+Löwenzahn                     123                           G    0405      Taraxacum sect. Ruderalia     -Gewöhnlicher Löwenzahn
+Magerwiesen-Margerite         123       Margerite           W              Leucanthemum vulgare
+Maiglöckchen                  123                           W    0306      Convallaria majalis
+Mehlprimel                    -23       Primel              r    0506      Primula farinosa              Mehlige Schlüsselblume
+Orphanides-Tulpe              123       Tulpe               RO   0405      Tulipa orphanidea
+Ringelblume                   --3                           GO   0610      Calendula officinalis         -Garten-Ringelblume
+Rotes Waldvöglein             --3       Waldvöglein         -rRV 0507      Cephalanthera rubra           Purpur-Waldvöglein
+Saat-Mohn                     -23       Mohn                -X   0506      Papaver dubium
+Schachblume                   --3                           -X   0405      Fritillaria meleagris         -Schachbrettblume, Kiebitzei
+Schneerose                    -23                           W              Helleborus niger              Christrose, Schwarze Nieswurz
+Schwanenblume                 --3                           -X   0608      Butomus umbellatus            Wasserliesch, Blumenbinse, -Doldige Schwanenblume, Wasserviole
+Sommer-Adonisröschen          --3       Adonisröschen       ROG  0506      Adonis aestivalis             Blutauge, Blutströpfchen, Sommerblutströpfchen, Feuerröschen, Kleines Teufelsauge
+Sonnenblume                   123                           G    0609      Helianthus annuus             -Gewöhnliche Sonnenblume
+Sonnenröschen                 123                           G    0509      Helianthemum nummularium      -Gelbes Sonnenröschen, -Gewöhnliches Sonnenröschen, -Gemeines Sonnenröschen, -Sonnenwendröschen
+Strand-Grasnelke              --3       Grasnelke           rP   0510      Armeria maritima              Gewöhnliche Grasnelke
+Stundenblume                  --3                           W    0609      Hibiscus trionum              Stunden-Roseneibisch, Einjähriger Stundeneibisch, Stundenröslein
+Sumpf-Blutauge                --3       Blutauge            P    0607 0808 Potentilla palustris
+Sumpfdotterblume              123       Dotterblume         G    0306 0710 Caltha palustris
+Sumpf-Herzblatt               --3       Herzblatt           W    0709      Parnassia palustris           Studentenröschen
+Türkenbund                    --3                           rV   0608      Lilium martagon               -Türkenbund-Lilie
+Violetter Dingel              --3       Dingel              -V   0606      Limodorum abortivum
+Wald-Vergissmeinnicht         123       Vergissmeinnicht    VB   0507      Myosotis sylvatica
+Weiße Narzisse                -23       Narzisse            -W   0405      Narcissus poeticus            Dichter-Narzisse, Montreux-Narzisse, Echte Narzisse
+Weiße Seerose                 -23       Seerose             -W   0609      Nymphaea alba
+Weißes Waldvöglein            --3       Waldvöglein         -W   0507      Cephalanthera damasonium      Bleiches Waldvöglein, Breitblatt-Waldvöglein
+Wiesen-Bocksbart              --3       Bocksbart           G    0508      Tragopogon pratensis
+Wiesen-Flockenblume           -23       Flockenblume        V    0510      Centaurea jacea               Gewöhnliche Flockenblume
+Wiesen-Schaumkraut            --3       Schaumkraut         wr   0406      Cardamine pratensis
+Wilde Malve                   --3       Malve               rV   0509      Malva sylvestris              Große Käsepappel, Rosspappel
+Wilde Tulpe                   -23       Tulpe               G    0405      Tulipa sylvestris             Weinberg-Tulpe, Wald-Tulpe
+Winterling                    --3                           G    0203      Eranthis hyemalis
+Zottiges Weidenröschen        --3       Weidenröschen       P    0709      Epilobium hirsutum            Rauhaariges Weidenröschen
+Zweiblättrige Waldhyazinthe   -23       Waldhyazinthe       W    0608      Platanthera bifolia           Weiß-Waldhyazinthe, Weiße Waldhyazinthe
+Zweiblütige Steinbrech        -33       Steinbrech          V    0708      Saxifraga biflora

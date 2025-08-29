@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="Equations3.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="equations3_u1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fEquations3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="22" HistoryIndex="21">
+      <Position1>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="7" Column="42"/>
+      </Position1>
+      <Position2>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="319" TopLine="293"/>
+      </Position2>
+      <Position3>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="150" Column="130" TopLine="137"/>
+      </Position3>
+      <Position4>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="310" TopLine="284"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Equations3.lpr"/>
+        <Caret Line="2" Column="48"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Equations3.lpr"/>
+        <Caret Line="9"/>
+      </Position6>
+      <Position7>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="133" Column="80" TopLine="127"/>
+      </Position7>
+      <Position8>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="91" Column="95" TopLine="72"/>
+      </Position8>
+      <Position9>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="331" TopLine="290"/>
+      </Position9>
+      <Position10>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="320" Column="55" TopLine="305"/>
+      </Position10>
+      <Position11>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="319" Column="55" TopLine="304"/>
+      </Position11>
+      <Position12>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="326" Column="55" TopLine="311"/>
+      </Position12>
+      <Position13>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="188" Column="3" TopLine="186"/>
+      </Position13>
+      <Position14>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="185" TopLine="170"/>
+      </Position14>
+      <Position15>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="338" TopLine="312"/>
+      </Position15>
+      <Position16>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="221" Column="103" TopLine="200"/>
+      </Position16>
+      <Position17>
+        <Filename Value="equations3_u1.pas"/>
+      </Position17>
+      <Position18>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="154" Column="43" TopLine="141"/>
+      </Position18>
+      <Position19>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="197" Column="14" TopLine="188"/>
+      </Position19>
+      <Position20>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="294" Column="25" TopLine="272"/>
+      </Position20>
+      <Position21>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="154" Column="49" TopLine="137"/>
+      </Position21>
+      <Position22>
+        <Filename Value="equations3_u1.pas"/>
+        <Caret Line="5" Column="53"/>
+      </Position22>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

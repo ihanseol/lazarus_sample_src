@@ -1,0 +1,229 @@
+object fAddon: TfAddon
+  Left = 201
+  Height = 580
+  Top = 175
+  Width = 1020
+  BorderIcons = [biSystemMenu]
+  Caption = 'Loan repayment:  Simple add-on interest'
+  ClientHeight = 580
+  ClientWidth = 1020
+  DesignTimePPI = 120
+  Font.Height = -18
+  OnActivate = FormActivate
+  LCLVersion = '2.2.6.0'
+  object Label2: TLabel
+    Left = 16
+    Height = 23
+    Top = 20
+    Width = 65
+    Caption = 'Principal'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edPrincipal: TEdit
+    Left = 87
+    Height = 31
+    Top = 16
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 0
+  end
+  object Label5: TLabel
+    Left = 356
+    Height = 23
+    Top = 20
+    Width = 151
+    Caption = 'Annual interest rate'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edInterest: TEdit
+    Left = 512
+    Height = 31
+    Top = 16
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object laCalculation: TLabel
+    Left = 790
+    Height = 23
+    Top = 20
+    Width = 109
+    Caption = 'Periods (years)'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCalculation: TEdit
+    Left = 930
+    Height = 31
+    Top = 16
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object sgRepayments: TStringGrid
+    Left = 16
+    Height = 394
+    Top = 136
+    Width = 994
+    ColCount = 9
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 13
+    ScrollBars = ssVertical
+    TabOrder = 1
+    TabStop = False
+    ColWidths = (
+      55
+      110
+      90
+      145
+      84
+      92
+      136
+      146
+      110
+    )
+    RowHeights = (
+      30
+      30
+      30
+      30
+      30
+      30
+      30
+      30
+      30
+      30
+      30
+      30
+      30
+    )
+    Cells = (
+      21
+      0
+      0
+      'Month'
+      0
+      1
+      '   1'
+      0
+      2
+      '   2'
+      0
+      3
+      '   3'
+      0
+      4
+      '   4'
+      0
+      5
+      '   5'
+      0
+      6
+      '   6'
+      0
+      7
+      '   7'
+      0
+      8
+      '   8'
+      0
+      9
+      '   9'
+      0
+      10
+      '  10'
+      0
+      11
+      '  11'
+      0
+      12
+      '  12'
+      1
+      0
+      'Old balance'
+      2
+      0
+      'Repayment'
+      3
+      0
+      'Interest factor'
+      4
+      0
+      'Interest'
+      5
+      0
+      'Principal'
+      6
+      0
+      'Interest total'
+      7
+      0
+      'Principal total'
+      8
+      0
+      'New balance'
+    )
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 23
+    Top = 104
+    Width = 164
+    Caption = 'Monthly repayment:'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btClose: TButton
+    Left = 916
+    Height = 31
+    Top = 540
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 4
+  end
+  object laCalculation2: TLabel
+    Left = 790
+    Height = 23
+    Top = 63
+    Width = 135
+    Caption = 'Monthly payment'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCalculation2: TEdit
+    Left = 930
+    Height = 31
+    Top = 59
+    Width = 80
+    Alignment = taRightJustify
+    Color = clMoneyGreen
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+end

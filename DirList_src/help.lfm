@@ -1,0 +1,129 @@
+object fHelp: TfHelp
+  Left = 240
+  Height = 565
+  Top = 122
+  Width = 1066
+  BorderIcons = [biSystemMenu]
+  Caption = 'DirList Help'
+  ClientHeight = 565
+  ClientWidth = 1066
+  DesignTimePPI = 120
+  Font.Height = -17
+  LCLVersion = '1.8.4.0'
+  object edHelp: TMemo
+    Left = 5
+    Height = 515
+    Top = 4
+    Width = 1056
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '******************'
+      '* "DirList" Help *'
+      '******************'
+      ''
+      '"DirList" is an application, that may be used to create the listing of a folder''s files and subfolders on a Microsoft Windows computer. The listing is similar to what you get in File Explorer, the major difference being the possibility to separate the system objects from the other ones and the display of the file attributes. The list may be exported to a file, with text, CSV or HTML format.'
+      ''
+      'Menu "File".'
+      '============'
+      ''
+      'Exit.'
+      '-----'
+      'Exit the application.'
+      ''
+      'Menu "Options".'
+      '==============='
+      ''
+      'Letercase dependent sort.'
+      '-------------------------'
+      'If checked, lowercase letters are sorted after (all) uppercase. Default = unchecked (Windows doen''t consider the letter case of filenames, anyway).'
+      ''
+      'Lowercase file extensions.'
+      '--------------------------'
+      'If checked, all file extensions are displayed with lowercase letters. Default = checked.'
+      ''
+      'Default file override without asking.'
+      '-------------------------------------'
+      'Normally, when you export the list, and a file with the name, that you specify, already exists, the application asks for confirmation before overwriting it. If the option is checked, files with the default name "dirlist" are automatically overwritten. Default = checked.'
+      ''
+      'Menu "Help".'
+      '============'
+      ''
+      'Help.'
+      '-----'
+      '"Dirlist" application usage help (this text).'
+      ''
+      'About.'
+      '------'
+      '"Dirlist" application version, author and date-written.'
+      ''
+      'Running "DirList".'
+      '=================='
+      ''
+      'Use the "Browse" button to navigate to the folder, that you want to do the directory listing of, select or unselect the checkboxes, depending on what you want to display and how you want your listing be organized, then push the "List" button. The listing display options are as follows:'
+      ''
+      'List:'
+      '-----'
+      'List files or folders (= subdirectories) or both.'
+      ''
+      'Include:'
+      '--------'
+      'As Windows File Explorer, default display shows only the "ordinary" files/folders, that are not hidden. To include hidden or system files, select the corresponding checkbox. As system files are also hidden by default, the application automatically checks "Hidden", if the user selects to include the system files.'
+      ''
+      'Types:'
+      '------'
+      'The "Type" column is used to mark the folders vs the files and the system objects vs the "ordinary" ones. "Ordinary" folders are always typed as "DIR". If the "System folder" checkbox is selected, system folders are typed as "SDIR", if it is unselected, all folders are typed as "DIR".'
+      'Files are typed as follows:'
+      '      Type checkbox                 Displayed type'
+      '  --------------------     ------------------------------- '
+      '  File     System File     Ordinary files     System files'
+      '  --------------------------------------------------------'
+      '    -           -              [blank]           [blank]'
+      '    -           +              [blank]           sfile'
+      '    +           -              file              file'
+      '    +           +              file              sfile'
+      ''
+      'Sort:'
+      '-----'
+      'As Windows File Explorer, "DirList" allows to sort the directory listing by filename, file extension, file size or filedate. To sort in reverse order (from Z to A resp. from high to low), select the "Descendant" checkbox. With "Folders first", subdirectories are placed at the beginning of the list, otherwise files and folders are mixed.'
+      '"System objects first" allows to separate system objects from "ordinary"ones. With this option checked: If "Folders first" is checked, the sort order is SDIR, DIR, sfile, file; if "Folders first" is not checked, system files and folders are mixed at the beginning of the list, "ordinary" objects sorted after them (mixed, too). Please note, that this option is ignored for objects, for which the system type is not selected.'
+      ''
+      'The "DirList" output.'
+      '====================='
+      ''
+      'Name = object name. Ext = object extension (comparable to "Type" in Explorer). Type => cf. above. Size = file size (no value for folders); the unit used (kB, MB, GB) depending on the size value. Date = object modification date; the yyyy-mm-dd format is the most logical one for date-sorts and avoids all problems related to the region dependent dd/mm resp mm/dd format. Attributes: the 5 major object attributes, from left to right: directory, system, hidden, read-only, archive; if the attribute is set, a letter is displayed at the corr. position, otherwisw a "─" sign.'
+      ''
+      'Exporting the listing.'
+      '======================'
+      ''
+      'The directory listing may be saved to a file; after having displayed the list, select the file type and push "Export". File types avaiable:'
+      ''
+      'Text.'
+      '-----'
+      'A text file (.txt) with column-like formatting, i.e. an easy readable table, where all values of a given file characteristic always appear at the same horizontal position (filling between values being done with spaces).'
+      ''
+      'CSV.'
+      '----'
+      'A CSV file (normally .csv, may also use .txt), with all values enclosed between double-quotes, the character used to separate the values being chosen by the user. Default: semicolon; if you want a tab character as separator, please ue: \t. Note, that CSV files may be easily imported into spreadsheet applications (LibreOffice Calc, MS Office Excel ...).. They are also a good choice, if you want to compare the content of two folders (using an application like "WinMerge", for example).'
+      ''
+      'HTML.'
+      '-----'
+      'A webpage file (.html or .htm), that can be viewed with a web browser. With alternate row background-color, the most easily readable of the 3 formats.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+    WantTabs = True
+  end
+  object btClose: TButton
+    Left = 967
+    Height = 31
+    Top = 530
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

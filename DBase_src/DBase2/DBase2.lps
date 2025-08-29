@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="DBase2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="dbase2_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fDBase2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="61"/>
+        <CursorPos X="62" Y="83"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="21">
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="13" Column="79"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="17" Column="79"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="18" Column="79"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="19" Column="79"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="21" Column="79"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="35" Column="20" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="42" Column="3" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="45" Column="3" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="59" Column="34" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="58" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="61" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="63" Column="38" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="65" Column="38" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="67" Column="38" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="88" Column="3" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="98" Column="82" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="96" Column="94" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="78" Column="32" TopLine="65"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="86" Column="64" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="98" Column="35" TopLine="87"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="99" Column="35" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase2_main.pas"/>
+        <Caret Line="98" Column="35" TopLine="87"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

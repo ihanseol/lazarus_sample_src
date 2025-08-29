@@ -1,0 +1,10 @@
+# Hilbert-Curve
+
+origin = (240,75)
+displacement = 8
+
+axiom = "4X"
+rules = { "X": "+YF-XFX-FY+",
+          "Y": "-XF+YFY+FX-" }
+iterations = 6
+angle = 90

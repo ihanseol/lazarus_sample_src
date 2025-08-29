@@ -1,0 +1,10 @@
+# Dragon-Curve
+
+origin = (650,275)
+displacement = 6
+
+axiom = "7FX"
+rules = { "X": "X+YF+",
+          "Y": "-FX-Y" }
+iterations = 12
+angle = 90

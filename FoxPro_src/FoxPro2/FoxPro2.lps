@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="FoxPro2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="foxpro2_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fFoxPro2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="E:\Programs\Lazarus\fpc\3.2.2\source\packages\fcl-db\src\dbase\dbf.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="71" Y="8"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="158" Column="20" TopLine="133"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="157" Column="20" TopLine="132"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="116" Column="62" TopLine="109"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="40" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="148" Column="52" TopLine="122"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="71" Column="3" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="143" Column="26" TopLine="135"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="154" Column="87" TopLine="126"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="151" Column="112" TopLine="133"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="146" Column="73" TopLine="131"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="72" Column="79" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="73" Column="81" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="74" Column="81" TopLine="59"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="75" Column="81" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="77" Column="81" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="78" Column="81" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="77" Column="81" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="79" Column="36" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="72" Column="43" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="FoxPro2.lpr"/>
+        <Caret Line="3" Column="64"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="180" Column="22" TopLine="170"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="38" Column="44" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="69" Column="61" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="113" Column="32" TopLine="98"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="207" TopLine="179"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="189" Column="32" TopLine="161"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="53" Column="12" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="62" Column="16" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="FoxPro2.lpr"/>
+        <Caret Line="2" Column="4"/>
+      </Position>
+      <Position>
+        <Filename Value="foxpro2_main.pas"/>
+        <Caret Line="103" Column="67" TopLine="79"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

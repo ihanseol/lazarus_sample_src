@@ -1,0 +1,480 @@
+object fDiffusion: TfDiffusion
+  Left = 3
+  Height = 763
+  Top = 12
+  Width = 1492
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Fick''s Law of Diffusion'
+  ClientHeight = 738
+  ClientWidth = 1492
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object stTitle: TStaticText
+    Left = 387
+    Height = 29
+    Top = 10
+    Width = 718
+    Alignment = taCenter
+    Caption = 'Compartmental Modeling: Fick''s Law of Diffusion.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 9
+  end
+  object edDetails: TMemo
+    Left = 10
+    Height = 113
+    Top = 50
+    Width = 1475
+    Color = clCream
+    Font.Height = -15
+    Lines.Strings = (
+      'Fick''s Law of diffusion describes the time course of the transfer of a solute between two compartments that are separated by a thin membrane:'
+      '    dq/dt = -DA • dc/dx'
+      'where q = quantity of solute, A = membrane surface area, c = concentration, dx = membrane thickness, D = diffusion coefficient; dc/dx = concentration gradient.'
+      'The application considers two  compartments of  volume V1 resp. V2 with an  initial amount of solute q10 being dumped into  compartment 1 and shows the  variation of the  solute concentrations c1 and c2 over time.'
+      'The formulae used are taken from " Introduction to Biomedical Engineering", Third Edition, 2012 by John D. Enderle PhD.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 10
+    TabStop = False
+  end
+  object imDisplay: TImage
+    Left = 10
+    Height = 500
+    Top = 230
+    Width = 1000
+  end
+  object Label1: TLabel
+    Left = 1024
+    Height = 23
+    Top = 230
+    Width = 125
+    Caption = 'Compartment 1:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laV1: TLabel
+    Left = 1024
+    Height = 23
+    Top = 268
+    Width = 83
+    Caption = 'Volume V1'
+    ParentColor = False
+  end
+  object edV1: TEdit
+    Left = 1128
+    Height = 31
+    Top = 264
+    Width = 75
+    Alignment = taRightJustify
+    TabOrder = 0
+  end
+  object laQ10: TLabel
+    Left = 1272
+    Height = 23
+    Top = 268
+    Width = 99
+    Caption = 'Quantity q10'
+    ParentColor = False
+  end
+  object edQ10: TEdit
+    Left = 1381
+    Height = 31
+    Top = 264
+    Width = 75
+    Alignment = taRightJustify
+    TabOrder = 2
+  end
+  object Label5: TLabel
+    Left = 1208
+    Height = 23
+    Top = 268
+    Width = 8
+    Caption = 'L'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 1461
+    Height = 23
+    Top = 268
+    Width = 10
+    Caption = 'g'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 1024
+    Height = 23
+    Top = 320
+    Width = 125
+    Caption = 'Compartment 2:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laV2: TLabel
+    Left = 1024
+    Height = 23
+    Top = 358
+    Width = 83
+    Caption = 'Volume V2'
+    ParentColor = False
+  end
+  object edV2: TEdit
+    Left = 1128
+    Height = 31
+    Top = 354
+    Width = 75
+    Alignment = taRightJustify
+    TabOrder = 3
+  end
+  object Label9: TLabel
+    Left = 1208
+    Height = 23
+    Top = 358
+    Width = 8
+    Caption = 'L'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 1024
+    Height = 23
+    Top = 496
+    Width = 71
+    Caption = 'Diffusion:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label22: TLabel
+    Left = 1024
+    Height = 23
+    Top = 534
+    Width = 98
+    Caption = 'Coefficient D'
+    ParentColor = False
+  end
+  object edD: TEdit
+    Left = 1128
+    Height = 31
+    Top = 530
+    Width = 75
+    Alignment = taRightJustify
+    TabOrder = 6
+  end
+  object btStart: TButton
+    Left = 1391
+    Height = 31
+    Top = 699
+    Width = 94
+    Caption = 'Start'
+    OnClick = btStartClick
+    TabOrder = 7
+  end
+  object btPause: TButton
+    Left = 1285
+    Height = 31
+    Top = 699
+    Width = 94
+    Caption = 'Pause'
+    OnClick = btPauseClick
+    TabOrder = 8
+    TabStop = False
+  end
+  object Label10: TLabel
+    Left = 1208
+    Height = 23
+    Top = 534
+    Width = 43
+    Caption = 'cm²/s'
+    ParentColor = False
+  end
+  object stD: TStaticText
+    Left = 1024
+    Height = 50
+    Top = 572
+    Width = 462
+    Caption = 'Common diffusion coefficient values for molecules dissolved in liquids are between 1E-6 and 1E-5 cm²/s.'
+    Font.Color = clBlue
+    Font.Height = -17
+    Font.Style = [fsItalic]
+    ParentFont = False
+    TabOrder = 12
+  end
+  object Label2: TLabel
+    Left = 1024
+    Height = 23
+    Top = 408
+    Width = 87
+    Caption = 'Membrane:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label20: TLabel
+    Left = 1024
+    Height = 23
+    Top = 446
+    Width = 51
+    Caption = 'Area A'
+    ParentColor = False
+  end
+  object edA: TEdit
+    Left = 1128
+    Height = 31
+    Top = 442
+    Width = 75
+    Alignment = taRightJustify
+    TabOrder = 4
+  end
+  object Label21: TLabel
+    Left = 1272
+    Height = 23
+    Top = 446
+    Width = 95
+    Caption = 'Thickness dx'
+    ParentColor = False
+  end
+  object edX: TEdit
+    Left = 1381
+    Height = 31
+    Top = 442
+    Width = 75
+    Alignment = taRightJustify
+    TabOrder = 5
+  end
+  object Label7: TLabel
+    Left = 1208
+    Height = 23
+    Top = 446
+    Width = 29
+    Caption = 'cm²'
+    ParentColor = False
+  end
+  object Label11: TLabel
+    Left = 1461
+    Height = 23
+    Top = 446
+    Width = 25
+    Caption = 'µm'
+    ParentColor = False
+  end
+  object Label23: TLabel
+    Left = 10
+    Height = 23
+    Top = 188
+    Width = 6
+    Caption = 't'
+    ParentColor = False
+  end
+  object edT: TEdit
+    Left = 24
+    Height = 31
+    Top = 184
+    Width = 70
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object laTUnit: TLabel
+    Left = 100
+    Height = 23
+    Top = 188
+    Width = 10
+    Caption = 'h'
+    ParentColor = False
+  end
+  object laQ1: TLabel
+    Left = 170
+    Height = 23
+    Top = 188
+    Width = 19
+    Caption = 'q1'
+    ParentColor = False
+  end
+  object edQ1: TEdit
+    Left = 194
+    Height = 31
+    Top = 184
+    Width = 140
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object Label13: TLabel
+    Left = 340
+    Height = 23
+    Top = 188
+    Width = 10
+    Caption = 'g'
+    ParentColor = False
+  end
+  object laQ2: TLabel
+    Left = 381
+    Height = 23
+    Top = 188
+    Width = 19
+    Caption = 'q2'
+    ParentColor = False
+  end
+  object edQ2: TEdit
+    Left = 407
+    Height = 31
+    Top = 184
+    Width = 140
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabOrder = 14
+  end
+  object Label14: TLabel
+    Left = 554
+    Height = 23
+    Top = 188
+    Width = 10
+    Caption = 'g'
+    ParentColor = False
+  end
+  object lac1: TLabel
+    Left = 600
+    Height = 23
+    Top = 188
+    Width = 17
+    Caption = 'c1'
+    ParentColor = False
+  end
+  object edC1: TEdit
+    Left = 622
+    Height = 31
+    Top = 184
+    Width = 140
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 15
+  end
+  object Label16: TLabel
+    Left = 766
+    Height = 23
+    Top = 188
+    Width = 25
+    Caption = 'g/L'
+    ParentColor = False
+  end
+  object laC2: TLabel
+    Left = 817
+    Height = 23
+    Top = 188
+    Width = 17
+    Caption = 'c2'
+    ParentColor = False
+  end
+  object edC2: TEdit
+    Left = 839
+    Height = 31
+    Top = 184
+    Width = 140
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 16
+  end
+  object Label17: TLabel
+    Left = 985
+    Height = 23
+    Top = 188
+    Width = 25
+    Caption = 'g/L'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 1024
+    Height = 23
+    Top = 649
+    Width = 99
+    Caption = 'Steady state'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edC: TEdit
+    Left = 1128
+    Height = 31
+    Top = 645
+    Width = 160
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 1
+  end
+  object Label12: TLabel
+    Left = 1296
+    Height = 23
+    Top = 649
+    Width = 25
+    Caption = 'g/L'
+    ParentColor = False
+  end
+  object mMenu: TMainMenu
+    left = 1432
+    top = 16
+    object mSimul: TMenuItem
+      Caption = 'Simulation'
+      object mSimulExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mSimulExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsTime: TMenuItem
+        Caption = 'Simulation time ...'
+        OnClick = mSettingsTimeClick
+      end
+      object mSettingsDisplay: TMenuItem
+        Caption = 'Concentrations display'
+        object mSettingsDisplay3: TMenuItem
+          Caption = '3 decimal digits'
+          OnClick = mSettingsDisplay3Click
+        end
+        object mSettingsDisplay6: TMenuItem
+          Caption = '6 decimal digits'
+          Checked = True
+          OnClick = mSettingsDisplay6Click
+        end
+        object mSettingsDisplay9: TMenuItem
+          Caption = '9 decimal digits'
+          OnClick = mSettingsDisplay9Click
+        end
+      end
+      object mSettingsSameVols: TMenuItem
+        Caption = 'Use same volumes'
+        OnClick = mSettingsSameVolsClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object tiDiffusion: TTimer
+    Enabled = False
+    OnTimer = tiDiffusionTimer
+    left = 1352
+    top = 16
+  end
+end

@@ -1,0 +1,16 @@
+"RGBColorMixer" application help.
+=================================
+
+An RGB LED has three internal LEDs (a red, a green, and a blue one) that can be combined to produce almost any color output. In order to produce different kinds of colors, we need to set the intensity of each internal LED and combine the three color outputs. For example, if the intensity of the red and the green LED are at a maximum, and the intensity of the blue LED at 0, you will get yellow. Other example: With green at 0, full intensity of the red and blue LEDs gives a magenta color; half intensity of the red and blue LEDs gives purple. The color produced obeys the physics law of color addition. If we consider LED intensity values between 0 and 255, the color for any intensities combination is the color with the corresponding HTML RGB color value. A look at my "Color picker 2019" web application (please visit: https://www.streetinfo.lu/computing/website/applications/cp2019.html) may be helpful to see how this works.
+
+There are two types of RGB LEDs: Common cathode RGB LEDs have 3 separate inputs (one for each of the internal LEDs) and a common output to be connected to the ground (0V). Common anode RGB LEDs have 3 separate outputs and a common input to be connected to the power source (+5V).
+
+The "RGBColorMixer" application is a simple simulation of color mixing using an RGB LED. The intensity of the 3 internal LEDs is controlled by 3 potentiometers, that vary the voltage across the LEDs. It is supposed that the voltage variation is directly proportional to the LED intensity and that this LED intensity proportionally corresponds to a given RGB value. Thus if the first and the third poti are set at half the maximum resistance (the second one being at 0Ω), the RGB LED will produce purple light.
+
+The application allows to choose between common anode and common cathode RGB LEDs, what fundamentally doesn't change anything, if we use different power supply units and connect the RGB LED accordingly.
+
+The potis are 10kΩ, and their value can be set using trackbars. The line size of the trackbar (arrow keys) is 10Ω, the page size (PGUP/PGDOWN, or mouse click) is 100Ω. For any change of one of the 3 poti values, the corresponding RGB code is displayed (the user can choose between decimal and hexadecimal values) and the color of the LED is set accordingly.
+
+To play around with color mixing, you can set several initial situations, using the items in the "Simulation" menu: "Reset all on/off" sets all poti values to 10,000Ω resp. to 0Ω, producing a white resp. black color (this last one never occurring in reality, of course). "Reset red/green/blue" sets the corresponding poti to 10,000Ω, the two others to 0Ω, producing one of the three primary colors.
+
+In the "Options" menu, you find an item called "Disable LED brightness". If this option is checked, the LED lights with full brightness (solid color). As this is not really what happens with a real circuit, I added this option to show how the brightness of the LED decreases with decreasing voltage across it. Thus, with this option checked, if the voltage across all three LEDs is below a given value (poti value arbitrarily set to 4,000Ω) the solid color style will be replaced by a diagonal-cross style; if the three poti values are below 2,000Ω, a simple diagonal style will be used.

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="GerVerbs.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="108"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="gverbs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fGVerbs"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="108"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="gconj.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fConj"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="106"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="94"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="help.pas"/>
+        <Caret Line="44" TopLine="17"/>
+      </Position1>
+      <Position2>
+        <Filename Value="gconj.pas"/>
+        <Caret Line="49" TopLine="22"/>
+      </Position2>
+      <Position3>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="381" Column="25" TopLine="371"/>
+      </Position3>
+      <Position4>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="28" Column="14" TopLine="17"/>
+      </Position4>
+      <Position5>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="27" Column="14" TopLine="17"/>
+      </Position5>
+      <Position6>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="232" Column="24" TopLine="223"/>
+      </Position6>
+      <Position7>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="560" TopLine="534"/>
+      </Position7>
+      <Position8>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="662" Column="90" TopLine="636"/>
+      </Position8>
+      <Position9>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="614" Column="7" TopLine="602"/>
+      </Position9>
+      <Position10>
+        <Filename Value="gconj.pas"/>
+        <Caret Line="25" Column="148"/>
+      </Position10>
+      <Position11>
+        <Filename Value="gconj.pas"/>
+        <Caret Line="27" Column="148"/>
+      </Position11>
+      <Position12>
+        <Filename Value="GerVerbs.lpr"/>
+        <Caret Line="8" Column="41"/>
+      </Position12>
+      <Position13>
+        <Filename Value="help.pas"/>
+        <Caret Line="25" Column="14" TopLine="17"/>
+      </Position13>
+      <Position14>
+        <Filename Value="help.pas"/>
+        <Caret Line="44" TopLine="17"/>
+      </Position14>
+      <Position15>
+        <Filename Value="gconj.pas"/>
+        <Caret Line="50" Column="41" TopLine="23"/>
+      </Position15>
+      <Position16>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="1014" Column="16" TopLine="1007"/>
+      </Position16>
+      <Position17>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="43" TopLine="17"/>
+      </Position17>
+      <Position18>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="704" Column="3" TopLine="702"/>
+      </Position18>
+      <Position19>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="700" Column="3" TopLine="698"/>
+      </Position19>
+      <Position20>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="557" TopLine="555"/>
+      </Position20>
+      <Position21>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="90" Column="35" TopLine="67"/>
+      </Position21>
+      <Position22>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="92" Column="15" TopLine="69"/>
+      </Position22>
+      <Position23>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="124" Column="24" TopLine="100"/>
+      </Position23>
+      <Position24>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="156" Column="28" TopLine="134"/>
+      </Position24>
+      <Position25>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="166" Column="28" TopLine="144"/>
+      </Position25>
+      <Position26>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="195" Column="32" TopLine="173"/>
+      </Position26>
+      <Position27>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="264" Column="2" TopLine="257"/>
+      </Position27>
+      <Position28>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="407" TopLine="381"/>
+      </Position28>
+      <Position29>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="1077" TopLine="1050"/>
+      </Position29>
+      <Position30>
+        <Filename Value="gverbs.pas"/>
+        <Caret Line="264" Column="90" TopLine="254"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

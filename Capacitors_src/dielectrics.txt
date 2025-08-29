@@ -1,0 +1,25 @@
+Vacuum                             NM 01.00000
+Air                                NM 01.00059
+Bakelite                           NM 04.90000
+Fused quartz                       NM 03.78000
+Nylon                              NM 03.40000
+Paper                              NM 03.70000
+Pyrex glass                        NM 05.60000
+Silicon oil                        NM 02.50000
+Water                              NM 80.00000
+Ba2Ti9O20                          CE 40.00000
+MgNb2O6                            CE 21.00000
+MgTa2O6                            CE 28.00000
+ZnNb2O6                            CE 25.00000
+ZnTa2O6                            CE 38.00000
+(ZnMg)TiO3                         CE 32.00000
+(ZrSn)TiO4                         CE 37.00000
+Polyethylene naphthalate (PEN)     PF 03.00000
+Polyphenylene sulfide (PPS)        PF 03.00000
+Polyethylene terephthalate (PET)   PF 03.30000
+Polypropylene (PP)                 PF 02.20000
+Polystyrene (PS)                   PF 02.56000
+Polytetrafluoroethylene (PTFE)     PF 02.10000
+Aluminium oxide (Al2O3)            EL 09.60000
+Niobium pentoxide (Nb2O5)          EL 41.00000
+Tantalum pentoxide (Ta2O5)         EL 27.00000

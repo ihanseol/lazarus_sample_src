@@ -1,0 +1,569 @@
+object fLV: TfLV
+  Left = 130
+  Height = 503
+  Top = 97
+  Width = 1049
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Lung volumes and capacities'
+  ClientHeight = 478
+  ClientWidth = 1049
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object Shape1: TShape
+    Left = 392
+    Height = 111
+    Top = 240
+    Width = 648
+    Brush.Color = clSilver
+    Pen.Color = clSilver
+  end
+  object StaticText1: TStaticText
+    Left = 193
+    Height = 38
+    Top = 10
+    Width = 662
+    Alignment = taCenter
+    Caption = 'Spirometry: Measurement of lung volumes and capacities.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 23
+    Top = 64
+    Width = 246
+    Caption = 'Volumes read from spirogram:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 23
+    Hint = 'Volume of air breathed in and out of lungs in a single normal quiet respiration'
+    Top = 100
+    Width = 97
+    Caption = 'Tidal volume'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edTV: TEdit
+    Left = 232
+    Height = 31
+    Top = 96
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 1
+    Text = '500'
+  end
+  object Label3: TLabel
+    Left = 400
+    Height = 23
+    Hint = 'Additional volume of air that can be inspired forcefully after the end of normal inspiration'
+    Top = 100
+    Width = 201
+    Caption = 'Inspiratory reserve volume'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edIRV: TEdit
+    Left = 608
+    Height = 31
+    Top = 96
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 2
+    Text = '3000'
+  end
+  object Label4: TLabel
+    Left = 776
+    Height = 23
+    Hint = 'Additional volume of air that can be expired out forcefully, after normal expiration'
+    Top = 100
+    Width = 196
+    Caption = 'Expiratory reserve volume'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edERV: TEdit
+    Left = 976
+    Height = 31
+    Top = 96
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 3
+    Text = '1100'
+  end
+  object Label5: TLabel
+    Left = 16
+    Height = 23
+    Top = 152
+    Width = 359
+    Caption = 'Capacities calculated from spirogram values:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 23
+    Hint = 'Maximum volume of air that is inspired after normal expiration (end expiratory position)'
+    Top = 188
+    Width = 148
+    Caption = 'Inspiratory capacity'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edIC: TEdit
+    Left = 232
+    Height = 31
+    Top = 184
+    Width = 56
+    Alignment = taRightJustify
+    Color = clAqua
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object Label7: TLabel
+    Left = 400
+    Height = 23
+    Hint = 'Maximum volume of air that can be expelled out forcefully after a deep (maximal) inspiration'
+    Top = 188
+    Width = 101
+    Caption = 'Vital capacity'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edVC: TEdit
+    Left = 608
+    Height = 31
+    Top = 184
+    Width = 56
+    Alignment = taRightJustify
+    Color = clAqua
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object Label8: TLabel
+    Left = 16
+    Height = 23
+    Top = 240
+    Width = 227
+    Caption = 'Functional residual capacity:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object rbHelium: TRadioButton
+    Left = 400
+    Height = 23
+    Top = 240
+    Width = 278
+    Caption = ' FRC measurement by He dilution technique'
+    Font.Height = -13
+    OnChange = rbHeliumChange
+    ParentFont = False
+    TabOrder = 5
+  end
+  object rbNitrogen: TRadioButton
+    Left = 776
+    Height = 23
+    Top = 240
+    Width = 266
+    Caption = ' FRC measurement by N washout method'
+    Font.Height = -13
+    OnChange = rbNitrogenChange
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Label9: TLabel
+    Left = 400
+    Height = 17
+    Hint = 'Maximum volume of air that is inspired after normal expiration (end expiratory position)'
+    Top = 295
+    Width = 122
+    Caption = 'Initial conc. of helium'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edHeC1: TEdit
+    Left = 608
+    Height = 25
+    Top = 291
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    OnChange = edHeC1Change
+    ParentFont = False
+    TabStop = False
+    TabOrder = 13
+  end
+  object Label10: TLabel
+    Left = 400
+    Height = 17
+    Hint = 'Maximum volume of air that is inspired after normal expiration (end expiratory position)'
+    Top = 324
+    Width = 118
+    Caption = 'Final conc. of helium'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edHeC2: TEdit
+    Left = 608
+    Height = 25
+    Top = 320
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    OnChange = edHeC2Change
+    ParentFont = False
+    TabStop = False
+    TabOrder = 14
+  end
+  object Label11: TLabel
+    Left = 400
+    Height = 17
+    Hint = 'Maximum volume of air that is inspired after normal expiration (end expiratory position)'
+    Top = 268
+    Width = 111
+    Caption = 'Initial volume of air'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edHeV: TEdit
+    Left = 608
+    Height = 25
+    Top = 264
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    OnChange = edHeVChange
+    ParentFont = False
+    TabStop = False
+    TabOrder = 12
+  end
+  object Label12: TLabel
+    Left = 16
+    Height = 23
+    Hint = 'Volume of air remaining in lungs after normal tidal expiration'
+    Top = 276
+    Width = 210
+    Caption = 'Functional residual capacity'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edFRC: TEdit
+    Left = 232
+    Height = 31
+    Top = 272
+    Width = 56
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 4
+    Text = '2300'
+  end
+  object Label13: TLabel
+    Left = 776
+    Height = 17
+    Hint = 'Maximum volume of air that is inspired after normal expiration (end expiratory position)'
+    Top = 295
+    Width = 190
+    Caption = 'Conc. of nitrogen in collected air'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edNC1: TEdit
+    Left = 976
+    Height = 25
+    Top = 291
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    OnChange = edNC1Change
+    ParentFont = False
+    TabStop = False
+    TabOrder = 17
+  end
+  object Label14: TLabel
+    Left = 776
+    Height = 17
+    Hint = 'Maximum volume of air that is inspired after normal expiration (end expiratory position)'
+    Top = 324
+    Width = 180
+    Caption = 'Normal conc. of nitrogen in air'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edNC2: TEdit
+    Left = 976
+    Height = 25
+    Top = 320
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 15
+    Text = '80%'
+  end
+  object Label15: TLabel
+    Left = 776
+    Height = 17
+    Hint = 'Maximum volume of air that is inspired after normal expiration (end expiratory position)'
+    Top = 268
+    Width = 134
+    Caption = 'Volume of air collected'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edNV: TEdit
+    Left = 976
+    Height = 25
+    Top = 264
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    NumbersOnly = True
+    OnChange = edNVChange
+    ParentFont = False
+    TabStop = False
+    TabOrder = 16
+  end
+  object Label16: TLabel
+    Left = 16
+    Height = 23
+    Top = 328
+    Width = 326
+    Caption = 'Residual volume and total lung capacity:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label17: TLabel
+    Left = 16
+    Height = 23
+    Hint = 'Volume of air remaining in lungs even after forced expiration'
+    Top = 364
+    Width = 124
+    Caption = 'Residual volume'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edRV: TEdit
+    Left = 232
+    Height = 31
+    Top = 360
+    Width = 56
+    Alignment = taRightJustify
+    Color = clAqua
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 18
+  end
+  object Label18: TLabel
+    Left = 16
+    Height = 23
+    Hint = 'Volume of air present in lungs after a deep (maximal) inspiration'
+    Top = 404
+    Width = 142
+    Caption = 'Total lung capacity'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edTLC: TEdit
+    Left = 232
+    Height = 31
+    Top = 400
+    Width = 56
+    Alignment = taRightJustify
+    Color = clAqua
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 19
+  end
+  object rgRV: TRadioGroup
+    Left = 400
+    Height = 60
+    Top = 360
+    Width = 400
+    AutoFill = True
+    Caption = 'RV determination'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 2
+    ClientHeight = 32
+    ClientWidth = 396
+    Columns = 2
+    Font.Height = -17
+    ItemIndex = 0
+    Items.Strings = (
+      ' calculated from FRC'
+      ' estimated from VC'
+    )
+    OnClick = rgRVClick
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 7
+  end
+  object btCalc: TButton
+    Left = 946
+    Height = 31
+    Top = 440
+    Width = 94
+    Caption = 'Calculation'
+    OnClick = btCalcClick
+    TabOrder = 0
+  end
+  object rgSex: TRadioGroup
+    Left = 840
+    Height = 60
+    Top = 360
+    Width = 192
+    AutoFill = True
+    Caption = 'Individual''s sex'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 2
+    ClientHeight = 32
+    ClientWidth = 188
+    Columns = 2
+    Font.Height = -17
+    ItemIndex = 0
+    Items.Strings = (
+      ' Male'
+      ' Female'
+    )
+    OnClick = rgSexClick
+    ParentFont = False
+    TabOrder = 8
+  end
+  object mMenu: TMainMenu
+    left = 984
+    top = 16
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileNew: TMenuItem
+        Caption = 'New calculation'
+        OnClick = mFileNewClick
+      end
+      object mFileAverage: TMenuItem
+        Caption = 'Average values'
+        OnClick = mFileAverageClick
+      end
+      object mFileExit: TMenuItem
+        Caption = 'Exit application'
+        OnClick = mFileExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsL: TMenuItem
+        Caption = 'Volume in L'
+        OnClick = mSettingsLClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpPhysiology: TMenuItem
+        Caption = 'Physiology help'
+        OnClick = mHelpPhysiologyClick
+      end
+      object mHelpHelp: TMenuItem
+        Caption = 'Program help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object pnAbout: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Text = 'Text'
+    Title = 'Spirometry.'
+    Visible = False
+    left = 920
+    top = 16
+  end
+end

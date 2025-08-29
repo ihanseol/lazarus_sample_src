@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="Polygons.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="polygons_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fPolygons"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="252" Column="77" TopLine="230"/>
+      </Position1>
+      <Position2>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="121" Column="20" TopLine="108"/>
+      </Position2>
+      <Position3>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="122" Column="20" TopLine="109"/>
+      </Position3>
+      <Position4>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="124" Column="20" TopLine="111"/>
+      </Position4>
+      <Position5>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="126" Column="20" TopLine="113"/>
+      </Position5>
+      <Position6>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="128" Column="20" TopLine="115"/>
+      </Position6>
+      <Position7>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="130" Column="20" TopLine="117"/>
+      </Position7>
+      <Position8>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="132" Column="20" TopLine="119"/>
+      </Position8>
+      <Position9>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="143" Column="20" TopLine="130"/>
+      </Position9>
+      <Position10>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="144" Column="20" TopLine="131"/>
+      </Position10>
+      <Position11>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="145" Column="20" TopLine="132"/>
+      </Position11>
+      <Position12>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="146" Column="20" TopLine="133"/>
+      </Position12>
+      <Position13>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="147" Column="20" TopLine="134"/>
+      </Position13>
+      <Position14>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="149" Column="20" TopLine="136"/>
+      </Position14>
+      <Position15>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="292" Column="64" TopLine="265"/>
+      </Position15>
+      <Position16>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="182" Column="106" TopLine="161"/>
+      </Position16>
+      <Position17>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="180" Column="73" TopLine="168"/>
+      </Position17>
+      <Position18>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="297" TopLine="292"/>
+      </Position18>
+      <Position19>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="296" TopLine="291"/>
+      </Position19>
+      <Position20>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="295" TopLine="290"/>
+      </Position20>
+      <Position21>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="300" Column="45" TopLine="290"/>
+      </Position21>
+      <Position22>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="85" TopLine="71"/>
+      </Position22>
+      <Position23>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="309" Column="18" TopLine="287"/>
+      </Position23>
+      <Position24>
+        <Filename Value="Polygons.lpr"/>
+        <Caret Line="3" Column="46"/>
+      </Position24>
+      <Position25>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="169" Column="18" TopLine="159"/>
+      </Position25>
+      <Position26>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="71" Column="20" TopLine="51"/>
+      </Position26>
+      <Position27>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="69" TopLine="51"/>
+      </Position27>
+      <Position28>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="166" Column="12" TopLine="152"/>
+      </Position28>
+      <Position29>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="291" TopLine="263"/>
+      </Position29>
+      <Position30>
+        <Filename Value="polygons_main.pas"/>
+        <Caret Line="102" Column="59" TopLine="101"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

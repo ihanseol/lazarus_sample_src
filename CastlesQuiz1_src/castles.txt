@@ -1,0 +1,163 @@
+FRA 1 Abbaye du Mont-Saint-Michel
+FRA - Abbaye Royale de Fontevraud
+FRA 1 Château Azay-le-Rideau
+FRA - Château Charly
+FRA - Château d'Aguilar
+FRA - Château d'Ainay-le-Vieil
+FRA - Château d'Amboise
+FRA 1 Château d'Angers
+LUX B Château d'Ansembourg
+FRA - Château d'Arques
+LUX B Château d'Aspelt
+FRA - Château Dauphin
+FRA - Château d'Azay-le-Ferron
+FRA - Château de Baugé
+LUX B Château de Beaufort
+FRA - Château de Beaugency
+FRA - Château de Beauregard
+LUX B Château de Berg
+LUX - Château de Bettange-sur-Mess
+LUX B Château de Bettembourg
+LUX B Château de Bettendorf
+LUX - Château de Betzdorf
+FRA 1 Château de Beynac
+FRA 1 Château de Bizy
+FRA 1 Château de Bonneval
+BEL   Château de Boullion
+FRA 1 Chateau de Bourbon-L'Archambault
+FRA - Château de Brézé
+FRA - Château de Brissac
+FRA 1 Château de Bussy-Rabutin
+FRA 1 Château de Castelnau-Bretenoux
+FRA 1 Château de Castelnaud
+FRA - Château de Châlus-Chabrol
+FRA 1 Château de Chambord
+FRA 1 Château de Chaumont
+FRA - Château de Chémery
+FRA 1 Château de Chenonceau
+FRA - Château de Cheverny
+LUX B Château de Clervaux
+FRA 1 Château de Clisson
+LUX B Château de Colpach
+BEL   Château de Corroy
+FRA - Château de Courances
+FRA - Château de Crussol
+FRA - Château de Dieppe
+LUX B Château de Differdange
+FRA - Château de Dinan
+LUX B Château de Dommeldange
+FRA 1 Château de Fontainebleau
+FRA 1 Château de Fougères-sur-Bièvre
+BEL   Château de Freÿr-sur-Meuse
+FRA - Château de Goulaine
+LUX - Château de Heisdorf
+FRA 1 Château de Josselin
+FRA - Château de Joux
+FRA - Château de Kerjean
+FRA 1 Château de La Bussière
+FRA 1 Château de Langeais
+FRA 1 Château de La Palice
+LUX - Château de Larochette
+FRA - Château de Lavardin
+BEL   Château de Lavaux-Sainte-Anne
+LUX B Château de Limpertsberg
+FRA 1 Château de l'Islette
+FRA - Château de Longpra
+FRA - Château de Losse
+FRA - Château de Malbrouck
+FRA 1 Château de Meung-sur-Loire
+LUX B Château de Meysembourg
+FRA - Château de Milandes
+BEL   Château de Modave
+FRA - Château de Montgeoffroy
+FRA 1 Château de Montpoupon
+FRA 1 Château de Montrésor
+FRA - Château de Montreuil-Bellay
+FRA - Château de Montsoreau
+FRA 1 Château de Morimont
+LUX B Château de Munsbach
+FRA 1 Château de Peyrepertuse
+FRA - Château de Pierrefonds
+FRA - Château de Puilaurens
+FRA - Château de Puivert
+FRA - Château de Quéribus
+FRA 1 Château de Roquetaillade
+FRA - Château de Saint-Aignan
+FRA 1 Château de Saint-Malo
+LUX - Château de Sanem
+FRA - Château de Saumur
+LUX B Château de Schengen
+FRA 1 Château des Ducs de Bretagne
+FRA 1 Château des Ducs de Lorraine
+FRA - Château de Selles sur Cher
+LUX B Château de Senningen
+LUX - Château de Septfontaines
+FRA - Château des Ponts-de-Cé
+FRA 1 Château de Sully-sur-Loire
+FRA - Château de Talcy
+FRA - Château de Termes
+FRA 1 Château de Val
+FRA - Château de Valençay
+FRA - Château de Vascoeuil
+FRA - Château de Vaux
+FRA 1 Château de Vaux-le-Vicomte
+FRA 1 Château de Vendome
+FRA 1 Château de Versailles
+BEL   Château de Vêves
+LUX B Château de Vianden
+FRA - Château de Villandry
+FRA 1 Château de Villemont
+FRA 1 Château de Villerouge-Termenès
+FRA - Château de Villesavin
+FRA 1 Château de Vincennes
+LUX - Château de Walferdange
+LUX B Château de Weiler-la-Tour
+LUX B Château de Wiltz
+FRA - Château d'Oiron
+BEL   Château du Fosteau
+FRA 1 Château du Haut-Kœnigsbourg
+FRA - Château du Lude
+FRA 1 Château du Moulin
+FRA - Château du Rivau
+LUX B Château d'Urspelt
+FRA 1 Château du Sailhant
+FRA 1 Château d'Ussé
+FRA - Château Gaillard
+FRA 1 Château Guillaume
+FRA - Château Guillaume-le-Conquérant
+FRA - Château Royal de Blois
+FRA - Château Royal de Cazeneuve
+FRA - Château Saint-Sixte
+FRA 1 Château Vicomtal Castelnou
+FRA 1 Cité de Carcassonne
+FRA - Cité royale de Loches
+FRA 1 Domaine de Chantilly
+FRA 1 Domaine de Saint-Germain-en-Laye
+LUX B Forteresse d'Ansembourg
+LUX B Forteresse de Beaufort
+LUX B Forteresse de Bourglinster
+LUX B Forteresse de Bourscheid
+LUX B Forteresse de Brandenbourg
+LUX B Forteresse de Hollenfels
+LUX B Forteresse de Koerich
+LUX B Forteresse de Larochette
+LUX B Forteresse de Luxembourg
+FRA 1 Forteresse de Polignac
+FRA - Forteresse de Salses
+LUX B Forteresse d'Esch-sur-Sûre
+LUX B Forteresse de Septfontaines
+LUX B Forteresse d'Useldange
+FRA 1 Forteresse Royale de Chinon
+BEL   Gravensteen
+NLD   Huis Doorn
+NLD   Kasteel Amerongen
+NLD   Kasteel de Haar
+NLD   Kasteel en Landgoed Middachten
+BEL   Kasteel Ooidonk
+NLD   Kasteel Twickel
+BEL   Kasteel van Gaasbeek
+BEL   Museum Hof van Busleyden
+FRA 1 Palais des Papes
+LUX B Palais Grand-Ducal
+LUX B Schüttbourg
+NLD   Slot Loevestein

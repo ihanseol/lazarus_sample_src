@@ -1,0 +1,101 @@
+abandonar      R to abandon, to leave behind, to desert, to quit, to give up
+acabar         R to finish, to end
+aceptar        R to accept, to approve, to agree to
+acercar        s to bring near
+acompañar      R to accompany
+acordar        I to decide, to resolve, to agree (on)
+actuar         s to act, to perform, to operate
+alcanzar       s to reach, to catch up
+amar           T to love
+andar          I to walk
+aplicar        s to apply
+apoyar         R to support, to hold up, to back
+aprovechar     R to take advantage of
+asegurar       R to assure, to secure, to insure
+aumentar       R to increase, to add to, to rise
+avanzar        s to advance, to move forward
+ayudar         R to help
+bajar          R to lower, to go down, to descend, to download
+buscar         s to search for, to look for
+cambiar        R to change
+cerrar         I to close, to shut
+colocar        s to locate, to place
+comenzar       S to begin, to start
+comprar        R to buy, to purchase
+considerar     R to consider
+contar         I to count, to relate, to tell
+continuar      S to continue
+cortar         R to cut
+costar         I to cost
+crear          R to create, to make
+dar            I to give
+dedicar        s to dedicate
+dejar          R to leave, to abandon, to let, to allow
+demostrar      I to demonstrate, to show
+desarrollar    R to develop, to expand, to unroll, to unwind, to unfold
+desear         R to desire, to want, to wish
+echar          R to throw, to cast, to fling
+empezar        I to begin, to start
+encontrar      I to find, to encounter
+enseñar        R to teach, to instruct, to train, to educate
+entrar         R to enter, to go in, to come in
+entregar       s to deliver, to hand over
+escuchar       R to listen, to hear
+esperar        R to wait for, to hope
+estar          I to be
+estudiar       R to study
+evitar         R to avoid, to prevent
+explicar       S to explain
+expresar       R to express, to voice, to state
+faltar         R to lack, to be lacking, to be missing
+fijar          R to fix, to fasten, to secure
+formar         R to form, to shape, to fashion, to make
+ganar          R to win, to gain, to earn, to get, to acquire
+guardar        R to guard, to protect, to keep
+gustar         R to please, to be pleasing
+hablar         R to speak
+imaginar       R to imagine
+importar       R to import, to be important
+indicar        s to indicate
+iniciar        R to initiate, to begin, to start
+intentar       R to try, to attempt
+interesar      R to interest, be of interest (to)
+jugar          I to play (a game or sport)
+lanzar         s to throw, to hurl, to cast, to fling
+levantar       R to raise, to lift
+llamar         R to call, to name
+llegar         s to arrive, to come, to reach
+llevar         R to carry, to bring
+lograr         R to get, to obtain, to achieve, to attain
+mandar         R to order (give an order), to send
+matar          R to kill, to slaughter
+mirar          R to watch, to look at
+mostrar        I to show
+necesitar      R to need, to require
+negar          I to deny, to refuse
+notar          R to note, to notice, to observe
+obligar        S to oblige
+observar       R to observe
+ocupar         R to occupy
+olvidar        R to forget
+pagar          s to pay, to pay for
+pasar          R to pass, to spend (time), to happen
+pensar         I to think
+preguntar      R to ask, to inquire
+preparar       R to prepare, to get (something) ready
+presentar      R to introduce
+quedar         R to stay, to remain
+realizar       s to achieve, to attain, to accomplish
+recordar       I to remember, to remind
+representar    R to represent
+resultar       R to turn out (to be)
+sacar          s to take out, to stick out
+señalar        R to point out, to indicate, to signal
+significar     s to signify, to mean
+terminar       R to finish, to end
+tocar          s to touch, to play (an instrument)
+tomar          R to take, to drink
+trabajar       R to work
+tratar         R to treat, to handle
+usar           R to use
+utilizar       s to use, to utilize

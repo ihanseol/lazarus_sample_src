@@ -1,0 +1,4 @@
+Electron configurations.
+========================
+
+Sorry, help text not yet ready...

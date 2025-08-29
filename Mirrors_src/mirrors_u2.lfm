@@ -1,0 +1,48 @@
+object fHelp: TfHelp
+  Left = 350
+  Height = 541
+  Top = 209
+  Width = 1154
+  BorderIcons = [biSystemMenu]
+  Caption = 'Mirrors'
+  ClientHeight = 541
+  ClientWidth = 1154
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object Memo1: TMemo
+    Left = 10
+    Height = 478
+    Top = 10
+    Width = 1135
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"Mirrors" 1.0 Help.'
+      '==================='
+      ''
+      '"Mirrors" is a freely invented game based on an idea I realzed in Visual Basic in 2003. Its aim is to find the position of a given number of mirrors on a 10x10 fields board and their type, i.e. if they refract a light ray, shot from any of the 4 board''s borders, to the left or to the right. Shooting the light ray is done by pushing one of the 40 buttons, situated at the top, bottom, left and right of the bord, the result being the ray travelling through the bord, straight on, if there is no obstacle, refrated (to the left or to the right) when it encounters a  mirror and finally exiting the board at a position, depending on the mirrors it met. The trajectory of the ray inside the board isn''t normally visible; the only thing the player sees, is the place where it leaves. By logical thinking, this gives the clue where the mirrors are located and what type they are. Example: If a ray is shot from L5 and emerges towards T3, there is a big chance that there is a left-refracting mirror placed at position column=5, row=3; but this is not necessarily the case, as a ray may be refracted several times, which at higher game levels (with more mirrors) will often be the case.'
+      ''
+      'The position of the mirrors is random, so is their type. Their number depends on the difficulty chosen ("Level" menu): Beginner = 3, easy = 6, intermediate (default at program start) = 10, difficult = 15, expert = 22. Shooting is done by pushing the shoot buttons; to place a mirror at a position, where you think there is one, left-click the field for left-refracted mirrors, right-click it for right-refracting ones. If your choice is correct, the mirror is displayed by coloring the corresponding field; the color to be used may be selected in the "Settings" menu (default: left-refracting = green, right-refracting = blue; the color of the ray always being red). If the player''s choice is wrong, a message is displayed and the number of mistakes allowed is decreased by 1. If the player makes more mistakes than allowed, the game is over (the player loosing, so to say). The number of allowed mistakes depends on the level: Beginner = no limit, easy = 2, intermediate = 3, difficult = 5, expert = 0. There is an option in the "Settings" menu to ignore the error count: in this case, the number of bad fields/types entered is unlimited.'
+      ''
+      'If you''ve not really got how the games work, just try it out with checking "Show ray trajectory" in the "Settings" menu: In this case, the way taken by the light ray and the mirrors it encounters are displayed each time you make a shot.'
+      ''
+      'You may start a new game at any moment by choosing "New" in the "Game" menu. Please, note that changing the game level only takes effect after you launch a new game. The options in the "Settings" menu become accurate with your next shot.'
+      ''
+      'Fun for me to write the FreePascal program for my game; hope fun for you to play it!'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 1050
+    Height = 31
+    Top = 504
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

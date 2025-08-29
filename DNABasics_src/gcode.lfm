@@ -1,0 +1,532 @@
+object fGenCode: TfGenCode
+  Left = 29
+  Height = 531
+  Top = 115
+  Width = 1414
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Standard genetic code'
+  ClientHeight = 531
+  ClientWidth = 1414
+  DesignTimePPI = 120
+  Font.Height = -18
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object sgTable1: TStringGrid
+    Left = 16
+    Height = 463
+    Top = 16
+    Width = 332
+    ColCount = 3
+    FixedCols = 0
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 17
+    TabOrder = 3
+    TabStop = False
+    ColWidths = (
+      76
+      102
+      150
+    )
+    Cells = (
+      35
+      0
+      0
+      ' Codon'
+      0
+      1
+      '  AAA'
+      0
+      2
+      '  AAC'
+      0
+      3
+      '  AAG'
+      0
+      4
+      '  AAU'
+      0
+      5
+      '  ACA'
+      0
+      6
+      '  ACC'
+      0
+      7
+      '  ACG'
+      0
+      8
+      '  ACU'
+      0
+      9
+      '  AGA'
+      0
+      10
+      '  AGC'
+      0
+      11
+      '  AGG'
+      0
+      12
+      '  AGU'
+      0
+      13
+      '  AUA'
+      0
+      14
+      '  AUC'
+      0
+      15
+      '  AUG'
+      0
+      16
+      '  AUU'
+      1
+      0
+      'Amino acid'
+      1
+      1
+      '     K'
+      1
+      2
+      '     N'
+      1
+      3
+      '     K'
+      1
+      4
+      '     N'
+      1
+      5
+      '     T'
+      1
+      6
+      '     T'
+      1
+      7
+      '     T'
+      1
+      8
+      '     T'
+      1
+      9
+      '     R'
+      1
+      10
+      '     S'
+      1
+      11
+      '     R'
+      1
+      12
+      '     S'
+      1
+      13
+      '     I'
+      1
+      14
+      '     I'
+      1
+      15
+      ' Start (M)'
+      1
+      16
+      '     I'
+      2
+      0
+      'Amino acid (aa3)'
+    )
+  end
+  object sgTable2: TStringGrid
+    Left = 368
+    Height = 463
+    Top = 16
+    Width = 332
+    ColCount = 3
+    FixedCols = 0
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 17
+    TabOrder = 4
+    TabStop = False
+    ColWidths = (
+      76
+      102
+      150
+    )
+    Cells = (
+      35
+      0
+      0
+      ' Codon'
+      0
+      1
+      '  CAA'
+      0
+      2
+      '  CAC'
+      0
+      3
+      '  CAG'
+      0
+      4
+      '  CAU'
+      0
+      5
+      '  CCA'
+      0
+      6
+      '  CCC'
+      0
+      7
+      '  CCG'
+      0
+      8
+      '  CCU'
+      0
+      9
+      '  CGA'
+      0
+      10
+      '  CGC'
+      0
+      11
+      '  CGG'
+      0
+      12
+      '  CGU'
+      0
+      13
+      '  CUA'
+      0
+      14
+      '  CUC'
+      0
+      15
+      '  CUG'
+      0
+      16
+      '  CUU'
+      1
+      0
+      'Amino acid'
+      1
+      1
+      '     Q'
+      1
+      2
+      '     H'
+      1
+      3
+      '     Q'
+      1
+      4
+      '     H'
+      1
+      5
+      '     P'
+      1
+      6
+      '     P'
+      1
+      7
+      '     P'
+      1
+      8
+      '     P'
+      1
+      9
+      '     R'
+      1
+      10
+      '     R'
+      1
+      11
+      '     R'
+      1
+      12
+      '     R'
+      1
+      13
+      '     L'
+      1
+      14
+      '     L'
+      1
+      15
+      '     L'
+      1
+      16
+      '     L'
+      2
+      0
+      'Amino acid (aa3)'
+    )
+  end
+  object sgTable3: TStringGrid
+    Left = 720
+    Height = 463
+    Top = 16
+    Width = 332
+    ColCount = 3
+    FixedCols = 0
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 17
+    TabOrder = 2
+    TabStop = False
+    ColWidths = (
+      76
+      102
+      150
+    )
+    Cells = (
+      35
+      0
+      0
+      ' Codon'
+      0
+      1
+      '  GAA'
+      0
+      2
+      '  GAC'
+      0
+      3
+      '  GAG'
+      0
+      4
+      '  GAU'
+      0
+      5
+      '  GCA'
+      0
+      6
+      '  GCC'
+      0
+      7
+      '  GCG'
+      0
+      8
+      '  GCU'
+      0
+      9
+      '  GGA'
+      0
+      10
+      '  GGC'
+      0
+      11
+      '  GGG'
+      0
+      12
+      '  GGU'
+      0
+      13
+      '  GUA'
+      0
+      14
+      '  GUC'
+      0
+      15
+      '  GUG'
+      0
+      16
+      '  GUU'
+      1
+      0
+      'Amino acid'
+      1
+      1
+      '     E'
+      1
+      2
+      '     D'
+      1
+      3
+      '     E'
+      1
+      4
+      '     D'
+      1
+      5
+      '     A'
+      1
+      6
+      '     A'
+      1
+      7
+      '     A'
+      1
+      8
+      '     A'
+      1
+      9
+      '     G'
+      1
+      10
+      '     G'
+      1
+      11
+      '     G'
+      1
+      12
+      '     G'
+      1
+      13
+      '     V'
+      1
+      14
+      '     V'
+      1
+      15
+      '     V'
+      1
+      16
+      '     V'
+      2
+      0
+      'Amino acid (aa3)'
+    )
+  end
+  object sgTable4: TStringGrid
+    Left = 1072
+    Height = 463
+    Top = 16
+    Width = 332
+    ColCount = 3
+    FixedCols = 0
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 17
+    TabOrder = 1
+    TabStop = False
+    ColWidths = (
+      76
+      102
+      150
+    )
+    Cells = (
+      35
+      0
+      0
+      ' Codon'
+      0
+      1
+      '  UAA'
+      0
+      2
+      '  UAC'
+      0
+      3
+      '  UAG'
+      0
+      4
+      '  UAU'
+      0
+      5
+      '  UCA'
+      0
+      6
+      '  UCC'
+      0
+      7
+      '  UCG'
+      0
+      8
+      '  UCU'
+      0
+      9
+      '  UGA'
+      0
+      10
+      '  UGC'
+      0
+      11
+      '  UGG'
+      0
+      12
+      '  UGU'
+      0
+      13
+      '  UUA'
+      0
+      14
+      '  UUC'
+      0
+      15
+      '  UUG'
+      0
+      16
+      '  UUU'
+      1
+      0
+      'Amino acid'
+      1
+      1
+      '   Stop!'
+      1
+      2
+      '     Y'
+      1
+      3
+      '   Stop!'
+      1
+      4
+      '     Y'
+      1
+      5
+      '     S'
+      1
+      6
+      '     S'
+      1
+      7
+      '     S'
+      1
+      8
+      '     S'
+      1
+      9
+      '   Stop!'
+      1
+      10
+      '     C'
+      1
+      11
+      '     W'
+      1
+      12
+      '     C'
+      1
+      13
+      '     L'
+      1
+      14
+      '     F'
+      1
+      15
+      '     L'
+      1
+      16
+      '     F'
+      2
+      0
+      'Amino acid (aa3)'
+    )
+  end
+  object btClose: TButton
+    Left = 1310
+    Height = 31
+    Top = 496
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

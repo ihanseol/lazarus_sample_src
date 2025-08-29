@@ -1,0 +1,39 @@
+Primary and secondary colors of light.
+======================================
+
+Any three colors (or frequencies) of light that produce white light when combined with the correct intensity are called primary colors of light. The most common set of primary colors is red (R), green (G) and blue (B):
+  R + G + B = W
+
+The colors, that can be produced by the addition of equal intensities of two primary colors of light, are called secondary colors of light. For the RGB primary color set, color addition, with production of the 3 secondary colors yellow (Y), magenta (M) and cyan (C), may be described as follows:
+  R + G = Y     R + B = M     G + B = C
+
+Color addition.
+===============
+
+If a portion of a white sheet of paper is illuminated by both a red and a blue light emitting bulb, it will appear magenta. What would be the paper's color, if one bulb is white and the other, for example, red? As (from the first bulb), it receives all 3 primary colors (that, added together give white), would it be white? No! Because of the double abundance of red, the paper appears whitish-red, that is, pink (r). The same would be observed with a magenta and a yellow bulb:
+  (R+B) + (R+G) = (R+G+B) + R = (W+R) = r
+
+Complementary colors of light.
+==============================
+
+Any two colors of light, that when mixed together in equal intensities, produce white, are said to be complementary colors of each other. Pairs of complementary colors:
+  red and cyan     green and magenta     blue and yellow
+This may be shown by the color addition equations; e.g. red and cyan:
+  R + C = R + (G+B) = W
+  
+Filters and color absorbtion.
+=============================
+
+Transparent materials are permeated by pigments, that contain atoms, that are capable of absorbing light with a single frequency or even a range of frequencies. Pigments absorb light. Pure pigments absorb a single frequency or color of light. The color of light absorbed by a pigment is merely the complementary color of that pigment. Thus, for example, a blue filter absorbs yellow (red plus green) light.
+
+The process of color subtraction.
+=================================
+
+Thus, filters selectively absorb one or more frequencies of light and transmit what is not absorbed. Knowing the color(s) of the incident light and the color of light absorbed by the filter, the process of color subtraction can be applied to determine the color of the transmitted light (what will also be the appearance of a transparent material). Some examples:
+  white light on yellow filter: (R+G+B) - B = (R+G) = Y
+  cyan light on yellow filter : (G+B) - B = G
+  red light on yellow filter  : R - B = R
+  blue light on yellow filter : B - B = X (no light transmitted, filter appearing black)
+  yellow light on blue filter : (R+G) - (R+G) = X
+  
+[Text extracted from "The Physics Classroom » Physics Tutorial » Light and Color"; https://www.physicsclassroom.com/class/light/Lesson-2/]

@@ -1,0 +1,123 @@
+object fHelp: TfHelp
+  Left = 337
+  Height = 524
+  Top = 226
+  Width = 1081
+  BorderIcons = [biSystemMenu]
+  Caption = 'Geography quiz'
+  ClientHeight = 524
+  ClientWidth = 1081
+  DesignTimePPI = 120
+  Font.Height = -17
+  LCLVersion = '2.0.10.0'
+  object Memo1: TMemo
+    Left = 5
+    Height = 465
+    Top = 10
+    Width = 1070
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"Geography2" application help.'
+      '=============================='
+      ''
+      '"Geography2" is a quiz application with questions about the highest mountains of the world. The quiz includes 4 kinds of questions:'
+      ''
+      '  - Mountain elevation: Find the elevation of a given mountain (interval list selection).'
+      '  - Mountain range/region: Find the range/region, a given mountain belongs to (list selection or manual entry).'
+      '  - Continent: Find the continent, where a given mountain is located (list selection).'
+      '  - Countries: Find the countries , where a given mountain is located.'
+      '    The application shows 5 countries and the user has to check those, where the mountain is located.'
+      '    Please, note that any number of the countries listed (in particular none of them) may be the correct answer.'
+      ''
+      'Beside the kind of quiz questions, the user has the possibility to choose, what mountains are included in the quiz questions list, by limiting them to the highest ones on a given continent.'
+      ''
+      'To do the quiz, choose the quiz options and choose one of the items in the "Quiz" menu to start a new quiz (one of the quiz kinds available). Note, that the options may not be changed during the quiz. If you want to leave a quiz, without having done all questions, push the "Cancel" button to re-enable the "Options" menu. For some options, you''ll have to redo the quiz selection in the "New" menu, after you''ve changed the settings, in order to make them active. The quiz is started with the "Start" button. Push "Question" to generate a new question, "Answer" to make the application check your answer.'
+      ''
+      'Menu "Quiz".'
+      '============'
+      ''
+      'The first 4 menu items let you select the kind of quiz to do (see above). With "Exit", you terminate the application.'
+      ''
+      'Menu "Options".'
+      '==============='
+      ''
+      'Number of questions.'
+      '--------------------'
+      'Choose the number of quiz questions (minimum 10). If this number exceeds the number of mountains available for a given list selection, it is automatically set to the maximum of mountains in the list (e.g. 33 for European mountains). As data for the mountain range/region is incomplete, the number of list entries (and thus the number of possible questions) may be further reduced for this quiz. Note, that this setting only becomes active, after a new quiz has been selected in the "Quiz" menu.'
+      ''
+      'Mountains list.'
+      '---------------'
+      'Choose the mountains, that you want to be included into the list of those, that will be used in the quiz questions; mountains may be limited to the highest ones on a given continent. Changing this option, automatically starts a new quiz.'
+      ''
+      'Region entry.'
+      '-------------'
+      'Choose, how you want to enter the range/region, that the mountain belongs to. Options available:'
+      '  - Manual entry:'
+      '    You have to enter the range/region manually. This implies higher Geography knowledge,'
+      '    but also possible mistakes, due to the misspelling of a noun. There are no buttons for non-English'
+      '    characters (as you find in several applications on my site). Just use the "corresponding" English'
+      '    letter (e.g. "a" for "á", "u" for "ü", "n" for "ñ"); the program counts such answers as correct (and'
+      '    indicates the correct spelling in the evaluation field).'
+      '  - Selection list:'
+      '    You may choose the range/region from a list with 10 entries. The list is redone for each question and,'
+      '    beside the correct answer, includes 9 random items, that are on the same continent as the actual'
+      '    mountain.'
+      'You''ll have to choose a quiz in the "New" menu, after changing this option.'
+      ''
+      'Mountain elevation in feet.'
+      '---------------------------'
+      'By default, mountain elevation is given in m. If you live in a country, where it''s usage to measure hights in feet, it may be easier or more conveniant for you to choose from a list with mountain height intervals given in feet; just check this option...'
+      ''
+      'Menu "Help".'
+      '============'
+      ''
+      'Help.'
+      '-----'
+      'Display of the "Geography2" application usage help text (this document).'
+      ''
+      'About.'
+      '------'
+      'Display of the "Geography2" application version, author and date-written.'
+      ''
+      'The "Geography2" data.'
+      '======================'
+      ''
+      'All data, used by "Geography2"  is taken from Wikipedia articles (https://en.wikipedia.org/wiki/...).'
+      ''
+      'The highest mountains lists contain the following:'
+      ' - Afrika: Highest mountain peaks of Africa (mountains with at least 500m topographic prominence).'
+      ' - Asia I: Highest mountain peaks of Asia (highest summits with at least 500m topographic prominence).'
+      ' - Asia II: Mountains of Asia (highest mountains, being part of Asian mountain ranges with elevation above 2800m).'
+      ' - Australia: Highest mountains of Australia (elevation above 1300m and top ranked by topographic prominence).'
+      ' - Europe: Highest European ultra-prominent peaks (elevation above 2900m and prominence above 1500m).'
+      ' - North America: Highest summits of greater North America (at least 500m of topographic prominence).'
+      ' - South America: Highest mountains of South America (mountains above 4000m in the South American Andes; partial).'
+      ''
+      '"Senseless" quiz selections.'
+      '============================'
+      ''
+      'Depending on the options, you selected, the quiz may be more or less "seneless".'
+      ''
+      '  - There is no sense to do a continent quiz, if you choose mountains limited to a given continent.'
+      '    Thus, for a continent quiz, the mountain list is automatically reset to "worldwide".'
+      '  - A countries quiz with Australian mountains is "nonsense", as the answer is always "Australia".'
+      '  - A countries quiz with North American mountains isn''t really senseful, because the number of'
+      '    possible countries is limited to only 3.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 981
+    Height = 31
+    Top = 488
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

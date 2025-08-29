@@ -1,0 +1,70 @@
+object fHelp: TfHelp
+  Left = 426
+  Height = 499
+  Top = 264
+  Width = 894
+  BorderIcons = [biSystemMenu]
+  Caption = 'Arithmetic7 Help'
+  ClientHeight = 499
+  ClientWidth = 894
+  DesignTimePPI = 120
+  Font.Height = -17
+  LCLVersion = '1.8.4.0'
+  object Memo1: TMemo
+    Left = 10
+    Height = 438
+    Top = 10
+    Width = 876
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'Arithmetic7 is a maths exercise generator for primary school pupils, dealing with column addition and subtraction. Calculations are done, just as you do them with a pencil and a sheet of paper: Line up the operands and add resp. subtract the values in each column. For additions, you may write the carry in the corresponding carry field. For subtractions, you may write the new column value in the corresponding borrow field. The value of the column, from which you did the borrow, will be automatically marked striked-out.'
+      ''
+      'To do the test, select the options, that you want ("Options" menu) and choose "New" in the "Test" menu. Push the "Question" button, do the exercise and push "Answer". The evaluation counters (with success expressed as percentage) are updated accordingly. Please note, that the application only checks the result without considering the carry or borrow values. These are only for your convenience and to give you the possibility to proceed the same way as if you did the exercise all manually.'
+      ''
+      '"Options" menu.'
+      '==============='
+      ''
+      'Number of questions.'
+      '--------------------'
+      'Number of exercise questions for this test (at least 5). Note, that you must choose "New" in the "Test" menu in order to make this option active.'
+      ''
+      'Math. operations.'
+      '-----------------'
+      'Selection of the mathematical operation: Addition, subtraction (or both, i.e. randomly one of them).'
+      ''
+      'Number maximum.'
+      '---------------'
+      'Maximum value of the operands (and the result): 1000, 10000, 100000 or 1000000.'
+      ''
+      'Addition operands.'
+      '------------------'
+      'Number of operands for addition exercises: 3, 4 or 5.'
+      'The number of subtraction operands is always 2.'
+      ''
+      'Decimal numbers.'
+      '----------------'
+      'If unchecked, all operands are integers. If you check this option, operands may have a decimal part; e.g. 100.25 (resp. 100,25 if your operating system is configured to use the comma as decimal separator).'
+      ''
+      'Auto column fill-in.'
+      '--------------------'
+      'Solving column additions and subtractions requires 2 steps:'
+      '  1. lining up the operands; 2. adding resp. subtracting the column values.'
+      'If you do not experience any problems with lining up the operands, you may check this option: The operands are automatically filled in with proper line-up and you have just to do the calculation itself.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 792
+    Height = 31
+    Top = 464
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

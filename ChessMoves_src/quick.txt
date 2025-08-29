@@ -1,0 +1,30 @@
+Purpose of the Chess game.
+==========================
+The aim of the Chess game is not to capture the opponent's pieces or to move the own pieces to a given location (as in most board games), but to checkmate the opponent's king. This happens when the king is put into check and cannot get out of check (see below).
+
+Setting up the chessboard.
+==========================
+At the beginning of the game, the chess pieces are set up in a predefined way. Use the "Chessboard setup" item in the "Chess" menu to explore this feature.
+
+Piece movement.
+===============
+Each chess piece kind (king, queen, rooks, bishops, knights, pawns) has its own rules for moving. Use the "Piece movements" menu entry to learn about it.
+
+Casteling.
+==========
+Casteling is a very special chess move, where, under given conditions, both the king and one of the rooks may be moved (see "Chess help" for details). You can explore this move, using the "Casteling" menu entry.
+
+Chess game opening.
+===================
+The player with the white pieces is always the one to begin the game. The first moves of the game are called "opening". You may use the "Game opening" menu entry to see what the possible very first moves are.
+
+Moving, threatening, capturing.
+===============================
+During the chess game, the players move one of their pieces alternately, accordingly to the rules for that piece kind. If an opponent's piece is in the move direction of a given piece, with no other piece between them (except for the knights, that may jump over other pieces), this piece is said to be threatened, what means that if the opponent does not move it away, does not put another piece between the threatening and the threatened piece nor does capture the threatening piece, you may capture it during your next move. Captured pieces are removed from the board, what weakens the opponent's "army", but not necessarily brings any advantage to yourself. With the item "Game position" in the "Chess" menu, you can learn how to move your pieces (and capture the opponent's ones) in some given game situations.
+
+Check and checkmate.
+====================
+A king that is threatened by an opponent's piece is said to be put into check and mandatorily must be moved out of check (by moving the king, interposing another piece or capturing the threatening piece). If this is not possible, the king is said to be checkmate and the game is over. Also note, that the king not only can't stay at a position where he's in check, but also cannot move to a such position.
+"ChessMoves" actually doesn't include a particular possibility for you to learn about check and checkmate. However the examples given with the "Game position" menu item contain situations, where moving the king to some normally accessible position is not allowed, because he would be in check there, where another piece's movement is not allowed, because this would put the own king into check, as well as situations, where moving a piece to given positions, puts the opponent's king into check.
+
+I hope that this program may help to convince you to start playing Chess. For all comments or suggestions, please write to my e-mail: info@streetinfo.lu.

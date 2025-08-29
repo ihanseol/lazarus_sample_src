@@ -1,0 +1,163 @@
+# Data from "List of largest lakes of Europe" (https://en.wikipedia.org/wiki/List_of_largest_lakes_of_Europe)
+
+Ladoga                   Russia                             17,700    6,800 R Russia?
+Onega                    Russia                              9,894    3,820 R
+Kuybyshev                Russia                              6,450    2,490 R
+Vänern                   Sweden                              5,655    2,183 N Sweden
+Rybinsk                  Russia                              4,580    1,770 R
+Saimaa                   Finland                             4,377    1,690 N Finland
+Peipus                   Estonia, Russia                     3,555    1,373 N Estonia
+Tsimlyansk               Russia                              2,702    1,043 R
+Kremenchuk               Ukraine                             2,250      870 E Ukraine?
+Kakhovka                 Ukraine                             2,155      832 E
+Vättern                  Sweden                              1,893      731 N
+Saratov                  Russia                              1,831      707 R
+Gorky                    Russia                              1,591      614 R
+Suur-Saimaa              Finland                             1,377      532 N
+Beloye                   Russia                              1,290      500 R
+Vygozero                 Russia                              1,250      480 R
+Lake Sevan               Armenia                             1,239      478 E Armenia?
+Mälaren                  Sweden                              1,140      440 N
+IJsselmeer               Netherlands                         1,100      420 M Netherlands
+Päijänne                 Finland                             1,081      417 N
+Inari                    Finland                             1,040      400 N
+Kiev                     Ukraine                               992      383 E
+Topozero                 Russia                                986      381 R
+Ilmen                    Russia                                982      379 R
+Segozero                 Russia                                906      350 R
+Pielinen                 Finland                               894      345 N
+Oulujärvi                Finland                               887      342 N
+Imandra                  Russia                                876      338 R
+Pihlajavesi              Finland                               713      275 N
+Pihkva                   Estonia, Russia                       710      270 N
+Markermeer               Netherlands                           700      270 M
+Iron Gates               Romania, Serbia                       200       77 E
+Kaniv                    Ukraine                               675      261 E
+Pyaozero                 Russia                                659      254 R
+Kovdozero                Russia                                608      235 R
+Mingachevir              Azerbaijan                            605      234 E Azerbaijan?
+Orivesi                  Finland                               601      232 N
+Balaton                  Hungary                               592      229 E Hungary
+Geneva                   Switzerland, France                   581      224 M Switzerland, France
+Kamianske                Ukraine                               567      219 E
+Haukivesi                Finland                               562      217 N
+Constance                Germany, Switzerland, Austria         541      209 M Germany, Austria
+Keitele                  Finland                               494      191 N
+Hjälmaren                Sweden                                485      187 N
+Kallavesi                Finland                               473      183 N
+Storsjön                 Sweden                                464      179 N
+Puruvesi                 Finland                               421      163 N
+Vozhe                    Russia                                416      161 R
+Razelm                   Romania                               415      160 E Romania
+Kubenskoye               Russia                                407      157 R
+Lough Neagh              United Kingdom                        388      150 N United Kingdom
+Sheksninskoye            Russia                                380      150 R
+Skadar                   Albania, Montenegro                   370      140 S Albania, Montenegro
+Garda                    Italy                                 370      140 S Italy
+Mjøsa                    Norway                                365      141 N Norway
+Pyhäselkä                Finland                               361      139 N
+Ohrid                    North Macedonia, Albania              358      138 S North Macedonia
+Lacha                    Russia                                356      137 R
+Siljan                   Sweden                                354      137 N
+Manych-Gudilo            Russia                                344      133 R
+Puula                    Finland                               330      130 N
+Torneträsk               Sweden                                330      130 N
+Ivankovo                 Russia                                327      126 R
+Vodlozero                Russia                                322      124 R
+Lokka                    Finland                               315      122 N
+Umbozero                 Russia                                313      121 R
+Neusiedl                 Austria, Hungary                      315      122 M
+Höytiäinen               Finland                               282      109 N
+Great Prespa             Albania, Greece, North Macedonia      273      105 S Greece?
+Võrtsjärv                Estonia                               270      100 N
+Syamozero                Russia                                265      102 R
+Akkajaure                Sweden                                261      101 N
+Middle Kuyto             Russia                                257       99 R
+Näsijärvi                Finland                               256       99 N
+Đerdap                   Serbia                                253       98 S Serbia?
+Hornavan                 Sweden                                252       97 N
+Alqueva                  Portugal, Spain                       250       97 S Portugal, Spain?
+Uglich                   Russia                                249       96 R
+Yli-Kitka                Finland                               237       92 N
+Suvasvesi                Finland                               234       90 N
+Tikshozero               Russia                                232       90 R
+Kemijärvi                Finland                               231       89 N
+Keret                    Russia                                223       86 R
+Juojärvi                 Finland                               220       85 N
+Røssvatnet               Norway                                219       85 N
+Neuchâtel                Switzerland                           218       84 M
+Nyuk                     Russia                                214       83 R
+Maggiore                 Italy, Switzerland                    212       82 S
+Seliger                  Russia                                212       82 R
+Uddjaure                 Sweden                                210       81 N
+Pyhäjärvi                Finland, Russia                       207       80 N
+Femund                   Norway                                204       79 N
+Yanisyarvi               Russia                                204       79 R
+Lough Corrib             Ireland                               200       77 N Ireland
+Lovozero                 Russia                                200       77 R
+Upper Kuyto              Russia                                198       76 R
+Enonvesi                 Finland                               197       76 N
+Narva                    Estonia, Russia                       191       74 N
+Kiantajärvi              Finland                               191       74 N
+Konnevesi                Finland                               189       73 N
+Bolmen                   Sweden                                184       71 N
+Ströms vattudal          Sweden                                183       71 N
+Ondozero                 Russia                                182       70 R
+Storuman                 Sweden                                173       67 N
+Storavan                 Sweden                                172       66 N
+Lämmijärv                Estonia, Russia                       171       66 N
+Sinoe                    Romania                               171       66 E
+Mar Menor                Spain                                 170       66 S
+Nilakka                  Finland                               169       65 N
+Koitere                  Finland                               167       64 N
+Leksozero                Russia                                166       64 R
+Stora Lulevatten         Sweden                                165       64 N
+Iisvesi                  Finland                               164       63 N
+Åsnen                    Sweden                                159       61 N
+Juurusvesi–Akonvesi      Finland                               159       61 N
+Étang de Berre           France                                155       60 M
+Pyhäjärvi                Finland                               155       60 N
+Kivijärvi                Finland                               154       59 N
+Elton                    Russia                                150       58 R
+Vanajavesi               Finland                               150       58 N
+Porttipahta              Finland                               149       58 N
+Yalpug                   Ukraine                               149       58 E
+Como                     Italy                                 146       56 S
+Lappajärvi               Finland                               145       56 N
+Suontee                  Finland                               143       55 N
+Lower Kuyto              Russia                                141       54 R
+Randsfjorden             Norway                                139       54 N
+Tyrifjorden              Norway                                139       54 N
+Grevelingenmeer          Netherlands                           139       54 M
+Kallsjön                 Sweden                                135       52 N
+Viinijärvi               Finland                               135       52 N
+Längelmävesi             Finland                               133       51 N
+Skagern                  Sweden                                133       51 N
+Sommen                   Sweden                                132       51 N
+Dellensjöarna            Sweden                                131       51 N
+Oskol                    Ukraine                               130       50 E
+Kyyvesi                  Finland                               128       49 N
+Tisza                    Hungary                               127       49 E
+Trasimeno                Italy                                 124       48 S
+Engozero                 Russia                                122       47 R
+Pyhäjärvi                Finland                               122       47 N
+Kolvitskoye              Russia                                121       47 R
+Snåsavatnet              Norway                                121       47 N
+Stora Le and Foxen       Sweden                                119       46 N
+Lough Derg               Ireland                               118       46 N
+Keurusselkä              Finland                               117       45 N
+Müritz                   Germany                               117       45 M
+Baskunchak               Russia                                115       44 R
+Bolsena                  Italy                                 114       44 S
+Śniardwy                 Poland                                114       44 E Poland
+Lucerne                  Switzerland                           114       44 M
+Onkivesi                 Finland                               114       44 N
+Mallasvesi–Roine         Finland                               110       42 N
+Pielavesi                Finland                               110       42 N
+Vesijärvi                Finland                               108       42 N
+Lower Lough Erne         United Kingdom                        105       41 N
+Lough Ree                Ireland                               105       41 N
+Ontojärvi                Finland                               105       41 N
+Mamry                    Poland                                104       40 E
+Kolima                   Finland                               101       39 N
+Tunnsjøen                Norway                                100       39 N

@@ -1,0 +1,443 @@
+object fClock: TfClock
+  Left = 70
+  Height = 709
+  Top = 35
+  Width = 1343
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Clock'
+  ClientHeight = 684
+  ClientWidth = 1343
+  DesignTimePPI = 120
+  Font.Height = -20
+  Menu = mMenu
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object imDraw: TImage
+    Left = 20
+    Height = 600
+    Top = 20
+    Width = 600
+  end
+  object laDate: TLabel
+    Left = 20
+    Height = 28
+    Top = 644
+    Width = 45
+    Caption = 'Date'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 656
+    Height = 35
+    Top = 20
+    Width = 146
+    Caption = 'World clock.'
+    Font.Height = -25
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 656
+    Height = 28
+    Top = 87
+    Width = 86
+    Caption = 'UTC Time:'
+    Font.Height = -20
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laDateUTC: TLabel
+    Left = 656
+    Height = 28
+    Top = 132
+    Width = 41
+    Caption = 'Date'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object edTimeUTC: TEdit
+    Left = 824
+    Height = 36
+    Top = 128
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+    Text = '00:00:00'
+  end
+  object laCity0: TLabel
+    Left = 1032
+    Height = 28
+    Top = 87
+    Width = 60
+    Caption = 'City 0:'
+    Font.Height = -20
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laDate0: TLabel
+    Left = 1032
+    Height = 28
+    Top = 132
+    Width = 45
+    Caption = 'Date'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edTime0: TEdit
+    Left = 1200
+    Height = 36
+    Top = 128
+    Width = 130
+    Alignment = taCenter
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 0
+    Text = '00:00:00'
+  end
+  object laCity1: TLabel
+    Left = 656
+    Height = 28
+    Top = 201
+    Width = 54
+    Caption = 'City 1:'
+    Font.Height = -20
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laDate1: TLabel
+    Left = 656
+    Height = 28
+    Top = 246
+    Width = 41
+    Caption = 'Date'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object edTime1: TEdit
+    Left = 824
+    Height = 36
+    Top = 242
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 1
+    Text = '00:00:00'
+  end
+  object laCity2: TLabel
+    Left = 1032
+    Height = 28
+    Top = 201
+    Width = 54
+    Caption = 'City 2:'
+    Font.Height = -20
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laDate2: TLabel
+    Left = 1032
+    Height = 28
+    Top = 246
+    Width = 41
+    Caption = 'Date'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object edTime2: TEdit
+    Left = 1200
+    Height = 36
+    Top = 242
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+    Text = '00:00:00'
+  end
+  object laCity3: TLabel
+    Left = 656
+    Height = 28
+    Top = 313
+    Width = 50
+    Caption = 'City 3'
+    Font.Height = -20
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laDate3: TLabel
+    Left = 656
+    Height = 28
+    Top = 358
+    Width = 41
+    Caption = 'Date'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object edTime3: TEdit
+    Left = 824
+    Height = 36
+    Top = 354
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+    Text = '00:00:00'
+  end
+  object laCity4: TLabel
+    Left = 1032
+    Height = 28
+    Top = 313
+    Width = 54
+    Caption = 'City 4:'
+    Font.Height = -20
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laDate4: TLabel
+    Left = 1032
+    Height = 28
+    Top = 358
+    Width = 41
+    Caption = 'Date'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object edTime4: TEdit
+    Left = 1200
+    Height = 36
+    Top = 354
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+    Text = '00:00:00'
+  end
+  object laCity5: TLabel
+    Left = 656
+    Height = 28
+    Top = 425
+    Width = 54
+    Caption = 'City 5:'
+    Font.Height = -20
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laDate5: TLabel
+    Left = 656
+    Height = 28
+    Top = 470
+    Width = 41
+    Caption = 'Date'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object edTime5: TEdit
+    Left = 824
+    Height = 36
+    Top = 470
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+    Text = '00:00:00'
+  end
+  object laCity6: TLabel
+    Left = 1032
+    Height = 28
+    Top = 425
+    Width = 54
+    Caption = 'City 6:'
+    Font.Height = -20
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laDate6: TLabel
+    Left = 1032
+    Height = 28
+    Top = 474
+    Width = 41
+    Caption = 'Date'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object edTime6: TEdit
+    Left = 1200
+    Height = 36
+    Top = 470
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+    Text = '00:00:00'
+  end
+  object laCity7: TLabel
+    Left = 656
+    Height = 28
+    Top = 543
+    Width = 54
+    Caption = 'City 7:'
+    Font.Height = -20
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laDate7: TLabel
+    Left = 656
+    Height = 28
+    Top = 588
+    Width = 41
+    Caption = 'Date'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object edTime7: TEdit
+    Left = 824
+    Height = 36
+    Top = 584
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+    Text = '00:00:00'
+  end
+  object laCity8: TLabel
+    Left = 1032
+    Height = 28
+    Top = 543
+    Width = 54
+    Caption = 'City 8:'
+    Font.Height = -20
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laDate8: TLabel
+    Left = 1032
+    Height = 28
+    Top = 588
+    Width = 41
+    Caption = 'Date'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object edTime8: TEdit
+    Left = 1200
+    Height = 36
+    Top = 584
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+    Text = '00:00:00'
+  end
+  object tiClock: TTimer
+    Enabled = False
+    Interval = 1
+    OnTimer = tiClockTimer
+    left = 112
+    top = 48
+  end
+  object mMenu: TMainMenu
+    left = 40
+    top = 48
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsDate: TMenuItem
+        Caption = 'Date format'
+        object mSettingsDate1: TMenuItem
+          Caption = 'dd.mm.yyyy'
+          Checked = True
+          OnClick = mSettingsDate1Click
+        end
+        object mSettingsDate2: TMenuItem
+          Caption = 'dd/mm/yyyy'
+          OnClick = mSettingsDate2Click
+        end
+        object mSettingsDate3: TMenuItem
+          Caption = 'mm/dd/yyyy'
+          OnClick = mSettingsDate3Click
+        end
+      end
+      object mSettingsTime: TMenuItem
+        Caption = 'Time format'
+        object mSettingsTime1: TMenuItem
+          Caption = '24 hours'
+          Checked = True
+          OnClick = mSettingsTime1Click
+        end
+        object mSettingsTime2: TMenuItem
+          Caption = '12 hours'
+          OnClick = mSettingsTime2Click
+        end
+      end
+      object mSettingsSeconds: TMenuItem
+        Caption = 'Display seconds'
+        OnClick = mSettingsSecondsClick
+      end
+      object mSettingsClock24: TMenuItem
+        Caption = '24 hours clock'
+        OnClick = mSettingsClock24Click
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object mSettingsConfig: TMenuItem
+        Caption = 'Configuration ...'
+        OnClick = mSettingsConfigClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

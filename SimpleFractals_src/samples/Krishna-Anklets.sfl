@@ -1,0 +1,9 @@
+# Krishna-Anklets
+
+origin = (485,575)
+displacement = 6
+
+axiom = "-5X--6X"
+rules = { "X": "XFX--XFX" }
+iterations = 6
+angle = 45

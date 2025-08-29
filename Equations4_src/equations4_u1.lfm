@@ -1,0 +1,243 @@
+object fEquations4: TfEquations4
+  Left = 238
+  Height = 423
+  Top = 156
+  Width = 565
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Maths Trainer'
+  ClientHeight = 398
+  ClientWidth = 565
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Label1: TLabel
+    Left = 199
+    Height = 23
+    Top = 11
+    Width = 167
+    Caption = 'Logarithm Equations'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btStart: TButton
+    Left = 336
+    Height = 31
+    Top = 355
+    Width = 100
+    Caption = 'Start'
+    Font.Height = -17
+    OnClick = btStartClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object btSolve: TButton
+    Left = 456
+    Height = 31
+    Top = 355
+    Width = 100
+    Caption = 'Solve'
+    Enabled = False
+    Font.Height = -17
+    OnClick = btSolveClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edQuestions: TEdit
+    Left = 180
+    Height = 31
+    Top = 56
+    Width = 44
+    Alignment = taCenter
+    Font.Height = -17
+    NumbersOnly = True
+    ParentFont = False
+    TabStop = False
+    TabOrder = 8
+    Text = '10'
+  end
+  object edQuestion: TEdit
+    Left = 8
+    Height = 31
+    Top = 104
+    Width = 144
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+    Text = 'Equation 0 / 0'
+  end
+  object edEquation: TEdit
+    Left = 160
+    Height = 31
+    Top = 104
+    Width = 396
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 23
+    Top = 152
+    Width = 248
+    Caption = 'Your solution to this equation ?'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edEval: TEdit
+    Left = 8
+    Height = 31
+    Top = 307
+    Width = 548
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object rbSolOne: TRadioButton
+    Left = 16
+    Height = 27
+    Top = 186
+    Width = 131
+    Caption = ' One solution:'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 2
+    TabStop = True
+  end
+  object edSolNone: TRadioButton
+    Left = 16
+    Height = 27
+    Top = 264
+    Width = 118
+    Caption = ' No solution'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 7
+    TabStop = True
+  end
+  object edAnswer1: TEdit
+    Left = 160
+    Height = 31
+    Top = 184
+    Width = 64
+    Font.Height = -17
+    OnChange = edAnswer1Change
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 23
+    Top = 60
+    Width = 163
+    Caption = 'Number of equations'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object laResult: TLabel
+    Left = 8
+    Height = 20
+    Top = 355
+    Width = 187
+    Caption = 'Results as reduced fractions!'
+    Color = clSilver
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object rbSolTwo: TRadioButton
+    Left = 16
+    Height = 27
+    Top = 226
+    Width = 137
+    Caption = ' Two solutions:'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 4
+    TabStop = True
+  end
+  object edAnswer21: TEdit
+    Left = 160
+    Height = 31
+    Top = 224
+    Width = 64
+    Font.Height = -17
+    OnChange = edAnswer21Change
+    ParentFont = False
+    TabOrder = 5
+  end
+  object edAnswer22: TEdit
+    Left = 240
+    Height = 31
+    Top = 224
+    Width = 64
+    Font.Height = -17
+    OnChange = edAnswer22Change
+    ParentFont = False
+    TabOrder = 6
+  end
+  object mMenu: TMainMenu
+    left = 504
+    top = 16
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsLevel: TMenuItem
+        Caption = 'Level'
+        object mOptionsLevel1: TMenuItem
+          Caption = 'Elementary'
+          OnClick = mOptionsLevel1Click
+        end
+        object mOptionsLevel2: TMenuItem
+          Caption = 'Simple'
+          OnClick = mOptionsLevel2Click
+        end
+        object mOptionsLevel3: TMenuItem
+          Caption = 'Intermediate'
+          Checked = True
+          OnClick = mOptionsLevel3Click
+        end
+      end
+      object mOptionsResult: TMenuItem
+        Caption = 'Results'
+        object mOptionsResultFraction: TMenuItem
+          Caption = 'Fraction'
+          Checked = True
+          OnClick = mOptionsResultFractionClick
+        end
+        object mOptionsResultDecimal: TMenuItem
+          Caption = 'Decimal'
+          OnClick = mOptionsResultDecimalClick
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

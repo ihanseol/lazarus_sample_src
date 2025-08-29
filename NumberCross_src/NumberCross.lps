@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="NumberCross.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="nc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fNC"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="nc.pas"/>
+        <Caret Line="305" Column="22" TopLine="283"/>
+      </Position1>
+      <Position2>
+        <Filename Value="nc.pas"/>
+        <Caret Line="306" Column="24" TopLine="284"/>
+      </Position2>
+      <Position3>
+        <Filename Value="nc.pas"/>
+        <Caret Line="312" Column="22" TopLine="290"/>
+      </Position3>
+      <Position4>
+        <Filename Value="nc.pas"/>
+        <Caret Line="318" Column="22" TopLine="296"/>
+      </Position4>
+      <Position5>
+        <Filename Value="nc.pas"/>
+        <Caret Line="324" Column="22" TopLine="302"/>
+      </Position5>
+      <Position6>
+        <Filename Value="nc.pas"/>
+        <Caret Line="329" Column="22" TopLine="307"/>
+      </Position6>
+      <Position7>
+        <Filename Value="nc.pas"/>
+        <Caret Line="338" Column="22" TopLine="316"/>
+      </Position7>
+      <Position8>
+        <Filename Value="nc.pas"/>
+        <Caret Line="339" Column="24" TopLine="317"/>
+      </Position8>
+      <Position9>
+        <Filename Value="nc.pas"/>
+        <Caret Line="345" Column="22" TopLine="323"/>
+      </Position9>
+      <Position10>
+        <Filename Value="nc.pas"/>
+        <Caret Line="346" Column="24" TopLine="324"/>
+      </Position10>
+      <Position11>
+        <Filename Value="nc.pas"/>
+        <Caret Line="353" Column="24" TopLine="331"/>
+      </Position11>
+      <Position12>
+        <Filename Value="nc.pas"/>
+        <Caret Line="422" Column="22" TopLine="399"/>
+      </Position12>
+      <Position13>
+        <Filename Value="nc.pas"/>
+        <Caret Line="423" Column="24" TopLine="400"/>
+      </Position13>
+      <Position14>
+        <Filename Value="nc.pas"/>
+        <Caret Line="432" Column="24" TopLine="409"/>
+      </Position14>
+      <Position15>
+        <Filename Value="nc.pas"/>
+        <Caret Line="435" Column="22" TopLine="412"/>
+      </Position15>
+      <Position16>
+        <Filename Value="nc.pas"/>
+        <Caret Line="436" Column="24" TopLine="413"/>
+      </Position16>
+      <Position17>
+        <Filename Value="nc.pas"/>
+        <Caret Line="442" Column="22" TopLine="420"/>
+      </Position17>
+      <Position18>
+        <Filename Value="nc.pas"/>
+        <Caret Line="443" Column="24" TopLine="421"/>
+      </Position18>
+      <Position19>
+        <Filename Value="nc.pas"/>
+        <Caret Line="451" Column="24" TopLine="429"/>
+      </Position19>
+      <Position20>
+        <Filename Value="nc.pas"/>
+        <Caret Line="471" Column="22" TopLine="448"/>
+      </Position20>
+      <Position21>
+        <Filename Value="nc.pas"/>
+        <Caret Line="468" Column="52" TopLine="449"/>
+      </Position21>
+      <Position22>
+        <Filename Value="nc.pas"/>
+        <Caret Line="483" TopLine="456"/>
+      </Position22>
+      <Position23>
+        <Filename Value="nc.pas"/>
+      </Position23>
+      <Position24>
+        <Filename Value="nc.pas"/>
+        <Caret Line="186" Column="3" TopLine="184"/>
+      </Position24>
+      <Position25>
+        <Filename Value="nc.pas"/>
+        <Caret Line="384" Column="23" TopLine="367"/>
+      </Position25>
+      <Position26>
+        <Filename Value="nc.pas"/>
+        <Caret Line="225" TopLine="215"/>
+      </Position26>
+      <Position27>
+        <Filename Value="nc.pas"/>
+        <Caret Line="394" Column="49" TopLine="370"/>
+      </Position27>
+      <Position28>
+        <Filename Value="nc.pas"/>
+        <Caret Line="407" Column="66" TopLine="386"/>
+      </Position28>
+      <Position29>
+        <Filename Value="nc.pas"/>
+        <Caret Line="386" Column="129" TopLine="375"/>
+      </Position29>
+      <Position30>
+        <Filename Value="nc.pas"/>
+        <Caret Line="409" Column="40" TopLine="385"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

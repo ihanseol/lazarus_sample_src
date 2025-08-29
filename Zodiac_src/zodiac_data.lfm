@@ -1,0 +1,132 @@
+object fData: TfData
+  Left = 106
+  Height = 605
+  Top = 165
+  Width = 1097
+  BorderIcons = [biSystemMenu]
+  Caption = '"Zodiac": Herkunft der Daten und Bilder.'
+  ClientHeight = 605
+  ClientWidth = 1097
+  DesignTimePPI = 120
+  Font.Height = -17
+  LCLVersion = '1.8.4.0'
+  object StaticText1: TStaticText
+    Left = 10
+    Height = 21
+    Top = 10
+    Width = 414
+    Caption = 'Herkunft der in "Zodiac" verwendeten Daten.'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 10
+    Height = 232
+    Top = 48
+    Width = 1078
+    Color = clCream
+    Font.Height = -15
+    Lines.Strings = (
+      'Alle in "Zodiac" verwendeten Daten und Bilder stammen von Astrologie-bezogenen Webseiten. Ich habe mir die Freiheit genommen, diese Ressourcen herunterzuladen und in meinem Programm zu verwenden und bin der Meinung dass dies nicht als Stehlen von Eigentum von Drittpersonen bezeichnet werden kann.'
+      ''
+      '    1.  "Zodiac" ist Open Source und das Bereitstellen des Programms auf meiner Website bringt mir selber weder finanzielle noch irgendwelche andere Vorteile.'
+      '    2.  "Zodiac" ist eine Informationsquelle zum Thema Sternzeichen, dient also dem gleichen Zweck wie der Inhalt der Webseiten, von denen die Daten stammen.'
+      '    3.  Mit der Erstellung von "Zodiac", so wie dem Benutzen der Daten und Bilder von anderen Sites wird niemandem was auch immer für Schaden zugefügt.'
+      '    4.  Der Hilfetext von "Zodiac" enthält genaue Informationen, woher die Daten stammen, sowie Links zu den entsprechenden Websites.'
+      ''
+      'Zu beachten dass die komerzielle Verwendung dieses Open Source Programmes wegen der nicht mir gehörenden Daten, einen Verstoß gegen das Urheberrecht der Autoren dieser Daten darstellen würde!'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 1
+    TabStop = False
+  end
+  object stLink1: TLabel
+    Cursor = crHandPoint
+    Left = 10
+    Height = 23
+    Top = 296
+    Width = 342
+    Caption = 'https://de.wikipedia.org/wiki/Tierkreiszeichen'
+    Font.Color = clBlue
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+    OnClick = stLink1Click
+  end
+  object StaticText2: TStaticText
+    Left = 10
+    Height = 29
+    Top = 328
+    Width = 1078
+    Caption = 'Angaben zu "Jahreszeit", "Lebensalter", "Qualität" (inklusive Zuordnungen), "ekliptikale Länge" sowie die Sternzeichen-Symbole.'
+    TabOrder = 2
+  end
+  object stLink2: TLabel
+    Cursor = crHandPoint
+    Left = 10
+    Height = 23
+    Top = 368
+    Width = 652
+    Caption = 'https://mein.astrocenter.de/astrologie/artikel/E2199-astrologie-enzyklopaedie-lexikon'
+    Font.Color = clBlue
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+    OnClick = stLink2Click
+  end
+  object StaticText3: TStaticText
+    Left = 10
+    Height = 29
+    Top = 400
+    Width = 1078
+    Caption = 'Angaben zu "Persönlichkeit" und "Schwächen", sowie Bedeutung und Eigenschaften der Elemente.'
+    TabOrder = 3
+  end
+  object stLink3: TLabel
+    Cursor = crHandPoint
+    Left = 10
+    Height = 23
+    Top = 440
+    Width = 360
+    Caption = 'https://wissen.naanoo.de/esoterik/sternzeichen'
+    Font.Color = clBlue
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+    OnClick = stLink3Click
+  end
+  object StaticText4: TStaticText
+    Left = 10
+    Height = 29
+    Top = 472
+    Width = 1078
+    Caption = 'Alle anderen Daten und Beschreibungen, die Sternzeichen-Bilder und die Darstellung des Tierkreises.'
+    TabOrder = 4
+  end
+  object StaticText5: TStaticText
+    Left = 10
+    Height = 29
+    Top = 520
+    Width = 1078
+    Caption = 'Besuchen Sie die angegebenen Websites (Link anklicken): Sie enthalten jede Menge zusätzlicher Informationen zum Thema Sternzeichen...'
+    Font.Height = -17
+    Font.Style = [fsItalic]
+    ParentFont = False
+    TabOrder = 5
+  end
+  object btClose: TButton
+    Left = 994
+    Height = 31
+    Top = 568
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 6
+  end
+end

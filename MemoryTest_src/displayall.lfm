@@ -1,0 +1,464 @@
+object fAll: TfAll
+  Left = 802
+  Height = 393
+  Top = 390
+  Width = 642
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Memory Test'
+  ClientHeight = 393
+  ClientWidth = 642
+  Color = clWindow
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object Image1: TImage
+    Left = 10
+    Height = 50
+    Top = 10
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image2: TImage
+    Left = 72
+    Height = 50
+    Top = 10
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image3: TImage
+    Left = 136
+    Height = 50
+    Top = 8
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image4: TImage
+    Left = 200
+    Height = 50
+    Top = 8
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image5: TImage
+    Left = 264
+    Height = 50
+    Top = 8
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image6: TImage
+    Left = 328
+    Height = 50
+    Top = 8
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image7: TImage
+    Left = 390
+    Height = 50
+    Top = 8
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image8: TImage
+    Left = 454
+    Height = 50
+    Top = 6
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image9: TImage
+    Left = 518
+    Height = 50
+    Top = 6
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image10: TImage
+    Left = 582
+    Height = 50
+    Top = 6
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image11: TImage
+    Left = 10
+    Height = 50
+    Top = 76
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image12: TImage
+    Left = 72
+    Height = 50
+    Top = 76
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image13: TImage
+    Left = 136
+    Height = 50
+    Top = 74
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image14: TImage
+    Left = 200
+    Height = 50
+    Top = 74
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image15: TImage
+    Left = 264
+    Height = 50
+    Top = 74
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image16: TImage
+    Left = 328
+    Height = 50
+    Top = 74
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image17: TImage
+    Left = 390
+    Height = 50
+    Top = 74
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image18: TImage
+    Left = 454
+    Height = 50
+    Top = 72
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image19: TImage
+    Left = 518
+    Height = 50
+    Top = 72
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image20: TImage
+    Left = 582
+    Height = 50
+    Top = 72
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image21: TImage
+    Left = 10
+    Height = 50
+    Top = 140
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image22: TImage
+    Left = 72
+    Height = 50
+    Top = 140
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image23: TImage
+    Left = 136
+    Height = 50
+    Top = 138
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image24: TImage
+    Left = 200
+    Height = 50
+    Top = 138
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image25: TImage
+    Left = 264
+    Height = 50
+    Top = 138
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image26: TImage
+    Left = 328
+    Height = 50
+    Top = 138
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image27: TImage
+    Left = 390
+    Height = 50
+    Top = 138
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image28: TImage
+    Left = 454
+    Height = 50
+    Top = 136
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image29: TImage
+    Left = 518
+    Height = 50
+    Top = 136
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image30: TImage
+    Left = 582
+    Height = 50
+    Top = 136
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image31: TImage
+    Left = 10
+    Height = 50
+    Top = 204
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image32: TImage
+    Left = 72
+    Height = 50
+    Top = 204
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image33: TImage
+    Left = 136
+    Height = 50
+    Top = 202
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image34: TImage
+    Left = 200
+    Height = 50
+    Top = 202
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image35: TImage
+    Left = 264
+    Height = 50
+    Top = 202
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image36: TImage
+    Left = 328
+    Height = 50
+    Top = 202
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image37: TImage
+    Left = 390
+    Height = 50
+    Top = 202
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image38: TImage
+    Left = 454
+    Height = 50
+    Top = 200
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image39: TImage
+    Left = 518
+    Height = 50
+    Top = 200
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image40: TImage
+    Left = 582
+    Height = 50
+    Top = 200
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image41: TImage
+    Left = 10
+    Height = 50
+    Top = 268
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image42: TImage
+    Left = 72
+    Height = 50
+    Top = 268
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image43: TImage
+    Left = 136
+    Height = 50
+    Top = 266
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image44: TImage
+    Left = 200
+    Height = 50
+    Top = 266
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image45: TImage
+    Left = 264
+    Height = 50
+    Top = 266
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image46: TImage
+    Left = 328
+    Height = 50
+    Top = 266
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image47: TImage
+    Left = 390
+    Height = 50
+    Top = 266
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image48: TImage
+    Left = 454
+    Height = 50
+    Top = 264
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image49: TImage
+    Left = 518
+    Height = 50
+    Top = 264
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Image50: TImage
+    Left = 582
+    Height = 50
+    Top = 264
+    Width = 50
+    Center = True
+    Visible = False
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 17
+    Top = 356
+    Width = 50
+    Caption = 'Time left'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edTime: TEdit
+    Left = 72
+    Height = 25
+    Top = 352
+    Width = 50
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object btOK: TButton
+    Left = 464
+    Height = 28
+    Top = 352
+    Width = 75
+    Caption = 'OK'
+    OnClick = btOKClick
+    TabOrder = 0
+  end
+  object btCancel: TButton
+    Left = 557
+    Height = 28
+    Top = 352
+    Width = 75
+    Caption = 'Cancel'
+    OnClick = btCancelClick
+    TabOrder = 1
+  end
+  object edButton: TEdit
+    Left = 416
+    Height = 28
+    Top = 352
+    Width = 40
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+    Visible = False
+  end
+end

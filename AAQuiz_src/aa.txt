@@ -1,0 +1,20 @@
+A Ala alanine       C3H7NO2    CH3-CH(NH2)-COOH                 07108 very small L N # N O N
+R Arg arginine      C6H14N4O2  HN=C(NH2)-NH-(CH2)3-CH(NH2)-COOH 15620 large      B P + + I S
+N Asn asparagine    C4H8N2O3   H2N-CO-CH2-CH(NH2)-COOH          11411 small      N P # U I N
+D Asp aspartic acid C4H7NO4    HOOC-CH2-CH(NH2)-COOH            11509 small      A P - - I N
+C Cys cysteine      C3H7NO2S   HS-CH2-CH(NH2)-COOH              10314 small      S N # N O N
+E Glu glutamic acid C5H10N2O3  H2N-CO-(CH2)2-CH(NH2)-COOH       12912 medium     A P - - I N
+Q Gln glutamine     C5H9NO4    HOOC-(CH2)2-CH(NH2)-COOH         12841 medium     N P # U I N
+G Gly glycine       C2H5NO2    NH2-CH2-COOH                     05706 very small L N # N N N
+H His histidine     C6H9N3O2   NH-CH=N-CH=C-CH2-CH(NH2)-COOH    13715 medium     R P + + N S
+I Ile isoleucine    C6H13NO2   CH3-CH2-CH(CH3)-CH(NH2)-COOH     11317 large      L N # N O E
+L Leu leucine       C6H13NO2   (CH3)2-CH-CH2-CH(NH2)-COOH       11317 large      L N # N O E
+K Lys lysine        C6H14N2O2  H2N-(CH2)4-CH(NH2)-COOH          12818 large      B P + + I E
+M Met methionine    C5H11NO2S  CH3-S-(CH2)2-CH(NH2)-COOH        13121 large      S N # N O E
+F Phe phenylalanine C9H11NO2   Ph-CH2-CH(NH2)-COOH              14718 very large R N # N O E
+P Pro proline       C5H9NO2    NH-(CH2)3-CH-COOH                09712 small      C N # N N N
+S Ser serine        C3H7NO3    HO-CH2-CH(NH2)-COOH              08708 very small N P # U N N
+T Thr threonine     C4H9NO3    CH3-CH(OH)-CH(NH2)-COOH          10111 small      N P # U N E
+W Trp tryptophan    C11H12N2O2 Ph-NH-CH=C-CH2-CH(NH2)-COOH      18621 very large R N # N O E
+Y Tyr tyrosine      C9H11NO3   HO-Ph-CH2-CH(NH2)-COOH           16318 very large R P # U N N
+V Val valine        C5H11NO2   (CH3)2-CH-CH(NH2)-COOH           09914 medium     L N # N O E

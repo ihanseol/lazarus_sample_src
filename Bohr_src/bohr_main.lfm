@@ -1,0 +1,528 @@
+object fBohr: TfBohr
+  Left = 152
+  Height = 796
+  Top = 59
+  Width = 1162
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'The Hydrogen Atom'
+  ClientHeight = 771
+  ClientWidth = 1162
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object Shape3: TShape
+    Left = 10
+    Height = 550
+    Top = 56
+    Width = 550
+  end
+  object Shape11: TShape
+    Left = 21
+    Height = 529
+    Top = 67
+    Width = 529
+    Brush.Color = clDefault
+    Brush.Style = bsClear
+    Pen.Width = 2
+    Shape = stCircle
+  end
+  object shOrbit1: TShape
+    Left = 282
+    Height = 9
+    Top = 327
+    Width = 7
+    Brush.Color = clDefault
+    Brush.Style = bsClear
+    Pen.Width = 2
+    Shape = stCircle
+  end
+  object shOrbit2: TShape
+    Left = 275
+    Height = 21
+    Top = 321
+    Width = 21
+    Brush.Color = clDefault
+    Brush.Style = bsClear
+    Pen.Width = 2
+    Shape = stCircle
+  end
+  object StaticText1: TStaticText
+    Left = 366
+    Height = 30
+    Top = 10
+    Width = 430
+    Alignment = taCenter
+    Caption = 'Bohr’s Theory of the Hydrogen Atom.'
+    Font.Height = -23
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object shOrbit3: TShape
+    Left = 261
+    Height = 48
+    Top = 307
+    Width = 48
+    Brush.Color = clDefault
+    Brush.Style = bsClear
+    Pen.Width = 2
+    Shape = stCircle
+  end
+  object shOrbit4: TShape
+    Left = 243
+    Height = 85
+    Top = 289
+    Width = 85
+    Brush.Color = clDefault
+    Brush.Style = bsClear
+    Pen.Width = 2
+    Shape = stCircle
+  end
+  object shOrbit5: TShape
+    Left = 219
+    Height = 132
+    Top = 265
+    Width = 132
+    Brush.Color = clDefault
+    Brush.Style = bsClear
+    Pen.Width = 2
+    Shape = stCircle
+  end
+  object Shape7: TShape
+    Left = 190
+    Height = 190
+    Top = 236
+    Width = 190
+    Brush.Color = clDefault
+    Brush.Style = bsClear
+    Pen.Width = 2
+    Shape = stCircle
+  end
+  object Shape8: TShape
+    Left = 156
+    Height = 259
+    Top = 202
+    Width = 259
+    Brush.Color = clDefault
+    Brush.Style = bsClear
+    Pen.Width = 2
+    Shape = stCircle
+  end
+  object Shape9: TShape
+    Left = 116
+    Height = 339
+    Top = 162
+    Width = 339
+    Brush.Color = clDefault
+    Brush.Style = bsClear
+    Pen.Width = 2
+    Shape = stCircle
+  end
+  object Shape10: TShape
+    Left = 71
+    Height = 429
+    Top = 117
+    Width = 429
+    Brush.Color = clDefault
+    Brush.Style = bsClear
+    Pen.Width = 2
+    Shape = stCircle
+  end
+  object sgLevelValues: TStringGrid
+    Left = 658
+    Height = 301
+    Top = 90
+    Width = 497
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 11
+    TabOrder = 1
+    ColWidths = (
+      57
+      110
+      109
+      146
+      71
+    )
+    Cells = (
+      35
+      0
+      0
+      'Level'
+      0
+      1
+      '  1'
+      0
+      2
+      '  2'
+      0
+      3
+      '  3'
+      0
+      4
+      '  4'
+      0
+      5
+      '  5'
+      0
+      6
+      '  6'
+      0
+      7
+      '  7'
+      0
+      8
+      '  8'
+      0
+      9
+      '  9'
+      0
+      10
+      ' 10'
+      1
+      0
+      'Radius [nm]'
+      1
+      1
+      '   0,0529'
+      1
+      2
+      '   0,2116'
+      1
+      3
+      '   0,4761'
+      1
+      4
+      '   0,8464'
+      1
+      5
+      '   1,3225'
+      1
+      6
+      '   1,9044'
+      1
+      7
+      '   2,5921'
+      1
+      8
+      '   3,3856'
+      1
+      9
+      '   4,2849'
+      1
+      10
+      '   5,2900'
+      2
+      0
+      'Energy [eV]'
+      2
+      1
+      '  -13,60'
+      2
+      2
+      '   -3,40'
+      2
+      3
+      '   -1,51'
+      2
+      4
+      '   -0,85'
+      2
+      5
+      '   -0,54'
+      2
+      6
+      '   -0,37'
+      2
+      7
+      '   -0,28'
+      2
+      8
+      '   -0,21'
+      2
+      9
+      '   -0,17'
+      2
+      10
+      '   -0,136'
+      3
+      0
+      'Wavelength [nm]'
+      4
+      0
+      'Color'
+    )
+  end
+  object Label1: TLabel
+    Left = 658
+    Height = 23
+    Top = 56
+    Width = 187
+    Caption = 'Orbits and energy levels:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object shSpectrum: TShape
+    Left = 10
+    Height = 50
+    Top = 656
+    Width = 1145
+    Brush.Color = clBlack
+  end
+  object Label2: TLabel
+    Left = 10
+    Height = 23
+    Top = 624
+    Width = 146
+    Caption = 'Emission spectrum:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laSeries2: TLabel
+    Left = 658
+    Height = 23
+    Top = 407
+    Width = 191
+    Caption = 'Wavelength values are for'
+    Font.Height = -17
+    Font.Style = [fsItalic]
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object laSeries: TLabel
+    Left = 854
+    Height = 23
+    Top = 407
+    Width = 172
+    Caption = 'nf = 2 (Balmer series)'
+    Font.Height = -17
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object btCalc: TButton
+    Left = 1061
+    Height = 31
+    Top = 575
+    Width = 94
+    Caption = 'Calculate'
+    OnClick = btCalcClick
+    TabOrder = 2
+  end
+  object shAxis: TShape
+    Left = 20
+    Height = 2
+    Top = 725
+    Width = 1125
+    Brush.Color = clBlack
+  end
+  object Shape13: TShape
+    Left = 20
+    Height = 20
+    Top = 716
+    Width = 2
+    Brush.Color = clBlack
+  end
+  object Shape14: TShape
+    Left = 300
+    Height = 20
+    Top = 716
+    Width = 2
+    Brush.Color = clBlack
+  end
+  object Shape15: TShape
+    Left = 581
+    Height = 20
+    Top = 716
+    Width = 2
+    Brush.Color = clBlack
+  end
+  object Shape16: TShape
+    Left = 1143
+    Height = 20
+    Top = 716
+    Width = 2
+    Brush.Color = clBlack
+  end
+  object Shape17: TShape
+    Left = 872
+    Height = 20
+    Top = 716
+    Width = 2
+    Brush.Color = clBlack
+  end
+  object stTick1: TStaticText
+    Left = 20
+    Height = 21
+    Top = 744
+    Width = 50
+    Caption = '0'
+    TabOrder = 3
+    Visible = False
+  end
+  object stTick2: TStaticText
+    Left = 276
+    Height = 21
+    Top = 744
+    Width = 50
+    Alignment = taCenter
+    Caption = '0'
+    TabOrder = 4
+    Visible = False
+  end
+  object stTick3: TStaticText
+    Left = 557
+    Height = 21
+    Top = 744
+    Width = 50
+    Alignment = taCenter
+    Caption = '0'
+    TabOrder = 5
+    Visible = False
+  end
+  object stTick4: TStaticText
+    Left = 849
+    Height = 21
+    Top = 744
+    Width = 50
+    Alignment = taCenter
+    Caption = '0'
+    TabOrder = 6
+    Visible = False
+  end
+  object stTick5: TStaticText
+    Left = 1095
+    Height = 21
+    Top = 744
+    Width = 50
+    Alignment = taRightJustify
+    Caption = '0'
+    TabOrder = 7
+    Visible = False
+  end
+  object cobSeries: TComboBox
+    Left = 1081
+    Height = 31
+    Top = 403
+    Width = 74
+    ItemHeight = 23
+    OnChange = cobSeriesChange
+    Style = csDropDownList
+    TabOrder = 8
+    Visible = False
+  end
+  object mMenu: TMainMenu
+    Left = 1096
+    Top = 8
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsSeries: TMenuItem
+        Caption = 'Emission series'
+        object mOptionsSeries1: TMenuItem
+          Caption = 'nf = 1 (Lyman)'
+          OnClick = mOptionsSeries1Click
+        end
+        object mOptionsSeries2: TMenuItem
+          Caption = 'nf = 2 (Balmer)'
+          Checked = True
+          OnClick = mOptionsSeries2Click
+        end
+        object mOptionsSeries3: TMenuItem
+          Caption = 'nf = 3 (Paschen)'
+          OnClick = mOptionsSeries3Click
+        end
+        object mOptionsSeries4: TMenuItem
+          Caption = 'nf = 4 series'
+          OnClick = mOptionsSeries4Click
+        end
+        object mOptionsSeries5: TMenuItem
+          Caption = 'nf = 5 series'
+          OnClick = mOptionsSeries5Click
+        end
+        object mOptionsSeriesAll3: TMenuItem
+          Caption = 'nf = 1 to 3 series'
+          OnClick = mOptionsSeriesAll3Click
+        end
+        object mOptionsSeriesAll5: TMenuItem
+          Caption = 'nf = 1 to 5 series'
+          OnClick = mOptionsSeriesAll5Click
+        end
+      end
+      object mOptionsColoration: TMenuItem
+        Caption = 'Wave band coloration'
+        object mOptionsColorationColor: TMenuItem
+          Caption = 'Color waves'
+          Checked = True
+          OnClick = mOptionsColorationColorClick
+        end
+        object mOptionsColorationColor2: TMenuItem
+          Caption = 'Color waves (extended)'
+          OnClick = mOptionsColorationColor2Click
+        end
+        object mOptionsColorationNone: TMenuItem
+          Caption = 'None (all same color)'
+          OnClick = mOptionsColorationNoneClick
+        end
+        object MenuItem3: TMenuItem
+          Caption = '-'
+        end
+        object mOptionsColorationSeries: TMenuItem
+          Caption = 'Spectrum series'
+          Enabled = False
+          OnClick = mOptionsColorationSeriesClick
+        end
+      end
+      object mOptionsWidth: TMenuItem
+        Caption = 'Wave band width'
+        object mOptionsWidth1: TMenuItem
+          Caption = '1 pixel'
+          OnClick = mOptionsWidth1Click
+        end
+        object mOptionsWidth2: TMenuItem
+          Caption = '2 pixels'
+          Checked = True
+          OnClick = mOptionsWidth2Click
+        end
+        object mOptionsWidth3: TMenuItem
+          Caption = '3 pixels'
+          OnClick = mOptionsWidth3Click
+        end
+      end
+      object mOptionsSpectrum0: TMenuItem
+        Caption = 'Spectrum origin at 0'
+        OnClick = mOptionsSpectrum0Click
+      end
+      object mOptionsEnergyJ: TMenuItem
+        Caption = 'Energy values in joule'
+        OnClick = mOptionsEnergyJClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

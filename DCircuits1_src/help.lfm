@@ -1,0 +1,32 @@
+object HelpForm: THelpForm
+  Left = 664
+  Height = 505
+  Top = 275
+  Width = 789
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Ohm''s Law'
+  ClientHeight = 505
+  ClientWidth = 789
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object HelpText: TMemo
+    Left = 10
+    Height = 438
+    Top = 10
+    Width = 766
+    Font.Height = -12
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+  end
+  object ButtonClose: TButton
+    Left = 701
+    Height = 25
+    Top = 464
+    Width = 75
+    Caption = 'Close'
+    OnClick = ButtonCloseClick
+    TabOrder = 1
+  end
+end

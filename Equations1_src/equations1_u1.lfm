@@ -1,0 +1,161 @@
+object Form1: TForm1
+  Left = 238
+  Height = 333
+  Top = 156
+  Width = 296
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Maths Trainer'
+  ClientHeight = 333
+  ClientWidth = 296
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object Label1: TLabel
+    Left = 47
+    Height = 17
+    Top = 22
+    Width = 203
+    Caption = 'Linear equations in one variable.'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object ButtonStart: TButton
+    Left = 87
+    Height = 25
+    Top = 296
+    Width = 65
+    Caption = 'Start'
+    OnClick = ButtonStartClick
+    TabOrder = 6
+  end
+  object ButtonSolve: TButton
+    Left = 8
+    Height = 25
+    Top = 296
+    Width = 65
+    Caption = 'Solve'
+    Enabled = False
+    OnClick = ButtonSolveClick
+    TabOrder = 5
+  end
+  object EquTotal: TEdit
+    Left = 138
+    Height = 25
+    Top = 56
+    Width = 24
+    Font.Height = -13
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 0
+    Text = '10'
+  end
+  object EquNumber: TEdit
+    Left = 8
+    Height = 25
+    Top = 104
+    Width = 113
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+    Text = 'Equation 0 / 0'
+  end
+  object EquEquation: TEdit
+    Left = 128
+    Height = 25
+    Top = 104
+    Width = 156
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object ButtonClose: TButton
+    Left = 219
+    Height = 25
+    Top = 296
+    Width = 65
+    Caption = 'Quit'
+    OnClick = ButtonCloseClick
+    TabOrder = 7
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 17
+    Top = 144
+    Width = 196
+    Caption = 'Your solution to this equation ?'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object SolCheck: TEdit
+    Left = 8
+    Height = 25
+    Top = 252
+    Width = 229
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object SolOne: TRadioButton
+    Left = 16
+    Height = 23
+    Top = 170
+    Width = 128
+    Caption = 'One solution:  x ='
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 1
+  end
+  object SolNone: TRadioButton
+    Left = 16
+    Height = 23
+    Top = 195
+    Width = 92
+    Caption = 'No solution'
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 3
+  end
+  object SolInfinity: TRadioButton
+    Left = 16
+    Height = 23
+    Top = 220
+    Width = 130
+    Caption = 'Infinty of solutions'
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 4
+  end
+  object SolSolution: TEdit
+    Left = 144
+    Height = 25
+    Top = 171
+    Width = 24
+    Font.Height = -13
+    OnChange = SolSolutionChange
+    ParentFont = False
+    TabStop = False
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 17
+    Top = 60
+    Width = 125
+    Caption = 'Number of equations'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+end

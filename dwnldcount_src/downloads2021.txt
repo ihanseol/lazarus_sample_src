@@ -1,0 +1,9 @@
+Download statistics 2021.
+
+                                                January     February     March     April     May      June     July     August     September     October     November     December     Total     
+Lazarus/Free Pascal executables (194 files)          63           94        64       171      250      175      179        181           135         187          191          193     
+                                                    118          123        80      1003      295      199      362        466           294         719         1105          865      5629     
+Lazarus/Free Pascal sources (200 files)             105          138       165       175      278      180      183        186           146         192          196          199     
+                                                    231          274       519      1068      383      247      266        708           347         770         1348          968      7129     
+Personal articles (19 files)                         14           19        12        26       38       13       19         19            18          19           19           19     
+                                                     20           33        14        95       71       28       55         92            44         108          128          106       794     

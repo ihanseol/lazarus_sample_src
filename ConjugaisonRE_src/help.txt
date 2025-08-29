@@ -1,0 +1,92 @@
+"ConjugaisonRE": Aide programme.
+================================
+
+Le programme ConjugaisonRE conjugue les verbes français en -re, offrant une double foncionnalité:
+
+  1. Affichage de la conjugaison (voix active, passive et pronominale) d'un verbe.
+  2. Génération d'exercices de conjugaison (soit en mode interactif, soit en créant des fichiers questions/réponses).
+
+Menu "Conjugaison".
+===================
+
+Exercices "verbes -re".
+-----------------------
+Exercices de conjugaison des verbes en -re.
+Dans une nouvelle fenêtre, l'utilisateur peut choisir en détail (en fonction de ce qui sont ses points faibles) ce qui sera inclus dans les questions (les verbes étant forcément l'un des 246 "connus" par le proramme). Il est ainsi possible de s'entraîner avec uniquement le subjonctif, les temps composés, le passif, les verbes semi-irréguliers ou les verbes réguliers, etc.
+Pour les exercices interactifs, après avoir fait ses choix, appuyez sur "Question" pour que la question s'affiche, donnez votre réponse et appuyez sur "Réponse" pour en contrôler l'exactitude. Le nombre de questions du test peut être choisi dans le champ "Nombre de questions".
+
+Fichier exercices.
+------------------
+Génération d'un fichier text avec des questions de conjugaison.
+Le nombre de questions est celui choisi dans le champ "Nombre de questions"; le test portera sur ce qui a été choisi auparavant (de la même manière que pour le test interactif). En fait, ce seront deux fichiers qui seront générés: [nom-fichier] (questions) ne contienant que les questions, [nom-fichier] (réponses) contenant et les questions et les réponses.
+
+Affichage conjugaison.
+----------------------
+Affichage de la conjuaison pour un verbe choisi par l'utilisateur.
+La conjugaison affichée comporte, pour le verbe choisi, toutes les voix, formes (non disponible dans la version actuelle), modes et temps.
+Si ce verbe n'est pas "connu" par l'application, une nouvelle fenêtre s'ouvre, où l'utilisateur peut fournir des informations concernant la conjugaison de ce verbe, tel par exemple s'il s'agit d'un verbe impersonnel, d'un verbe n'ayant pas de voix passive ou pronominale. Le traitement correct des verbes semi-irréguliers et des composés des verbes irréguliers est automatique. Si le programme n'arrive pas á déterminer un type de conjugaison, il suppose que le verbe est régulier (un message d'avertissement est affiché dans ce cas).
+Notez qu'un verbe précédé de "se" (ex: "se rendre") est considéré comme un verbe pronominal pur; pour afficher toutes les voix du verbe, entrez "rendre", puis, dans la fenêtre de conjugaison, choisissez la voix désirée.
+
+Quitter.
+--------
+Quitter l'application.
+
+Menu "Options".
+===============
+
+Affichage des verbes.
+---------------------
+Options d'affichage des questions d'exercice resp. des formes verbales dans les tableaux de conjugaison.
+  - Ne pas afficher "indicatif":
+    Dans les exercices, utiliser une forme plus courte si mode = indicatif, tel "imparfait" au lieu de "indicatif imparfait".
+  - Séparation entre le radical et la terminaison:
+    Mettre en évidence la terminaison, p.ex. nous romp-ons, nous rompr-ons.
+  - Séparation entre la racine et le reste du radical:
+    Mettre en évidence la racine du verbe: p.ex. nous romp-r-ons.
+  - Afficher les irrégularités en couleur:
+    Utiliser une ou plusieurs couleurs si la conjugaison présente une irrégularité.
+  - Utiliser la même couleur pour toutes les irrégularités:
+    Afficher toutes les formes verbales irrégulières en rouge au lieu d'utiliser plusieurs couleurs.
+
+Ne pas afficher les avertissements.
+-----------------------------------
+Si cette option est sélectionnée, le programme n'affiche pas de message, si le type de conjugaison n'a pas pu être déterminé.
+
+Utiliser "avoir" pour les verbes à 2 auxiliaires.
+-------------------------------------------------
+Conjuguer des verbes comme "descendre" avec "avoir" au lieu de "être". Cette option (non pas disponible dans la version actuelle) concerne aussi bien les exercices que les tableaux de conjugaison.
+
+Menu "Aide".
+============
+
+Verbes en -re.
+--------------
+Affichage des règles concernant la conjugaison des verbes en -re.
+
+Aide programme.
+---------------
+Affichage de l'aide concernant l'utilisation du programme ConjugaisonRE (ce texte).
+
+Info programme.
+---------------
+Affichage d'informations concernant le programme ConjugaisonRE.
+
+Notes.
+======
+
+Fonctionalités non-disponibles.
+-------------------------------
+La possibilité de choisir entre les différentes formes (f. affirmative, f. négative...) des verbes n'est pas implémentée dans la version 1.1 (toujours f. affirmative).
+Dans la version 1.1, l'auxiliaire utilisé avec les verbes à 2 auxiliaires ne peut pas être sélectionné (toujours "être").
+
+Formes conjuguées douteuses/erronnées.
+--------------------------------------
+Certaines formes conjuguées, telles affichées par l'application ConjugaisonRE, ne correspondent pas à ce que l'utilisateur se serait peut-être attendu ou même sont incorrectes.
+  - Verbe FRIRE.
+    Les formes verbales existantes resp. défectives varient d'un site Internet à l'autre;
+    j'ai dû faire un choix (cf. texte d'aide conc. la conjugaison).
+  - Verbes DISSOUDRE, REDISSOUDRE, ABSOUDRE.
+    Le programme conjugue le participe passé en -t (forme alternative en -s non considérée).
+  - Verbes défectifs.
+    La version 1.1. de l'application ne tient pas compte des verbes défectifs (sauf dans quelques cas).
+    Pour certains verbes (ex: bruire, paître), les formes verbales affichées ne sont pas toutes existantes!

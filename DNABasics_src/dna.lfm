@@ -1,0 +1,683 @@
+object fDNA: TfDNA
+  Left = 77
+  Height = 764
+  Top = 18
+  Width = 1325
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'DNA properties, transcription and translation'
+  ClientHeight = 739
+  ClientWidth = 1325
+  DesignTimePPI = 120
+  Font.Height = -18
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 10
+    Height = 23
+    Top = 72
+    Width = 113
+    Caption = 'DNA sequence'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object edDNA: TMemo
+    Left = 10
+    Height = 150
+    Top = 102
+    Width = 680
+    Font.Height = -13
+    Font.Name = 'Consolas'
+    OnEditingDone = edDNAEditingDone
+    ParentFont = False
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+  end
+  object btLoadDNA: TButton
+    Left = 712
+    Height = 31
+    Top = 102
+    Width = 120
+    Caption = 'Load'
+    OnClick = btLoadDNAClick
+    TabOrder = 7
+  end
+  object btRevCompl: TButton
+    Left = 515
+    Height = 31
+    Top = 256
+    Width = 175
+    Caption = 'Reverse complement'
+    OnClick = btRevComplClick
+    TabOrder = 2
+  end
+  object Label2: TLabel
+    Left = 10
+    Height = 23
+    Top = 310
+    Width = 111
+    Caption = 'RNA sequence'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object edRNA: TMemo
+    Left = 10
+    Height = 150
+    Top = 340
+    Width = 680
+    Font.Height = -13
+    Font.Name = 'Consolas'
+    OnEditingDone = edRNAEditingDone
+    ParentFont = False
+    ScrollBars = ssAutoVertical
+    TabOrder = 6
+    TabStop = False
+  end
+  object btTranscription: TButton
+    Left = 10
+    Height = 31
+    Top = 262
+    Width = 175
+    Caption = 'Transcribe'
+    Font.Height = -17
+    OnClick = btTranscriptionClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 10
+    Height = 23
+    Top = 552
+    Width = 166
+    Caption = 'Polypeptide sequence'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object edProtein: TMemo
+    Left = 10
+    Height = 150
+    Top = 582
+    Width = 680
+    Font.Height = -13
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 5
+    TabStop = False
+  end
+  object btRevTranscription: TButton
+    Left = 515
+    Height = 31
+    Top = 503
+    Width = 175
+    Caption = 'Reverse transcribe'
+    OnClick = btRevTranscriptionClick
+    TabOrder = 3
+  end
+  object btTranslationRNA: TButton
+    Left = 10
+    Height = 31
+    Top = 503
+    Width = 175
+    Caption = 'Translate'
+    OnClick = btTranslationRNAClick
+    TabOrder = 4
+  end
+  object btSaveDNA: TButton
+    Left = 712
+    Height = 31
+    Top = 204
+    Width = 120
+    Caption = 'Save'
+    OnClick = btSaveDNAClick
+    TabOrder = 8
+  end
+  object btLoadRNA: TButton
+    Left = 712
+    Height = 31
+    Top = 340
+    Width = 120
+    Caption = 'Load'
+    OnClick = btLoadRNAClick
+    TabOrder = 9
+  end
+  object btSaveRNA: TButton
+    Left = 712
+    Height = 31
+    Top = 440
+    Width = 120
+    Caption = 'Save'
+    OnClick = btSaveRNAClick
+    TabOrder = 10
+  end
+  object btSaveProtein: TButton
+    Left = 712
+    Height = 31
+    Top = 582
+    Width = 120
+    Caption = 'Save'
+    OnClick = btSaveProteinClick
+    TabOrder = 11
+  end
+  object stSequence: TStaticText
+    Left = 10
+    Height = 45
+    Top = 10
+    Width = 680
+    Caption = 'Sample nucleic acids sequence'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 12
+  end
+  object Label4: TLabel
+    Left = 888
+    Height = 23
+    Top = 13
+    Width = 128
+    Caption = 'Sequence length'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 888
+    Height = 23
+    Top = 229
+    Width = 138
+    Caption = 'Base composition:'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object sgBases: TStringGrid
+    Left = 888
+    Height = 85
+    Top = 261
+    Width = 427
+    ColCount = 6
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 3
+    TabOrder = 13
+    ColWidths = (
+      104
+      64
+      64
+      64
+      63
+      64
+    )
+    Cells = (
+      7
+      0
+      1
+      'Base count'
+      0
+      2
+      'Percentage'
+      1
+      0
+      '   A'
+      2
+      0
+      '   C'
+      3
+      0
+      '   G'
+      4
+      0
+      '   T'
+      5
+      0
+      '   ?'
+    )
+  end
+  object edLength: TEdit
+    Left = 1030
+    Height = 31
+    Top = 10
+    Width = 65
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object Label6: TLabel
+    Left = 888
+    Height = 23
+    Top = 361
+    Width = 56
+    Caption = 'Purines'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edPurines: TEdit
+    Left = 1030
+    Height = 31
+    Top = 357
+    Width = 65
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 15
+  end
+  object edPurines2: TEdit
+    Left = 1187
+    Height = 31
+    Top = 357
+    Width = 65
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 16
+  end
+  object Label7: TLabel
+    Left = 888
+    Height = 23
+    Top = 395
+    Width = 87
+    Caption = 'Pyrimidines'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edPyrimidines: TEdit
+    Left = 1030
+    Height = 31
+    Top = 391
+    Width = 65
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 17
+  end
+  object edPyrimidines2: TEdit
+    Left = 1187
+    Height = 31
+    Top = 391
+    Width = 65
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 18
+  end
+  object Label9: TLabel
+    Left = 1103
+    Height = 23
+    Top = 13
+    Width = 42
+    Caption = 'bases'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 1103
+    Height = 23
+    Top = 361
+    Width = 42
+    Caption = 'bases'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 1103
+    Height = 23
+    Top = 395
+    Width = 42
+    Caption = 'bases'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object Label12: TLabel
+    Left = 1260
+    Height = 23
+    Top = 361
+    Width = 14
+    Caption = '%'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object Label13: TLabel
+    Left = 1260
+    Height = 23
+    Top = 395
+    Width = 14
+    Caption = '%'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 888
+    Height = 23
+    Top = 72
+    Width = 135
+    Caption = 'Molecular weight:'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object sgMolWeight: TStringGrid
+    Left = 888
+    Height = 85
+    Top = 102
+    Width = 427
+    ColCount = 3
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 3
+    TabOrder = 19
+    ColWidths = (
+      103
+      160
+      160
+    )
+    Cells = (
+      4
+      0
+      1
+      'Minimum'
+      0
+      2
+      'Maximum'
+      1
+      0
+      'ssDna'
+      2
+      0
+      'dsDNA'
+    )
+  end
+  object laGC: TLabel
+    Left = 888
+    Height = 23
+    Top = 463
+    Width = 87
+    Caption = 'GC content'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edGC: TEdit
+    Left = 1030
+    Height = 31
+    Top = 459
+    Width = 65
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 20
+  end
+  object btRandomDNA: TButton
+    Left = 712
+    Height = 31
+    Top = 136
+    Width = 120
+    Caption = 'Random'
+    OnClick = btRandomDNAClick
+    TabOrder = 21
+  end
+  object btRandomRNA: TButton
+    Left = 712
+    Height = 31
+    Top = 374
+    Width = 120
+    Caption = 'Random'
+    OnClick = btRandomRNAClick
+    TabOrder = 22
+  end
+  object btCode3: TButton
+    Left = 712
+    Height = 31
+    Top = 701
+    Width = 120
+    Caption = '3-letter code'
+    OnClick = btCode3Click
+    TabOrder = 23
+  end
+  object btClearDNA: TButton
+    Left = 712
+    Height = 31
+    Top = 170
+    Width = 120
+    Caption = 'Clear'
+    OnClick = btClearDNAClick
+    TabOrder = 24
+  end
+  object btClearRNA: TButton
+    Left = 712
+    Height = 31
+    Top = 408
+    Width = 120
+    Caption = 'Clear'
+    OnClick = btClearRNAClick
+    TabOrder = 25
+  end
+  object btAnalyze: TButton
+    Left = 712
+    Height = 31
+    Top = 256
+    Width = 120
+    Caption = 'Analyze'
+    OnClick = btAnalyzeClick
+    TabOrder = 26
+  end
+  object laUnknown: TLabel
+    Left = 888
+    Height = 23
+    Top = 429
+    Width = 72
+    Caption = 'Unknown'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edUnknown: TEdit
+    Left = 1030
+    Height = 31
+    Top = 425
+    Width = 65
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 27
+  end
+  object edUnknownP: TEdit
+    Left = 1187
+    Height = 31
+    Top = 425
+    Width = 65
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 28
+  end
+  object laUUnknown: TLabel
+    Left = 1103
+    Height = 23
+    Top = 429
+    Width = 42
+    Caption = 'bases'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object laUUnknownP: TLabel
+    Left = 1260
+    Height = 23
+    Top = 429
+    Width = 14
+    Caption = '%'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object laUGC: TLabel
+    Left = 1103
+    Height = 23
+    Top = 463
+    Width = 14
+    Caption = '%'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edTranslation: TMemo
+    Left = 888
+    Height = 150
+    Top = 582
+    Width = 427
+    Color = clCream
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 29
+    TabStop = False
+  end
+  object laRFrame: TLabel
+    Left = 198
+    Height = 23
+    Top = 507
+    Width = 111
+    Caption = 'Reading frame'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object cobRFrame: TComboBox
+    Left = 320
+    Height = 31
+    Top = 503
+    Width = 40
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 0
+    Items.Strings = (
+      '1'
+      '2'
+      '3'
+    )
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 30
+    Text = '1'
+  end
+  object Label15: TLabel
+    Left = 888
+    Height = 23
+    Top = 552
+    Width = 216
+    Caption = 'Sequence translation report:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object edProteins: TMemo
+    Left = 552
+    Height = 57
+    Top = 10
+    Width = 138
+    Lines.Strings = (
+      'edProteins'
+    )
+    ReadOnly = True
+    TabOrder = 31
+    TabStop = False
+    Visible = False
+  end
+  object mMenu: TMainMenu
+    Left = 1272
+    Top = 8
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsLC: TMenuItem
+        Caption = 'Allow lowercase base codes'
+        Checked = True
+        OnClick = mSettingsLCClick
+      end
+      object mSettingsExtended: TMenuItem
+        Caption = 'Allow extended base codes'
+        OnClick = mSettingsExtendedClick
+      end
+      object mSettingsStart: TMenuItem
+        Caption = 'Initiate translation at start codon'
+        OnClick = mSettingsStartClick
+      end
+      object mSettingsStop: TMenuItem
+        Caption = 'Terminate translation at stop codon'
+        OnClick = mSettingsStopClick
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object mSettingsRandom: TMenuItem
+        Caption = 'Random sequence properties...'
+        OnClick = mSettingsRandomClick
+      end
+      object mSettingsDisplay: TMenuItem
+        Caption = 'Sequence display format...'
+        OnClick = mSettingsDisplayClick
+      end
+    end
+    object mTools: TMenuItem
+      Caption = 'Tools'
+      object mToolsBaseCodes: TMenuItem
+        Caption = 'Display base codes table'
+        OnClick = mToolsBaseCodesClick
+      end
+      object mToolsGenCode: TMenuItem
+        Caption = 'Dispaly genetic code table'
+        OnClick = mToolsGenCodeClick
+      end
+      object mToolsRFrames6: TMenuItem
+        Caption = '6 reading frames translation...'
+        OnClick = mToolsRFrames6Click
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpBiology: TMenuItem
+        Caption = 'Biology help'
+        OnClick = mHelpBiologyClick
+      end
+      object mHelpHelp: TMenuItem
+        Caption = 'Application help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object dlgOpen: TOpenDialog
+    Filter = 'FASTA files|*.fasta;*.fas|Text files|*.txt|All files|*.*'
+    Left = 784
+    Top = 8
+  end
+  object dlgSave: TSaveDialog
+    Filter = 'FASTA file|*.fasta|Text file|*.txt|Any file|*.*'
+    Left = 720
+    Top = 8
+  end
+end

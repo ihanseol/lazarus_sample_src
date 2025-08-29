@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="10">
+      <Unit0>
+        <Filename Value="ConjugaisonER.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="7"/>
+        <UsageCount Value="180"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="conjER.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fConjER"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="180"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="conj.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fConj"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="171"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="common.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="6"/>
+        <UsageCount Value="169"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="selectex.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fSelectEx"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="145"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="selectconj.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fSelectConj"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="110"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="unknownconj.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fUnknown"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="83"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="62"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\Programs\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="447"/>
+        <CursorPos Y="460"/>
+        <UsageCount Value="8"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="selectex.lfm"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="43" Y="14"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit9>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="common.pas"/>
+        <Caret Line="176" Column="38" TopLine="163"/>
+      </Position1>
+      <Position2>
+        <Filename Value="common.pas"/>
+        <Caret Line="460" Column="19" TopLine="454"/>
+      </Position2>
+      <Position3>
+        <Filename Value="common.pas"/>
+        <Caret Line="192" Column="13" TopLine="192"/>
+      </Position3>
+      <Position4>
+        <Filename Value="common.pas"/>
+        <Caret Line="351" Column="80" TopLine="333"/>
+      </Position4>
+      <Position5>
+        <Filename Value="common.pas"/>
+        <Caret Line="80" Column="85" TopLine="71"/>
+      </Position5>
+      <Position6>
+        <Filename Value="common.pas"/>
+        <Caret Line="521" Column="66" TopLine="519"/>
+      </Position6>
+      <Position7>
+        <Filename Value="common.pas"/>
+        <Caret Line="537" TopLine="533"/>
+      </Position7>
+      <Position8>
+        <Filename Value="common.pas"/>
+        <Caret Line="553" Column="61" TopLine="547"/>
+      </Position8>
+      <Position9>
+        <Filename Value="common.pas"/>
+        <Caret Line="573" TopLine="552"/>
+      </Position9>
+      <Position10>
+        <Filename Value="common.pas"/>
+        <Caret Line="660" TopLine="636"/>
+      </Position10>
+      <Position11>
+        <Filename Value="conj.pas"/>
+        <Caret Line="3" Column="69"/>
+      </Position11>
+      <Position12>
+        <Filename Value="common.pas"/>
+        <Caret Line="3" Column="43"/>
+      </Position12>
+      <Position13>
+        <Filename Value="conjER.pas"/>
+      </Position13>
+      <Position14>
+        <Filename Value="conjER.pas"/>
+        <Caret Line="1003" Column="51" TopLine="981"/>
+      </Position14>
+      <Position15>
+        <Filename Value="conjER.pas"/>
+      </Position15>
+      <Position16>
+        <Filename Value="conjER.pas"/>
+        <Caret Line="1003" Column="34" TopLine="981"/>
+      </Position16>
+      <Position17>
+        <Filename Value="conjER.pas"/>
+      </Position17>
+      <Position18>
+        <Filename Value="conjER.pas"/>
+        <Caret Line="896" Column="20" TopLine="871"/>
+      </Position18>
+      <Position19>
+        <Filename Value="conjER.pas"/>
+        <Caret Line="813" Column="41" TopLine="801"/>
+      </Position19>
+      <Position20>
+        <Filename Value="conjER.pas"/>
+        <Caret Line="814" Column="44" TopLine="800"/>
+      </Position20>
+      <Position21>
+        <Filename Value="conjER.pas"/>
+        <Caret Line="813" Column="25" TopLine="800"/>
+      </Position21>
+      <Position22>
+        <Filename Value="conjER.pas"/>
+        <Caret Line="1030" Column="54" TopLine="1024"/>
+      </Position22>
+      <Position23>
+        <Filename Value="conjER.pas"/>
+      </Position23>
+      <Position24>
+        <Filename Value="conjER.pas"/>
+        <Caret Line="12" Column="85"/>
+      </Position24>
+      <Position25>
+        <Filename Value="conjER.pas"/>
+        <Caret Line="1021" Column="23" TopLine="1010"/>
+      </Position25>
+      <Position26>
+        <Filename Value="conjER.pas"/>
+        <Caret Line="994" TopLine="967"/>
+      </Position26>
+      <Position27>
+        <Filename Value="help.pas"/>
+        <Caret Line="26" Column="17" TopLine="16"/>
+      </Position27>
+      <Position28>
+        <Filename Value="conj.pas"/>
+        <Caret Line="11" Column="23"/>
+      </Position28>
+      <Position29>
+        <Filename Value="conj.pas"/>
+        <Caret Line="443" Column="17" TopLine="425"/>
+      </Position29>
+      <Position30>
+        <Filename Value="selectex.pas"/>
+        <Caret Line="296" Column="33" TopLine="276"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

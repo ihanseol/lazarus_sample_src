@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="dircmp.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="40"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="154" TopLine="131"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="319" Column="82" TopLine="306"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="158" TopLine="135"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="343" Column="10" TopLine="327"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="204" TopLine="204"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="148" Column="20" TopLine="135"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="205" Column="17" TopLine="183"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="389" Column="142" TopLine="363"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="11" Column="34"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="327" Column="54" TopLine="326"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="222" Column="15" TopLine="197"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="240" Column="30" TopLine="217"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="84" Column="19" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="417" Column="80" TopLine="391"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="232" Column="11" TopLine="207"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="84" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="222" Column="15" TopLine="216"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="415" Column="21" TopLine="389"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="413" Column="44" TopLine="388"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="420" Column="13" TopLine="394"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="419" Column="13" TopLine="401"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="235" TopLine="209"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="82" Column="25" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="87" TopLine="83"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="360" Column="19" TopLine="334"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="210" Column="24" TopLine="197"/>
+      </Position>
+      <Position>
+        <Filename Value="dircmp.lpr"/>
+        <Caret Line="412" Column="80" TopLine="392"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+    <HistoryLists>
+      <List Name="LaunchingApplication" Type="File" Count="1">
+        <Item1 Value="C:\Windows\system32\cmd.exe /C ${TargetCmdLine}"/>
+      </List>
+    </HistoryLists>
+  </ProjectSession>
+</CONFIG>

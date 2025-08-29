@@ -1,0 +1,9 @@
+# No name (allu)
+
+origin = (650,75)
+displacement = 4
+
+axiom = "0F+3F+4F+7F"
+rules = { "F": "FF+FF++F+F" }
+iterations = 4
+angle = 90

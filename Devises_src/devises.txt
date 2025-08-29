@@ -1,0 +1,33 @@
+03.01.2019
+
+USD Dollar des Etats-Unis     1,1348
+JPY Yen japonais              122,2100
+DKK Couronne danoise          7,4675
+GBP Livre sterling            0,9031
+SEK Couronne suédoise         10,2808
+CHF Franc suisse              1,1219
+NOK Couronne norvégienne      9,9113
+BGN Lev bulgare               1,9558
+CZK Couronne tchèque          25,6830
+HUF Forint hongrois           322,4100
+PLN Zloty polonais            4,2975
+RON Nouveau leu roumain       4,6660
+TRY Nouvelle livre turque     6,2248
+AUD Dollar australien         1,6287
+CAD Dollar canadien           1,5392
+HKD Dollar de Hong Kong       8,8884
+NZD Dollar néo-zélandais      1,7085
+SGD Dollar de Singapour       1,5501
+KRW South Korean won          1279,1700
+ZAR Rand sud-africain         16,4149
+CNY Yuan renminbi chinois     7,8019
+PHP Peso philippin            59,6790
+MYR Ringgit malaisien         4,7020
+THB Baht thaïlandais          36,5180
+RUB Rouble russe              78,2615
+IDR Roupie indonésienne       16352,4700
+HRK Kuna croate               7,4325
+BRL Real brésilien            4,2814
+MXN Peso mexicain             22,2384
+INR Roupie indienne           79,6080
+ILS Nouveau sheqel israëlien  4,2425

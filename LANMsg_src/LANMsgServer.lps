@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="LANMsgServer.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="server.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLANMsgServer"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="337"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="config.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fConfig"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="client.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="248" Column="9" TopLine="132"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="291" Column="128" TopLine="272"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="122" Column="29" TopLine="103"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="290" Column="15" TopLine="273"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="177" Column="19" TopLine="154"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="313" Column="45" TopLine="306"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="2"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="398" Column="103" TopLine="375"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="199" Column="15" TopLine="173"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="423" Column="91" TopLine="396"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="143" Column="11" TopLine="130"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="236" Column="33" TopLine="222"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="280" Column="33" TopLine="267"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="241" Column="20" TopLine="224"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="361" Column="26" TopLine="340"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="238" Column="38" TopLine="225"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="361" Column="27" TopLine="347"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="167" Column="22" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="LANMsgServer.lpr"/>
+        <Caret Line="13" Column="23" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="LANMsgServer.lpr"/>
+        <Caret Line="10" Column="44"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="156" Column="16" TopLine="156"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="158" Column="16" TopLine="158"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="342" Column="27" TopLine="330"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="143" Column="85" TopLine="121"/>
+      </Position>
+      <Position>
+        <Filename Value="LANMsgServer.lpr"/>
+        <Caret Line="9" Column="15"/>
+      </Position>
+      <Position>
+        <Filename Value="server.pas"/>
+        <Caret Line="483" Column="16" TopLine="456"/>
+      </Position>
+      <Position>
+        <Filename Value="config.pas"/>
+        <Caret Line="95" Column="19" TopLine="82"/>
+      </Position>
+      <Position>
+        <Filename Value="config.pas"/>
+        <Caret Line="152" Column="19" TopLine="137"/>
+      </Position>
+      <Position>
+        <Filename Value="config.pas"/>
+        <Caret Line="164" TopLine="137"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,13 @@
+dircmp  [<display>] <source-dir> <dest-dir> [<options>]
+  <display>:
+    --source  files existing in <source-dir> only
+    --dest    files existing in <dest-dir> only
+    --same    files with same name, size and date
+    --diff    files with same name, but different size or date (default)
+    --date    files with same name and size, but different date
+    --size    files with same name and date, but different size
+    --help    display program usage help
+  <options>:
+    -c             consider case for file name compare (default = no)
+    -s             ignore seconds for file date compare (default = no)
+    -o <filename>  output file (default = dircmp.txt)

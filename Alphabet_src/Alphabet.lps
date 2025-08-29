@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="Alphabet.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="45"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="letters.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fAlphabet"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="45"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="letters.pas"/>
+        <Caret Line="319" Column="11" TopLine="294"/>
+      </Position1>
+      <Position2>
+        <Filename Value="letters.pas"/>
+        <Caret Line="308" Column="20" TopLine="284"/>
+      </Position2>
+      <Position3>
+        <Filename Value="letters.pas"/>
+        <Caret Line="342" Column="38" TopLine="322"/>
+      </Position3>
+      <Position4>
+        <Filename Value="letters.pas"/>
+        <Caret Line="310" Column="9" TopLine="243"/>
+      </Position4>
+      <Position5>
+        <Filename Value="letters.pas"/>
+        <Caret Line="333" Column="14" TopLine="307"/>
+      </Position5>
+      <Position6>
+        <Filename Value="letters.pas"/>
+        <Caret Line="250" Column="76" TopLine="235"/>
+      </Position6>
+      <Position7>
+        <Filename Value="letters.pas"/>
+        <Caret Line="257" Column="37" TopLine="254"/>
+      </Position7>
+      <Position8>
+        <Filename Value="letters.pas"/>
+        <Caret Line="292" Column="25" TopLine="278"/>
+      </Position8>
+      <Position9>
+        <Filename Value="letters.pas"/>
+        <Caret Line="541" Column="71" TopLine="533"/>
+      </Position9>
+      <Position10>
+        <Filename Value="Alphabet.lpr"/>
+      </Position10>
+      <Position11>
+        <Filename Value="Alphabet.lpr"/>
+        <Caret Line="30" TopLine="3"/>
+      </Position11>
+      <Position12>
+        <Filename Value="letters.pas"/>
+        <Caret Line="159" Column="18" TopLine="147"/>
+      </Position12>
+      <Position13>
+        <Filename Value="letters.pas"/>
+        <Caret Line="943" TopLine="916"/>
+      </Position13>
+      <Position14>
+        <Filename Value="Alphabet.lpr"/>
+        <Caret Line="5"/>
+      </Position14>
+      <Position15>
+        <Filename Value="letters.pas"/>
+        <Caret Line="10" Column="84"/>
+      </Position15>
+      <Position16>
+        <Filename Value="letters.pas"/>
+        <Caret Line="16" Column="30"/>
+      </Position16>
+      <Position17>
+        <Filename Value="letters.pas"/>
+        <Caret Line="520" TopLine="493"/>
+      </Position17>
+      <Position18>
+        <Filename Value="letters.pas"/>
+        <Caret Line="534" Column="57" TopLine="530"/>
+      </Position18>
+      <Position19>
+        <Filename Value="letters.pas"/>
+        <Caret Line="16" Column="24"/>
+      </Position19>
+      <Position20>
+        <Filename Value="letters.pas"/>
+        <Caret Line="558" Column="80" TopLine="534"/>
+      </Position20>
+      <Position21>
+        <Filename Value="letters.pas"/>
+        <Caret Line="117" Column="5" TopLine="106"/>
+      </Position21>
+      <Position22>
+        <Filename Value="letters.pas"/>
+        <Caret Line="399" TopLine="372"/>
+      </Position22>
+      <Position23>
+        <Filename Value="letters.pas"/>
+        <Caret Line="467" Column="11" TopLine="454"/>
+      </Position23>
+      <Position24>
+        <Filename Value="letters.pas"/>
+        <Caret Line="485" Column="11" TopLine="471"/>
+      </Position24>
+      <Position25>
+        <Filename Value="letters.pas"/>
+        <Caret Line="516" Column="48" TopLine="490"/>
+      </Position25>
+      <Position26>
+        <Filename Value="letters.pas"/>
+        <Caret Line="373" Column="6" TopLine="368"/>
+      </Position26>
+      <Position27>
+        <Filename Value="letters.pas"/>
+        <Caret Line="370" Column="24" TopLine="366"/>
+      </Position27>
+      <Position28>
+        <Filename Value="letters.pas"/>
+        <Caret Line="505" Column="30" TopLine="491"/>
+      </Position28>
+      <Position29>
+        <Filename Value="letters.pas"/>
+        <Caret Line="516" Column="38" TopLine="491"/>
+      </Position29>
+      <Position30>
+        <Filename Value="letters.pas"/>
+        <Caret Line="552" Column="20" TopLine="533"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

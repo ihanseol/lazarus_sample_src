@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="Colors.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="colors_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fColors"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="colors_help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="15"/>
+        <CursorPos Y="23"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="627" TopLine="609"/>
+      </Position1>
+      <Position2>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="230" Column="10" TopLine="224"/>
+      </Position2>
+      <Position3>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="232" Column="10" TopLine="226"/>
+      </Position3>
+      <Position4>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="671" TopLine="645"/>
+      </Position4>
+      <Position5>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="622" Column="23" TopLine="601"/>
+      </Position5>
+      <Position6>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="618" Column="79" TopLine="605"/>
+      </Position6>
+      <Position7>
+        <Filename Value="colors_help.pas"/>
+        <Caret Line="3" Column="23"/>
+      </Position7>
+      <Position8>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="547" Column="13" TopLine="534"/>
+      </Position8>
+      <Position9>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="251" Column="23" TopLine="246"/>
+      </Position9>
+      <Position10>
+        <Filename Value="colors_main.pas"/>
+      </Position10>
+      <Position11>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="691" Column="134" TopLine="679"/>
+      </Position11>
+      <Position12>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="722" Column="33" TopLine="707"/>
+      </Position12>
+      <Position13>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="729" Column="15" TopLine="707"/>
+      </Position13>
+      <Position14>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="735" Column="15" TopLine="713"/>
+      </Position14>
+      <Position15>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="36" Column="15" TopLine="23"/>
+      </Position15>
+      <Position16>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="321" Column="86" TopLine="299"/>
+      </Position16>
+      <Position17>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="570" Column="70" TopLine="549"/>
+      </Position17>
+      <Position18>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="624" Column="68" TopLine="603"/>
+      </Position18>
+      <Position19>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="646" Column="68" TopLine="625"/>
+      </Position19>
+      <Position20>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="674" Column="41" TopLine="653"/>
+      </Position20>
+      <Position21>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="729" Column="15" TopLine="707"/>
+      </Position21>
+      <Position22>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="735" Column="15" TopLine="713"/>
+      </Position22>
+      <Position23>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="305" Column="37" TopLine="292"/>
+      </Position23>
+      <Position24>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="307" Column="37" TopLine="294"/>
+      </Position24>
+      <Position25>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="513" TopLine="498"/>
+      </Position25>
+      <Position26>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="496" Column="54" TopLine="488"/>
+      </Position26>
+      <Position27>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="595" TopLine="589"/>
+      </Position27>
+      <Position28>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="669" Column="13" TopLine="653"/>
+      </Position28>
+      <Position29>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="699" Column="8" TopLine="693"/>
+      </Position29>
+      <Position30>
+        <Filename Value="colors_main.pas"/>
+        <Caret Line="857" TopLine="831"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

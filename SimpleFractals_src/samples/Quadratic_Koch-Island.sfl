@@ -1,0 +1,9 @@
+# Quadratic Koch-Island
+
+origin = (490,75)
+displacement = 5
+
+axiom = "3F+4F+7F+2F"
+rules = { "F": "F-F+F+FFF-F-F+F" }
+iterations = 3
+angle = 90

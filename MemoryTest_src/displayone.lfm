@@ -1,0 +1,49 @@
+object fOne: TfOne
+  Left = 442
+  Height = 190
+  Top = 283
+  Width = 281
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Memory Test'
+  ClientHeight = 190
+  ClientWidth = 281
+  Color = clWindow
+  LCLVersion = '1.6.4.0'
+  object imObject: TImage
+    Left = 115
+    Height = 50
+    Top = 56
+    Width = 50
+    Center = True
+  end
+  object stObject: TStaticText
+    Left = 88
+    Height = 17
+    Top = 24
+    Width = 105
+    Alignment = taCenter
+    Caption = 'Image 1/1'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btCancel: TButton
+    Left = 192
+    Height = 25
+    Top = 147
+    Width = 75
+    Caption = 'Cancel'
+    OnClick = btCancelClick
+    TabOrder = 0
+  end
+  object edCancel: TEdit
+    Left = 144
+    Height = 28
+    Top = 144
+    Width = 40
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+    Visible = False
+  end
+end

@@ -1,0 +1,531 @@
+object fChinese: TfChinese
+  Left = 151
+  Height = 724
+  Top = 16
+  Width = 1139
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Chinese characters'
+  ClientHeight = 699
+  ClientWidth = 1139
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object shChar0: TShape
+    Left = 10
+    Height = 200
+    Top = 280
+    Width = 200
+    Brush.Color = clYellow
+  end
+  object shChar9: TShape
+    Left = 684
+    Height = 200
+    Top = 492
+    Width = 200
+    Brush.Color = clYellow
+    OnMouseDown = shChar9MouseDown
+  end
+  object shChar8: TShape
+    Left = 474
+    Height = 200
+    Top = 492
+    Width = 200
+    Brush.Color = clYellow
+    OnMouseDown = shChar8MouseDown
+  end
+  object shChar7: TShape
+    Left = 264
+    Height = 200
+    Top = 492
+    Width = 200
+    Brush.Color = clYellow
+    OnMouseDown = shChar7MouseDown
+  end
+  object shChar6: TShape
+    Left = 684
+    Height = 200
+    Top = 282
+    Width = 200
+    Brush.Color = clYellow
+    OnMouseDown = shChar6MouseDown
+  end
+  object shChar5: TShape
+    Left = 474
+    Height = 200
+    Top = 282
+    Width = 200
+    Brush.Color = clYellow
+    OnMouseDown = shChar5MouseDown
+  end
+  object shChar4: TShape
+    Left = 264
+    Height = 200
+    Top = 282
+    Width = 200
+    Brush.Color = clYellow
+    OnMouseDown = shChar4MouseDown
+  end
+  object shChar3: TShape
+    Left = 684
+    Height = 200
+    Top = 72
+    Width = 200
+    Brush.Color = clYellow
+    OnMouseDown = shChar3MouseDown
+  end
+  object shChar2: TShape
+    Left = 474
+    Height = 200
+    Top = 72
+    Width = 200
+    Brush.Color = clYellow
+    OnMouseDown = shChar2MouseDown
+  end
+  object shChar1: TShape
+    Left = 264
+    Height = 200
+    Top = 72
+    Width = 200
+    Brush.Color = clYellow
+    OnMouseDown = shChar1MouseDown
+  end
+  object StaticText1: TStaticText
+    Left = 266
+    Height = 30
+    Top = 10
+    Width = 606
+    Alignment = taCenter
+    Caption = 'Learn to recognize Chinese characters and their meaning.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object stChar0: TStaticText
+    Left = 10
+    Height = 200
+    Top = 280
+    Width = 200
+    Alignment = taCenter
+    Caption = '學'
+    Font.Height = -133
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    Visible = False
+  end
+  object laQuestion: TLabel
+    Left = 10
+    Height = 23
+    Top = 240
+    Width = 74
+    Caption = 'Character'
+    ParentColor = False
+  end
+  object stChar1: TStaticText
+    Left = 264
+    Height = 200
+    Top = 72
+    Width = 200
+    Alignment = taCenter
+    Caption = '學'
+    Font.Height = -133
+    Font.Style = [fsBold]
+    OnClick = stChar1Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object sgEval: TStringGrid
+    Left = 952
+    Height = 112
+    Top = 114
+    Width = 179
+    ColCount = 2
+    FixedRows = 0
+    Font.Height = -18
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 4
+    TabOrder = 3
+    TabStop = False
+    TitleFont.Height = -18
+    TitleFont.Name = 'Consolas'
+    ColWidths = (
+      107
+      68
+    )
+    RowHeights = (
+      27
+      27
+      27
+      27
+    )
+    Cells = (
+      4
+      0
+      0
+      'Questions'
+      0
+      1
+      'Correct'
+      0
+      2
+      'False'
+      0
+      3
+      'Success'
+    )
+  end
+  object Label1: TLabel
+    Left = 952
+    Height = 23
+    Top = 72
+    Width = 83
+    Caption = 'Evaluation:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object stChar2: TStaticText
+    Left = 474
+    Height = 200
+    Top = 72
+    Width = 200
+    Alignment = taCenter
+    Caption = '學'
+    Font.Height = -133
+    Font.Style = [fsBold]
+    OnClick = stChar2Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object stChar3: TStaticText
+    Left = 684
+    Height = 200
+    Top = 72
+    Width = 200
+    Alignment = taCenter
+    Caption = '學'
+    Font.Height = -133
+    Font.Style = [fsBold]
+    OnClick = stChar3Click
+    ParentFont = False
+    TabOrder = 5
+  end
+  object stChar4: TStaticText
+    Left = 264
+    Height = 200
+    Top = 282
+    Width = 200
+    Alignment = taCenter
+    Caption = '學'
+    Font.Height = -133
+    Font.Style = [fsBold]
+    OnClick = stChar4Click
+    ParentFont = False
+    TabOrder = 6
+  end
+  object stChar5: TStaticText
+    Left = 474
+    Height = 200
+    Top = 282
+    Width = 200
+    Alignment = taCenter
+    Caption = '學'
+    Font.Height = -133
+    Font.Style = [fsBold]
+    OnClick = stChar5Click
+    ParentFont = False
+    TabOrder = 7
+  end
+  object stChar6: TStaticText
+    Left = 684
+    Height = 200
+    Top = 282
+    Width = 200
+    Alignment = taCenter
+    Caption = '學'
+    Font.Height = -133
+    Font.Style = [fsBold]
+    OnClick = stChar6Click
+    ParentFont = False
+    TabOrder = 8
+  end
+  object stChar7: TStaticText
+    Left = 264
+    Height = 200
+    Top = 492
+    Width = 200
+    Alignment = taCenter
+    Caption = '學'
+    Font.Height = -133
+    Font.Style = [fsBold]
+    OnClick = stChar7Click
+    ParentFont = False
+    TabOrder = 9
+  end
+  object stChar8: TStaticText
+    Left = 474
+    Height = 200
+    Top = 492
+    Width = 200
+    Alignment = taCenter
+    Caption = '學'
+    Font.Height = -133
+    Font.Style = [fsBold]
+    OnClick = stChar8Click
+    ParentFont = False
+    TabOrder = 10
+  end
+  object stChar9: TStaticText
+    Left = 684
+    Height = 200
+    Top = 492
+    Width = 200
+    Alignment = taCenter
+    Caption = '學'
+    Font.Height = -133
+    Font.Style = [fsBold]
+    OnClick = stChar9Click
+    ParentFont = False
+    TabOrder = 11
+  end
+  object stWord0: TStaticText
+    Left = 10
+    Height = 30
+    Top = 365
+    Width = 200
+    Alignment = taCenter
+    Caption = 'to learn'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 12
+  end
+  object btQuestion: TButton
+    Left = 1037
+    Height = 31
+    Top = 661
+    Width = 94
+    Caption = 'Start'
+    OnClick = btQuestionClick
+    TabOrder = 13
+  end
+  object stWord1: TStaticText
+    Left = 264
+    Height = 30
+    Top = 157
+    Width = 200
+    Alignment = taCenter
+    Caption = 'to learn'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stWord1Click
+    ParentFont = False
+    TabOrder = 14
+    Visible = False
+  end
+  object stWord2: TStaticText
+    Left = 474
+    Height = 30
+    Top = 157
+    Width = 200
+    Alignment = taCenter
+    Caption = 'to learn'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stWord2Click
+    ParentFont = False
+    TabOrder = 15
+    Visible = False
+  end
+  object stWord3: TStaticText
+    Left = 688
+    Height = 30
+    Top = 157
+    Width = 200
+    Alignment = taCenter
+    Caption = 'to learn'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stWord3Click
+    ParentFont = False
+    TabOrder = 16
+    Visible = False
+  end
+  object stWord4: TStaticText
+    Left = 264
+    Height = 30
+    Top = 365
+    Width = 200
+    Alignment = taCenter
+    Caption = 'to learn'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stWord4Click
+    ParentFont = False
+    TabOrder = 17
+    Visible = False
+  end
+  object stWord5: TStaticText
+    Left = 474
+    Height = 30
+    Top = 365
+    Width = 200
+    Alignment = taCenter
+    Caption = 'to learn'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stWord5Click
+    ParentFont = False
+    TabOrder = 18
+    Visible = False
+  end
+  object stWord6: TStaticText
+    Left = 684
+    Height = 30
+    Top = 365
+    Width = 200
+    Alignment = taCenter
+    Caption = 'to learn'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stWord6Click
+    ParentFont = False
+    TabOrder = 19
+    Visible = False
+  end
+  object stWord7: TStaticText
+    Left = 264
+    Height = 30
+    Top = 577
+    Width = 200
+    Alignment = taCenter
+    Caption = 'to learn'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stWord7Click
+    ParentFont = False
+    TabOrder = 20
+    Visible = False
+  end
+  object stWord8: TStaticText
+    Left = 474
+    Height = 30
+    Top = 577
+    Width = 200
+    Alignment = taCenter
+    Caption = 'to learn'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stWord8Click
+    ParentFont = False
+    TabOrder = 21
+    Visible = False
+  end
+  object stWord9: TStaticText
+    Left = 684
+    Height = 30
+    Top = 577
+    Width = 200
+    Alignment = taCenter
+    Caption = 'to learn'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stWord9Click
+    ParentFont = False
+    TabOrder = 22
+    Visible = False
+  end
+  object mMenu: TMainMenu
+    left = 1024
+    top = 264
+    object mTest: TMenuItem
+      Caption = 'Test'
+      object mTest1: TMenuItem
+        Caption = 'English to Chinese'
+        OnClick = mTest1Click
+      end
+      object mTest2: TMenuItem
+        Caption = 'Chinese to English'
+        OnClick = mTest2Click
+      end
+      object mTest3: TMenuItem
+        Caption = 'Logogram to Pinyin'
+        OnClick = mTest3Click
+      end
+      object mTest4: TMenuItem
+        Caption = 'Pinyin to logogram'
+        OnClick = mTest4Click
+      end
+      object mTestExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mTestExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsChinese: TMenuItem
+        Caption = 'Chinese'
+        object mOptionsChinese1: TMenuItem
+          Caption = 'Traditional'
+          Checked = True
+          OnClick = mOptionsChinese1Click
+        end
+        object mOptionsChinese2: TMenuItem
+          Caption = 'Simplified'
+          OnClick = mOptionsChinese2Click
+        end
+        object mOptionsChinese3: TMenuItem
+          Caption = 'Pinyin'
+          OnClick = mOptionsChinese3Click
+        end
+      end
+      object mOptionsChars: TMenuItem
+        Caption = 'Character list'
+        object mOptionsChars20: TMenuItem
+          Caption = '  20 characters'
+          Checked = True
+          OnClick = mOptionsChars20Click
+        end
+        object mOptionsChars50: TMenuItem
+          Caption = '  50 characters'
+          OnClick = mOptionsChars50Click
+        end
+        object mOptionsChars100: TMenuItem
+          Caption = '100 characters'
+          OnClick = mOptionsChars100Click
+        end
+        object mOptionsCharsAll: TMenuItem
+          Caption = 'Full list (300)'
+          OnClick = mOptionsCharsAllClick
+        end
+        object MenuItem1: TMenuItem
+          Caption = '-'
+        end
+        object mOptionsCharsA: TMenuItem
+          Caption = 'Adjectives (40)'
+          OnClick = mOptionsCharsAClick
+        end
+        object mOptionsCharsN: TMenuItem
+          Caption = 'Nouns (50)'
+          OnClick = mOptionsCharsNClick
+        end
+        object mOptionsCharsV: TMenuItem
+          Caption = 'Verbs (50)'
+          OnClick = mOptionsCharsVClick
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

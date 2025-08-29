@@ -1,0 +1,94 @@
+object fPosition: TfPosition
+  Left = 234
+  Height = 173
+  Top = 143
+  Width = 536
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Chess moves: Game position'
+  ClientHeight = 173
+  ClientWidth = 536
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object Label1: TLabel
+    Left = 10
+    Height = 23
+    Top = 10
+    Width = 222
+    Caption = 'Select sample game position:'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object rbPosOp1: TRadioButton
+    Left = 10
+    Height = 27
+    Top = 48
+    Width = 105
+    Caption = ' Opening I'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 6
+    TabStop = True
+  end
+  object rbPosOp2: TRadioButton
+    Left = 10
+    Height = 27
+    Top = 88
+    Width = 110
+    Caption = ' Opening II'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 1
+  end
+  object rbPosEnd1: TRadioButton
+    Left = 194
+    Height = 27
+    Top = 48
+    Width = 111
+    Caption = ' Endgame I'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 2
+  end
+  object rbPosEnd2: TRadioButton
+    Left = 194
+    Height = 27
+    Top = 88
+    Width = 116
+    Caption = ' Endgame II'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 3
+  end
+  object rbPosMid1: TRadioButton
+    Left = 384
+    Height = 27
+    Top = 48
+    Width = 139
+    Caption = ' Middle game I'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 4
+  end
+  object rbPosMid2: TRadioButton
+    Left = 384
+    Height = 27
+    Top = 88
+    Width = 144
+    Caption = ' Middle game II'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 5
+  end
+  object btSelect: TButton
+    Left = 429
+    Height = 31
+    Top = 136
+    Width = 94
+    Caption = 'Select'
+    OnClick = btSelectClick
+    TabOrder = 0
+  end
+end

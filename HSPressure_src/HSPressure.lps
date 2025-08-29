@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="HSPressure.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="hsp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHSPressure"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="339" Column="65" TopLine="323"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="174" Column="39" TopLine="157"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="338" Column="29" TopLine="325"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="340" Column="29" TopLine="327"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="337" Column="16" TopLine="319"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="394" Column="30" TopLine="381"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="78" Column="49" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="331" Column="16" TopLine="328"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="346" Column="73" TopLine="326"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="377" Column="3" TopLine="374"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="182" Column="24" TopLine="175"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="183" Column="24" TopLine="176"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="394" Column="5" TopLine="392"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="234" Column="52" TopLine="217"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="224" TopLine="222"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="240" Column="42" TopLine="219"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="244" Column="62" TopLine="228"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="245" Column="62" TopLine="229"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="244" Column="62" TopLine="228"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="241" Column="39" TopLine="231"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="455" Column="16" TopLine="437"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="400" Column="5" TopLine="388"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="416" Column="14" TopLine="416"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="468" TopLine="442"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="493" TopLine="467"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="237" Column="22" TopLine="217"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="371" Column="55" TopLine="345"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="264" Column="68" TopLine="249"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret TopLine="109"/>
+      </Position>
+      <Position>
+        <Filename Value="hsp.pas"/>
+        <Caret Line="165" Column="34" TopLine="143"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

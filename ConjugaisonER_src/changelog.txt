@@ -1,0 +1,12 @@
+ConjugaisonER change log.
+=========================
+
+Version 1.0
+-----------
+Original program (mai-july, 2018)
+
+Version 1.1
+-----------
+April 2019.
+Some issues fixed, in particular recognition of known verbs, when entered as pronominals (preceded by "se" or "s'")
+on the "Display conjugation verb selection" form.

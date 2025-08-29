@@ -1,0 +1,395 @@
+object fVectors: TfVectors
+  Left = 0
+  Height = 744
+  Top = 14
+  Width = 1522
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Vector addition and subtraction'
+  ClientHeight = 719
+  ClientWidth = 1522
+  DesignTimePPI = 120
+  Font.Height = -18
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object imDraw: TImage
+    Left = 8
+    Height = 640
+    Top = 72
+    Width = 1200
+    OnMouseDown = imDrawMouseDown
+  end
+  object StaticText1: TStaticText
+    Left = 487
+    Height = 29
+    Top = 16
+    Width = 549
+    Alignment = taCenter
+    Caption = 'Geometry: Adding and subtracting vectors.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Label2: TLabel
+    Left = 1288
+    Height = 23
+    Top = 72
+    Width = 60
+    Caption = 'Vectors:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object edVectorA: TEdit
+    Left = 1325
+    Height = 33
+    Top = 121
+    Width = 100
+    Alignment = taCenter
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object StaticText2: TStaticText
+    Left = 1288
+    Height = 48
+    Top = 108
+    Width = 25
+    Caption = '→'#13#10'A'
+    Color = clDefault
+    Font.Height = -17
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 8
+  end
+  object edVectorB: TEdit
+    Left = 1325
+    Height = 33
+    Top = 177
+    Width = 100
+    Alignment = taCenter
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object StaticText3: TStaticText
+    Left = 1288
+    Height = 48
+    Top = 164
+    Width = 25
+    Caption = '→'#13#10'B'
+    Color = clDefault
+    Font.Height = -17
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 10
+  end
+  object edVectorC: TEdit
+    Left = 1325
+    Height = 33
+    Top = 233
+    Width = 100
+    Alignment = taCenter
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object stVectorC: TStaticText
+    Left = 1288
+    Height = 48
+    Top = 220
+    Width = 25
+    Caption = '→'#13#10'C'
+    Color = clDefault
+    Font.Height = -17
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 11
+  end
+  object edVectorD: TEdit
+    Left = 1325
+    Height = 33
+    Top = 289
+    Width = 100
+    Alignment = taCenter
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object stVectorD: TStaticText
+    Left = 1288
+    Height = 48
+    Top = 276
+    Width = 25
+    Caption = '→'#13#10'D'
+    Color = clDefault
+    Font.Height = -17
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 12
+  end
+  object Label3: TLabel
+    Left = 1432
+    Height = 23
+    Top = 72
+    Width = 81
+    Caption = 'Operation:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object edOperation1: TEdit
+    Left = 1454
+    Height = 33
+    Top = 121
+    Width = 36
+    Alignment = taCenter
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 15
+  end
+  object edOperation2: TEdit
+    Left = 1454
+    Height = 33
+    Top = 177
+    Width = 36
+    Alignment = taCenter
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object edOperation3: TEdit
+    Left = 1454
+    Height = 33
+    Top = 233
+    Width = 36
+    Alignment = taCenter
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object edVectorR: TEdit
+    Left = 1325
+    Height = 33
+    Top = 440
+    Width = 100
+    Alignment = taCenter
+    TabOrder = 1
+  end
+  object StaticText4: TStaticText
+    Left = 1288
+    Height = 48
+    Top = 430
+    Width = 25
+    Caption = '→'#13#10'R'
+    Color = clDefault
+    Font.Height = -17
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 16
+  end
+  object btQuestion: TButton
+    Left = 1419
+    Height = 31
+    Top = 681
+    Width = 94
+    Caption = 'Question'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object Shape1: TShape
+    Left = 1240
+    Height = 2
+    Top = 416
+    Width = 273
+    Brush.Color = clBlack
+  end
+  object imEval: TImage
+    Left = 1376
+    Height = 31
+    Top = 681
+    Width = 31
+    Center = True
+  end
+  object Shape2: TShape
+    Left = 1240
+    Height = 31
+    Top = 121
+    Width = 31
+    Brush.Color = clNavy
+  end
+  object Shape3: TShape
+    Left = 1240
+    Height = 31
+    Top = 177
+    Width = 31
+    Brush.Color = clBlue
+  end
+  object shVectorC: TShape
+    Left = 1240
+    Height = 31
+    Top = 233
+    Width = 31
+    Brush.Color = clPurple
+  end
+  object shVectorD: TShape
+    Left = 1240
+    Height = 31
+    Top = 289
+    Width = 31
+    Brush.Color = clFuchsia
+  end
+  object Shape6: TShape
+    Left = 1240
+    Height = 31
+    Top = 440
+    Width = 31
+    Brush.Color = clRed
+  end
+  object edMagnitude: TEdit
+    Left = 1325
+    Height = 33
+    Top = 499
+    Width = 100
+    Alignment = taCenter
+    TabOrder = 2
+  end
+  object StaticText5: TStaticText
+    Left = 1288
+    Height = 48
+    Top = 483
+    Width = 25
+    Caption = ' →'#13#10'||R||'
+    Color = clDefault
+    Font.Height = -17
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 17
+  end
+  object edAngle: TEdit
+    Left = 1325
+    Height = 33
+    Top = 547
+    Width = 100
+    Alignment = taCenter
+    TabOrder = 3
+  end
+  object StaticText6: TStaticText
+    Left = 1288
+    Height = 48
+    Top = 531
+    Width = 25
+    Caption = #13#10'θ'
+    Color = clDefault
+    Font.Height = -17
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 18
+  end
+  object btShow: TButton
+    Left = 1419
+    Height = 31
+    Top = 642
+    Width = 94
+    Caption = 'Show'
+    Enabled = False
+    OnClick = btShowClick
+    TabOrder = 19
+    TabStop = False
+  end
+  object btClear: TButton
+    Left = 1419
+    Height = 31
+    Top = 604
+    Width = 94
+    Caption = 'Clear'
+    OnClick = btClearClick
+    TabOrder = 20
+    TabStop = False
+  end
+  object shVStart: TShape
+    Left = 35
+    Height = 5
+    Top = 180
+    Width = 5
+    Brush.Color = clNavy
+    Shape = stCircle
+  end
+  object stOperation: TStaticText
+    Left = 1288
+    Height = 53
+    Top = 344
+    Width = 202
+    Caption = '→     →     →'#13#10'R  =  A  +  B'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 21
+  end
+  object mMenu: TMainMenu
+    Left = 24
+    Top = 88
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsOperations: TMenuItem
+        Caption = 'Vector operations'
+        object mOptionsOperationsAdd: TMenuItem
+          Caption = 'Addition'
+          Checked = True
+          OnClick = mOptionsOperationsAddClick
+        end
+        object mOptionsOperationsSub: TMenuItem
+          Caption = 'Subtraction'
+          Checked = True
+          OnClick = mOptionsOperationsSubClick
+        end
+      end
+      object mOptionsVectors: TMenuItem
+        Caption = 'Number of vectors'
+        object mOptionsVectors2: TMenuItem
+          Caption = '2 vectors'
+          Checked = True
+          OnClick = mOptionsVectors2Click
+        end
+        object mOptionsVectors3: TMenuItem
+          Caption = '3 vectors'
+          OnClick = mOptionsVectors3Click
+        end
+        object mOptionsVectors4: TMenuItem
+          Caption = '4 vectors'
+          OnClick = mOptionsVectors4Click
+        end
+      end
+      object mOptionsDrawingOnly: TMenuItem
+        Caption = 'Don''t evaluate magnitude and angle'
+        OnClick = mOptionsDrawingOnlyClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

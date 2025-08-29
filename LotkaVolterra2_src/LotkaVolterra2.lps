@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="LotkaVolterra2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="4"/>
+        <CursorPos Y="31"/>
+        <UsageCount Value="145"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="lv2_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLV2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="145"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="lv2_graph.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLV2G"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="144"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="lv2_help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLV2H"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="105"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="lv2_samples.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLV2S"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\Programs\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4149"/>
+        <CursorPos Y="4162"/>
+        <UsageCount Value="9"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\Programs\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="44"/>
+        <CursorPos X="3" Y="44"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="lv2_help.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit7>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="lv2_samples.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="lv2_samples.pas"/>
+        <Caret Line="86" Column="80" TopLine="75"/>
+      </Position2>
+      <Position3>
+        <Filename Value="lv2_graph.pas"/>
+        <Caret Line="59" Column="35" TopLine="35"/>
+      </Position3>
+      <Position4>
+        <Filename Value="lv2_graph.pas"/>
+        <Caret Line="68" TopLine="41"/>
+      </Position4>
+      <Position5>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="1034" Column="71" TopLine="1028"/>
+      </Position5>
+      <Position6>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="694" TopLine="667"/>
+      </Position6>
+      <Position7>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="959" Column="26" TopLine="937"/>
+      </Position7>
+      <Position8>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="1056" Column="77" TopLine="1037"/>
+      </Position8>
+      <Position9>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="101" TopLine="85"/>
+      </Position9>
+      <Position10>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="1070" TopLine="1043"/>
+      </Position10>
+      <Position11>
+        <Filename Value="lv2_main.pas"/>
+      </Position11>
+      <Position12>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="1056" Column="34" TopLine="1030"/>
+      </Position12>
+      <Position13>
+        <Filename Value="lv2_samples.pas"/>
+        <Caret Line="52" TopLine="29"/>
+      </Position13>
+      <Position14>
+        <Filename Value="lv2_main.pas"/>
+      </Position14>
+      <Position15>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="999" Column="26" TopLine="977"/>
+      </Position15>
+      <Position16>
+        <Filename Value="lv2_samples.pas"/>
+        <Caret Line="30" Column="20" TopLine="20"/>
+      </Position16>
+      <Position17>
+        <Filename Value="lv2_graph.pas"/>
+        <Caret Line="3" Column="6"/>
+      </Position17>
+      <Position18>
+        <Filename Value="lv2_main.pas"/>
+      </Position18>
+      <Position19>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="1027" Column="19" TopLine="1001"/>
+      </Position19>
+      <Position20>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="156" Column="28" TopLine="151"/>
+      </Position20>
+      <Position21>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="1037" Column="26" TopLine="1025"/>
+      </Position21>
+      <Position22>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="1090" TopLine="1064"/>
+      </Position22>
+      <Position23>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="1078" Column="69" TopLine="1064"/>
+      </Position23>
+      <Position24>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="982" Column="38" TopLine="972"/>
+      </Position24>
+      <Position25>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="1077" Column="84" TopLine="1055"/>
+      </Position25>
+      <Position26>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="1053" Column="67" TopLine="1044"/>
+      </Position26>
+      <Position27>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="907" Column="61" TopLine="907"/>
+      </Position27>
+      <Position28>
+        <Filename Value="lv2_help.pas"/>
+      </Position28>
+      <Position29>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="909" TopLine="896"/>
+      </Position29>
+      <Position30>
+        <Filename Value="lv2_main.pas"/>
+        <Caret Line="677" Column="69" TopLine="651"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

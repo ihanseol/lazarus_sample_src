@@ -1,0 +1,46 @@
+object fHelp: TfHelp
+  Left = 300
+  Height = 707
+  Top = 150
+  Width = 1273
+  BorderIcons = [biSystemMenu]
+  Caption = '7-Segment Displays'
+  ClientHeight = 707
+  ClientWidth = 1273
+  DesignTimePPI = 120
+  Font.Height = -18
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object StaticText1: TStaticText
+    Left = 9
+    Height = 30
+    Top = 10
+    Width = 326
+    Caption = '"Display7seg application help."'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edHelp: TMemo
+    Left = 9
+    Height = 600
+    Top = 56
+    Width = 1254
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 2
+  end
+  object btClose: TButton
+    Left = 1169
+    Height = 31
+    Top = 672
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

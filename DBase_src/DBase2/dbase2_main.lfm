@@ -1,0 +1,140 @@
+object fDBase2: TfDBase2
+  Left = 282
+  Height = 294
+  Top = 197
+  Width = 557
+  Caption = 'dBase tables'
+  ClientHeight = 294
+  ClientWidth = 557
+  Font.Height = -15
+  LCLVersion = '3.0.0.3'
+  object StaticText1: TStaticText
+    Left = 10
+    Height = 30
+    Top = 10
+    Width = 190
+    Alignment = taCenter
+    Caption = 'dBase table creation.'
+    Font.Height = -16
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object btTable: TButton
+    Left = 10
+    Height = 25
+    Top = 80
+    Width = 120
+    Caption = 'Create table'
+    TabOrder = 1
+    OnClick = btTableClick
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 20
+    Top = 48
+    Width = 177
+    Caption = 'Create table Employee.dbf'
+  end
+  object btIndex: TButton
+    Left = 320
+    Height = 25
+    Top = 80
+    Width = 120
+    Caption = 'Create index'
+    TabOrder = 2
+    OnClick = btIndexClick
+  end
+  object Label2: TLabel
+    Left = 320
+    Height = 20
+    Top = 48
+    Width = 220
+    Caption = 'Add index to table Employee.dbf'
+  end
+  object btRecords: TButton
+    Left = 10
+    Height = 25
+    Top = 168
+    Width = 120
+    Caption = 'Add records'
+    TabOrder = 3
+    OnClick = btRecordsClick
+  end
+  object Label3: TLabel
+    Left = 10
+    Height = 20
+    Top = 132
+    Width = 214
+    Caption = 'Add data to table Employee.dbf'
+  end
+  object btSearch: TButton
+    Left = 320
+    Height = 25
+    Top = 168
+    Width = 120
+    Caption = 'Search database'
+    TabOrder = 4
+    OnClick = btSearchClick
+  end
+  object Label4: TLabel
+    Left = 320
+    Height = 20
+    Top = 132
+    Width = 176
+    Caption = 'Display data for employee'
+  end
+  object edID: TEdit
+    Left = 501
+    Height = 28
+    Top = 128
+    Width = 48
+    Alignment = taCenter
+    NumbersOnly = True
+    TabOrder = 5
+  end
+  object edData: TEdit
+    Left = 320
+    Height = 28
+    Top = 208
+    Width = 229
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object btExit: TButton
+    Left = 429
+    Height = 25
+    Top = 264
+    Width = 120
+    Caption = 'Exit'
+    TabOrder = 7
+    OnClick = btExitClick
+  end
+  object dbfEmployee: TDbf
+    IndexDefs = <>
+    StoreDefs = True
+    TableName = 'Employee.dbf'
+    TableLevel = 7
+    FieldDefs = <    
+      item
+        Name = 'ID'
+        DataType = ftInteger
+      end    
+      item
+        Name = 'Lastname'
+        DataType = ftString
+      end    
+      item
+        Name = 'Firstname'
+        DataType = ftString
+      end    
+      item
+        Name = 'Salary'
+        DataType = ftFloat
+      end>
+    FilterOptions = []
+    Left = 80
+    Top = 224
+  end
+end

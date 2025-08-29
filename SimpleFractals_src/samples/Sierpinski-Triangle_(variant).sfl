@@ -1,0 +1,10 @@
+# Sierpinski-Triangle (variant)
+
+origin = (260,575)
+displacement = 2
+
+axiom = "0F--1F--2F"
+rules = { "F": "F--F--F--GG",
+          "G": "GG" }
+iterations = 8
+angle = 60

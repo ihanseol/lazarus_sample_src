@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="fclpdf4.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="29"/>
+        <CursorPos Y="50"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="4">
+      <Position>
+        <Filename Value="fclpdf4.lpr"/>
+        <Caret Line="61" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf4.lpr"/>
+        <Caret Line="34" Column="36" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf4.lpr"/>
+        <Caret Line="52" Column="64" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf4.lpr"/>
+        <Caret Line="53" Column="50" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf4.lpr"/>
+        <Caret Line="42" Column="48" TopLine="29"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="Luxverbes2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos Y="16"/>
+        <UsageCount Value="67"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="verbes2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fVerbes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="67"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="conj2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fConj"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="53"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="help.pas"/>
+        <Caret Line="16" Column="43" TopLine="15"/>
+      </Position1>
+      <Position2>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="914" Column="38" TopLine="896"/>
+      </Position2>
+      <Position3>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="232" Column="44" TopLine="206"/>
+      </Position3>
+      <Position4>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="994" TopLine="967"/>
+      </Position4>
+      <Position5>
+        <Filename Value="verbes2.pas"/>
+      </Position5>
+      <Position6>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="711" Column="74" TopLine="309"/>
+      </Position6>
+      <Position7>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="676" Column="32" TopLine="650"/>
+      </Position7>
+      <Position8>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="687" Column="92" TopLine="676"/>
+      </Position8>
+      <Position9>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="677" Column="65" TopLine="664"/>
+      </Position9>
+      <Position10>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="646" Column="66" TopLine="625"/>
+      </Position10>
+      <Position11>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="702" TopLine="679"/>
+      </Position11>
+      <Position12>
+        <Filename Value="verbes2.pas"/>
+      </Position12>
+      <Position13>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="787" Column="5" TopLine="781"/>
+      </Position13>
+      <Position14>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="407" Column="16" TopLine="403"/>
+      </Position14>
+      <Position15>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="715" Column="72" TopLine="689"/>
+      </Position15>
+      <Position16>
+        <Filename Value="conj2.pas"/>
+        <Caret Line="10" Column="124"/>
+      </Position16>
+      <Position17>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="684" Column="78" TopLine="673"/>
+      </Position17>
+      <Position18>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="732" Column="13" TopLine="713"/>
+      </Position18>
+      <Position19>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="778" Column="38" TopLine="759"/>
+      </Position19>
+      <Position20>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="41" Column="47" TopLine="27"/>
+      </Position20>
+      <Position21>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="348" Column="67" TopLine="325"/>
+      </Position21>
+      <Position22>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="1050" Column="16" TopLine="1028"/>
+      </Position22>
+      <Position23>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="1053" Column="18" TopLine="1031"/>
+      </Position23>
+      <Position24>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="1055" Column="18" TopLine="1033"/>
+      </Position24>
+      <Position25>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="1057" Column="18" TopLine="1035"/>
+      </Position25>
+      <Position26>
+        <Filename Value="help.pas"/>
+      </Position26>
+      <Position27>
+        <Filename Value="help.pas"/>
+        <Caret Line="25" TopLine="20"/>
+      </Position27>
+      <Position28>
+        <Filename Value="help.pas"/>
+        <Caret Line="18"/>
+      </Position28>
+      <Position29>
+        <Filename Value="verbes2.pas"/>
+        <Caret Line="911" Column="16" TopLine="903"/>
+      </Position29>
+      <Position30>
+        <Filename Value="help.pas"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

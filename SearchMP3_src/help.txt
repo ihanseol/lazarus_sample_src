@@ -1,0 +1,70 @@
+=======================
+= SearchMP3 v1.0 Help =
+=======================
+
+SearchMP3 is an application to search for .mp3 files on the local computer. Search may be done either based on file properties or
+on the values of the MP3 tags (which must be set in this case, of course).
+
+Search criteria selection window.
+=================================
+
+ 1. Choose the directory where the search has to be done (default = user's Music directory); include subdirectories in search or not.
+ 2. Choose if you want to search the file properties or the MP3 tags by checking the corresponding radio button.
+ 3. Choose which information you want to use for searching (note that if you check several criteria, the file has to meet all of them).
+    3a. Searching using the file properties:
+	     - file name
+		 - file date (file date: input value = a given date OR file time: input value = a given number of days passed)
+		 - file size (in megabytes)
+    3b. Searching using MP3 tags:
+	     - artist name
+		 - album name
+		 - track name
+		 - music genre (you may choose from those included in the list or enter a value as you need)
+		 - release year
+		 - play time (NOT IMPLEMENTED in version 1.0)
+		Note that when simultanously searching album and track title, the file is supposeed to need to meet either one or the other
+		criterium.
+
+ 4. Click the "Search" button to open the search results window.
+ 
+ Options menu: Search, dipslay and other settings.
+ -------------------------------------------------
+  
+  - Use OR instead of AND for simultaneous album/track title searches:
+    if UNchecked, simultaneous album/track title searches behave as all others, i.e. the file needs to meet both search criteria.
+  - Ignore upper/lower case when searching text fields:
+    if UNchecked, the lower/upper letter case is considered ("love" does not find "Love")
+  - Use file creation date instead of file modification date:
+    if checked, search is done using the file creation (instead of its modification) date
+  - Display file information instead of MP3 tags:
+    if checked, search results include the file name, size and date (instead of artist, album, track, genre and album year)
+  - Display full path name of MP3 files found (only applicable for "Display file information instead of MP3 tags"):
+    if UNchecked, the simple file name is displayed instead of the full file name ("mymp3" instead of "C:\Users\Username\Music\mymp3.mp3")
+  - Exclude non-ID3 main genres from selection list:
+    if checked, main music genres that are not part of the genres defined in ID3 (identified by "(M)") are not shown in the genres selection list
+  - Exclude personal genres from selection list:
+    if checked, (my) personal genres (identified by "(-)") are not shown in the genres selection list
+	
+Search results display window.
+==============================
+
+ The files found by the actual search are displayed as a list. What exactly is displayed depends on the selections done in the "Options" menu in
+ the main window. If the search was based on the MP3 tags (default), the list is sorted by artist name, album name and track number; if it was
+ based on file properties and the full path name is selected to be displayed (default), the list entries are sorted by subdirectory and file name;
+ if the full path isn't displayed sorting is done by the simple filename. In this window, you may:
+ 
+ a. To save the search result (just as it is displayed) as a text file, push the "Save info" button.
+ b. To open the file location (the containing directory) in Windows explorer, push the "Open directory"  button.
+ c. To play the MP3 file (using your default audio player), push the "Play file" button.
+ 
+ Note that for actons 2 and 3 you have to choose a file first. Just use your mouse and select a line in the search results list (the same way you
+ do in order to select text in your word processing application).
+ 
+Using your own music genres selection list.
+===========================================
+
+ You may fill the genres selection combobox with your favorite music genres by editing the genres.txt file (using a text editor such as Notepad).
+ Delete the entries you don't not need and add the genres you want (one genre name per line). The file genres.txt.bak is a backup copy of the
+ original genres.tx files.
+ 
+																												SearchMp3, version 1.0 (allu, 2018)

@@ -1,0 +1,116 @@
+object fHelp: TfHelp
+  Left = 249
+  Height = 497
+  Top = 143
+  Width = 1034
+  BorderIcons = []
+  Caption = 'Aide "Devises"'
+  ClientHeight = 497
+  ClientWidth = 1034
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object memoHelp: TMemo
+    Left = 10
+    Height = 433
+    Top = 10
+    Width = 1014
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"Devises" est un simple convertisseur d''une devise de départ (p.ex. EUR = euros) en une devise de d''arrivée (p.ex. USD = dollars US), la conversion se basant sur une liste des cours de change pour 31 devises par rapport à l''euro, qui peut être mise à jour via Internet'
+      ''
+      'Menu "Fichier".'
+      '==============='
+      ''
+      'Mise-à-jour.'
+      '------------'
+      'Mise à jour des cours de change par téléchargement à partir du site de la Banque de France (https://www.banque-france.fr). Voir ci-dessus pour détails.'
+      ''
+      'Quitter.'
+      '--------'
+      'Quitter l''application.'
+      ''
+      'Menu "Options".'
+      '==============='
+      ''
+      'Tri des données dans les tableaux -> ...'
+      '----------------------------------------'
+      'Définition de l''ordre de tri des devises dans la liste des cours de change affichée et dans les boîtes de sélection des devises de départ et d''arrivée'
+      '  - défault  ordre arbitraire (en rapport cependant avec "l''importance de la devise" dans mon pays)'
+      '  - devise   tri en fonction du code 3-lettres de la devise'
+      '  - monnaie  tri en fonction du nom (toutes-lettres) de la devise'
+      '  - pays     tri en fonction du nom du pays'
+      ''
+      'Limiter la sélection aux devises "principales".'
+      '-----------------------------------------------'
+      'Limitation des devises apparaissant dans les boites de sélection des devises à 16 devises (qualifiés arbitrairement) "principales" (confort d''utilisation...). '
+      ''
+      'Montrer la console lors de la mise-à-jour.'
+      '------------------------------------------'
+      'La mise-à-jour des cours de change est effectuée en faisant appel à un programme externe (voir ci-dessous). Avec cette option activée, l''utilisateur peut suivre le téléchargement avec tous les messages émis par le programme wget.'
+      ''
+      'Menu "Aide".'
+      '============'
+      ''
+      'Aide programme.'
+      '---------------'
+      'Affichage de l''aide concernant l''utilisation du programme "Devises" (ce texte).'
+      ''
+      'Info programme.'
+      '---------------'
+      'Affichage des informations version, auteur et date du programme "Devises".'
+      ''
+      '========================='
+      '= Conversion de devise. ='
+      '========================='
+      ''
+      'Choisissez une devise de départ et une devise d''arrivée, entrez un montant (dans la devise de départ) et appuyez sur "Calculer". La conversion (montant dans la devisee d''arrivée) sera affichée.'
+      ''
+      '===================================='
+      '= Mise-à-jour des cours de change. ='
+      '===================================='
+      ''
+      'Description simple.'
+      '-------------------'
+      ''
+      'Lorsque le point "Mise-à-jour" dans le menu "Fichier" est sélectionné, "Devises" lance un programme externe, le programme console "wget" (Copyright (c) 1996−2011, 2015, 2018 Free Software Foundation, Inc.), qui télécharge une page web, contenant les cours de change du dernier jour ouvrable avant, du site de la Banque de France et en extrait les informations pour créer la liste des cours actualisée. L''utilisateur peut, sans le devoir, suivre le déroulement du téléchargement dans la fenêtre "console". Si tout va bien, la nouvelle liste avec la nouvelle date sera affichée.'
+      ''
+      'L''échec éventuel de la mise-jour peut avoir plusieurs raisons. Ici les plus probables:'
+      ''
+      '1. Problèmes d''accès à l''Internet ou inaccessibilité du site de la Banque de France; dans un tel cas, le programme affichera le message "Erreur mise-à-jour: Pas possible de télécharger les devises actuelles!". Essayez de répéter l''opération plus tard. Si l''erreur persiste, merci de me prévenir (probable alors que la banque a modifié l''URL de la page des cours et l''appel au programme wget devra être adapté).'
+      ''
+      '2. Problèmes d''extraction des cours de change à partir du fichier téléchargé. "Devises" s''attend à un format bien donné de ce fichier; si la banque le changeait de manière significative, il n''arriverait plus à lire les cours. Message d''erreur dans ce cas: "Erreur mise-à-jour: Le fichier téléchargé ne contient pas les données prévues!" (Merci de me prévenir dans ce cas; le programme devra être changé...).'
+      ''
+      '"Devises" se base donc sur la page Web de la Banque de France, telle qu''elle se présente actuellement et suppose notammant y trouver les cours pour 31 devises bien déterminées. Si la banque change ce nombre, un message d''avertissement "Problème de mise-à-jour" sera affiché. L''utilisateur pourra normalement ignorer ce message (dans le cas où il y aurait des "devises en trop", les dernières dans la liste étant tout simplement ignorées). Les noms de pays ne se trouvant pas dans le fichier téléchargé (mais étant donnés par le programme), le pays relatif à des devises autres que celles actuellement dans la liste sera affiché en tant que "Pays inconnu".'
+      ''
+      'Description technique.'
+      '----------------------'
+      ''
+      'La mise-à-jour des cours de change à partir du fichier téléchargé du site de la Banque de France comprend plusieurs étapes:'
+      ''
+      '1. Activation d''un processus ligne de commade avec exécution (par l''intermédiaire d''un fichier batch) du programme wget.exe, qui télécharge la page Web et la sauve en tant que devises.tmp; les messages émis par wget (aussi bien ceux destinés à STDOUT que ceux destinés à STDERR) étant récupérés dans un buffer défini dans le programme "Devises".'
+      ''
+      '2. Activation en même temps d''un minuteur (timer), qui lit les données du buffer et les écrit dans un objet mémo (apparaissant avec un "look console" dans le programme). La routine minuteur analyse le contenu de ce mémo et de cette manière peut déceler à la fois quand le téléchargement est terminée et s''il avait du succès ou non.'
+      ''
+      '3. Si la mise-à-jour succédait, le programme sauvegarde le fichier devises.txt sous le nom de devises.bak, puis extrait les informations du fichier devises.tmp et écrit les cours de change actualisés dans le fichier devises.txt.'
+      ''
+      '4. Si l''extraction s''est passée sans problème, les tableaux avec la liste des nouveaux cours seront mises à jour à partir du nouveau fichier devises.txt. Dans le cas contraire, l''ancien fichier devises.txt sera reconstitué à partir de devises.bak.'
+      ''
+      'J''essayerai d''un jour donner une description détaillée de ce procédé dans la section "Lazarus / Free Pascal" de mon site...'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 930
+    Height = 31
+    Top = 456
+    Width = 94
+    Caption = 'Fermer'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+end

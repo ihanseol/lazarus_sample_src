@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="lfp.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="23" HistoryIndex="22">
+      <Position1>
+        <Filename Value="lfp.lpr"/>
+      </Position1>
+      <Position2>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="213" TopLine="186"/>
+      </Position2>
+      <Position3>
+        <Filename Value="lfp.lpr"/>
+      </Position3>
+      <Position4>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="198" Column="48" TopLine="184"/>
+      </Position4>
+      <Position5>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="195" TopLine="189"/>
+      </Position5>
+      <Position6>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="193" Column="49" TopLine="167"/>
+      </Position6>
+      <Position7>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="35" Column="50" TopLine="21"/>
+      </Position7>
+      <Position8>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="115" Column="17" TopLine="90"/>
+      </Position8>
+      <Position9>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="264" TopLine="238"/>
+      </Position9>
+      <Position10>
+        <Filename Value="lfp.lpr"/>
+      </Position10>
+      <Position11>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="101" Column="5" TopLine="93"/>
+      </Position11>
+      <Position12>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="112" Column="7" TopLine="94"/>
+      </Position12>
+      <Position13>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="245" Column="33" TopLine="231"/>
+      </Position13>
+      <Position14>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="42" Column="38" TopLine="22"/>
+      </Position14>
+      <Position15>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="253" Column="58" TopLine="239"/>
+      </Position15>
+      <Position16>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="19" Column="14"/>
+      </Position16>
+      <Position17>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="240" TopLine="238"/>
+      </Position17>
+      <Position18>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="265" TopLine="238"/>
+      </Position18>
+      <Position19>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="134" TopLine="109"/>
+      </Position19>
+      <Position20>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="250" Column="21" TopLine="232"/>
+      </Position20>
+      <Position21>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="249" TopLine="228"/>
+      </Position21>
+      <Position22>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="267" Column="22" TopLine="243"/>
+      </Position22>
+      <Position23>
+        <Filename Value="lfp.lpr"/>
+        <Caret Line="129" Column="11" TopLine="124"/>
+      </Position23>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,226 @@
+object fUSQuiz: TfUSQuiz
+  Left = 437
+  Height = 306
+  Top = 39
+  Width = 653
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'USA Quiz'
+  ClientHeight = 281
+  ClientWidth = 653
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object stTitle: TStaticText
+    Left = 71
+    Height = 46
+    Top = 10
+    Width = 510
+    Alignment = taCenter
+    Caption = 'USA Quiz.'
+    Font.Height = -33
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 11
+    Height = 23
+    Top = 92
+    Width = 63
+    Caption = 'US state'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edState: TEdit
+    Left = 101
+    Height = 31
+    Top = 88
+    Width = 284
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 1
+  end
+  object laQuizItem: TLabel
+    Left = 11
+    Height = 23
+    Top = 141
+    Width = 86
+    Caption = 'Inhabitants'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object cobQuizItem: TComboBox
+    Left = 101
+    Height = 31
+    Top = 137
+    Width = 284
+    Font.Height = -17
+    ItemHeight = 23
+    ParentFont = False
+    TabOrder = 2
+    TabStop = False
+  end
+  object edQuizItem: TEdit
+    Left = 101
+    Height = 31
+    Top = 137
+    Width = 284
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 3
+  end
+  object btQuestion: TButton
+    Left = 565
+    Height = 35
+    Top = 240
+    Width = 80
+    Caption = 'Question'
+    Font.Height = -17
+    OnClick = btQuestionClick
+    ParentFont = False
+    TabOrder = 4
+  end
+  object btFlagSeals: TButton
+    Left = 401
+    Height = 31
+    Top = 137
+    Width = 65
+    Caption = 'Flag'
+    OnClick = btFlagSealsClick
+    TabOrder = 5
+  end
+  object Label2: TLabel
+    Left = 493
+    Height = 23
+    Top = 92
+    Width = 76
+    Caption = 'Questions'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edQuestions: TEdit
+    Left = 581
+    Height = 31
+    Top = 88
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object Label3: TLabel
+    Left = 493
+    Height = 23
+    Top = 141
+    Width = 56
+    Caption = 'Correct'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCorrect: TEdit
+    Left = 581
+    Height = 31
+    Top = 137
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object Label4: TLabel
+    Left = 493
+    Height = 23
+    Top = 188
+    Width = 58
+    Caption = 'Success'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSuccess: TEdit
+    Left = 581
+    Height = 31
+    Top = 184
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object edEval: TEdit
+    Left = 11
+    Height = 31
+    Top = 184
+    Width = 374
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object mMenu: TMainMenu
+    left = 32
+    top = 16
+    object mQuiz: TMenuItem
+      Caption = 'Quiz'
+      object mQuizNew: TMenuItem
+        Caption = 'New'
+        OnClick = mQuizNewClick
+      end
+      object mQuizExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mQuizExitClick
+      end
+    end
+    object mSelect: TMenuItem
+      Caption = 'Selection'
+      object mSelCapitalsList: TMenuItem
+        Caption = 'Capitals (list)'
+        Checked = True
+        OnClick = mSelCapitalsListClick
+      end
+      object mSelCapitalsManual: TMenuItem
+        Caption = 'Capitals (manual)'
+        OnClick = mSelCapitalsManualClick
+      end
+      object mSelInhabitants: TMenuItem
+        Caption = 'Inhabitants'
+        OnClick = mSelInhabitantsClick
+      end
+      object mSelAccession: TMenuItem
+        Caption = 'Accession years'
+        OnClick = mSelAccessionClick
+      end
+      object mSelFlags: TMenuItem
+        Caption = 'State flags'
+        OnClick = mSelFlagsClick
+      end
+      object mSelSeals: TMenuItem
+        Caption = 'State seals'
+        OnClick = mSelSealsClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

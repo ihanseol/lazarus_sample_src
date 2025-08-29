@@ -1,0 +1,417 @@
+object WGuess2Form: TWGuess2Form
+  Left = 299
+  Height = 358
+  Top = 131
+  Width = 849
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'WGuess2 "Guess the word"'
+  ClientHeight = 333
+  ClientWidth = 849
+  DesignTimePPI = 120
+  Font.Height = -17
+  KeyPreview = True
+  Menu = mMenu
+  OnCreate = FormCreate
+  OnUTF8KeyPress = FormUTF8KeyPress
+  LCLVersion = '1.8.4.0'
+  object LabelWord: TLabel
+    Left = 592
+    Height = 23
+    Top = 140
+    Width = 114
+    Caption = 'Word to guess:'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object WordToGuess: TEdit
+    Left = 592
+    Height = 31
+    Top = 168
+    Width = 184
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 1
+    Text = 'aaaaaaaaaaaaaaaaa'
+  end
+  object ButtonStart: TButton
+    Left = 664
+    Height = 31
+    Top = 296
+    Width = 75
+    Caption = 'Start'
+    OnClick = ButtonStartClick
+    TabOrder = 0
+  end
+  object Label7: TLabel
+    Left = 592
+    Height = 23
+    Top = 212
+    Width = 119
+    Caption = 'Letters entered:'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Letters: TEdit
+    Left = 592
+    Height = 31
+    Top = 244
+    Width = 242
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object Label8: TLabel
+    Left = 792
+    Height = 23
+    Top = 140
+    Width = 42
+    Caption = 'Trials:'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Attempts: TEdit
+    Left = 792
+    Height = 31
+    Top = 168
+    Width = 42
+    Alignment = taCenter
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object ButtonSolve: TButton
+    Left = 759
+    Height = 31
+    Top = 296
+    Width = 75
+    Caption = 'Solve'
+    Enabled = False
+    OnClick = ButtonSolveClick
+    TabOrder = 2
+  end
+  object edName1: TEdit
+    Left = 17
+    Height = 31
+    Top = 56
+    Width = 171
+    OnChange = edName1Change
+    TabStop = False
+    TabOrder = 5
+    Text = 'Player 1'
+  end
+  object edName2: TEdit
+    Left = 305
+    Height = 31
+    Top = 56
+    Width = 171
+    OnChange = edName2Change
+    TabStop = False
+    TabOrder = 6
+    Text = 'Player 2'
+  end
+  object StaticText1: TStaticText
+    Left = 104
+    Height = 29
+    Top = 8
+    Width = 286
+    Alignment = taCenter
+    Caption = 'Guess the word!'
+    Font.Height = -18
+    Font.Style = [fsBold, fsUnderline]
+    ParentFont = False
+    TabOrder = 7
+  end
+  object shGallows101: TShape
+    Left = 32
+    Height = 5
+    Top = 270
+    Width = 141
+    Brush.Color = clBlack
+  end
+  object shGallows102: TShape
+    Left = 100
+    Height = 25
+    Top = 245
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object shGallows103: TShape
+    Left = 100
+    Height = 25
+    Top = 220
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object shGallows104: TShape
+    Left = 100
+    Height = 25
+    Top = 195
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object shGallows105: TShape
+    Left = 100
+    Height = 25
+    Top = 170
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object shGallows106: TShape
+    Left = 100
+    Height = 25
+    Top = 145
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object shGallows107: TShape
+    Left = 100
+    Height = 25
+    Top = 120
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object shGallows108: TShape
+    Left = 75
+    Height = 5
+    Top = 120
+    Width = 80
+    Brush.Color = clBlack
+  end
+  object shGallows109: TShape
+    Left = 150
+    Height = 25
+    Top = 120
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object shGallows110: TShape
+    Left = 133
+    Height = 40
+    Top = 145
+    Width = 40
+    Brush.Color = clForm
+    Pen.Width = 5
+    Shape = stCircle
+  end
+  object shGallows201: TShape
+    Left = 320
+    Height = 5
+    Top = 270
+    Width = 141
+    Brush.Color = clBlack
+  end
+  object shGallows202: TShape
+    Left = 388
+    Height = 25
+    Top = 245
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object shGallows203: TShape
+    Left = 388
+    Height = 25
+    Top = 220
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object shGallows204: TShape
+    Left = 388
+    Height = 25
+    Top = 195
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object shGallows205: TShape
+    Left = 388
+    Height = 25
+    Top = 170
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object shGallows206: TShape
+    Left = 388
+    Height = 25
+    Top = 145
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object shGallows207: TShape
+    Left = 388
+    Height = 25
+    Top = 120
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object shGallows208: TShape
+    Left = 363
+    Height = 5
+    Top = 120
+    Width = 80
+    Brush.Color = clBlack
+  end
+  object shGallows209: TShape
+    Left = 438
+    Height = 25
+    Top = 120
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object shGallows210: TShape
+    Left = 421
+    Height = 40
+    Top = 145
+    Width = 40
+    Brush.Color = clForm
+    Pen.Width = 5
+    Shape = stCircle
+  end
+  object sgScore: TStringGrid
+    Left = 592
+    Height = 95
+    Top = 8
+    Width = 242
+    Color = clCream
+    ColCount = 2
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 3
+    TabOrder = 8
+    TabStop = False
+    TitleFont.Height = -17
+    TitleFont.Name = 'Consolas'
+    ColWidths = (
+      183
+      54
+    )
+    RowHeights = (
+      30
+      30
+      30
+    )
+    Cells = (
+      3
+      0
+      1
+      'Player 1'
+      0
+      2
+      'Player 2'
+      1
+      0
+      'Score'
+    )
+  end
+  object edTrials1: TEdit
+    Left = 80
+    Height = 31
+    Top = 296
+    Width = 42
+    Alignment = taCenter
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+    Visible = False
+  end
+  object edTrials2: TEdit
+    Left = 368
+    Height = 31
+    Top = 296
+    Width = 42
+    Alignment = taCenter
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+    Visible = False
+  end
+  object mMenu: TMainMenu
+    left = 232
+    top = 120
+    object MenuGame: TMenuItem
+      Caption = 'Game'
+      object GameNew: TMenuItem
+        Caption = 'New'
+        OnClick = GameNewClick
+      end
+      object GameExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = GameExitClick
+      end
+    end
+    object MenuSettings: TMenuItem
+      Caption = 'Settings'
+      object SettingsWordFile: TMenuItem
+        Caption = 'Load words file ...'
+        OnClick = SettingsWordFileClick
+      end
+      object SettingsScoring: TMenuItem
+        Caption = 'Scoring method'
+        object SettingsScoringWords: TMenuItem
+          Caption = 'Words found'
+          Checked = True
+          OnClick = SettingsScoringWordsClick
+        end
+        object SettingsScoringTrials: TMenuItem
+          Caption = 'Trials compare'
+          OnClick = SettingsScoringTrialsClick
+        end
+      end
+      object SettingsLetters: TMenuItem
+        Caption = 'Show letters used'
+        Checked = True
+        OnClick = SettingsLettersClick
+      end
+      object SettingsFirst: TMenuItem
+        Caption = 'Show first letter'
+        OnClick = SettingsFirstClick
+      end
+      object SettingsAccents: TMenuItem
+        Caption = 'Accents/umlauts'
+        object AccentsEnable: TMenuItem
+          Caption = 'Enable'
+          Checked = True
+          OnClick = AccentsEnableClick
+        end
+        object AccentsDisable: TMenuItem
+          Caption = 'Disable'
+          OnClick = AccentsDisableClick
+        end
+        object AccentsTransform: TMenuItem
+          Caption = 'Transform'
+          OnClick = AccentsTransformClick
+        end
+      end
+    end
+    object MenuHelp: TMenuItem
+      Caption = 'Help'
+      object HelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = HelpHelpClick
+      end
+      object HelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = HelpAboutClick
+      end
+    end
+  end
+  object dlgOpen: TOpenDialog
+    Title = 'Open words file'
+    Filter = 'Words lists|*.txt|All files|*.*'
+    left = 232
+    top = 192
+  end
+end

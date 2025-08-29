@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="Orbs20.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="orbs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fOrbs20"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="highscores.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHighScores"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="hi,pas"/>
+        <ComponentName Value="fHi"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="hi,pas.pas"/>
+        <ComponentName Value="fHi"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="21"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="hi.pas"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="8"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="205" Column="153" TopLine="183"/>
+      </Position1>
+      <Position2>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="206" Column="153" TopLine="184"/>
+      </Position2>
+      <Position3>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="210" Column="21" TopLine="188"/>
+      </Position3>
+      <Position4>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="212" Column="33" TopLine="190"/>
+      </Position4>
+      <Position5>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="215" Column="28" TopLine="193"/>
+      </Position5>
+      <Position6>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="219" Column="19" TopLine="196"/>
+      </Position6>
+      <Position7>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="221" Column="26" TopLine="198"/>
+      </Position7>
+      <Position8>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="242" Column="49" TopLine="219"/>
+      </Position8>
+      <Position9>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="244" Column="31" TopLine="221"/>
+      </Position9>
+      <Position10>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="246" Column="31" TopLine="224"/>
+      </Position10>
+      <Position11>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="247" Column="44" TopLine="225"/>
+      </Position11>
+      <Position12>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="252" Column="25" TopLine="230"/>
+      </Position12>
+      <Position13>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="256" Column="31" TopLine="234"/>
+      </Position13>
+      <Position14>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="257" Column="90" TopLine="235"/>
+      </Position14>
+      <Position15>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="260" Column="22" TopLine="238"/>
+      </Position15>
+      <Position16>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="261" Column="38" TopLine="239"/>
+      </Position16>
+      <Position17>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="306" Column="83" TopLine="284"/>
+      </Position17>
+      <Position18>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="309" Column="29" TopLine="287"/>
+      </Position18>
+      <Position19>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="310" Column="66" TopLine="288"/>
+      </Position19>
+      <Position20>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="311" Column="108" TopLine="289"/>
+      </Position20>
+      <Position21>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="324" Column="72" TopLine="302"/>
+      </Position21>
+      <Position22>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="328" Column="65" TopLine="306"/>
+      </Position22>
+      <Position23>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="402" Column="21" TopLine="380"/>
+      </Position23>
+      <Position24>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="427" Column="73" TopLine="406"/>
+      </Position24>
+      <Position25>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="453" TopLine="449"/>
+      </Position25>
+      <Position26>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="370" TopLine="361"/>
+      </Position26>
+      <Position27>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="387" Column="65" TopLine="360"/>
+      </Position27>
+      <Position28>
+        <Filename Value="orbs.pas"/>
+      </Position28>
+      <Position29>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="378" Column="4" TopLine="364"/>
+      </Position29>
+      <Position30>
+        <Filename Value="orbs.pas"/>
+        <Caret Line="239" Column="23" TopLine="229"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

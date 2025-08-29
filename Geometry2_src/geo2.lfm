@@ -1,0 +1,399 @@
+object fGeo2: TfGeo2
+  Left = 141
+  Height = 404
+  Top = 80
+  Width = 691
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Geometrie: Körper'
+  ClientHeight = 379
+  ClientWidth = 691
+  DesignTimePPI = 120
+  Menu = mGeo2
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object stSolid: TStaticText
+    Left = 24
+    Height = 17
+    Top = 10
+    Width = 400
+    Alignment = taCenter
+    Caption = 'Körper'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object imSolid: TImage
+    Left = 24
+    Height = 250
+    Top = 48
+    Width = 400
+    Center = True
+  end
+  object laV1: TLabel
+    Left = 456
+    Height = 17
+    Top = 52
+    Width = 13
+    Caption = 'v1'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edV1: TEdit
+    Left = 480
+    Height = 25
+    Top = 48
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object laV2: TLabel
+    Left = 456
+    Height = 17
+    Top = 97
+    Width = 13
+    Caption = 'v2'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edV2: TEdit
+    Left = 480
+    Height = 25
+    Top = 93
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object laV3: TLabel
+    Left = 456
+    Height = 17
+    Top = 142
+    Width = 13
+    Caption = 'v3'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edV3: TEdit
+    Left = 480
+    Height = 25
+    Top = 138
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object laV4: TLabel
+    Left = 456
+    Height = 17
+    Top = 187
+    Width = 13
+    Caption = 'v4'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edV4: TEdit
+    Left = 480
+    Height = 25
+    Top = 183
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object laExercise: TLabel
+    Left = 24
+    Height = 17
+    Top = 348
+    Width = 55
+    Caption = 'Volumen'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edAnswer: TEdit
+    Left = 120
+    Height = 25
+    Top = 344
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edEvaluation: TEdit
+    Left = 200
+    Height = 25
+    Top = 344
+    Width = 224
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object btQuestion: TButton
+    Left = 480
+    Height = 25
+    Top = 344
+    Width = 75
+    Caption = 'Frage'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object btAnswer: TButton
+    Left = 597
+    Height = 25
+    Top = 344
+    Width = 75
+    Caption = 'Antwort'
+    OnClick = btAnswerClick
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 568
+    Height = 17
+    Top = 52
+    Width = 40
+    Caption = 'Fragen'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edQuestion: TEdit
+    Left = 624
+    Height = 25
+    Top = 48
+    Width = 48
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object Label2: TLabel
+    Left = 568
+    Height = 17
+    Top = 97
+    Width = 39
+    Caption = 'Richtig'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCorrect: TEdit
+    Left = 624
+    Height = 25
+    Top = 93
+    Width = 48
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object Label3: TLabel
+    Left = 568
+    Height = 17
+    Top = 142
+    Width = 35
+    Caption = 'Falsch'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edFalse: TEdit
+    Left = 624
+    Height = 25
+    Top = 138
+    Width = 48
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object Label4: TLabel
+    Left = 568
+    Height = 17
+    Top = 187
+    Width = 29
+    Caption = 'Note'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSuccess: TEdit
+    Left = 624
+    Height = 25
+    Top = 183
+    Width = 48
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object StaticText1: TStaticText
+    Left = 552
+    Height = 17
+    Top = 281
+    Width = 120
+    Alignment = taRightJustify
+    Caption = 'π = 3.14159265'
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 13
+  end
+  object laV5: TLabel
+    Left = 456
+    Height = 17
+    Top = 232
+    Width = 13
+    Caption = 'v5'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edV5: TEdit
+    Left = 480
+    Height = 25
+    Top = 228
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object laV6: TLabel
+    Left = 456
+    Height = 17
+    Top = 277
+    Width = 13
+    Caption = 'v6'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edV6: TEdit
+    Left = 480
+    Height = 25
+    Top = 273
+    Width = 64
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 15
+  end
+  object StaticText2: TStaticText
+    Left = 120
+    Height = 21
+    Top = 312
+    Width = 304
+    Caption = 'Antworten mit 3 Dezimalstellen, bitte!'
+    Font.Color = clFuchsia
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 16
+  end
+  object mGeo2: TMainMenu
+    left = 24
+    top = 8
+    object mTest: TMenuItem
+      Caption = 'Test'
+      object mTestNew: TMenuItem
+        Caption = 'Neu'
+        OnClick = mTestNewClick
+      end
+      object mTestExit: TMenuItem
+        Caption = 'Verlassen'
+        OnClick = mTestExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Einstellungen'
+      object mSetExercises: TMenuItem
+        Caption = 'Berechnung'
+        object mSetExercVolume: TMenuItem
+          Caption = 'Volumen'
+          Checked = True
+          OnClick = mSetExercVolumeClick
+        end
+        object mSetExercArea: TMenuItem
+          Caption = 'Oberfläche'
+          OnClick = mSetExercAreaClick
+        end
+      end
+      object mSetLevel: TMenuItem
+        Caption = 'Aufgaben'
+        object mSetLevel1: TMenuItem
+          Caption = 'Grundkörper'
+          OnClick = mSetLevel1Click
+        end
+        object mSetLevel2: TMenuItem
+          Caption = 'Alle Körper'
+          Checked = True
+          OnClick = mSetLevel2Click
+        end
+        object mSetLevel3: TMenuItem
+          Caption = 'Pythagoras'
+          OnClick = mSetLevel3Click
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Hilfe'
+      object mHelpHelp: TMenuItem
+        Caption = 'Hilfe'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'Über'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object Popup: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Text = 'Text'
+    Title = 'Caption'
+    Visible = False
+    left = 400
+    top = 8
+  end
+end

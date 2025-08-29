@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="vqinit.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="10" HistoryIndex="9">
+      <Position1>
+        <Filename Value="vqinit.lpr"/>
+        <Caret Line="45" Column="42" TopLine="23"/>
+      </Position1>
+      <Position2>
+        <Filename Value="vqinit.lpr"/>
+        <Caret Line="25" Column="9" TopLine="23"/>
+      </Position2>
+      <Position3>
+        <Filename Value="vqinit.lpr"/>
+        <Caret Line="72" TopLine="46"/>
+      </Position3>
+      <Position4>
+        <Filename Value="vqinit.lpr"/>
+        <Caret Line="44" Column="21" TopLine="28"/>
+      </Position4>
+      <Position5>
+        <Filename Value="vqinit.lpr"/>
+        <Caret Line="70" Column="29" TopLine="48"/>
+      </Position5>
+      <Position6>
+        <Filename Value="vqinit.lpr"/>
+        <Caret Line="19" Column="11"/>
+      </Position6>
+      <Position7>
+        <Filename Value="vqinit.lpr"/>
+        <Caret Line="68" Column="5" TopLine="43"/>
+      </Position7>
+      <Position8>
+        <Filename Value="vqinit.lpr"/>
+        <Caret Line="65" Column="42" TopLine="44"/>
+      </Position8>
+      <Position9>
+        <Filename Value="vqinit.lpr"/>
+        <Caret Line="82" Column="14" TopLine="55"/>
+      </Position9>
+      <Position10>
+        <Filename Value="vqinit.lpr"/>
+        <Caret Line="10" Column="56"/>
+      </Position10>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

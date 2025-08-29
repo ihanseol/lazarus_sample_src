@@ -1,0 +1,319 @@
+object fEConf: TfEConf
+  Left = 249
+  Height = 369
+  Top = 143
+  Width = 872
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Electron Configurations'
+  ClientHeight = 344
+  ClientWidth = 872
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object StaticText1: TStaticText
+    Left = 16
+    Height = 30
+    Top = 16
+    Width = 422
+    Caption = 'Chemistry exercises: Electron configurations.'
+    Font.Height = -18
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object laQuestion: TLabel
+    Left = 15
+    Height = 23
+    Top = 60
+    Width = 71
+    Caption = 'Question'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 23
+    Top = 108
+    Width = 62
+    Caption = 'Element'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edName: TEdit
+    Left = 88
+    Height = 31
+    Top = 104
+    Width = 144
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object Label2: TLabel
+    Left = 271
+    Height = 23
+    Top = 108
+    Width = 119
+    Caption = 'Atomic number'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edAtomicNumber: TEdit
+    Left = 397
+    Height = 31
+    Top = 104
+    Width = 41
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object Label3: TLabel
+    Left = 271
+    Height = 23
+    Top = 156
+    Width = 56
+    Caption = 'Symbol'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSymbol: TEdit
+    Left = 397
+    Height = 31
+    Top = 152
+    Width = 41
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object laConfiguration: TLabel
+    Left = 17
+    Height = 23
+    Top = 216
+    Width = 173
+    Caption = 'Electron configuration:'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edConfiguration: TEdit
+    Left = 16
+    Height = 31
+    Top = 250
+    Width = 656
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Label5: TLabel
+    Left = 728
+    Height = 23
+    Top = 108
+    Width = 69
+    Caption = 'Question'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edQuestion: TEdit
+    Left = 806
+    Height = 31
+    Top = 104
+    Width = 56
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object Label6: TLabel
+    Left = 728
+    Height = 23
+    Top = 156
+    Width = 56
+    Caption = 'Correct'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCorrect: TEdit
+    Left = 806
+    Height = 31
+    Top = 152
+    Width = 56
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object Label7: TLabel
+    Left = 728
+    Height = 23
+    Top = 204
+    Width = 36
+    Caption = 'False'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edFalse: TEdit
+    Left = 806
+    Height = 31
+    Top = 200
+    Width = 56
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object Label8: TLabel
+    Left = 728
+    Height = 23
+    Top = 252
+    Width = 58
+    Caption = 'Success'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSuccess: TEdit
+    Left = 806
+    Height = 31
+    Top = 248
+    Width = 56
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object edEval: TEdit
+    Left = 17
+    Height = 31
+    Top = 298
+    Width = 655
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object btQuestion: TButton
+    Left = 768
+    Height = 31
+    Top = 298
+    Width = 94
+    Caption = 'Question'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object Label9: TLabel
+    Left = 16
+    Height = 23
+    Top = 156
+    Width = 55
+    Caption = 'Charge'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCharge: TEdit
+    Left = 88
+    Height = 31
+    Top = 152
+    Width = 32
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object mMenu: TMainMenu
+    left = 816
+    top = 16
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileNew: TMenuItem
+        Caption = 'New'
+        OnClick = mFileNewClick
+      end
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      Checked = True
+      object mOptionsNQuestions: TMenuItem
+        Caption = 'Number of questions...'
+        OnClick = mOptionsNQuestionsClick
+      end
+      object mOptionsAll: TMenuItem
+        Caption = 'Include all elements'
+        Checked = True
+        OnClick = mOptionsAllClick
+      end
+      object mOptionsIons: TMenuItem
+        Caption = 'Include ion exercises'
+        Checked = True
+        OnClick = mOptionsIonsClick
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object mOptionsSymbols: TMenuItem
+        Caption = 'Display element symbol'
+        Checked = True
+        OnClick = mOptionsSymbolsClick
+      end
+      object mOptionsAtomicNumber: TMenuItem
+        Caption = 'Display atomic number'
+        Checked = True
+        OnClick = mOptionsAtomicNumberClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpChemistry: TMenuItem
+        Caption = 'Chemistry help'
+        OnClick = mHelpChemistryClick
+      end
+      object mHelpHelp: TMenuItem
+        Caption = 'Program help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

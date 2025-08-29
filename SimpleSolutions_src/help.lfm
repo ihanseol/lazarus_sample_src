@@ -1,0 +1,130 @@
+object fHelp: TfHelp
+  Left = 157
+  Height = 608
+  Top = 162
+  Width = 1088
+  BorderIcons = [biSystemMenu]
+  Caption = 'Solution Concentrations'
+  ClientHeight = 608
+  ClientWidth = 1088
+  DesignTimePPI = 120
+  Font.Height = -18
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 9
+    Height = 25
+    Top = 10
+    Width = 256
+    Caption = '"SimpleSolutions" usage help.'
+    Font.Height = -18
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edHelp: TMemo
+    Left = 9
+    Height = 513
+    Top = 48
+    Width = 1070
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"SimpleSolutions" is a chemistry application that may be used to calculate the concentration of aqueous and other solutions. The solute quantity may be given as molarity, as mole quantity, as mass or as volume (in this latter case, the solute density must also be given). The application calculates the solute and solvent molecular weight, mole quantity and mole fraction. The solution concentration is shown in g/L, as molarity and molality, and (for acids and bases) as normality. The application also calculates several percentage values for the solute. Please, note that the program does not do a validation of user input data. It does neither check if the solute entered is effectively soluble, nor considers the maximum of solute that may actually be dissolved in the solvent volume specified. Thus, if you enter senseless data, as a solution of AgCl (silver compounds aren''t soluble) or a solution of 2kg of NaCl in 100ml of water, the calculation results will be just as senseless.'
+      ''
+      'Menu item "File".'
+      '================='
+      ''
+      'Exit.'
+      '-----'
+      'Exit the application.'
+      ''
+      'Menu item "Options".'
+      '===================='
+      ''
+      'Solvents list ...'
+      '-----------------'
+      'You can choose what solvents are displayed in the Solvents combobox: "Short list" (default) = 10 common solvents, "Long list" = 28 solvents (this is just for user convenience).'
+      'If "Use formulas" is checked, the combobox items will be the solvents'' formulas rather then their names.'
+      ''
+      'Atomic mass values ...'
+      '----------------------'
+      'Allows you to choose the precision of the elements'' atomic mass. Possible values are 0 to 5 decimal digits. Default = 2.'
+      ''
+      'Density values ...'
+      '------------------'
+      'Allows you to choose the precision of the solvents'' density. Possible values are 2 to 4 decimal digits. Default = 2.'
+      'If "H2O density = 1 g/ml" is checked, this water density is used independently of the density precision setting. Otherwise, the value of 0,998 is used. Default = 1 g/ml.'
+      ''
+      'Calculation values ...'
+      '----------------------'
+      'Allows you to choose the precision of the calculation results (as displayed on the form). Possible values are 2 to 3. Default = 3.'
+      'If "m/v% in mg/ml" is checked, the mass-volume percentage is expressed in mg of solute per 100ml of solvent (standard for blood concentrations), otherwise it is expressed in g of solute per 100 ml of solvent (standard for clinical solutions). Default = g/dl.'
+      ''
+      'Menu item "Help".'
+      '================='
+      ''
+      'Help.'
+      '-----'
+      'Display of application usage help (this text).'
+      ''
+      'About.'
+      '------'
+      'Display of application author, version and date-written.'
+      ''
+      'Using the "SimpleSolutions" application.'
+      '========================================'
+      ''
+      'The user has to enter the solute''s formula and quantity, to select a solvent (from the list) and enter its volume. The calculations are done (and the results displayed) by pushing the "Compute" button.'
+      ''
+      'Input of the solute data.'
+      '-------------------------'
+      'The solute quantity may be entered as molarity (number of moles in a solution volume of 1L), as mol quantity (moles or millimoles in the actual solution volume), as mass (mg, g, or kg), or as volume (ml, cl, dl, L). In this latter case, it is mandatory to enter a solute density. The characteristic of the solute allows to distinguish mineral acids and bases and organic acids from "ordinary" substances. The only difference that the choice makes, is that for the "special" substances mentioned, the normality is calculated. Calculated, if the application recognizes the acid or base chemical group within the molecule. Formulas must have the following format:'
+      '  - mineral acids: must start with H or Hi (where i is an integer).'
+      '  - mineral bases: must end with OH or (OH)i.'
+      '  - organic acids: must end with COOH, or (COOH)i;'
+      '                   there may also be a carboxyl group (in inverse order) at the left end of the molecule; ex: HOOCCOOH.'
+      'Note, that in the actual program version, normality is neither calculated for organic bases, nor for any salts.'
+      ''
+      'Input of the solvent data.'
+      '--------------------------'
+      'If the solvent is not in the list, or if the density value automatically filled-in differs from your value for this solvent, choose "custom solvent" and enter a density in the corresponding edit field. The solvent quantity is always given in L.'
+      ''
+      'Examples:'
+      '========='
+      ''
+      'Quantities and concentrations:'
+      'How many mol and how many g of table salt are contained in 250ml of a 5.3M solution? What is this solution''s concentration?'
+      'Input:  Formula = NaCl; "Quantity is" = molarity; Molarity = 5.3 M; Solvent volume = 0.25 L.'
+      'Result: Quantity (solute) = 1.325 mol; Mass (solute) = 77,433 g; Concentration = 309,732 g/L.'
+      ''
+      'Molarity and molality:'
+      'What are the molarity and the molality of 506.25 g of iodine dissolved in 1 L of dichloromethane?'
+      'Input:  Formula = I2; "Quantity is" = mass (weight); Mass = 506.25 g; Solvent name = dichloromethane (selected from list);'
+      '        Solvent volume = 1 L.'
+      'Result: Molarity = 1.995 M; Molality = 1.5.'
+      ''
+      'Normality:'
+      'What are the molarity and the normality of 24.5 g of phosphoric acid dissolved in 0.5 L of water?'
+      'Input:  Characteristic = mineral acid; Formula = H3PO4; "Quantity is" = mass (weight); Mass = 24.5 g; Solvent volume = 0.5 L.'
+      'Result: Molarity = 0,5 M; Normality = 1.5 N.'
+      ''
+      'Solute volumes:'
+      'What is the mole fraction of ethanol in a 750-ml bottle of a wine with 12% alcohol (ethanol density = 0.789)?'
+      'Input:  Formula = CH3CH2OH; Solute density = 0.789; "Quantity is" = volume; Solute volume = 90 ml (750 × 0,12);'
+      '        Solvent volume = 0,66 L (750 - 90 ml).'
+      'Result: Quantity (solute) = 1,541 mole; Quantity (solvent) = 36.626 mole; Mole fraction = 0.04.'
+    )
+    ParentFont = False
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+  end
+  object btClose: TButton
+    Left = 985
+    Height = 31
+    Top = 572
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+end

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="10">
+      <Unit0>
+        <Filename Value="SpanishAR.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="spar_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fSpanishAR"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="spar_conj.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fConj"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="conjar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="spar_ex.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fSelectEx"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="198"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="spar_help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="115"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="spar_sel.pas"/>
+        <ComponentName Value="fSelectConj"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="109"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="spar_unknown.pas"/>
+        <ComponentName Value="fUnknown"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="82"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\Programs\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="447"/>
+        <CursorPos Y="460"/>
+        <UsageCount Value="7"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\ConjugaisonER\selectex.lfm"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="43" Y="14"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit9>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="611" Column="49" TopLine="592"/>
+      </Position1>
+      <Position2>
+        <Filename Value="conjar.pas"/>
+        <Caret Line="69" Column="26" TopLine="55"/>
+      </Position2>
+      <Position3>
+        <Filename Value="conjar.pas"/>
+        <Caret Line="206" Column="74" TopLine="181"/>
+      </Position3>
+      <Position4>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="744" Column="6" TopLine="731"/>
+      </Position4>
+      <Position5>
+        <Filename Value="conjar.pas"/>
+        <Caret Line="172" TopLine="163"/>
+      </Position5>
+      <Position6>
+        <Filename Value="conjar.pas"/>
+        <Caret Line="179" Column="35" TopLine="171"/>
+      </Position6>
+      <Position7>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="746" Column="25" TopLine="732"/>
+      </Position7>
+      <Position8>
+        <Filename Value="spar_conj.pas"/>
+        <Caret Line="86" Column="55" TopLine="66"/>
+      </Position8>
+      <Position9>
+        <Filename Value="spar_conj.pas"/>
+        <Caret Line="70" TopLine="68"/>
+      </Position9>
+      <Position10>
+        <Filename Value="spar_conj.pas"/>
+      </Position10>
+      <Position11>
+        <Filename Value="spar_conj.pas"/>
+        <Caret Line="82" Column="53" TopLine="71"/>
+      </Position11>
+      <Position12>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="459" Column="30" TopLine="433"/>
+      </Position12>
+      <Position13>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="459" Column="30" TopLine="459"/>
+      </Position13>
+      <Position14>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="500" Column="29" TopLine="497"/>
+      </Position14>
+      <Position15>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="8" Column="38"/>
+      </Position15>
+      <Position16>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="657" Column="25" TopLine="636"/>
+      </Position16>
+      <Position17>
+        <Filename Value="spar_main.pas"/>
+      </Position17>
+      <Position18>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="651" Column="64" TopLine="650"/>
+      </Position18>
+      <Position19>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="46" Column="56" TopLine="35"/>
+      </Position19>
+      <Position20>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="673" Column="3" TopLine="649"/>
+      </Position20>
+      <Position21>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="410" Column="25" TopLine="398"/>
+      </Position21>
+      <Position22>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="703" TopLine="677"/>
+      </Position22>
+      <Position23>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="384" Column="24" TopLine="311"/>
+      </Position23>
+      <Position24>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="391" TopLine="365"/>
+      </Position24>
+      <Position25>
+        <Filename Value="spar_main.pas"/>
+      </Position25>
+      <Position26>
+        <Filename Value="spar_main.pas"/>
+        <Caret Line="685" Column="56" TopLine="664"/>
+      </Position26>
+      <Position27>
+        <Filename Value="SpanishAR.lpr"/>
+        <Caret Line="11" Column="34"/>
+      </Position27>
+      <Position28>
+        <Filename Value="conjar.pas"/>
+        <Caret Line="28" TopLine="26"/>
+      </Position28>
+      <Position29>
+        <Filename Value="spar_conj.pas"/>
+        <Caret Line="191" Column="66" TopLine="191"/>
+      </Position29>
+      <Position30>
+        <Filename Value="SpanishAR.lpr"/>
+        <Caret Line="12" Column="41"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

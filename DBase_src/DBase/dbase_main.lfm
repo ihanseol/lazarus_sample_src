@@ -1,0 +1,76 @@
+object fDBase: TfDBase
+  Left = 276
+  Height = 461
+  Top = 178
+  Width = 752
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Test dBASE access'
+  ClientHeight = 461
+  ClientWidth = 752
+  Font.Height = -13
+  OnCreate = FormCreate
+  LCLVersion = '3.0.0.3'
+  object StaticText2: TStaticText
+    Left = 116
+    Height = 24
+    Top = 16
+    Width = 521
+    Alignment = taCenter
+    Caption = 'Test Lazarus/Free Pascal access to dBASE table.'
+    Font.Height = -16
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edCustomers: TMemo
+    Left = 9
+    Height = 352
+    Top = 48
+    Width = 734
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 4
+    TabStop = False
+  end
+  object btSearch: TButton
+    Left = 560
+    Height = 24
+    Top = 424
+    Width = 75
+    Caption = 'Search'
+    TabOrder = 2
+    OnClick = btSearchClick
+  end
+  object edCountry: TEdit
+    Left = 64
+    Height = 25
+    Top = 424
+    Width = 208
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 9
+    Height = 17
+    Top = 428
+    Width = 45
+    Caption = 'Country'
+  end
+  object btExit: TButton
+    Left = 668
+    Height = 24
+    Top = 424
+    Width = 75
+    Caption = 'Exit'
+    TabOrder = 3
+    OnClick = btExitClick
+  end
+  object dbfCustomer: TDbf
+    FilePath = 'C:\Data\Progrmming\Lazarus\DBase\'
+    IndexDefs = <>
+    TableName = 'CUSTOMER.DBF'
+    TableLevel = 3
+    FilterOptions = []
+    Left = 40
+    Top = 72
+  end
+end

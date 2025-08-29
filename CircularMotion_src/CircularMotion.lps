@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="CircularMotion.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fCM"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="99" Column="9" TopLine="75"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="101" Column="56" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="111" Column="3" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="153" Column="30" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="192" Column="33" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="180" Column="14" TopLine="163"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="305" Column="52" TopLine="280"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="121" Column="77" TopLine="102"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="280" Column="21" TopLine="262"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="244" Column="94" TopLine="170"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="243" Column="94" TopLine="218"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="242" Column="94" TopLine="217"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="241" Column="94" TopLine="216"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="227" Column="48" TopLine="216"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="279" TopLine="269"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="205" TopLine="193"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="241" Column="40" TopLine="227"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="174" Column="23" TopLine="161"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="195" Column="47" TopLine="182"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="98" Column="17" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="124" Column="37" TopLine="101"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="98" Column="17" TopLine="85"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="123" Column="35" TopLine="101"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="183" Column="69" TopLine="158"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="190" Column="13" TopLine="178"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="299" Column="13" TopLine="289"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="36" Column="5" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="300" TopLine="274"/>
+      </Position>
+      <Position>
+        <Filename Value="cm.pas"/>
+        <Caret Line="323" TopLine="297"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="dejong.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="13" HistoryIndex="12">
+      <Position1>
+        <Filename Value="dejong.lpr"/>
+        <Caret Line="74" TopLine="52"/>
+      </Position1>
+      <Position2>
+        <Filename Value="dejong.lpr"/>
+        <Caret Line="29" TopLine="16"/>
+      </Position2>
+      <Position3>
+        <Filename Value="dejong.lpr"/>
+        <Caret Line="36" Column="6" TopLine="24"/>
+      </Position3>
+      <Position4>
+        <Filename Value="dejong.lpr"/>
+        <Caret Line="23" TopLine="18"/>
+      </Position4>
+      <Position5>
+        <Filename Value="dejong.lpr"/>
+        <Caret Line="48" Column="14" TopLine="27"/>
+      </Position5>
+      <Position6>
+        <Filename Value="dejong.lpr"/>
+        <Caret Line="120" Column="30" TopLine="95"/>
+      </Position6>
+      <Position7>
+        <Filename Value="dejong.lpr"/>
+        <Caret Line="48" Column="17" TopLine="27"/>
+      </Position7>
+      <Position8>
+        <Filename Value="dejong.lpr"/>
+        <Caret Line="23" Column="106" TopLine="10"/>
+      </Position8>
+      <Position9>
+        <Filename Value="dejong.lpr"/>
+        <Caret Line="53" Column="5" TopLine="38"/>
+      </Position9>
+      <Position10>
+        <Filename Value="dejong.lpr"/>
+        <Caret Line="141" Column="22" TopLine="115"/>
+      </Position10>
+      <Position11>
+        <Filename Value="dejong.lpr"/>
+      </Position11>
+      <Position12>
+        <Filename Value="dejong.lpr"/>
+        <Caret Line="24" Column="80" TopLine="15"/>
+      </Position12>
+      <Position13>
+        <Filename Value="dejong.lpr"/>
+        <Caret Line="40" Column="80" TopLine="28"/>
+      </Position13>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

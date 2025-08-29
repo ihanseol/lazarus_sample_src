@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <title>SimpleTitration help</title>
+  <meta name="description" content="Help text for Lazarus/Free Pascal application 'SimpleTitration'"/>
+  <style type="text/css"><!--
+    a:link { color:#000000; text-decoration: none }
+    a:hover { font-weight: bold }
+  //--></style>
+</head>
+
+<body style="margin: 0; padding: 0; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.9em; background-color: #FFEBCD; color: #000000;">
+  <div id="nav" style="float: left; padding: 8px; width: 15%; position: fixed">
+  <p style="text-decoration: underline">
+    <a href="#top">Content:</a>
+  </p>
+  <p style="padding-top:15px">
+    <a href="#calc">Menu: Calculation</a>
+  </p>
+  <p>
+    <a href="#options">Menu: Options</a>
+  </p>
+  <p>
+    <a href="#help">Menu: Help</a>
+  </p>
+  <p style="padding-top:15px">
+    <a href="#ph">pH calculation</a>
+  </p>
+  <p>
+    <a href="#curve">Titration curve</a>
+  </p>
+  <p>
+    <a href="#simul">Titration simulation</a>
+  </p>
+  </p>
+  <p style="padding-top:15px">
+    <a href="mailto:info@streetinfo.lu">Contact</a>
+  </p>
+  </div>
+  <div id="content" style="float: right; padding: 8px; width: 85%; background-color: #FFF8DC">
+  <a name="top"><h1 style="margin: 0; padding: 0"><span style="font-style: italic">SimpleTitration</span> Help.</h1></a>
+  <p style="padding-top:10px; text-align: justify">
+    <span style="font-style: italic">SimpleTitration</span> is a free chemistry PC application, dealing with the titration of a strong acid by a strong base or vice-versa. The
+    program may be used:
+    <ul style="margin-top:0px">
+      <li>to calculate the pH of a given strong acid plus strong base solution,</li>
+      <li>to draw strong acid-base/base-acid titration curves,</li>
+      <li>to simulate strong acid-base/base-acid titrations.</li>
+    </ul>
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="calc">Menu: Calculation.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Solution pH.
+  </p>
+  <p style="text-align: justify">
+    Calculate the pH of a solution formed by a given volume of a strong acid of known concentration plus a given volume of a strong base of known concentration.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Titration curve.
+  </p>
+  <p style="text-align: justify">
+    Draw the curve of the titration of a given volume of a strong acid (resp. strong base) of known concentration by a strong base (resp. strong acid) of known
+    concentration. Which titration is actually done depends on the settings made in the <span style="font-weight: bold">Options</span> menu.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Titration simulation.
+  </p>
+  <p style="text-align: justify">
+    Simulate the titration of a given volume of a strong acid (resp. strong base) by a strong base (resp. strong acid) of known concentration. Which titration is
+    actually done depends on the settings made in the <span style="font-weight: bold">Options</span> menu. For details cf. <a href="#simul"><span style="color:#0000FF;
+    text-decoration:underline">Running titration simulations</span></a>.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Exit.
+  </p>
+  <p style="text-align: justify">
+    Exit the <span style="font-style: italic">SimpleTitration</span> application.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="options">Menu: Options.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Titration (and submenus).
+  </p>
+  <p style="text-align: justify">
+    Selection of the titration type: Toggle between titration of a strong acid by a strong base and and titration of a strong base by a strong acid.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Simulation (and submenus).
+  </p>
+  <p style="text-align: justify">
+    Selection of the simulation mode: Toggle between 3 possibilities, how the simulation should be run; in fact, the choice between "real simulation" mode, with the
+    concentration of the flask solution and the volume of the titrant at the equivalence point being unknown (values randomly determined by the application), and setting
+    one of these values by user input. For details, cf. <a href="#simul"><span style="color:#0000FF; text-decoration:underline">Running titration simulations</span></a>.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Flask content (and submenus).
+  </p>
+  <p style="text-align: justify">
+    Choice between 4 values for the maximum flask volume. This affects the filling of the flask (colored solution shown). If the flask is to small to contain a given
+    solution volume, a warning message is displayed (and the flask is shown empty). In the case of a pH calculation or titration curve, the application continues to do
+    the calculations. During a simulation, a full flask results in terminating the calculations.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Quantities in mMol.
+  </p>
+  <p style="text-align: justify">
+    By default quantities are displayed in Mol and concentrations in Mol/L. As these values are mostly very small, you may prefer using mMol resp. mMol/L, by checking
+    this option.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="help">Menu: Help.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Help.
+  </p>
+  <p style="text-align: justify">
+    Displays usage help for the <span style="font-style: italic">SimpleTitration</span> application (this text) in your webbrowser.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    About.
+  </p>
+  <p style="text-align: justify">
+    Displays version, author and date-written of the <span style="font-style: italic">SimpleTitration</span> application.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="ph">Doing pH calculations.</a>
+  </p>
+  <p style="padding-top:5px; text-align: justify">
+    The flask is supposed to contain a mixture of a strong acid and a strong base. With the user choosing acid and base and their respective volume and molarity, the
+    application calculates the pH of the solution. Please, note, that in the case of a <span style="font-weight:bold">polyprotic acid</span> (such as H<sub>2</sub>SO<sub>4</sub>),
+    the (not entirely correct) assumption is made, that there is only 1 dissociation step, with the production of H<sup>+</sup> and SO<sub>4</sub><sup>2-</sup> ions only. As in
+    reality, there are also HSO4<sup>-</sup> ions present in the solution, the calculated pH will differ from its value in the real world.
+  </p>
+  <p style="padding-top:5px; text-align: justify">
+    The flask's content shown is proportional to the solution's total volume. The color of the solution changes from green (unknown pH) to red, blue or magenta (acidic, basic,
+    neutral) when the pH has been calculated.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="curve">Drawing titration curves.</a>
+  </p>
+  <p style="padding-top:5px; text-align: justify">
+    The flask contains a strong acid (resp. a strong base) of known volume and concentration. A strong base (resp. a strong acid) of known concentration, contained in the buret,
+    is added to the solution by drops of 1 ml. With volume and concentrations entered by the user, the application determines the titration curve, i.e the solution's pH as a
+    function of the titrant volume added. The curve is drawn beyond the equivalence point, so you can see, how the pH changes, when the originally acidic solution
+    becomes basic (resp. the originally basic solution becomes acidic). As a result of the simplifications made for polyprotic acids (cf. above), titration curves for acid =
+    H<sub>2</sub>SO<sub>4</sub> or acid = H<sub>2</sub>SeO<sub>4</sub> are different from what they would be in real life.
+  </p>
+  <p style="padding-top:5px; text-align: justify">
+    You should be aware, that the curve will only be meaningful if the volume of titrant at the equivalence point is not "to small" (at least 5 ml). Thus titrations, where the
+    concentration of the titrant is much larger than the one of the the solution in the flask, will give a proper curve only, if you choose a "large" volume. Please, note, that
+    the curve is drawn only for a pH range between 0 and 14; for concentrations greater than 1M, this will result in a curve, that starts only for the volume, where the pH
+    becomes 0 (resp. 14). Also note, that if the volumes added are to small or to big, there won't be any ticks displayed on the x-axis.
+  </p>
+  <p style="padding-top:5px; text-align: justify">
+    The titration values displayed will be those at the equivalence point. The flask content is proportional to the total solution volume and the color of the flask solution
+    changes from red (titration of an acid) or blue (titration of a base) to magenta.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="simul">Running titration simulations.</a>
+  </p>
+  <p style="padding-top:5px; text-align: justify">
+    The major usage of titrations is to determine the concentration of an acid (resp. base) with known volume, contained in a flask and titrated by a base (resp. acid) of known
+    concentration, added drop by drop from a buret. This is exactly what the <span style="font-style: italic">SimpleTitration</span> simulation does. With the volume of the
+    flask solution and the concentration of the titrant entered by the user, the application adds the titrant with a debit of 1 ml/s until the equivalence point is reached.
+    The variation of the pH during this process may be observed by looking at the values displayed (use the "Pause" button to hold the simulation at any moment), as well as
+    by looking at the real-time titration curve. The remarks, concerning polyprotic acid and reasonably choosen volume and concentration values, mentioned above, do apply here,
+    too, of course.
+  </p>
+  <p style="padding-top:5px; text-align: justify">
+    The content of the flask and the color of the solution are also adapted in real time. If the flask is full (acid plus base volume greater than maximum flask volume),
+    the simulation is stopped.
+  </p>
+  <p style="padding-top:5px; text-align: justify">
+    In real life, the titrant has a given concentration and a simulation of the titration is only possible, if this (unknown) value is known to the application. By default
+    (with <span style="font-weight:bold">Simulation = Random concentration</span> checked in the "Options" menu), the program sets the titrant concentration to a value, that
+    is partially random, partially based on the other values (entered by the user); this, to avoid impossible or to short simulations and other potential problems. The application
+    gives also the possibility to let the user set the unknown concentration value. By checking <span style="font-weight:bold">Simulation = Concentration (user input)</span>,
+    the value may be set as such; this may be thought of a chemistry lab experiment, with titration of two known solutions. Another possibility is the option <span
+    style="font-weight:bold">Simulation = Equ. pt. volume (user input)</span>, where the user has to enter the volume of titrant, that has to be added in order to reach the
+    equivalence point; this corresponds to a situation, where you use a titrant of unknown concentration, do the titration until your indicator tells you that the equivalence
+    point has been reached and determine the volume added by measuring the volume of the titrant, that has been added up to this moment.
+  </p>
+  </div>
+</body>
+
+</html>

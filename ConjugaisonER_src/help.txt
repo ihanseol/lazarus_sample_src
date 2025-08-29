@@ -1,0 +1,87 @@
+ConjugaisonER v1.1 - Aide programme.
+====================================
+
+Le programme ConjugaisonER conjugue les verbes français en -er, offrant une double foncionnalité:
+
+  1. affichage de la conjugaison (voix active, passive et pronominale) d'un verbe.
+  2. génération d'exercices de conjugaison (soit en mode interactif, soit en créant des fichiers texte questions/réponses).
+
+Menu "Conjugaison".
+===================
+
+Exercices "avoir".
+------------------
+Exercices de conjugaison du verbe "avoir". Ces exercices portent sur tous les modes, temps, formes...
+
+Exercices "être".
+-----------------
+Exercices de conjugaison du verbe "être". Ces exercices portent sur tous les modes, temps, formes...
+
+Exercices "verbes -er".
+-----------------------
+Exercices de conjugaison des verbes en -er. 
+Une nouvelle fenêtre s'ouvre et l'utilisateur pourra choisir en détail (en fonction de ce qui sont ses points faibles) ce qui sera inclus dans les questions (les verbes étant forcément l'un des 300 "connus" par le proramme). Il est ainsi possible de s'entraîner avec uniquement le subjonctif, les temps composés, le passif, le verbe aller, les verbes en -eter et -eler, etc.
+Pour les exercices interactifs, après avoir fait ses choix, appuyez sur "Question" pour que la question s'affiche, donnez votre réponse et appuyez sur "Réponse" pour en contrôler l'exactitude. Le nombre de questions du test peut être choisi dans le champ "Nombre de questions".
+
+Fichier exercices.
+------------------
+Génération d'un fichier text avec des questions de conjugaison.
+Le nombre de questions est celui choisi dans le champ "Nombre de questions"; sur quoi le test portera, dépend de ce qui a été choisi auparavant (de la même manière que pour le test interactif). En fait, ce seront deux fichiers qui seront générés: [nom-fichier] (questions) ne contient que les questions, [nom-fichier] (réponses) contient et les questions et les réponses.
+
+Affichage conjugaison.
+----------------------
+Affichage de la conjugaison pour un verbe choisi par l'utilisateur.
+La conjugaison affichée comporte, pour le verbe choisi, toutes les voix, formes (fonctionnalité non disponible dans la version 1.1), modes et temps. Si ce verbe n'est pas "connu" par l'application, une fenêtre s'ouvre, où l'utilisateur peut fournir des informations concernant la conjugaison de ce verbe, tel par exemple s'il s'agit d'un verbe impersonnel ou d'un verbe n'ayant pas de voix passive ou pronominale. Le traitement correct des exceptions (verbes en -cer, -ger...) est automatique. Notez qu'un verbe précédé de "se" (ex: se regarder) est considéré comme un verbe pronominal pur; pour afficher toutes les voix pronominale du verbe, entrez "regarder", puis, dans la fenêtre de conjugaison, choisissez la voix désirée.
+
+Quitter.
+--------
+Quitter l'application.
+
+Menu "Options.
+==============
+
+Affichage.
+----------
+Les entrées de ce menu permettent de choisir comment les formes verbales dans les exercices respectivement les tableaux de conjugaison sont affichées.
+
+  - Ne pas afficher "indicatif":
+    Dans les exercices, utiliser une forme plus courte si mode = indicatif, tel "imparfait" au lieu de "indicatif imparfait".
+  - Séparation entre le radical et la terminaison:
+    Mettre en évidence la terminaison, p.ex. nous aim-ons, nous aimer-ons-
+  - Séparation entre la racine et le reste du radical:
+    Mettre en évidence la racine du verbe: p.ex. nous aim-er-ons.
+  - Afficher les irrégularités en couleur:
+    Utiliser la couleur rouge si la conjugaison présente une irrégularité, p.ex. il enverra.
+  - Afficher les exceptions en couleur:
+    Utiliser la couleur orange si la conjugaison présente une exception, p.ex. je mangeais, ils envoient.
+
+Conjugaison.
+------------
+Possibilité de choisir comment le programme conjugue un verbe, s'il y a deux alternatives possibles.
+  - -eler/-eter: selon la réforme de 1990:
+     Utiliser les "nouvelles règles" émis en 1990 au lieu de la conjugaison "classique".
+  - -ayer: garder le y dans tous les cas:
+     Ne pas transformer y en i (comme avec les verbes en -uyer et -oyer); ex: je paye (au lieu de: je paie).
+  - Utiliser "avoir" dans le cas des verbes à deux auxiliaires:
+    Conjuguer des verbes comme "monter" avec "avoir" au lieu de "être".
+Note:
+Dans a version 1.1, les verbes en -eler/-eter sont toujours conjugués selon les règles de la réforme de 1990 et les verbes à 2 auxiliaires sont toujours conjugués avec "être".
+
+Menu "Aide".
+============
+
+Conjugaison.
+------------
+Notions de base concernant la conjugasion des verbes français.
+
+Verbes en -er.
+--------------
+Règles concernant la conjugaison des verbes en -er.
+
+Aide programme.
+---------------
+Ce texte...
+
+Info programme.
+---------------
+Informations concernant le programme ConjugaisonER.

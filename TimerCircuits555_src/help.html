@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <title>TimerCircuits555 help</title>
+  <meta name="description" content="Help text for Lazarus/Free Pascal application 'TimerCircuits555'"/>
+  <style type="text/css"><!--
+    a:link { color:#000000; text-decoration:none }
+    a:hover { font-weight:bold }
+  //--></style>
+</head>
+
+<body style="margin:0; padding:0; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:0.9em; background-color:#FFEBCD; color:#000000;">
+  <div id="nav" style="float:left; padding:8px; width:12%; position:fixed">
+  <p style="text-decoration:underline">
+    <a href="#top">Content:</a>
+  </p>
+  <p style="padding-top:10px">
+    <a href="#circuit">Menu: Circuit</a>
+  </p>
+  <p>
+    <a href="#options">Menu: Settings</a>
+  </p>
+  <p>
+    <a href="#help">Menu: Help</a>
+  </p>
+  <p style="padding-top:10px">
+    <a href="#run">Timer circuits</a>
+  </p>
+  <p style="padding-top:10px">
+    <a href="mailto:info@streetinfo.lu">Contact</a>
+  </p>
+  </div>
+  <div id="content" style="float:right; padding:8px; width:88%; background-color:#FFF8DC">
+  <a name="top"><h1 style="margin:0; padding:0"><span style="font-style:italic">TimerCircuits555</span> Help.</h1></a>
+  <p style="padding-top:10px; text-align:justify">
+    <span style="font-style:italic">TimerCircuits555</span> is a simple electronics application that simulates bistable, monostable and astable circuits implemented with a
+    555 timer IC (e.g. NE555). The following help text only concerns the usage of the application. For details concerning the 555 timer and the circuits simulated by the program,
+    please, search the Internet or have a look at an electronics book. The <a href="http://www.kpsec.freeuk.com/555timer.htm" target="_blank"><span style="color:blue">555 and
+    556 Timer Circuits</span></a> page at the website of <span style="font-style:italic">The Electronics Club</span>, for example, contains all information, that you need, to
+    understand how the IC and the circuits work and how the time period (monostable) and mark and space time (astable) are calculated.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="circuit">Menu: Circuit.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Exit.
+  </p>
+  <p style="text-align:justify">
+    Exit the <span style="font-style:italic">TimerCircuits555</span> application.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="options">Menu: Settings.</a>
+  </p>
+  <p style="text-align:justify">
+    With the items in this menu menu, you can make some specific settings for the different circuits. The <span style="font-style:italic">Output LEDs</span> settings apply
+    to all three circuits. The warning messages option applies to the calculation of the resistance(s) of monostable and astable circuits.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Bistable circuits.
+  </p>
+  <p style="text-align:justify">
+    Selection, how the bistable circuit should be implemented, concerning the reset of the flip-flop: by using the <span style="font-style:italic">Reset</span> pin, or by
+    using the <span style="font-style:italic">Threshold</span> pin.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Monostable circuits.
+  </p>
+  <p style="text-align:justify">
+    Two selections that you can make here:
+    <ol style="margin-top:5px; margin-bottom:0px">
+      <li style="text-align:justify">Adding or not a second switch to reset the timer at any moment.</li>
+      <li style="text-align:justify">Choosing what value you want to calculate: the time period you get for a given resistance or the resistance you'll need for a given time
+      period (the capacitance having always to be given by the user).</li>
+    </ol>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Astable circuits.
+  </p>
+  <p style="text-align:justify">
+    Two selections that you can make here:
+    <ol style="margin-top:5px; margin-bottom:0px">
+      <li style="text-align:justify">Choosing if you want or not a diode mounted in parallel with R<sub>2</sub> (making possible duty cycles less than 50%).</li>
+      <li style="text-align:justify">Choosing what value you want to calculate: the mark and space time for given resistances or the two resistances you'll need for given mark
+      and space time (the capacitance having always to be given by the user).</li>
+    </ol>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Output LEDs.
+  </p>
+  <p style="text-align:justify">
+    The output of a standard 555 timer can <span style="font-weight:bold">sink and source</span> up to 200mA. This is sufficient to supply many output transducers directly,
+    in particular LEDs (with a resistor in series). The options of this menu item allow you to choose if you want to connect the LED to +V<sub>s</sub> (LED on if output is low)
+    or to 0V (LED on if output is high), or using 2 LEDs (getting a blinker circuit in the case of the astable). Note that in the circuit display, a colored circle is used to
+    represent the LED plus its resistor.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Don't display warnings.
+  </p>
+  <p style="text-align:justify">
+    The application considers that all resistances must have <span style="font-weight:bold">standard resistor values</span>. If the time period is calculated and you enter a
+    non-standard value, you get an error message. If the resistance(s) is (are) calculated, the time period resp. the mark and the space time are adjusted by the application
+    in order to get standard resistor values. To suppress the warning message, displayed in this case, check this option.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="help">Menu: Help.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Help.
+  </p>
+  <p style="text-align:justify">
+    Displays usage help for the <span style="font-style:italic">TimerCircuits555</span> application (this text) in your webbrowser.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    About.
+  </p>
+  <p style="text-align:justify">
+    Displays version, author and date-written of the <span style="font-style:italic">TimerCircuits555</span> application.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="run">Timer circuits simulation.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Bistable circuits.
+  </p>
+  <p style="text-align:justify">
+    Bistable circuits (flip-flops) are <span style="font-weight:bold">memory circuits with two stable states</span>. Pushing the <span style="font-style:italic">SET</span>
+    switch, the output of the flip-flop becomes high and LED<sub>2</sub> (LED connected between pin 3 of the 555 and 0V) goes on; the output remains in this state, even if
+    you release the switch. With the <span style="font-style:italic">RESET</span> switch, the output of the flip-flop becomes low and LED<sub>2</sub> goes out; the circuit
+    remains in this state after the switch has been released.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Monostable circuits.
+  </p>
+  <p style="text-align:justify">
+    Monostable circuits have only <span style="font-weight:bold">one stable state</span> (default state, normally the one where the circuit output is low). The <span
+    style="font-weight:bold">other state is unstable, i.e. after a given time (called the time period) it automatically switches back</span> to the stable state. The time period
+    depends on the time it takes to load the capacitor at a given charge, thus depends on the capacitance and the charging resistance. You can either enter a resistance value
+    and calculate the corresponding time period or calculate the resistance that you must use to hold the circuit for a given time in the unstable state (depending on the
+    selection done in the <span style="font-style:italic">Options</span> menu). Enter the circuit values and push the <span style="font-style:italic">Calculate</span> button.
+    Then push the <span style="font-style:italic">SET</span> switch. The output of the circuit becomes high (LED<sub>2</sub> goes on) and stays high until the time period is
+    over. Note, that after the switch has been pushed, this process is started and goes its way; what I mean is that pushing the switch during the unstable state has no
+    influence on the behavior of the circuit (duration of the unstable state). The application has however an option to add a <span style="font-style:italic">RESET</span>
+    switch to the circuit; pushing it, immediately resets the circuit to its stable state.
+  </p>
+  <p style="text-align:justify">
+    The described timer circuits are only functioning correctly with resistance values being in a certain interval (1kΩ to 1MΩ). The application accepts values between
+    100Ω and 10MΩ. If you enter values outside this range, you get an error message. This is also true, if you enter a time period that would make necessary a resistance
+    outside the range. The application only accepts standard resistor values. Entering a non-standard value results in an error message. If the resistance has to be calculated,
+    the given time period is automatically adjusted (display of a warning message, unless warnings are set to be suppressed) to get a resistance with standard value.
+  </p>
+  <p style="text-align:justify">
+    It is evident that if the time period is very small, it will not be possible to follow the process and that below a certain value the application will not be fast enough
+    to work correctly. The program doesn't check the time period value; when ensuring yourself that its value is greater than 100ms, there shouldn't be a problem.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Astable circuits.
+  </p>
+  <p style="text-align:justify">
+    Astable circuits have <span style="font-weight:bold">no stable state</span>, what means that they <span style="font-weight:bold">alternate automatically between two
+    unstable states, being in an "active" state during a given <span style="font-style:italic">mark time</span> and being in an "inactive" state during a given <span
+    style="font-style:italic">space time</span></span> (the <span style="font-style:italic">time period</span> in this case being the sum of the mark time and the space time).
+    Mark time and space time depend on the time it takes to charge resp. discharge the capacitor. Thus the mark time depends on the capacitance and the resistances R<sub>1</sub>
+    and R<sub>2</sub> and the space time depends on the capacitance and the resistance R<sub>1</sub>. This means that (with the basic implementation of the circuit), the mark
+    time is always greater than the space space time and the <span style="font-weight:bold">duty cycle</span> is always greater than 50%. There is however a simple way to
+    to be able to get duty cycles less than 50%: Connecting a <span style="font-weight:bold">diode in parallel with R<sub>2</sub></span> (this implementation of the circuit may
+    be selected in the <span style="font-style:italic">Options</span> menu), this resistance is bypassed during the capacitor's charge and you can get any duty cycle you want
+    (in particular exactly 50% with R<sub>1</sub> = R<sub>2</sub>).
+  </p>
+  <p style="text-align:justify">
+    You can either enter the two resistance values and calculate the corresponding mark and space time or calculate the resistances that you must use to get a given mark
+    and space time (depending on the selection done in the <span style="font-style:italic">Options</span> menu). Enter the circuit values and push the
+    <span style="font-style:italic">Calculate</span> button. Then push <span style="font-style:italic">Start</span> to start the simulation. The output of the circuit
+    becomes high (LED<sub>2</sub> on) and stays high during the mark time, then becomes low (LED<sub>2</sub> off) and stays low during the space time. The actual values of
+    mark and space time are displayed as the simulation proceeds.
+  </p>
+  <p style="text-align:justify">
+    The remarks made for the monostable resistance also apply to the resistances of the astable. Another error message that you may get with this circuit concerns the input
+    of time values resulting in a duty cycle greater than 50% with a circuit implementation without diode.
+  </p>
+  <p style="text-align:justify">
+    If the time period is very small, it will be impossible to follow the flickering of the LED. And if it is less than a certain value, the application will not be fast
+    enough to work correctly. The program doesn't check the mark and space time values; when ensuring yourself that these values are greater than 100ms, there shouldn't be a
+    problem.
+  </p>
+  </div>
+</body>
+
+</html>

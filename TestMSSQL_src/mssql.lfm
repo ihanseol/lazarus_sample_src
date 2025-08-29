@@ -1,0 +1,127 @@
+object fMSSQL: TfMSSQL
+  Left = 314
+  Height = 276
+  Top = 301
+  Width = 655
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Test MSSQL connection'
+  ClientHeight = 276
+  ClientWidth = 655
+  DesignTimePPI = 120
+  Font.Height = -18
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 79
+    Height = 23
+    Top = 10
+    Width = 496
+    Alignment = taCenter
+    Caption = 'Reading the number of customers in the BikeStores database.'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 10
+    Height = 23
+    Top = 56
+    Width = 285
+    Caption = '1. Connecting to the database server:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 384
+    Height = 23
+    Top = 56
+    Width = 264
+    Caption = '2. Submitting the query to MSSQL:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 384
+    Height = 25
+    Top = 100
+    Width = 178
+    Caption = 'Number of customers:'
+  end
+  object edCount: TEdit
+    Left = 563
+    Height = 33
+    Top = 96
+    Width = 68
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 0
+  end
+  object btQuery: TButton
+    Left = 384
+    Height = 31
+    Top = 136
+    Width = 94
+    Caption = 'Query'
+    OnClick = btQueryClick
+    TabOrder = 1
+  end
+  object btConnect: TButton
+    Left = 10
+    Height = 31
+    Top = 136
+    Width = 94
+    Caption = 'Connect'
+    OnClick = btConnectClick
+    TabOrder = 2
+  end
+  object Label5: TLabel
+    Left = 10
+    Height = 25
+    Top = 208
+    Width = 208
+    Caption = 'Database access message:'
+  end
+  object edMess: TEdit
+    Left = 10
+    Height = 33
+    Top = 240
+    Width = 468
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object btExit: TButton
+    Left = 554
+    Height = 31
+    Top = 240
+    Width = 94
+    Caption = 'Exit'
+    OnClick = btExitClick
+    TabOrder = 3
+  end
+  object dbQuery: TSQLQuery
+    FieldDefs = <>
+    Database = dbConn
+    Transaction = dbTrans
+    Params = <>
+    Macros = <>
+    Left = 304
+    Top = 112
+  end
+  object dbConn: TMSSQLConnection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    Transaction = dbTrans
+    Left = 224
+    Top = 112
+  end
+  object dbTrans: TSQLTransaction
+    Active = False
+    Database = dbConn
+    Left = 144
+    Top = 112
+  end
+end

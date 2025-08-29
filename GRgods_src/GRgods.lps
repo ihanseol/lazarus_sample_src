@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="GRgods.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="grgods_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fGRgods"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="grgods_help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="165" Column="26" TopLine="156"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="523" Column="32" TopLine="499"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="345" Column="68" TopLine="345"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="550" Column="53" TopLine="528"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="254" Column="21" TopLine="228"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="234" Column="15" TopLine="227"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="243" Column="23" TopLine="218"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="569" Column="11" TopLine="556"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="605" Column="12" TopLine="592"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="606" Column="10" TopLine="593"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="30" Column="11" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="59" Column="11" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="578" Column="75" TopLine="562"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="268" Column="23" TopLine="242"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="265" Column="13" TopLine="244"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="272" TopLine="247"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="255" Column="70" TopLine="232"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="318" Column="26" TopLine="293"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="676" Column="54" TopLine="654"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="729" Column="133" TopLine="705"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="741" TopLine="715"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="622" Column="22" TopLine="603"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="690" Column="14" TopLine="684"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_help.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="GRgods.lpr"/>
+        <Caret Line="30" Column="19" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="598" Column="15" TopLine="573"/>
+      </Position>
+      <Position>
+        <Filename Value="GRgods.lpr"/>
+        <Caret Line="3" Column="32"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_help.pas"/>
+        <Caret Line="35" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_help.pas"/>
+        <Caret Line="45" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="grgods_main.pas"/>
+        <Caret Line="824" TopLine="798"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

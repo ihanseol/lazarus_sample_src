@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Display7seg.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="70"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="d7seg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fD7Seg"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="70"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="d7sega.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fd7Sega"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="70"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="d7segc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fD7Segc"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="d7segbcdc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fD7SegBCDc"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="61"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="d7segbcda.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fD7SegBCDa"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="59"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="d7segcount.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fD7SegCounter"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="6"/>
+        <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="common.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="8"/>
+        <UsageCount Value="52"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="7"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="binmult43c.lfm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="binmult43c.pas"/>
+        <ComponentName Value="fBinMult43C"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="binmult43C"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="4"/>
+        <UsageCount Value="20"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="d7segbcda.pas"/>
+        <Caret Line="186" Column="55" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segcount.pas"/>
+        <Caret Line="104" Column="22" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segcount.pas"/>
+        <Caret Line="44" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segcount.pas"/>
+        <Caret Line="43" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segbcda.pas"/>
+        <Caret Line="160" Column="126" TopLine="156"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segbcda.pas"/>
+        <Caret Line="186" Column="55" TopLine="169"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segcount.pas"/>
+        <Caret Line="141" Column="55" TopLine="121"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segcount.pas"/>
+        <Caret Line="66" Column="24" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segcount.pas"/>
+        <Caret Line="129" Column="80" TopLine="123"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segcount.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segcount.pas"/>
+        <Caret Line="140" Column="55" TopLine="123"/>
+      </Position>
+      <Position>
+        <Filename Value="help.pas"/>
+        <Caret Line="52" Column="40" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="help.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="help.pas"/>
+        <Caret Line="60" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="help.pas"/>
+        <Caret Line="51" Column="78" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segbcda.pas"/>
+        <Caret Line="115" Column="31" TopLine="109"/>
+      </Position>
+      <Position>
+        <Filename Value="help.pas"/>
+        <Caret Line="42" Column="47" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="common.pas"/>
+        <Caret Line="64" Column="40" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="common.pas"/>
+        <Caret Line="36" Column="38" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="common.pas"/>
+        <Caret Line="356" Column="62" TopLine="339"/>
+      </Position>
+      <Position>
+        <Filename Value="d7seg.pas"/>
+        <Caret TopLine="109"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segc.pas"/>
+        <Caret TopLine="190"/>
+      </Position>
+      <Position>
+        <Filename Value="d7sega.pas"/>
+        <Caret Line="196" TopLine="194"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segbcdc.pas"/>
+        <Caret Line="194" TopLine="168"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segbcdc.pas"/>
+        <Caret Line="101" Column="19" TopLine="82"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segbcda.pas"/>
+        <Caret Line="195" TopLine="169"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segcount.pas"/>
+        <Caret Line="149" TopLine="123"/>
+      </Position>
+      <Position>
+        <Filename Value="common.pas"/>
+        <Caret Line="159" TopLine="133"/>
+      </Position>
+      <Position>
+        <Filename Value="d7segc.pas"/>
+        <Caret Line="40" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="common.pas"/>
+        <Caret Line="371" TopLine="345"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

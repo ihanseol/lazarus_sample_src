@@ -1,0 +1,11 @@
+extern void ClearScreen(void);
+extern void ClearEol(void);
+extern void WriteEol(void);
+extern void SetColor(int, int);
+extern void ResetColor(void);
+extern void SetPos(int, int);
+extern void WriteString(char*, char,  int);
+extern void WriteChar(char, int);
+extern void WriteFloat(float, int, int);
+extern void WriteColor(char*, int, int);
+extern void WritePos(char*, int, int);

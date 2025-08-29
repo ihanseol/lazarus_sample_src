@@ -1,0 +1,59 @@
+object fHelp: TfHelp
+  Left = 426
+  Height = 499
+  Top = 264
+  Width = 894
+  BorderIcons = [biSystemMenu]
+  Caption = 'Arithmetic7 Help'
+  ClientHeight = 499
+  ClientWidth = 894
+  DesignTimePPI = 120
+  Font.Height = -17
+  LCLVersion = '2.0.10.0'
+  object Memo1: TMemo
+    Left = 10
+    Height = 438
+    Top = 10
+    Width = 876
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'Arithmetic8 is a maths exercise generator for primary school pupils, dealing with column multiplication. Calculations are done, just as you do them with a pencil and a sheet of paper. Use "Example" in the "Test" menu to let you show, how the table should look like. If you want, you may use the cream colored fields to remember the carry of the partial multiplications and/or the final addition (use the "Clear" button to empty all carry fields).'
+      ''
+      'To do the test, select the options, that you want ("Options" menu) and choose "New" in the "Test" menu. Push the "Question" button, do the exercise and push "Answer". The evaluation counters (with success expressed as percentage) are updated accordingly. Please note, that in the current version 1.0, the application only checks the final result without considering what you entered in the partial multiplication fields.'
+      ''
+      '"Options" menu.'
+      '==============='
+      ''
+      'Number of questions.'
+      '--------------------'
+      'Number of exercise questions for this test (at least 5). Note, that you must choose "New" in the "Test" menu in order to make this option active.'
+      ''
+      'Multiplicand maximum:'
+      '---------------------'
+      'Maximum value of the first operand (99, 999 or 9999). This value is only used with integers.'
+      ''
+      'Multiplier maximum:'
+      '-------------------'
+      'Maximum value of the second operand (99, 999 or 9999). This value is only used with integers.'
+      ''
+      'Decimal numbers.'
+      '----------------'
+      'If unchecked, all operands are integers. If you check this option, the operands may have a decimal part of 1 to 3 digits. Note, that in this case, the maximum multiplicand and multiplier setting will not be considered.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 792
+    Height = 31
+    Top = 464
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

@@ -1,0 +1,71 @@
+****************************************
+* "MuscleContraction" application help *
+****************************************
+
+"MuscleContraction" is a simple physiology program, dealing with tetanized muscle contraction. It may be used to graph the shortening velocity and the muscle output power as a function of the muscle tension (load), basing the calculations on either Hill's muscle equation or a cross-bridge kinetics model. Some details, in particular the formulas used, are given in the physiology help text.
+
+Menu item "Model".
+==================
+
+Hill's muscle model.
+--------------------
+Do the calculations, using Hill's equation. The radiobuttons at the right part of the window allow to choose between the "full equation" (parameters a, b and c to be entered) and the normalized form of the equation (entry of constant K).
+
+Cross-bridge kinetics model.
+----------------------------
+Do the calculations, using the cross-bridge kinetics equation. The radiobuttons at the right part of the window allow to choose between a two-state and a three-state model.
+
+Exit.
+-----
+Exit the application.
+
+Menu "Settings".
+================
+
+Curve to be drawn ...
+---------------------
+Selection of which curves have to be displayed: shortening velocity vs load, output power vs load, or both. If both curves are displayed, the scaling of the power axis is chosen such, that not only the muscle tension, but also the shortening velocity, corresponding to the maximum power, can be correctly read from the graph. If either velocity or power is displayed, several curves may be drawn on the same graph (may be useful to compare the curve shapes for different values of K).
+
+Multiple curves graph.
+----------------------
+If this option is checked, several velocity or power curves can be drawn on the same graph (cf. below for possible issues). Please, note, that this option is disabled, if the user chose to display both velocity and power curves. Also note, that any changements, affecting the graphs (model, radiobutton state, options changes) will clear the graph, before drawing the curve.
+
+Menu item "Help".
+=================
+
+Physiology help.
+----------------
+Short introduction to muscle physiology, with details about Hill's equation and the used cross-bridge kinetics models.
+
+Application help.
+-----------------
+Help text, how to use the "MuscleContraction" application (this document).
+
+About.
+======
+Version, author and date-wtitten of the "MuscleContraction" application.
+
+Drawing muscle contraction graphs.
+==================================
+
+In the "Model" menu, choose if you want to use Hill's muscle model or the cross-bridge kinetics model.
+
+Use the radiobuttons to select if you want to use the "full" or the normalized form of the Hill equation, respectively if you want to use the two-state or the three-state kinetics model.
+
+In the "Settings" menu, choose which graph(s) you want to be displayed. Check the "Multiple curves graph" options, if you want to compare the velocity or power curves for different K values.
+
+Enter the required parameters. Example values:
+  - Hill's equation: a = 14.36; b = 1.03; c = 87.6.
+  - Hill's normalized equations curve comparisons: K = 1.50; K = 2.00; K = 2.50.
+  - Cross-bridge kinetics model: fApp = 20; k = 98.5.
+  
+Push the "Calculate" button to determine the curve points and maximum values.
+
+Push the "Draw" button to draw the curve (in "Multiple curves graph" mode, you can use the "Clear" button to clear the display).
+
+Multiple curves graphs issues.
+==============================
+
+Multiple curve graphs are only drawn, if the user chooses to display either the velocity or the power (but not both). The maximum number of curves drawn on these graphs is 5 (making a 6th drawing will clear the drawing area before drawing the curve). The different curves are displayed, using different colors; the corresponding value of K is displayed at the right side of the drawing area, using the same color.
+
+The different curves of the multiple curves graph are drawn independently from oneanother. This means, that the scales used for the X- and Y-axis will be those, determined for the first curve of the set. In the case of normalized velocity curves, this is of no importance. For other curves, this may result in curves not fitting in the drawing area or other improper display of the curves. To avoid this, display the curve with the highest maximum values first. In the case of normalized power curves, for example, start with the highest K value.

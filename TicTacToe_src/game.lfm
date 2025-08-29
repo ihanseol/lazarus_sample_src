@@ -1,0 +1,346 @@
+object fTicTacToe: TfTicTacToe
+  Left = 163
+  Height = 397
+  Top = 115
+  Width = 480
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Tic-Tac-Toe'
+  ClientHeight = 372
+  ClientWidth = 480
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object shField9: TShape
+    Left = 210
+    Height = 100
+    Top = 265
+    Width = 100
+    Brush.Color = clYellow
+    OnMouseDown = shField9MouseDown
+  end
+  object shField8: TShape
+    Left = 110
+    Height = 100
+    Top = 265
+    Width = 100
+    Brush.Color = clYellow
+    OnMouseDown = shField8MouseDown
+  end
+  object shField7: TShape
+    Left = 10
+    Height = 100
+    Top = 265
+    Width = 100
+    Brush.Color = clYellow
+    OnMouseDown = shField7MouseDown
+  end
+  object shField6: TShape
+    Left = 210
+    Height = 100
+    Top = 165
+    Width = 100
+    Brush.Color = clYellow
+    OnMouseDown = shField6MouseDown
+  end
+  object shField5: TShape
+    Left = 110
+    Height = 100
+    Top = 165
+    Width = 100
+    Brush.Color = clYellow
+    OnMouseDown = shField5MouseDown
+  end
+  object shField4: TShape
+    Left = 10
+    Height = 100
+    Top = 165
+    Width = 100
+    Brush.Color = clYellow
+    OnMouseDown = shField4MouseDown
+  end
+  object shField3: TShape
+    Left = 210
+    Height = 100
+    Top = 65
+    Width = 100
+    Brush.Color = clYellow
+    OnMouseDown = shField3MouseDown
+  end
+  object shField2: TShape
+    Left = 110
+    Height = 100
+    Top = 65
+    Width = 100
+    Brush.Color = clYellow
+    OnMouseDown = shField2MouseDown
+  end
+  object shField1: TShape
+    Left = 10
+    Height = 100
+    Top = 65
+    Width = 100
+    Brush.Color = clYellow
+    OnMouseDown = shField1MouseDown
+  end
+  object StaticText1: TStaticText
+    Left = 37
+    Height = 40
+    Top = 8
+    Width = 406
+    Alignment = taCenter
+    Caption = 'Tic-Tac-Toe.'
+    Font.Height = -30
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object stField1: TStaticText
+    Left = 10
+    Height = 100
+    Top = 65
+    Width = 100
+    Alignment = taCenter
+    Caption = 'O'
+    Font.Color = clBlue
+    Font.Height = -67
+    Font.Style = [fsBold]
+    OnClick = stField1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object stField2: TStaticText
+    Left = 110
+    Height = 100
+    Top = 65
+    Width = 100
+    Alignment = taCenter
+    Caption = 'O'
+    Font.Color = clBlue
+    Font.Height = -67
+    Font.Style = [fsBold]
+    OnClick = stField2Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object stField3: TStaticText
+    Left = 210
+    Height = 100
+    Top = 65
+    Width = 100
+    Alignment = taCenter
+    Caption = 'O'
+    Font.Color = clBlue
+    Font.Height = -67
+    Font.Style = [fsBold]
+    OnClick = stField3Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object stField4: TStaticText
+    Left = 10
+    Height = 100
+    Top = 165
+    Width = 100
+    Alignment = taCenter
+    Caption = 'O'
+    Font.Color = clBlue
+    Font.Height = -67
+    Font.Style = [fsBold]
+    OnClick = stField4Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object stField5: TStaticText
+    Left = 110
+    Height = 100
+    Top = 165
+    Width = 100
+    Alignment = taCenter
+    Caption = 'O'
+    Font.Color = clBlue
+    Font.Height = -67
+    Font.Style = [fsBold]
+    OnClick = stField5Click
+    ParentFont = False
+    TabOrder = 5
+  end
+  object stField6: TStaticText
+    Left = 210
+    Height = 100
+    Top = 165
+    Width = 100
+    Alignment = taCenter
+    Caption = 'O'
+    Font.Color = clBlue
+    Font.Height = -67
+    Font.Style = [fsBold]
+    OnClick = stField6Click
+    ParentFont = False
+    TabOrder = 6
+  end
+  object stField7: TStaticText
+    Left = 10
+    Height = 100
+    Top = 265
+    Width = 100
+    Alignment = taCenter
+    Caption = 'O'
+    Font.Color = clBlue
+    Font.Height = -67
+    Font.Style = [fsBold]
+    OnClick = stField7Click
+    ParentFont = False
+    TabOrder = 7
+  end
+  object stField8: TStaticText
+    Left = 110
+    Height = 100
+    Top = 265
+    Width = 100
+    Alignment = taCenter
+    Caption = 'O'
+    Font.Color = clBlue
+    Font.Height = -67
+    Font.Style = [fsBold]
+    OnClick = stField8Click
+    ParentFont = False
+    TabOrder = 8
+  end
+  object stField9: TStaticText
+    Left = 210
+    Height = 100
+    Top = 265
+    Width = 100
+    Alignment = taCenter
+    Caption = 'O'
+    Font.Color = clBlue
+    Font.Height = -67
+    Font.Style = [fsBold]
+    OnClick = stField9Click
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Label1: TLabel
+    Left = 336
+    Height = 23
+    Top = 65
+    Width = 46
+    Caption = 'Score:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 336
+    Height = 23
+    Top = 108
+    Width = 46
+    Caption = 'Player'
+    ParentColor = False
+  end
+  object edPlayer: TEdit
+    Left = 424
+    Height = 31
+    Top = 104
+    Width = 48
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object Label3: TLabel
+    Left = 336
+    Height = 23
+    Top = 148
+    Width = 77
+    Caption = 'Computer'
+    ParentColor = False
+  end
+  object edComputer: TEdit
+    Left = 424
+    Height = 31
+    Top = 144
+    Width = 48
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object btStart: TButton
+    Left = 378
+    Height = 31
+    Top = 334
+    Width = 94
+    Caption = 'Start'
+    OnClick = btStartClick
+    TabOrder = 12
+  end
+  object mMenu: TMainMenu
+    Left = 10
+    Top = 10
+    object mGame: TMenuItem
+      Caption = 'Game'
+      object mGameNew: TMenuItem
+        Caption = 'New'
+        OnClick = mGameNewClick
+      end
+      object mGameExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mGameExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsPlayerMark: TMenuItem
+        Caption = 'Player mark'
+        object mOptionsPlayerMarkOBlue: TMenuItem
+          Caption = 'O (blue)'
+          Checked = True
+          OnClick = mOptionsPlayerMarkOBlueClick
+        end
+        object mOptionsPlayerMarkORed: TMenuItem
+          Caption = 'O (red)'
+          OnClick = mOptionsPlayerMarkORedClick
+        end
+        object mOptionsPlayerMarkXBlue: TMenuItem
+          Caption = 'X (blue)'
+          OnClick = mOptionsPlayerMarkXBlueClick
+        end
+        object mOptionsPlayerMarkXRed: TMenuItem
+          Caption = 'X (red)'
+          OnClick = mOptionsPlayerMarkXRedClick
+        end
+      end
+      object mOptionsFirstMove: TMenuItem
+        Caption = 'First move'
+        object mOptionsFirstMovePlayer: TMenuItem
+          Caption = 'Player'
+          OnClick = mOptionsFirstMovePlayerClick
+        end
+        object mOptionsFirstMoveComputer: TMenuItem
+          Caption = 'Computer'
+          OnClick = mOptionsFirstMoveComputerClick
+        end
+        object mOptionsFirstMoveAlternate: TMenuItem
+          Caption = 'Alternate'
+          Checked = True
+          OnClick = mOptionsFirstMoveAlternateClick
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

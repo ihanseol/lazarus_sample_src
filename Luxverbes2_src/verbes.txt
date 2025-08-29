@@ -1,0 +1,409 @@
+# Luxverbes: Signification des codes
+#   1 = type verbe: P=pronominal, T=transitif, N=intransitif, I=impersonnel, i=pseudo-impersonnel
+#   2 = cas grammatical voix pronominale: A=accusatif, D=datif
+# 3,4 = cas grammatical voix active: A=accusatif, D=datif
+#   5 = auxiliaire: H=hunn, S=sinn
+#   6 = préfixe: S=préfixe séparable (not given in "M" column), I=préfixe inséparable (given in "M" column)
+#   7 = conjugaison présent: R=verbe régulier, S=cas spécial, M=métaphonèse, I=verbe irrégulier
+#   8 = conjugaison part, passé: T=ge + radical + t, t=radical + t (sans ge-), N=ge + radical (+ en), n=radical + en (sans ge-), M=métaphonèse, I=irrégulier
+
+an-bilden           PD--HSST  sich einbilden      s'imaginer
+abonnéieren         TAA-H-Rt  abonnieren          abonner
+acceptéieren        TAA-H-Rt  akzeptieren         accepter
+an-gesinn           N---HSII  einsehen            avouer                   gesinn
+an-kafen            N---HSMt  einkaufen           faire des courses
+aktivéieren         TAA-H-Rt  aktivieren          activer
+an-liewen           PA--HSST  sich einleben       s'adapter
+an-lueden           TAA-HSSN  einladen            inviter
+änneren             TAA-H-RT  ändern              changer
+äntweren            TDDAH-RT  antworten           répondre
+annulléieren        TAA-H-Rt  rückgängig machen   annuler
+an-paken            TADAHSST  einpacken           empaqueter
+appreciéieren       TAA-H-Rt  würdigen            apprécier
+an-riichten         TADAHSST  einrichten          arranger
+an-schalten         T-A-HSST  einschalten         brancher
+aus-beuten          TAA-HSST  ausbeuten           exploiter
+aus-bilden          TAA-HSST  ausbilden           former
+aus-gesinn          N---HSII  aussehen            avoir l'air              gesinn
+aus-laachen         TAA-HSRT  auslachen           se moquer
+aus-schalten        T-A-HSST  ausschalten         débrancher
+bäi-bréngen         TDDAHSRI  beibringen          enseigner                bruecht
+bäissen             TAA-H-SM  beißen              mordre                   gebass
+baken               T-DAH-SN  backen              faire un gâteau
+bauen               T-DAH-RT  bauen               bâtir
+be-aflossen         TAA-HISt  beeinflussen        influencer
+be-daueren          TAA-HIRt  bedauern            regretter
+be-deiten           i---HISt  bedeuten            signifier
+be-denken           T-A-HIRI  bedenken            considérer               beduecht
+be-dréien           TAA-HIRI  betrügen            tromper                  bedrunn
+be-freien           TAA-HIRt  befreien            libérer
+be-géinen           TDD-SIRt  begegnen            rencontrer
+be-gréissen         TAA-HISt  begrüßen            saluer
+be-haapten          T-A-HISt  behaupten           affirmer
+be-huelen           PA--HIMM  sich benehmen       se comporter             beholl
+be-kloen            PA--HIRt  sich beklagen       se plaindre
+be-laaschten        TAA-HISt  belasten            accabler
+be-lästegen         TAA-HIRt  belästigen          gêner
+be-leidegen         TAA-HIRt  beleidigen          insulter
+be-lounen           TAA-HIRt  belohnen            récompenser
+be-mattleeden       TAA-HISt  bemitleiden         avoir pitié
+be-mierken          TAA-HIRt  bemerken            remarquer
+be-schreiwen        TAA-HISM  beschreiben         décrire                  beschriwwen
+be-schwéieren       PA--HIRt  sich beschweren     se plaindre
+be-stellen          TDDAHIRM  bestellen           commander                bestallt
+be-stueden          TAA-HIMt  heiraten            marier
+be-strofen          TAA-HISt  bestrafen           punir
+be-treffen          i-A-HIMM  betreffen           concerner                betraff
+bevir-stoen         i---HSII  bevorstehen         être imminent            gestanen
+be-weisen           TDDAHISM  beweisen            démontrer                bewisen
+be-zuelen           TADAHIMt  bezahlen            payer
+bieden              T-A-H-ST  bitten              prier
+blären              N---H-ST  brüllen             hurler
+bléien              N---H-MM  blühen              fleurir                  geblitt
+bleiwen             N---S-SM  bleiben             rester                   bliwwen
+blosen              N---H-MN  blasen              souffler
+bludden             N---H-ST  bluten              saigner
+botzen              TAA-H-ST  putzen              nettoyer
+bougéieren          N---H-Rt  sich bewegen        bouger
+boxen               N---H-ST  boxen               boxer
+brauchen            TAA-H-RT  brauchen            avoir besoin
+bremsen             TAA-H-ST  bremsen             freiner
+bréngen             TDDAH-RI  bringen             apporter                 bruecht
+brennen             N---H-RM  brennen             brûler                   gebrannt
+bretzen             PA--H-ST  angeben             se vanter
+briechen            TAA-H-MM  brechen             briser                   gebrach
+buchen              T-A-H-RT  buchen              comptabiliser
+changéieren         TAA-H-Rt  ändern              changer
+confirméieren       TDDAH-Rt  bestätigen          confirmer
+däerfen             T-A-H-II  dürfen              avoir le droit           däerfen
+dämpen              N---H-RT  rauchen             fumer
+danzen              N---H-ST  tanzen              danser
+daueren             i-A-H-RT  dauern              durer
+demissionéieren     N---H-Rt  kündigen            démissionner
+denken              TDA-H-RI  denken              penser                   geduecht
+dervu-kommen        N---SSIn  davonkommen         échapper
+derzou-gehéieren    N---HSRt  dazugehören         faire partie de
+dierzen             TAA-H-ST  siezen              vouvoyer
+diktéieren          TDDAH-Rt  diktieren           dicter
+dinn                TDDAH-IM  tun                 faire                    gedunn
+dréchnen            TAA-H-ST  trocknen            sécher
+drécken             TAA-H-RT  drücken             serrer
+dreeën              TDD-H-ST  drohen              menacer
+dréien              TAA-H-RT  drehen              tourner
+drénken             T-A-H-RM  trinken             boire                    gedronk
+drëpsen             N---H-ST  tropfen             goutter
+droen               TADAH-MN  tragen              porter
+duerch-setzen       PA--HSSI  sich durchsetzen    s'imposer                gesat
+duer-goen           i---SSII  ausreichen          suffire                  gaangen
+dulden              TAA-H-ST  dulden              tolérer
+duschen             TAA-H-RT  duschen             prendre une douche
+duzen               TAA-H-ST  duzen               tutoyer
+eliminéieren        TAA-H-Rt  eliminieren         éliminer
+ëm-bréngen          TAA-HSRI  umbringen           assassiner               bruecht
+em-pfänken          TAA-HIRI  empfangen           accueillir               empfaangen
+em-pfannen          T-A-HIMM  empfinden           ressentir                empfonnt
+ëm-tauschen         TAA-HSRM  umtauschen          échanger                 getosch
+ëm-zéien            N---SSMI  umziehen            déménager                gezunn
+ënner-goen          N---SSII  untergehen          sombrer                  gaangen
+ënner-sichen        TAA-HIRt  untersuchen         examiner
+ënner-sträichen     T-A-HIRM  unterstreichen      souligner                strach
+ent-decken          TAA-HIRt  entdecken           découvrir
+ent-schëllegen      TAA-HIRt  entschuldigen       excuser
+ent-schléissen      PA--HISM  sich entschließen   se décider               entschloss
+ent-schlofen        N---SIMn  einschlafen         s'endormir
+ent-stoen           i---SIIM  entstehen           se former                entstaan
+eran-goen           N---SSII  hineingehen         entrer                   gaangen
+eran-kommen         N---SSIn  hereinkommen        entrer
+eraus-kommen        N---SSIn  herauskommen        sortir
+er-baarmen          PA--HIRt  sich erbarmen       avoir pitié
+er-drénken          NA--SIRM  ertrinken           se noyer                 erdronk
+er-droen            TAA-HIMn  ertragen            subir
+erëm-bréngen        T-DAHSRI  zurückbringen       ramener                  bruecht
+erëm-gesinn         TAA-HSII  wiedersehen         revoir                   gesinn
+er-ënneren          TAA-HIRt  erinnern            rappeler
+er-freeën           PA--HISt  sich erfreuen       prendre plaisir
+er-kalen            PA--HISt  sich erkälten       prendre froid
+er-kënnegen         PAA-HIRt  sich erkundigen     se renseigner
+er-kennen           TAA-HIRM  erkennen            reconnaître              erkannt
+er-klären           TDDAHISt  erklären            expliquer
+er-reechen          TAA-HIRt  erreichen           atteindre
+er-wëschen          TAA-HIRt  erwischen           attraper
+er-zielen           TDDAHIRt  erzählen            raconter
+excuséieren         TAA-H-Rt  entschuldigen       excuser
+explodéieren        N---S-Rt  explodieren         exploser
+faaschten           N---H-ST  fasten              jeûner
+fäerten             TAA-H-SM  fürchten            avoir peur               gefaart
+fänken              TAA-H-RI  fangen              attraper                 gefaangen
+falen               N---S-MM  fallen              tomber                   gefall
+fannen              TAA-H-MM  finden              trouver                  fonnt
+faulenzen           N---H-ST  faulenzen           fainéanter
+feelen              N---H-RT  fehlen              manquer
+fëllen              TAA-H-RT  füllen              remplir
+fëmmen              T-A-H-RT  rauchen             fumer
+fillen              TAA-H-RT  fühlen              sentir
+fiancéieren         TDDAH-Rt  finanzieren         financer
+fläissen            PA--H-SM  sich fleißen        s'acharner               geflass
+fléien              N---S-MI  fliegen             voler                    geflunn
+fléissen            N---S-SM  fließen             couler                   gefloss
+flirten             N---H-ST  flirten             courtiser
+flüchten            N---S-ST  flüchten            fuir
+forcéieren          TAA-H-Rt  zwingen             forcer
+fort-goen           N---SSII  fortgehen           partir                   gaangen
+freeën              PA--H-ST  sich freuen         se réjouir
+fréieren            N---H-RM  frieren             geler                    gefruer
+froen               TADAH-MT  fragen              demander
+fueren              N---S-MN  fahren              conduire
+funktionéieren      N---H-Rt  funktionieren       fonctioner
+gaapsen             N---H-St  gähnen              bâiller
+garantéieren        TDDAH-Rt  garantieren         garantir
+ge-brauchen         TAA-HIRt  gebrauchen          utiliser
+gecksen             N---H-St  scherzen            blaguer
+ge-dëllegen         PA--HIRt  sich geduldigen     avoir patience
+ge-falen            TDD-HIMM  gefallen            plaîre                   gefall
+ge-heien            TADAHIRM  werfen              jeter                    gehäit
+ge-léngen           i-D-SIRM  gelingen            réussir                  gelongen
+gëllen              N---H-RM  gelten              être valable             gegollt
+ge-néissen          T-A-HISM  genießen            jouir                    genoss
+ge-schéien          I---SIMM  geschehen           arriver                  geschitt
+gesinn              TAA-H-II  sehen               voir                     gesinn
+ge-wannen           T-A-HIMM  gewinnen            gagner                   gewonnen
+ginn                TDDAH-II  geben               donner                   ginn
+gläichen            TDD-H-RM  gleichen            ressembler               geglach
+gleewen             TDDAH-ST  glauben             croire
+goen                N---S-II  gehen               aller                    gaangen
+gräifen             T-A-H-RM  greifen             saisir                   gegraff
+gratuléieren        TDD-H-Rt  gratulieren         féliciter
+gréissen            TAA-H-ST  grüßen              saluer
+grinsen             N---H-ST  grinsen             ricaner
+gruewen             T-A-H-MN  graben              creuser
+haassen             TAA-H-ST  hassen              haïr
+haen                TDDAH-MN  hauen               frapper
+hänken              TAA-H-RI  hängen              pendre                   gehaangen
+halen               TAA-H-MN  behalten            garder
+heeschen            N---H.RT  heißen              s'appeler
+héieren             TAA-H-RI  hören               entendre                 héieren
+hëllefen            TDD-H-RM  helfen              aider                    gehollef
+hiewen              TAA-H-SM  heben               soulever                 gehuewen
+hoffen              T-A-H-RT  hoffen              espérer
+houschten           N---H-ST  husten              tousser
+huelen              TDDAH-MM  holen               prendre                  geholl
+hunn                TAA-H-II  haben               avoir                    gehat
+iergeren            TAA-H-RT  ärgern              agacer
+iessen              TAA-H-MI  essen               manger                   giess
+invitéieren         TAA-H-Rt  einladen            inviter
+iren                PA--H-ST  sich irren          se tromper
+iwwer-fueren        TAA-HIMn  überfahren          renverser                iwwerfuer
+iwwer-huelen        TAA-HIMM  überholen           doubler                  iwwerholl
+iwwer-ginn          PA--HIII  sich übergeben      vomir                    iwwerginn
+iwwer-nuechten      N---HISt  übernachten         passer la nuit
+iwwer-raschen       TAA-HIRt  überraschen         surprendre
+iwwer-stoen         T-A-HIIM  überstehen          surmonter                iwwerstaan
+iwwer-trieden       T-A-HIMM  übertreten          dépasser                 iwwertrueden
+iwwer-weisen        TDDAHISM  überweisen          assigner                 iwwerwisen
+jäizen              N---H-SI  schreien            crier                    gejaut
+jéimeren            N---H-RT  stöhnen             geindre
+kachen              TDDAH-RT  kochen              cuire
+kämmen              TADAH-RT  kämmen              peigner
+kafen               TDDAH-Mt  kaufen              acheter
+kaschten            T-A-H-St  kosten              coûter
+këmmeren            PA--H-RT  sich kümmern        s*occuper
+kennen-léieren      TAA-HSRT  kennenlernen        apprendre à connaître
+kennen              TAA-H-RM  kennen              connaître                kannt
+kënnen              T-A-H-IM  können              être capable             konnt
+këssen              TAA-H-ST  küssen              embrasser
+klammen             N---S-MM  klettern            grimper                  geklommen
+klären              T-A-H-ST  klären              clarifier
+klätschen           N---H-RT  klatschen           applaudir
+klonen              TAA-H-RT  klonen              cloner
+kommen              N---S-In  kommen              arriver
+konzentréieren      PA--H-Rt  sich konzentrieren  se concentrer
+kräischen           N---H-RM  weinen              pleurer                  gekrasch
+krazen              TAA-H-ST  kratzen             gratter
+kréien              T-A-H-IM  kriegen             recevoir                 kritt
+kucken              TAA-H-RT  schauen             regarder
+laachen             N---H-RT  lachen              rire
+lafen               N---S-MN  laufen              courir
+landen              N---S-ST  landen              atterrir
+lauschteren         T-A-H-RT  zuhören             écouter
+leeën               TAA-H-SI  legen               poser                    geluecht
+leiden              N---H-SM  leiden              souffrir                 gelidden
+leien               N---H-MM  liegen              être couché              geleeën
+léien               N---H-MI  lügen               mentir                   gelunn
+léieren             TDDAH-RT  lernen              apprendre
+léisen              TAA-H-ST  lösen               résoudre
+liesen              TAA-H-SN  lesen               lire
+liewen              T-A-H-ST  leben               vivre
+loossen             TAA-H-MN  lassen              laisser
+lounen              T-DAH-RT  mieten              louer
+lueden              TAA-H-SN  laden               charger
+luewen              TAA-H-ST  loben               faire l'éloge
+maachen             TDDAH-MI  machen              faire                    gemaach
+mat-deelen          TDDAHSRT  mitteilen           informer
+meiden              TAA-H-SM  meiden              éviter                   gemidden
+mellen              TADAH-RT  melden              annoncer
+mengen              N---H-RT  meinen              être d'avis
+mierken             TDA-H-RT  merken              remarquer
+miessen             TAA-H-SN  messen              mesurer
+mixen               TDDAH-ST  mixen               mixer
+molen               TADAH-ST  malen               dessiner
+mussen              N---H-II  müssen              devoir                   mussen
+nennen              TAA-H-RM  nennen              nommer                   genannt
+netzen              TAA-H-SI  begießen            arroser                  genat
+no-denken           N---HSRI  nachdenken          réfléchir                duecht
+no-ginn             N---HSII  nachgeben           abandonner               ginn
+notéieren           TDDAH-Rt  notieren            noter
+of-dreiwen          T-A-HSSM  abtreiben           avorter                  gedriwwen
+of-huelen           N---HSMM  abnehmen            diminuer                 geholl
+of-roden            TDDAHSMN  abraten             déconseiller
+of-schrecken        T-A-HSRT  abschrecken         intimider
+of-wäschen          N---HSRN  abwaschen           faire la vaisselle
+of-wieren           T-A-HSRT  abwehren            parer
+ootmen              T-A-H-ST  atmen               respirer
+op-iessen           T-A-HSMI  aufessen            tout manger              giess
+op-regen            PA--HSRT  sich aufregen       s'énerver
+op-stoen            N---SSII  aufstehen           se lever                 gestanen
+packen              TAA-H-RT  ertragen            supporter
+päifen              T-A-H-RM  pfeifen             siffler                  gepaff
+paken               T-DAH-ST  packen              emballer
+passen              i-D-H-ST  passen              convenir
+pësperen            T-A-H-RT  flüstern            chuchoter
+plangen             TDA-H-RT  planer              planifier
+plënneren           N---S-RT  umziehen            déménager
+préiwen             TAA-H-ST  prüfen              contrôler
+presentéieren       TADAH-Rt  presentieren        présenter
+probéieren          TAA-H-Rt  probieren           essayer
+prouwen             T-A-H-ST  proben              répéter
+produzéieren        TAA-H-Rt  produzieren         produire
+proposéieren        TDDAH-Rt  vorschlagen         proposer
+publizéieren        TAA-H-Rt  publizieren         publier
+rabbelen            N---H-RT  klappern            cliqueter
+rappen              TAA-H-RT  reißen              tirer
+raschten            PA--H-ST  sich ausruhen       se reposer
+raséieren           TADAH-Rt  rasieren            raser
+reagéieren          N---H-Rt  reagieren           réagir
+rechnen             T-A-H-ST  rechnen             calculer
+réckelen            TAA-H-RT  rücken              déplacer
+reenen              I---H-RT  regnen              pleuvoir
+reesen              N---S-ST  reisen              voyager
+reiwen              TADAH-SM  reiben              frotter                  geriwwen
+reizen              TAA-H-ST  reizen              provoquer
+repsen              N---H-ST  rülpsen             roter
+reservéieren        TDDAH-Rt  reservieren         réserver
+retten              TAA-H-ST  retten              sauver
+richen              TAA-H-RT  riechen             sentir
+riichten            TAA-H-ST  verurteilen         juger
+roden               TDDAH-MN  raten               conseiller
+rolzen              N---H-ST  ringen              lutter
+ruffen              TAA-H-MN  rufen               appeler
+salzen              T-A-H-ST  salzen              saler
+sangen              T-A-H-MM  singen              chanter                  gesongen
+saufen              N---H-MM  saufen              godailler                gesoff
+schaffen            N---H-RT  arbeiten            travailler
+schätzen            TAA-H-ST  schätzen            estimer
+schécken            TDDAH-RT  schicken            envoyer
+schëdden            TDDAH-SM  schütten            verser                   geschott
+schéissen           N---H-SM  schießen            tirer                    geschoss
+schellen            TDD-H-RT  klingeln            sonner
+schéngen            I-D-H-RT  scheinen            paraître
+schenken            TDDAH-RT  schenken            offrir
+schloen             TAA-H-MN  schlagen            frapper
+schlofen            N---H-MN  schlafen            dormir
+schmaachen          T-A-H-MT  schmecken           goûter
+schmëlzen           T-A-H-SI  schmelzen           fondre                   geschmolt
+schminken           TAA-H-RT  schminken           maquiller
+schmusen            N---H-ST  schmusen            câliner
+schnäizen           N---H-SI  sich schnäuzen      se moucher               geschnaut
+schneiden           TADAH-SM  schneiden           couper                   geschnidden
+schneien            I---H-RT  schneien            neiger
+schreiwen           TDDAH-SM  schreiben           écrire                   geschriwwen
+schueden            TDD-H-ST  schaden             nuire
+schummen            PA--H-RT  sich schämen        avoir honte
+schützen            TAA-H-ST  schützen            protéger
+schwätzen           T-A-H-SI  sprechen            parler                   geschwat
+schwammen           N---S-MM  schwimmen           nager                    geschwommen
+schweessen          N---H-ST  schwitzen           transpirer
+schwieren           TDDAH-RM  schwören            jurer                    geschwuer
+setzen              TAA-H-SI  setzen              placer                   gesat
+sëtzen              N---H-SI  sitzen              être assis               gesiess
+sichen              TADAH-RT  suchen              chercher
+sinn                N---S-II  sein                être                     gewiescht
+soen                TDDAH-MT  sagen               dire
+sollen              T-A-H-II  sollen              devoir                   sollen
+sonnen              PA--H-RT  sich sonnen         prendre un bain de soleil
+spadséieren         N---S-Rt  spazieren           se promener
+spannen             N---H-MM  spinnen             dérailler                gesponnen
+späizen             T-A-H-SM  spucken             cracher                  gespaut
+spären              TAA-H-ST  sperren             barrer
+spillen             T-DAH-RT  spielen             jouer
+spiren              TAA-H-SM  spüren              éprouver                 gespuert
+sprangen            N---S-MM  springen            sauter                   gesprongen
+spueren             T-A-H-RT  sparen              économiser
+starten             T-A-H-ST  starten             lancer
+stellen             TAA-H-RM  stellen             dresser                  gestallt
+stëmmen             i---H-RT  stimmen             être exact
+sténken             N---H-RM  stinken             puer                     gestonk
+stiechen            TAA-H-MM  stechen             piquer                   gestach
+stielen             T-DAH-RM  stehlen             voler                    gestuel
+stierwen            N---S-SM  sterben             mourir                   gestuerwen
+stoen               N---H-II  stehen              se tenir                 gestanen
+stoussen            TAA-H-MN  stoßen              pousser
+sträichen           T-A-H-RM  melken              traire                   gestrach
+streiden            N---H-SM  streiten            se disputer              gestridden
+streiken            N---H-RT  streiken            faire la grève
+studéieren          N---H-Rt  studieren           faire des études
+telefonéieren       TDD-H-Rt  telefonieren        téléphoner
+testen              TAA-H-ST  testen              tester
+tommelen            PA--H-RT  sich beeilen        se dépêcher
+transportéieren     TAA-H-Rt  transportieren      transporter
+traueren            N---H-RT  trauern             porter le deuil
+treffen             TAA-H-MM  treffen             rencontrer               getraff
+trëllen             N---S-RM  stolpern            trébucher                getrollt
+trennen             TAA-H-RT  trennen             séparer
+tuten               N-D-H-ST  hupen               klaxonner
+un-mellen           TAA-HSRT  anmelden            annoncer
+un-strengen         PA--HSRT  sich anstrengen     s'efforcer
+ver-bannen          TAA-HIMM  verbinden           relier                   verbonnen
+ver-besseren        TAA-HIRT  verbessern          corriger
+ver-bidden          TDDAHISM  verbieten           défendre                 verbueden
+ver-bréngen         T-A-HIRI  verbringen          passer                   verbruecht
+ver-dächtegen       TAA-HIRT  verdächtigen        soupçonner
+ver-déngen          T-A-HIRT  verdienen           gagner
+ver-giessen         TAA-HIMn  vergessen           oublier
+ver-gläichen        TAA-HIRM  vergleichen         comparer                 verglach
+ver-goen            I---SIII  vergehen            passer                   vergaangen
+ver-halen           T-A-HIMn  behalten            retenir
+ver-kafen           TADAHIMt  verkaufen           vendre
+ver-lafen           PA--HIMn  sich verlaufen      se perdre
+ver-léieren         TAA-HIRM  verlieren           perdre                   verluer
+ver-léiwen          PA--HISt  sich verlieben      tomber amoureux
+ver-letzen          TAA-HISt  verletzen           blesser
+ver-lounen          T-DAHIRt  vermieten           louer
+ver-schlechteren    PA--HIRt  sich verschlechtern s'empirer
+ver-schwannen       N---SIMM  verschwinden        disparaître              verschwonn
+ver-spotten         TAA-HISt  verspotten          se moquer
+ver-stoen           TAA-HIII  verstehen           comprendre               verstan
+ver-stoppen         TAA-HIRt  verstecken          cacher
+ver-zeien           TDDAHIRM  verzeihen           pardonner                verzien
+vir-gesinn          N---HSII  vorsehen            prévoir                  gesinn
+vir-hunn            T-A-HSII  vorhaben            avoir l'intention        gehat
+vir-werfen          TDDAHSMM  vorwerfen           reprocher                geworf
+waarden             N---H-ST  warten              attendre
+wäschen             TAA-H-RN  waschen             laver
+weigeren            PA--H-RT  sich weigern        refuser
+weisen              TDDAH-SM  zeigen              montrer                  gewisen
+wëllen              T-A-H-IM  wollen              vouloir                  gewollt
+wënschen            TDDAH-RT  wünschen            souhaiter
+wëssen              T-A-H-IM  wissen              savoir                   gewosst
+wetten              T-A-H-ST  wetten              parier
+wielen              TAA-H-RT  wählen              élire
+wonneren            PA--H-RT   sich wundern       s'étonner
+wuessen             N---S-MN   wachsen            grandir
+wunnen              N---H-RT   wohnen             habiter
+zécken              N---H-RT   zögern             hésiter
+zeechnen            TADAH-ST   zeichnen           dessiner
+zéien               TAA-H-MI   ziehen             tirer                    gezunn
+zeréck-bezuelen     T-DAHSMt   zurückbezahlen     rembourser
+zeréck-goen         T-DAHSII   zurückgehen        retourner                gaangen
+zielen              T-A-H-RT   zählen             compter
+zou-bleiwen         i---SSSM   zubleiben          rester fermé             bliwwen
+zwéngen             TAA-H-RM   zwingen            contraindre              gezwongen

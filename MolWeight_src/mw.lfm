@@ -1,0 +1,286 @@
+object fMolWeight: TfMolWeight
+  Left = 109
+  Height = 617
+  Top = 60
+  Width = 719
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Molecular Weight Calculator'
+  ClientHeight = 592
+  ClientWidth = 719
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object rbFormula: TRadioButton
+    Left = 40
+    Height = 27
+    Top = 64
+    Width = 318
+    Caption = ' Standard molecule (chemical formula)'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 6
+    TabStop = True
+  end
+  object Label1: TLabel
+    Left = 20
+    Height = 23
+    Top = 24
+    Width = 134
+    Caption = 'Choose molecule'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edFormula: TEdit
+    Left = 70
+    Height = 31
+    Top = 96
+    Width = 586
+    Font.Height = -17
+    OnChange = edFormulaChange
+    ParentFont = False
+    TabOrder = 0
+  end
+  object rbNucleotide: TRadioButton
+    Left = 40
+    Height = 27
+    Top = 146
+    Width = 297
+    Caption = ' Oligonucleotide (IUP/IUPAC codes)'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 7
+  end
+  object cobNucleotide: TComboBox
+    Left = 568
+    Height = 31
+    Top = 144
+    Width = 88
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 0
+    Items.Strings = (
+      'ssDNA'
+      'ssRNA'
+      'dsDNA'
+      'dsRNA'
+    )
+    ParentFont = False
+    TabOrder = 4
+    TabStop = False
+    Text = 'ssDNA'
+  end
+  object edNucleotide: TMemo
+    Left = 70
+    Height = 113
+    Top = 192
+    Width = 586
+    Font.Height = -13
+    Font.Name = 'Consolas'
+    OnChange = edNucleotideChange
+    ParentFont = False
+    ScrollBars = ssAutoBoth
+    TabOrder = 1
+    WordWrap = False
+  end
+  object rbProtein: TRadioButton
+    Left = 40
+    Height = 27
+    Top = 332
+    Width = 231
+    Caption = ' Protein (IUP/IUPAC codes)'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 8
+  end
+  object edProtein: TMemo
+    Left = 70
+    Height = 113
+    Top = 376
+    Width = 586
+    Font.Height = -13
+    Font.Name = 'Consolas'
+    OnChange = edProteinChange
+    ParentFont = False
+    ScrollBars = ssAutoBoth
+    TabOrder = 2
+    WordWrap = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 23
+    Top = 512
+    Width = 140
+    Caption = 'Molecular weight'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edMolWeight: TEdit
+    Left = 40
+    Height = 31
+    Top = 544
+    Width = 132
+    Alignment = taRightJustify
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object btCalc: TButton
+    Left = 606
+    Height = 31
+    Top = 544
+    Width = 94
+    Caption = 'Calculate'
+    OnClick = btCalcClick
+    TabOrder = 5
+  end
+  object imOpenNucleotide: TImage
+    Left = 664
+    Height = 36
+    Top = 269
+    Width = 36
+    OnClick = imOpenNucleotideClick
+    Picture.Data = {
+      1754506F727461626C654E6574776F726B477261706869634A02000089504E47
+      0D0A1A0A0000000D49484452000000240000002408020000006E620FCF000000
+      0674524E530000000000006EA60791000000097048597300000EC400000EC401
+      952B0E1B000001EA494441544889636018AE80114259E4EDFFCFCC492B3BFE7E
+      3F31C99181818109C2A7BA4D11FC2FA669BF4A393EC7E8C939B8E14CD4B5030E
+      EC64988C927D534ECC317A7C0E2E482BCBCECDD9C4C0C88826C8422BCB648DE6
+      30A44018B4B74CC6E89C8C119A20C2B2137DE610C6FFFFFF21249C818B245281
+      7BE30D88C9E87186AC1ABF412429C0621925C6E15180251849326ED1A2450C84
+      407878389A7D280984A0EB9005D3D2D2F0D8346BD62C4C13F0C519C138200870
+      FA0C2EF16086FBBF9F5F901531B1F148452F66E414C43462CB962D6816F8F8F8
+      60BA1BDD32B8C4BF9F5F5433E7218BBF3EB6F2E3B96502D6D998DE821B4D8ECF
+      60D2FF90150919B83D585EFBF9E26A84104F12419F61DA87C5670C0C0C0CBF5F
+      208B33B33228C755218BEC5F710FABD1B8AC41B70CC567BF5FE23282244038E9
+      333032DF5E3819BF298E0C0CB7FBE66195522D3A816C1AF66044C8FDFF8B9640
+      8807B7A7272173D17C86A5B8A2162090F411727F3F51D13E2C96A148FC7E462D
+      9B8849FACF29B78C81D84C4D25CBD0002E9F911F8CB366CD42368D50D267A0C8
+      67818181586D62A0419C71A0D94420E933B171DEDE41A6558CAC9C78EA5E2C49
+      5F22710B56D711DFA84236904083871883885486B3B8A2C438629A56886064FC
+      FBDDA9E632A6345500E3DFEF343279D00000E7E92CE286C9E90F000000004945
+      4E44AE426082
+    }
+  end
+  object imOpenProtein: TImage
+    Left = 664
+    Height = 36
+    Top = 453
+    Width = 36
+    OnClick = imOpenProteinClick
+    Picture.Data = {
+      1754506F727461626C654E6574776F726B477261706869634A02000089504E47
+      0D0A1A0A0000000D49484452000000240000002408020000006E620FCF000000
+      0674524E530000000000006EA60791000000097048597300000EC400000EC401
+      952B0E1B000001EA494441544889636018AE80114259E4EDFFCFCC492B3BFE7E
+      3F31C99181818109C2A7BA4D11FC2FA669BF4A393EC7E8C939B8E14CD4B5030E
+      EC64988C927D534ECC317A7C0E2E482BCBCECDD9C4C0C88826C8422BCB648DE6
+      30A44018B4B74CC6E89C8C119A20C2B2137DE610C6FFFFFF21249C818B245281
+      7BE30D88C9E87186AC1ABF412429C0621925C6E15180251849326ED1A2450C84
+      407878389A7D280984A0EB9005D3D2D2F0D8346BD62C4C13F0C519C138200870
+      FA0C2EF16086FBBF9F5F901531B1F148452F66E414C43462CB962D6816F8F8F8
+      60BA1BDD32B8C4BF9F5F5433E7218BBF3EB6F2E3B96502D6D998DE821B4D8ECF
+      60D2FF90150919B83D585EFBF9E26A84104F12419F61DA87C5670C0C0C0CBF5F
+      208B33B33228C755218BEC5F710FABD1B8AC41B70CC567BF5FE23282244038E9
+      333032DF5E3819BF298E0C0CB7FBE66195522D3A816C1AF66044C8FDFF8B9640
+      8807B7A7272173D17C86A5B8A2162090F411727F3F51D13E2C96A148FC7E462D
+      9B8849FACF29B78C81D84C4D25CBD0002E9F911F8CB366CD42368D50D267A0C8
+      67818181586D62A0419C71A0D94420E933B171DEDE41A6558CAC9C78EA5E2C49
+      5F22710B56D711DFA84236904083871883885486B3B8A2C438629A56886064FC
+      FBDDA9E632A6345500E3DFEF343279D00000E7E92CE286C9E90F000000004945
+      4E44AE426082
+    }
+  end
+  object btClear: TButton
+    Left = 488
+    Height = 31
+    Top = 544
+    Width = 94
+    Caption = 'Clear'
+    OnClick = btClearClick
+    TabOrder = 9
+  end
+  object cobProtein: TComboBox
+    Left = 520
+    Height = 31
+    Top = 328
+    Width = 136
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 0
+    Items.Strings = (
+      '1-letter code'
+      '3-letters code'
+    )
+    ParentFont = False
+    TabOrder = 3
+    TabStop = False
+    Text = '1-letter code'
+  end
+  object mMenu: TMainMenu
+    Left = 656
+    Top = 10
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsBaseUC: TMenuItem
+        Caption = 'Allow uppercase base codes'
+        Checked = True
+        OnClick = mOptionsBaseUCClick
+      end
+      object mOptionsUracil: TMenuItem
+        Caption = 'Allow ''t'' instead of ''u'' for uracil in RNA'
+        OnClick = mOptionsUracilClick
+      end
+      object mOptionsAminoAcidLC: TMenuItem
+        Caption = 'Allow lowercase amino acid codes'
+        OnClick = mOptionsAminoAcidLCClick
+      end
+      object mOptionsUncertain: TMenuItem
+        Caption = 'Allow uncertain IUP/IUPAC codes'
+        OnClick = mOptionsUncertainClick
+      end
+    end
+    object mExtras: TMenuItem
+      Caption = 'Extras'
+      object mExtrasComposition: TMenuItem
+        Caption = 'Molecule composition'
+        OnClick = mExtrasCompositionClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpNucleotides: TMenuItem
+        Caption = 'Oligonucleotides'
+        OnClick = mHelpNucleotidesClick
+      end
+      object mHelpHelp: TMenuItem
+        Caption = 'Program Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object dlgOpen: TOpenDialog
+    Left = 584
+    Top = 10
+  end
+end

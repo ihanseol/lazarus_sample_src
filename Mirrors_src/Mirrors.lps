@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="Mirrors.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mirrors_u1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fMirrors"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="mirrors_u2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="839" Column="52" TopLine="817"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="845" Column="63" TopLine="823"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="618" Column="102" TopLine="594"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="685" Column="39" TopLine="664"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="868" Column="60" TopLine="855"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="530" Column="3" TopLine="520"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="1556" Column="29" TopLine="1545"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="607" Column="87" TopLine="583"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="842" Column="81" TopLine="828"/>
+      </Position9>
+      <Position10>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="604" Column="34" TopLine="595"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="367" Column="21" TopLine="358"/>
+      </Position11>
+      <Position12>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="731" Column="19" TopLine="719"/>
+      </Position12>
+      <Position13>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="608" Column="9" TopLine="590"/>
+      </Position13>
+      <Position14>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="907" Column="3" TopLine="905"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mirrors_u2.pas"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="902" Column="3" TopLine="900"/>
+      </Position16>
+      <Position17>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="12" Column="105"/>
+      </Position17>
+      <Position18>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="13" Column="45"/>
+      </Position18>
+      <Position19>
+        <Filename Value="mirrors_u2.pas"/>
+        <Caret Line="3" Column="23"/>
+      </Position19>
+      <Position20>
+        <Filename Value="Mirrors.lpr"/>
+        <Caret Line="3" Column="40"/>
+      </Position20>
+      <Position21>
+        <Filename Value="Mirrors.lpr"/>
+        <Caret Line="16" Column="3"/>
+      </Position21>
+      <Position22>
+        <Filename Value="mirrors_u2.pas"/>
+        <Caret Line="19" TopLine="17"/>
+      </Position22>
+      <Position23>
+        <Filename Value="mirrors_u2.pas"/>
+        <Caret Line="42" TopLine="16"/>
+      </Position23>
+      <Position24>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="935" Column="19" TopLine="918"/>
+      </Position24>
+      <Position25>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="254" Column="64" TopLine="241"/>
+      </Position25>
+      <Position26>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="1023" TopLine="997"/>
+      </Position26>
+      <Position27>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="1643" TopLine="1617"/>
+      </Position27>
+      <Position28>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="33" Column="60" TopLine="7"/>
+      </Position28>
+      <Position29>
+        <Filename Value="mirrors_u1.pas"/>
+      </Position29>
+      <Position30>
+        <Filename Value="mirrors_u1.pas"/>
+        <Caret Line="766" Column="11" TopLine="756"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

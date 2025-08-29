@@ -1,0 +1,45 @@
+object fHelp: TfHelp
+  Left = 308
+  Height = 566
+  Top = 171
+  Width = 884
+  Caption = 'fHelp'
+  ClientHeight = 566
+  ClientWidth = 884
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 11
+    Height = 28
+    Top = 10
+    Width = 216
+    Caption = '"CurlicueFractal" Help.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edHelp: TMemo
+    Left = 11
+    Height = 456
+    Top = 56
+    Width = 862
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 779
+    Height = 31
+    Top = 528
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+end

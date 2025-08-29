@@ -1,0 +1,15 @@
+"Blackjack2" v2.0 Program Help.
+===============================
+
+"Blackjack2" is a Blackjack game for 2 players (with a "One player game" option in the "Options" menu). The game is played the same way as real Blackjack, with the differences mentionned in "Blackjack" Help. The two players (real names may be entered into the name fields) play alternatively (against the dealer); the actual player is marked by highlighting. Choose "Deal" to get the first 2 cards, then "Hit" to get a further one or "Stay" if you think you are close enough to 21 to win (or to avoid busting).
+
+The first 4 items in the "Options" menu may be used to change some game settings:
+
+ - "Blackjack" wins 1.5x the stake: if unchecked, the win with Blackjack is 1:1 as for a normal win.
+ - "Busting costs 2x the stake": if checked and you lose by busting, you lose 2x the value of your stake (instead of normal 1x).
+ - "Dealer wins at stand-off": at stand-off, you lose your stake (instead of getting it returned).
+ - "Dealer holds on 18": dealer takes another card if his Blackjack cards value is 17 or less (instead of staying on 17).
+ 
+The 5th option ("One player game") is intended to play the game one single player against the dealer. Please, note that this feature isn't actually implemented (and the "same name for both players" trick possible with version 1.0 doesn't work correctly with this new version). For solitary game, you may continue to use the version 1.0 of "Blackjack2" or my original 1-player "Blackjack" program...
+
+To reset the players' balances and start a new game, use "New" in the "Game" menu.

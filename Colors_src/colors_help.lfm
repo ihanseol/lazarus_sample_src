@@ -1,0 +1,45 @@
+object fHelp: TfHelp
+  Left = 305
+  Height = 528
+  Top = 181
+  Width = 860
+  BorderIcons = [biSystemMenu]
+  Caption = 'The physics of colors'
+  ClientHeight = 528
+  ClientWidth = 860
+  DesignTimePPI = 120
+  Font.Height = -17
+  LCLVersion = '2.0.10.0'
+  object edHelp: TMemo
+    Left = 10
+    Height = 430
+    Top = 56
+    Width = 844
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object laTitle: TLabel
+    Left = 10
+    Height = 28
+    Top = 10
+    Width = 243
+    Caption = '"Colors" application help.'
+    Font.Height = -20
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btClose: TButton
+    Left = 760
+    Height = 31
+    Top = 493
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

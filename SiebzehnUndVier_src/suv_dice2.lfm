@@ -1,0 +1,273 @@
+object fDice2: TfDice2
+  Left = 451
+  Height = 366
+  Top = 260
+  Width = 438
+  BorderIcons = []
+  Caption = '17 und 4 - Würfeln'
+  ClientHeight = 366
+  ClientWidth = 438
+  DesignTimePPI = 120
+  Font.Height = -18
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object StaticText1: TStaticText
+    Left = 51
+    Height = 30
+    Top = 10
+    Width = 337
+    Alignment = taCenter
+    Caption = 'Mit echten Würfeln spielen...'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 14
+  end
+  object edHelp: TMemo
+    Left = 8
+    Height = 60
+    Top = 48
+    Width = 422
+    Color = clCream
+    Lines.Strings = (
+      'Bitte, für jeden der 3 (beziehungsweise 4) Würfe, die gewürfelten Augen der einzelnen Würfel eingeben.'
+    )
+    ReadOnly = True
+    TabOrder = 18
+    TabStop = False
+  end
+  object edDice11: TEdit
+    Left = 104
+    Height = 36
+    Top = 128
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    MaxLength = 1
+    OnChange = edDice11Change
+    ParentFont = False
+    TabOrder = 0
+  end
+  object edDice12: TEdit
+    Left = 178
+    Height = 36
+    Top = 128
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    MaxLength = 1
+    OnChange = edDice12Change
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edDice13: TEdit
+    Left = 252
+    Height = 36
+    Top = 128
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    MaxLength = 1
+    OnChange = edDice13Change
+    ParentFont = False
+    TabOrder = 2
+  end
+  object btDone: TButton
+    Left = 336
+    Height = 31
+    Top = 330
+    Width = 94
+    Caption = 'Fertig'
+    OnClick = btDoneClick
+    TabOrder = 12
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 25
+    Top = 134
+    Width = 58
+    Caption = '1. Wurf'
+  end
+  object edDice1S: TEdit
+    Left = 394
+    Height = 36
+    Top = 128
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object edDice21: TEdit
+    Left = 104
+    Height = 36
+    Top = 176
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    MaxLength = 1
+    OnChange = edDice21Change
+    ParentFont = False
+    TabOrder = 3
+  end
+  object edDice22: TEdit
+    Left = 178
+    Height = 36
+    Top = 176
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    MaxLength = 1
+    OnChange = edDice22Change
+    ParentFont = False
+    TabOrder = 4
+  end
+  object edDice23: TEdit
+    Left = 252
+    Height = 36
+    Top = 176
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    MaxLength = 1
+    OnChange = edDice23Change
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 25
+    Top = 182
+    Width = 58
+    Caption = '2. Wurf'
+  end
+  object edDice2S: TEdit
+    Left = 394
+    Height = 36
+    Top = 176
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 17
+  end
+  object edDice31: TEdit
+    Left = 104
+    Height = 36
+    Top = 224
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    MaxLength = 1
+    OnChange = edDice31Change
+    ParentFont = False
+    TabOrder = 6
+  end
+  object edDice32: TEdit
+    Left = 178
+    Height = 36
+    Top = 224
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    MaxLength = 1
+    OnChange = edDice32Change
+    ParentFont = False
+    TabOrder = 7
+  end
+  object edDice33: TEdit
+    Left = 252
+    Height = 36
+    Top = 224
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    MaxLength = 1
+    OnChange = edDice33Change
+    ParentFont = False
+    TabOrder = 8
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 25
+    Top = 230
+    Width = 58
+    Caption = '3. Wurf'
+  end
+  object edDice3S: TEdit
+    Left = 394
+    Height = 36
+    Top = 224
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 16
+  end
+  object edDice41: TEdit
+    Left = 104
+    Height = 36
+    Top = 272
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    MaxLength = 1
+    OnChange = edDice41Change
+    ParentFont = False
+    TabOrder = 9
+  end
+  object edDice42: TEdit
+    Left = 178
+    Height = 36
+    Top = 272
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    MaxLength = 1
+    OnChange = edDice42Change
+    ParentFont = False
+    TabOrder = 10
+  end
+  object edDice43: TEdit
+    Left = 252
+    Height = 36
+    Top = 272
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    MaxLength = 1
+    OnChange = edDice43Change
+    ParentFont = False
+    TabOrder = 11
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 25
+    Top = 278
+    Width = 58
+    Caption = '4. Wurf'
+  end
+  object edDice4S: TEdit
+    Left = 394
+    Height = 36
+    Top = 272
+    Width = 36
+    Alignment = taCenter
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 15
+  end
+end

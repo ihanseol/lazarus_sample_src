@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="LANMsgClient.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="client.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLANMsgClient"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="config.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fConfig"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="config.pas"/>
+        <Caret Line="75" Column="15" TopLine="70"/>
+      </Position>
+      <Position>
+        <Filename Value="config.pas"/>
+        <Caret Line="76" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="config.pas"/>
+        <Caret Line="164" Column="21" TopLine="137"/>
+      </Position>
+      <Position>
+        <Filename Value="LANMsgClient.lpr"/>
+        <Caret Line="11"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="300" Column="23" TopLine="273"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="28" Column="42" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="29" Column="42" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="30" Column="42" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="230" Column="29" TopLine="206"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="326" Column="20" TopLine="303"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="150" Column="3" TopLine="126"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="31" Column="11" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="32" Column="11" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="33" Column="21" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="32" Column="24" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="39" Column="21" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="40" Column="21" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="150" Column="34" TopLine="127"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="259" Column="13" TopLine="237"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="260" Column="13" TopLine="238"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="267" Column="32" TopLine="244"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="292" Column="32" TopLine="269"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="329" Column="9" TopLine="306"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="330" Column="9" TopLine="307"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="346" Column="9" TopLine="323"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="347" Column="9" TopLine="324"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="378" Column="11" TopLine="355"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="379" Column="11" TopLine="356"/>
+      </Position>
+      <Position>
+        <Filename Value="client.pas"/>
+        <Caret Line="417" Column="43" TopLine="390"/>
+      </Position>
+      <Position>
+        <Filename Value="config.pas"/>
+        <Caret Line="104" Column="113" TopLine="86"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

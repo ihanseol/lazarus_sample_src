@@ -1,0 +1,46 @@
+object fHelp: TfHelp
+  Left = 265
+  Height = 597
+  Top = 181
+  Width = 1004
+  BorderIcons = [biSystemMenu]
+  Caption = 'Muscle Contraction'
+  ClientHeight = 597
+  ClientWidth = 1004
+  DesignTimePPI = 120
+  LCLVersion = '2.0.10.0'
+  object StaticText1: TStaticText
+    Left = 243
+    Height = 30
+    Top = 5
+    Width = 518
+    Alignment = taCenter
+    Caption = 'Physiology: Tetanized muscle contraction.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object edHelp: TMemo
+    Left = 8
+    Height = 504
+    Top = 48
+    Width = 988
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 2
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 902
+    Height = 31
+    Top = 560
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+end

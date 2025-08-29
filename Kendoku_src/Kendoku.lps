@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="Kendoku.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="96"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="kendoku_u1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fKendoku"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="96"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="200" Column="89" TopLine="187"/>
+      </Position1>
+      <Position2>
+        <Filename Value="kendoku_u1.pas"/>
+      </Position2>
+      <Position3>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="45" Column="11" TopLine="23"/>
+      </Position3>
+      <Position4>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="108" Column="24" TopLine="87"/>
+      </Position4>
+      <Position5>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="208" Column="43" TopLine="187"/>
+      </Position5>
+      <Position6>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="293" Column="6" TopLine="285"/>
+      </Position6>
+      <Position7>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="118" Column="16" TopLine="95"/>
+      </Position7>
+      <Position8>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="461" TopLine="448"/>
+      </Position8>
+      <Position9>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="586" Column="114" TopLine="570"/>
+      </Position9>
+      <Position10>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="877" Column="77" TopLine="567"/>
+      </Position10>
+      <Position11>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="16" Column="10" TopLine="7"/>
+      </Position11>
+      <Position12>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="116" Column="16" TopLine="103"/>
+      </Position12>
+      <Position13>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="23" Column="10"/>
+      </Position13>
+      <Position14>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="116" Column="23" TopLine="103"/>
+      </Position14>
+      <Position15>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="128" Column="134" TopLine="115"/>
+      </Position15>
+      <Position16>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="156" Column="51" TopLine="143"/>
+      </Position16>
+      <Position17>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="453" TopLine="428"/>
+      </Position17>
+      <Position18>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="444" Column="46" TopLine="419"/>
+      </Position18>
+      <Position19>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="434" Column="80" TopLine="421"/>
+      </Position19>
+      <Position20>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="439" Column="51" TopLine="426"/>
+      </Position20>
+      <Position21>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="441" Column="46" TopLine="428"/>
+      </Position21>
+      <Position22>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="620" Column="56" TopLine="599"/>
+      </Position22>
+      <Position23>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="436" Column="100" TopLine="420"/>
+      </Position23>
+      <Position24>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="271" Column="23" TopLine="260"/>
+      </Position24>
+      <Position25>
+        <Filename Value="Kendoku.lpr"/>
+        <Caret Line="2" Column="23"/>
+      </Position25>
+      <Position26>
+        <Filename Value="Kendoku.lpr"/>
+        <Caret Line="15" Column="3"/>
+      </Position26>
+      <Position27>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="266" Column="8" TopLine="257"/>
+      </Position27>
+      <Position28>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="681" TopLine="673"/>
+      </Position28>
+      <Position29>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="69" TopLine="61"/>
+      </Position29>
+      <Position30>
+        <Filename Value="kendoku_u1.pas"/>
+        <Caret Line="701" Column="80" TopLine="676"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,48 @@
+=========================
+= "Roman" program help. =
+=========================
+
+"Roman" is an application with 2 functionalities:
+  - Converting Roman to Arabic numerals (and vice-versa).
+  - Performing Roman numerals knowledge tests.
+  
+Menu "File".
+============
+
+New test.
+---------
+Start a new knowledge test (with settings as selected). You may choose if the test will be made of Roman to Arabic or Arabic to Roman questions (or both), by selecting the corresponding checkbox. Pushing the "Start" resp. "Next" button generates the question, pushing the "Answer" button will check what you entered and update the evaluation counters.
+
+Conversion.
+-----------
+Convert Roman to Arabic or Arabic to Roman numeral: Enter your numeral in one of the edit fields, the other one has manditorily to be empty (use the "Clear" button to clear the edit fields) and press the "Convert" button.
+
+Exit.
+-----
+Exit the application.
+
+Menu "Settings".
+================
+
+Questions ...
+-------------
+Enter the number of questions, the test should be made of. Default (program start-up) = 20.
+
+Maximum.
+--------
+Maximum number to be used in the knowledge test. Possible values are 100, 1000 (default) and 3999 (the maximum that may be represented by the standard Roman numerals system).
+
+Menu "Help".
+============
+
+Roman numerals.
+---------------
+Description of the Roman numerals system (text from Wikipedia).
+
+Program help.
+-------------
+Description of how to use the "Roman" application (this document).
+
+About.
+------
+Program version, author and date-written.

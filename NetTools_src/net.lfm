@@ -1,0 +1,299 @@
+object fNetTools: TfNetTools
+  Left = 70
+  Height = 326
+  Top = 101
+  Width = 766
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Network Tools'
+  ClientHeight = 301
+  ClientWidth = 766
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Shape1: TShape
+    Left = 10
+    Height = 108
+    Top = 184
+    Width = 336
+    Brush.Color = clSilver
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 23
+    Top = 12
+    Width = 125
+    Caption = 'Computer name'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edHost: TEdit
+    Left = 144
+    Height = 31
+    Top = 8
+    Width = 196
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 10
+    Height = 23
+    Top = 52
+    Width = 116
+    Caption = 'MAC addresses'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 400
+    Height = 23
+    Top = 12
+    Width = 113
+    Caption = 'Internal IP Wifi'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIPIntWifi: TEdit
+    Left = 560
+    Height = 31
+    Top = 8
+    Width = 196
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 1
+  end
+  object Label4: TLabel
+    Left = 400
+    Height = 23
+    Top = 98
+    Width = 144
+    Caption = 'External IP address'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIPExt: TEdit
+    Left = 560
+    Height = 31
+    Top = 94
+    Width = 196
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object StaticText1: TStaticText
+    Left = 8
+    Height = 21
+    Top = 147
+    Width = 174
+    Caption = 'Network tools:'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Label6: TLabel
+    Left = 400
+    Height = 23
+    Top = 55
+    Width = 149
+    Caption = 'Internal IP Ethernet'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIPIntEth: TEdit
+    Left = 560
+    Height = 31
+    Top = 51
+    Width = 196
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object rbIpconfig: TRadioButton
+    Left = 16
+    Height = 27
+    Top = 192
+    Width = 90
+    Caption = ' ipconfig'
+    Font.Height = -17
+    OnChange = rbIpconfigChange
+    ParentFont = False
+    TabOrder = 13
+  end
+  object rbRoute: TRadioButton
+    Left = 16
+    Height = 27
+    Top = 256
+    Width = 70
+    Caption = ' route'
+    Font.Height = -17
+    OnChange = rbRouteChange
+    ParentFont = False
+    TabOrder = 5
+  end
+  object rbArp: TRadioButton
+    Left = 16
+    Height = 27
+    Top = 224
+    Width = 54
+    Caption = ' arp'
+    Font.Height = -17
+    OnChange = rbArpChange
+    ParentFont = False
+    TabOrder = 6
+  end
+  object rbPing: TRadioButton
+    Left = 128
+    Height = 27
+    Top = 192
+    Width = 63
+    Caption = ' ping'
+    Font.Height = -17
+    OnChange = rbPingChange
+    ParentFont = False
+    TabOrder = 7
+  end
+  object rbNSLookup: TRadioButton
+    Left = 128
+    Height = 27
+    Top = 256
+    Width = 103
+    Caption = ' NSlookup'
+    Font.Height = -17
+    OnChange = rbNSLookupChange
+    ParentFont = False
+    TabOrder = 8
+  end
+  object rbTracert: TRadioButton
+    Left = 128
+    Height = 27
+    Top = 224
+    Width = 79
+    Caption = ' tracert'
+    Font.Height = -17
+    OnChange = rbTracertChange
+    ParentFont = False
+    TabOrder = 9
+  end
+  object rbNetstat: TRadioButton
+    Left = 258
+    Height = 27
+    Top = 192
+    Width = 82
+    Caption = ' netstat'
+    Font.Height = -17
+    OnChange = rbNetstatChange
+    ParentFont = False
+    TabOrder = 10
+  end
+  object rbWhois: TRadioButton
+    Left = 258
+    Height = 27
+    Top = 224
+    Width = 72
+    Caption = ' whois'
+    Font.Height = -17
+    OnChange = rbWhoisChange
+    ParentFont = False
+    TabOrder = 11
+  end
+  object btRun: TButton
+    Left = 258
+    Height = 27
+    Top = 256
+    Width = 82
+    Caption = 'Run'
+    Font.Style = [fsBold]
+    OnClick = btRunClick
+    ParentFont = False
+    TabOrder = 12
+  end
+  object memoNetTools: TMemo
+    Left = 360
+    Height = 108
+    Top = 184
+    Width = 396
+    Color = clCream
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 14
+    TabStop = False
+  end
+  object edMac: TMemo
+    Left = 144
+    Height = 77
+    Top = 48
+    Width = 196
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 15
+    TabStop = False
+  end
+  object mMenu: TMainMenu
+    left = 576
+    top = 200
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileTools: TMenuItem
+        Caption = 'Tools'
+        OnClick = mFileToolsClick
+      end
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object prCmd: TProcess
+    Active = False
+    Options = []
+    Priority = ppNormal
+    StartupOptions = []
+    ShowWindow = swoNone
+    WindowColumns = 0
+    WindowHeight = 0
+    WindowLeft = 0
+    WindowRows = 0
+    WindowTop = 0
+    WindowWidth = 0
+    FillAttribute = 0
+    left = 640
+    top = 200
+  end
+  object tiCmd: TTimer
+    Enabled = False
+    Interval = 20
+    OnTimer = tiCmdTimer
+    left = 704
+    top = 200
+  end
+end

@@ -1,0 +1,34 @@
+Ohm's Law:
+==========
+
+The amount of electric current through a resistance in a circuit is directly proportional to the voltage impressed across it (for any given temperature):
+  U = I·R.
+
+Series circuits:
+================
+
+The total resistance is equal to the sum of the individual resistances:
+  R = R1 + R2 + ...
+
+The current is shared equally by all components:
+  I = I1 = I2 = ...
+
+The voltage drop across each resistor may be determined by Ohm’s Law:
+  U1 = I·R1, U2 = I·R2, ...
+and the total voltage equals the sum of the individual voltages:
+  U = U1 + U2 + ...
+
+Parallel circuits:
+==================
+
+The inverse of the total resistance is equal to the sum of the inverse of the individual resistances:
+  1/R = 1/R1 + 1/R2 + ...
+This also means that the total resistence is always smaller than the smallest individual resistance and in the case of 2 equal resistances, the total resistance is equal half the individual resistance value.
+
+The voltage is equal across all components in the circuit:
+  U = U1 = U2 = ...
+
+The individual resistor ("branch") currents may be determined by Ohm’s Law:
+  I1 = U/R1, I2 = U/R2, ...
+and the total current is equal the sum of all individual branch currents:
+  I = I1 + I2 + ...

@@ -1,0 +1,437 @@
+object fCalculator: TfCalculator
+  Left = 617
+  Height = 576
+  Top = 90
+  Width = 489
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Simple Complex Numbers Calculator'
+  ClientHeight = 551
+  ClientWidth = 489
+  Color = clScrollBar
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object Shape1: TShape
+    Left = 104
+    Height = 320
+    Top = 216
+    Width = 283
+    Pen.Color = clWhite
+  end
+  object bt1: TButton
+    Left = 112
+    Height = 50
+    Top = 224
+    Width = 75
+    Caption = '1'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = bt1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object bt2: TButton
+    Left = 208
+    Height = 50
+    Top = 224
+    Width = 75
+    Caption = '2'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = bt2Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object bt3: TButton
+    Left = 304
+    Height = 50
+    Top = 224
+    Width = 75
+    Caption = '3'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = bt3Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object bt4: TButton
+    Left = 112
+    Height = 50
+    Top = 288
+    Width = 75
+    Caption = '4'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = bt4Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object bt5: TButton
+    Left = 208
+    Height = 50
+    Top = 288
+    Width = 75
+    Caption = '5'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = bt5Click
+    ParentFont = False
+    TabOrder = 5
+  end
+  object bt6: TButton
+    Left = 304
+    Height = 50
+    Top = 288
+    Width = 75
+    Caption = '6'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = bt6Click
+    ParentFont = False
+    TabOrder = 6
+  end
+  object bt7: TButton
+    Left = 112
+    Height = 50
+    Top = 352
+    Width = 75
+    Caption = '7'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = bt7Click
+    ParentFont = False
+    TabOrder = 7
+  end
+  object bt8: TButton
+    Left = 208
+    Height = 50
+    Top = 352
+    Width = 75
+    Caption = '8'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = bt8Click
+    ParentFont = False
+    TabOrder = 8
+  end
+  object bt9: TButton
+    Left = 304
+    Height = 50
+    Top = 352
+    Width = 75
+    Caption = '9'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = bt9Click
+    ParentFont = False
+    TabOrder = 9
+  end
+  object btSgn: TButton
+    Left = 112
+    Height = 50
+    Top = 416
+    Width = 75
+    Caption = '+/-'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btSgnClick
+    ParentFont = False
+    TabOrder = 10
+  end
+  object bt0: TButton
+    Left = 208
+    Height = 50
+    Top = 416
+    Width = 75
+    Caption = '0'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = bt0Click
+    ParentFont = False
+    TabOrder = 11
+  end
+  object btDS: TButton
+    Left = 304
+    Height = 50
+    Top = 416
+    Width = 75
+    Caption = '.'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btDSClick
+    ParentFont = False
+    TabOrder = 12
+  end
+  object btImPlus: TButton
+    Left = 304
+    Height = 50
+    Top = 480
+    Width = 75
+    Caption = '+i'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btImPlusClick
+    ParentFont = False
+    TabOrder = 13
+  end
+  object btImMinus: TButton
+    Left = 112
+    Height = 50
+    Top = 480
+    Width = 75
+    Caption = '-i'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btImMinusClick
+    ParentFont = False
+    TabOrder = 14
+  end
+  object btPlus: TButton
+    Left = 400
+    Height = 50
+    Top = 224
+    Width = 75
+    Caption = '+'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btPlusClick
+    ParentFont = False
+    TabOrder = 15
+  end
+  object btMinus: TButton
+    Left = 400
+    Height = 50
+    Top = 288
+    Width = 75
+    Caption = '-'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btMinusClick
+    ParentFont = False
+    TabOrder = 16
+  end
+  object btMult: TButton
+    Left = 400
+    Height = 50
+    Top = 352
+    Width = 75
+    Caption = 'x'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btMultClick
+    ParentFont = False
+    TabOrder = 17
+  end
+  object btDiv: TButton
+    Left = 400
+    Height = 50
+    Top = 416
+    Width = 75
+    Caption = ':'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btDivClick
+    ParentFont = False
+    TabOrder = 18
+  end
+  object btResult: TButton
+    Left = 400
+    Height = 50
+    Top = 480
+    Width = 75
+    Caption = '='
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btResultClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object btSquare: TButton
+    Left = 16
+    Height = 50
+    Top = 224
+    Width = 75
+    Caption = 'a²'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btSquareClick
+    ParentFont = False
+    TabOrder = 19
+  end
+  object btCube: TButton
+    Left = 16
+    Height = 50
+    Top = 288
+    Width = 75
+    Caption = 'a³'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btCubeClick
+    ParentFont = False
+    TabOrder = 20
+  end
+  object btInverse: TButton
+    Left = 16
+    Height = 50
+    Top = 352
+    Width = 75
+    Caption = '1/a'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btInverseClick
+    ParentFont = False
+    TabOrder = 21
+  end
+  object btConjugate: TButton
+    Left = 16
+    Height = 50
+    Top = 416
+    Width = 75
+    Caption = 'ā'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btConjugateClick
+    ParentFont = False
+    TabOrder = 22
+  end
+  object btCE: TButton
+    Left = 208
+    Height = 50
+    Top = 152
+    Width = 75
+    Caption = 'CE'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btCEClick
+    ParentFont = False
+    TabOrder = 23
+  end
+  object btCA: TButton
+    Left = 112
+    Height = 50
+    Top = 152
+    Width = 75
+    Caption = 'CA'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btCAClick
+    ParentFont = False
+    TabOrder = 24
+  end
+  object btC1: TButton
+    Left = 304
+    Height = 50
+    Top = 152
+    Width = 75
+    Caption = '<-'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btC1Click
+    ParentFont = False
+    TabOrder = 25
+  end
+  object btMC: TButton
+    Left = 16
+    Height = 50
+    Top = 88
+    Width = 75
+    Caption = 'MC'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btMCClick
+    ParentFont = False
+    TabOrder = 26
+  end
+  object btMPlus: TButton
+    Left = 304
+    Height = 50
+    Top = 88
+    Width = 75
+    Caption = 'M+'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btMPlusClick
+    ParentFont = False
+    TabOrder = 27
+  end
+  object btMS: TButton
+    Left = 400
+    Height = 50
+    Top = 88
+    Width = 75
+    Caption = 'MS'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btMSClick
+    ParentFont = False
+    TabOrder = 28
+  end
+  object btMR: TButton
+    Left = 112
+    Height = 50
+    Top = 88
+    Width = 75
+    Caption = 'MR'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btMRClick
+    ParentFont = False
+    TabOrder = 29
+  end
+  object btMMinus: TButton
+    Left = 208
+    Height = 50
+    Top = 88
+    Width = 75
+    Caption = 'M-'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btMMinusClick
+    ParentFont = False
+    TabOrder = 30
+  end
+  object edResult: TEdit
+    Left = 16
+    Height = 28
+    Top = 48
+    Width = 459
+    Alignment = taRightJustify
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 31
+    Text = '0'
+  end
+  object edCalc: TEdit
+    Left = 16
+    Height = 28
+    Top = 16
+    Width = 459
+    Alignment = taRightJustify
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 32
+  end
+  object mMenu: TMainMenu
+    Left = 40
+    Top = 480
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

@@ -1,0 +1,121 @@
+object fMySQL1: TfMySQL1
+  Left = 676
+  Height = 208
+  Top = 419
+  Width = 545
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Test MySQL connection using TMySQLConnection'
+  ClientHeight = 208
+  ClientWidth = 545
+  Font.Height = -14
+  LCLVersion = '2.2.0.4'
+  object StaticText1: TStaticText
+    Left = 18
+    Height = 24
+    Top = 8
+    Width = 497
+    Alignment = taCenter
+    Caption = 'Reading the number of cities from the "world" databse.'
+    Font.Height = -14
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 17
+    Top = 45
+    Width = 241
+    Caption = '1. Connecting to the database server:'
+  end
+  object edCities: TEdit
+    Left = 443
+    Height = 23
+    Top = 70
+    Width = 42
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object btConnect: TButton
+    Left = 22
+    Height = 23
+    Top = 70
+    Width = 75
+    Caption = 'Connect'
+    OnClick = btConnectClick
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 314
+    Height = 17
+    Top = 45
+    Width = 223
+    Caption = '2. Submitting the query to MySQL:'
+  end
+  object btQuery: TButton
+    Left = 328
+    Height = 23
+    Top = 109
+    Width = 75
+    Caption = 'Query'
+    OnClick = btQueryClick
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 328
+    Height = 17
+    Top = 74
+    Width = 107
+    Caption = 'Number of cities'
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 17
+    Top = 154
+    Width = 176
+    Caption = 'Database access message:'
+  end
+  object edMess: TEdit
+    Left = 8
+    Height = 23
+    Top = 179
+    Width = 421
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object btExit: TButton
+    Left = 462
+    Height = 23
+    Top = 179
+    Width = 75
+    Caption = 'Exit'
+    OnClick = btExitClick
+    TabOrder = 2
+  end
+  object dbSQLTransaction: TSQLTransaction
+    Active = False
+    Database = dbMySQLConnection
+    Left = 250
+    Top = 70
+  end
+  object dbSQLQuery: TSQLQuery
+    FieldDefs = <>
+    Transaction = dbSQLTransaction
+    Params = <>
+    Macros = <>
+    Left = 250
+    Top = 122
+  end
+  object dbMySQLConnection: TMySQL80Connection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    Transaction = dbSQLTransaction
+    SkipLibraryVersionCheck = False
+    Left = 160
+    Top = 96
+  end
+end

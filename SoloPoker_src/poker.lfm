@@ -1,0 +1,615 @@
+object fPoker: TfPoker
+  Left = 199
+  Height = 705
+  Top = 56
+  Width = 866
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Solo Poker'
+  ClientHeight = 680
+  ClientWidth = 866
+  Color = clMoneyGreen
+  DesignTimePPI = 120
+  Font.Height = -18
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object imCard00: TImage
+    Left = 8
+    Height = 96
+    Top = 64
+    Width = 71
+    OnClick = imCard00Click
+  end
+  object imCard01: TImage
+    Left = 96
+    Height = 96
+    Top = 64
+    Width = 71
+    OnClick = imCard01Click
+  end
+  object imCard02: TImage
+    Left = 184
+    Height = 96
+    Top = 64
+    Width = 71
+    OnClick = imCard02Click
+  end
+  object imCard03: TImage
+    Left = 272
+    Height = 96
+    Top = 64
+    Width = 71
+    OnClick = imCard03Click
+  end
+  object imCard04: TImage
+    Left = 360
+    Height = 96
+    Top = 64
+    Width = 71
+    OnClick = imCard04Click
+  end
+  object imCard10: TImage
+    Left = 8
+    Height = 96
+    Top = 178
+    Width = 71
+    OnClick = imCard10Click
+  end
+  object imCard11: TImage
+    Left = 96
+    Height = 96
+    Top = 178
+    Width = 71
+    OnClick = imCard11Click
+  end
+  object imCard12: TImage
+    Left = 184
+    Height = 96
+    Top = 178
+    Width = 71
+    OnClick = imCard12Click
+  end
+  object imCard20: TImage
+    Left = 8
+    Height = 96
+    Top = 292
+    Width = 71
+    OnClick = imCard20Click
+  end
+  object imCard21: TImage
+    Left = 96
+    Height = 96
+    Top = 292
+    Width = 71
+    OnClick = imCard21Click
+  end
+  object imCard22: TImage
+    Left = 184
+    Height = 96
+    Top = 292
+    Width = 71
+    OnClick = imCard22Click
+  end
+  object imCard23: TImage
+    Left = 272
+    Height = 96
+    Top = 292
+    Width = 71
+    OnClick = imCard23Click
+  end
+  object imCard24: TImage
+    Left = 360
+    Height = 96
+    Top = 292
+    Width = 71
+    OnClick = imCard24Click
+  end
+  object imCard13: TImage
+    Left = 272
+    Height = 96
+    Top = 178
+    Width = 71
+    OnClick = imCard13Click
+  end
+  object imCard14: TImage
+    Left = 360
+    Height = 96
+    Top = 178
+    Width = 71
+    OnClick = imCard14Click
+  end
+  object StaticText1: TStaticText
+    Left = 8
+    Height = 32
+    Top = 10
+    Width = 128
+    Caption = 'Solo Poker.'
+    Font.Color = clGreen
+    Font.Height = -22
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object imCard30: TImage
+    Left = 8
+    Height = 96
+    Top = 408
+    Width = 71
+    OnClick = imCard30Click
+  end
+  object imCard31: TImage
+    Left = 96
+    Height = 96
+    Top = 408
+    Width = 71
+    OnClick = imCard31Click
+  end
+  object imCard32: TImage
+    Left = 184
+    Height = 96
+    Top = 408
+    Width = 71
+    OnClick = imCard32Click
+  end
+  object imCard40: TImage
+    Left = 8
+    Height = 96
+    Top = 522
+    Width = 71
+    OnClick = imCard40Click
+  end
+  object imCard41: TImage
+    Left = 96
+    Height = 96
+    Top = 522
+    Width = 71
+    OnClick = imCard41Click
+  end
+  object imCard42: TImage
+    Left = 184
+    Height = 96
+    Top = 522
+    Width = 71
+    OnClick = imCard42Click
+  end
+  object imCard43: TImage
+    Left = 272
+    Height = 96
+    Top = 522
+    Width = 71
+    OnClick = imCard43Click
+  end
+  object imCard44: TImage
+    Left = 360
+    Height = 96
+    Top = 522
+    Width = 71
+    OnClick = imCard44Click
+  end
+  object imCard33: TImage
+    Left = 272
+    Height = 96
+    Top = 408
+    Width = 71
+    OnClick = imCard33Click
+  end
+  object imCard34: TImage
+    Left = 360
+    Height = 96
+    Top = 408
+    Width = 71
+    OnClick = imCard34Click
+  end
+  object laBet0: TLabel
+    Left = 456
+    Height = 25
+    Top = 64
+    Width = 29
+    Caption = 'Bet:'
+    ParentColor = False
+  end
+  object edBet0: TEdit
+    Left = 456
+    Height = 31
+    Top = 94
+    Width = 60
+    Alignment = taRightJustify
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    MaxLength = 4
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 1
+  end
+  object laBet1: TLabel
+    Left = 456
+    Height = 25
+    Top = 178
+    Width = 29
+    Caption = 'Bet:'
+    ParentColor = False
+  end
+  object edBet1: TEdit
+    Left = 456
+    Height = 31
+    Top = 208
+    Width = 60
+    Alignment = taRightJustify
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    MaxLength = 4
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 2
+  end
+  object laBet2: TLabel
+    Left = 456
+    Height = 25
+    Top = 292
+    Width = 29
+    Caption = 'Bet:'
+    ParentColor = False
+  end
+  object edBet2: TEdit
+    Left = 456
+    Height = 31
+    Top = 322
+    Width = 60
+    Alignment = taRightJustify
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    MaxLength = 4
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 3
+  end
+  object laBet3: TLabel
+    Left = 456
+    Height = 25
+    Top = 408
+    Width = 29
+    Caption = 'Bet:'
+    ParentColor = False
+  end
+  object edBet3: TEdit
+    Left = 456
+    Height = 31
+    Top = 438
+    Width = 60
+    Alignment = taRightJustify
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    MaxLength = 4
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 4
+  end
+  object laBet4: TLabel
+    Left = 456
+    Height = 25
+    Top = 522
+    Width = 29
+    Caption = 'Bet:'
+    ParentColor = False
+  end
+  object edBet4: TEdit
+    Left = 456
+    Height = 31
+    Top = 552
+    Width = 60
+    Alignment = taRightJustify
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    MaxLength = 4
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 7
+  end
+  object btAction: TButton
+    Left = 776
+    Height = 31
+    Top = 638
+    Width = 84
+    Caption = 'Deal'
+    OnClick = btActionClick
+    TabOrder = 8
+  end
+  object edBetTotal: TEdit
+    Left = 456
+    Height = 31
+    Top = 640
+    Width = 60
+    Alignment = taRightJustify
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    MaxLength = 4
+    NumbersOnly = True
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object edBalance: TEdit
+    Left = 96
+    Height = 31
+    Top = 640
+    Width = 60
+    Alignment = taRightJustify
+    Color = clYellow
+    Font.Height = -17
+    MaxLength = 4
+    NumbersOnly = True
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+    Text = '100'
+  end
+  object Label10: TLabel
+    Left = 20
+    Height = 23
+    Top = 644
+    Width = 59
+    Caption = 'Balance'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 209
+    Height = 25
+    Top = 644
+    Width = 50
+    Caption = 'Payoff'
+    ParentColor = False
+  end
+  object edHand0: TEdit
+    Left = 536
+    Height = 31
+    Top = 94
+    Width = 156
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object edHand1: TEdit
+    Left = 536
+    Height = 31
+    Top = 208
+    Width = 156
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object edHand2: TEdit
+    Left = 536
+    Height = 31
+    Top = 322
+    Width = 156
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object edHand3: TEdit
+    Left = 536
+    Height = 31
+    Top = 438
+    Width = 156
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object edHand4: TEdit
+    Left = 536
+    Height = 31
+    Top = 552
+    Width = 156
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object edPayOut0: TEdit
+    Left = 704
+    Height = 31
+    Top = 94
+    Width = 156
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object edPayOut1: TEdit
+    Left = 704
+    Height = 31
+    Top = 208
+    Width = 156
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 15
+  end
+  object edPayOut2: TEdit
+    Left = 704
+    Height = 31
+    Top = 322
+    Width = 156
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 16
+  end
+  object edPayOut3: TEdit
+    Left = 704
+    Height = 31
+    Top = 438
+    Width = 156
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 17
+  end
+  object edPayOut4: TEdit
+    Left = 704
+    Height = 31
+    Top = 552
+    Width = 156
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 18
+  end
+  object edPayoutTotal: TEdit
+    Left = 272
+    Height = 31
+    Top = 640
+    Width = 60
+    Alignment = taRightJustify
+    Color = clGreen
+    Font.Color = clWhite
+    Font.Height = -17
+    MaxLength = 4
+    NumbersOnly = True
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 19
+  end
+  object mMenu: TMainMenu
+    Left = 24
+    Top = 72
+    object mGame: TMenuItem
+      Caption = 'Game'
+      object mGameNew: TMenuItem
+        Caption = 'New'
+        OnClick = mGameNewClick
+      end
+      object mGameExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mGameExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsHands: TMenuItem
+        Caption = 'Number of hands'
+        object mOptionsHands1: TMenuItem
+          Caption = '1'
+          OnClick = mOptionsHands1Click
+        end
+        object mOptionsHands2: TMenuItem
+          Caption = '2'
+          OnClick = mOptionsHands2Click
+        end
+        object mOptionsHands3: TMenuItem
+          Caption = '3'
+          OnClick = mOptionsHands3Click
+        end
+        object mOptionsHands4: TMenuItem
+          Caption = '4'
+          OnClick = mOptionsHands4Click
+        end
+        object mOptionsHands5: TMenuItem
+          Caption = '5'
+          Checked = True
+          OnClick = mOptionsHands5Click
+        end
+      end
+      object mOptionsBetDefault: TMenuItem
+        Caption = 'Default bet'
+        object mOptionsBetDefault1: TMenuItem
+          Caption = '1'
+          OnClick = mOptionsBetDefault1Click
+        end
+        object mOptionsBetDefault2: TMenuItem
+          Caption = '2'
+          OnClick = mOptionsBetDefault2Click
+        end
+        object mOptionsBetDefault3: TMenuItem
+          Caption = '3'
+          OnClick = mOptionsBetDefault3Click
+        end
+        object mOptionsBetDefault4: TMenuItem
+          Caption = '4'
+          OnClick = mOptionsBetDefault4Click
+        end
+        object mOptionsBetDefault5: TMenuItem
+          Caption = '5'
+          OnClick = mOptionsBetDefault5Click
+        end
+        object mOptionsBetDefaultNone: TMenuItem
+          Caption = 'None'
+          Checked = True
+          OnClick = mOptionsBetDefaultNoneClick
+        end
+      end
+      object mOptionsTwoDecks: TMenuItem
+        Caption = 'Use 2 card decks'
+        OnClick = mOptionsTwoDecksClick
+      end
+      object mOptionsDiscard: TMenuItem
+        Caption = 'Click to discard (replace)'
+        OnClick = mOptionsDiscardClick
+      end
+      object mOptionsFaceUp: TMenuItem
+        Caption = 'Enable face-up card'
+        OnClick = mOptionsFaceUpClick
+      end
+      object mOptionsCredit: TMenuItem
+        Caption = 'Enable negative balance'
+        OnClick = mOptionsCreditClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

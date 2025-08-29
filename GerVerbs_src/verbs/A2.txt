@@ -1,0 +1,72 @@
+# Unregelmäßige und starke deutsche Verben - Sprachniveau A2
+# https://deutschlernerblog.de/1100-unregelmaessige-und-starke-deutsche-verben-nach-sprachniveau-a1-c2/
+
+backen              backt               buk/backte          gebacken/gebackt    R H -
+biegen              biegt               bog                 gebogen             R X -
+bieten              bietet              bot                 geboten             R H -
+bitten              bittet              bat                 gebeten             R H -
+braten              brät                briet               gebraten            S H -
+fallen              fällt               fiel                gefallen            S S -
+gefallen            gefällt             gefiel              gefallen            S H -
+gewinnen            gewinnt             gewann              gewonnen            R H -
+laden               lädt                lud                 geladen             S H -
+laufen              läuft               lief                gelaufen            S S -
+liegen              liegt               lag                 gelegen             R H -
+nennen              nennt               nannte              genannt             R H -
+rennen              rennt               rannte              gerannt             R S -
+riechen             riecht              roch                gerochen            R H -
+schließen           schließt            schloss             geschlossen         R H -
+sitzen              sitzt               saß                 gesessen            R H -
+steigen             steigt              stieg               gestiegen           R S -
+sterben             stirbt              starb               gestorben           S S -
+treiben             treibt              trieb               getrieben           R X -
+vergessen           vergisst            vergaß              vergessen           S H -
+verlieren           verliert            verlor              verloren            R H -
+wachsen             wächst              wuchs               gewachsen           S S -
+waschen             wäscht              wusch               gewaschen           S H -
+werden              wird                wurde               geworden            U S -
+werfen              wirft               warf                geworfen            S H -
+ziehen              zieht               zog                 gezogen             R X -
+ab-biegen                                                                       T S -
+ab-fahren                                                                       T S -
+ab-fliegen                                                                      T S -
+ab-geben                                                                        T H -
+ab-waschen                                                                      T H -
+an-bieten                                                                       T H -
+an-ziehen                                                                       T H -
+auf-laden                                                                       T H -
+auf-wachsen                                                                     T S -
+aus-geben                                                                       T H -
+aus-schlafen                                                                    T H -
+aus-sehen                                                                       T H -
+aus-sprechen                                                                    T H -
+aus-steigen                                                                     T S -
+aus-ziehen                                                                      T X -
+be-finden                                                                       N H -
+be-schreiben                                                                    N H -
+ein-laden                                                                       T H -
+ein-schlafen                                                                    T S -
+ein-steigen                                                                     T S -
+ein-ziehen                                                                      T X -
+emp-fangen                                                                      N H -
+er-kennen                                                                       N H -
+los-gehen                                                                       T S -
+mit-bringen                                                                     T H -
+mit-gehen                                                                       T S -
+mit-kommen                                                                      T S -
+mit-nehmen                                                                      T H -
+nach-denken                                                                     T H -
+teil-nehmen                                                                     T H -
+um-steigen                                                                      T S -
+um-ziehen                                                                       T X -
+unter-schreiben                                                                 N H -
+ver-bieten                                                                      N H -
+ver-gessen                                                                      N H -
+sich ver-laufen                                                                 N H -
+ver-lieren                                                                      N H -
+ver-schlafen                                                                    N H -
+ver-schreiben                                                                   N H -
+wieder-geben                                                                    T H -
+zurück-fahren                                                                   T X -
+zurück-geben                                                                    T H -
+zurück-kommen                                                                   T S -

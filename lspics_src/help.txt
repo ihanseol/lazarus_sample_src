@@ -1,0 +1,23 @@
+"lspics" is a simple command line program, that copies the pictures, that MS
+Windows displays on the lock screen to a user directory.
+
+Usage: lspics [SAVE-DIRECTORY] [OPTIONS]
+
+SAVE-DIRECTORY : Full path to the folder, where the pictures should be saved.
+                 If no folder is given, the folder "Lockscreen" in the user's
+                 Pictures library will be used. The aliases UserDocs and
+				 UserPics may be used to indicate the path to the user's
+				 Documents resp. Pictures library.
+
+OPTIONS: -r:FILENAME-BASE[,FILENAME-NUMBERING]] : Picture file renaming.
+         Names to be used, when renaming the picture files. Filenames will
+         be FILENAME-BASE, followed by a sequence number of the same format
+         (left-filling with zeros) as FILENAME-NUMBERING and starting with
+         the number given by FILENAME-NUMBERING.
+         If the -r parameter is omitted, "pic,001" will be used.
+
+         -o : Existing files overriding.
+         The files found in the Microsoft folder are copied to the specified
+         folder, with renaming as described above, plus addition of the
+         extension .jpg. If a filename already exists, the actual file will
+         NOT be copied. To allow file overriding, use the -o option.

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="Converter2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="55"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="convert2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fConverter2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="55"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="326" Column="3" TopLine="300"/>
+      </Position1>
+      <Position2>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="425" TopLine="405"/>
+      </Position2>
+      <Position3>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="415" Column="23" TopLine="397"/>
+      </Position3>
+      <Position4>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="397" Column="54" TopLine="383"/>
+      </Position4>
+      <Position5>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="465" TopLine="438"/>
+      </Position5>
+      <Position6>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="365" Column="18" TopLine="339"/>
+      </Position6>
+      <Position7>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="377" Column="22" TopLine="363"/>
+      </Position7>
+      <Position8>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="376" Column="87" TopLine="363"/>
+      </Position8>
+      <Position9>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="219" Column="9" TopLine="205"/>
+      </Position9>
+      <Position10>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="251" Column="86" TopLine="227"/>
+      </Position10>
+      <Position11>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="213" TopLine="197"/>
+      </Position11>
+      <Position12>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="363" Column="29" TopLine="358"/>
+      </Position12>
+      <Position13>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="364" Column="31" TopLine="350"/>
+      </Position13>
+      <Position14>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="353" TopLine="350"/>
+      </Position14>
+      <Position15>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="538" TopLine="511"/>
+      </Position15>
+      <Position16>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="252" Column="55" TopLine="246"/>
+      </Position16>
+      <Position17>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="254" Column="67" TopLine="239"/>
+      </Position17>
+      <Position18>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="272" Column="107" TopLine="249"/>
+      </Position18>
+      <Position19>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="494" Column="83" TopLine="491"/>
+      </Position19>
+      <Position20>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="474" TopLine="451"/>
+      </Position20>
+      <Position21>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="12" Column="89"/>
+      </Position21>
+      <Position22>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="332" Column="15" TopLine="319"/>
+      </Position22>
+      <Position23>
+        <Filename Value="Converter2.lpr"/>
+        <Caret Line="3" Column="56"/>
+      </Position23>
+      <Position24>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="96" TopLine="95"/>
+      </Position24>
+      <Position25>
+        <Filename Value="help.pas"/>
+        <Caret Line="30" Column="121" TopLine="12"/>
+      </Position25>
+      <Position26>
+        <Filename Value="help.pas"/>
+        <Caret Line="44" Column="37" TopLine="17"/>
+      </Position26>
+      <Position27>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="556" TopLine="529"/>
+      </Position27>
+      <Position28>
+        <Filename Value="help.pas"/>
+        <Caret Line="2" Column="18"/>
+      </Position28>
+      <Position29>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="144" Column="38" TopLine="126"/>
+      </Position29>
+      <Position30>
+        <Filename Value="convert2.pas"/>
+        <Caret Line="66" Column="87" TopLine="56"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

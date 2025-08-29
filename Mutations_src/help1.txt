@@ -1,0 +1,32 @@
+**********************************
+* Genetics help: Point mutations *
+**********************************
+
+Point mutations typically refer to alterations of single base pairs of DNA or of a small number of adjacent base pairs, i.e. mutations that map to a single location, or “point,” within a gene. The main types of point mutation in DNA are base substitutions and indel mutations (base additions or deletions).
+
+Base substitutions.
+*******************
+
+Base substitutions are mutations in which one base pair is replaced by another. A TRANSITION is the replacement of a base by the other base of the same chemical category: purine replaced by purine (A to G or G to A), pyrimidine replaced by pyrimidine (C to T or T to C). A TRANSVERSION is the opposite, the replacement of a base of one chemical category by a base of the other: pyrimidine replaced by purine (C to A, C to G, T to A, or T to G), purine replaced by pyrimidine (A to C, A to T, G to C, G to T).
+
+Most base substitutions in coding regions do result in changed amino acids; these are called MISSENSE MUTATIONS. Ex: AAA -> K, GAA -> E.
+
+Mutations, that change the nucleotide sequence without changing the amino acid sequence are called SILENT MUTATIONS because they are not detectable as changes in phenotype. Ex: AAA and AAG -> K.
+
+If a base substitution results in the replacement of a coding codon by a stop codon, the substitution is called NONSENSE MUTATION. Ex: GAA -> E, TAA -> Stop and the protein coded by the mutated DNA will be shorter than the one coded by the original DNA. The inverse is also possible: a stop codon being replaced by a coding codon will result in a PROTEIN ELONGATION. 
+
+Indel mutations.
+****************
+
+The insertion or deletion of a single base shifts the phase in which the ribosome reads the triplet codons and, consequently, alters all of the amino acids downstream from the site of the mutation. Such mutations are called FRAMESHIFT MUTATIONS because they shift the reading frame of the codons in the mRNA. A 1-base deletion results in a shifting from frame 1 to frame 2. A 1-base insertion results in a shifting from frame 1 to frame 3, a 2-bases insertion from frame 1 to frame 2.
+
+Special cases are when either the original or the mutated codon are stop codons. In this case, the mutation effect will be, just as with substitutions, a NONSENSE MUTATION or a PROTEIN ELONGATION.
+
+A nonsense mutation or protein elongation may also be the result of a frameshift, that induces the appearance of a stop codon resp. "replaces" a stop codon by a coding codon, downstream from the site of the mutation.
+
+Another special case is when 3 bases are inserted at a codon position (position where a frame 1 codon starts): in this case the two proteins are identical, except 1 AMINO ACID INSERTION in the protein, resulting from the mutated DNA, at the mutation position.
+
+Note.
+=====
+
+The concept of reading frames takes into consideration that translation may be started at any of the 3 bases within the first codon, thus giving 3 reading frames for a single-stranded DNA sequence resp. 6 reading frames for double-stranded DNA (the 3 frames as before plus the 3 frames of the reverse complement). This total of six reading frames have in particular to be considered when looking for coding regions in a DNA sequence.

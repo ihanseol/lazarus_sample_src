@@ -1,0 +1,50 @@
+Apple          Apfel          2 1
+Apricot        Aprikose       1 2
+Avocado        Avocado        1 3
+Banana         Banane         1 1
+Blackberry     Brombeere      1 2
+Blueberry      Blaubeere      1 3 gHeidelbeere
+Breadfruit     Brotfrucht     2 3
+Carambola      Sternfrucht    1 3 gKarambole,gCarambola
+Cherimoya      Cherimoya      1 3
+Cherry         Kirsche        1 1
+Coconut        Kokosnuss      1 1
+Cranberry      Preiselbeere   1 3
+Currant        Johannisbeere  2 2
+Damson         Zwetschge      1 2 *ePlum
+Date fruit     Dattel         2 3
+Elderberry     Holunder       1 2
+Fig            Feige          2 2
+Gooseberry     Stachelbeere   1 2
+Grape          Traube         3 1
+Grapefruit     Grapefruit     1 2
+Greengage      Reneklode      1 3
+Guava          Guave          1 3
+Kiwifruit      Kiwi           2 1
+Kumquat        Zwergorange    1 3 *gOrange,*eOrange
+Lemon          Zitrone        1 1
+Lime           Limette        1 3 gLimone,gLimonelle
+Longan         Longan         1 3
+Lychee         Litchi         1 2
+Mandarin       Mandarine      1 1
+Mango          Mango          2 2
+Melon          Melone         1 1
+Nashi pear     Nashi Birne    1 3
+Nectarine      Nektarine      2 2
+Orange         Orange         2 1
+Papaya         Papaya         1 2
+Passion fruit  Maracuja       2 2 gPassionsfrucht,gGrenadilla
+Peach          Pfirsich       1 1
+Pear           Birne          1 1
+Pineapple      Ananas         1 1
+Pitaya         Pitahaya       1 3 eDragonfruit,gDrachenfrucht
+Plum           Pflaume        1 2
+Pomegranate    Granatapfel    1 3
+Prickly pear   Kaktusfeige    2 3
+Quince         Quitte         1 3
+Raspberry      Himbeere       1 1
+Rose hip       Hagebutte      1 2
+Strawberry     Erdbeere       1 1
+Tree tomato    Tamarillo      2 3 gBaumtomate
+Watermelon     Wassermelone   1 2 *eMelon,*gMelone
+Woodstrawberry Walderdbeere   1 3 *eStrawberry,*gErdbeere

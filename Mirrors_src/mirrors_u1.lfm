@@ -1,0 +1,1332 @@
+object fMirrors: TfMirrors
+  Left = 262
+  Height = 756
+  Top = 7
+  Width = 655
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Mirrors'
+  ClientHeight = 731
+  ClientWidth = 655
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object shField00: TShape
+    Left = 80
+    Height = 50
+    Top = 128
+    Width = 50
+    OnMouseDown = shField00MouseDown
+  end
+  object shField01: TShape
+    Left = 130
+    Height = 50
+    Top = 128
+    Width = 50
+    OnMouseDown = shField01MouseDown
+  end
+  object shField02: TShape
+    Left = 180
+    Height = 50
+    Top = 128
+    Width = 50
+    OnMouseDown = shField02MouseDown
+  end
+  object shField03: TShape
+    Left = 230
+    Height = 50
+    Top = 128
+    Width = 50
+    OnMouseDown = shField03MouseDown
+  end
+  object shField04: TShape
+    Left = 280
+    Height = 50
+    Top = 128
+    Width = 50
+    OnMouseDown = shField04MouseDown
+  end
+  object shField05: TShape
+    Left = 330
+    Height = 50
+    Top = 128
+    Width = 50
+    OnMouseDown = shField05MouseDown
+  end
+  object shField06: TShape
+    Left = 380
+    Height = 50
+    Top = 128
+    Width = 50
+    OnMouseDown = shField06MouseDown
+  end
+  object shField07: TShape
+    Left = 430
+    Height = 50
+    Top = 128
+    Width = 50
+    OnMouseDown = shField07MouseDown
+  end
+  object shField08: TShape
+    Left = 480
+    Height = 50
+    Top = 128
+    Width = 50
+    OnMouseDown = shField08MouseDown
+  end
+  object shField09: TShape
+    Left = 530
+    Height = 50
+    Top = 128
+    Width = 50
+    OnMouseDown = shField09MouseDown
+  end
+  object shField10: TShape
+    Left = 80
+    Height = 50
+    Top = 178
+    Width = 50
+    OnMouseDown = shField10MouseDown
+  end
+  object shField11: TShape
+    Left = 130
+    Height = 50
+    Top = 178
+    Width = 50
+    OnMouseDown = shField11MouseDown
+  end
+  object shField12: TShape
+    Left = 180
+    Height = 50
+    Top = 178
+    Width = 50
+    OnMouseDown = shField12MouseDown
+  end
+  object shField13: TShape
+    Left = 230
+    Height = 50
+    Top = 178
+    Width = 50
+    OnMouseDown = shField13MouseDown
+  end
+  object shField14: TShape
+    Left = 280
+    Height = 50
+    Top = 178
+    Width = 50
+    OnMouseDown = shField14MouseDown
+  end
+  object shField15: TShape
+    Left = 330
+    Height = 50
+    Top = 178
+    Width = 50
+    OnMouseDown = shField15MouseDown
+  end
+  object shField16: TShape
+    Left = 380
+    Height = 50
+    Top = 178
+    Width = 50
+    OnMouseDown = shField16MouseDown
+  end
+  object shField17: TShape
+    Left = 430
+    Height = 50
+    Top = 178
+    Width = 50
+    OnMouseDown = shField17MouseDown
+  end
+  object shField18: TShape
+    Left = 480
+    Height = 50
+    Top = 178
+    Width = 50
+    OnMouseDown = shField18MouseDown
+  end
+  object shField19: TShape
+    Left = 530
+    Height = 50
+    Top = 178
+    Width = 50
+    OnMouseDown = shField19MouseDown
+  end
+  object shField20: TShape
+    Left = 80
+    Height = 50
+    Top = 228
+    Width = 50
+    OnMouseDown = shField20MouseDown
+  end
+  object shField21: TShape
+    Left = 130
+    Height = 50
+    Top = 228
+    Width = 50
+    OnMouseDown = shField21MouseDown
+  end
+  object shField22: TShape
+    Left = 180
+    Height = 50
+    Top = 228
+    Width = 50
+    OnMouseDown = shField22MouseDown
+  end
+  object shField23: TShape
+    Left = 230
+    Height = 50
+    Top = 228
+    Width = 50
+    OnMouseDown = shField23MouseDown
+  end
+  object shField24: TShape
+    Left = 280
+    Height = 50
+    Top = 228
+    Width = 50
+    OnMouseDown = shField24MouseDown
+  end
+  object shField25: TShape
+    Left = 330
+    Height = 50
+    Top = 228
+    Width = 50
+    OnMouseDown = shField25MouseDown
+  end
+  object shField26: TShape
+    Left = 380
+    Height = 50
+    Top = 228
+    Width = 50
+    OnMouseDown = shField26MouseDown
+  end
+  object shField27: TShape
+    Left = 430
+    Height = 50
+    Top = 228
+    Width = 50
+    OnMouseDown = shField27MouseDown
+  end
+  object shField28: TShape
+    Left = 480
+    Height = 50
+    Top = 228
+    Width = 50
+    OnMouseDown = shField28MouseDown
+  end
+  object shField29: TShape
+    Left = 530
+    Height = 50
+    Top = 228
+    Width = 50
+    OnMouseDown = shField29MouseDown
+  end
+  object shField30: TShape
+    Left = 80
+    Height = 50
+    Top = 278
+    Width = 50
+    OnMouseDown = shField30MouseDown
+  end
+  object shField31: TShape
+    Left = 130
+    Height = 50
+    Top = 278
+    Width = 50
+    OnMouseDown = shField31MouseDown
+  end
+  object shField32: TShape
+    Left = 180
+    Height = 50
+    Top = 278
+    Width = 50
+    OnMouseDown = shField32MouseDown
+  end
+  object shField33: TShape
+    Left = 230
+    Height = 50
+    Top = 278
+    Width = 50
+    OnMouseDown = shField33MouseDown
+  end
+  object shField34: TShape
+    Left = 280
+    Height = 50
+    Top = 278
+    Width = 50
+    OnMouseDown = shField34MouseDown
+  end
+  object shField35: TShape
+    Left = 330
+    Height = 50
+    Top = 278
+    Width = 50
+    OnMouseDown = shField35MouseDown
+  end
+  object shField36: TShape
+    Left = 380
+    Height = 50
+    Top = 278
+    Width = 50
+    OnMouseDown = shField36MouseDown
+  end
+  object shField37: TShape
+    Left = 430
+    Height = 50
+    Top = 278
+    Width = 50
+    OnMouseDown = shField37MouseDown
+  end
+  object shField38: TShape
+    Left = 480
+    Height = 50
+    Top = 278
+    Width = 50
+    OnMouseDown = shField38MouseDown
+  end
+  object shField39: TShape
+    Left = 530
+    Height = 50
+    Top = 278
+    Width = 50
+    OnMouseDown = shField39MouseDown
+  end
+  object shField40: TShape
+    Left = 80
+    Height = 50
+    Top = 328
+    Width = 50
+    OnMouseDown = shField40MouseDown
+  end
+  object shField41: TShape
+    Left = 130
+    Height = 50
+    Top = 328
+    Width = 50
+    OnMouseDown = shField41MouseDown
+  end
+  object shField42: TShape
+    Left = 180
+    Height = 50
+    Top = 328
+    Width = 50
+    OnMouseDown = shField42MouseDown
+  end
+  object shField43: TShape
+    Left = 230
+    Height = 50
+    Top = 328
+    Width = 50
+    OnMouseDown = shField43MouseDown
+  end
+  object shField44: TShape
+    Left = 280
+    Height = 50
+    Top = 328
+    Width = 50
+    OnMouseDown = shField44MouseDown
+  end
+  object shField45: TShape
+    Left = 330
+    Height = 50
+    Top = 328
+    Width = 50
+    OnMouseDown = shField45MouseDown
+  end
+  object shField46: TShape
+    Left = 380
+    Height = 50
+    Top = 328
+    Width = 50
+    OnMouseDown = shField46MouseDown
+  end
+  object shField47: TShape
+    Left = 430
+    Height = 50
+    Top = 328
+    Width = 50
+    OnMouseDown = shField47MouseDown
+  end
+  object shField48: TShape
+    Left = 480
+    Height = 50
+    Top = 328
+    Width = 50
+    OnMouseDown = shField48MouseDown
+  end
+  object shField49: TShape
+    Left = 530
+    Height = 50
+    Top = 328
+    Width = 50
+    OnMouseDown = shField49MouseDown
+  end
+  object shField50: TShape
+    Left = 80
+    Height = 50
+    Top = 378
+    Width = 50
+    OnMouseDown = shField50MouseDown
+  end
+  object shField51: TShape
+    Left = 130
+    Height = 50
+    Top = 378
+    Width = 50
+    OnMouseDown = shField51MouseDown
+  end
+  object shField52: TShape
+    Left = 180
+    Height = 50
+    Top = 378
+    Width = 50
+    OnMouseDown = shField52MouseDown
+  end
+  object shField53: TShape
+    Left = 230
+    Height = 50
+    Top = 378
+    Width = 50
+    OnMouseDown = shField53MouseDown
+  end
+  object shField54: TShape
+    Left = 280
+    Height = 50
+    Top = 378
+    Width = 50
+    OnMouseDown = shField54MouseDown
+  end
+  object shField55: TShape
+    Left = 330
+    Height = 50
+    Top = 378
+    Width = 50
+    OnMouseDown = shField55MouseDown
+  end
+  object shField56: TShape
+    Left = 380
+    Height = 50
+    Top = 378
+    Width = 50
+    OnMouseDown = shField56MouseDown
+  end
+  object shField57: TShape
+    Left = 430
+    Height = 50
+    Top = 378
+    Width = 50
+    OnMouseDown = shField57MouseDown
+  end
+  object shField58: TShape
+    Left = 480
+    Height = 50
+    Top = 378
+    Width = 50
+    OnMouseDown = shField58MouseDown
+  end
+  object shField59: TShape
+    Left = 530
+    Height = 50
+    Top = 378
+    Width = 50
+    OnMouseDown = shField59MouseDown
+  end
+  object shField60: TShape
+    Left = 80
+    Height = 50
+    Top = 428
+    Width = 50
+    OnMouseDown = shField60MouseDown
+  end
+  object shField61: TShape
+    Left = 130
+    Height = 50
+    Top = 428
+    Width = 50
+    OnMouseDown = shField61MouseDown
+  end
+  object shField62: TShape
+    Left = 180
+    Height = 50
+    Top = 428
+    Width = 50
+    OnMouseDown = shField62MouseDown
+  end
+  object shField63: TShape
+    Left = 230
+    Height = 50
+    Top = 428
+    Width = 50
+    OnMouseDown = shField63MouseDown
+  end
+  object shField64: TShape
+    Left = 280
+    Height = 50
+    Top = 428
+    Width = 50
+    OnMouseDown = shField64MouseDown
+  end
+  object shField65: TShape
+    Left = 330
+    Height = 50
+    Top = 428
+    Width = 50
+    OnMouseDown = shField65MouseDown
+  end
+  object shField66: TShape
+    Left = 380
+    Height = 50
+    Top = 428
+    Width = 50
+    OnMouseDown = shField66MouseDown
+  end
+  object shField67: TShape
+    Left = 430
+    Height = 50
+    Top = 428
+    Width = 50
+    OnMouseDown = shField67MouseDown
+  end
+  object shField68: TShape
+    Left = 480
+    Height = 50
+    Top = 428
+    Width = 50
+    OnMouseDown = shField68MouseDown
+  end
+  object shField69: TShape
+    Left = 530
+    Height = 50
+    Top = 428
+    Width = 50
+    OnMouseDown = shField69MouseDown
+  end
+  object shField70: TShape
+    Left = 80
+    Height = 50
+    Top = 478
+    Width = 50
+    OnMouseDown = shField70MouseDown
+  end
+  object shField71: TShape
+    Left = 130
+    Height = 50
+    Top = 478
+    Width = 50
+    OnMouseDown = shField71MouseDown
+  end
+  object shField72: TShape
+    Left = 180
+    Height = 50
+    Top = 478
+    Width = 50
+    OnMouseDown = shField72MouseDown
+  end
+  object shField73: TShape
+    Left = 230
+    Height = 50
+    Top = 478
+    Width = 50
+    OnMouseDown = shField73MouseDown
+  end
+  object shField74: TShape
+    Left = 280
+    Height = 50
+    Top = 478
+    Width = 50
+    OnMouseDown = shField74MouseDown
+  end
+  object shField75: TShape
+    Left = 330
+    Height = 50
+    Top = 478
+    Width = 50
+    OnMouseDown = shField75MouseDown
+  end
+  object shField76: TShape
+    Left = 380
+    Height = 50
+    Top = 478
+    Width = 50
+    OnMouseDown = shField76MouseDown
+  end
+  object shField77: TShape
+    Left = 430
+    Height = 50
+    Top = 478
+    Width = 50
+    OnMouseDown = shField77MouseDown
+  end
+  object shField78: TShape
+    Left = 480
+    Height = 50
+    Top = 478
+    Width = 50
+    OnMouseDown = shField78MouseDown
+  end
+  object shField79: TShape
+    Left = 530
+    Height = 50
+    Top = 478
+    Width = 50
+    OnMouseDown = shField79MouseDown
+  end
+  object shField80: TShape
+    Left = 80
+    Height = 50
+    Top = 528
+    Width = 50
+    OnMouseDown = shField80MouseDown
+  end
+  object shField81: TShape
+    Left = 130
+    Height = 50
+    Top = 528
+    Width = 50
+    OnMouseDown = shField81MouseDown
+  end
+  object shField82: TShape
+    Left = 180
+    Height = 50
+    Top = 528
+    Width = 50
+    OnMouseDown = shField82MouseDown
+  end
+  object shField83: TShape
+    Left = 230
+    Height = 50
+    Top = 528
+    Width = 50
+    OnMouseDown = shField83MouseDown
+  end
+  object shField84: TShape
+    Left = 280
+    Height = 50
+    Top = 528
+    Width = 50
+    OnMouseDown = shField84MouseDown
+  end
+  object shField85: TShape
+    Left = 330
+    Height = 50
+    Top = 528
+    Width = 50
+    OnMouseDown = shField85MouseDown
+  end
+  object shField86: TShape
+    Left = 380
+    Height = 50
+    Top = 528
+    Width = 50
+    OnMouseDown = shField86MouseDown
+  end
+  object shField87: TShape
+    Left = 430
+    Height = 50
+    Top = 528
+    Width = 50
+    OnMouseDown = shField87MouseDown
+  end
+  object shField88: TShape
+    Left = 480
+    Height = 50
+    Top = 528
+    Width = 50
+    OnMouseDown = shField88MouseDown
+  end
+  object shField89: TShape
+    Left = 530
+    Height = 50
+    Top = 528
+    Width = 50
+    OnMouseDown = shField89MouseDown
+  end
+  object shField90: TShape
+    Left = 80
+    Height = 50
+    Top = 578
+    Width = 50
+    OnMouseDown = shField90MouseDown
+  end
+  object shField91: TShape
+    Left = 130
+    Height = 50
+    Top = 578
+    Width = 50
+    OnMouseDown = shField91MouseDown
+  end
+  object shField92: TShape
+    Left = 180
+    Height = 50
+    Top = 578
+    Width = 50
+    OnMouseDown = shField92MouseDown
+  end
+  object shField93: TShape
+    Left = 230
+    Height = 50
+    Top = 578
+    Width = 50
+    OnMouseDown = shField93MouseDown
+  end
+  object shField94: TShape
+    Left = 280
+    Height = 50
+    Top = 578
+    Width = 50
+    OnMouseDown = shField94MouseDown
+  end
+  object shField95: TShape
+    Left = 330
+    Height = 50
+    Top = 578
+    Width = 50
+    OnMouseDown = shField95MouseDown
+  end
+  object shField96: TShape
+    Left = 380
+    Height = 50
+    Top = 578
+    Width = 50
+    OnMouseDown = shField96MouseDown
+  end
+  object shField97: TShape
+    Left = 430
+    Height = 50
+    Top = 578
+    Width = 50
+    OnMouseDown = shField97MouseDown
+  end
+  object shField98: TShape
+    Left = 480
+    Height = 50
+    Top = 578
+    Width = 50
+    OnMouseDown = shField98MouseDown
+  end
+  object shField99: TShape
+    Left = 530
+    Height = 50
+    Top = 578
+    Width = 50
+    OnMouseDown = shField99MouseDown
+  end
+  object btT0: TButton
+    Left = 80
+    Height = 25
+    Top = 58
+    Width = 50
+    Caption = 'T0'
+    OnClick = btT0Click
+    TabOrder = 0
+  end
+  object btL0: TButton
+    Left = 10
+    Height = 50
+    Top = 128
+    Width = 25
+    Caption = 'L0'
+    OnClick = btL0Click
+    TabOrder = 1
+  end
+  object btT1: TButton
+    Left = 130
+    Height = 25
+    Top = 58
+    Width = 50
+    Caption = 'T1'
+    OnClick = btT1Click
+    TabOrder = 2
+  end
+  object btT2: TButton
+    Left = 180
+    Height = 25
+    Top = 58
+    Width = 50
+    Caption = 'T2'
+    OnClick = btT2Click
+    TabOrder = 3
+  end
+  object btT3: TButton
+    Left = 230
+    Height = 25
+    Top = 58
+    Width = 50
+    Caption = 'T3'
+    OnClick = btT3Click
+    TabOrder = 4
+  end
+  object btT4: TButton
+    Left = 280
+    Height = 25
+    Top = 58
+    Width = 50
+    Caption = 'T4'
+    OnClick = btT4Click
+    TabOrder = 5
+  end
+  object btT5: TButton
+    Left = 330
+    Height = 25
+    Top = 58
+    Width = 50
+    Caption = 'T5'
+    OnClick = btT5Click
+    TabOrder = 6
+  end
+  object btT6: TButton
+    Left = 380
+    Height = 25
+    Top = 58
+    Width = 50
+    Caption = 'T6'
+    OnClick = btT6Click
+    TabOrder = 7
+  end
+  object btT7: TButton
+    Left = 430
+    Height = 25
+    Top = 58
+    Width = 50
+    Caption = 'T7'
+    OnClick = btT7Click
+    TabOrder = 8
+  end
+  object btT8: TButton
+    Left = 480
+    Height = 25
+    Top = 58
+    Width = 50
+    Caption = 'T8'
+    OnClick = btT8Click
+    TabOrder = 9
+  end
+  object btT9: TButton
+    Left = 530
+    Height = 25
+    Top = 58
+    Width = 50
+    Caption = 'T9'
+    OnClick = btT9Click
+    TabOrder = 10
+  end
+  object btL1: TButton
+    Left = 10
+    Height = 50
+    Top = 178
+    Width = 25
+    Caption = 'L1'
+    OnClick = btL1Click
+    TabOrder = 11
+  end
+  object btL2: TButton
+    Left = 10
+    Height = 50
+    Top = 228
+    Width = 25
+    Caption = 'L2'
+    OnClick = btL2Click
+    TabOrder = 12
+  end
+  object btL3: TButton
+    Left = 10
+    Height = 50
+    Top = 278
+    Width = 25
+    Caption = 'L3'
+    OnClick = btL3Click
+    TabOrder = 13
+  end
+  object btL4: TButton
+    Left = 10
+    Height = 50
+    Top = 328
+    Width = 25
+    Caption = 'L4'
+    OnClick = btL4Click
+    TabOrder = 14
+  end
+  object btL5: TButton
+    Left = 10
+    Height = 50
+    Top = 378
+    Width = 25
+    Caption = 'L5'
+    OnClick = btL5Click
+    TabOrder = 15
+  end
+  object btL6: TButton
+    Left = 10
+    Height = 50
+    Top = 428
+    Width = 25
+    Caption = 'L6'
+    OnClick = btL6Click
+    TabOrder = 16
+  end
+  object btL7: TButton
+    Left = 10
+    Height = 50
+    Top = 478
+    Width = 25
+    Caption = 'L7'
+    OnClick = btL7Click
+    TabOrder = 17
+  end
+  object btL8: TButton
+    Left = 10
+    Height = 50
+    Top = 528
+    Width = 25
+    Caption = 'L8'
+    OnClick = btL8Click
+    TabOrder = 18
+  end
+  object btL9: TButton
+    Left = 10
+    Height = 50
+    Top = 578
+    Width = 25
+    Caption = 'L9'
+    OnClick = btL9Click
+    TabOrder = 19
+  end
+  object btB0: TButton
+    Left = 80
+    Height = 25
+    Top = 668
+    Width = 50
+    Caption = 'B0'
+    OnClick = btB0Click
+    TabOrder = 20
+  end
+  object btB1: TButton
+    Left = 130
+    Height = 25
+    Top = 668
+    Width = 50
+    Caption = 'B1'
+    OnClick = btB1Click
+    TabOrder = 21
+  end
+  object btB2: TButton
+    Left = 180
+    Height = 25
+    Top = 668
+    Width = 50
+    Caption = 'B2'
+    OnClick = btB2Click
+    TabOrder = 22
+  end
+  object btB3: TButton
+    Left = 230
+    Height = 25
+    Top = 668
+    Width = 50
+    Caption = 'B3'
+    OnClick = btB3Click
+    TabOrder = 23
+  end
+  object btB4: TButton
+    Left = 280
+    Height = 25
+    Top = 668
+    Width = 50
+    Caption = 'B4'
+    OnClick = btB4Click
+    TabOrder = 24
+  end
+  object btB5: TButton
+    Left = 330
+    Height = 25
+    Top = 668
+    Width = 50
+    Caption = 'B5'
+    OnClick = btB5Click
+    TabOrder = 25
+  end
+  object btB6: TButton
+    Left = 380
+    Height = 25
+    Top = 668
+    Width = 50
+    Caption = 'B6'
+    OnClick = btB6Click
+    TabOrder = 26
+  end
+  object btB7: TButton
+    Left = 430
+    Height = 25
+    Top = 668
+    Width = 50
+    Caption = 'B7'
+    OnClick = btB7Click
+    TabOrder = 27
+  end
+  object btB8: TButton
+    Left = 480
+    Height = 25
+    Top = 668
+    Width = 50
+    Caption = 'B8'
+    OnClick = btB8Click
+    TabOrder = 28
+  end
+  object btB9: TButton
+    Left = 530
+    Height = 25
+    Top = 668
+    Width = 50
+    Caption = 'B9'
+    OnClick = btB9Click
+    TabOrder = 29
+  end
+  object btR0: TButton
+    Left = 620
+    Height = 50
+    Top = 128
+    Width = 25
+    Caption = 'R0'
+    OnClick = btR0Click
+    TabOrder = 30
+  end
+  object btR1: TButton
+    Left = 620
+    Height = 50
+    Top = 178
+    Width = 25
+    Caption = 'R1'
+    OnClick = btR1Click
+    TabOrder = 31
+  end
+  object btR2: TButton
+    Left = 620
+    Height = 50
+    Top = 228
+    Width = 25
+    Caption = 'R2'
+    OnClick = btR2Click
+    TabOrder = 32
+  end
+  object btR3: TButton
+    Left = 620
+    Height = 50
+    Top = 278
+    Width = 25
+    Caption = 'R3'
+    OnClick = btR3Click
+    TabOrder = 33
+  end
+  object btR4: TButton
+    Left = 620
+    Height = 50
+    Top = 328
+    Width = 25
+    Caption = 'R4'
+    OnClick = btR4Click
+    TabOrder = 34
+  end
+  object btR5: TButton
+    Left = 620
+    Height = 50
+    Top = 378
+    Width = 25
+    Caption = 'R5'
+    OnClick = btR5Click
+    TabOrder = 35
+  end
+  object btR6: TButton
+    Left = 620
+    Height = 50
+    Top = 428
+    Width = 25
+    Caption = 'R6'
+    OnClick = btR6Click
+    TabOrder = 36
+  end
+  object btR7: TButton
+    Left = 620
+    Height = 50
+    Top = 478
+    Width = 25
+    Caption = 'R7'
+    OnClick = btR7Click
+    TabOrder = 37
+  end
+  object btR8: TButton
+    Left = 620
+    Height = 50
+    Top = 528
+    Width = 25
+    Caption = 'R8'
+    OnClick = btR8Click
+    TabOrder = 38
+  end
+  object btR9: TButton
+    Left = 620
+    Height = 50
+    Top = 578
+    Width = 25
+    Caption = 'R9'
+    OnClick = btR9Click
+    TabOrder = 39
+  end
+  object shShotH: TShape
+    Left = 580
+    Height = 50
+    Top = 128
+    Width = 30
+    Brush.Color = clRed
+    Visible = False
+  end
+  object shShotV: TShape
+    Left = 80
+    Height = 30
+    Top = 628
+    Width = 50
+    Brush.Color = clRed
+    Visible = False
+  end
+  object Label1: TLabel
+    Left = 80
+    Height = 23
+    Top = 12
+    Width = 38
+    Caption = 'Level'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edLevel: TEdit
+    Left = 125
+    Height = 31
+    Top = 8
+    Width = 112
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 40
+    Text = 'Intermediate'
+  end
+  object Label2: TLabel
+    Left = 258
+    Height = 23
+    Top = 12
+    Width = 83
+    Caption = 'Mirrors left'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edMirrors: TEdit
+    Left = 348
+    Height = 31
+    Top = 8
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 41
+    Text = '8/8'
+  end
+  object Label3: TLabel
+    Left = 422
+    Height = 23
+    Top = 12
+    Width = 94
+    Caption = 'Mistakes left'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edErrors: TEdit
+    Left = 524
+    Height = 31
+    Top = 8
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 42
+    Text = '3/3'
+  end
+  object Label4: TLabel
+    Left = 80
+    Height = 23
+    Top = 704
+    Width = 91
+    Caption = 'Left mirrors:'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 277
+    Height = 23
+    Top = 704
+    Width = 103
+    Caption = 'Right mirrors:'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 475
+    Height = 23
+    Top = 704
+    Width = 77
+    Caption = 'Light rays:'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object shLegendLeft: TShape
+    Left = 180
+    Height = 20
+    Top = 705
+    Width = 20
+    Brush.Color = clGreen
+  end
+  object shLegendRight: TShape
+    Left = 387
+    Height = 20
+    Top = 705
+    Width = 20
+    Brush.Color = clBlue
+  end
+  object shLegendShot: TShape
+    Left = 560
+    Height = 20
+    Top = 705
+    Width = 20
+    Brush.Color = clRed
+  end
+  object mMenu: TMainMenu
+    left = 16
+    top = 8
+    object mGame: TMenuItem
+      Caption = 'Game'
+      object mGameNew: TMenuItem
+        Caption = 'New'
+        OnClick = mGameNewClick
+      end
+      object mGameExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mGameExitClick
+      end
+    end
+    object mLevel: TMenuItem
+      Caption = 'Level'
+      object mLevel0: TMenuItem
+        Caption = 'Beginner'
+        OnClick = mLevel0Click
+      end
+      object mLevel1: TMenuItem
+        Caption = 'Easy'
+        OnClick = mLevel1Click
+      end
+      object mLevel2: TMenuItem
+        Caption = 'Intermediate'
+        Checked = True
+        OnClick = mLevel2Click
+      end
+      object mLevel3: TMenuItem
+        Caption = 'Difficult'
+        OnClick = mLevel3Click
+      end
+      object mLevel4: TMenuItem
+        Caption = 'Expert'
+        OnClick = mLevel4Click
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Settings'
+      object mOptionsMLeft: TMenuItem
+        Caption = 'Left mirror color'
+        object mOptionsMLeft0: TMenuItem
+          Caption = 'Green'
+          Checked = True
+          OnClick = mOptionsMLeft0Click
+        end
+        object mOptionsMLeft1: TMenuItem
+          Caption = 'Blue'
+          OnClick = mOptionsMLeft1Click
+        end
+        object mOptionsMLeft2: TMenuItem
+          Caption = 'Yellow'
+          OnClick = mOptionsMLeft2Click
+        end
+        object mOptionsMLeft3: TMenuItem
+          Caption = 'Lime'
+          OnClick = mOptionsMLeft3Click
+        end
+        object mOptionsMLeft4: TMenuItem
+          Caption = 'Cyan'
+          OnClick = mOptionsMLeft4Click
+        end
+      end
+      object mOptionsMRight: TMenuItem
+        Caption = 'Right mirror color'
+        object mOptionsMRight0: TMenuItem
+          Caption = 'Green'
+          OnClick = mOptionsMRight0Click
+        end
+        object mOptionsMRight1: TMenuItem
+          Caption = 'Blue'
+          Checked = True
+          OnClick = mOptionsMRight1Click
+        end
+        object mOptionsMRight2: TMenuItem
+          Caption = 'Yellow'
+          OnClick = mOptionsMRight2Click
+        end
+        object mOptionsMRight3: TMenuItem
+          Caption = 'Lime'
+          OnClick = mOptionsMRight3Click
+        end
+        object mOptionsMRight4: TMenuItem
+          Caption = 'Cyan'
+          OnClick = mOptionsMRight4Click
+        end
+      end
+      object mOptionsErrors: TMenuItem
+        Caption = 'Ignore error count'
+        OnClick = mOptionsErrorsClick
+      end
+      object MenuItem15: TMenuItem
+        Caption = '-'
+      end
+      object mOptionsShow: TMenuItem
+        Caption = 'Show ray trajectory'
+        OnClick = mOptionsShowClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object pnAbout: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Text = 'Text'
+    Title = 'Mirrors.'
+    Visible = False
+    left = 600
+    top = 8
+  end
+end

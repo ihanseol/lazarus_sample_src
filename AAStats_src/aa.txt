@@ -1,0 +1,20 @@
+A Ala Alanine       071.0800 1 very small nonpolar           uncharged          nonpolar hydrophobic non-essential  glucogenic
+C Cys Cysteine      103.1400 2 small      nonpolar           uncharged          nonpolar hydrophobic non-essential  glucogenic
+D Asp Aspartic acid 115.0900 5 small      negatively charged negatively charged polar    hydrophilic non-essential  glucogenic
+E Glu Glutamic acid 129.1200 5 medium     negatively charged negatively charged polar    hydrophilic non-essential  glucogenic
+F Phe Phenylalanine 147.1800 3 very large nonpolar           uncharged          nonpolar hydrophobic essential      glucogenic & ketogenic
+G Gly Glycine       057.0600 1 very small nonpolar           uncharged          nonpolar neutral     non-essential  glucogenic
+H His Histidine     137.1500 3 medium     positively charged positively charged polar    neutral     semi-essential glucogenic
+I Ile Isoleucine    113.1700 1 large      nonpolar           uncharged          nonpolar hydrophobic essential      glucogenic & ketogenic
+K Lys Lysine        128.1800 6 large      positively charged positively charged polar    hydrophilic essential      ketogenic
+L Leu Leucine       113.1700 1 large      nonpolar           uncharged          nonpolar hydrophobic essential      ketogenic
+M Met Methionine    131.2100 2 large      nonpolar           uncharged          nonpolar hydrophobic essential      glucogenic
+N Asn Asparagine    114.1100 4 small      uncharged polar    uncharged          polar    hydrophilic non-essential  glucogenic
+P Pro Proline       097.1200 7 small      nonpolar           uncharged          nonpolar neutral     non-essential  glucogenic
+Q Gln Glutamine     128.4100 4 medium     uncharged polar    uncharged          polar    hydrophilic non-essential  glucogenic
+R Arg Arginine      156.2000 6 large      positively charged positively charged polar    hydrophilic semi-essential glucogenic
+S Ser Serine        087.0800 4 very small uncharged polar    uncharged          polar    neutral     non-essential  glucogenic
+T Thr Threonine     101.1100 4 small      uncharged polar    uncharged          polar    neutral     essential      glucogenic & ketogenic
+V Val Valine        099.1400 1 medium     nonpolar           uncharged          nonpolar hydrophobic essential      glucogenic
+W Trp Tryptophan    186.2100 3 very large nonpolar           uncharged          nonpolar hydrophobic essential      glucogenic & ketogenic
+Y Tyr Tyrosine      163.1800 3 very large uncharged polar    uncharged          polar    neutral     non-essential  glucogenic & ketogenic

@@ -1,0 +1,253 @@
+001 D Allgemeine Gefahrenstelle
+002 D Kreuzung, Verzweigung oder Einmündung mit Vorfahrt von rechts
+003 D Gefährliche Linkskurve
+004 D Gefährliche Rechtskurve
+005 D Doppelkurve (zunächst links)
+006 D Doppelkurve (zunächst rechts)
+007 D Gefährliches Gefälle
+      10% Gefälle
+008 D 12% Steigung
+009 D Querrinne, Bodenwelle
+      Unebene Fahrbahn
+010 D Schnee- oder Eisglätte
+011 D Schleudergefahr bei Nässe oder Schmutz
+012 D Steinschlag
+013 D Splitt oder Schotter
+014 D Seitenwind
+015 D Verengte Fahrbahn
+      Rechts und links verengte Fahrbahn
+016 D Einseitig verengte Fahrbahn
+      Rechts verengte Fahrbahn
+017 D Einseitig verengte Fahrbahn
+      Links verengte Fahrbahn
+018 D Baustelle
+019 D Stau
+020 D Gegenverkehr
+021 D Bewegliche Brücke
+022 D Ufer
+      Gefahr ins Wasser zu geraten
+023 D Lichtzeichenanlage
+      Ampel
+024 d Achtung, Fußgänger!
+      Hinweis auf eine erhöhte Anzahl an Fußgängern in Fahrbahnnähe
+025 D Achtung, Fußgängerüberweg!
+      Achtung, Zebrastreifen!
+026 D Achtung Kinder!
+      Hinweis auf Kinder, die sich auf der Straße befinden bzw. diese überqueren könnten
+027 D Achtung, Radverkehr!
+      Hinweis, dass Radfahrer die Straße kreuzen könnten
+028 D Achtung, Viehtrieb!
+      Hinweis, dass in der Nähe Viehtrieb herrscht
+029 D Achtung, Wildwechsel!
+      Hinweis, dass Wild die Straße überqueren bzw. sich in Fahrbahnnähe befinden könnte
+030 D Achtung, Flugbetrieb!
+      Hinweis, dass sich Flugbetrieb in der Nähe befindet
+031 D Achtung, Amphibienwanderung!
+      Hinweis auf Bereiche, in denen die Wanderung von Amphibien zu Ihren Laichplätzen stattfindet
+032 d Achtung, Kraftomnibusse!
+      Hinweis auf Busse, die ausschwenken oder breiter wie die Fahrbahn sein können
+033 D Beschrankter Bahnübergang
+      Bahnübergang mit Schranken oder Halbschranken
+034 D Bahnübergang
+      Unbeschrankter Bahnübergang
+035 D Bahnübergang (ein- oder mehrgleisig)
+      Dem Schienenverkehr Vorfahrt gewähren!
+036 D Vorfahrt gewähren (wenn nötig, muss man anhalten)!
+      Dem Querverkehr Vorfahrt gewähren!
+037 D Halt! Vorfahrt gewähren!
+      An der Haltelinie halten und dem Querverkehr Vorfahrt gewähren!
+038 D Dem Gegenverkehr Vorrang gewähren!
+039 D Vorgeschriebene Fahrtrichtung – rechts
+      Nach dem Schild rechts abbiegen!
+040 D Vorgeschriebene Fahrtrichtung – geradeaus
+041 D Vorgeschriebene Fahrtrichtung – hier rechts
+      Hier rechts abbiegen!
+042 D Vorgeschriebene Fahrtrichtung – geradeaus und rechts
+043 D Kreisverkehr (rechtsrum einfahren)
+044 D Einbahnstraße
+      Straße, die nur in der angegebenen Richtung befahren werden darf
+045 D Vorgeschriebene Vorbeifahrt – rechts vorbei
+      Rechts an einer Verkehrsinsel, einem Hindernis oder einer Baustelle vorbeifahren
+046 d Seitenstreifen befahren!
+      Der Seitenstreifen muss als rechter Fahrbahnstreifen genutzt werden
+047 d Seitenstreifen nicht mehr befahren!
+      Der Seitenstreifen darf nicht mehr als rechter Fahrbahnstreifen genutzt werden
+048 d Seitenstreifen räumen
+049 D Bushaltestelle
+      Haltestelle für Straßenbahnen oder Linienbusse
+050 d Taxenstand
+      Halteverbot für alle Verkehrsteilnehmer außer für Taxis
+051 D Radweg
+      Weg, der nur von Radfahrern (auch nicht von Fußgängern) genutzt werden darf
+052 D Reitweg
+      Weg, der nur von Reitern genutzt werden darf
+053 D Gehweg
+      Sonderweg für Fußgänger, der nicht von anderen Verkehrsteilnehmern genutzt werden darf
+054 D Gemeinsamer Geh- und Radweg
+      Weg, der nur von Fußgängern und Radfahrern genutzt werden darf
+055 D Getrennter Rad- und Gehweg
+      Weg, der nur von Fußgängern und Radfahrern genutzt werden darf
+056 d Beginn eines Fußgängerbereichs
+      Fußgängerzone
+057 - Ende eines Fußgängerbereichs
+058 - Beginn einer Fahrradstraße
+      Beginn eines Straßenabschnitts, der nur mit dem Fahrrad befahren werden darf
+059 - Ende einer Fahrradstraße
+060 d Bussonderfahrstreifen
+      Sonderstreifen für Linienomnibusse
+061 D Durchfahrt verboten!
+      Fahrverbot für alle Fahrzeuge
+062 D Verbot für alle Kraftwagen
+      Fahrverbot für alle mehrspurigen Kraftfahrzeuge
+063 D Verbot für Nutzfahrzeuge
+      LKW-Durchfahrtsverbot
+064 D Verbot für Radverkehr
+      Fahrverbot für Fahrräder
+065 D Verbot für alle Krafträder
+066 d Verbot für Mofas
+067 d Verbot für Reiter
+068 D Verbot für Fußgänger
+      Fußgänger dürfen den ausgeschilderten Straßenabschnitt nicht betreten
+069 D Verbot für Krafträder und Kraftwagen
+      Fahrverbot für alle Kraftfahrzeuge
+070 D Verbot für Gefahrengutstransporter
+      Fahrzeuge mit gefährlichen Gütern dürfen diesen Weg nicht benutzen
+071 D Verbot für Fahrzeuge über der angegebenen Masse
+      Fahrzeuge mit einer tatsächlichen Masse von mehr als 5,5t dürfen diesen Weg nicht benutzen
+072 D Verbot für Fahrzeuge über der angegebenen Achslast
+      Fahrzeuge mit einer tatsächlichen Achslast von mehr als 8t dürfen diesen Weg nicht benutzen
+073 D Verbot für Fahrzeuge über der angegebenen Breite
+      Fahrzeuge, die breiter als 2,3m sind, dürfen diesen Weg nicht benutzen
+074 D Verbot für Fahrzeuge über der angegebenen Höhe
+      Fahrzeuge, die höher als 3,8m sind, dürfen diesen Weg nicht benutzen
+075 D Verbot für Fahrzeuge über der angegebenen Länge
+      Fahrzeuge, die länger als 10m sind, dürfen diesen Weg nicht benutzen
+076 D Verbot der Einfahrt
+      Einfahrverbot für alle Fahrzeuge
+077 D Schneekettenpflicht
+      Fahrzeuge ohne Schneeketten dürfen diesen Weg nicht benutzen
+078 D Verbot für Fahrzeuge mit wassergefährdender Ladung
+      Fahrzeuge, deren Ladung eine Gefährdung für das Wasser darstellt, dürfen diese Straße nicht befahren
+079 d Beginn einer Umweltzone
+      Verbot von Fahrzeugen, die einer bestimmten Schadstoffgruppe zugehören
+080 - Ende einer Umweltzone
+081 D Wendeverbot (Linksabbiegen erlaubt]
+082 D Verbot des Fahrens ohne einen Mindestabstand
+      Kraftfahrzeuge über 3,5t oder Zugmaschinen müssen einen Mindestabstand von 70m einhalten
+083 D Zulässige Höchstgeschwindigkeit
+      Hier darf mit maximal 60km/h gefahren werden
+084 - Beginn einer Tempo 30-Zone
+      Bereich mit einer Höchstgeschwindigkeit von 30km/h
+085 - Ende einer Tempo 30-Zone
+086 D Vorgeschriebene Mindestgeschwindigkeit
+      Hier muss mit mindestens 30km/h gefahren werden
+087 D Überholverbot für Kraftfahrzeuge aller Art
+088 D Überholverbot für Nutzfahrzeuge
+      Überholverbot für Kraftfahrzeuge über 3,5 t
+089 D Ende der zulässigen Höchstgeschwindigkeit
+090 D Ende der vorgeschriebenen Mindestgeschwindigkeit
+091 - Ende des Überholverbotes
+092 - Ende des Überholverbotes für Kraftfahrzeuge über 3,5 t
+      Ende des Überholverbotes für Nutzfahrzeuge
+093 D Ende sämtlicher Streckenverbote
+      Aufhebung aller zuvor aufgestellten Verbotsschilder
+094 D Absolutes Halteverbot
+      Verbot von jedem freiwilligen Halten auf oder an der Fahrbahn
+095 D Eingeschränktes Halteverbot
+      Halten auf und an der Fahrbahn für über 3 Minuten verboten
+096 - Beginn einer Zone für eingeschränktes Halteverbot
+      Eingeschränktes Halteverbot für den gesamten Bereich (sofern keine abweichenden Regelungen vorhanden sind)
+097 - Ende einer Zone für eingeschränktes Halteverbot
+098 D Parkscheibe zum Parken benötigt
+099 D Vorfahrt
+      Vorfahrt an der nächsten Kreuzung oder Einmündung
+100 D Vorfahrtstraße
+      Vorfahrt bis diese durch das Zeichen “Ende der Vorfahrtstraße” aufgehoben wird
+101 - Ende der Vorfahrtstraße
+102 D Vorrang vor dem Gegenverkehr
+      Die Fahrzeuge in Richtung des weißen Pfeiles haben Vorrang vor dem Gegenverkehr
+103 D Parkplatz
+      Parken auf den dafür vorgesehenen Parkplätzen erlaubt
+104 D Parken auf dem Gehweg erlaubt
+      Fahrzeuge und Anhänger bis 2,8 t zulässiger Gesamtmasse dürfen auf dem Gehweg parken
+105 D Parken und Reisen
+      Gebührenpflichtiger Parkplatz mit Anschluss an den öffentlichen Nahverkehr
+106 D Wandererparkplatz
+      Parkplatz, der in erster Linie für Wanderer gedacht ist
+107 D Beginn eines verkehrsberuhigten Bereichs
+      Bereich mit spielenden Kindern (wenn nötig, muss man warten)
+108 - Ende eines verkehrsberuhigten Bereichs
+109 D Tunnel
+      Tunneleinfahrt
+110 D Nothalte- und Pannenbucht
+      Straßenausbuchtung, die nur bei Pannen oder Notfällen benutzt werden darf
+111 D Autobahn
+      Straße, die nur von Fahrzeugen, die eine Höchstgeschwindigkeit > 60 km/h haben, befahren werden darf
+112 - Ende der Autobahn
+113 D Kraftfahrstraße
+      Straße, die ausschließlich für Kraftfahrzeuge bestimmt ist
+114 - Ende der Kraftfahrstraße
+115 D Fußgängerüberweg
+      Zebrastreifen
+116 D Verbot für Gespannfuhrwerke
+117 d Wasserschutzgebiet
+      Achtung für Fahrzeuge geboten, welche wassergefährdende Stoffe transportieren
+118 d Fußgängerunter- oder -überführung
+119 - Verkehrshelfer (Schülerlotsen)
+120 D Sackgasse
+      Straße, in der es möglicherweise keine Wendemöglichkeit gibt
+121 D Erste Hilfe
+      Posten der für die Erste Hilfe ausgerüstet ist
+122 d Pannenhilfe
+      Reparaturwerkstatt
+123 d Fernsprecher
+      Telefon
+124 - Tankstelle
+125 - Polizei
+126 d Notrufsäule
+127 - Zelt- und Wohnwagenplatz
+      Campieren mit Zelt oder Wohnwagen hier erlaubt
+128 - Fremdenverkehrsbüro oder Auskunftsstelle
+129 - Autobahnhotel
+130 - Toilette
+131 D Verbot für selbstfahrende Arbeitsgeräte und langsame Fahrzeuge
+132 d Verlauf einer Vorfahrtstraße
+      Vorfahrt vor dem Rechts- und dem Gegenverkehr
+133 - Zoll
+134 - Maut-Pflicht nach dem Autobahnmautgesetz
+135 - Mautpflichtige Strecke
+      Maut-Pflicht für alle Fahrzeuge
+136 - Informationstafel an Grenzübergangsstellen
+      Geschwindigkeitsregelungen für Deutschland
+137 D Hinweis auf einen Bahnübergang (dreistreifige Bake)
+      Bahnübergang in 240m!
+138 D Hinweis auf einen Bahnübergang (zweistreifige Bake)
+      Bahnübergang in 160m!
+139 D Hinweis auf einen B6ahnübergang (einstreifige Bake)
+      Bahnübergang in 80m!
+140 E T-Kreuzung mit Vorfahrt
+      Vorfahrt an der nächsten Einmündung
+141 E Achtung, Kreisverkehr! (rechtsrum einfahren)
+142 E Achtung, Straßenbahn!
+      Diese Straße wird auch von der Straßenbahn befahren!
+143 E Bodenwelle
+144 E Verbot für Fahrzeuge über der angegebenen Tandem-Achslast
+      Fahrzeuge, die eine Tandem-Achslast von über 7t haben, dürfen diese Straße nicht benutzen
+145 E Hupverbot
+146 E Verbot für Kraftfahrzeuge mit Sprengstoff
+      Fahrzeuge, die Sprengstoff mit sich führen, dürfen diese Straße nicht befahren
+147 E Einbiegen nach rechts verboten
+      An der nächsten Kreuzung oder Einmündung darf man nicht nach rechts abbiegen
+148 E Einbiegen nach links verboten
+      An der nächsten Kreuzung oder Einmündung darf man nicht nach links abbiegen
+149 E Vorgeschriebene Vorbeifahrt – rechts oder links vorbei
+      Rechts oder links an einer Verkehrsinsel, einem Hindernis oder einer Baustelle vorbeifahren
+150 E Einbahnstraße
+      Straße, die nur in der angegebenen Richtung befahren werden darf
+151 E Bahnübergang (eingleisig)
+152 E Bahnübergang (mehrgleisig)
+153 E Bushaltestelle
+154 E Tunnel
+      Tunnel voraus
+155 E Krankenhaus
+156 E Unbeschrankter Bahnübergang

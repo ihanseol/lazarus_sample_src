@@ -1,0 +1,44 @@
+object FormHelp: TFormHelp
+  Left = 614
+  Height = 475
+  Top = 278
+  Width = 848
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Circuits RC - Aide'
+  ClientHeight = 475
+  ClientWidth = 848
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object HelpText: TMemo
+    Left = 16
+    Height = 360
+    Top = 64
+    Width = 816
+    Font.Height = -12
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object Title: TStaticText
+    Left = 16
+    Height = 38
+    Top = 10
+    Width = 478
+    Font.Height = -27
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object ButtonClose: TButton
+    Left = 757
+    Height = 25
+    Top = 440
+    Width = 75
+    Caption = 'Fermer'
+    OnClick = ButtonCloseClick
+    TabOrder = 0
+  end
+end

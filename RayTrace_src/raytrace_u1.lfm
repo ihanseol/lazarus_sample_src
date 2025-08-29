@@ -1,0 +1,533 @@
+object fOptics: TfOptics
+  Left = 1
+  Height = 738
+  Top = 11
+  Width = 1485
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Geometrical optics: Ray tracing'
+  ClientHeight = 713
+  ClientWidth = 1485
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object Label1: TLabel
+    Left = 16
+    Height = 25
+    Top = 8
+    Width = 121
+    Caption = 'Optical device'
+    Font.Height = -18
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object cbDevice: TComboBox
+    Left = 144
+    Height = 31
+    Top = 40
+    Width = 152
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 0
+    Items.Strings = (
+      'Mirror (concave)'
+      'Mirror (convex)'
+      'Lens (convex)'
+      'Lens (concave)'
+    )
+    OnChange = cbDeviceChange
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 0
+    TabStop = False
+    Text = 'Mirror (concave)'
+  end
+  object laRadius1: TLabel
+    Left = 408
+    Height = 23
+    Top = 44
+    Width = 126
+    Caption = 'Curvature radius'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edRadius1: TEdit
+    Left = 552
+    Height = 31
+    Top = 40
+    Width = 60
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 1
+  end
+  object laRadius2: TLabel
+    Left = 720
+    Height = 23
+    Top = 44
+    Width = 140
+    Caption = 'Curvature radius 2'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object edRadius2: TEdit
+    Left = 864
+    Height = 31
+    Top = 40
+    Width = 60
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 2
+    Visible = False
+  end
+  object laRefraction: TLabel
+    Left = 1024
+    Height = 23
+    Top = 44
+    Width = 123
+    Caption = 'Refraction index'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object edRefraction: TEdit
+    Left = 1156
+    Height = 31
+    Top = 40
+    Width = 60
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 7
+    Text = '1,5'
+    Visible = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 25
+    Top = 80
+    Width = 56
+    Caption = 'Object'
+    Font.Height = -18
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laObjHeight: TLabel
+    Left = 32
+    Height = 23
+    Top = 116
+    Width = 104
+    Caption = 'Object height'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edObjHeight: TEdit
+    Left = 144
+    Height = 31
+    Top = 112
+    Width = 60
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 8
+  end
+  object laObjDistance: TLabel
+    Left = 408
+    Height = 23
+    Top = 116
+    Width = 138
+    Caption = 'Distance to mirror'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edObjDistance: TEdit
+    Left = 552
+    Height = 31
+    Top = 112
+    Width = 60
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 10
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 23
+    Top = 44
+    Width = 88
+    Caption = 'Device type'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object imOptics: TImage
+    Left = 16
+    Height = 500
+    Top = 168
+    Width = 1200
+  end
+  object btTrace: TButton
+    Left = 1368
+    Height = 31
+    Top = 673
+    Width = 102
+    Caption = 'Trace'
+    OnClick = btTraceClick
+    TabOrder = 11
+  end
+  object Label4: TLabel
+    Left = 1240
+    Height = 23
+    Top = 252
+    Width = 93
+    Caption = 'Focal length'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edFocus: TEdit
+    Left = 1368
+    Height = 31
+    Top = 248
+    Width = 102
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object Label5: TLabel
+    Left = 1240
+    Height = 23
+    Top = 386
+    Width = 86
+    Caption = 'Image type'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 1240
+    Height = 23
+    Top = 484
+    Width = 102
+    Caption = 'Image height'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edImHeight: TEdit
+    Left = 1368
+    Height = 31
+    Top = 480
+    Width = 102
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object Label7: TLabel
+    Left = 1240
+    Height = 23
+    Top = 532
+    Width = 116
+    Caption = 'Image distance'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edImDistance: TEdit
+    Left = 1368
+    Height = 31
+    Top = 528
+    Width = 102
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object laDevice: TLabel
+    Left = 1240
+    Height = 23
+    Top = 168
+    Width = 52
+    Caption = 'Mirror'
+    Enabled = False
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laStrength: TLabel
+    Left = 1240
+    Height = 23
+    Top = 300
+    Width = 103
+    Caption = 'Lens strength'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object edStrength: TEdit
+    Left = 1368
+    Height = 31
+    Top = 296
+    Width = 102
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+    Visible = False
+  end
+  object laImage: TLabel
+    Left = 1240
+    Height = 23
+    Top = 351
+    Width = 50
+    Caption = 'Image'
+    Enabled = False
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 1240
+    Height = 23
+    Top = 580
+    Width = 104
+    Caption = 'Magnification'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edMagnification: TEdit
+    Left = 1368
+    Height = 31
+    Top = 576
+    Width = 102
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object laDeviceType: TLabel
+    Left = 1240
+    Height = 23
+    Top = 204
+    Width = 85
+    Caption = 'Mirror type'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edDeviceType: TEdit
+    Left = 1368
+    Height = 31
+    Top = 200
+    Width = 102
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object imEyeLeft: TImage
+    Left = 24
+    Height = 50
+    Top = 176
+    Width = 50
+    Picture.Data = {
+      0A544A706567496D61676582040000FFD8FFE000104A46494600010101007800
+      780000FFDB00430006040506050406060506070706080A100A0A09090A140E0F
+      0C1017141818171416161A1D251F1A1B231C1616202C20232627292A29191F2D
+      302D283025282928FFDB0043010707070A080A130A0A13281A161A2828282828
+      2828282828282828282828282828282828282828282828282828282828282828
+      28282828282828282828282828FFC00011080032003203012200021101031101
+      FFC4001C0001000202030100000000000000000000000607050801030402FFC4
+      00361000010304000403030B0501000000000001020304000506111221314107
+      136122427108143251627281829192B1162343A1C1F1FFC40015010101000000
+      00000000000000000000000001FFC40015110101000000000000000000000000
+      00000011FFDA000C03010002110311003F00DA9AE14B09EB5C93A154078EDE21
+      BAB94F633647CB6947B33A436A215BE5A692474FB47D75F5D048BC40F18EDF65
+      5BB071D43773B8A3929DDEE3B47D48E6A3E89FC48AA0724C8AE790CDF9D5FA7A
+      E4B80FB0859D21BF4423A0FE7D6B3DE1BE033F3594A2D28C4B432AE17A5F0EFF
+      00220742AF5E837B3BE95B238AE018E6391D28816B654F81A5497D21C795F151
+      1FE86850559F260B8C854BBF5B38CAE1A10D484277B0DAC95856BEADE87EDABF
+      EBA5A8CC32A25A69082791E1481BAEEA05294A08878A3957F496232A7B45266A
+      F4CC541F79C57207E006D47EED6B16078C4BCCF246EDED3AE041DBD3251E6508
+      279A89EEA51D81EA77DAA67F28AC84CFCB19B434B2A8F6B6F89694ECF13CE007
+      F508D01F78D5B5E0E61A314C5DB32DB02ED334F4A57749F751F0483FA93412FB
+      25A61D96DB1E05B594B11184F0B684F61FF4FAD642943418ABB5D976D5B6B5C1
+      92FC4D12EBCC00B2D7C51F488FBA0D712F22B543B1AEF3226B28B5A11E6193C5
+      B470F4FE796BAD78735CB6D187DA573EF5212DA3A36D279B8F2BB2509EE7F8AA
+      731D71EC9B278178C9E0A23634FCA50896C695FD86DEF6425C78745AB6476001
+      56C6F99A0B663E63224B0DBEC63579534EA42D04A5B49292363915EC7C0D2A53
+      C091DA941ABDE13DB959DF89EFDDE6A0BB159755717B639152947CA49DFE075F
+      62B6952349D56231FC6ACF8EA6426C96F6212242F8DC4B234147B7FE5662804E
+      AA2F9B6509B0C56DA86CFCFAF32B698501274A79435B24FBA94EF654790AF8CE
+      B2C463B15A6586D126EF2F6224652F801D7D25AD5D12848E649F80E645457167
+      60C35BF383F2B21BFCCD7CE65C48EA5A4EB7A4215F41081BE43887D679D078B2
+      7C05EBDE277655CDF372C965321487D5C92CA92A0B0DB293C90925201EE7A926
+      A0F626AE0ED81700333A3BCDA83CEF98DA9B4305037C64900711E109001EE0F6
+      ABA43B90CBF6635A18840FF926C90A23F237BDFEE15E5BB6172AED6A96DDDEEA
+      F4C90B6D5E4B4840623A57EE92804950D81C94543D2AD2254D5DE03AD21C6A5B
+      4B6D690A4A92AD8503D08A5774764061B0E25295F08E2092740EB9EBD29507AE
+      8694A0A6A3448D71F1F3201708ECCA0C4489E507D017E5ED049E1DF4E7CF955C
+      4D0012001A14A507DD294A05294A0FFFD9
+    }
+  end
+  object imEyeRight: TImage
+    Left = 1160
+    Height = 50
+    Top = 176
+    Width = 50
+    Picture.Data = {
+      0A544A706567496D61676588040000FFD8FFE000104A46494600010101007800
+      780000FFDB00430006040506050406060506070706080A100A0A09090A140E0F
+      0C1017141818171416161A1D251F1A1B231C1616202C20232627292A29191F2D
+      302D283025282928FFDB0043010707070A080A130A0A13281A161A2828282828
+      2828282828282828282828282828282828282828282828282828282828282828
+      28282828282828282828282828FFC00011080032003203012200021101031101
+      FFC4001C0000020203010100000000000000000000000701080204060503FFC4
+      0034100001030302040306040700000000000001020304000511062107123141
+      13516108142232527181829192162342434472A1FFC400140101000000000000
+      00000000000000000000FFC40015110101000000000000000000000000000000
+      11FFDA000C03010002110311003F00B534BDE3C5CA55B386D7172138A69C796D
+      4753893828429602B7F5191F8D30AB075A6DE4F2BA84AD3E4A1914145E04B720
+      4B69FB74A722CA6B76DC61CE45A7F11DBD29D7A0F8DCF30A6E1EB16FC46BE54C
+      F611850F5711DFEE9FD29D178D3364BCC653173B54392D9ECE329247A838C83E
+      A2907C50E11BBA79876EBA6CBF2AD88054F4659E67181F524F5527D3A8F33D82
+      C5DBE746B8C46A5417DA9119D4F321D69414950F422B66AA470AB5F3FA32EA84
+      BCE29DB14950F786B2486B3FDD40ED8EE0751EA2AD9C679B90C36F32B4ADA712
+      169524E4281E84507D28A28A0F0F4D6A6837F4CB446F11A990DC2D4A88F0E575
+      8576E61E446E08C822A62EA06E7CE4B36B8CF4B8E9514BB2D384B2823B027E73
+      9DBE1CE3B9A5BF17EDAE397F8F234A662EA34C75B929E41296DE6024E1B7C023
+      981C2B07391CA71BE2BDCE16710ED7A9638B51619B5DE6324072DE080923EA6B
+      EA4FFD1DE818F50A48575E953450562E37E824E99B90BBDA9AE5B3CD730B6D23
+      68EE9EDFEAADC8F2391DC5767ECE7AAD532D8FE9B98E12F401E2452A3BA99277
+      4FE5271F650F2A6BEA3B2C3BFD925DB2E2DF3C6928E4579A4F650F220E083E62
+      AA8599F9BC39E24326792972DD23C29380407195EC55F6292143D47A505C2A2B
+      14A829214950208C820D14092D70FB9FC437D9D1DC91220484A6378918170365
+      08482DA82412028957960A483D6B4385FA09332D977B8DF23BF1A4CE7D0A88E8
+      CB6FB096F387107E649254AEBD40191834CB569053D77BADCD13245BE7C97C16
+      DD8AA0525B4A129016820A547214724677D8D6663EA583F0ADA817640E8B6946
+      339FB4F324FEE14A35749EA39B0EEC74EEAB711EFDFE0CDE5E54DC10064EC360
+      E27BA73BF50315DD039E94BAD40F42B9DB5C83AA2D37184D28850714D1586D40
+      E4292EB4541241DC1C8AC7426AF5266B760BC5C189CEAB2205C9B50299891B94
+      280D92EA4751FD4371DE818E6915ED2FA692B8D075130D7C4D9F759640D8A15F
+      228FD9591F9A9EB5A776B6C4BB5BDF83716112223E9E471A5F450F2A0ACD6AE3
+      A3F6DB64382EFC6E45650CA94428925290093FA514FA470E747A10948D396CC0
+      18196124FEB45075745145042BA5273DA221C666C716E0D476513D12D8E59294
+      00E8FE627A2FAF73DE8A281C83A51451405145141FFFD9
+    }
+    Visible = False
+  end
+  object meImType: TMemo
+    Left = 1368
+    Height = 80
+    Top = 384
+    Width = 102
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 13
+    TabStop = False
+  end
+  object edCase: TEdit
+    Left = 1072
+    Height = 31
+    Top = 632
+    Width = 138
+    Alignment = taCenter
+    Color = clBackground
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object meRays: TMemo
+    Left = 16
+    Height = 27
+    Top = 677
+    Width = 1200
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 15
+    TabStop = False
+  end
+  object mMenu: TMainMenu
+    left = 1424
+    top = 16
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsSimple: TMenuItem
+        Caption = 'Use simplified lens calculations'
+        Checked = True
+        OnClick = mSettingsSimpleClick
+      end
+      object mSettingsWarning: TMenuItem
+        Caption = 'Show center ray warning'
+        Checked = True
+        OnClick = mSettingsWarningClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpOptics: TMenuItem
+        Caption = 'Optics help'
+        OnClick = mHelpOpticsClick
+      end
+      object mHelpProgram: TMenuItem
+        Caption = 'Program help'
+        OnClick = mHelpProgramClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object pnAbout: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Text = 'Text'
+    Title = 'Ray tracing.'
+    Visible = False
+    left = 1352
+    top = 16
+  end
+end

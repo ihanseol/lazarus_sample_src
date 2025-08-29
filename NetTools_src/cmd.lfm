@@ -1,0 +1,56 @@
+object fCmd: TfCmd
+  Left = 846
+  Height = 609
+  Top = 159
+  Width = 592
+  BorderIcons = [biSystemMenu]
+  Caption = 'Network Tools'
+  ClientHeight = 609
+  ClientWidth = 592
+  DesignTimePPI = 120
+  Font.Height = -17
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object memoCmd: TMemo
+    Left = 0
+    Height = 558
+    Top = 0
+    Width = 592
+    Color = clBlack
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      ''
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 475
+    Height = 31
+    Top = 568
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+  object btSave: TButton
+    Left = 368
+    Height = 31
+    Top = 568
+    Width = 94
+    Caption = 'Save'
+    OnClick = btSaveClick
+    TabOrder = 2
+  end
+  object dlgSave: TSaveDialog
+    Title = 'Save console output as'
+    DefaultExt = '.txt'
+    left = 504
+    top = 16
+  end
+end

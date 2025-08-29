@@ -1,0 +1,34 @@
+object fHelp: TfHelp
+  Left = 391
+  Height = 475
+  Top = 215
+  Width = 990
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Blackjack 2 Help'
+  ClientHeight = 475
+  ClientWidth = 990
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object HelpText: TMemo
+    Left = 13
+    Height = 416
+    Top = 8
+    Width = 965
+    Font.Height = -12
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    TabStop = False
+  end
+  object ButtonClose: TButton
+    Left = 903
+    Height = 25
+    Top = 440
+    Width = 75
+    Caption = 'Close'
+    OnClick = ButtonCloseClick
+    TabOrder = 1
+  end
+end

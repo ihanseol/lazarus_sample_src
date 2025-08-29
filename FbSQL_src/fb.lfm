@@ -1,0 +1,129 @@
+object fFbSQL: TfFbSQL
+  Left = 356
+  Height = 260
+  Top = 262
+  Width = 675
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Test Firebird connection'
+  ClientHeight = 260
+  ClientWidth = 675
+  DesignTimePPI = 120
+  Font.Height = -18
+  LCLVersion = '2.2.6.0'
+  object StaticText1: TStaticText
+    Left = 27
+    Height = 30
+    Top = 10
+    Width = 621
+    Alignment = taCenter
+    Caption = 'Reading the number of customers from the "employee" databse.'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 25
+    Top = 56
+    Width = 294
+    Caption = '1. Connecting to the database server:'
+    ParentColor = False
+  end
+  object edCustomers: TEdit
+    Left = 591
+    Height = 33
+    Top = 88
+    Width = 52
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 1
+  end
+  object btConnect: TButton
+    Left = 28
+    Height = 33
+    Top = 88
+    Width = 94
+    Caption = 'Connect'
+    OnClick = btConnectClick
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 392
+    Height = 25
+    Top = 56
+    Width = 278
+    Caption = '2. Submitting the query to Firebird:'
+    ParentColor = False
+  end
+  object btQuery: TButton
+    Left = 410
+    Height = 33
+    Top = 136
+    Width = 94
+    Caption = 'Query'
+    OnClick = btQueryClick
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 410
+    Height = 25
+    Top = 92
+    Width = 174
+    Caption = 'Number of customers'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 10
+    Height = 25
+    Top = 192
+    Width = 208
+    Caption = 'Database access message:'
+    ParentColor = False
+  end
+  object edMess: TEdit
+    Left = 10
+    Height = 33
+    Top = 224
+    Width = 526
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object btExit: TButton
+    Left = 576
+    Height = 33
+    Top = 224
+    Width = 94
+    Caption = 'Exit'
+    OnClick = btExitClick
+    TabOrder = 5
+    TabStop = False
+  end
+  object dbSQLTransaction: TSQLTransaction
+    Active = False
+    Database = dbFBSQLConnection
+    Left = 320
+    Top = 88
+  end
+  object dbSQLQuery: TSQLQuery
+    FieldDefs = <>
+    Database = dbFBSQLConnection
+    Transaction = dbSQLTransaction
+    Params = <>
+    Macros = <>
+    Left = 320
+    Top = 160
+  end
+  object dbFBSQLConnection: TIBConnection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    Transaction = dbSQLTransaction
+    CheckTransactionParams = False
+    UseConnectionCharSetIfNone = False
+    Left = 184
+    Top = 88
+  end
+end

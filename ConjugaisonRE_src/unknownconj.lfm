@@ -1,0 +1,155 @@
+object fUnknown: TfUnknown
+  Left = 262
+  Height = 376
+  Top = 152
+  Width = 865
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Conjugaison des verbes en -re'
+  ClientHeight = 376
+  ClientWidth = 865
+  DesignTimePPI = 120
+  OnActivate = FormActivate
+  LCLVersion = '1.8.4.0'
+  object Label1: TLabel
+    Left = 10
+    Height = 23
+    Top = 10
+    Width = 119
+    Caption = 'Verbe inconnu.'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 10
+    Height = 113
+    Top = 40
+    Width = 846
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 1
+    TabStop = False
+  end
+  object cbVImpersonnel: TCheckBox
+    Left = 10
+    Height = 27
+    Top = 208
+    Width = 170
+    Caption = ' verbe impersonnel'
+    Font.Height = -17
+    OnChange = cbVImpersonnelChange
+    ParentFont = False
+    TabOrder = 2
+  end
+  object cbVPronominal: TCheckBox
+    Left = 216
+    Height = 27
+    Top = 208
+    Width = 164
+    Caption = ' verbe pronominal'
+    Font.Height = -17
+    OnChange = cbVPronominalChange
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    Left = 10
+    Height = 23
+    Top = 176
+    Width = 110
+    Caption = 'Type de verbe:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object cbAuxAvoir: TCheckBox
+    Left = 10
+    Height = 27
+    Top = 280
+    Width = 66
+    Caption = ' avoir'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 4
+  end
+  object cbAuxEtre: TCheckBox
+    Left = 216
+    Height = 27
+    Top = 280
+    Width = 59
+    Caption = ' être'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Label3: TLabel
+    Left = 10
+    Height = 23
+    Top = 248
+    Width = 73
+    Caption = 'Auxiliaire:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object cbPassif: TCheckBox
+    Left = 492
+    Height = 27
+    Top = 208
+    Width = 118
+    Caption = ' voix passive'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 6
+  end
+  object cbPronominal: TCheckBox
+    Left = 698
+    Height = 27
+    Top = 208
+    Width = 161
+    Caption = ' voix pronominale'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 7
+  end
+  object Label4: TLabel
+    Left = 492
+    Height = 23
+    Top = 176
+    Width = 116
+    Caption = 'Voix existantes:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btOK: TButton
+    Left = 765
+    Height = 31
+    Top = 336
+    Width = 94
+    Caption = 'OK'
+    OnClick = btOKClick
+    TabOrder = 0
+  end
+  object btCancel: TButton
+    Left = 648
+    Height = 31
+    Top = 336
+    Width = 94
+    Caption = 'Cancel'
+    OnClick = btCancelClick
+    TabOrder = 8
+  end
+end

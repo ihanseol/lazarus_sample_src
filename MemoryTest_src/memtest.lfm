@@ -1,0 +1,390 @@
+object fMemTest: TfMemTest
+  Left = 137
+  Height = 328
+  Top = 60
+  Width = 657
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Memory Test'
+  ClientHeight = 303
+  ClientWidth = 657
+  Color = clWhite
+  DesignTimePPI = 120
+  Menu = mMemTest
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object imObject1: TImage
+    Left = 16
+    Height = 50
+    Top = 48
+    Width = 50
+    Center = True
+    OnClick = imObject1Click
+  end
+  object imObject2: TImage
+    Left = 80
+    Height = 50
+    Top = 48
+    Width = 50
+    Center = True
+    OnClick = imObject2Click
+  end
+  object imObject3: TImage
+    Left = 144
+    Height = 50
+    Top = 48
+    Width = 50
+    Center = True
+    OnClick = imObject3Click
+  end
+  object imObject4: TImage
+    Left = 208
+    Height = 50
+    Top = 48
+    Width = 50
+    Center = True
+    OnClick = imObject4Click
+  end
+  object imObject5: TImage
+    Left = 272
+    Height = 50
+    Top = 48
+    Width = 50
+    Center = True
+    OnClick = imObject5Click
+  end
+  object imObject6: TImage
+    Left = 336
+    Height = 50
+    Top = 48
+    Width = 50
+    Center = True
+    OnClick = imObject6Click
+  end
+  object imObject7: TImage
+    Left = 400
+    Height = 50
+    Top = 48
+    Width = 50
+    Center = True
+    OnClick = imObject7Click
+  end
+  object imObject8: TImage
+    Left = 464
+    Height = 50
+    Top = 48
+    Width = 50
+    Center = True
+    OnClick = imObject8Click
+  end
+  object imObject9: TImage
+    Left = 528
+    Height = 50
+    Top = 48
+    Width = 50
+    Center = True
+    OnClick = imObject9Click
+  end
+  object imObject10: TImage
+    Left = 592
+    Height = 50
+    Top = 48
+    Width = 50
+    Center = True
+    OnClick = imObject10Click
+  end
+  object StaticText1: TStaticText
+    Left = 16
+    Height = 17
+    Top = 16
+    Width = 65
+    Caption = 'Objects:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object imObject11: TImage
+    Left = 16
+    Height = 50
+    Top = 112
+    Width = 50
+    Center = True
+    OnClick = imObject11Click
+  end
+  object imObject12: TImage
+    Left = 80
+    Height = 50
+    Top = 112
+    Width = 50
+    Center = True
+    OnClick = imObject12Click
+  end
+  object imObject13: TImage
+    Left = 144
+    Height = 50
+    Top = 112
+    Width = 50
+    Center = True
+    OnClick = imObject13Click
+  end
+  object imObject14: TImage
+    Left = 208
+    Height = 50
+    Top = 112
+    Width = 50
+    Center = True
+    OnClick = imObject14Click
+  end
+  object imObject15: TImage
+    Left = 272
+    Height = 50
+    Top = 112
+    Width = 50
+    Center = True
+    OnClick = imObject15Click
+  end
+  object imObject16: TImage
+    Left = 336
+    Height = 50
+    Top = 112
+    Width = 50
+    Center = True
+    OnClick = imObject16Click
+  end
+  object imObject17: TImage
+    Left = 400
+    Height = 50
+    Top = 112
+    Width = 50
+    Center = True
+    OnClick = imObject17Click
+  end
+  object imObject18: TImage
+    Left = 464
+    Height = 50
+    Top = 112
+    Width = 50
+    Center = True
+    OnClick = imObject18Click
+  end
+  object imObject19: TImage
+    Left = 528
+    Height = 50
+    Top = 112
+    Width = 50
+    Center = True
+    OnClick = imObject19Click
+  end
+  object imObject20: TImage
+    Left = 592
+    Height = 50
+    Top = 112
+    Width = 50
+    Center = True
+    OnClick = imObject20Click
+  end
+  object StaticText2: TStaticText
+    Left = 16
+    Height = 17
+    Top = 184
+    Width = 65
+    Caption = 'Test:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 17
+    Top = 220
+    Width = 110
+    Caption = 'Number of objects'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edObjects: TEdit
+    Left = 136
+    Height = 25
+    Top = 216
+    Width = 40
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+    Text = '5'
+  end
+  object Label2: TLabel
+    Left = 280
+    Height = 17
+    Top = 220
+    Width = 71
+    Caption = 'Display time'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edTime: TEdit
+    Left = 360
+    Height = 25
+    Top = 216
+    Width = 40
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+    Text = '2'
+  end
+  object Label3: TLabel
+    Left = 504
+    Height = 17
+    Top = 220
+    Width = 89
+    Caption = 'Objects display'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edDisplay: TEdit
+    Left = 602
+    Height = 25
+    Top = 216
+    Width = 40
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+    Text = 'one'
+  end
+  object btStart: TButton
+    Left = 567
+    Height = 25
+    Top = 264
+    Width = 75
+    Caption = 'Start'
+    OnClick = btStartClick
+    TabOrder = 0
+  end
+  object mMemTest: TMainMenu
+    left = 600
+    top = 16
+    object mTest: TMenuItem
+      Caption = 'Test'
+      object mTestNew: TMenuItem
+        Caption = 'New'
+        OnClick = mTestNewClick
+      end
+      object mTestExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mTestExitClick
+      end
+    end
+    object mObjects: TMenuItem
+      Caption = 'Objects'
+      object mObjNumbers: TMenuItem
+        Caption = 'Numbers'
+        Checked = True
+        OnClick = mObjNumbersClick
+      end
+      object mObjShapes2D: TMenuItem
+        Caption = 'Shapes 2D'
+        OnClick = mObjShapes2DClick
+      end
+      object mObjShapes3D: TMenuItem
+        Caption = 'Shapes 3D'
+        OnClick = mObjShapes3DClick
+      end
+      object mObjColors: TMenuItem
+        Caption = 'Colors'
+        OnClick = mObjColorsClick
+      end
+      object mObjFruits: TMenuItem
+        Caption = 'Fruits'
+        OnClick = mObjFruitsClick
+      end
+      object mObjObjects: TMenuItem
+        Caption = 'Color objects'
+        OnClick = mObjObjectsClick
+      end
+    end
+    object mPictures: TMenuItem
+      Caption = 'Pictures'
+      object mPicSelection: TMenuItem
+        Caption = 'Selection'
+        object mPicSel2: TMenuItem
+          Caption = '  2 pics'
+          OnClick = mPicSel2Click
+        end
+        object mPicSel5: TMenuItem
+          Caption = '  5 pics'
+          OnClick = mPicSel5Click
+        end
+        object mPicSel8: TMenuItem
+          Caption = '  8 pics'
+          OnClick = mPicSel8Click
+        end
+        object mPicSel10: TMenuItem
+          Caption = '10 pics'
+          Checked = True
+          OnClick = mPicSel10Click
+        end
+      end
+      object mPicTime: TMenuItem
+        Caption = 'Time'
+        object mPicTime1: TMenuItem
+          Caption = '  1 sec'
+          OnClick = mPicTime1Click
+        end
+        object mPicTime2: TMenuItem
+          Caption = '  2 sec'
+          Checked = True
+          OnClick = mPicTime2Click
+        end
+        object mPicTime5: TMenuItem
+          Caption = '  5 sec'
+          OnClick = mPicTime5Click
+        end
+        object mPicTime10: TMenuItem
+          Caption = '10 sec'
+          OnClick = mPicTime10Click
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object tiMemTest: TTimer
+    Enabled = False
+    Interval = 2000
+    OnTimer = tiMemTestTimer
+    left = 512
+    top = 16
+  end
+  object Popup: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Text = 'Text'
+    Title = 'Memory Test'
+    Visible = False
+    left = 440
+    top = 16
+  end
+end

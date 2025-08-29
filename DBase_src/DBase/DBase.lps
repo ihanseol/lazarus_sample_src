@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="DBase.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="dbase_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fDBase"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="E:\Programs\Lazarus\fpc\3.2.2\source\packages\fcl-db\src\dbase\dbf.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="71" Y="8"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="10">
+      <Position>
+        <Filename Value="dbase_main.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase_main.pas"/>
+        <Caret Line="8" Column="71"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase_main.pas"/>
+        <Caret Line="54" Column="30" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase_main.pas"/>
+        <Caret Line="8" Column="75"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase_main.pas"/>
+        <Caret Line="41" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="DBase.lpr"/>
+        <Caret Line="29" Column="13" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="DBase.lpr"/>
+        <Caret Line="3" Column="53"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase_main.pas"/>
+        <Caret Line="64" Column="39" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="DBase.lpr"/>
+        <Caret Line="2" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase_main.pas"/>
+        <Caret Line="93" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="dbase_main.pas"/>
+        <Caret Line="67" Column="31" TopLine="58"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

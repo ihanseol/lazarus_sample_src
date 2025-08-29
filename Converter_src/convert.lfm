@@ -1,0 +1,298 @@
+object fConverter: TfConverter
+  Left = 249
+  Height = 408
+  Top = 143
+  Width = 655
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Rechentrainer: Maßeinheiten'
+  ClientHeight = 383
+  ClientWidth = 655
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Memo1: TMemo
+    Left = 10
+    Height = 89
+    Top = 48
+    Width = 636
+    Color = clCream
+    Font.Height = -17
+    Lines.Strings = (
+      'Rechenaufgaben zum Thema "Maßeinheiten Umrechnung". Das Programm ist in erster Linie für Primärschüer in Europa gedacht und berücksichtigt daher keine amerikanischen, britischen oder andere nationale Maßeinheiten.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 2
+    TabStop = False
+  end
+  object StaticText1: TStaticText
+    Left = 10
+    Height = 30
+    Top = 10
+    Width = 174
+    Caption = 'Rechentrainer.'
+    Font.Height = -18
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 23
+    Top = 164
+    Width = 135
+    Caption = 'Aufgabenauswahl'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object cobMeasure: TComboBox
+    Left = 152
+    Height = 31
+    Top = 160
+    Width = 168
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 0
+    Items.Strings = (
+      'Längen'
+      'Flächen'
+      'Volumen'
+      'Inhalte'
+      'Volumen/Inhalte'
+      'Gewichte'
+    )
+    OnChange = cobMeasureChange
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 3
+    TabStop = False
+    Text = 'Längen'
+  end
+  object laExercise: TLabel
+    Left = 10
+    Height = 23
+    Top = 212
+    Width = 69
+    Caption = 'Aufgabe'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edValue1: TEdit
+    Left = 10
+    Height = 31
+    Top = 248
+    Width = 94
+    Alignment = taCenter
+    Color = clForm
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object edUnit1: TEdit
+    Left = 112
+    Height = 31
+    Top = 248
+    Width = 48
+    Alignment = taCenter
+    Color = clForm
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object Label2: TLabel
+    Left = 168
+    Height = 23
+    Top = 252
+    Width = 12
+    Caption = '='
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edValue2: TEdit
+    Left = 192
+    Height = 31
+    Top = 248
+    Width = 128
+    Alignment = taCenter
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object edUnit2: TEdit
+    Left = 328
+    Height = 31
+    Top = 248
+    Width = 48
+    Alignment = taCenter
+    Color = clForm
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object edEval: TEdit
+    Left = 10
+    Height = 31
+    Top = 288
+    Width = 366
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object Label3: TLabel
+    Left = 395
+    Height = 23
+    Top = 212
+    Width = 74
+    Caption = 'Aufgaben'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edQuestions: TEdit
+    Left = 483
+    Height = 31
+    Top = 208
+    Width = 50
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object Label4: TLabel
+    Left = 395
+    Height = 23
+    Top = 252
+    Width = 52
+    Caption = 'Richtig'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCorrect: TEdit
+    Left = 483
+    Height = 31
+    Top = 248
+    Width = 50
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object Label5: TLabel
+    Left = 544
+    Height = 23
+    Top = 252
+    Width = 45
+    Caption = 'Falsch'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edFalse: TEdit
+    Left = 596
+    Height = 31
+    Top = 248
+    Width = 50
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object Label6: TLabel
+    Left = 395
+    Height = 23
+    Top = 292
+    Width = 82
+    Caption = 'Bewertung'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSuccess: TEdit
+    Left = 483
+    Height = 31
+    Top = 288
+    Width = 50
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object btQuestion: TButton
+    Left = 552
+    Height = 31
+    Top = 344
+    Width = 94
+    Caption = 'Frage'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object mMenu: TMainMenu
+    left = 592
+    object mTest: TMenuItem
+      Caption = 'Test'
+      object mTestNew: TMenuItem
+        Caption = 'Neuer Test'
+        OnClick = mTestNewClick
+      end
+      object mTestExit: TMenuItem
+        Caption = 'Verlassen'
+        OnClick = mTestExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Einstellungen'
+      object mSettingsExercises: TMenuItem
+        Caption = 'Anzahl der Aufgaben ...'
+        OnClick = mSettingsExercisesClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Hilfe'
+      object mHelpAbout: TMenuItem
+        Caption = 'Über'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object pnAbout: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Title = 'Rechentrainer: Maßeinheiten.'
+    Visible = False
+    left = 512
+  end
+end

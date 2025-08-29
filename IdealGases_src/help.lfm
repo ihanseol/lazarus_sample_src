@@ -1,0 +1,41 @@
+object fHelp: TfHelp
+  Left = 414
+  Height = 589
+  Top = 189
+  Width = 1042
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'The Ideal Gases Law'
+  ClientHeight = 589
+  ClientWidth = 1042
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object memoHelp: TMemo
+    Left = 14
+    Height = 510
+    Top = 10
+    Width = 1014
+    Font.Height = -15
+    Lines.Strings = (
+      'IdealGases is a chemistry application dealing with the ideal gases laws. It allows to calculate the value of the different gas properties (volume, pressure, temperature and quantity) and graphically shows how varying one of these affects the others.'
+      'The first 4 options (selectable with the corresponding radio buttons) concern the proportionality between 2 gas properties, the 2 others being constant values. Use the trackbar to change one of the variable properties, the new value of the other one will be calculated and the graphical display will change accordingly. The 5th radio button concerns the combined formula of the ideal gases law (P·V = n·R·T, with R being the universal gas constant = 8.314 kPa·L·mol–1·K–1.): In the combobox, select the property, you want to calculate, use the track bars to set values for the 3 other properties and push the "Calculate" button to actually do the calculation.'
+      'The limits of the trackbars are chosen in a way that starting from STP conditions (at T=273.15 K and P=101.325 kPa, 22.4 L contain 1 mol of gaz), the limits of the trackbar of one of two proportional properties corrresponds to the limits of the trackbar of the other one. To guarantee this for the 4 basic laws, the limits of the temperature trackbar are adapted when passing from one law to another. Use the "Reset" button in the "File" menu to reset the gases to STP condition. Under conditions other than STP, the value of one or more gas properties may fall outside the trackbar limits. In this case, the trackbar label''s color changes to red, indicating that the position on the trackbar does no more correspond to the actual value of the gas property. This does not affect the other trackbars, nor the calculation or graphical display. It''s just that the red labeled trackbar may not be "used normally" under these conditions, i.e. when clicking it, the corresponding gas property''s value abruptely changes to the minimum or maximum trackbar limit.'
+      'It may also arrive that the temperature or pressure value becomes less or greater than the minimum/maximum value on the termometer resp. the barometer; if this is the case a red bar is displayed. If the volume becomes to huge to fit the gaz molecules in the previewed area on the form or if the number of molecules exceeds a prefixed number, an error icon is displayed. In all of these cases, it''s only the graphical display that is affected; calculations are continued to be normally done and the values displayed are the correct actual values.'
+      'There is no help text concerning ideal gases included with the IdealGases application. Moving the mouse pointer over the radio button choices, displays the formula relative to the corresponding law. A brief description of the law is displayed in the box below the radio buttons. For detailed information, please refer to a chemistry book. As example, "Chemistry" by OpenStax College, a 1393 pages book, covering wide aspects of chemistry, well written, with lots of exercises and plenty of examples of how chemistry is pressent in everyday life.'
+      ''
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 934
+    Height = 31
+    Top = 544
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+end

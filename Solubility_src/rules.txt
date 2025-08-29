@@ -1,0 +1,48 @@
+Fluorides      Fluorides are slightly soluble
+               Exceptions (soluble): Ammonium, Beryllium, Nickel(II), Tin(II), Silver, Alkali metals (except Lithium: slightly soluble)
+               Exceptions (insoluble): Calcium, Gallium, Vanadium(III), Gold
+Chlorides      Chlorides are soluble
+               Exceptions (insoluble): Silver
+               Exceptions (slightly soluble): Lead(II)
+Bromides       Bromides are soluble
+               Exceptions (insoluble): Silver
+               Exceptions (slightly soluble): Lead(II), Chromium(III), Gold
+Iodides        Iodides are soluble
+               Exceptions (insoluble): Silver, Gold, Mercury(II)
+               Exceptions (slightly soluble): Lead(II)
+Nitrates       All nitrates are soluble
+               Exceptions: -
+Nitrites       Nitrites are soluble
+               Exceptions (slightly soluble): Silver
+Chlorates      All chlorates are soluble
+               Exceptions: -
+Perchlorates   Perchlorates are soluble
+               Exceptions (slightly soluble): Potassium, Rubidium, Cesium
+Acetates       Acetates are soluble
+               Exceptions (insoluble): Iron(III)
+               Exceptions (slightly soluble): Silver
+Sulfates       Sulfates are soluble
+               Exceptions (insoluble): Barium, Lead(II)
+               Exceptions (slightly soluble): Calcium, Strontium, Gallium, Vanadium(III), Silver
+Hydroxides     Hydroxides are insoluble
+               Exceptions (soluble): Ammonium, Alkali metals
+               Exceptions (slightly soluble): Calcium, Strontium, Lead(II)
+Sulfides       All sulfides are insoluble
+               Exceptions: -
+Carbonates     Carbonates are insoluble
+               Exceptions (soluble): Ammonium, Alkali metals (except Lithium: slightly soluble)
+               Exceptions (slightly soluble): Beryllium, Magnesium, Barium
+Phosphates     Phosphates are insoluble
+               Exceptions (soluble): Ammonium, Beryllium, Alkali metals (except Lithium: slightly soluble)
+               Exceptions (slightly soluble): Strontium, Iron(III)
+Oxalates       Oxalates are insoluble
+               Exceptions (soluble): Ammonium, Alkali metals (except Rubidium, Cesium: insoluble)
+               Exceptions (slightly soluble): Magnesium, Calcium, Iron(II), Tin(II), Mercury(II), Iron(III)
+Oxides         All oxides are insoluble
+               Exceptions: -
+Cyanides       Cyanates are soluble
+               Exceptions (insoluble): Cobalt(II), Nickel(II), Copper(II), Zinc, Silver
+               Exceptions (slightly soluble): Lead(II)
+Thiocyanates   Thiocyanates are soluble
+               Exceptions (insoluble): Manganese(II), Copper(II), Tin(II), Silver
+               Exceptions (slightly soluble): Mercury(II), Lead(II)

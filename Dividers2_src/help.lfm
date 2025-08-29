@@ -1,0 +1,109 @@
+object fHelp: TfHelp
+  Left = 435
+  Height = 491
+  Top = 260
+  Width = 947
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Maths game: Dividers'
+  ClientHeight = 491
+  ClientWidth = 947
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object Memo1: TMemo
+    Left = 11
+    Height = 438
+    Top = 10
+    Width = 924
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"Dividers2" is a maths game for 2 players, dealing with division and dividers. The aim of the game is to find those numbers, that (eventually modified by addition or subtraction of a given operation number; see below) have as divider the number indicated (A number X is a divider of a number Y, if Y/X is an integer; e.g. numbers with divider = 4: 4, 8, 12, 16...).'
+      ''
+      'After pushing "Start", a number, together with the divider (and the operation number, if any) is displayed during a certain time. The players now have the possibility to action "their" keyboard key (default: "Y" for Player1 and "M" for Player2). If the number displayed (eventually modified bay the addition/subtraction number) is effectively a solution for the given divider, the player, who hit his key first, will score (in the case where the number is not a solution, a penalty will be applied).'
+      ''
+      'Menu item "Game"'
+      '================'
+      ''
+      'Simple game'
+      '-----------'
+      'Start a new "simple" game. In this type of game, you have to find numbers, that have as divider the number indicated. E.g. for divider = 6: 12, 24 and 48 would be solutions; 21, 28 and 45 wouldn''t be.'
+      ''
+      'Addition game'
+      '-------------'
+      'Start a new "addition" game. In this type of game, you have to find numbers, that, after you added the number displayed in the "Addition number" field, have as divider the number indicated. E.g. for divider = 6 and addition number = 2: 10, 22 and 46 are solutions (10 + 2 = 12 is a divider of 6, as are 22 + 2 and 46 + 2).'
+      ''
+      'Subtraction game'
+      '----------------'
+      'Start a new "subtraction" game. In this type of game, you have to find numbers, that, after you subtracted the number displayed in the "Subtraction number" field, have as divider the number indicated. E.g. for divider = 6 and subtraction number = 2: 14, 26 and 50 are solutions (14 - 2 = 12 is a divider of 6, as are 26 - 2 and 50 - 2).'
+      ''
+      'Exit'
+      '----'
+      ''
+      'Exit the application.'
+      ''
+      'Menu item "Settings"'
+      '===================='
+      ''
+      'Please note, that after changing settings (except for animation, penalty and player keys), you have to start a new game in order that the modifications, you made, become active!'
+      ''
+      'Max. number'
+      '-----------'
+      'Choose the maximum value for the display numbers. For "easy" game, choose 100 (default), for "difficult" game, choose 1000.'
+      ''
+      'Max. divider'
+      '------------'
+      'Choose the maximum value for the divider. Another option, that largely effects the difficulty level of the game. With maximum divider = 10 (default), the answer is rather easy to find (at least if maximum number is set to 100); with maximum divider = 100 and maximum number = 1000, the game can become really hard for most users (is 187 a divider of 17? is 274 a divider of 21?). Please note, that with max. number = 100, the only selectable values for max. divider are 10 and 20.'
+      ''
+      'Exclusions'
+      '----------'
+      'Exclude one or more of the numbers listed (2, 5, 10, 20, 25, 50, 100) to be used as dividers (excluded dividers are listed with a "checked" mark). This option has been added in order to avoid "to easy" solutions (finding numbers with dividers of 2 or 10 is really not difficult...).'
+      ''
+      'Max. time'
+      '---------'
+      'Choose the maximum time, the number (and the associated divider and, if any, the operation number) is displayed. Possible values are 1sec, 2sec and 5sec.'
+      ''
+      'Double penalty.'
+      '---------------'
+      'By default, scoring is done: +1 for a correct answer (key stroke), -1 for a false one. If this option is checked, the penalty for a false answer is set to -2.'
+      ''
+      'Animate numbers.'
+      '----------------'
+      'The display numbers are carried by colored shapes, that move around in the box, where they appear. If you don''t like that, or if it makes it to difficult to you for quickly reading the number, uncheck this option.'
+      ''
+      'Player keys...'
+      '--------------'
+      'Choose the keyboard keys, that the players have to hit in order to react, i.e. to indicate that the number displayed is a solution for the divider (and operation number, if any) displayed. Keys must be letters (case being ignored) or numbers. Default: Player1: "Y", Player2: "M".'
+      ''
+      'Menu item "Help"'
+      '----------------'
+      ''
+      'Help'
+      '----'
+      'Display of help, how to use the "Dividers2" application (this text).'
+      ''
+      'About'
+      '-----'
+      'Display of version, author and date-written information concerning the "Dividers2" application.'
+      ''
+      'Note.'
+      '====='
+      ''
+      '"Player1" and "Player2" may be changed to your real names, by simply editing the corresponding fields...'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 840
+    Height = 31
+    Top = 456
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

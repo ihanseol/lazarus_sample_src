@@ -1,0 +1,93 @@
+object fBiorhythm: TfBiorhythm
+  Left = 293
+  Height = 503
+  Top = 127
+  Width = 821
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Biorhythm'
+  ClientHeight = 503
+  ClientWidth = 821
+  Color = clSilver
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object DrawingSurface: TImage
+    Left = 10
+    Height = 350
+    Top = 40
+    Width = 800
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 17
+    Top = 440
+    Width = 65
+    Caption = 'Birth date:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 136
+    Height = 17
+    Top = 440
+    Width = 93
+    Caption = 'Biorythm date:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object EBirthDate: TEdit
+    Left = 8
+    Height = 25
+    Top = 464
+    Width = 80
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 0
+    Text = 'dd/mm/yyyy'
+  end
+  object EBioDate: TEdit
+    Left = 136
+    Height = 25
+    Top = 464
+    Width = 80
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 1
+    Text = 'mm/yyyy'
+  end
+  object BDraw: TButton
+    Left = 272
+    Height = 25
+    Top = 464
+    Width = 80
+    Caption = 'Draw it!'
+    Font.Style = [fsBold]
+    OnClick = BDrawClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object BClose: TButton
+    Left = 730
+    Height = 25
+    Top = 464
+    Width = 80
+    Caption = 'Exit'
+    OnClick = BCloseClick
+    TabOrder = 3
+  end
+  object Title: TLabel
+    Left = 8
+    Height = 17
+    Top = 15
+    Width = 104
+    Caption = 'Biorhythm chart.'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end

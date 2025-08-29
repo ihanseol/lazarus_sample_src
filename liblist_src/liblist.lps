@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="liblist.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="WinLibs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="19" Column="31"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="67" Column="67" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="14" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="43" Column="28" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="winlibs.pas"/>
+        <Caret Line="58" Column="19" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="9" Column="25"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="53" Column="14" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="9" Column="25"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="52" Column="64" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="47" Column="67" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="53" Column="23" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="51" Column="15" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="32" Column="68" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="60" Column="13" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="83" Column="9" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="11" Column="10"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="57" Column="15" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="16" Column="62" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="85" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="winlibs.pas"/>
+        <Caret Line="46" Column="21" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="92" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="3" Column="71"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="7"/>
+      </Position>
+      <Position>
+        <Filename Value="winlibs.pas"/>
+        <Caret Line="177" TopLine="151"/>
+      </Position>
+      <Position>
+        <Filename Value="winlibs.pas"/>
+        <Caret Line="194" Column="112" TopLine="175"/>
+      </Position>
+      <Position>
+        <Filename Value="winlibs.pas"/>
+        <Caret Line="407" TopLine="381"/>
+      </Position>
+      <Position>
+        <Filename Value="WinLibs.pas"/>
+        <Caret Line="9" Column="13"/>
+      </Position>
+      <Position>
+        <Filename Value="WinLibs.pas"/>
+        <Caret Line="387" Column="14" TopLine="380"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="6" Column="10"/>
+      </Position>
+      <Position>
+        <Filename Value="liblist.lpr"/>
+        <Caret Line="87" Column="67" TopLine="63"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

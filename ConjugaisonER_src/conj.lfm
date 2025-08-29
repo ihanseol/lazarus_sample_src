@@ -1,0 +1,860 @@
+object fConj: TfConj
+  Left = 23
+  Height = 779
+  Top = 6
+  Width = 1496
+  BorderIcons = [biSystemMenu]
+  Caption = 'Conjugaison des verbes en -er'
+  ClientHeight = 779
+  ClientWidth = 1496
+  Color = clWindow
+  DesignTimePPI = 120
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object laInfinitif: TLabel
+    Left = 16
+    Height = 20
+    Top = 64
+    Width = 100
+    Caption = 'Infinitif présent'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edInfinitif: TEdit
+    Left = 16
+    Height = 28
+    Top = 96
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 47
+  end
+  object laParticipe: TLabel
+    Left = 320
+    Height = 20
+    Top = 64
+    Width = 110
+    Caption = 'Participe présent'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edParticipe: TEdit
+    Left = 320
+    Height = 28
+    Top = 96
+    Width = 150
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 1
+  end
+  object laImperatif: TLabel
+    Left = 616
+    Height = 20
+    Top = 64
+    Width = 114
+    Caption = 'Impératif présent'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edImperatif12: TEdit
+    Left = 616
+    Height = 28
+    Top = 96
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object edImperatif21: TEdit
+    Left = 912
+    Height = 28
+    Top = 96
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object edImperatif22: TEdit
+    Left = 1208
+    Height = 28
+    Top = 96
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object laIndPres: TLabel
+    Left = 16
+    Height = 20
+    Top = 176
+    Width = 48
+    Caption = 'Présent'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIndPres11: TEdit
+    Left = 16
+    Height = 28
+    Top = 208
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object edIndPres12: TEdit
+    Left = 16
+    Height = 28
+    Top = 248
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 18
+  end
+  object edIndPres13: TEdit
+    Left = 16
+    Height = 28
+    Top = 288
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 19
+  end
+  object edIndPres21: TEdit
+    Left = 16
+    Height = 28
+    Top = 328
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 20
+  end
+  object edIndPres22: TEdit
+    Left = 16
+    Height = 28
+    Top = 368
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 21
+  end
+  object edIndPres23: TEdit
+    Left = 16
+    Height = 28
+    Top = 408
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 42
+  end
+  object laIndImpf: TLabel
+    Left = 320
+    Height = 20
+    Top = 176
+    Width = 61
+    Caption = 'Imparfait'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIndImpf11: TEdit
+    Left = 320
+    Height = 28
+    Top = 208
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 22
+  end
+  object edIndImpf12: TEdit
+    Left = 320
+    Height = 28
+    Top = 248
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 23
+  end
+  object edIndImpf13: TEdit
+    Left = 320
+    Height = 28
+    Top = 288
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 43
+  end
+  object edIndImpf21: TEdit
+    Left = 320
+    Height = 28
+    Top = 328
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 44
+  end
+  object edIndImpf22: TEdit
+    Left = 320
+    Height = 28
+    Top = 368
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 45
+  end
+  object edIndImpf23: TEdit
+    Left = 320
+    Height = 28
+    Top = 408
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 46
+  end
+  object laIndPass: TLabel
+    Left = 616
+    Height = 20
+    Top = 176
+    Width = 83
+    Caption = 'Passé simple'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIndPass11: TEdit
+    Left = 616
+    Height = 28
+    Top = 208
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 36
+  end
+  object edIndPass12: TEdit
+    Left = 616
+    Height = 28
+    Top = 248
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 37
+  end
+  object edIndPass13: TEdit
+    Left = 616
+    Height = 28
+    Top = 288
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 38
+  end
+  object edIndPass21: TEdit
+    Left = 616
+    Height = 28
+    Top = 328
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 39
+  end
+  object edIndPass22: TEdit
+    Left = 616
+    Height = 28
+    Top = 368
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 40
+  end
+  object edIndPass23: TEdit
+    Left = 616
+    Height = 28
+    Top = 408
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 41
+  end
+  object laIndFut: TLabel
+    Left = 912
+    Height = 20
+    Top = 176
+    Width = 81
+    Caption = 'Futur simple'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIndFut11: TEdit
+    Left = 912
+    Height = 28
+    Top = 208
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 24
+  end
+  object edIndFut12: TEdit
+    Left = 912
+    Height = 28
+    Top = 248
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 25
+  end
+  object edIndFut13: TEdit
+    Left = 912
+    Height = 28
+    Top = 288
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 26
+  end
+  object edIndFut21: TEdit
+    Left = 912
+    Height = 28
+    Top = 328
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 27
+  end
+  object edIndFut22: TEdit
+    Left = 912
+    Height = 28
+    Top = 368
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 28
+  end
+  object edIndFut23: TEdit
+    Left = 912
+    Height = 28
+    Top = 408
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 29
+  end
+  object laIndCond: TLabel
+    Left = 1208
+    Height = 20
+    Top = 176
+    Width = 85
+    Caption = 'Conditionnel'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIndCond11: TEdit
+    Left = 1208
+    Height = 28
+    Top = 208
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 30
+  end
+  object edIndCond12: TEdit
+    Left = 1208
+    Height = 28
+    Top = 248
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 31
+  end
+  object edIndCond13: TEdit
+    Left = 1208
+    Height = 28
+    Top = 288
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 32
+  end
+  object edIndCond21: TEdit
+    Left = 1208
+    Height = 28
+    Top = 328
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 33
+  end
+  object edIndCond22: TEdit
+    Left = 1208
+    Height = 28
+    Top = 368
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 34
+  end
+  object edIndCond23: TEdit
+    Left = 1208
+    Height = 28
+    Top = 408
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 35
+  end
+  object Label5: TLabel
+    Left = 16
+    Height = 20
+    Top = 144
+    Width = 54
+    Caption = 'Indicatif'
+    Font.Height = -15
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laSubjPres: TLabel
+    Left = 16
+    Height = 20
+    Top = 488
+    Width = 48
+    Caption = 'Présent'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSubjPres11: TEdit
+    Left = 16
+    Height = 28
+    Top = 520
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object edSubjPres12: TEdit
+    Left = 16
+    Height = 28
+    Top = 560
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object edSubjPres13: TEdit
+    Left = 16
+    Height = 28
+    Top = 600
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object edSubjPres21: TEdit
+    Left = 16
+    Height = 28
+    Top = 640
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object edSubjPres22: TEdit
+    Left = 16
+    Height = 28
+    Top = 680
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object edSubjPres23: TEdit
+    Left = 16
+    Height = 28
+    Top = 720
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object laSubjImpf: TLabel
+    Left = 320
+    Height = 20
+    Top = 488
+    Width = 61
+    Caption = 'Imparfait'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSubjImpf11: TEdit
+    Left = 320
+    Height = 28
+    Top = 520
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object edSubjImpf12: TEdit
+    Left = 320
+    Height = 28
+    Top = 560
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object edSubjImpf13: TEdit
+    Left = 320
+    Height = 28
+    Top = 600
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object edSubjImpf21: TEdit
+    Left = 320
+    Height = 28
+    Top = 640
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 15
+  end
+  object edSubjImpf22: TEdit
+    Left = 320
+    Height = 28
+    Top = 680
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 16
+  end
+  object edSubjImpf23: TEdit
+    Left = 320
+    Height = 28
+    Top = 720
+    Width = 272
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 17
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 20
+    Top = 456
+    Width = 67
+    Caption = 'Subjonctif'
+    Font.Height = -15
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btClose: TButton
+    Left = 1276
+    Height = 31
+    Top = 736
+    Width = 136
+    Caption = 'Fermer'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+  object stTitle: TStaticText
+    Left = 56
+    Height = 29
+    Top = 16
+    Width = 1385
+    Alignment = taCenter
+    Caption = 'Conjugaison'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 48
+  end
+  object Label1: TLabel
+    Left = 690
+    Height = 20
+    Top = 488
+    Width = 124
+    Caption = 'Choisissez la voix:'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btActif: TButton
+    Left = 671
+    Height = 28
+    Top = 520
+    Width = 162
+    Caption = 'Voix active'
+    Font.Color = clBlue
+    Font.Style = [fsBold]
+    OnClick = btActifClick
+    ParentFont = False
+    TabOrder = 49
+  end
+  object btPassif: TButton
+    Left = 671
+    Height = 28
+    Top = 560
+    Width = 162
+    Caption = 'Voix passive'
+    OnClick = btPassifClick
+    TabOrder = 50
+  end
+  object btPronominal: TButton
+    Left = 671
+    Height = 28
+    Top = 600
+    Width = 162
+    Caption = 'Voix pronominale'
+    OnClick = btPronominalClick
+    ParentFont = False
+    TabOrder = 51
+  end
+  object Label2: TLabel
+    Left = 979
+    Height = 20
+    Hint = 'La forme du verbe n''est pas implémentée dans cette version!'
+    Top = 488
+    Width = 138
+    Caption = 'Choisissez la forme:'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object btAffirmatif: TButton
+    Left = 967
+    Height = 28
+    Top = 520
+    Width = 162
+    Caption = 'Forme affirmative'
+    Enabled = False
+    Font.Color = clBlue
+    Font.Style = [fsBold]
+    OnClick = btAffirmatifClick
+    ParentFont = False
+    TabOrder = 52
+  end
+  object btNegatif: TButton
+    Left = 967
+    Height = 28
+    Top = 560
+    Width = 162
+    Caption = 'Forme négative'
+    Enabled = False
+    OnClick = btNegatifClick
+    TabOrder = 53
+  end
+  object btInterrogatif: TButton
+    Left = 967
+    Height = 28
+    Top = 600
+    Width = 162
+    Caption = 'Forme interrogative'
+    Enabled = False
+    OnClick = btInterrogatifClick
+    TabOrder = 54
+  end
+  object btIntNegatif: TButton
+    Left = 967
+    Height = 28
+    Top = 640
+    Width = 162
+    Caption = 'Forme int-négative'
+    Enabled = False
+    OnClick = btIntNegatifClick
+    ParentFont = False
+    TabOrder = 55
+  end
+  object Label3: TLabel
+    Left = 1271
+    Height = 20
+    Top = 488
+    Width = 146
+    Caption = 'Choisissez les temps:'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btTSimples: TButton
+    Left = 1263
+    Height = 28
+    Top = 520
+    Width = 162
+    Caption = 'Temps simples'
+    Font.Color = clBlue
+    Font.Style = [fsBold]
+    OnClick = btTSimplesClick
+    ParentFont = False
+    TabOrder = 56
+  end
+  object btTComposes: TButton
+    Left = 1263
+    Height = 28
+    Top = 560
+    Width = 162
+    Caption = 'Temps composés'
+    OnClick = btTComposesClick
+    TabOrder = 57
+  end
+  object Label4: TLabel
+    Left = 1279
+    Height = 20
+    Top = 608
+    Width = 131
+    Caption = 'Choisissez le genre'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btMasculin: TButton
+    Left = 1263
+    Height = 28
+    Top = 640
+    Width = 162
+    Caption = 'Masculin'
+    Font.Color = clBlue
+    Font.Style = [fsBold]
+    OnClick = btMasculinClick
+    ParentFont = False
+    TabOrder = 58
+  end
+  object btFeminin: TButton
+    Left = 1263
+    Height = 28
+    Top = 680
+    Width = 162
+    Caption = 'Féminin'
+    OnClick = btFemininClick
+    TabOrder = 59
+  end
+  object laParticipePasse: TLabel
+    Left = 492
+    Height = 20
+    Top = 64
+    Width = 98
+    Caption = 'Participe passé'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edParticipePasse: TEdit
+    Left = 492
+    Height = 28
+    Top = 96
+    Width = 100
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 60
+  end
+end

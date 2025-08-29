@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="Raubtierquiz.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="40"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="rquiz.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fRQ"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="209"/>
+        <CursorPos X="14" Y="223"/>
+        <UsageCount Value="40"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="rqinit.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="28" HistoryIndex="27">
+      <Position1>
+        <Filename Value="rquiz.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="439" TopLine="420"/>
+      </Position2>
+      <Position3>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="12" Column="93"/>
+      </Position3>
+      <Position4>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="189" Column="15" TopLine="167"/>
+      </Position4>
+      <Position5>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="69" TopLine="44"/>
+      </Position5>
+      <Position6>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="350" Column="12" TopLine="327"/>
+      </Position6>
+      <Position7>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="96" Column="25" TopLine="82"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Raubtierquiz.lpr"/>
+        <Caret Line="3" Column="23"/>
+      </Position8>
+      <Position9>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="15" Column="11"/>
+      </Position9>
+      <Position10>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="93" Column="58" TopLine="72"/>
+      </Position10>
+      <Position11>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="112" Column="26" TopLine="85"/>
+      </Position11>
+      <Position12>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="575" Column="50" TopLine="548"/>
+      </Position12>
+      <Position13>
+        <Filename Value="rquiz.pas"/>
+      </Position13>
+      <Position14>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="471" Column="48" TopLine="457"/>
+      </Position14>
+      <Position15>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="556" Column="43" TopLine="543"/>
+      </Position15>
+      <Position16>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="116" Column="84" TopLine="102"/>
+      </Position16>
+      <Position17>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="100" Column="52" TopLine="81"/>
+      </Position17>
+      <Position18>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="18" Column="25" TopLine="14"/>
+      </Position18>
+      <Position19>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="582" TopLine="555"/>
+      </Position19>
+      <Position20>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="418" Column="34" TopLine="403"/>
+      </Position20>
+      <Position21>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="149" Column="7" TopLine="142"/>
+      </Position21>
+      <Position22>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="140" Column="26" TopLine="140"/>
+      </Position22>
+      <Position23>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="139" TopLine="139"/>
+      </Position23>
+      <Position24>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="416" Column="21" TopLine="412"/>
+      </Position24>
+      <Position25>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="563" TopLine="536"/>
+      </Position25>
+      <Position26>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="10" Column="17"/>
+      </Position26>
+      <Position27>
+        <Filename Value="rquiz.pas"/>
+        <Caret Line="224" Column="115" TopLine="207"/>
+      </Position27>
+      <Position28>
+        <Filename Value="rquiz.pas"/>
+      </Position28>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

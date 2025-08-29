@@ -1,0 +1,167 @@
+achromia
+acupuncture
+allopathic
+ambulatory
+antiarrhythmic
+antibacterial
+antibiotic
+anticholinergic
+anticoagulant
+anticonvulsant
+antidiabetic
+antidiarrheal
+antidiuretic
+antihypertensive
+anti inflammatory
+antiprotozoal
+antipyretic
+antispasmodic
+antitussive
+aspirin
+atropine
+auscultation
+biopsy
+blood test
+blood transfusion
+calcium blocker
+cardiac
+cardiogram
+cardiologist
+cardiothoracic
+cardiovascular
+chiropractic
+chronic
+clinical
+colorectal
+convalescence
+cosmetic surgery
+counterirritant
+cytology
+decongestant
+dentistry
+dermatologist
+diabetic
+diagnose
+dietitian
+doctors
+drug cocktail
+drug therapy
+electrocardiogram
+emergency medicine
+emergency physician
+endoscopy
+forensic medicine
+forensic pathology
+gastroenterologist
+general practitioner
+general surgery
+genetic disorder
+geriatric
+gynecology
+health care
+health insurance
+healthy
+hematinic
+hippocrates
+hippocratic oath
+histamine blocker
+hospital
+human anatomy
+human genetics
+illness
+immunology
+immunosuppressant
+infectious
+inoculation
+inspection
+intensive care
+internist
+laboratory
+lifesaving
+maxillofacial
+medical diagnosis
+medical genetics
+medical imaging
+medical intern
+medical laboratory
+medical signs
+medical test
+medicament
+medicine cabinet
+molecular biology
+musculoskeletal
+nanomedicine
+neonatology
+nephrologist
+neurologist
+neurology
+neuropsychiatry
+neurosurgery
+neurotropic
+neurovascular
+nuclear medicine
+nurses
+nutrition
+obstetrician
+occupational therapy
+oncologist
+operative
+ophthalmology
+organ transplant
+orthodontic
+osteopathic
+palliative
+palpation
+paramedical
+parenteral
+paroxysm
+pathologist
+patients
+pediatric
+percussion
+pharmaceutic
+pharmacology
+pharmacy
+physical examination
+physical therapy
+physiotherapists
+placebo
+plastic surgery
+polychrest
+prescription drug
+preventive care
+psychiatrist
+psychotherapy
+pulmonary
+pulmonology
+radiotherapy
+rehabilitation
+remedy
+research
+respiratory
+rheumatology
+side effect
+smallpox vaccine
+spinal
+stethoscope
+suppository
+surgery
+surgical suture
+symptoms
+syringe
+therapeutic
+traditional medicine
+transplant
+trauma
+treatment
+tuberculosis
+uremia
+urinalysis
+urologic
+vaccine
+vascular surgery
+venesect
+vermicide
+veterinarian
+veterinary medicine
+virologist

@@ -1,0 +1,116 @@
+object fHelp: TfHelp
+  Left = 159
+  Height = 581
+  Top = 124
+  Width = 1209
+  BorderIcons = [biSystemMenu]
+  Caption = 'Morse2 Help'
+  ClientHeight = 581
+  ClientWidth = 1209
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object Memo1: TMemo
+    Left = 10
+    Height = 521
+    Top = 10
+    Width = 1188
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"Morse2" is an application, offering two functionalities related to the morse code aplpahbet:'
+      ''
+      '  1. Converting text to morse code and vice-versa.'
+      '  2. A morse code character knowledge test.'
+      ''
+      'The output of the morse code is done as displayed dots and dashes, as well as as audio beeps.'
+      ''
+      'Menu item "File".'
+      '================='
+      ''
+      'Text conversion.'
+      '----------------'
+      ''
+      'Convert a (multi-line) text to morse code. The text is entered in the left window; push the "Convert" button to display the morse code in the right window. You now can push the "Play" button for audio output.'
+      ''
+      'Instead of entering the text manually, you may get it from a text file by using the "Load" button. The "Save" button allows to create files of both the text (.txt file) and the morse code (.mrs file).'
+      ''
+      'Morse code conversion.'
+      '----------------------'
+      ''
+      'Convert (multi-line) morse code to text. The morse code is entered in the left window; push the "Convert" button to display the text in the right window. The "Play" button outputs the morse code as audio.'
+      ''
+      'To enter the morse code, use the following format:'
+      '  - use a dot (.) as dot (short signal), a hyphen (-) as dash (long signal).'
+      '  - separate the morse characters of a word by 1 space.'
+      '  - separate words by a slash (/) + a space.'
+      'A line break in the text gives also a line break in the morse code; the word ending separator at the end of a line may be omitted.'
+      ''
+      'Similar to text conversion, you may get the morse code from a file, using the "Load" button and save both the text and the morse code, using "Save".'
+      ''
+      'Character to morse code.'
+      '------------------------'
+      ''
+      'Character to morse code knowledge test. Push "Start"/"Next" to display a random character (from letters, numbers and punctuation marks, as selected), enter the morse code character and push "Answer". The evaluation counters are updated after each question. When "Repeat false chars" is checked, the characters, you didn''t know, remain in the list of those being asked.'
+      ''
+      'The "Display" and "Audio" checkboxes aren''t really useful with this kind of test: The character will (of course) always be displayed; if "Audio" is checked, the (correct) morse code character is beeped after you entered an answer.'
+      ''
+      'Morse code to character.'
+      '------------------------'
+      ''
+      'Morse code to character knowledge test. Push "Start"/"Next" to display/play a random morse code character (from letters, numbers and punctuation marks, as selected), enter the text character and push "Answer". Evaluation and "Repeat false chars" work the same way as with the "Character to morse code" test.'
+      ''
+      'With this kind of knowledge test, the "Display" and "Audio" checkboxes get all their interest: The morse code to convert may be given as displayed dots and dashes or as audio beeps (or both); this allows in particuar, to test your knowledge based upon the audio signal only.'
+      ''
+      'Exit.'
+      '-----'
+      ''
+      'Exit the application.'
+      ''
+      'Menu item "Settings".'
+      '---------------------'
+      ''
+      'Selections done here affect the morse code audio output.'
+      ''
+      'Longer dash duration and Longer word separator.'
+      '-----------------------------------------------'
+      ''
+      'The duration of morse signals, as well as the duration of the different pauses have standard lengths, the base unit being the duration of a dot. Thus:'
+      '  - dash duration = 3 x dot duration.'
+      '  - pause between the components of a morse characters = 1 dot duration.'
+      '  - pause between two charcters = 3 dot durations (1 dash duration).'
+      '  - pause between two words = 7 dot durations.'
+      ''
+      'In order to make the different lengths easier to distinguish, the application offers 2 possiple options:'
+      ''
+      '  - Longer dash duration: set the duration of a dash to 4 x dot duratuon (also lengthens the pause between 2 characters to 4 x dot duration).'
+      '  - Longer word separation: set the pause between 2 words to 10 x dot duration.'
+      ''
+      'Menu item "Help".'
+      '-----------------'
+      ''
+      'Help.'
+      '-----'
+      ''
+      'Display help text, how to use the application (this document).'
+      ''
+      'About.'
+      '------'
+      ''
+      'Display information about the application''s version number, author and date-written.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 1104
+    Height = 31
+    Top = 544
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+end

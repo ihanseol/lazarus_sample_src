@@ -1,0 +1,345 @@
+object fAtoms: TfAtoms
+  Left = 37
+  Height = 751
+  Top = 25
+  Width = 1057
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Atomic Structure'
+  ClientHeight = 726
+  ClientWidth = 1057
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object imGraph: TImage
+    Left = 16
+    Height = 700
+    Top = 16
+    Width = 700
+  end
+  object cobElements: TComboBox
+    Left = 752
+    Height = 28
+    Top = 48
+    Width = 289
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ItemHeight = 20
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 3
+    TabStop = False
+  end
+  object Label1: TLabel
+    Left = 752
+    Height = 23
+    Top = 16
+    Width = 66
+    Caption = 'Element:'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 752
+    Height = 23
+    Top = 88
+    Width = 103
+    Caption = 'Mass number'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIsotopeMass: TEdit
+    Left = 752
+    Height = 31
+    Top = 144
+    Width = 75
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 966
+    Height = 23
+    Top = 88
+    Width = 55
+    Caption = 'Charge'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIonCharge: TEdit
+    Left = 966
+    Height = 31
+    Top = 144
+    Width = 75
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Left = 752
+    Height = 23
+    Top = 280
+    Width = 140
+    Caption = 'Atomic structure:'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 752
+    Height = 23
+    Top = 312
+    Width = 73
+    Caption = 'Electrons:'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edElectrons: TEdit
+    Left = 752
+    Height = 31
+    Top = 344
+    Width = 75
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object Label6: TLabel
+    Left = 752
+    Height = 23
+    Top = 384
+    Width = 63
+    Caption = 'Protons:'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edProtons: TEdit
+    Left = 752
+    Height = 31
+    Top = 416
+    Width = 75
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object Label7: TLabel
+    Left = 966
+    Height = 23
+    Top = 384
+    Width = 75
+    Caption = 'Neutrons:'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edNeutrons: TEdit
+    Left = 966
+    Height = 31
+    Top = 416
+    Width = 75
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object Label9: TLabel
+    Left = 752
+    Height = 23
+    Top = 192
+    Width = 14
+    Caption = 'Z:'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edAtomicNumber: TEdit
+    Left = 752
+    Height = 31
+    Top = 224
+    Width = 75
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object Label10: TLabel
+    Left = 966
+    Height = 23
+    Top = 192
+    Width = 15
+    Caption = 'A:'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edMassNumber: TEdit
+    Left = 966
+    Height = 31
+    Top = 224
+    Width = 75
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object btDraw: TButton
+    Left = 966
+    Height = 31
+    Top = 685
+    Width = 75
+    Caption = 'Draw'
+    OnClick = btDrawClick
+    TabOrder = 0
+  end
+  object Label8: TLabel
+    Left = 752
+    Height = 23
+    Top = 112
+    Width = 103
+    Caption = '(for isotopes):'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 966
+    Height = 23
+    Top = 112
+    Width = 71
+    Caption = '(for ions):'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object btClear: TButton
+    Left = 752
+    Height = 31
+    Top = 685
+    Width = 75
+    Caption = 'Clear'
+    OnClick = btClearClick
+    TabOrder = 9
+  end
+  object sgShells: TStringGrid
+    Left = 752
+    Height = 204
+    Top = 464
+    Width = 289
+    ColCount = 3
+    FixedCols = 0
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 8
+    TabOrder = 10
+    TitleFont.Height = -15
+    TitleFont.Name = 'Consolas'
+    ColWidths = (
+      49
+      85
+      151
+    )
+    Cells = (
+      10
+      0
+      0
+      'Shell'
+      0
+      1
+      '  1'
+      0
+      2
+      '  2'
+      0
+      3
+      '  3'
+      0
+      4
+      '  4'
+      0
+      5
+      '  5'
+      0
+      6
+      '  6'
+      0
+      7
+      '  7'
+      1
+      0
+      'Electrons'
+      2
+      0
+      ' Subshells'
+    )
+  end
+  object mMenu: TMainMenu
+    left = 32
+    top = 32
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsSort: TMenuItem
+        Caption = 'Elements sort'
+        object mSettingsSort1: TMenuItem
+          Caption = 'by atomic number'
+          Checked = True
+          OnClick = mSettingsSort1Click
+        end
+        object mSettingsSort2: TMenuItem
+          Caption = 'by element symbol'
+          OnClick = mSettingsSort2Click
+        end
+        object mSettingsSort3: TMenuItem
+          Caption = 'by element name'
+          OnClick = mSettingsSort3Click
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpChemistry: TMenuItem
+        Caption = 'Chemistry help'
+        OnClick = mHelpChemistryClick
+      end
+      object mHelpProgram: TMenuItem
+        Caption = 'Program help'
+        OnClick = mHelpProgramClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

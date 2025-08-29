@@ -1,0 +1,170 @@
+object fArith5: TfArith5
+  Left = 238
+  Height = 373
+  Top = 149
+  Width = 528
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Arithmetic Trainer'
+  ClientHeight = 348
+  ClientWidth = 528
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object StaticText1: TStaticText
+    Left = 9
+    Height = 25
+    Top = 16
+    Width = 418
+    Caption = 'Basic arithmetic operations with percentages.'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object btStart: TButton
+    Left = 445
+    Height = 31
+    Top = 264
+    Width = 75
+    Caption = 'Start'
+    Font.Height = -17
+    OnClick = btStartClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object btSolve: TButton
+    Left = 445
+    Height = 31
+    Top = 216
+    Width = 75
+    Caption = 'Solve'
+    Enabled = False
+    Font.Height = -17
+    OnClick = btSolveClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object btReset: TButton
+    Left = 316
+    Height = 31
+    Top = 312
+    Width = 100
+    Caption = 'Eval/Reset'
+    Enabled = False
+    Font.Height = -17
+    OnClick = btResetClick
+    ParentFont = False
+    TabOrder = 7
+    TabStop = False
+  end
+  object edQuestion: TEdit
+    Left = 9
+    Height = 31
+    Top = 216
+    Width = 302
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object edAnswer: TEdit
+    Left = 343
+    Height = 31
+    Top = 216
+    Width = 73
+    Alignment = taRightJustify
+    Font.Height = -17
+    MaxLength = 7
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edEvaluation: TEdit
+    Left = 9
+    Height = 31
+    Top = 264
+    Width = 407
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object edDescription: TMemo
+    Left = 9
+    Height = 81
+    Top = 88
+    Width = 511
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 5
+    TabStop = False
+  end
+  object laTest: TLabel
+    Left = 9
+    Height = 23
+    Top = 48
+    Width = 176
+    Caption = 'Percentage calculation.'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laQuestion: TLabel
+    Left = 9
+    Height = 23
+    Top = 184
+    Width = 69
+    Caption = 'Question'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object mMenu: TMainMenu
+    left = 472
+    top = 8
+    object mTest: TMenuItem
+      Caption = 'Test'
+      object mTestCalc: TMenuItem
+        Caption = 'Percentage calculation'
+        OnClick = mTestCalcClick
+      end
+      object mTestOperation: TMenuItem
+        Caption = 'Percentage operations'
+        OnClick = mTestOperationClick
+      end
+      object mTestConversion: TMenuItem
+        Caption = 'Percentage conversion'
+        OnClick = mTestConversionClick
+      end
+      object mTestExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mTestExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsNumbers: TMenuItem
+        Caption = 'Limit numbers to 100'
+        OnClick = mSettingsNumbersClick
+      end
+      object mSettingsPercent: TMenuItem
+        Caption = 'Limit percentages to 100'
+        OnClick = mSettingsPercentClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

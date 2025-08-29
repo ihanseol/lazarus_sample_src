@@ -1,0 +1,8 @@
+There are several sets of rules for the Skyscrapers number puzzle, that exists in different variations. The rules used in the "Skyscrapers" PC application are those most commonly used.
+
+ 1. The grid fields contain skygrapers, represented by a number, that indicates there relative height.
+ 2. In each grid row and each grid column, a given height must occure exactly once.
+ 3. The numbers at the borders indicate, how many skygrapers you can see, if you look from this point into a row or column.
+ 4. A skygraper is only then visible, if all buildings in front of it are less in height.
+
+Common rule extensions (not implemented in "Skyscrapers v1.0") are that the heights must also be unique in diagonal lines and that there may be fields with 0 (representing a park between the buildings).

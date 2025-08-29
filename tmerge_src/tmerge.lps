@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="tmerge.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="176"/>
+        <CursorPos Y="198"/>
+        <UsageCount Value="49"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="336" Column="26" TopLine="269"/>
+      </Position1>
+      <Position2>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="329" Column="37" TopLine="316"/>
+      </Position2>
+      <Position3>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="336" Column="26" TopLine="323"/>
+      </Position3>
+      <Position4>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="337" Column="28" TopLine="324"/>
+      </Position4>
+      <Position5>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="377" Column="26" TopLine="364"/>
+      </Position5>
+      <Position6>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="403" Column="13" TopLine="390"/>
+      </Position6>
+      <Position7>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="437" TopLine="411"/>
+      </Position7>
+      <Position8>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="10" Column="58" TopLine="3"/>
+      </Position8>
+      <Position9>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="445" TopLine="419"/>
+      </Position9>
+      <Position10>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="443" Column="21" TopLine="419"/>
+      </Position10>
+      <Position11>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="387" Column="9" TopLine="376"/>
+      </Position11>
+      <Position12>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="39" Column="45" TopLine="23"/>
+      </Position12>
+      <Position13>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="438" Column="22" TopLine="419"/>
+      </Position13>
+      <Position14>
+        <Filename Value="tmerge.pas"/>
+      </Position14>
+      <Position15>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="214" Column="21" TopLine="208"/>
+      </Position15>
+      <Position16>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="43" Column="38" TopLine="27"/>
+      </Position16>
+      <Position17>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="445" TopLine="419"/>
+      </Position17>
+      <Position18>
+        <Filename Value="tmerge.pas"/>
+      </Position18>
+      <Position19>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="7" Column="28"/>
+      </Position19>
+      <Position20>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="22" Column="8"/>
+      </Position20>
+      <Position21>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="26" Column="29" TopLine="4"/>
+      </Position21>
+      <Position22>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="52" Column="18" TopLine="30"/>
+      </Position22>
+      <Position23>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="440" Column="28" TopLine="418"/>
+      </Position23>
+      <Position24>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="14" Column="11"/>
+      </Position24>
+      <Position25>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="445" Column="11" TopLine="419"/>
+      </Position25>
+      <Position26>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="17" Column="37"/>
+      </Position26>
+      <Position27>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="443" Column="7" TopLine="419"/>
+      </Position27>
+      <Position28>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="112" Column="29" TopLine="94"/>
+      </Position28>
+      <Position29>
+        <Filename Value="tmerge.pas"/>
+        <Caret Line="194" Column="80" TopLine="177"/>
+      </Position29>
+      <Position30>
+        <Filename Value="tmerge.pas"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

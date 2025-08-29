@@ -1,0 +1,346 @@
+object WGuessForm: TWGuessForm
+  Left = 299
+  Height = 531
+  Top = 131
+  Width = 451
+  Caption = 'WGuess "Guess the word"'
+  ClientHeight = 506
+  ClientWidth = 451
+  DesignTimePPI = 120
+  KeyPreview = True
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  OnUTF8KeyPress = FormUTF8KeyPress
+  LCLVersion = '1.8.2.0'
+  object Label1: TLabel
+    Left = 16
+    Height = 17
+    Top = 56
+    Width = 57
+    Caption = 'Language'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Language1: TRadioButton
+    Left = 16
+    Height = 23
+    Top = 88
+    Width = 69
+    Caption = ' English'
+    Font.Height = -13
+    OnChange = Language1Change
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Language2: TRadioButton
+    Left = 118
+    Height = 23
+    Top = 88
+    Width = 66
+    Caption = ' French'
+    Font.Height = -13
+    OnChange = Language2Change
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Language3: TRadioButton
+    Left = 216
+    Height = 23
+    Top = 88
+    Width = 74
+    Caption = ' German'
+    Font.Height = -13
+    OnChange = Language3Change
+    ParentFont = False
+    TabOrder = 1
+  end
+  object StaticText1: TStaticText
+    Left = 16
+    Height = 24
+    Top = 24
+    Width = 115
+    Caption = 'Game options:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 17
+    Top = 136
+    Width = 77
+    Caption = 'Word classes'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object WordClass1: TCheckBox
+    Left = 16
+    Height = 23
+    Top = 168
+    Width = 66
+    Caption = ' Nouns'
+    Checked = True
+    Font.Height = -13
+    OnChange = WordClass1Change
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 3
+    TabStop = False
+  end
+  object WordClass2: TCheckBox
+    Left = 118
+    Height = 23
+    Top = 168
+    Width = 62
+    Caption = ' Verbs'
+    Font.Height = -13
+    OnChange = WordClass2Change
+    ParentFont = False
+    TabOrder = 4
+    TabStop = False
+  end
+  object WordClass3: TCheckBox
+    Left = 216
+    Height = 23
+    Top = 168
+    Width = 86
+    Caption = ' Adjectives'
+    Font.Height = -13
+    OnChange = WordClass3Change
+    ParentFont = False
+    TabOrder = 5
+    TabStop = False
+  end
+  object Language4: TRadioButton
+    Left = 320
+    Height = 23
+    Top = 88
+    Width = 117
+    Caption = ' Luxembourgish'
+    Checked = True
+    Font.Height = -13
+    OnChange = Language4Change
+    ParentFont = False
+    TabOrder = 6
+    TabStop = True
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 17
+    Top = 216
+    Width = 72
+    Caption = 'Word length'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 16
+    Height = 17
+    Top = 252
+    Width = 54
+    Caption = 'Minimum'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object WordLengthMin: TEdit
+    Left = 88
+    Height = 25
+    Top = 248
+    Width = 32
+    Alignment = taRightJustify
+    Font.Height = -13
+    MaxLength = 2
+    NumbersOnly = True
+    OnEditingDone = WordLengthMinEditingDone
+    ParentFont = False
+    TabStop = False
+    TabOrder = 8
+    Text = '0'
+  end
+  object Label5: TLabel
+    Left = 144
+    Height = 17
+    Top = 252
+    Width = 57
+    Caption = 'Maximum'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object WordLengthMax: TEdit
+    Left = 216
+    Height = 25
+    Top = 248
+    Width = 32
+    Alignment = taRightJustify
+    Font.Height = -13
+    MaxLength = 2
+    NumbersOnly = True
+    OnEditingDone = WordLengthMaxEditingDone
+    ParentFont = False
+    TabStop = False
+    TabOrder = 9
+    Text = '0'
+  end
+  object LabelWord: TLabel
+    Left = 16
+    Height = 17
+    Top = 296
+    Width = 89
+    Caption = 'Word to guess:'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object WordToGuess: TEdit
+    Left = 16
+    Height = 25
+    Top = 328
+    Width = 232
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+    Text = ' '
+  end
+  object ButtonStart: TButton
+    Left = 16
+    Height = 25
+    Top = 464
+    Width = 75
+    Caption = 'Start'
+    OnClick = ButtonStartClick
+    TabOrder = 11
+  end
+  object Label7: TLabel
+    Left = 16
+    Height = 17
+    Top = 376
+    Width = 91
+    Caption = 'Letters entered:'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Letters: TEdit
+    Left = 16
+    Height = 25
+    Top = 408
+    Width = 368
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object Label8: TLabel
+    Left = 320
+    Height = 17
+    Top = 296
+    Width = 55
+    Caption = 'Attempts:'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Attempts: TEdit
+    Left = 320
+    Height = 25
+    Top = 328
+    Width = 64
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object ButtonSolve: TButton
+    Left = 144
+    Height = 25
+    Top = 464
+    Width = 75
+    Caption = 'Solve'
+    Enabled = False
+    OnClick = ButtonSolveClick
+    TabOrder = 14
+  end
+  object MainMenu1: TMainMenu
+    left = 240
+    top = 8
+    object MenuGame: TMenuItem
+      Caption = 'Game'
+      object GameNew: TMenuItem
+        Caption = 'New'
+        OnClick = GameNewClick
+      end
+      object GameReset: TMenuItem
+        Caption = 'Reset'
+        OnClick = GameResetClick
+      end
+      object GameExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = GameExitClick
+      end
+    end
+    object MenuSettings: TMenuItem
+      Caption = 'Settings'
+      object SettingsLetters: TMenuItem
+        Caption = 'Show letters used'
+        Checked = True
+        OnClick = SettingsLettersClick
+      end
+      object SettingsFirst: TMenuItem
+        Caption = 'Show first letter'
+        OnClick = SettingsFirstClick
+      end
+      object SettingsAccents: TMenuItem
+        Caption = 'Accents/umlauts'
+        object AccentsEnable: TMenuItem
+          Caption = 'Enable'
+          Checked = True
+          OnClick = AccentsEnableClick
+        end
+        object AccentsDisable: TMenuItem
+          Caption = 'Disable'
+          OnClick = AccentsDisableClick
+        end
+        object AccentsTransform: TMenuItem
+          Caption = 'Transform'
+          OnClick = AccentsTransformClick
+        end
+      end
+    end
+    object MenuHelp: TMenuItem
+      Caption = 'Help'
+      object HelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = HelpHelpClick
+      end
+      object HelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = HelpAboutClick
+      end
+    end
+  end
+  object AboutNotifier: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Text = 'WGuess "Guess the word", version 1.0 (allu 2017)'
+    Title = 'About WGuess'
+    Visible = False
+    left = 368
+    top = 8
+  end
+end

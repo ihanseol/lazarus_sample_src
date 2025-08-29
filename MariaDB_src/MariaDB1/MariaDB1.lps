@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="MariaDB1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mariadb.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fMariaDB1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="68"/>
+        <CursorPos X="34" Y="77"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="17" HistoryIndex="16">
+      <Position1>
+        <Filename Value="MariaDB1.lpr"/>
+        <Caret Line="3" Column="34"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="105" TopLine="79"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mariadb.pas"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="12" Column="27"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="25" Column="30" TopLine="3"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="49" Column="13" TopLine="27"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="50" Column="12" TopLine="28"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="52" Column="10" TopLine="30"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="53" Column="93" TopLine="31"/>
+      </Position9>
+      <Position10>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="54" Column="10" TopLine="32"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="55" Column="10" TopLine="33"/>
+      </Position11>
+      <Position12>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="56" Column="10" TopLine="34"/>
+      </Position12>
+      <Position13>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="59" Column="12" TopLine="37"/>
+      </Position13>
+      <Position14>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="63" Column="44" TopLine="38"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="75" Column="13" TopLine="53"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="99" Column="13" TopLine="77"/>
+      </Position16>
+      <Position17>
+        <Filename Value="mariadb.pas"/>
+        <Caret Line="100" Column="12" TopLine="78"/>
+      </Position17>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

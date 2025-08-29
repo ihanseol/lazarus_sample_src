@@ -1,0 +1,13 @@
+Un circuit RC est un circuit électrique où se trouvent en série un générateur de tension E, une résistance R et un condensateur de capacité C. Lorsqu'on applique la tension, le condensateur se charge. Petit à petit, il se crée une différence de potentiel électrique entre ses armatures. Quand cette différence de potentiel est égale à celle aux bornes de la pile, le condensateur est chargé. Le courant ne circule plus dans le circuit.
+
+Une fois chargé, il conserve une charge électrique sur ses armatures même lorsqu'on le débranche, qu'on le met hors tension : il se comporte comme un réservoir de charges électriques. Si on relie les deux bornes d’un condensateur chargé par une résistance, il se décharge dans cette résistance, créant un courant électrique dans le sens inverse de celui lors de la charge. La différence de potentiel entre ses armatures diminue peu à peu, tout comme le courant. Quand la tension aux bornes du condensateur est égale à 0, il n'y a plus de courant dans le circuit.
+
+Le produit τ = R·C , indépendant de la tension appliquée, est appelé constante de temps du circuit RC. Le temps de demi-charge (égal au temps de demi décharge) t(E/2) = ln2·τ.  Lors de la charge, après t = τ, la tension entre ses bornes u(t) = 0,63·E. Pour t = 5τ, on a u(t) = 0,99·E; le condensateur étant quasiment chargé.
+
+Charge du condensateur:
+=======================
+Tension: u(t) = U0·[1 - exp(-t/τ)]; courant: i(t) = I0·exp(-t/τ)
+
+Décharge du condensateur:
+=========================
+Tension: u(t) = U0·exp(-t/τ); i(t) = -I0·exp(-t/τ)

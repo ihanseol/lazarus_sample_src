@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="regex3.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="15">
+      <Position>
+        <Filename Value="regex3.lpr"/>
+        <Caret Line="59" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="regex3.lpr"/>
+        <Caret Line="33" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="regex3.lpr"/>
+        <Caret Line="7" Column="19"/>
+      </Position>
+      <Position>
+        <Filename Value="regex3.lpr"/>
+        <Caret Line="20" Column="25" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="regex3.lpr"/>
+        <Caret Line="24" Column="11" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="regex3.lpr"/>
+        <Caret Line="42" Column="72" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="regex3.lpr"/>
+        <Caret Line="14" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="regex3.lpr"/>
+        <Caret Line="42" Column="43" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="regex3.lpr"/>
+        <Caret Line="40" Column="11" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="regex3.lpr"/>
+        <Caret Line="39" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="regex3.lpr"/>
+        <Caret Line="41" Column="23" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="regex3.lpr"/>
+        <Caret Line="8" Column="7"/>
+      </Position>
+      <Position>
+        <Filename Value="regex3.lpr"/>
+        <Caret Line="19" Column="17" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="regex3.lpr"/>
+        <Caret Line="6" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="regex3.lpr"/>
+      </Position>
+      <Position>
+        <Filename Value="regex3.lpr"/>
+        <Caret Line="36" Column="45" TopLine="28"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

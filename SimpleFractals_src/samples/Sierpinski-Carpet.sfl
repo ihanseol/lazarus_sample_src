@@ -1,0 +1,10 @@
+# Sierpinski-Carpet
+
+origin = (260,325)
+displacement = 6
+
+axiom = "4F"
+rules = { "F": "F+F-F-FF-F-F-GF",
+          "G": "GGG" }
+iterations = 4
+angle = 90

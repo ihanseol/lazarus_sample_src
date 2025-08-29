@@ -1,0 +1,434 @@
+object fAcidBase: TfAcidBase
+  Left = 15
+  Height = 425
+  Top = 172
+  Width = 1383
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Acid-base reactions'
+  ClientHeight = 400
+  ClientWidth = 1383
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object StaticText1: TStaticText
+    Left = 400
+    Height = 38
+    Top = 10
+    Width = 582
+    Alignment = taCenter
+    Caption = 'Mineral acid-base reaction exercises.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 12
+  end
+  object laQuestion: TLabel
+    Left = 10
+    Height = 23
+    Top = 72
+    Width = 74
+    Caption = 'Reaction:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 23
+    Top = 120
+    Width = 37
+    Caption = 'Acid:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 10
+    Height = 23
+    Top = 164
+    Width = 46
+    Caption = 'Name'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 10
+    Height = 23
+    Top = 204
+    Width = 62
+    Caption = 'Formula'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 10
+    Height = 23
+    Top = 244
+    Width = 32
+    Caption = 'Ions'
+    ParentColor = False
+  end
+  object edAcidName: TEdit
+    Left = 88
+    Height = 31
+    Hint = 'Acid name'
+    Top = 160
+    Width = 258
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+  end
+  object edAcidFormula: TEdit
+    Left = 88
+    Height = 31
+    Hint = 'Acid molecular formula'
+    Top = 200
+    Width = 258
+    OnEnter = edAcidFormulaEnter
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 2
+  end
+  object edAcidIons: TEdit
+    Left = 88
+    Height = 31
+    Hint = 'Acid ions, separated by comma'
+    Top = 240
+    Width = 258
+    OnEnter = edAcidIonsEnter
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
+  end
+  object Label5: TLabel
+    Left = 392
+    Height = 23
+    Top = 120
+    Width = 39
+    Caption = 'Base:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 392
+    Height = 23
+    Top = 164
+    Width = 46
+    Caption = 'Name'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 392
+    Height = 23
+    Top = 204
+    Width = 62
+    Caption = 'Formula'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 392
+    Height = 23
+    Top = 244
+    Width = 32
+    Caption = 'Ions'
+    ParentColor = False
+  end
+  object edBaseName: TEdit
+    Left = 470
+    Height = 31
+    Hint = 'Base name'
+    Top = 160
+    Width = 258
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 4
+  end
+  object edBaseFormula: TEdit
+    Left = 470
+    Height = 31
+    Hint = 'Base molecular formula'
+    Top = 200
+    Width = 258
+    OnEnter = edBaseFormulaEnter
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 5
+  end
+  object edBaseIons: TEdit
+    Left = 470
+    Height = 31
+    Hint = 'Base ions, separated by comma'
+    Top = 240
+    Width = 258
+    OnEnter = edBaseIonsEnter
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 6
+  end
+  object Label9: TLabel
+    Left = 776
+    Height = 23
+    Top = 120
+    Width = 32
+    Caption = 'Salt:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 776
+    Height = 23
+    Top = 164
+    Width = 46
+    Caption = 'Name'
+    ParentColor = False
+  end
+  object Label11: TLabel
+    Left = 776
+    Height = 23
+    Top = 204
+    Width = 62
+    Caption = 'Formula'
+    ParentColor = False
+  end
+  object Label12: TLabel
+    Left = 776
+    Height = 23
+    Top = 244
+    Width = 32
+    Caption = 'Ions'
+    ParentColor = False
+  end
+  object edSaltName: TEdit
+    Left = 847
+    Height = 31
+    Hint = 'Salt name'
+    Top = 160
+    Width = 305
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 7
+  end
+  object edSaltFormula: TEdit
+    Left = 847
+    Height = 31
+    Hint = 'Salt molecular formula'
+    Top = 200
+    Width = 305
+    OnEnter = edSaltFormulaEnter
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 8
+  end
+  object edSaltIons: TEdit
+    Left = 847
+    Height = 31
+    Hint = 'Salt ions, separated by comma'
+    Top = 240
+    Width = 305
+    OnEnter = edSaltIonsEnter
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 9
+  end
+  object Label13: TLabel
+    Left = 1210
+    Height = 23
+    Top = 120
+    Width = 88
+    Caption = 'Evaluation:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object sgEval: TStringGrid
+    Left = 1210
+    Height = 112
+    Top = 159
+    Width = 166
+    ColCount = 2
+    FixedRows = 0
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 4
+    TabOrder = 11
+    TabStop = False
+    TitleFont.Height = -17
+    TitleFont.Name = 'Consolas'
+    ColWidths = (
+      95
+      67
+    )
+    Cells = (
+      4
+      0
+      0
+      'Questions'
+      0
+      1
+      'Correct'
+      0
+      2
+      'False'
+      0
+      3
+      'Success'
+    )
+  end
+  object laEquation: TLabel
+    Left = 10
+    Height = 23
+    Top = 328
+    Width = 72
+    Caption = 'Equation:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edEquation: TEdit
+    Left = 10
+    Height = 31
+    Hint = 'Reaction molecular equation'
+    Top = 363
+    Width = 718
+    OnEnter = edEquationEnter
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 10
+  end
+  object btQuestion: TButton
+    Left = 1282
+    Height = 31
+    Top = 363
+    Width = 94
+    Caption = 'Question'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object laReaction: TLabel
+    Left = 10
+    Height = 23
+    Top = 296
+    Width = 153
+    Caption = 'Acid ionisation step.'
+    ParentColor = False
+  end
+  object btShow: TButton
+    Left = 1282
+    Height = 31
+    Top = 320
+    Width = 94
+    Caption = 'Show'
+    OnClick = btShowClick
+    TabOrder = 13
+    TabStop = False
+  end
+  object Memo1: TMemo
+    Left = 776
+    Height = 98
+    Top = 296
+    Width = 376
+    Color = clSkyBlue
+    Lines.Strings = (
+      'To  apply  subscripts  or  superscripts, push  the corresponding button immediately  AFTER  you have  entered  the  character  to be  subscribed resp. superscribed.'
+    )
+    ReadOnly = True
+    TabOrder = 14
+    TabStop = False
+  end
+  object btSubscipt: TButton
+    Left = 470
+    Height = 31
+    Top = 296
+    Width = 94
+    Caption = 'Subscipt'
+    Font.Height = -15
+    OnClick = btSubsciptClick
+    ParentFont = False
+    TabOrder = 15
+    TabStop = False
+  end
+  object btSuperscript: TButton
+    Left = 579
+    Height = 31
+    Top = 296
+    Width = 94
+    Caption = 'Superscript'
+    Font.Height = -15
+    OnClick = btSuperscriptClick
+    ParentFont = False
+    TabOrder = 16
+    TabStop = False
+  end
+  object btArrow: TButton
+    Left = 688
+    Height = 31
+    Top = 296
+    Width = 40
+    Caption = '→'
+    OnClick = btArrowClick
+    TabOrder = 17
+    TabStop = False
+  end
+  object mMenu: TMainMenu
+    left = 1328
+    top = 16
+    object mTest: TMenuItem
+      Caption = 'Test'
+      object mTestNew: TMenuItem
+        Caption = 'New'
+        OnClick = mTestNewClick
+      end
+      object mTestExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mTestExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsQuestions: TMenuItem
+        Caption = 'Number of questions ...'
+        OnClick = mSettingsQuestionsClick
+      end
+      object mSettingsSaltAlways: TMenuItem
+        Caption = 'Ask always for salt'
+        Checked = True
+        OnClick = mSettingsSaltAlwaysClick
+      end
+      object mSettingsMolName: TMenuItem
+        Caption = 'Molecule names'
+        object mSettingsMolNameQ: TMenuItem
+          Caption = 'Use in questions'
+          OnClick = mSettingsMolNameQClick
+        end
+        object mSettingsMolNameA: TMenuItem
+          Caption = 'Use in answers'
+          OnClick = mSettingsMolNameAClick
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpList: TMenuItem
+        Caption = 'Acids/bases list ...'
+        OnClick = mHelpListClick
+      end
+      object mHelpHelp: TMenuItem
+        Caption = 'Application help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

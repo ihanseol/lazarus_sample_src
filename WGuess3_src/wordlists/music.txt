@@ -1,0 +1,107 @@
+acoustic
+albums
+artist
+avant-garde
+ballet
+baroque music
+bass guitar
+beethoven
+big band
+blues rock
+cd player
+chamber music
+chinese opera
+choirmaster
+chorus
+clarinet
+classical
+composer
+composition
+concert
+country music
+cover song
+dance music
+disc jockey
+dixieland
+drum kit
+electric bass
+electric organ
+electronic music
+experimental rock
+fanfare
+fiddle
+folk song
+gamelan
+gospel
+gregorian chant
+groove
+guitar solo
+hard rock
+harmonica
+heavy metal
+hip-hop
+improvisation
+instrumental
+interlude
+intermezzo
+jam session
+jazz fusion
+jukebox
+karaoke
+keyboard
+lead vocal
+loudspeaker
+marching band
+melodies
+melodious
+metronome
+musical
+music composition
+music conservatory
+music festival
+music genres
+music instrument
+music lesson
+music producer
+music school
+music teacher
+music therapy
+new wave
+operetta
+orchestra
+overture
+percussion
+philharmonic
+phonograph
+pianist
+piano music
+pipe organ
+polyphony
+potpourri
+prelude
+progressive rock
+psychedelic rock
+punk rock
+rap music
+reggae
+renaissance
+rhapsody
+rock and roll
+rock music
+romantic music
+saxophone
+singer
+solfege
+songwriter
+songwriting
+soul music
+sound engineer
+soundtrack
+symphony
+synthesizer
+techno
+timbre
+trombone
+trumpet
+tweedle
+violoncello

@@ -1,0 +1,485 @@
+object fTransistors: TfTransistors
+  Left = 87
+  Height = 443
+  Top = 67
+  Width = 1100
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Transistor switches'
+  ClientHeight = 418
+  ClientWidth = 1100
+  DesignTimePPI = 120
+  Menu = mTransistors
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object imCircuit: TImage
+    Left = 10
+    Height = 329
+    Top = 10
+    Width = 475
+    Center = True
+  end
+  object Label1: TLabel
+    Left = 520
+    Height = 17
+    Top = 92
+    Width = 63
+    Caption = 'Voltage VS'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edVS: TEdit
+    Left = 608
+    Height = 25
+    Top = 88
+    Width = 56
+    Alignment = taRightJustify
+    Color = clInactiveCaption
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object Label2: TLabel
+    Left = 712
+    Height = 17
+    Top = 92
+    Width = 87
+    Caption = 'Load current IL'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIL: TEdit
+    Left = 808
+    Height = 25
+    Top = 88
+    Width = 56
+    Alignment = taRightJustify
+    Color = clInactiveCaption
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object laBeta1: TLabel
+    Left = 520
+    Height = 17
+    Top = 132
+    Width = 64
+    Caption = 'Q1 gain β1'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edBeta1: TEdit
+    Left = 608
+    Height = 25
+    Top = 128
+    Width = 56
+    Alignment = taRightJustify
+    Color = clInactiveCaption
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object laBeta2: TLabel
+    Left = 520
+    Height = 17
+    Top = 172
+    Width = 64
+    Caption = 'Q2 gain β2'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edBeta2: TEdit
+    Left = 608
+    Height = 25
+    Top = 168
+    Width = 56
+    Alignment = taRightJustify
+    Color = clInactiveCaption
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object laBeta3: TLabel
+    Left = 520
+    Height = 17
+    Top = 212
+    Width = 64
+    Caption = 'Q3 gain β3'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edBeta3: TEdit
+    Left = 608
+    Height = 25
+    Top = 208
+    Width = 56
+    Alignment = taRightJustify
+    Color = clInactiveCaption
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 15
+  end
+  object laIB1: TLabel
+    Left = 712
+    Height = 17
+    Top = 132
+    Width = 93
+    Caption = 'Base current IB1'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIB1: TEdit
+    Left = 808
+    Height = 25
+    Top = 128
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    TabStop = False
+    TabOrder = 5
+  end
+  object laIB2: TLabel
+    Left = 712
+    Height = 17
+    Top = 172
+    Width = 93
+    Caption = 'Base current IB2'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIB2: TEdit
+    Left = 808
+    Height = 25
+    Top = 168
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    TabStop = False
+    TabOrder = 3
+  end
+  object laIB3: TLabel
+    Left = 712
+    Height = 17
+    Top = 212
+    Width = 93
+    Caption = 'Base current IB3'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIB3: TEdit
+    Left = 808
+    Height = 25
+    Top = 208
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    TabStop = False
+    TabOrder = 1
+  end
+  object laIC1: TLabel
+    Left = 912
+    Height = 17
+    Top = 132
+    Width = 119
+    Caption = 'Collector current IC1'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIC1: TEdit
+    Left = 1035
+    Height = 25
+    Top = 128
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    TabStop = False
+    TabOrder = 4
+  end
+  object laIC2: TLabel
+    Left = 912
+    Height = 17
+    Top = 172
+    Width = 119
+    Caption = 'Collector current IC2'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIC2: TEdit
+    Left = 1035
+    Height = 25
+    Top = 168
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    TabStop = False
+    TabOrder = 2
+  end
+  object laIC3: TLabel
+    Left = 912
+    Height = 17
+    Top = 212
+    Width = 119
+    Caption = 'Collector current IC3'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIC3: TEdit
+    Left = 1035
+    Height = 25
+    Top = 208
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    TabStop = False
+    TabOrder = 0
+  end
+  object laR1: TLabel
+    Left = 520
+    Height = 17
+    Top = 260
+    Width = 80
+    Caption = 'Resistance R1'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edR1: TEdit
+    Left = 608
+    Height = 25
+    Top = 256
+    Width = 56
+    Alignment = taRightJustify
+    Color = clYellow
+    Font.Height = -13
+    ParentFont = False
+    TabStop = False
+    TabOrder = 6
+  end
+  object laR2: TLabel
+    Left = 520
+    Height = 17
+    Top = 300
+    Width = 80
+    Caption = 'Resistance R2'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edR2: TEdit
+    Left = 608
+    Height = 25
+    Top = 296
+    Width = 56
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -13
+    ParentFont = False
+    TabStop = False
+    TabOrder = 7
+  end
+  object laR3: TLabel
+    Left = 712
+    Height = 17
+    Top = 260
+    Width = 80
+    Caption = 'Resistance R3'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edR3: TEdit
+    Left = 808
+    Height = 25
+    Top = 256
+    Width = 56
+    Alignment = taRightJustify
+    Color = clYellow
+    Font.Height = -13
+    ParentFont = False
+    TabStop = False
+    TabOrder = 8
+  end
+  object laR4: TLabel
+    Left = 912
+    Height = 17
+    Top = 260
+    Width = 80
+    Caption = 'Resistance R4'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edR4: TEdit
+    Left = 1035
+    Height = 25
+    Top = 256
+    Width = 56
+    Alignment = taRightJustify
+    Color = clYellow
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object stTitle: TStaticText
+    Left = 520
+    Height = 25
+    Top = 32
+    Width = 392
+    Caption = '3 transistors digital current circuit'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 16
+  end
+  object StaticText2: TStaticText
+    Left = 712
+    Height = 17
+    Top = 302
+    Width = 290
+    Caption = 'Currents in mA, resistances in kΩ!'
+    Font.Color = clBlue
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 17
+  end
+  object btCheck: TButton
+    Left = 1016
+    Height = 25
+    Top = 384
+    Width = 75
+    Caption = 'Check'
+    OnClick = btCheckClick
+    TabOrder = 10
+    Visible = False
+  end
+  object edEvaluation: TEdit
+    Left = 520
+    Height = 25
+    Top = 352
+    Width = 290
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 18
+    Visible = False
+  end
+  object mTransistors: TMainMenu
+    left = 48
+    top = 24
+    object mCircuit: TMenuItem
+      Caption = 'Circuit'
+      object mNewCalculation: TMenuItem
+        Caption = 'New calculation'
+        OnClick = mNewCalculationClick
+      end
+      object mNewTest: TMenuItem
+        Caption = 'New test'
+        OnClick = mNewTestClick
+      end
+      object mExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsTransistors: TMenuItem
+        Caption = 'Number of transistors'
+        object mSettingsTransistors1: TMenuItem
+          Caption = '1'
+          Checked = True
+          OnClick = mSettingsTransistors1Click
+        end
+        object mSettingsTransistors2: TMenuItem
+          Caption = '2'
+          Checked = True
+          OnClick = mSettingsTransistors2Click
+        end
+        object mSettingsTransistors3: TMenuItem
+          Caption = '3'
+          Checked = True
+          OnClick = mSettingsTransistors3Click
+        end
+      end
+      object mSettingsIdentical: TMenuItem
+        Caption = 'Use all identical transistors'
+        OnClick = mSettingsIdenticalClick
+      end
+      object mSettingsVoltage: TMenuItem
+        Caption = 'Ignore base-emitter voltage'
+        Checked = True
+        OnClick = mSettingsVoltageClick
+      end
+      object mSettingsResistance: TMenuItem
+        Caption = 'Use standard resistor values'
+        OnClick = mSettingsResistanceClick
+      end
+      object mSettingsChecking: TMenuItem
+        Caption = 'Check resistances only'
+        OnClick = mSettingsCheckingClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpTransistors: TMenuItem
+        Caption = 'Transistor switches'
+        OnClick = mHelpTransistorsClick
+      end
+      object mHelpResistors: TMenuItem
+        Caption = 'Standard resistors'
+        OnClick = mHelpResistorsClick
+      end
+      object mHelpContent: TMenuItem
+        Caption = 'Program help'
+        OnClick = mHelpContentClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'Program about'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object Popup: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Text = 'Text'
+    Title = 'Transistor switches'
+    Visible = False
+    left = 432
+    top = 24
+  end
+end

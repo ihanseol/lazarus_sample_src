@@ -1,0 +1,4 @@
+Bacteria=Saccharomyces cerevisiae
+Nutrient=glucose at 30 ºC
+R=0.5
+A=25 (mg/l)

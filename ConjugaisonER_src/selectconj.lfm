@@ -1,0 +1,125 @@
+object fSelectConj: TfSelectConj
+  Left = 262
+  Height = 257
+  Top = 152
+  Width = 756
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Conjugaison des verbes en -er'
+  ClientHeight = 257
+  ClientWidth = 756
+  DesignTimePPI = 120
+  OnActivate = FormActivate
+  LCLVersion = '1.8.2.0'
+  object Label1: TLabel
+    Left = 10
+    Height = 23
+    Top = 10
+    Width = 253
+    Caption = 'Choisissez le verbe à conjuguer:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object rbAvoir: TRadioButton
+    Left = 10
+    Height = 27
+    Top = 48
+    Width = 129
+    Caption = ' Verbe AVOIR'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 2
+  end
+  object rbEtre: TRadioButton
+    Left = 186
+    Height = 27
+    Top = 48
+    Width = 116
+    Caption = ' Verbe ETRE'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 3
+  end
+  object rbAller: TRadioButton
+    Left = 10
+    Height = 27
+    Top = 88
+    Width = 125
+    Caption = ' Verbe ALLER'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 4
+  end
+  object rbEnAller: TRadioButton
+    Left = 186
+    Height = 27
+    Top = 88
+    Width = 165
+    Caption = ' Verbe S''EN ALLER'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 5
+  end
+  object rbEnvoyer: TRadioButton
+    Left = 592
+    Height = 27
+    Top = 88
+    Width = 153
+    Caption = ' Verbe ENVOYER'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 6
+  end
+  object rbER: TRadioButton
+    Left = 10
+    Height = 27
+    Top = 128
+    Width = 173
+    Caption = ' Autre verbe en -ER'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 7
+    TabStop = True
+  end
+  object edVerbe: TEdit
+    Left = 10
+    Height = 31
+    Top = 160
+    Width = 171
+    Font.Height = -17
+    OnChange = edVerbeChange
+    ParentFont = False
+    TabOrder = 0
+  end
+  object btOK: TButton
+    Left = 651
+    Height = 31
+    Top = 208
+    Width = 94
+    Caption = 'OK'
+    OnClick = btOKClick
+    TabOrder = 1
+  end
+  object btCancel: TButton
+    Left = 531
+    Height = 31
+    Top = 208
+    Width = 94
+    Caption = 'Cancel'
+    OnClick = btCancelClick
+    TabOrder = 8
+  end
+  object rbYAller: TRadioButton
+    Left = 402
+    Height = 27
+    Top = 88
+    Width = 139
+    Caption = ' Verbe Y ALLER'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 9
+  end
+end

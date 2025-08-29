@@ -1,0 +1,100 @@
+Afrikanischer Wildhund        ---                               -
+Afrikanische Zibetkatze       ---                               -
+Amerikanischer Schwarzbaer    123 Schwarzbaer                   u
+Anden-Makibaer                --3 Makibaer                      u
+Asiatische Goldkatze          ---                               -
+Bandrobbe                     --3                               -
+Baummarder                    -23 Marder                        -
+Bergkatze                     --3                               -
+Binturong                     ---                               -
+Braunbaer                     123                               u
+Brillenbaer                   -23                               u
+Buntmarder                    --3                               -
+Dingo                         --3                               -
+Dunkelkusimanse               ---                               -
+Eisbaer                       123                               u
+Erdmaennchen                  -23                               u
+Erdwolf                       --3                               -
+Eurasischer Luchs             -23 Luchs                         -
+Europaeischer Dachs           123 Dachs                         u
+Europaeischer Iltis           123 Iltis                         u
+Europaeischer Nerz            ---                               u
+Fanaloka                      ---                               -
+Fennek                        --3                               -
+Ferkelskunk                   --3                               -
+Fischermarder                 --3                               -
+Fischkatze                    ---                               -
+Fischotter                    -23                               -
+Flachkopfkatze                ---                               -
+Fossa                         ---                               -
+Fuchsmanguste                 ---                               -
+Gepard                        -23                               -
+Goldmusang                    ---                               -
+Goldschakal                   ---                               -
+Graufuchs                     --3                               -
+Grosser Panda                 123                               s
+Grossfleck-Ginsterkatze       ---                               s
+Grossgrison                   ---                               s
+Haushund                      123 Hund                          -
+Hauskatze                     123 Katze                         -
+Hermelin                      -23                               -
+Honigdachs                    --3                               -
+Ichneumon                     ---                               -
+Jaguar                        123                               -
+Jaguarundi                    -23                               -
+Japanischer Dachs             ---                               -
+Kalifornischer Seeloewe       -23 Seeloewe                      u
+Karakal                       --3                               -
+Kegelrobbe                    ---                               -
+Kleiner Panda                 123                               -
+Kojote                        -23                               -
+Krabbenwaschbaer              --3                               u
+Kragenbaer                    -23                               u
+Langschwanzkatze              --3                               -
+Larvenroller                  ---                               -
+Leopard                       123                               -
+Lippenbaer                    --3                               u
+Loeffelhund                   --3                               u
+Loewe                         123                               u
+Maehnenwolf                   --3                               u
+Maikong                       ---                               -
+Malaienbaer                   --3                               u
+Marderhund                    --3                               -
+Marmorkatze                   --3                               -
+Mauswiesel                    -23 Wiesel                        -
+Nebelparder                   ---                               -
+Ozelot                        --3                               -
+Pardelgenette                 ---                               -
+Polarfuchs                    -23                               -
+Puma                          123                               -
+Riesenotter                   --3                               -
+Ringelrobbe                   ---                               -
+Ringelschwanzmungo            ---                               -
+Rotfuchs                      123 Fuchs                         -
+Rothund                       --3                               -
+Schabrackenschakal            -23 Schakal                       -
+Schmalstreifenmungo           ---                               -
+Schneeleopard                 -23                               -
+Schwarzfussiltis              ---                               s
+Schwarzfusskatze              ---                               s
+Schweinsdachs                 --3                               -
+Seehund                       123                               -
+Seeleopard                    --3                               -
+Silberdachs                   -23 Dachs                         -
+Steinmarder                   123 Marder                        -
+Steppenfuchs                  --3                               -
+Suedamerikanischer Seebaer    --3                               u
+Suedlicher Flussotter         --3                               u
+Suedlicher See-Elefant        -23 See-Elefant                   u
+Tiger                         123                               -
+Tigeriltis                    --3                               -
+Tuepfelhyaene                 -23 Hyaene                        u
+Vielfrass                     --3                               s
+Waldhund                      ---                               -
+Walross                       -23                               -
+Waschbaer                     123                               u
+Westlicher Fleckenskunk       -23 Skunk                         -
+Wildkatze                     123                               -
+Wolf                          123                               -
+Zebramanguste                 ---                               -
+Zobel                         ---                               -

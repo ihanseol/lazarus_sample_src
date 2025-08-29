@@ -1,0 +1,49 @@
+Spanish is not Spanish and Spanish conjugation is not Spanish conjugation. In fact, there are major differences in particular between Spanish spoken in Spain and Spanish spoken in Middle and South America. Not speaking Spanish myself, I based my "SpanishAR" application on what I understood of the Wikipedia article https://en.wikipedia.org/wiki/Spanish_conjugation. The verbs included with the application are the verb amar and those listed at https://www.linguasorb.com/spanish/verbs/ar-verbs-list/.
+
+The application actually considers only the Spanish language/grammar as used in Spain. Please, note the following:
+
+1. The pronoun for the 2nd person singular used is tú and the conjugated verb forms are the one used in Spain. The pronoun vos, used in most countries of Middle and South America, and the corresponding conjugated forms are not considered.
+2. The pronouns for the 2nd person plural used are vosotros and vosotras (normally replaced by ustedes outside Spain).
+3. The pronouns for the 3rd person used are él and ella (singular) resp. ellos and ellas (plural), except for the imperative, where usted resp. ustedes are used.
+4. The subjunctive imperfect is only considered in its 1st form (form in -ra), thus not considering the form in -se (rarely used in modern Spain and obsolete in the Americas).
+5. The subjunctive future is obsolete and not considered by the "SpanishAR" application.
+
+Regular verbs in -ar conjugation.
+=================================
+
+The stem of a verb in -ar is the verb part, that remains, if you cut off -ar from the infinitive. Examples: stem of amar = am-, stem of estar = est-.
+The root is mostly identical to the stem. Exceptions (addition of a root suffix):
+ - Indicative imperfect: root = stem + ab (áb for the 1st pers pl).
+ - Indicative future and conditional: root = stem + ar.
+ - Subjunctive imperfect: root = stem + ar (ár for the 1st pers pl).
+The suffix is the characteristic added to the root, in order to form the conjugated form of the verb. Thus, it depends on the mood/tense and on the number/person. For the active voice of simple tenses (the only conjugated forms featured in "SpanishAR"), it is not affected by the gender.
+Particularity of the Spanish grammar: For the 2nd person (singular and plural), the suffix of the affirmative form and the suffix of the negative form (formed by no + conjugated verb form) of the imperative are different! Example: tú am-a, tú no am-es.
+Regular verbs conjugation in 3 steps:
+1. Remove -ar from the infinitive to get the stem.
+2. Add the root suffix if the considered mood/tense has any.
+3. Add the suffix for the actual mood, tense, number, person (and eventually affirmative/negative form).
+
+Regular, irregular and semi-irregular verbs.
+============================================
+
+Spanish verbs in -ar may be subdivided into 3 groups:
+
+1. Regular verbs.
+-----------------
+Verbs with typical -ar conjugation (as described above), they are conjugated all the same way than the verb amar (or hablar, stated in some books as the typical -ar verb).
+
+2. Irregular verbs.
+-------------------
+Verbs, that have one or more conjugated forms, that do not follow the regular conjugation rules. The irregularity is specific for this verb (and normally for its compound forms) and may affect one or several of the following:
+a. The stem: For given conjugated forms, the stem is altered, resulting in a root that is different from the stem. Example: costar, with regular root cost- has for some conjugated forms the root cuest-.
+b. The root suffix: For given conjugated forms, the root suffix added to the stem is different from the regular one, or there is a root suffix for a mood/tense, where normally there isn't one. Example: For estar, the root suffix for subjunctive imperfect is -uvier- (instead of -ar-); for preterite, estar has the root prefix -uv- (normally no root prefix).
+c. The suffix: For given conjugated forms, the suffix differs from the regular one. Example: estar has lots of conjugated forms with irregular suffix, including all number/persons of the preterite. Thus, for the preterite, estar has both an irregular root and an irregular suffix; example: yo est-uv-e.
+
+3. Semi-irregular verbs.
+------------------------
+What I call semi-irregular verbs is not an official term used in grammar, but I think defining this third group of verbs may be helpful for the student to learn to correctly conjugate the verbs. Semi-irregular verbs (you could also call them regularly irregular verbs) are verbs that have some conjugated forms, that differ from the regular one, but these are not specific of the verb itself, but common to a whole set of verbs, ending with a given termination. As in French, you may consider verbs in -aindre, -ire, etc as semi-irregular -re verbs, in Spanish, you may consider as semi-irregular -ar verbs ending in -car, -zar, -gar and -uar. The irregularity of all of these verbs affects the stem: for given moods/tenses and numbers/persons the stem is modified, resulting in a specific root for that group of verbs.
+a. Verbs in -car (verbs conjugated like explicar): the -c- of the stem becomes -qu- if the suffix begins with -e- or -é-. Example: the preterite 1st pers sg of dedicar is yo dediqu-é.
+b. Verbs in -zar (verbs conjugated like comenzar): the -z- of the stem becomes -c- if the suffix begins with -e- or -é-. Example: the subjunctive present 2nd pers sg of lanzar is tú lanc-es.
+c. Verbs in -gar (verbs conjugated like obligar): the -g- of the stem becomes -gu- if the suffix begins with -e- or -é-. Example: the imperative 1st pers pl of entregar is entregu-emos.
+d. Verbs in -uar (verbs conjugated like continuar): the -u- of the stem becomes -ú- for several conjugated forms, including the singular and the 3rd pers pl of the present time. Example: the present 3rd pers pl of actuar is ellos actú-an.
+Verbs, ending in -car, -zar, -gar and -uar may be irregular, as any other verbs in -ar. In this case, some conjugated forms have an irregularity specific of the verb. Both, the regular and the irregular root, follow the conjugation rules of the semi-irregular group. This means that you can have up to 4 different roots for these verbs. For example: jugar has an irregular root (jueg-) for several conjugated forms of the indicative and subjunctive present and the imperative and for this last one you have, for example: vosotros jug-ad (regular), nosotros jugu-emos (semi-irregular), tú jueg-a (irregular, with regular -g- before -a), usted juegu-e (irregular, with semi-irregular -gu- before -e).

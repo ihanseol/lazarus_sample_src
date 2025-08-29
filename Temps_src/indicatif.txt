@@ -1,0 +1,52 @@
+j'annonce, j'annonçais, j'annoncerai, j'annoncerais
+je déclare, *, $, #
+je dis, je disais, je dirai, je dirais
+-je promets, je promettais, je promettrai, je promettrais
+j'avoue, *, $, #
+je remarque, *, $, #
+je prétends, je prétendais, je prétendrai, je prétendrais
+je jure, *, $, #
+-j'entends, j'entendais, j'entendrai, j'entendrais
+je vois, je voyais, je verrai, je verrais
+je sens, je sentais, je sentirai, je sentirais
+je m'aperçois, je m'apercevais, je m'apercevrai, je m'apercevrais
+je me rends compte, je me rendais compte, je me rendrai compte, je me rendrais compte
+je concède, je concédais, je concèderai, je concèderais
+je décrète, je décrétais, je décrèterai, je décrèterais
+j'explique, *, $, #
+je reconnais, je reconnaissais, je reconnaîtrai, je reconnaîtrais
+je sais, je savais, je saurai, je saurais
+j'écris, j'écrivais, j'écrirai, j'écrirais
+je lis, je lisais, je lirai, je lirais
+je raconte, *, $, #
+j'indique, *, $, #
+je répète, je répétais, je répèterai, je répèterais
+je réponds, je répondais, je répondrai, je répondrais
+j'informe, *, $, #
+je mentionne, *, $, #
+j'avertis, j'avertissais, j'avertirai, j'avertirais
+je crie, *, $, #
+je préviens, je prévenais, je préviendrai, je préviendrais
+je rappelle, je rappelais, je rappellerai, je rappellerais
+je réplique, *, $, #
+je signale, *, $, #
+?j'admets, j'admettais, j'admettrai, j'admettrais
+?j'ajoute, *, $, #
+?j'apprends, j'apprenais, j'apprendrai, j'apprendrais
+?j'assure, *, $, #
+?je cache, *, $, #
+?je comprends, je comprenais, je comprendrai, je comprendrais
+?je constate, *, $, #
+?je déduis, je déduisais, je déduirai, je déduirais
+?je découvre, *, $, #
+?je démontre, *, $, #
+?je dissimule, *, $, #
+?je précise, *, $, #
+?je parie, *, $, #
+?je révèle, je révélais, je révèlerai, je révèlerais
+
+il paraît, il paraissait, il paraîtra, il paraîtrait
+il est probable, *, $, #
+il est improbable, *, $, #
+il est vraisemblable, *, $, #
+il est invraisemblable, *, $, #

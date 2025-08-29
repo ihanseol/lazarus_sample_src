@@ -1,0 +1,9 @@
+# Rings
+
+origin = (625,80)
+displacement = 4
+
+axiom = "0F+1F+2F+3F"
+rules = { "F": "FF+F+F+F+F+F-F" }
+iterations = 4
+angle = 90

@@ -1,0 +1,91 @@
+object fHelp: TfHelp
+  Left = 303
+  Height = 537
+  Top = 171
+  Width = 952
+  BorderIcons = [biSystemMenu]
+  Caption = 'Capacitors'
+  ClientHeight = 537
+  ClientWidth = 952
+  DesignTimePPI = 120
+  Font.Height = -17
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object Memo1: TMemo
+    Left = 10
+    Height = 432
+    Top = 56
+    Width = 934
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"Capacitors" is a simple application, that you can use to do some basic calculations concerning capacitors and capacitor circuits. Calculations available (menu "Calculation"):'
+      ''
+      'Capacitance (given shape).'
+      '--------------------------'
+      'For a capacitor of given shape (parallel plates, interleaved, spherical, cylindrical), calculate the capacitance and, knowing the voltage, calculate the charge (resp. knowing the charge, calculate the voltage), as well as the energy, that capacitor can store. For parallel plates, the (constant) electric field is also calculated.'
+      'To choose between voltage or charge input, use the corr. item in the "Options" menu. The parameters, describing the capacitor, depend on its shape, of course. Note, that for an interleaved capacitor, you have to choose a number of plates of 3 or more. The dielectric constant has to be entered manually: 1 for vacuum, values > 1 for other materials.'
+      ''
+      'Capacitance (given dielectric).'
+      '-------------------------------'
+      'For a parallel plates capacitor, calculate the capacitance and, knowing the voltage, calculate the charge (resp. knowing the charge, calculate the voltage), as well as the (maximum) capacitor energy and the (constant) electric field. The dielectric constant is chosen from one of the 4 material lists: natural materials, ceramic, plastic film and electrolytes.'
+      ''
+      'Capacitors in series/parallel.'
+      '------------------------------'
+      'Calculation of the total capacitance of 2, 3 or 4 capacitors in series or in parallel. Just leave blank the fields for the capacitors, that aren''t used. Note, that this calculation is done in a separate window.'
+      ''
+      'Capacitor charge/discharge.'
+      '---------------------------'
+      'In a simple capacitor DC circuit, calculate the relevant values for the charge resp. discharge of the capacitor through a resistor. The application calculates the maximum capacitor voltage, the maximum current, the time constant and the charging/discharging time. You also have the possibility to calculate the voltage and current at a given time. To do this, enter a time value in the corr. text field (if this field is left blank, no such calculation is done). To choose a time, that is a multiple of the time constant, you may use the "τ" button to enter values like "τ", "2τ"... This calculation is done in a separate window.'
+      ''
+      'Formulas used by the application.'
+      '================================='
+      ''
+      'Capacitance calculations.'
+      '-------------------------'
+      'Permittivity of free space ε0 = 8.85 × 10-12 C²/N⋅m²'
+      'Parallel plates capacitor: C = κε0 · A/d'
+      'Interleaved capacitor: C = (κε0 · A/d) · (n - 1)'
+      'Spherical capacitor: C = 4πκε0 · [r1r2 / (r2 - r1)]'
+      'Cylindrical capacitor: C = (2πκε0 · l) / ln(r2/r1)'
+      'For a given voltage: Q = CV and W = ½CV²'
+      'For a parallel plates capacitor, the electric field can be assumed constant: E = V/d'
+      ''
+      'Capacitors in parallel and in series.'
+      '-------------------------------------'
+      'Capacitors in parallel: C = C1 + C2 + C3 ...'
+      'Capacitors in series: 1/C = 1/C1 + 1/C2 + 1/C3 ...'
+      ''
+      'DC circuits: Charge and discharge of a capacitor.'
+      '-------------------------------------------------'
+      'Charge: V(t) = V0  · (1 - eᵀ) and I(t) = (V0 / R) · eᵀ  (T = -t/τ)'
+      'Discharge: V(t) = V0  · eᵀ and I(t) = -(V0 / R) · eᵀ  (T = -t/τ)'
+      'Time constant: τ = RC, the capacitor is considered to be fully (dis)charged at t = 5τ'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 2
+    TabStop = False
+  end
+  object StaticText1: TStaticText
+    Left = 10
+    Height = 30
+    Top = 10
+    Width = 206
+    Caption = 'Capacitors help.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btClose: TButton
+    Left = 850
+    Height = 31
+    Top = 500
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

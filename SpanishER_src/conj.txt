@@ -1,0 +1,49 @@
+Spanish is not Spanish and Spanish conjugation is not Spanish conjugation. In fact, there are major differences in particular between Spanish spoken in Spain and Spanish spoken in Middle and South America. Not speaking Spanish myself, I based my "SpanishER" application on what I understood of the Wikipedia article https://en.wikipedia.org/wiki/Spanish_conjugation.
+
+The application actually considers only the Spanish language/grammar as used in Spain. Please, note the following:
+
+1. The pronoun for the 2nd person singular used is tú and the conjugated verb forms are the one used in Spain. The pronoun vos, used in most countries of Middle and South America, and the corresponding conjugated forms are not considered.
+2. The pronouns for the 2nd person plural used are vosotros and vosotras (normally replaced by ustedes outside Spain).
+3. The pronouns for the 3rd person used are él and ella (singular) resp. ellos and ellas (plural), except for the imperative, where usted resp. ustedes are used.
+4. The subjunctive imperfect is only considered in its 1st form (form in -ra), thus not considering the form in -se (rarely used in modern Spain and obsolete in the Americas).
+5. The subjunctive future is obsolete and not considered by the "SpanishER" application.
+
+Regular verbs in -er conjugation.
+=================================
+
+The stem of a verb in -er is the verb part, that remains, if you cut off -er from the infinitive. Examples: stem of vender = vend-, stem of ser = s-.
+The root is mostly identical to the stem. Exceptions (addition of a root suffix):
+ - Indicative imperfect: root = stem + í.
+ - Indicative future and conditional: root = stem + er.
+ - Subjunctive imperfect: root = stem + ier (iér for the 1st pers pl).
+The suffix is the characteristic added to the root, in order to form the conjugated form of the verb. Thus, it depends on the mood/tense and on the number/person. For the active voice of simple tenses (the only conjugated forms featured in "SpanishER"), it is not affected by the gender.
+Particularity of the Spanish grammar: For the 2nd person (singular and plural), the suffix of the affirmative form and the suffix of the negative form (formed by no + conjugated verb form) of the imperative are different! Example: tú vend-e, tú no vend-as.
+Regular verbs conjugation in 3 steps:
+1. Remove -er from the infinitive to get the stem.
+2. Add the root suffix if the considered mood/tense has one.
+3. Add the suffix for the actual mood, tense, number, person (and eventually affirmative/negative form).
+
+Regular, irregular and semi-irregular verbs.
+============================================
+
+Spanish verbs in -er may be subdivided into 3 groups:
+
+1. Regular verbs.
+-----------------
+Verbs with typical -er conjugation (as described above), they are conjugated all the same way than the verb vender.
+
+2. Irregular verbs.
+-------------------
+Verbs, that have one or more conjugated forms, that do not follow the regular conjugation rules. The irregularity is specific for this verb (and normally for its compound forms) and may affect one or several of the following:
+a. The stem: For given conjugated forms, the stem is altered, resulting in a root that is different from the stem. Example: haber, with regular root hab- has for some conjugated forms the root h-, for others hub- or hay-.
+b. The root suffix: For given conjugated forms, the root suffix added to the stem is different from the regular one. Example: For several irregular verbs, the root suffix of the future and the conditional are -r- instead of regular -er-.
+c. The suffix: For given conjugated forms, the suffix differs from the regular one. Example: ser has lots of conjugated forms with irregular suffix, including all number/persons but the 2nd person singular of the indicative_present. Example: yo s-oy, ella es- (irregular root and no suffix).
+
+3. Semi-irregular verbs.
+------------------------
+What I call semi-irregular verbs is not an official term used in grammar, but I think defining this third group of verbs may be helpful for the student to learn to correctly conjugate the verbs. Semi-irregular verbs (you could also call them regularly irregular verbs) are verbs that have some conjugated forms, that differ from the regular one, but these are not specific of the verb itself, but common to a whole set of verbs, ending with a given termination or presenting some other common characteristics. As in French, you may consider verbs in -aindre, -ire, etc as semi-irregular -re verbs, in Spanish, you may consider as semi-irregular -er verbs ending in -eer, and a group of verbs with stem vowel (last vowel of the stem) -e- or -o- (other such verbs being regular!). The irregularity of all of these verbs affects the root: for given moods/tenses and numbers/persons the stem or the root suffix is modified, resulting in a specific root for that group of verbs.
+a. Verbs in -eer (verbs conjugated like leer): the -i- of the stem becomes -y- in the 3rd person (sg. and pl.) of the preterite and all persons and numbers of the subjunctive imperfect; the -id- root suffix of the gerund becomes -íd-. Examples: él le-yó, le-íd-o.
+b. Verbs with stem vowel -e- (verbs conjugated like perder): the stem vowel -e- becomes -ie- for all persons, except 1st and 2nd person plural, of the indicative present, the subjunctive present and the imperative. Examples: yo pierd-o, yo pierd-a.
+b. Verbs with stem vowel -o- (verbs conjugated like mover): the stem vowel -o- becomes -ue- for all persons, except 1st and 2nd person plural, of the indicative present, the subjunctive present and the imperative. Examples: yo muev-o, yo muev-a.
+
+Is there a rule that allows to determine which verbs with stem vowels -e- or -o- are regular and which one are semi-irregular? I don't think so... Also note that verbs, being part of some semi-irregular verbs group, may be irregular for other conjugated forms. Example: The verb poder changes the stem -o- to -ue- as described above, but also presents lots of irregularities (stem and root suffix modifications; irregular suffix for 1st and 3rd person singular of the preterite).

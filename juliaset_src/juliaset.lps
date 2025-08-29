@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="juliaset.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="7" HistoryIndex="6">
+      <Position1>
+        <Filename Value="juliaset.lpr"/>
+        <Caret Line="77" Column="5" TopLine="51"/>
+      </Position1>
+      <Position2>
+        <Filename Value="juliaset.lpr"/>
+        <Caret Line="19" Column="17"/>
+      </Position2>
+      <Position3>
+        <Filename Value="juliaset.lpr"/>
+        <Caret Line="2" Column="3"/>
+      </Position3>
+      <Position4>
+        <Filename Value="juliaset.lpr"/>
+        <Caret Line="101" Column="64" TopLine="81"/>
+      </Position4>
+      <Position5>
+        <Filename Value="juliaset.lpr"/>
+        <Caret Line="13" Column="28"/>
+      </Position5>
+      <Position6>
+        <Filename Value="juliaset.lpr"/>
+        <Caret Line="130" Column="34" TopLine="109"/>
+      </Position6>
+      <Position7>
+        <Filename Value="juliaset.lpr"/>
+        <Caret Line="146" TopLine="105"/>
+      </Position7>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

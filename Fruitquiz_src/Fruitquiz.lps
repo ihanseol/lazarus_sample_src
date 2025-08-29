@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="Fruitquiz.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="fquiz.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fFruitquiz"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="20" HistoryIndex="19">
+      <Position1>
+        <Filename Value="Fruitquiz.lpr"/>
+        <Caret Line="14" Column="37"/>
+      </Position1>
+      <Position2>
+        <Filename Value="fquiz.pas"/>
+      </Position2>
+      <Position3>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="223" Column="3" TopLine="221"/>
+      </Position3>
+      <Position4>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="269" Column="61" TopLine="255"/>
+      </Position4>
+      <Position5>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="111" Column="44" TopLine="87"/>
+      </Position5>
+      <Position6>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="68" Column="5" TopLine="51"/>
+      </Position6>
+      <Position7>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="120" Column="102" TopLine="98"/>
+      </Position7>
+      <Position8>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="217" Column="21" TopLine="196"/>
+      </Position8>
+      <Position9>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="342" TopLine="328"/>
+      </Position9>
+      <Position10>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="66" TopLine="53"/>
+      </Position10>
+      <Position11>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="387" TopLine="387"/>
+      </Position11>
+      <Position12>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="129" Column="13" TopLine="117"/>
+      </Position12>
+      <Position13>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="234" Column="59" TopLine="223"/>
+      </Position13>
+      <Position14>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="123" TopLine="104"/>
+      </Position14>
+      <Position15>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="112" Column="37" TopLine="99"/>
+      </Position15>
+      <Position16>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="267" Column="18" TopLine="255"/>
+      </Position16>
+      <Position17>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="395" Column="66" TopLine="383"/>
+      </Position17>
+      <Position18>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="422" Column="65" TopLine="409"/>
+      </Position18>
+      <Position19>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="109" Column="13" TopLine="99"/>
+      </Position19>
+      <Position20>
+        <Filename Value="fquiz.pas"/>
+        <Caret Line="459" TopLine="433"/>
+      </Position20>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

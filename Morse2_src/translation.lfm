@@ -1,0 +1,145 @@
+object fTranslation: TfTranslation
+  Left = 62
+  Height = 607
+  Top = 56
+  Width = 1210
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'International Morse Code'
+  ClientHeight = 607
+  ClientWidth = 1210
+  DesignTimePPI = 120
+  Font.Height = -17
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object stTitle: TStaticText
+    Left = 382
+    Height = 38
+    Top = 10
+    Width = 446
+    Alignment = taCenter
+    Caption = 'Text to morse code translation.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 6
+  end
+  object edDetails: TMemo
+    Left = 10
+    Height = 80
+    Top = 56
+    Width = 1190
+    Color = clCream
+    Lines.Strings = (
+      'Enter your text (or get it from a file, using the "Load" button) in the left box and push the "Translate" button to translate it into morse code. Use the "Play" button for morse code audio output. Text and corresponding morse code may be stored into a file, using the "Save" button.'
+    )
+    ReadOnly = True
+    TabOrder = 7
+    TabStop = False
+  end
+  object edBox1: TMemo
+    Left = 10
+    Height = 401
+    Top = 152
+    Width = 560
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+  end
+  object edBox2: TMemo
+    Left = 640
+    Height = 401
+    Top = 152
+    Width = 560
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 4
+    TabStop = False
+  end
+  object btLoad: TButton
+    Left = 10
+    Height = 31
+    Top = 568
+    Width = 94
+    Caption = 'Load'
+    OnClick = btLoadClick
+    TabOrder = 5
+    TabStop = False
+  end
+  object btTranslate: TButton
+    Left = 476
+    Height = 31
+    Top = 568
+    Width = 94
+    Caption = 'Convert'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btTranslateClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btPlay: TButton
+    Left = 640
+    Height = 31
+    Top = 568
+    Width = 94
+    Caption = 'Play'
+    OnClick = btPlayClick
+    TabOrder = 2
+  end
+  object btSave: TButton
+    Left = 992
+    Height = 31
+    Top = 568
+    Width = 94
+    Caption = 'Save'
+    OnClick = btSaveClick
+    TabOrder = 8
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 1106
+    Height = 31
+    Top = 568
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 9
+    TabStop = False
+  end
+  object btPlay2: TButton
+    Left = 360
+    Height = 31
+    Top = 568
+    Width = 94
+    Caption = 'Play'
+    OnClick = btPlay2Click
+    TabOrder = 3
+    Visible = False
+  end
+  object btClear: TButton
+    Left = 128
+    Height = 31
+    Top = 568
+    Width = 94
+    Caption = 'Clear'
+    OnClick = btClearClick
+    TabOrder = 10
+    TabStop = False
+  end
+  object dlgOpen: TOpenDialog
+    left = 32
+    top = 176
+  end
+  object dlgSave: TSaveDialog
+    left = 664
+    top = 176
+  end
+  object tiMorseCode: TTimer
+    Enabled = False
+    Interval = 5
+    OnTimer = tiMorseCodeTimer
+    left = 760
+    top = 176
+  end
+end

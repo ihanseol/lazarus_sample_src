@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="printing8.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="9" Y="7"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="6">
+      <Position>
+        <Filename Value="printing8.lpr"/>
+        <Caret Line="11" Column="17"/>
+      </Position>
+      <Position>
+        <Filename Value="printing8.lpr"/>
+        <Caret Line="36" Column="62" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="printing8.lpr"/>
+        <Caret Line="17" Column="31" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="printing8.lpr"/>
+        <Caret Line="34" Column="66" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="printing8.lpr"/>
+        <Caret Line="22" Column="5" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="printing8.lpr"/>
+        <Caret Line="24" Column="15" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="printing8.lpr"/>
+        <Caret Line="31" Column="24" TopLine="13"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

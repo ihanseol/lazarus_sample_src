@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="imagesize.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="5">
+      <Position>
+        <Filename Value="imagesize.lpr"/>
+        <Caret Line="24" Column="13" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="imagesize.lpr"/>
+        <Caret Line="11" Column="13"/>
+      </Position>
+      <Position>
+        <Filename Value="imagesize.lpr"/>
+        <Caret Line="23" Column="35" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="imagesize.lpr"/>
+      </Position>
+      <Position>
+        <Filename Value="imagesize.lpr"/>
+        <Caret Line="23" Column="20" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="imagesize.lpr"/>
+        <Caret Line="52" Column="40" TopLine="25"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

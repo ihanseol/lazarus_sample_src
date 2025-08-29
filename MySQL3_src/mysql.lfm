@@ -1,0 +1,133 @@
+object fMySQL3: TfMySQL3
+  Left = 136
+  Height = 468
+  Top = 71
+  Width = 603
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Reading UTF-8 data from a MySQL database'
+  ClientHeight = 468
+  ClientWidth = 603
+  DesignTimePPI = 120
+  Font.Height = -17
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object StaticText1: TStaticText
+    Left = 51
+    Height = 30
+    Top = 10
+    Width = 500
+    Alignment = taCenter
+    Caption = 'Reading cities from the "world" databse.'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object edCountry: TEdit
+    Left = 296
+    Height = 31
+    Top = 392
+    Width = 174
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 10
+    Height = 23
+    Top = 396
+    Width = 277
+    Caption = 'Enter country code or country name'
+    ParentColor = False
+  end
+  object btQuery: TButton
+    Left = 498
+    Height = 31
+    Top = 392
+    Width = 94
+    Caption = 'Query'
+    OnClick = btQueryClick
+    TabOrder = 1
+  end
+  object edMess: TEdit
+    Left = 10
+    Height = 25
+    Top = 438
+    Width = 462
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object btExit: TButton
+    Left = 498
+    Height = 31
+    Top = 432
+    Width = 94
+    Caption = 'Exit'
+    OnClick = btExitClick
+    TabOrder = 2
+  end
+  object sgCities: TStringGrid
+    Left = 10
+    Height = 301
+    Top = 80
+    Width = 582
+    ColCount = 3
+    FixedCols = 0
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 41
+    ScrollBars = ssVertical
+    TabOrder = 5
+    TabStop = False
+    ColWidths = (
+      272
+      185
+      99
+    )
+    Cells = (
+      3
+      0
+      0
+      'City name'
+      1
+      0
+      'District'
+      2
+      0
+      'Population'
+    )
+  end
+  object laCountry: TLabel
+    Left = 10
+    Height = 23
+    Top = 48
+    Width = 327
+    Caption = 'Cities with more than 1 million inhabitants:'
+    ParentColor = False
+  end
+  object dbMySQLConnection: TMySQL57Connection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    Transaction = dbSQLTransaction
+    SkipLibraryVersionCheck = False
+    Left = 72
+    Top = 120
+  end
+  object dbSQLTransaction: TSQLTransaction
+    Active = False
+    Database = dbMySQLConnection
+    Left = 72
+    Top = 200
+  end
+  object dbSQLQuery: TSQLQuery
+    FieldDefs = <>
+    Database = dbMySQLConnection
+    Transaction = dbSQLTransaction
+    Params = <>
+    Left = 72
+    Top = 280
+  end
+end

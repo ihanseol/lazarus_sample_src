@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="MSACCESS.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="access.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fAccess"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="10">
+      <Position>
+        <Filename Value="access.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="access.pas"/>
+        <Caret Line="11" Column="39"/>
+      </Position>
+      <Position>
+        <Filename Value="access.pas"/>
+        <Caret Line="46" Column="3" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="access.pas"/>
+        <Caret Line="57" Column="3" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="access.pas"/>
+        <Caret Line="53" Column="19" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="access.pas"/>
+        <Caret Line="82" Column="38" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="MSACCESS.lpr"/>
+        <Caret Column="39"/>
+      </Position>
+      <Position>
+        <Filename Value="access.pas"/>
+        <Caret Line="87" TopLine="59"/>
+      </Position>
+      <Position>
+        <Filename Value="access.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="access.pas"/>
+        <Caret Line="64" Column="16" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="access.pas"/>
+        <Caret Line="87" TopLine="59"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

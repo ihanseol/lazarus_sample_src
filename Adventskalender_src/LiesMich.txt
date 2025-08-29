@@ -1,0 +1,14 @@
+Adventskalender.
+================
+
+Um eine Tür zu öffnen oder das, was sich dahinter befindet anzuschauen, bitte einen der grünen oder gelben
+Kreise doppelklicken. Die Türen können nur an dem entsprechenden Tag geöffnet werden. Türen, die man vergaß
+zu öffnen, bleiben für immer zu (roter Kreis). Um einen Text oder ein Bild zu schließen, einfach darin klicken.
+
+Der Inhalt hinter den geöffneten Türen wird als Dateien in den Ordnern "texte" und "bilder" abgelegt.
+
+Um den Kalender nächstes Jahr (mit allen Türen geschlossen) benutzen zu können, bitte die beiden Ordner "texte"
+und "bilder" löschen.
+
+Adventskalender, Version 1.0, © allu, November 2022.
+Quellcode frei downloadbar von https://www.streetinfo.lu/computing/lazarus/doc/Adventskalender.html

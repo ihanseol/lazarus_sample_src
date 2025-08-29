@@ -1,0 +1,15 @@
+Adenine         a      329.2100
+Guanine         g      345.2100
+Cytosine        c      305.1800
+Uracil          u      306.2000
+a, or c         m      --------
+a, or g         r      --------
+a, or u         w      --------
+c, or g         s      --------
+c, or u         y      --------
+g, or u         k      --------
+a, c, or g      v      --------
+a, c, or u      h      --------
+a, g, or u      d      --------
+c, g, or u      b      --------
+a, c, g, or u   n      --------

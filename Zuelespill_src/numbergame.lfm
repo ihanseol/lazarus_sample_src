@@ -1,0 +1,538 @@
+object fNumberGame: TfNumberGame
+  Left = 202
+  Height = 682
+  Top = 24
+  Width = 824
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Zuelespill'
+  ClientHeight = 657
+  ClientWidth = 824
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object btNumber1: TButton
+    Left = 80
+    Height = 31
+    Top = 370
+    Width = 48
+    OnClick = btNumber1Click
+    TabOrder = 16
+    TabStop = False
+  end
+  object memoRules: TMemo
+    Left = 13
+    Height = 336
+    Top = 8
+    Width = 798
+    Color = clCream
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'Dëse Programm  inspiréiert sech  un enger Spillshow,  déi am  franséische Fernseh leeft (gelaf ass): "Des chiffres et des lettres". Aus engem Set vun Zuelen, déi all Spillronn virgi ginn, muss de Spiller duurch schrëttweis Additioun, Sustraktioun, Multiplikatioun oder Divisioun eng ebenfalls virginn Zilzuel ermëttelen. Dobäi daerf a muss all Zahl an all Zwëschenergebnis just genau eemol benozt ginn.'
+      ''
+      'Beispill:'
+      '========='
+      ''
+      'Virginn Zuelen: 1, 2, 3, 4, 5, Zilzuel: 50'
+      ''
+      'Léisung (eng vu villäicht méi, déi méiglech sinn):'
+      ' 2  x  4  =   8'
+      ' 8  -  1  =   7'
+      ' 7  +  3  =  10'
+      '10  x  5  =  50'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 2
+    TabStop = False
+  end
+  object Label1: TLabel
+    Left = 13
+    Height = 23
+    Top = 374
+    Width = 58
+    Caption = 'Zuelen:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 675
+    Height = 23
+    Top = 374
+    Width = 57
+    Caption = 'Zilzuel:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edResult: TEdit
+    Left = 742
+    Height = 31
+    Top = 370
+    Width = 69
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 18
+  end
+  object Label3: TLabel
+    Left = 13
+    Height = 23
+    Top = 464
+    Width = 66
+    Caption = 'Léisung:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laSolution1: TLabel
+    Left = 56
+    Height = 23
+    Top = 500
+    Width = 13
+    Caption = '1.'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSolution1: TEdit
+    Left = 80
+    Height = 31
+    Top = 496
+    Width = 296
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 17
+  end
+  object laSolution2: TLabel
+    Left = 491
+    Height = 23
+    Top = 500
+    Width = 13
+    Caption = '2.'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSolution2: TEdit
+    Left = 515
+    Height = 31
+    Top = 496
+    Width = 296
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 19
+  end
+  object laSolution3: TLabel
+    Left = 56
+    Height = 23
+    Top = 540
+    Width = 13
+    Caption = '3.'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSolution3: TEdit
+    Left = 80
+    Height = 31
+    Top = 536
+    Width = 296
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 20
+  end
+  object laSolution4: TLabel
+    Left = 491
+    Height = 23
+    Top = 540
+    Width = 13
+    Caption = '4.'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSolution4: TEdit
+    Left = 515
+    Height = 31
+    Top = 536
+    Width = 296
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 21
+  end
+  object laSolution5: TLabel
+    Left = 56
+    Height = 23
+    Top = 580
+    Width = 13
+    Caption = '5.'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object edSolution5: TEdit
+    Left = 80
+    Height = 31
+    Top = 576
+    Width = 296
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 22
+    Visible = False
+  end
+  object laSolution6: TLabel
+    Left = 491
+    Height = 23
+    Top = 580
+    Width = 13
+    Caption = '6.'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object edSolution6: TEdit
+    Left = 515
+    Height = 31
+    Top = 576
+    Width = 296
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 23
+    Visible = False
+  end
+  object laSolution7: TLabel
+    Left = 56
+    Height = 23
+    Top = 620
+    Width = 13
+    Caption = '7.'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object edSolution7: TEdit
+    Left = 80
+    Height = 31
+    Top = 616
+    Width = 296
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 24
+    Visible = False
+  end
+  object btQuestion: TButton
+    Left = 717
+    Height = 31
+    Top = 616
+    Width = 94
+    Caption = 'Fro'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object btNumber2: TButton
+    Left = 144
+    Height = 31
+    Top = 370
+    Width = 48
+    OnClick = btNumber2Click
+    TabOrder = 3
+    TabStop = False
+  end
+  object btNumber3: TButton
+    Left = 208
+    Height = 31
+    Top = 370
+    Width = 48
+    OnClick = btNumber3Click
+    TabOrder = 4
+    TabStop = False
+  end
+  object btNumber4: TButton
+    Left = 272
+    Height = 31
+    Top = 370
+    Width = 48
+    OnClick = btNumber4Click
+    TabOrder = 5
+    TabStop = False
+  end
+  object btNumber5: TButton
+    Left = 336
+    Height = 31
+    Top = 370
+    Width = 48
+    OnClick = btNumber5Click
+    TabOrder = 6
+    TabStop = False
+  end
+  object btNumber6: TButton
+    Left = 400
+    Height = 31
+    Top = 370
+    Width = 48
+    OnClick = btNumber6Click
+    TabOrder = 7
+    TabStop = False
+    Visible = False
+  end
+  object btNumber7: TButton
+    Left = 464
+    Height = 31
+    Top = 370
+    Width = 48
+    OnClick = btNumber7Click
+    TabOrder = 8
+    TabStop = False
+    Visible = False
+  end
+  object btNumber8: TButton
+    Left = 528
+    Height = 31
+    Top = 370
+    Width = 48
+    OnClick = btNumber8Click
+    TabOrder = 9
+    TabStop = False
+    Visible = False
+  end
+  object btPlus: TButton
+    Left = 80
+    Height = 31
+    Hint = 'Plus'
+    Top = 416
+    Width = 48
+    Caption = '+'
+    Font.Style = [fsBold]
+    OnClick = btPlusClick
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 10
+    TabStop = False
+  end
+  object btMinus: TButton
+    Left = 144
+    Height = 31
+    Hint = 'Minus'
+    Top = 416
+    Width = 48
+    Caption = '-'
+    Font.Style = [fsBold]
+    OnClick = btMinusClick
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 11
+    TabStop = False
+  end
+  object btMult: TButton
+    Left = 208
+    Height = 31
+    Hint = 'Mol'
+    Top = 416
+    Width = 48
+    Caption = 'x'
+    Font.Style = [fsBold]
+    OnClick = btMultClick
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 12
+    TabStop = False
+  end
+  object btDiv: TButton
+    Left = 272
+    Height = 31
+    Hint = 'Gedeelt'
+    Top = 416
+    Width = 48
+    Caption = ':'
+    Enabled = False
+    Font.Style = [fsBold]
+    OnClick = btDivClick
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 15
+    TabStop = False
+  end
+  object btAnswer: TButton
+    Left = 608
+    Height = 31
+    Top = 616
+    Width = 94
+    Caption = 'Léisung'
+    Enabled = False
+    OnClick = btAnswerClick
+    TabOrder = 1
+  end
+  object btCA: TButton
+    Left = 400
+    Height = 31
+    Hint = 'Alles löschen'
+    Top = 416
+    Width = 48
+    Caption = 'CA'
+    OnClick = btCAClick
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 14
+    TabStop = False
+  end
+  object btCE: TButton
+    Left = 336
+    Height = 31
+    Hint = 'Lescht entrée löschen'
+    Top = 416
+    Width = 48
+    Caption = 'CE'
+    OnClick = btCEClick
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 13
+    TabStop = False
+  end
+  object Label4: TLabel
+    Left = 576
+    Height = 23
+    Top = 420
+    Width = 156
+    Caption = 'Richteg Äntwerten:'
+    Font.Color = clBlue
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCorrect: TEdit
+    Left = 742
+    Height = 31
+    Top = 416
+    Width = 69
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 25
+  end
+  object mMenu: TMainMenu
+    left = 752
+    top = 280
+    object mGame: TMenuItem
+      Caption = 'Spill'
+      object mGameNew: TMenuItem
+        Caption = 'Neit Spill'
+        OnClick = mGameNewClick
+      end
+      object mGameExit: TMenuItem
+        Caption = 'Verloossen'
+        OnClick = mGameExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Astellungen'
+      object mSettingsNumbers: TMenuItem
+        Caption = 'Zuelen'
+        object mSettingsNumbers4: TMenuItem
+          Caption = '4'
+          OnClick = mSettingsNumbers4Click
+        end
+        object mSettingsNumbers5: TMenuItem
+          Caption = '5'
+          Checked = True
+          OnClick = mSettingsNumbers5Click
+        end
+        object mSettingsNumbers6: TMenuItem
+          Caption = '6'
+          OnClick = mSettingsNumbers6Click
+        end
+        object mSettingsNumbers8: TMenuItem
+          Caption = '8'
+          OnClick = mSettingsNumbers8Click
+        end
+      end
+      object mSettingsMax: TMenuItem
+        Caption = 'Maximum'
+        object mSettingsMax10: TMenuItem
+          Caption = '  10'
+          OnClick = mSettingsMax10Click
+        end
+        object mSettingsMax20: TMenuItem
+          Caption = '  20'
+          Checked = True
+          OnClick = mSettingsMax20Click
+        end
+        object mSettingsMax50: TMenuItem
+          Caption = '  50'
+          OnClick = mSettingsMax50Click
+        end
+        object mSettingsMax100: TMenuItem
+          Caption = '100'
+          OnClick = mSettingsMax100Click
+        end
+      end
+      object mSettingsOperators: TMenuItem
+        Caption = 'Opérateuren'
+        object mSettingsOperators1: TMenuItem
+          Caption = 'Plus a Minus'
+          OnClick = mSettingsOperators1Click
+        end
+        object mSettingsOperators2: TMenuItem
+          Caption = 'Plus, Minus a Mol'
+          Checked = True
+          OnClick = mSettingsOperators2Click
+        end
+        object mSettingsOperators3: TMenuItem
+          Caption = 'Plus, Minus, Mol a Gedeelt'
+          OnClick = mSettingsOperators3Click
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Hëllef'
+      object mHelpAbout: TMenuItem
+        Caption = 'Info'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object pnAbout: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Text = 'Text'
+    Title = 'Zuelespill.'
+    Visible = False
+    left = 680
+    top = 280
+  end
+end

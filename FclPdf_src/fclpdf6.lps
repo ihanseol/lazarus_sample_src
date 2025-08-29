@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="fclpdf6.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="5">
+      <Position>
+        <Filename Value="fclpdf6.lpr"/>
+        <Caret Line="40" Column="23" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf6.lpr"/>
+        <Caret Line="32" Column="25" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf6.lpr"/>
+        <Caret Line="19" Column="33" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf6.lpr"/>
+        <Caret Line="21" Column="29" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf6.lpr"/>
+        <Caret Line="75" Column="36" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf6.lpr"/>
+        <Caret Line="66" TopLine="42"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

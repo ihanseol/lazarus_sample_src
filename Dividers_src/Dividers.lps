@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="Dividers.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="67"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="divider.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fDividers"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="67"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="c:\Programs\lazarus\win64\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9603"/>
+        <CursorPos Y="9617"/>
+        <UsageCount Value="8"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="19" HistoryIndex="18">
+      <Position1>
+        <Filename Value="Dividers.lpr"/>
+        <Caret Line="2" Column="18"/>
+      </Position1>
+      <Position2>
+        <Filename Value="divider.pas"/>
+        <Caret Line="463" Column="20" TopLine="442"/>
+      </Position2>
+      <Position3>
+        <Filename Value="help.pas"/>
+        <Caret Line="25" TopLine="20"/>
+      </Position3>
+      <Position4>
+        <Filename Value="help.pas"/>
+        <Caret Line="44" Column="8" TopLine="17"/>
+      </Position4>
+      <Position5>
+        <Filename Value="divider.pas"/>
+        <Caret Line="2" Column="20"/>
+      </Position5>
+      <Position6>
+        <Filename Value="divider.pas"/>
+        <Caret Line="280" Column="39" TopLine="266"/>
+      </Position6>
+      <Position7>
+        <Filename Value="divider.pas"/>
+        <Caret Line="172" TopLine="172"/>
+      </Position7>
+      <Position8>
+        <Filename Value="divider.pas"/>
+        <Caret Line="1257" TopLine="1253"/>
+      </Position8>
+      <Position9>
+        <Filename Value="divider.pas"/>
+        <Caret Line="294" TopLine="269"/>
+      </Position9>
+      <Position10>
+        <Filename Value="divider.pas"/>
+      </Position10>
+      <Position11>
+        <Filename Value="divider.pas"/>
+        <Caret Line="416" Column="53" TopLine="393"/>
+      </Position11>
+      <Position12>
+        <Filename Value="divider.pas"/>
+        <Caret Line="420" Column="101" TopLine="397"/>
+      </Position12>
+      <Position13>
+        <Filename Value="divider.pas"/>
+        <Caret Line="431" Column="54" TopLine="408"/>
+      </Position13>
+      <Position14>
+        <Filename Value="divider.pas"/>
+        <Caret Line="435" Column="103" TopLine="412"/>
+      </Position14>
+      <Position15>
+        <Filename Value="divider.pas"/>
+        <Caret Line="446" Column="53" TopLine="423"/>
+      </Position15>
+      <Position16>
+        <Filename Value="divider.pas"/>
+        <Caret Line="448" Column="104" TopLine="425"/>
+      </Position16>
+      <Position17>
+        <Filename Value="divider.pas"/>
+        <Caret Line="529" Column="113" TopLine="506"/>
+      </Position17>
+      <Position18>
+        <Filename Value="divider.pas"/>
+        <Caret Line="761" Column="30" TopLine="736"/>
+      </Position18>
+      <Position19>
+        <Filename Value="divider.pas"/>
+        <Caret Line="1268" TopLine="1241"/>
+      </Position19>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

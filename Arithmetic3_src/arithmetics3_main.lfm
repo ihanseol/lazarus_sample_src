@@ -1,0 +1,271 @@
+object FormArithmetic3: TFormArithmetic3
+  Left = 262
+  Height = 325
+  Top = 146
+  Width = 651
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Arithmetik Aufgaben'
+  ClientHeight = 300
+  ClientWidth = 651
+  DesignTimePPI = 120
+  Menu = MainMenu
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object QuestionN: TEdit
+    Left = 24
+    Height = 25
+    Top = 64
+    Width = 60
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object QuestionTxt: TMemo
+    Left = 24
+    Height = 116
+    Top = 104
+    Width = 456
+    Color = cl3DLight
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 2
+    TabStop = False
+  end
+  object Label1: TLabel
+    Left = 512
+    Height = 17
+    Top = 104
+    Width = 39
+    Caption = 'Richtig'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object AnswersCorrect: TEdit
+    Left = 512
+    Height = 25
+    Top = 128
+    Width = 46
+    Alignment = taRightJustify
+    Color = cl3DLight
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object Label2: TLabel
+    Left = 584
+    Height = 17
+    Top = 104
+    Width = 35
+    Caption = 'Falsch'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object AnswersFalse: TEdit
+    Left = 584
+    Height = 25
+    Top = 128
+    Width = 46
+    Alignment = taRightJustify
+    Color = cl3DLight
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object Label3: TLabel
+    Left = 512
+    Height = 17
+    Top = 168
+    Width = 35
+    Caption = 'Erfolg'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object AnswersPercent: TEdit
+    Left = 512
+    Height = 25
+    Top = 192
+    Width = 46
+    Alignment = taRightJustify
+    Color = cl3DLight
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object Label4: TLabel
+    Left = 24
+    Height = 17
+    Top = 261
+    Width = 50
+    Caption = 'Resultat'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Answer: TEdit
+    Left = 88
+    Height = 25
+    Top = 257
+    Width = 59
+    Alignment = taRightJustify
+    Font.Height = -13
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button0: TButton
+    Left = 362
+    Height = 25
+    Top = 257
+    Width = 118
+    Caption = 'Frage 1'
+    Font.Style = [fsBold]
+    OnClick = Button0Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object AnswerEval: TEdit
+    Left = 166
+    Height = 25
+    Top = 257
+    Width = 176
+    Color = cl3DLight
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object Title: TLabel
+    Left = 24
+    Height = 17
+    Top = 10
+    Width = 359
+    Caption = 'Arithmetik Aufgaben: Die Kinder zählen die Autos - Test 2'
+    Font.Height = -13
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object QMemo: TMemo
+    Left = 584
+    Height = 28
+    Top = 192
+    Width = 46
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 8
+    TabStop = False
+    Visible = False
+  end
+  object MainMenu: TMainMenu
+    left = 592
+    top = 8
+    object MenuArithmetic3: TMenuItem
+      Caption = 'Aufgaben'
+      object MenuItemArithmetic3Display: TMenuItem
+        Caption = 'Aufgabenbeispiele anzeigen'
+        OnClick = MenuItemArithmetic3DisplayClick
+      end
+      object MenuItemArithmetic3Test1: TMenuItem
+        Caption = 'Test 1 (alle Aufgabenbeispiele)'
+        OnClick = MenuItemArithmetic3Test1Click
+      end
+      object MenuItemArithmetic3Test2: TMenuItem
+        Caption = 'Test 2 (zufällige Aufgaben Auswahl)'
+        OnClick = MenuItemArithmetic3Test2Click
+      end
+      object MenuItemArithmetic3Exit: TMenuItem
+        Caption = 'Programm verlassen'
+        OnClick = MenuItemArithmetic3ExitClick
+      end
+    end
+    object MenuSettings: TMenuItem
+      Caption = 'Einstellungen'
+      object MenuSettingsTQ: TMenuItem
+        Caption = 'Test 2 Aufgaben = 25'
+        object MenuSettingsTQChange: TMenuItem
+          Caption = 'Ändern...'
+          OnClick = MenuSettingsTQChangeClick
+        end
+      end
+      object MenuSettingsTypes: TMenuItem
+        Caption = 'Aufgaben Auswahl'
+        object MenuSettingsType1: TMenuItem
+          Caption = 'Addition/Subtraktion'
+          Checked = True
+          OnClick = MenuSettingsType1Click
+        end
+        object MenuSettingsType2: TMenuItem
+          Caption = 'Brüche (Typ 1)'
+          Checked = True
+          OnClick = MenuSettingsType2Click
+        end
+        object MenuSettingsType3: TMenuItem
+          Caption = 'Vielfache (Typ 1)'
+          Checked = True
+          OnClick = MenuSettingsType3Click
+        end
+        object MenuSettingsType4: TMenuItem
+          Caption = 'Brüche (Typ 2)'
+          Checked = True
+          OnClick = MenuSettingsType4Click
+        end
+        object MenuSettingsType5: TMenuItem
+          Caption = 'Vielfache (Typ 2)'
+          Checked = True
+          OnClick = MenuSettingsType5Click
+        end
+      end
+    end
+    object MenuExtras: TMenuItem
+      Caption = 'Extras'
+      object MenuExtrasFile: TMenuItem
+        Caption = 'Beispielaufgaben Textdatei erstellen'
+        OnClick = MenuExtrasFileClick
+      end
+    end
+    object MenuHelp: TMenuItem
+      Caption = 'Hilfe'
+      object MenuHelpHelp: TMenuItem
+        Caption = 'Hilfe'
+        OnClick = MenuHelpHelpClick
+      end
+      object MenuHelpInfo: TMenuItem
+        Caption = 'Info'
+        OnClick = MenuHelpInfoClick
+      end
+    end
+  end
+  object PAbout: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Title = 'Arithmetic3 Info'
+    Visible = False
+    left = 520
+    top = 8
+  end
+  object QSave: TSaveDialog
+    Title = 'Beispielfragen abspeichern'
+    DefaultExt = '.txt'
+    left = 456
+    top = 8
+  end
+end

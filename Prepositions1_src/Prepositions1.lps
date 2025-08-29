@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Prepositions1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="4" Y="2"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="prepositions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fPrepositions"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="173" Column="14" TopLine="164"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="307" Column="3" TopLine="301"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="150" Column="95" TopLine="143"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="15" Column="32"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="60" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="320" Column="19" TopLine="306"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="120" Column="22" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="138" Column="22" TopLine="123"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="93" Column="29" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="108" Column="39" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="85" Column="25" TopLine="85"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="128" Column="34" TopLine="114"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="140" Column="44" TopLine="118"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="77" Column="46" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="295" Column="25" TopLine="295"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="345" Column="76" TopLine="325"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="193" Column="14" TopLine="189"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="364" Column="13" TopLine="342"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="192" Column="80" TopLine="182"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="152" TopLine="136"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="324" Column="25" TopLine="306"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="223" Column="12" TopLine="211"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="202" TopLine="176"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="342" Column="31" TopLine="332"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="307" Column="76" TopLine="295"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="352" Column="84" TopLine="337"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="173" Column="50" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="370" Column="64" TopLine="358"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="405" Column="64" TopLine="387"/>
+      </Position>
+      <Position>
+        <Filename Value="prepositions.pas"/>
+        <Caret Line="360" Column="43" TopLine="352"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

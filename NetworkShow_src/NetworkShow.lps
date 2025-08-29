@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="7">
+      <Unit0>
+        <Filename Value="NetworkShow.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="3" Y="15"/>
+        <UsageCount Value="84"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="net.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fNetShow"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="84"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="cmd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fCmd"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="81"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="59"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="tools.pas"/>
+        <ComponentName Value="fTools"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="53"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\Programs\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="961"/>
+        <CursorPos Y="973"/>
+        <UsageCount Value="7"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="c:\Programs\lazarus\win64\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2919"/>
+        <CursorPos Y="2931"/>
+        <UsageCount Value="7"/>
+      </Unit6>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="net.pas"/>
+        <Caret Line="274" Column="20" TopLine="252"/>
+      </Position1>
+      <Position2>
+        <Filename Value="net.pas"/>
+        <Caret Line="303" Column="20" TopLine="281"/>
+      </Position2>
+      <Position3>
+        <Filename Value="net.pas"/>
+        <Caret Line="309" Column="20" TopLine="287"/>
+      </Position3>
+      <Position4>
+        <Filename Value="net.pas"/>
+        <Caret Line="320" Column="20" TopLine="298"/>
+      </Position4>
+      <Position5>
+        <Filename Value="net.pas"/>
+        <Caret Line="324" Column="15" TopLine="302"/>
+      </Position5>
+      <Position6>
+        <Filename Value="net.pas"/>
+        <Caret Line="331" Column="20" TopLine="309"/>
+      </Position6>
+      <Position7>
+        <Filename Value="net.pas"/>
+        <Caret Line="338" Column="13" TopLine="316"/>
+      </Position7>
+      <Position8>
+        <Filename Value="net.pas"/>
+        <Caret Line="340" Column="33" TopLine="318"/>
+      </Position8>
+      <Position9>
+        <Filename Value="net.pas"/>
+        <Caret Line="345" Column="20" TopLine="323"/>
+      </Position9>
+      <Position10>
+        <Filename Value="net.pas"/>
+        <Caret Line="135" Column="26" TopLine="110"/>
+      </Position10>
+      <Position11>
+        <Filename Value="net.pas"/>
+        <Caret Line="121" Column="22" TopLine="109"/>
+      </Position11>
+      <Position12>
+        <Filename Value="net.pas"/>
+        <Caret Line="87" Column="7" TopLine="82"/>
+      </Position12>
+      <Position13>
+        <Filename Value="net.pas"/>
+        <Caret Line="128" Column="19" TopLine="115"/>
+      </Position13>
+      <Position14>
+        <Filename Value="net.pas"/>
+        <Caret Line="115" Column="11" TopLine="93"/>
+      </Position14>
+      <Position15>
+        <Filename Value="net.pas"/>
+        <Caret Line="92" Column="15" TopLine="66"/>
+      </Position15>
+      <Position16>
+        <Filename Value="net.pas"/>
+        <Caret Line="90" Column="14" TopLine="77"/>
+      </Position16>
+      <Position17>
+        <Filename Value="net.pas"/>
+        <Caret Line="110" Column="27" TopLine="84"/>
+      </Position17>
+      <Position18>
+        <Filename Value="net.pas"/>
+        <Caret Line="87" Column="13" TopLine="83"/>
+      </Position18>
+      <Position19>
+        <Filename Value="net.pas"/>
+        <Caret Line="117" Column="3" TopLine="94"/>
+      </Position19>
+      <Position20>
+        <Filename Value="net.pas"/>
+        <Caret Line="103" Column="8" TopLine="94"/>
+      </Position20>
+      <Position21>
+        <Filename Value="net.pas"/>
+        <Caret Line="513" TopLine="487"/>
+      </Position21>
+      <Position22>
+        <Filename Value="cmd.pas"/>
+        <Caret Line="22" TopLine="18"/>
+      </Position22>
+      <Position23>
+        <Filename Value="help.pas"/>
+        <Caret Line="3" Column="40"/>
+      </Position23>
+      <Position24>
+        <Filename Value="help.pas"/>
+        <Caret Line="44" TopLine="18"/>
+      </Position24>
+      <Position25>
+        <Filename Value="net.pas"/>
+        <Caret Line="123" Column="117" TopLine="119"/>
+      </Position25>
+      <Position26>
+        <Filename Value="net.pas"/>
+        <Caret Line="94" Column="15" TopLine="89"/>
+      </Position26>
+      <Position27>
+        <Filename Value="help.pas"/>
+        <Caret Line="8" Column="11"/>
+      </Position27>
+      <Position28>
+        <Filename Value="net.pas"/>
+        <Caret Line="367" Column="75" TopLine="347"/>
+      </Position28>
+      <Position29>
+        <Filename Value="net.pas"/>
+      </Position29>
+      <Position30>
+        <Filename Value="net.pas"/>
+        <Caret Line="359" Column="8" TopLine="337"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

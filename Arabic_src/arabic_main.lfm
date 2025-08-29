@@ -1,0 +1,434 @@
+object fArabic: TfArabic
+  Left = 220
+  Height = 375
+  Top = 195
+  Width = 641
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'The Arabic Alphabet'
+  ClientHeight = 350
+  ClientWidth = 641
+  DesignTimePPI = 120
+  Font.Height = -18
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object StaticText1: TStaticText
+    Left = 109
+    Height = 30
+    Top = 5
+    Width = 422
+    Alignment = taCenter
+    Caption = 'Learn the Arabic alphabet.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 31
+  end
+  object laName: TLabel
+    Left = 8
+    Height = 25
+    Top = 60
+    Width = 93
+    Caption = 'Letter name'
+  end
+  object edName: TEdit
+    Left = 112
+    Height = 33
+    Top = 56
+    Width = 100
+    TabOrder = 1
+  end
+  object laLetter: TLabel
+    Left = 328
+    Height = 25
+    Top = 60
+    Width = 44
+    Caption = 'Letter'
+  end
+  object edLetter: TEdit
+    Left = 380
+    Height = 33
+    Top = 56
+    Width = 40
+    Alignment = taCenter
+    TabOrder = 3
+  end
+  object bt01: TButton
+    Left = 8
+    Height = 50
+    Top = 110
+    Width = 50
+    Caption = 'bt01'
+    OnClick = bt01Click
+    TabOrder = 20
+    TabStop = False
+  end
+  object bt02: TButton
+    Left = 72
+    Height = 50
+    Top = 110
+    Width = 50
+    Caption = 'bt02'
+    OnClick = bt02Click
+    TabOrder = 21
+    TabStop = False
+  end
+  object bt03: TButton
+    Left = 136
+    Height = 50
+    Top = 110
+    Width = 50
+    Caption = 'bt03'
+    OnClick = bt03Click
+    TabOrder = 22
+    TabStop = False
+  end
+  object bt04: TButton
+    Left = 200
+    Height = 50
+    Top = 110
+    Width = 50
+    Caption = 'bt04'
+    OnClick = bt04Click
+    TabOrder = 23
+    TabStop = False
+  end
+  object bt05: TButton
+    Left = 264
+    Height = 50
+    Top = 110
+    Width = 50
+    Caption = 'bt05'
+    OnClick = bt05Click
+    TabOrder = 24
+    TabStop = False
+  end
+  object bt06: TButton
+    Left = 328
+    Height = 50
+    Top = 110
+    Width = 50
+    Caption = 'bt06'
+    OnClick = bt06Click
+    TabOrder = 25
+    TabStop = False
+  end
+  object bt07: TButton
+    Left = 392
+    Height = 50
+    Top = 110
+    Width = 50
+    Caption = 'bt07'
+    OnClick = bt07Click
+    TabOrder = 26
+    TabStop = False
+  end
+  object bt08: TButton
+    Left = 456
+    Height = 50
+    Top = 110
+    Width = 50
+    Caption = 'bt08'
+    OnClick = bt08Click
+    TabOrder = 27
+    TabStop = False
+  end
+  object bt09: TButton
+    Left = 520
+    Height = 50
+    Top = 110
+    Width = 50
+    Caption = 'bt09'
+    OnClick = bt09Click
+    TabOrder = 4
+    TabStop = False
+  end
+  object bt10: TButton
+    Left = 584
+    Height = 50
+    Top = 110
+    Width = 50
+    Caption = 'bt10'
+    OnClick = bt10Click
+    TabOrder = 28
+    TabStop = False
+  end
+  object bt11: TButton
+    Left = 8
+    Height = 50
+    Top = 172
+    Width = 50
+    Caption = 'bt11'
+    OnClick = bt11Click
+    TabOrder = 29
+    TabStop = False
+  end
+  object bt12: TButton
+    Left = 72
+    Height = 50
+    Top = 172
+    Width = 50
+    Caption = 'bt12'
+    OnClick = bt12Click
+    TabOrder = 30
+    TabStop = False
+  end
+  object bt13: TButton
+    Left = 136
+    Height = 50
+    Top = 172
+    Width = 50
+    Caption = 'bt13'
+    OnClick = bt13Click
+    TabOrder = 33
+    TabStop = False
+  end
+  object bt14: TButton
+    Left = 200
+    Height = 50
+    Top = 172
+    Width = 50
+    Caption = 'bt14'
+    OnClick = bt14Click
+    TabOrder = 5
+    TabStop = False
+  end
+  object bt15: TButton
+    Left = 264
+    Height = 50
+    Top = 172
+    Width = 50
+    Caption = 'bt15'
+    OnClick = bt15Click
+    TabOrder = 6
+    TabStop = False
+  end
+  object bt16: TButton
+    Left = 328
+    Height = 50
+    Top = 172
+    Width = 50
+    Caption = 'bt16'
+    OnClick = bt16Click
+    TabOrder = 7
+    TabStop = False
+  end
+  object bt17: TButton
+    Left = 392
+    Height = 50
+    Top = 172
+    Width = 50
+    Caption = 'bt17'
+    OnClick = bt17Click
+    TabOrder = 8
+    TabStop = False
+  end
+  object bt18: TButton
+    Left = 456
+    Height = 50
+    Top = 172
+    Width = 50
+    Caption = 'bt18'
+    OnClick = bt18Click
+    TabOrder = 9
+    TabStop = False
+  end
+  object bt19: TButton
+    Left = 520
+    Height = 50
+    Top = 172
+    Width = 50
+    Caption = 'bt19'
+    OnClick = bt19Click
+    TabOrder = 10
+    TabStop = False
+  end
+  object bt20: TButton
+    Left = 584
+    Height = 50
+    Top = 172
+    Width = 50
+    Caption = 'bt20'
+    OnClick = bt20Click
+    TabOrder = 11
+    TabStop = False
+  end
+  object bt21: TButton
+    Left = 8
+    Height = 50
+    Top = 236
+    Width = 50
+    Caption = 'bt21'
+    OnClick = bt21Click
+    TabOrder = 12
+    TabStop = False
+  end
+  object bt22: TButton
+    Left = 72
+    Height = 50
+    Top = 236
+    Width = 50
+    Caption = 'bt22'
+    OnClick = bt22Click
+    TabOrder = 13
+    TabStop = False
+  end
+  object bt23: TButton
+    Left = 136
+    Height = 50
+    Top = 236
+    Width = 50
+    Caption = 'bt23'
+    OnClick = bt23Click
+    TabOrder = 14
+    TabStop = False
+  end
+  object bt24: TButton
+    Left = 200
+    Height = 50
+    Top = 236
+    Width = 50
+    Caption = 'bt24'
+    OnClick = bt24Click
+    TabOrder = 18
+    TabStop = False
+  end
+  object bt25: TButton
+    Left = 264
+    Height = 50
+    Top = 236
+    Width = 50
+    Caption = 'bt25'
+    OnClick = bt25Click
+    TabOrder = 19
+    TabStop = False
+  end
+  object btQuestion: TButton
+    Left = 540
+    Height = 33
+    Top = 312
+    Width = 94
+    Caption = 'Start'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object edEval: TEdit
+    Left = 8
+    Height = 33
+    Top = 312
+    Width = 306
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 34
+  end
+  object btCancel: TButton
+    Left = 431
+    Height = 33
+    Top = 312
+    Width = 94
+    Caption = 'Cancel'
+    OnClick = btCancelClick
+    TabOrder = 32
+    TabStop = False
+  end
+  object bt26: TButton
+    Left = 328
+    Height = 50
+    Top = 236
+    Width = 50
+    Caption = 'bt26'
+    OnClick = bt26Click
+    TabOrder = 15
+    TabStop = False
+  end
+  object bt27: TButton
+    Left = 392
+    Height = 50
+    Top = 236
+    Width = 50
+    Caption = 'bt27'
+    OnClick = bt27Click
+    TabOrder = 17
+    TabStop = False
+  end
+  object bt28: TButton
+    Left = 456
+    Height = 50
+    Top = 236
+    Width = 50
+    Caption = 'bt28'
+    OnClick = bt28Click
+    TabOrder = 16
+    TabStop = False
+  end
+  object cobName: TComboBox
+    Left = 112
+    Height = 33
+    Top = 56
+    Width = 100
+    ItemHeight = 25
+    Style = csDropDownList
+    TabOrder = 2
+  end
+  object mMenu: TMainMenu
+    Left = 600
+    Top = 8
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileLetters: TMenuItem
+        Caption = 'Arabic letters'
+        OnClick = mFileLettersClick
+      end
+      object mFileNames: TMenuItem
+        Caption = 'Letter names'
+        OnClick = mFileNamesClick
+      end
+      object mFileTransliteration: TMenuItem
+        Caption = 'Transliteration'
+        OnClick = mFileTransliterationClick
+      end
+      object mFilePhonetics: TMenuItem
+        Caption = 'Phonetics'
+        OnClick = mFilePhoneticsClick
+      end
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsForm: TMenuItem
+        Caption = 'Letter form'
+        object mOptionsFormIsolated: TMenuItem
+          Caption = 'Isolated'
+          Checked = True
+          OnClick = mOptionsFormIsolatedClick
+        end
+        object mOptionsFormInitial: TMenuItem
+          Caption = 'Initial'
+          OnClick = mOptionsFormInitialClick
+        end
+        object mOptionsFormMiddle: TMenuItem
+          Caption = 'Middle'
+          OnClick = mOptionsFormMiddleClick
+        end
+        object mOptionsFormFinal: TMenuItem
+          Caption = 'Final'
+          OnClick = mOptionsFormFinalClick
+        end
+      end
+      object mOptionsRepeat: TMenuItem
+        Caption = 'Repeat wrong answers'
+        OnClick = mOptionsRepeatClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

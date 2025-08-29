@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <title>Kidspuzzle help</title>
+  <meta name="description" content="Help text for Lazarus/Free Pascal application 'Kidspuzzle'"/>
+  <style type="text/css"><!--
+    a:link { color:#000000; text-decoration: none }
+    a:hover { font-weight: bold }
+  //--></style>
+</head>
+
+<body style="margin: 0; padding: 0; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.9em; background-color: #FFEBCD; color: #000000;">
+  <div id="nav" style="float: left; padding: 8px; width: 15%; position: fixed">
+  <p style="text-decoration: underline">
+    <a href="#top">Content:</a>
+  </p>
+  <p style="padding-top:10px">
+    <a href="#puzzle">Menu: Puzzle</a>
+  </p>
+  <p>
+    <a href="#update">Menu: Update</a>
+  </p>
+  <p>
+    <a href="#options">Menu: Options</a>
+  </p>
+  <p>
+    <a href="#help">Menu: Help</a>
+  </p>
+  <p style="padding-top:10px">
+    <a href="#run">Doing the puzzle</a>
+  </p>
+  <p style="padding-top:10px">
+    <a href="#version">Version compatibility</a>
+  </p>
+  <p style="padding-top:10px">
+    <a href="mailto:info@streetinfo.lu">Contact</a>
+  </p>
+  </div>
+  <div id="content" style="float: right; padding: 8px; width: 85%; background-color: #FFF8DC">
+  <a name="top"><h1 style="margin: 0; padding: 0; font-style: italic">Kidspuzzle Help.</h1></a>
+  <p style="padding-top:10px; text-align: justify">
+    <span style="font-style: italic">Kidspuzzle</span> is a classic puzzle game for PC: Try to order the puzzle pieces in order to recreate the puzzle picture, in a similar
+    way as you would do with a "real" puzzle. The application is intended to be for children: puzzle pictures are motifs of the kids-world and the number of puzzle pieces is
+    kept small, for several of the available puzzles even very small, so that the program can even be useful to the youngest ones.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="puzzle">Menu: Puzzle.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    New ...
+  </p>
+  <p style="text-align: justify">
+    Loading a new puzzle. A dialog box opens and the user chooses the puzzle by browsing the file system and selecting the folder, containing the puzzle files. The name of these
+    folders always starts with Pnnn, where nnn is the number of pieces of the puzzle.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Open ...
+  </p>
+  <p style="text-align: justify">
+    Opens a Kidspuzzle state file and loads a puzzle, saved before, at the state, it was, when it was saved. A dialog box opens and the user chooses the file by browsing the file
+    system and selecting the file, containing the puzzle state information. Unless you chose another one, these files have the extension .kps. If the state file is deleted or
+    not, depends on the settings made in the <span style="font-weight: bold">Options</span> menu.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Save As ...
+  </p>
+  <p style="text-align: justify">
+    Saves the current state of a puzzle to a Kidspuzzle state file. A dialog box opens and the user saves the file by browsing the file system and entering a filename. If no file
+    extension is specified, .kps is used. If you may or may not override existing files, depends on the settings made in the <span style="font-weight: bold">Options</span> menu.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Exit.
+  </p>
+  <p style="text-align: justify">
+    Exit the <span style="font-style: italic">Kidspuzzle</span> application.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="update">Menu: Update.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Puzzle download.
+  </p>
+  <p style="text-align: justify">
+    Opens your web browser, pointed to the <a href="https://www.streetinfo.lu/computing/lazarus/files/data/Kidspuzzle/" target="_new"><span style="color: #0000FF"><span
+    style="font-style: italic">Kidspuzzle</span> download directory</span></a> on www.streetinfo.lu. The puzzles are stored as ZIP archives, containing the configuration
+    file and the puzzle piece pictures. All files start with Pnnn, where nnn indicates the number of pieces. P016 - Merry Xmas_3.0.7 contains the 16-pieces <span style="font-style:
+    italic">Merry Xmas</span> puzzle, included within the version 4.0 application download archive. All files end with a version number of the form m.s.u. Please, have a look at
+    <a href="#version"><span style="color: #0000FF">Version compatibility</span></a> below for details.
+  </p>
+  <p style="text-align: justify">
+    Choose a puzzle and download the .zip file on your hard drive. Extract the puzzle folder with its content to any location, you like. If you now run the <span
+    style="font-style: italic">Kidspuzzle</span> application, choose <span style="font-weight: bold">New</span> in the <span style="font-weight: bold">Puzzle</span> menu and
+    select the folder, that you extracted, in the dialog box. The newly downloaded puzzle should be loaded correctly. The .zip file itself is no longer needed and may be deleted.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="options">Menu: Options.</a>
+  </p>
+  <p>
+    The selections, that you make in this menu, are written to the file kidspuzzle.conf, that is read at application start. Thus, your actual settings will be used, the next
+    time, you run the program.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    State files override.
+  </p>
+  <p style="text-align: justify">
+    Select, what the application should do, if the filename, you specify in the <span style="font-weight: bold">Save As</span> dialog box, already exists: 1. Ask before
+    overriding a file (default option, with you to decide to override the file or not), 2. Override files without asking (this may delete a puzzle state file, that you
+    wanted to keep), 3. Never override state files (the file can't be saved with this name and you have to repeat the operation).
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    State files deletion.
+  </p>
+  <p style="text-align: justify">
+    Select, what the application should do with a state file, after you opened it, in order to restore a previously saved puzzle (<span style="font-weight: bold">Open</span>
+    dialog box): 1. Ask before deleting a file (may be useful to prevent deleting a file without wanting to do so, for example, if you select the bad file), 2. Automatically
+    delete files (default option, as normally these files are no longer useful), 3. Never delete state files (all files are kept; you'll have to delete them manually).
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="help">Menu: Help.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Help.
+  </p>
+  <p style="text-align: justify">
+    Displays usage help for the <span style="font-style: italic">Kidspuzzle</span> application (this text) in your webbrowser.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    About.
+  </p>
+  <p style="text-align: justify">
+    Displays version, author and date-written of the <span style="font-style: italic">Kidspuzzle</span> application.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="run">Doing the puzzle.</a>
+  </p>
+  <p style="text-align: justify">
+    Load a fresh puzzle with <span style="font-weight: bold">New</span> in the <span style="font-weight: bold">Puzzle</span> menu. The puzzle picture is displayed, all pieces
+    in the correct order. To begin, push the <span style="font-weight: bold">Start</span> button: The puzzle pieces are now shuffled and appear at random positions within the
+    picture. To move a given piece to a given position (the one, you think, is the correct one): 1. Click this piece with your mouse. A colored circle appears on the clicked
+    piece, telling you, that it is actually selected for moving (to unselect a selected piece, just click it again). 2. Click the piece at the position, where you want to move
+    the selected piece. The two pieces' positions are exchanged: the piece, that you selected to be moved, is placed at the position of your second click, and the piece, that
+    was at that position, replaces the one, you clicked first (the one that you chose to move).
+  </p>
+  <p style="text-align: justify">
+    The movement of the second piece is the major difference between playing <span style="font-style: italic">Kidspuzzle</span> and doing a "real puzzle", with "real pieces"
+    on a table. If you're irritated by that, tell yourself, that this second piece is of no importance at this moment. The only thing, you have to consider to solve the puzzle,
+    is choosing a piece and moving it to the position, that you think, it belongs to. Isn't that what you actually do, when you do a "real puzzle"?
+  </p>
+  <p style="text-align: justify">
+    The (final) puzzle picture is displayed at the top right corner of the application window, so you can see there, how the completed puzzle should look like. With bigger
+    puzzles, this picture is unfortunately rather small. But, there's another way to have a look at the (final) puzzle picture: Push the <span style="font-weight:
+    bold">Show</span> button to display all puzzle pieces at their correct position; to continue doing the puzzle, push <span style="font-weight: bold">Restore</span>.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="version">Version compatibility.</a>
+  </p>
+  <p style="text-align: justify">
+    The names of the puzzle download files on www.streetinfo.lu end with a puzzle file version number of the form m.s.u, where m and s are the main- and sub-version number and
+    u is an update-number, that has no other function than "grouping" all puzzles of a given version, that have been created/published together at a given date. The m.s part of
+    the puzzle version number corresponds to the m.s version number of the application itself. Thus, all puzzles v4.0.x have been created with the release of <span
+    style="font-style: italic">Kidspuzzle v4.0</span> (the one, that you're actually using).
+  </p>
+  <p style="text-align: justify">
+    It is important to have a closer look at the main-version number of puzzle files, that you want to download. In fact, <span style="color: #FF0000">puzzle files, that have
+    a main version number, that is higher than the main version number of the application, will not work with that application</span> and when you try to load them, you'll get
+    an error message. On the other side, <span style="font-style: italic">Kidspuzzle</span> is backward compatible and program modifications, with publishing of an updated
+    application with a new (higher) sub-version number, do not affect the puzzle files. Thus, with your actual <span style="font-style: italic">Kidspuzzle v4.0</span>, you can
+    use puzzle files with version 4.0 of course, but also any versions 1.s.u, 2.s.u and 3.s.u. And, if I published a new 4.1 version, also the corresponding puzzles 4.1.u.
+    However, if one day you find puzzle files 5.s.u on the download page, they will not work with your actual application and if you want to use them, you'll have to download
+    <span style="font-style: italic">Kidspuzzle v5.0</span> or higher</span> (if some day they exist).
+  </p>
+  </div>
+</body>
+
+</html>

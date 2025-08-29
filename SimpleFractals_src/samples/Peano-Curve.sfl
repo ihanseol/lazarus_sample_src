@@ -1,0 +1,9 @@
+# Peano-Curve
+
+origin = (220,330)
+displacement = 7
+
+axiom = "7F"
+rules = { "F": "F+F-F-F-F+F+F+F-F" }
+iterations = 4
+angle = 90

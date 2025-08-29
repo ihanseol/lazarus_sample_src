@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="MolWeight.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="71"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mw.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fMolWeight"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="71"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="comp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fComposition"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="44"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\Programs\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9604"/>
+        <CursorPos Y="9617"/>
+        <UsageCount Value="9"/>
+      </Unit4>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="mw.pas"/>
+        <Caret Line="385" Column="104" TopLine="369"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mw.pas"/>
+        <Caret Line="387" Column="104" TopLine="371"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mw.pas"/>
+        <Caret Line="561" Column="117" TopLine="557"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mw.pas"/>
+        <Caret Line="402" Column="96" TopLine="394"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mw.pas"/>
+        <Caret Line="450" TopLine="425"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mw.pas"/>
+        <Caret Line="557" TopLine="535"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mw.pas"/>
+        <Caret Line="563" Column="133" TopLine="541"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mw.pas"/>
+        <Caret Line="544" Column="56" TopLine="529"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mw.pas"/>
+        <Caret Line="532" Column="27" TopLine="527"/>
+      </Position9>
+      <Position10>
+        <Filename Value="mw.pas"/>
+        <Caret Line="10" Column="23"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mw.pas"/>
+        <Caret Line="606" Column="119" TopLine="584"/>
+      </Position11>
+      <Position12>
+        <Filename Value="mw.pas"/>
+        <Caret Line="615" Column="139" TopLine="593"/>
+      </Position12>
+      <Position13>
+        <Filename Value="mw.pas"/>
+        <Caret Line="624" Column="136" TopLine="602"/>
+      </Position13>
+      <Position14>
+        <Filename Value="mw.pas"/>
+        <Caret Line="633" Column="124" TopLine="611"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mw.pas"/>
+        <Caret Line="834" Column="24" TopLine="808"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mw.pas"/>
+        <Caret Line="833" Column="24" TopLine="808"/>
+      </Position16>
+      <Position17>
+        <Filename Value="mw.pas"/>
+        <Caret Line="398" Column="18" TopLine="380"/>
+      </Position17>
+      <Position18>
+        <Filename Value="mw.pas"/>
+        <Caret Line="760" Column="26" TopLine="741"/>
+      </Position18>
+      <Position19>
+        <Filename Value="mw.pas"/>
+      </Position19>
+      <Position20>
+        <Filename Value="mw.pas"/>
+        <Caret Line="753" Column="21" TopLine="745"/>
+      </Position20>
+      <Position21>
+        <Filename Value="mw.pas"/>
+      </Position21>
+      <Position22>
+        <Filename Value="mw.pas"/>
+        <Caret Line="752" Column="17" TopLine="748"/>
+      </Position22>
+      <Position23>
+        <Filename Value="mw.pas"/>
+        <Caret Line="833" Column="19" TopLine="825"/>
+      </Position23>
+      <Position24>
+        <Filename Value="MolWeight.lpr"/>
+        <Caret Line="3" Column="34"/>
+      </Position24>
+      <Position25>
+        <Filename Value="mw.pas"/>
+        <Caret Line="12" Column="93"/>
+      </Position25>
+      <Position26>
+        <Filename Value="comp.pas"/>
+      </Position26>
+      <Position27>
+        <Filename Value="help.pas"/>
+      </Position27>
+      <Position28>
+        <Filename Value="mw.pas"/>
+        <Caret Line="68" TopLine="56"/>
+      </Position28>
+      <Position29>
+        <Filename Value="mw.pas"/>
+        <Caret Line="14" Column="5"/>
+      </Position29>
+      <Position30>
+        <Filename Value="mw.pas"/>
+        <Caret Line="11" Column="35"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

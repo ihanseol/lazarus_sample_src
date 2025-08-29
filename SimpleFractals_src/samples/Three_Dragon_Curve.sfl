@@ -1,0 +1,10 @@
+# Three Dragon Curve
+
+origin = (640,175)
+displacement = 5
+
+axiom = "0FX+1FX+2FX"
+rules = { "X": "X+YF+",
+          "Y": "-FX-Y" }
+iterations = 12 # TOP: 15
+angle = 90

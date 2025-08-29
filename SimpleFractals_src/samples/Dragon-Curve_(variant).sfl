@@ -1,0 +1,10 @@
+# Dragon-Curve (variant)
+
+origin = (340,270)
+displacement = 6
+
+axiom = "7F"
+rules = { "F": "+F--G",
+          "G": "F++G-" }
+iterations = 12
+angle = 45

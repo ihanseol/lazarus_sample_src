@@ -1,0 +1,10 @@
+RLC circuits:
+=============
+
+Sorry, this document isn't yet available.
+
+For help with RLC circuits, please, have a look at a physics book or search the Internet.
+
+You can find a very good tutorial concerning AC circuits at:
+  https://www.electronics-tutorials.ws/accircuits/ac-waveform.html.  
+Points 6-10 of this tutorial describe in detail the different circuit types used with the "ACircuits1" application.

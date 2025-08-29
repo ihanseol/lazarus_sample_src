@@ -1,0 +1,91 @@
+-j'exige, j'exigeais, j'exigerai, j'exigerais
+-je veux, je voulais, je voudrai, je voudrais
+-je souhaite, *, $, #
+je prétends, je prétendais, je prétendrai, je prétendrais
+j'accepte, *, $, #
+-je demande, *, $, #
+je défends, je défendais, je défendrai, je défendrais
+-je désire, *, $, #
+je me réjouis, je me réjouissais, je me réjouirai, je me réjouirais
+je crains, je craignais, je craindrai, je craindrais
+je redoute, *, $, #
+j'appréhende, *, $, #
+je regrette, *, $, #
+-je conseille, *, $, #
+-j'interdis, j'interdisais, j'interdirai, j'interdirais
+-j'impose, *, $, #
+-j'ordonne, *, $, #
+-je réclame, *, $, #
+-je refuse, *, $, #
+-j'évite, *, $, #
+-je tâche, *, $, #
+-j'empêche, *, $, #
+je préfère, je préférais, je préfèrerai, je préfèrerais
+je tolère, je tolérais, je tolèrerai, je tolèrerai
+je hais, je haïssais, je haïrai, je haïrais
+j'aime, *, $, #
+je déteste, *, $, #
+-je préconise, *, $, #
+-je recommande, *, $, #
+-je fais en sorte, je faisais en sorte, je ferai en sorte, je ferais en sorte
+je trouve normal, je trouvais normal, je trouverai normal, , je trouverais normal
+j'ai peur, *, $, #
+j'ai honte, *, $, #
+-j'ai besoin, *, $, #
+-j'ai envie, *, $, #
+je suis content, *, $, #
+je suis heureux, *, $, #
+je suis désolé, *, $, #
+je suis déçu, *, $, #
+je suis étonné, *, $, #
+je suis surpris, *, $, #
+je suis ravi, *, $, #
+je suis furieux, *, $, #
+je suis satisfait, *, $, #
+je suis indigné, *, $, #
+je suis fâché, *, $, #
+je suis fier, *, $, #
+je suis bouleversé, *, $, #
+je suis choqué, *, $, #
+je suis confus, *, $, #
+je suis ennuyé, *, $, #
+je suis gêné, *, $, #
+je suis jaloux, *, $, #
+je suis malheureux, *, $, #
+je suis mécontent, *, $, #
+je suis scandalisé, *, $, #
+je suis stupéfait, *, $, #
+je suis touché, *, $, #
+je suis vexé, *, $, #
+
+-il faut, il fallait, il faudra, il faudrait
+il importe, *, $, #
+il suffit, il suffisait, il suffira, il suffirait
+il convient, il convenait, il conviendra, il conviendrait
+-il vaut mieux, il vallait mieux, il vaudra mieux, il vaudrait mieux
+il se peut, il se pouvait, il se pourra, il se pourrait
+-il est souhaitable, *, $, #
+-il est préférable, *, $, #
+il est dommage, *, $, #
+il est honteux, *, $, #
+il est regrettable, *, $, #
+il est surprenant, *, $, #
+il est triste, *, $, #
+il est navrant, *, $, #
+-il est nécessaire, *, $, #
+-il est indispensable, *, $, #
+il est important, *, $, #
+-il est temps, *, $, #
+-il est urgent, *, $, #
+il est possible, *, $, #
+il est impossible, *, $, #
+il est peu probable, *, $, #
+il est bon, *, $, #
+il est utile, *, $, #
+il est naturel, *, $, #
+-il est rare, *, $, #
+il est normal, *, $, #
+il est anormal, *, $, #
+il est bizarre, *, $, #
+il est essentiel, *, $, #
+-il est obligatoire, *, $, #

@@ -1,0 +1,690 @@
+object fSearchMP3: TfSearchMP3
+  Left = 9
+  Height = 744
+  Top = 11
+  Width = 966
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Serach local computer for MP3 files'
+  ClientHeight = 719
+  ClientWidth = 966
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object rbSearchFiles: TRadioButton
+    Left = 16
+    Height = 27
+    Top = 48
+    Width = 146
+    Caption = ' Search file data'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 0
+    TabStop = True
+  end
+  object cbFileName: TCheckBox
+    Left = 40
+    Height = 27
+    Top = 80
+    Width = 102
+    Caption = ' File name'
+    Font.Height = -17
+    OnChange = cbFileNameChange
+    ParentFont = False
+    TabOrder = 1
+  end
+  object cboFileName: TComboBox
+    Left = 64
+    Height = 31
+    Top = 112
+    Width = 184
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 1
+    Items.Strings = (
+      'is equal to'
+      'contains the text'
+      'contains the word'
+      'starts with the text'
+      'starts with the word'
+      'ends with the text'
+      'ends with the word'
+    )
+    OnChange = cboFileNameChange
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 2
+    Text = 'contains the text'
+  end
+  object edFileName: TEdit
+    Left = 256
+    Height = 31
+    Top = 112
+    Width = 200
+    Font.Height = -17
+    OnChange = edFileNameChange
+    ParentFont = False
+    TabOrder = 3
+  end
+  object cbFileDate: TCheckBox
+    Left = 40
+    Height = 27
+    Top = 152
+    Width = 193
+    Caption = ' File modification date'
+    Font.Height = -17
+    OnChange = cbFileDateChange
+    ParentFont = False
+    TabOrder = 5
+  end
+  object cboFileDate: TComboBox
+    Left = 64
+    Height = 31
+    Top = 184
+    Width = 184
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 1
+    Items.Strings = (
+      'equal to'
+      'after'
+      'before'
+      'between'
+    )
+    OnChange = cboFileDateChange
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 6
+    Text = 'after'
+  end
+  object edFileDate1: TEdit
+    Left = 256
+    Height = 31
+    Top = 184
+    Width = 96
+    Font.Height = -17
+    OnChange = edFileDate1Change
+    ParentFont = False
+    TabOrder = 7
+  end
+  object edFileDate2: TEdit
+    Left = 360
+    Height = 31
+    Top = 184
+    Width = 96
+    Enabled = False
+    Font.Height = -17
+    OnChange = edFileDate2Change
+    ParentFont = False
+    TabOrder = 8
+  end
+  object cbFileSize: TCheckBox
+    Left = 40
+    Height = 27
+    Top = 224
+    Width = 127
+    Caption = ' File size (MB)'
+    Font.Height = -17
+    OnChange = cbFileSizeChange
+    ParentFont = False
+    TabOrder = 9
+  end
+  object cboFileSize: TComboBox
+    Left = 64
+    Height = 31
+    Top = 256
+    Width = 184
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 1
+    Items.Strings = (
+      'equal to'
+      'bigger than'
+      'smaller than'
+      'between'
+    )
+    OnChange = cboFileSizeChange
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 10
+    Text = 'bigger than'
+  end
+  object edFileSize1: TEdit
+    Left = 256
+    Height = 31
+    Top = 256
+    Width = 96
+    Alignment = taRightJustify
+    Font.Height = -17
+    NumbersOnly = True
+    OnChange = edFileSize1Change
+    ParentFont = False
+    TabOrder = 11
+  end
+  object edFileSize2: TEdit
+    Left = 360
+    Height = 31
+    Top = 256
+    Width = 96
+    Alignment = taRightJustify
+    Enabled = False
+    Font.Height = -17
+    NumbersOnly = True
+    OnChange = edFileSize2Change
+    ParentFont = False
+    TabOrder = 12
+  end
+  object rbSearchTags: TRadioButton
+    Left = 16
+    Height = 27
+    Top = 304
+    Width = 156
+    Caption = ' Search MP3 tags'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 13
+  end
+  object cbArtistName: TCheckBox
+    Left = 40
+    Height = 27
+    Top = 336
+    Width = 117
+    Caption = ' Artist name'
+    Font.Height = -17
+    OnChange = cbArtistNameChange
+    ParentFont = False
+    TabOrder = 14
+  end
+  object cboArtistName: TComboBox
+    Left = 64
+    Height = 31
+    Top = 368
+    Width = 184
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 1
+    Items.Strings = (
+      'is equal to'
+      'contains the text'
+      'contains the word'
+      'starts with the text'
+      'starts with the word'
+      'ends with the text'
+      'ends with the word'
+    )
+    OnChange = cboArtistNameChange
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 15
+    Text = 'contains the text'
+  end
+  object edArtistName: TEdit
+    Left = 256
+    Height = 31
+    Top = 368
+    Width = 200
+    Font.Height = -17
+    OnChange = edArtistNameChange
+    ParentFont = False
+    TabOrder = 16
+  end
+  object cbAlbumName: TCheckBox
+    Left = 40
+    Height = 27
+    Top = 408
+    Width = 127
+    Caption = ' Album name'
+    Font.Height = -17
+    OnChange = cbAlbumNameChange
+    ParentFont = False
+    TabOrder = 17
+  end
+  object cboAlbumName: TComboBox
+    Left = 64
+    Height = 31
+    Top = 440
+    Width = 184
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 1
+    Items.Strings = (
+      'is equal to'
+      'contains the text'
+      'contains the word'
+      'starts with the text'
+      'starts with the word'
+      'ends with the text'
+      'ends with the word'
+    )
+    OnChange = cboAlbumNameChange
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 18
+    Text = 'contains the text'
+  end
+  object edAlbumName: TEdit
+    Left = 256
+    Height = 31
+    Top = 440
+    Width = 200
+    Font.Height = -17
+    OnChange = edAlbumNameChange
+    ParentFont = False
+    TabOrder = 19
+  end
+  object cbTrackName: TCheckBox
+    Left = 520
+    Height = 27
+    Top = 408
+    Width = 117
+    Caption = ' Track name'
+    Font.Height = -17
+    OnChange = cbTrackNameChange
+    ParentFont = False
+    TabOrder = 20
+  end
+  object cboTrackName: TComboBox
+    Left = 544
+    Height = 31
+    Top = 440
+    Width = 200
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 1
+    Items.Strings = (
+      'is equal to'
+      'contains the text'
+      'contains the word'
+      'starts with the text'
+      'starts with the word'
+      'ends with the text'
+      'ends with the word'
+    )
+    OnChange = cboTrackNameChange
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 21
+    Text = 'contains the text'
+  end
+  object edTrackName: TEdit
+    Left = 752
+    Height = 31
+    Top = 440
+    Width = 200
+    Font.Height = -17
+    OnChange = edTrackNameChange
+    ParentFont = False
+    TabOrder = 22
+  end
+  object cbAlbumGenre: TCheckBox
+    Left = 520
+    Height = 27
+    Top = 336
+    Width = 128
+    Caption = ' Album genre'
+    Font.Height = -17
+    OnChange = cbAlbumGenreChange
+    ParentFont = False
+    TabOrder = 23
+  end
+  object cboGenres: TComboBox
+    Left = 544
+    Height = 31
+    Top = 368
+    Width = 200
+    Font.Height = -17
+    ItemHeight = 23
+    OnChange = cboGenresChange
+    ParentFont = False
+    TabOrder = 24
+  end
+  object cbReleaseYear: TCheckBox
+    Left = 40
+    Height = 27
+    Top = 480
+    Width = 123
+    Caption = ' Release year'
+    Font.Height = -17
+    OnChange = cbReleaseYearChange
+    ParentFont = False
+    TabOrder = 25
+  end
+  object cboReleaseYear: TComboBox
+    Left = 64
+    Height = 31
+    Top = 512
+    Width = 184
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 1
+    Items.Strings = (
+      'equal to'
+      'after'
+      'before'
+      'between'
+    )
+    OnChange = cboReleaseYearChange
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 26
+    Text = 'after'
+  end
+  object edReleaseYear1: TEdit
+    Left = 256
+    Height = 31
+    Top = 512
+    Width = 96
+    Font.Height = -17
+    MaxLength = 4
+    NumbersOnly = True
+    OnChange = edReleaseYear1Change
+    ParentFont = False
+    TabOrder = 27
+  end
+  object edReleaseYear2: TEdit
+    Left = 360
+    Height = 31
+    Top = 512
+    Width = 96
+    Enabled = False
+    Font.Height = -17
+    MaxLength = 4
+    NumbersOnly = True
+    OnChange = edReleaseYear2Change
+    ParentFont = False
+    TabOrder = 28
+  end
+  object cbPlayTime: TCheckBox
+    Left = 520
+    Height = 27
+    Hint = 'Searching by album length is not implemented in SearchMP3 v1.0.'
+    Top = 480
+    Width = 102
+    Caption = ' Play Time'
+    Enabled = False
+    Font.Height = -17
+    OnChange = cbPlayTimeChange
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 29
+  end
+  object cboPlayTime: TComboBox
+    Left = 544
+    Height = 31
+    Top = 512
+    Width = 200
+    Enabled = False
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 1
+    Items.Strings = (
+      'equal to'
+      'longer than'
+      'shorter than'
+      'between'
+    )
+    OnChange = cboPlayTimeChange
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 30
+    Text = 'longer than'
+  end
+  object edPlayTime1: TEdit
+    Left = 752
+    Height = 31
+    Top = 512
+    Width = 96
+    Enabled = False
+    Font.Height = -17
+    OnChange = edPlayTime1Change
+    ParentFont = False
+    TabOrder = 31
+  end
+  object edPlayTime2: TEdit
+    Left = 856
+    Height = 31
+    Top = 512
+    Width = 96
+    Enabled = False
+    Font.Height = -17
+    OnChange = edPlayTime2Change
+    ParentFont = False
+    TabOrder = 32
+  end
+  object btSearch: TButton
+    Left = 856
+    Height = 31
+    Top = 674
+    Width = 96
+    Caption = 'Search'
+    Font.Height = -17
+    OnClick = btSearchClick
+    ParentFont = False
+    TabOrder = 33
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 23
+    Top = 573
+    Width = 132
+    Caption = 'Search directory'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edDir: TEdit
+    Left = 16
+    Height = 31
+    Top = 602
+    Width = 440
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 34
+  end
+  object imDir: TImage
+    Left = 464
+    Height = 36
+    Top = 599
+    Width = 36
+    OnClick = imDirClick
+    Picture.Data = {
+      1754506F727461626C654E6574776F726B477261706869636902000089504E47
+      0D0A1A0A0000000D4948445200000024000000240806000000E1009898000000
+      0473424954080808087C086488000000097048597300000EC400000EC401952B
+      0E1B0000001974455874536F667477617265007777772E696E6B73636170652E
+      6F72679BEE3C1A000001E6494441545885ED98B14BC34014C6BF5C5BB550298A
+      83485D2A4E2E9245A1E0E06027771111D42EE2E86817FF005D04750882088AE8
+      24AE8E6AA780B808590A8A56DD6A96529B3A4843DB7BB9A6ED2541F05B72F4BD
+      CBF77B772F9750E05F6229B5416A33F7F56D2116044498C1BCDD99EE070056FB
+      D14F98857801FB131FC8DC6B505FF4066F269AE89566120CEADA3C32390DEAB3
+      DE100B0448D7AE00452163619F590000FAA80A0D197B1C3C5042859E50C95803
+      506E77CA1E57AB55FB5A3F6E75ED2437BDFD64FB923DD43CD9AD4137B98E40B2
+      8DDCE43A027965D44E2ED7D4F5C9F9C334AC92C957D11BC3C8E20994E880B442
+      1C81EA93AC9289F1F5232EFE79778EA27E8A786A43CA363A02D1CD6671930627
+      E7903FCBA2F87041D52394D213C3D0D2A5FB15E2A8CB05EEA6A10830B6BCD536
+      0C00185AD6D9AB1988A42EBF77642C92E8B11736355808C6F19E5C1A16224148
+      206E85AC0AD9D4DDC83858153675CB83D12BB96A6A32A952F40D86032293CBAF
+      D2814450C283F117E8CD37180E88EC1B0F804450816D1905C301D107A3775B46
+      C9C50AC906EAA37D28207A85646F59B2F3C79EF54461DC24A5E228913656A819
+      6A78E59A9CDCED47BDEB57879FDFCF4E31C777992C2337853802C9366AA7909A
+      EC1E0A3398B3D9C7C0FE8E09C2F76FEA07E4B86D1C4834D1300000000049454E
+      44AE426082
+    }
+  end
+  object cbSubDirs: TCheckBox
+    Left = 544
+    Height = 27
+    Top = 604
+    Width = 196
+    Caption = ' Include subdirectories'
+    Checked = True
+    Font.Height = -17
+    OnChange = cbSubDirsChange
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 35
+  end
+  object cbFileTime: TCheckBox
+    Left = 520
+    Height = 27
+    Top = 152
+    Width = 285
+    Caption = ' Time since file modification (days)'
+    Font.Height = -17
+    OnChange = cbFileTimeChange
+    ParentFont = False
+    TabOrder = 36
+  end
+  object cboFileTime: TComboBox
+    Left = 544
+    Height = 31
+    Top = 184
+    Width = 184
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 1
+    Items.Strings = (
+      'equal to'
+      'less than'
+      'more than'
+      'between'
+    )
+    OnChange = cboFileTimeChange
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 37
+    Text = 'less than'
+  end
+  object edFileTime1: TEdit
+    Left = 736
+    Height = 31
+    Top = 184
+    Width = 96
+    Alignment = taRightJustify
+    Font.Height = -17
+    NumbersOnly = True
+    OnChange = edFileTime1Change
+    ParentFont = False
+    TabOrder = 38
+  end
+  object edFileTime2: TEdit
+    Left = 840
+    Height = 31
+    Top = 184
+    Width = 96
+    Alignment = taRightJustify
+    Enabled = False
+    Font.Height = -17
+    NumbersOnly = True
+    OnChange = edFileTime2Change
+    ParentFont = False
+    TabOrder = 39
+  end
+  object memoHelp: TMemo
+    Left = 16
+    Height = 57
+    Top = 648
+    Width = 440
+    Color = clCream
+    Font.Height = -15
+    Lines.Strings = (
+      'Choose the directory where you want to search for the files, then select the MP3 file/tags  search criteria.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 4
+    TabStop = False
+  end
+  object stTitle: TStaticText
+    Left = 16
+    Height = 21
+    Top = 16
+    Width = 297
+    Caption = 'MP3 search criteria:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 40
+  end
+  object mMenu: TMainMenu
+    left = 904
+    top = 16
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsTitleOR: TMenuItem
+        Caption = 'Use OR instead of AND for simultaneous album/track title searches'
+        Checked = True
+        OnClick = mOptionsTitleORClick
+      end
+      object mOptionsCase: TMenuItem
+        Caption = 'Ignore upper/lower case when searching text fields'
+        Checked = True
+        OnClick = mOptionsCaseClick
+      end
+      object mOptionsCreationDate: TMenuItem
+        Caption = 'Use file creation date instead of file modification date'
+        OnClick = mOptionsCreationDateClick
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object mOptionsFileInfo: TMenuItem
+        Caption = 'Display file information instead of MP3 tags'
+        OnClick = mOptionsFileInfoClick
+      end
+      object mOptionsFullPath: TMenuItem
+        Caption = 'Display full path name of MP3 files found'
+        Checked = True
+        OnClick = mOptionsFullPathClick
+      end
+      object MenuItem2: TMenuItem
+        Caption = '-'
+      end
+      object mOptionsExcludeMain: TMenuItem
+        Caption = 'Exclude non-ID3 main genres from selection list'
+        OnClick = mOptionsExcludeMainClick
+      end
+      object mOptionsExcludePers: TMenuItem
+        Caption = 'Exclude personal genres from selection list'
+        OnClick = mOptionsExcludePersClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object pnAbout: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Text = 'Text'
+    Title = 'MP3 Search'
+    Visible = False
+    left = 832
+    top = 16
+  end
+  object dlgDir: TSelectDirectoryDialog
+    left = 760
+    top = 16
+  end
+end

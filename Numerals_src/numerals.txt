@@ -1,0 +1,45 @@
+4 Albanese       një       dy        tre       katër     pesë      gjashtë   shtatë    tetë      i ri      dhjetë
+4 Basque*        bat       bi        hiru      lau       bost      sei       zazpi     zortzi    bederatzi hamar
+3 Bosnian        jedan     dva       tri       četiri    pet       šest      sedam     osam      devet     deset
+2 Breton*        unan      daou      tri       pevar     pemp      c’hwec’h  seizh     eizh      nav       dek
+2 Catalan*       u         dos       tres      quatre    cinc      sis       set       vuit      nou       deu
+2 Corsican*      unu       dui       trè       quattru   cinque    sei       sette     otu       novi      diece
+3 Croatian       jedan     dva       tri       četiri    pet       šest      sedam     osam      devet     deset
+3 Czech          jeden     dva       tři       čtyři     pět       šest      sedm      osm       devět     deset
+1 Danish         en        to        tre       fire      fem       seks      syv       otte      ni        ti
+1 Dutch          een       twee      drie      vier      vijf      zes       zeven     acht      negen     tien
+1 English        one       two       three     four      five      six       seven     eight     nine      ten
+2 Esperanto*     unu       du        tri       kvar      kvin      ses       sep       ok        naŭ       dek
+4 Estonian       üks       kaks      kolm      neli      viis      kuus      seitse    kaheksa   üheksa    kümme
+4 Finnish        yksi      kaksi     kolme     neljä     viisi     kuusi     seitsemän kahdeksan yhdeksän  kymmenen
+2 French         un        deux      trois     quatre    cinq      six       sept      huit      neuf      dix
+2 Galician*      un        dous      tres      catro     cinco     seis      sete      oito      nove      dez
+1 German         eins      zwei      drei      vier      fünf      sechs     sieben    acht      neun      zehn
+4 Hungarian      egy       kettő     három     négy      öt        hat       hét       nyolc     kilenc    tíz
+4 Icelandic      einn      tveir     þrír      fjórir    fimm      sex       sjö       átta      níu       tíu
+4 Irish          aon       dó        trí       ceathair  cúig      sé        seacht    ocht      naoi      deich
+2 Italian        uno       due       tre       quattro   cinque    sei       sette     otto      nove      dieci
+2 Latin*         unus      duo       tres      quattuor  quinque   sex       septem    octo      novem     decem
+3 Latvian        viens     divi      trīs      četri     pieci     seši      septiņi   astoņi    deviņi    desmit
+3 Lithuanian     vienas    du        trys      keturi    penki     šeši      septyni   aštuoni   devyni    dešimt
+2 Lombard*       vun       duu       trii      quatter   cinch     ses       sett      vott      noeuv     des
+1 Luxembourgish  eent      zwee      dräi      véier     fënnef    sechs     siwen     aacht     néng      zéng
+4 Maltese        wieħed    żewġ      tlieta    erbgħa    ħamsa     sitta     sebgħa    tmienja   disa      għaxra
+3 Montenegrin    jedan     dva       tri       četiri    pet       šest      sedam     osam      devet     deset
+1 Norwegian      en        to        tre       fire      fem       seks      syv       otte      ni        ti
+3 Polish         jeden     dwa       trzy      cztery    pięć      sześć     siedem    osiem     dziewięć  dziesięć
+2 Portuguese     um        dois      três      quatro    cinco     seis      sete      oito      nove      dez
+2 Romanian       unu       doi       trei      patru     cinci     șase      șapte     opt       nouă      zece
+2 Sardinian*     unu       duos      tres      bàtoro    chimbe    ses       sete      oto       noe       deghe
+1 Scots*         ane       twa       three     fower     five      sax       seiven    aicht     nine      ten
+3 Serbian        jedan     dva       tri       četiri    pet       šest      sedam     osam      devet     deset
+2 Sicilian*      unu       dui       tri       quàttru   cincu     sei       setti     ottu      novi      deci
+3 Slovak         jeden     dva       tri       štyri     päť       šesť      sedem     osem      deväť     desať
+3 Slovene        èn        dvá       tríje     štírje    pét       šést      sédem     ósem      devét     desét
+2 Spanish        uno       dos       tres      quatro    cinco     seis      siete     ocho      nueve     diez
+4 Swedish        ett       två       tre       fyra      fem       sex       sju       åtta      nio       tio
+1 Swiss German*  eis       zwöi      drü       vier      füf       säch      sibe      acht      nüün      zäh
+4 Turkish        bir       iki       üç        dört      bes       alti      yedi      sekiz     dokuz     on
+2 Venetian*      un        dó        tre       quatro    zsinque   sie       sete      oto       nóve      diéxe
+4 Welsh*         un        dau       tri       pedwar    pump      chwech    saith     wyth      naw       deg
+1 West Frisian*  ien       twa       trije     fjouwer   fiif      seis      sân       acht      njoggen   tsien

@@ -1,0 +1,35 @@
+"Display7seg" is an electronic circuits simulation application dealing with 7-segment displays. There are 5 circuits available (in the "Simulation" menu):
+
+1. Common cathode 7-segment display.
+====================================
+A simple circuit, where the display pins a-g may be connected to the power source by closing a switch. The result will be that the LED of the corresponding segment will be turned on. Closing the correct switches thus allows you to display not only the numbers from 0 to 9, but also the alphabet (some letters being lowercase, some uppercase, some being not really looking as in reality).
+
+2. Common anode 7-segment display.
+==================================
+With this type of 7-segment display, all segment LEDs have the common end connected to the power source. This means that to turn a LED on, the corresponding pin (a-g) must be connected to the ground. This is done by closing the corresponding switch. For the rest, the circuit behaves exactly the same way as the previous one.
+
+3. Common cathode 7-segment display BCD decoder.
+================================================
+A 7-segment display BCD decoder is an IC, that uses a 4-digit binary input to produce a 7-pin output, where each of the these output pins corresponds to one of the 7-segment display pins a-g. In the case of a common cathode display, these pins have to be "HIGH" (logic "1") to turn the segment LED on, thus the BCD must produce a logic "1" at the corresponding output pin. It appears obvious that different BCD chips have to be used for CC and CA displays. The IC 4511 is an example of a chip that may be used with CC displays.
+The binary input is set using 4 switches that, when closed set the corresponding pin to "HIGH". Example: With switches S2 and S3 closed, the binary input is equal to 0110, that corresponds to the decimal number 6. With this input, the 4511 will set its output pins, and by this the CC 7-segment display pins c-g to "HIGH", and the number "6" will be displayed.
+To note that for invalid input (1010 to 1111), the 7-segment display will be cleared (no display at all).
+
+4. Common anode 7-segment display BCD decoder.
+==============================================
+Common anode 7-segment display BCD decoders work exactly the same way as CC display BCD decoders, except that the output pins a-g, corresponding to the binary input, are set to a "LOW" (logic "0"), thus turning the segment LEDs on by a logic "0" at the corresponding pin of the 7-segment display. The IC 74LS47 is an example of a chip that may be used with CA displays.
+To use the simulation, close the switches in order to produce a given binary input resulting in the display of the corresponding decimal number.
+To note that the 74LS47 chip does not clear the display segments if the input value is outside the range (invalid inputs: 1010-1111), but displays some given symbol for each of these values.
+
+5. 7-segment display counter.
+=============================
+This circuit is made of a common anode 7-segment display BCD decoder (74LS47), that has its input pins set by a counter IC (74LS90). Each "HIGH" signal at the clock input pin of this IC increments a counter and the value of this counter is passed as a binary number to the output pins QA - QD, that are connected to the input pins A - D of the 74LS47. With these pins set according to the counter value, it's this value that will be displayed (cf. previous circuit).
+The circuit includes a push-button that, when activated, increments the counter value of the 74LS90. This means, that by successive pushes on the button, we can count from 0 to 9 (and then restarting by 0 again).
+
+Switch numbering.
+-----------------
+The inputs A - D of the 4511 and the 74LS47 are LSB for input A (MSB for input D). Thus to enter the value 5 (binary 0101) you have to close switches S3 and S1. Concerning the outputs QA - QD of IC 74LS90, its similar: LSB for output QA (MSB for output QD).
+
+Note.
+-----
+The text and images of the main application window have been taken from the "Electronics Tutorials" website:
+  https://www.electronics-tutorials.ws/blog/7-segment-display-tutorial.html

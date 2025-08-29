@@ -1,0 +1,221 @@
+object fSFractals: TfSFractals
+  Left = 13
+  Height = 738
+  Top = 39
+  Width = 1600
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Simple Fractals'
+  ClientHeight = 713
+  ClientWidth = 1600
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object StaticText1: TStaticText
+    Left = 10
+    Height = 30
+    Top = 10
+    Width = 886
+    Caption = 'Creating simple fractals, using a basic L-System.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+  end
+  object imDraw: TImage
+    Left = 10
+    Height = 650
+    Top = 56
+    Width = 1000
+  end
+  object edFractal: TMemo
+    Left = 1032
+    Height = 250
+    Top = 224
+    Width = 560
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    TabOrder = 3
+    WordWrap = False
+  end
+  object Label1: TLabel
+    Left = 1032
+    Height = 23
+    Top = 56
+    Width = 67
+    Caption = 'Drawing:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 1032
+    Height = 23
+    Top = 105
+    Width = 129
+    Caption = 'Starting point (X)'
+    ParentColor = False
+  end
+  object edX0: TEdit
+    Left = 1172
+    Height = 31
+    Top = 101
+    Width = 60
+    Alignment = taRightJustify
+    MaxLength = 3
+    NumbersOnly = True
+    OnEditingDone = edX0EditingDone
+    TabOrder = 0
+  end
+  object Label3: TLabel
+    Left = 1264
+    Height = 23
+    Top = 105
+    Width = 128
+    Caption = 'Starting point (Y)'
+    ParentColor = False
+  end
+  object edY0: TEdit
+    Left = 1404
+    Height = 31
+    Top = 101
+    Width = 60
+    Alignment = taRightJustify
+    MaxLength = 3
+    NumbersOnly = True
+    OnEditingDone = edY0EditingDone
+    TabOrder = 1
+  end
+  object Label4: TLabel
+    Left = 1032
+    Height = 23
+    Top = 192
+    Width = 73
+    Caption = 'L-System:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btDraw: TButton
+    Left = 1504
+    Height = 31
+    Top = 675
+    Width = 94
+    Caption = 'Draw'
+    OnClick = btDrawClick
+    TabOrder = 4
+  end
+  object Label5: TLabel
+    Left = 1032
+    Height = 23
+    Top = 148
+    Width = 103
+    Caption = 'Displacement'
+    ParentColor = False
+  end
+  object edD: TEdit
+    Left = 1172
+    Height = 31
+    Top = 144
+    Width = 60
+    Alignment = taRightJustify
+    MaxLength = 3
+    NumbersOnly = True
+    OnEditingDone = edDEditingDone
+    TabOrder = 2
+  end
+  object mMenu: TMainMenu
+    Left = 952
+    Top = 72
+    object mFractal: TMenuItem
+      Caption = 'Fractal'
+      object mFractalNew: TMenuItem
+        Caption = 'New'
+        OnClick = mFractalNewClick
+      end
+      object mFractalOpen: TMenuItem
+        Caption = 'Open ...'
+        OnClick = mFractalOpenClick
+      end
+      object mFractalSaveAs: TMenuItem
+        Caption = 'Save As ...'
+        OnClick = mFractalSaveAsClick
+      end
+      object mFractalExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFractalExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsAlphabet: TMenuItem
+        Caption = 'Alphabet'
+        object mOptionsAlphabetSwapTurn: TMenuItem
+          Caption = 'Use - to turn right, + to turn left'
+          OnClick = mOptionsAlphabetSwapTurnClick
+        end
+        object mOptionsAlphabetChangeMove: TMenuItem
+          Caption = 'Use f to move without drawing'
+          OnClick = mOptionsAlphabetChangeMoveClick
+        end
+        object mOptionsAlphabetColors: TMenuItem
+          Caption = 'Enable alphabet color codes'
+          Checked = True
+          OnClick = mOptionsAlphabetColorsClick
+        end
+      end
+      object mOptionsDrawing: TMenuItem
+        Caption = 'Drawing'
+        object mOptionsDrawing1: TMenuItem
+          Caption = 'Black on white'
+          OnClick = mOptionsDrawing1Click
+        end
+        object mOptionsDrawing2: TMenuItem
+          Caption = 'White on black'
+          OnClick = mOptionsDrawing2Click
+        end
+        object mOptionsDrawing3: TMenuItem
+          Caption = 'Green on black'
+          OnClick = mOptionsDrawing3Click
+        end
+        object mOptionsDrawing4: TMenuItem
+          Caption = 'Colored on black'
+          Checked = True
+          OnClick = mOptionsDrawing4Click
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpLSystems: TMenuItem
+        Caption = 'L-Systems'
+        OnClick = mHelpLSystemsClick
+      end
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object dlgOpenFractals: TOpenDialog
+    DefaultExt = '.sfl'
+    Filter = 'SimpleFractals L-System file|*.sfl|All files|*.*'
+    Left = 952
+    Top = 128
+  end
+  object dlgSaveFractals: TSaveDialog
+    DefaultExt = '.sfl'
+    Filter = 'SimpleFractals L-System file|*.sfl|All files|*.*'
+    Left = 952
+    Top = 192
+  end
+end

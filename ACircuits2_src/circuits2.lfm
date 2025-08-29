@@ -1,0 +1,628 @@
+object fACircuits2: TfACircuits2
+  Left = 44
+  Height = 477
+  Top = 46
+  Width = 1201
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Electronics: RLC circuits'
+  ClientHeight = 452
+  ClientWidth = 1201
+  DesignTimePPI = 120
+  Font.Height = -18
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object imCircuit: TImage
+    Left = 16
+    Height = 250
+    Top = 69
+    Width = 500
+    Center = True
+  end
+  object Title: TStaticText
+    Left = 16
+    Height = 40
+    Top = 8
+    Width = 500
+    Caption = 'Resonance RLC circuits.'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 16
+  end
+  object laVS: TLabel
+    Left = 687
+    Height = 23
+    Top = 73
+    Width = 20
+    Caption = 'VS'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edVS: TEdit
+    Left = 715
+    Height = 31
+    Hint = 'AC supply voltage (V)'
+    Top = 69
+    Width = 80
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabStop = False
+    TabOrder = 1
+  end
+  object btStart: TButton
+    Left = 1114
+    Height = 31
+    Top = 416
+    Width = 80
+    Caption = 'Start'
+    OnClick = btStartClick
+    TabOrder = 0
+  end
+  object Label10: TLabel
+    Left = 213
+    Height = 23
+    Top = 420
+    Width = 56
+    Caption = 'Correct'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edCorrect: TEdit
+    Left = 277
+    Height = 31
+    Top = 416
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 17
+  end
+  object Label11: TLabel
+    Left = 394
+    Height = 23
+    Top = 420
+    Width = 58
+    Caption = 'Success'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edSuccess: TEdit
+    Left = 460
+    Height = 31
+    Top = 416
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 18
+  end
+  object imEval: TImage
+    Left = 1072
+    Height = 31
+    Top = 416
+    Width = 31
+    Center = True
+  end
+  object Label12: TLabel
+    Left = 16
+    Height = 23
+    Top = 420
+    Width = 69
+    Caption = 'Question'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edQuestion: TEdit
+    Left = 93
+    Height = 31
+    Top = 416
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 19
+  end
+  object Label13: TLabel
+    Left = 544
+    Height = 23
+    Top = 73
+    Width = 80
+    Caption = 'AC supply:'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object laR: TLabel
+    Left = 687
+    Height = 23
+    Top = 114
+    Width = 10
+    Caption = 'R'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edR: TEdit
+    Left = 715
+    Height = 31
+    Hint = 'Resistance (Ω)'
+    Top = 110
+    Width = 80
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ReadOnly = True
+    ShowHint = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object Label16: TLabel
+    Left = 544
+    Height = 23
+    Top = 114
+    Width = 102
+    Caption = 'Components:'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object laL: TLabel
+    Left = 823
+    Height = 23
+    Top = 114
+    Width = 8
+    Caption = 'L'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edL: TEdit
+    Left = 848
+    Height = 31
+    Hint = 'Inductance (H)'
+    Top = 110
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ReadOnly = True
+    ShowHint = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object laC: TLabel
+    Left = 952
+    Height = 23
+    Top = 114
+    Width = 11
+    Caption = 'C'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edC: TEdit
+    Left = 981
+    Height = 31
+    Hint = 'Capacitance (µF)'
+    Top = 110
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ReadOnly = True
+    ShowHint = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object laZ: TLabel
+    Left = 1080
+    Height = 23
+    Top = 155
+    Width = 10
+    Caption = 'Z'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edZ: TEdit
+    Left = 1114
+    Height = 31
+    Hint = 'Total impedance (Ω)'
+    Top = 151
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 7
+  end
+  object laXL: TLabel
+    Left = 823
+    Height = 23
+    Top = 155
+    Width = 18
+    Caption = 'XL'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edXL: TEdit
+    Left = 848
+    Height = 31
+    Hint = 'Inductive Reactance (Ω)'
+    Top = 151
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 5
+  end
+  object laXC: TLabel
+    Left = 952
+    Height = 23
+    Top = 155
+    Width = 21
+    Caption = 'XC'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edXC: TEdit
+    Left = 981
+    Height = 31
+    Hint = 'Capacitive Reactance (Ω)'
+    Top = 151
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 6
+  end
+  object Label24: TLabel
+    Left = 544
+    Height = 23
+    Top = 244
+    Width = 78
+    Caption = 'Frequency'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object laF: TLabel
+    Left = 687
+    Height = 23
+    Hint = 'Resonance frequency'
+    Top = 244
+    Width = 11
+    Caption = 'fr'
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edF: TEdit
+    Left = 715
+    Height = 31
+    Hint = 'Resonance frequency (Hz)'
+    Top = 240
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 8
+  end
+  object laI: TLabel
+    Left = 1080
+    Height = 23
+    Top = 244
+    Width = 5
+    Caption = 'I'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edI: TEdit
+    Left = 1114
+    Height = 31
+    Hint = 'Total resonance current (A)'
+    Top = 240
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 9
+  end
+  object Label29: TLabel
+    Left = 930
+    Height = 23
+    Top = 244
+    Width = 96
+    Caption = 'Total current'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 544
+    Height = 20
+    Top = 8
+    Width = 60
+    Caption = 'π = 3,14'
+    Font.Color = clFuchsia
+    Font.Height = -15
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 544
+    Height = 23
+    Top = 197
+    Width = 86
+    Caption = 'Resonance:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object Label26: TLabel
+    Left = 544
+    Height = 23
+    Top = 326
+    Width = 103
+    Caption = 'Quality factor'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object laQ: TLabel
+    Left = 687
+    Height = 23
+    Hint = 'Resonance frequency'
+    Top = 326
+    Width = 13
+    Caption = 'Q'
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edQ: TEdit
+    Left = 715
+    Height = 31
+    Hint = 'Quality factor (Q)'
+    Top = 322
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 12
+  end
+  object laBW: TLabel
+    Left = 1080
+    Height = 23
+    Top = 326
+    Width = 26
+    Caption = 'BW'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edBW: TEdit
+    Left = 1114
+    Height = 31
+    Hint = 'Bandwidth (Hz)'
+    Top = 322
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 13
+  end
+  object Label30: TLabel
+    Left = 930
+    Height = 23
+    Top = 326
+    Width = 81
+    Caption = 'Bandwidth'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object Label25: TLabel
+    Left = 544
+    Height = 23
+    Top = 367
+    Width = 101
+    Caption = 'Lower cut-off'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object laFL: TLabel
+    Left = 687
+    Height = 23
+    Hint = 'Resonance frequency'
+    Top = 367
+    Width = 13
+    Caption = 'fL'
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object edFL: TEdit
+    Left = 715
+    Height = 31
+    Hint = 'Lower cut-off frequency (Hz)'
+    Top = 363
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 14
+  end
+  object laFH: TLabel
+    Left = 1080
+    Height = 23
+    Top = 367
+    Width = 17
+    Caption = 'fH'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edFH: TEdit
+    Left = 1114
+    Height = 31
+    Hint = 'Upper cut-off frequemcy (Hz)'
+    Top = 363
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 15
+  end
+  object Label31: TLabel
+    Left = 930
+    Height = 23
+    Top = 367
+    Width = 103
+    Caption = 'Upper cut-off'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object laVIL: TLabel
+    Left = 687
+    Height = 23
+    Top = 285
+    Width = 19
+    Caption = 'VL'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edVIL: TEdit
+    Left = 715
+    Height = 31
+    Hint = 'Voltage across inductor (V)'
+    Top = 281
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 10
+  end
+  object laVIL2: TLabel
+    Left = 544
+    Height = 23
+    Top = 285
+    Width = 126
+    Caption = 'Inductor voltage'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object laVIC: TLabel
+    Left = 1080
+    Height = 23
+    Top = 285
+    Width = 22
+    Caption = 'VC'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object edVIC: TEdit
+    Left = 1114
+    Height = 31
+    Hint = 'Voltage across capacitor (V)'
+    Top = 281
+    Width = 80
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 11
+  end
+  object laVIC2: TLabel
+    Left = 930
+    Height = 23
+    Top = 285
+    Width = 134
+    Caption = 'Capacitor voltage'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 932
+    Height = 20
+    Top = 8
+    Width = 183
+    Caption = 'All results with 2 decimals'
+    Font.Color = clFuchsia
+    Font.Height = -15
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object mMenu: TMainMenu
+    Left = 32
+    Top = 88
+    object mTest: TMenuItem
+      Caption = 'Test'
+      object mTestNew: TMenuItem
+        Caption = 'New'
+        OnClick = mTestNewClick
+      end
+      object mTestExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mTestExitClick
+      end
+    end
+    object mCircuits: TMenuItem
+      Caption = 'Circuits'
+      object mCircuitsRLC1: TMenuItem
+        Caption = 'Series RLC'
+        Checked = True
+        OnClick = mCircuitsRLC1Click
+      end
+      object mCircuitsRLC2: TMenuItem
+        Caption = 'Parallel RLC'
+        Checked = True
+        OnClick = mCircuitsRLC2Click
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsView: TMenuItem
+        Caption = 'View exercise results'
+        OnClick = mOptionsViewClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpProgram: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpProgramClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

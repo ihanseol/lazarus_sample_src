@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="WGuess3.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="49"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="wguess.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fWGuess3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="49"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="221" TopLine="200"/>
+      </Position1>
+      <Position2>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="412" Column="16" TopLine="396"/>
+      </Position2>
+      <Position3>
+        <Filename Value="WGuess3.lpr"/>
+        <Caret Line="10" Column="17"/>
+      </Position3>
+      <Position4>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="222" Column="19" TopLine="209"/>
+      </Position4>
+      <Position5>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="559" Column="25" TopLine="543"/>
+      </Position5>
+      <Position6>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="649" Column="23" TopLine="461"/>
+      </Position6>
+      <Position7>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="153" Column="112" TopLine="141"/>
+      </Position7>
+      <Position8>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="641" Column="6" TopLine="632"/>
+      </Position8>
+      <Position9>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="96" Column="13" TopLine="84"/>
+      </Position9>
+      <Position10>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="151" Column="23" TopLine="130"/>
+      </Position10>
+      <Position11>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="153" Column="105" TopLine="132"/>
+      </Position11>
+      <Position12>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="278" Column="37" TopLine="256"/>
+      </Position12>
+      <Position13>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="311" Column="11" TopLine="289"/>
+      </Position13>
+      <Position14>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="504" Column="17" TopLine="483"/>
+      </Position14>
+      <Position15>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="505" Column="17" TopLine="484"/>
+      </Position15>
+      <Position16>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="550" Column="86" TopLine="529"/>
+      </Position16>
+      <Position17>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="632" Column="88" TopLine="611"/>
+      </Position17>
+      <Position18>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="639" TopLine="631"/>
+      </Position18>
+      <Position19>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="277" Column="45" TopLine="256"/>
+      </Position19>
+      <Position20>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="649" Column="17" TopLine="623"/>
+      </Position20>
+      <Position21>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="620" Column="93" TopLine="608"/>
+      </Position21>
+      <Position22>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="631" Column="19" TopLine="618"/>
+      </Position22>
+      <Position23>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="278" Column="16" TopLine="264"/>
+      </Position23>
+      <Position24>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="12" Column="107"/>
+      </Position24>
+      <Position25>
+        <Filename Value="help.pas"/>
+        <Caret Line="25" Column="21" TopLine="18"/>
+      </Position25>
+      <Position26>
+        <Filename Value="help.pas"/>
+        <Caret Line="45" TopLine="19"/>
+      </Position26>
+      <Position27>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="432" Column="6" TopLine="424"/>
+      </Position27>
+      <Position28>
+        <Filename Value="help.pas"/>
+        <Caret Line="9" Column="9"/>
+      </Position28>
+      <Position29>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="872" Column="40" TopLine="861"/>
+      </Position29>
+      <Position30>
+        <Filename Value="wguess.pas"/>
+        <Caret Line="889" TopLine="863"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

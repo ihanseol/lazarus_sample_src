@@ -1,0 +1,618 @@
+object fPrepositions: TfPrepositions
+  Left = 122
+  Height = 312
+  Top = 214
+  Width = 1136
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'English Grammar'
+  ClientHeight = 287
+  ClientWidth = 1136
+  DesignTimePPI = 120
+  Font.Height = -18
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object StaticText1: TStaticText
+    Left = 400
+    Height = 30
+    Top = 10
+    Width = 336
+    Alignment = taCenter
+    Caption = 'English Grammar: Prepositions.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object laQuestion: TLabel
+    Left = 8
+    Height = 23
+    Top = 56
+    Width = 73
+    Caption = 'Question:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object edQuestion: TMemo
+    Left = 8
+    Height = 60
+    Top = 88
+    Width = 600
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 664
+    Height = 23
+    Top = 56
+    Width = 83
+    Caption = 'Evaluation:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 664
+    Height = 25
+    Top = 108
+    Width = 80
+    Caption = 'Questions'
+  end
+  object Label4: TLabel
+    Left = 664
+    Height = 25
+    Top = 152
+    Width = 57
+    Caption = 'Correct'
+  end
+  object edQuestions: TEdit
+    Left = 749
+    Height = 33
+    Top = 104
+    Width = 64
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object edCorrect: TEdit
+    Left = 749
+    Height = 33
+    Top = 148
+    Width = 64
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object Label5: TLabel
+    Left = 664
+    Height = 25
+    Top = 196
+    Width = 61
+    Caption = 'Success'
+  end
+  object edSuccess: TEdit
+    Left = 749
+    Height = 33
+    Top = 192
+    Width = 64
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object Label6: TLabel
+    Left = 840
+    Height = 25
+    Top = 152
+    Width = 38
+    Caption = 'False'
+  end
+  object edFalse: TEdit
+    Left = 885
+    Height = 33
+    Top = 148
+    Width = 64
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object Label7: TLabel
+    Left = 8
+    Height = 23
+    Top = 172
+    Width = 118
+    Caption = 'Correct answer:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object edAnswer: TMemo
+    Left = 8
+    Height = 60
+    Top = 204
+    Width = 600
+    ReadOnly = True
+    TabOrder = 4
+    TabStop = False
+  end
+  object btAnswer: TButton
+    Left = 1037
+    Height = 31
+    Top = 248
+    Width = 94
+    Caption = 'Answer'
+    OnClick = btAnswerClick
+    TabOrder = 2
+  end
+  object btQuestion: TButton
+    Left = 920
+    Height = 31
+    Top = 248
+    Width = 94
+    Caption = 'Question'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object edSentences: TMemo
+    Left = 136
+    Height = 113
+    Top = 96
+    Width = 452
+    Lines.Strings = (
+      'We will meet again [in] {0}'
+      'We will meet again [in] the {1}'
+      'We will meet again [on] {11}'
+      'She was born [in] {2}'
+      'I''ll finish reading the {18} [in] the {3}'
+      '[in] the {4}, lot of things were different'
+      'The {19} closes [in] {5}'
+      'I {20} [at] {7}'
+      'She often goes for a walk [at] {8}'
+      'We will discuss the project [at] {9}'
+      'I learned how to use a computer [at] {10}'
+      'He {21} [on] {12}'
+      'I have been working here [since] {2}'
+      'I have been working here [for] {6}'
+      'They will collect data [from] {0} [to] {0}'
+      'I cannot come with you [until] I finish reading this {18}'
+      'My essay is due [by] the end of the {13}'
+      'I have lived [in] {22} [since] {2}'
+      'He will stay [in] {22} [for] {14}'
+      'He works part time [during] the {1}'
+      'I''m not sure when she will finish her work, but I think that she will be here [by] {7}'
+      'You must return the {62} at the latest [by] {15}'
+      'Drive [onto] the grass and park the car there'
+      'She drove [to] the {19} [in] the {3}'
+      'You look serious [in] this photo'
+      'I forgot {28} [in] {24}'
+      'I have seen this drawing [in] a {18}'
+      'We will meet [at] the {19}'
+      'We saw each other for the first time [at] {16}'
+      'I left {28} [on] {17}'
+      'I left {28} [in] {23}'
+      'Go down the hall, it''s the {26} door [on] your {25}'
+      'I forgot {28} [on] the {27}'
+      'I heard this song [on] the {29}'
+      'I received an email [from] {30}'
+      'I will be on vacation [from] {15} [for] {14}'
+      'I always use {31} [from] my garden'
+      'I suddenly saw a {32} running [towards] me'
+      'I swam [across] the whole lake'
+      'There is a lot of dirt [on] the window'
+      'I don''t think that they live [in] this country'
+      'I entered the room [through] an open window'
+      'You have to go [through] {23} to get to the bathroom'
+      'I was standing [between] {38} and his parents'
+      'The gap [between] the rich and poor keeps growing'
+      'Look, there is a {34} [between] the two trees'
+      '{35} is [among] the countries [of] Western Europe'
+      '[among] the advantages of exercising regularly are lower risks of depression'
+      'There is a {36} flower [among] the weeds'
+      '{37} is the son [of] my {39}'
+      '{37} is a good friend [of] mine'
+      'I will go [to] the {19} [with] a friend'
+      'Do you see the computer [with] the {36} keyboard?'
+      'Do you remember the girl [with] the {36} hair?'
+      'She was waiting [at] the {40} [for] {5}'
+      'He attacked her [with] {41}'
+      'She saved my live [by] killing the intruder'
+      'She is the author of many books [about] {42}'
+      'The meaning is often hard to guess [from] the individual words'
+      'You can see this [in] works [by] contemporary authors'
+      'Many engineers proceed [on] the assumption that the digital age is unique'
+      'It''s the root [of] the problem that we have to find'
+      'The {32} died [of] poisoning'
+      'The {32} was killed [by] strangulation [by] a known criminal'
+      'It is difficult to infer any definitive conclusion [with] the available data'
+      'They investigated the relationship [between] education, diet and health'
+      'Please, place the pen [inside] the drawer!'
+      'The {43} flew [over] the {19}'
+      'The {44} are [on] the shelf [in] the corner'
+      'Basements are dug [below] ground'
+      'The squirrel hid the nuts [under] a pile of leaves'
+      'The {19} is [across] the street from the library'
+      'The kids are hiding [behind] the {45}'
+      'Place a check mark [within] the box'
+      'I have some questions to ask you [about] the {47}'
+      'I am sorry to hear that you had a family emergency to deal [with]'
+      'What did you discuss [in] class [during] my absence?'
+      'Would you be willing to discuss it [at] the beginning [of] next class?'
+      'I read [about] it [in] Harry Potter'
+      'Please, leave your shoes [at] the door!'
+      'We have {9} [at] the table [in] the garden'
+      'The mirror hangs [on] the wall'
+      'I saw her [on] {48}'
+      'You may drive a car if you are [over] 16 years of age'
+      'To get to the {19}, you have to drive [over] the bridge'
+      'To escape from prison, they had to climb [over] the wall'
+      'To get [to] the {19}, you have to drive [through] the tunnel'
+      'It''s late, children, go [to] bed now!'
+      'Once [in] the house, go [into] {23}!'
+      'Once [at] home, go [into] {23}!'
+      'These {60} are different [from] the others'
+      'She is going [for] a walk [on] the street'
+      'She jumped [out of] her car and walked [onto] the street'
+      'Practice [with] worksheets a few times a week [until] you feel comfortable'
+      'The {36} ball is rolling [down] the stairs'
+      'When the ball was rolling [off] the box, we saw that it was {36}'
+      '{37} walked [down] the stairs [to] {38}, who was waiting [at] the bottom'
+      '{37} walked [up] the stairs [to] {38}, who was waiting [at] the top'
+      '{38} doesn''t have a job yet because she is still [in] school'
+      '{38} wasn''t at home because she was still [at] school'
+      'Did you see that pretty girl [on] the {49}?'
+      'I met my {63} [at] {50}'
+      'My {63} actually is [in] college'
+      'My grandmother is ill; she actually is [in] the hospital'
+      'To reach the other side, we paddled [across] the river [in] a canoe'
+      'There are a lot [of] black clouds [in] the sky'
+      'You are not [in] class here; you''re [in] the army now!'
+      'Very probably, we are not the only intelligent lifeform [in] the universe'
+      'It''s long ago that men were [on] the moon; when will they be able to travel [to] Mars?'
+      '{37} is sitting [at] his desk [in] the middle [of] {23}'
+      'They were sitting [on] the floor [at] the dinner table'
+      'The car almost hit him because he was [in] the street'
+      'I have a beautiful house [near] the sea'
+      'We rented a boat and went out [on] the sea all day'
+      'We were swimming [in] the sea all day'
+      '{38} was [in] a rowboat when she saw the whale'
+      '{38} was [on] a cruise ship when she saw the whale'
+      'The broom was leaning [against] the fence'
+      'He threw the glass [against] the wall'
+      'Follow the path that leads [along] the river'
+      'There was a white fence [around] the house'
+      '[by] the time we started dinner, the food was cold'
+      'Somebody''s phone rang [during] the movie'
+      'The gift was [inside] a big blue box'
+      'The cat jumped [onto] my lap'
+      'When we walked [out of] the hotel, the taxi was waiting for us'
+      'There is a tunnel [through] the mountain'
+      'Fortunately he was [outside] the house when the fire began'
+      'The boat sailed [towards] the horizon'
+      'I can''t wait [until] summer, so we can go [to] the beach again'
+      'We walked [up] the hill to see the view'
+      '[on] {53}, we always eat dinner [at] my grandparents'' house'
+      'I love all the decorations [at] {53}'
+      'She weared this shirt [on] the day we met'
+      'We had lunch [at] that restaurant [on] my birthday'
+      'He gets his money [on] the first day of the month'
+      'The {51} was high [above] our heads, so nobody could reach it'
+      '[after] work, {37} goes home and eats dinner'
+      '[before] going [to] work, {37} eats breakfast'
+      '{37} eats four times [in] twelve hours'
+      '{38} stayed [until] every person [in] the room had left'
+      'My {54} has decided to move [to] {35}'
+      'The policeman told me that I was [under] arrest'
+      'We have a good working relationship [with] the local authorities'
+      'My neighbour''s garage, which is adjacent [to] my house, is full [of] rubbish'
+      'You can really trust her: She is [above] all suspicion'
+      'The smugglers escaped [over] the border'
+      '{38} said that she lives [on] {55} [in] {22}'
+      'She walked [into] {23} and put the {18} [on] the table'
+      '{38} is sitting [on] the sofa [in] {23}'
+      'While waiting [for] my train, I took a walk [around] the station'
+      '{38} found a note pinned [on] her door'
+      'Don’t forget to put your return address [on] the envelope'
+      'As it was cold, they were sitting [near] the camp fire'
+      'As the door was locked I shoved the letter [under] the door'
+      'He arrived [in] {35} last week'
+      'He will fly [to] {35} next week'
+      'Your score on the examination is [above] average'
+      'The movie will begin [at] {7}, so do not arrive [before] that time'
+      'We will go [to] {35} [during] the month [of] {0}'
+      'The stores stay open [on] {12} [until] {7}'
+      'I read [for] three hours, [from] 9:00p.m. [until] 12:00'
+      'Did you meet {37} [during] your stay [in] {35}?'
+      'The {27} is [on] time. It will arrive [in] an hour'
+      'My {63}''s birthday is [in] {0}. Mine is [on] {15}'
+      'Come [by] 8:00 if you can; no one will be seated [at] the theater [after] 8:30'
+      'I try to get [to] school [on] time to have a cup of coffee [before] my first class'
+      'He will leave [for] {35} [at] the end of {0}'
+      'He had been waiting here [since] {8}'
+      'I received my bill [in] the middle [of] the month'
+      'We accept your kind invitation [with] pleasure'
+      '''[in] the Army Now'' is the title [of] a song [by] Status Quo'
+      'These {52} are sold [by] the dozen'
+      'This {32} can communicate [by] mental telepathy'
+      'Always sign important papers [in] ink!'
+      'Would you rather write [with] a pen or [with] a pencil?'
+      'Do you like to travel [by] {27}?'
+      'He toured the country [in] a station wagon'
+      'Would you like to go [with] us [in] our car?'
+      'This liquid smells [like] turpentine'
+      'We always buy olive oil [by] the gallon'
+      '{37} always speaks [in] a loud voice'
+      '{37} took a temporary job [as] a {56}'
+      '{37} graduated [from] the University of {66}'
+      '{37} is actually doing graduate work [in] {57}'
+      '{37} expects to receive his Master’s degree [by] next {0}'
+      'He plans to accept a job [as] a {56}'
+      'Let''s sit down [on] the steps!'
+      'We walked a short distance [to] the apartment building [in] which our {54} lived'
+      '{38} waited [for] a few minutes, but no one came [to] the door'
+      'She saw a bench [at] the end of the hall, and she sat down [on] it to wait [for] her {54}'
+      'Phoenix is located [in] the state [of] Arizona'
+      'Put a pad [under] the hot dish to protect the table!'
+      'They had to drive [around] the block four times before they found a parking place'
+      'There is an ink spot [on] the collar [of] your shirt'
+      '{38} dived [into] the lake and swam [to] the boat'
+      'Stay [on] this road [for] about two miles'
+      'Drive your car [to] the block and park [in] the parking lot behind the field'
+      'They thrilled audiences [with] their performances [for] the past decade'
+      'Tickets are now [on] sale [in] the box office [at] the theatre'
+      'Reservations may be made [by] mail or telephone'
+      'This picture was painted [by] an artist, who lived [in] the {4}'
+      'I''ll show you the picture [of] the {32} later'
+      'He reminds me [of] my {39}'
+      '[by] the end of next year we will have made over $500,000'
+      'You''ll have to wait. He''ll be with you [in] a minute'
+      'You have to pay [for] the tickets [on] the day you order them'
+      'It''s very kind [of] you to help us'
+      'My {63} suffered [from] a heart attack'
+      'It''s [about] time you told him the truth'
+      'My {54} didn''t take part [in] the discussion'
+      '{37} is very good [at] telling jokes'
+      'We sat down [on] the grass and ate our lunch'
+      'We usually have a family dinner [for] {53}'
+      'I don''t usually feel tired [in] the {3}'
+      'Several of her books were lying [on] the floor'
+      'Passengers are not allowed to use cell phones [on] airplanes'
+      'I think that she is not responsible [for] what she did'
+      'I''m sorry [about] the job you didn''t get'
+      'How many people are [on] your team?'
+      'It depends [on] the weather where we will go this weekend'
+      'I happened to meet my {54} [in] town'
+      'He always drives [at] a tremendous speed because he''s always [in] a hurry'
+      'According [to] the guide there are three {19} [in] town'
+      'I want to post this letter [to] a friend'
+      'My {54} sat [in] the back [of] the car'
+      'I''m interested [in] {58} but I''m not very good [at] playing it'
+      'Do you know the girl over there [in] the {36} dress?'
+      'There was a dark spot [on] the ceiling'
+      'We entered the building [through] the main entrance'
+      'I ran [across] my {39} on my way [to] the {19}'
+      'The two {33} went [to] the movies [by] themselves'
+      'The milk is [in] the refrigerator next to the {52}'
+      'I came [into] {23} and sat [beside] my {54}'
+      '[after] we saw the television show [on] bears we drove [to] the zoo'
+      'The plane flew [above] the clouds'
+      'Please, open your book [on] the page that we reviewed [in] the morning!'
+      'There was a picture [on] the wall [above] {17}'
+      'All the latest {64} will be shown [at] the exhibition'
+      'I am very interested [in] documentaries [on] TV'
+      'Nobody in the family has heard [about] the accident'
+      '{38} comes [from] a poor family'
+      'Turn right [at] the next traffic lights!'
+      'The film is based [on] a novel [by] a writer who died [in] {2}'
+      '{37} is totally obsessed [with] {58}'
+      'I prefer coffee [to] tea'
+      'Let’s divide the money [between] us!'
+      'I like travelling [by] boat [in] summer'
+      'Are you really happy [with] your life here?'
+      'The girls worked [on] their lessons [for] {5}'
+      'Don''t worry [about] it. Everything will be fine'
+      'He always tells us fascinating stories [about] his years [in] the navy'
+      'We didn''t see the whole performance because we left [before] the last act'
+      'I will ask my {54} [for] money'
+      'Have you ever been [to] the theatre recently?'
+      'We arrived [at] the airport [in] time [for] the plane'
+      'The resort lies about 1,500 meters [above] sea level'
+      'I was sitting [on] the chair [behind] my desk'
+      '[at] first I found the work very tiring but [after] a few weeks I got used to it'
+      'The article [about] the {19} was [in] yesterday’s papers'
+      'The classroom is [on] the fourth floor'
+      'We want two seats [for] the concert [on] {11} night'
+      'There''s no point [in] going [by] car if we can’t park [near] the {19}'
+      '{38} goes [to] the {19} [on] {12}'
+      'How could this great player hit the ball [over] the net?'
+      'Can you find our holiday beach [on] the map?'
+      'Please, turn [down] the volume of the radio. I’m getting deaf'
+      'I’m dreaming [about] becoming a famous {59} one day'
+      '{37} is responsible [for] training the new recruits'
+      'My dad shouted [at] me because I didn’t do what he said'
+      'The weather is so great; let''s go [for] a walk.'
+      'The train was travelling [at] a speed of over 150 km an hour'
+      'Despite the bad weather all trains are running [on] time'
+      'Bats are mammals that are highly active [at] night'
+      'The cat was playing [with] a ball [in] the corner [of] {37}''s room'
+      'What are we having [for] {9} today?'
+      '[on] average, the unemployment rate has been going up 1 per cent a year'
+      'Those {60} went [out of] fashion many years ago'
+      'Unemployment is [on] the increase in many European countries'
+      'I don''t know [for] certain, but I think she''s [on] leave [at] the moment'
+      'The unexpected success of the company took us [by] surprise'
+      'There was nothing there anymore, so we had to start [from] scratch'
+      '[in] my opinion, she must be the greatest athlete [of] all times'
+      'There is a big ceremony being held [in] honour [of] the killed soldiers'
+      'I''m sorry. I must have done it [by] mistake'
+      'She waved me good-bye [until] our car was [out of] sight'
+      'It''s not allowed to give them any alcohol. They are all [under] age'
+      '{37} has gone [to] {22} [on] business'
+      'They had to translate the document [from] German [into] {61}'
+      'Smoking in public places is [against] the law [in] many countries'
+      'The boss looked [down] on us arrogantly'
+      'These products have been manufactured [by] hand'
+      'Late again! This train is often running [behind] schedule'
+      'Punctual as usual! This train is mostly running [on] schedule'
+      'The journalist asked the politician a few things [off] the record'
+      'Strawberries are not [in] season [at] the moment'
+      'There are a few islands just miles [off] the coast'
+      'I lost the documents [by] accident. I didn''t do it [on] purpose'
+      'She was completely [out of] breath when she crossed the finish line'
+      'After we passed the last bend, the city finally came [into] sight'
+      'The teacher handed [out] the test sheets'
+      'Beware [of] the dog!'
+      'A good friend never lets you [down]'
+      'I want to speak [to] the person [in] charge, please'
+      'It’s freezing. It must be 20° [below] zero'
+      'It was called the greatest show [on] earth'
+      'The relationship [between] the two {33} has changed significantly'
+      'I''m not [in] the mood [for] such silly games'
+      'There were no security personnel [on] duty [at] that time'
+      'People [with] ambition always try to achieve their goals'
+      'We bought the {46} because it was [on] sale'
+      'All the celebrations were called [off] because of the tragic accident'
+      '{38} is not sure [about] her new job offer'
+      'Requests for additional seats must be made [in] writing'
+      'The maths test was a great challenge. It took me [over] an hour to finish'
+      'We haven''t yet found an answer [to] that question'
+      'I think that we supply the customers [with] the right product'
+      'Your {46} is similar [to] mine'
+      'I''m sorry [for] having done something wrong'
+      'Be careful! There is ice [on] the roads today'
+      'Do come in; don''t stand [in] the cold!'
+      'Don''t keep this medicine [in] the sun!'
+      'Let''s have a ride [on] horseback!'
+      'The picture [at] the top of the page shows a {51}'
+      'The yachts are sailing [on] the British waters now'
+      'There are two sentences [on] the blackboard'
+      'You should not play football [in] the street'
+      'Pour some milk [into] my cup, please!'
+      'Do you know that {38} wasn''t invited [to] dinner'
+      'What grudge do you have [against] me?'
+      'There isn''t anything we can do: this disease is [beyond] cure'
+      'Costly furniture is made [of] wood'
+      'I am thankful [to] you [for] your kindness'
+      'The meeting has been adjourned [for] a week'
+      'What would you like to have [with] your meal?'
+      'The {33} quarreled [among] themselves'
+      'I was told to appear [before] the judge'
+      'We have selected {37} [as] the captain [of] the team'
+      'There are several ways [of] cooking meat'
+      '{38} is not familiar [with] this subject'
+      'Compare your answers [with] your partner'
+      'Apples and pears are [in] the same box'
+      'Put the apples and the pears [into] the same box!'
+      '{38} is tall [with] black hair and brown eyes'
+      'Guess what I have [in] my hand?'
+      'I''ll go [on] holiday [at] {53}. What [about] you?'
+      'She is [on] vacation. She is [in] {35} now'
+      'What is this called [in] {61}?'
+      'Don''t run [in] the classroom!'
+      'We ran [into] the classroom, and then, we saw her'
+      '{38} plays guitar [in] a band'
+      'The car crashed [into] a telephone pole'
+      'The caterpillar turned [into] a butterfly'
+      'The results will be delivered [within] fourteen days'
+      'Most car accidents occur [within] five miles [of] home'
+      'They began to drop [out of] the race one [by] one'
+      'Think [of] a number. Now multiply it [by] seven'
+      'Put a blanket [over] your lap!'
+      'When we walked [towards] the house, we saw the smoke'
+    )
+    TabOrder = 9
+    Visible = False
+  end
+  object edQFile: TMemo
+    Left = 136
+    Height = 50
+    Top = 229
+    Width = 50
+    TabOrder = 10
+    Visible = False
+  end
+  object edAFile: TMemo
+    Left = 208
+    Height = 50
+    Top = 229
+    Width = 50
+    TabOrder = 11
+    Visible = False
+  end
+  object Label8: TLabel
+    Left = 976
+    Height = 25
+    Top = 152
+    Width = 84
+    Caption = 'No answer'
+  end
+  object edNoAnsw: TEdit
+    Left = 1067
+    Height = 33
+    Top = 148
+    Width = 64
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object mMenu: TMainMenu
+    Left = 1088
+    Top = 8
+    object mTest: TMenuItem
+      Caption = 'Test'
+      object mTestNew: TMenuItem
+        Caption = 'New'
+        OnClick = mTestNewClick
+      end
+      object mTestExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mTestExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsQuestions: TMenuItem
+        Caption = 'Number of questions ...'
+        OnClick = mOptionsQuestionsClick
+      end
+      object mOptionsEval: TMenuItem
+        Caption = 'Answer evaluation'
+        object mOptionsEval1: TMenuItem
+          Caption = '1  0'
+          Checked = True
+          OnClick = mOptionsEval1Click
+        end
+        object mOptionsEval2: TMenuItem
+          Caption = '1 -1'
+          OnClick = mOptionsEval2Click
+        end
+        object mOptionsEval3: TMenuItem
+          Caption = '1   0   -1'
+          OnClick = mOptionsEval3Click
+        end
+      end
+    end
+    object mExtras: TMenuItem
+      Caption = 'Extras'
+      object mExtrasEx: TMenuItem
+        Caption = 'Create exercise file'
+        OnClick = mExtrasExClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object dlgPrepositions: TSaveDialog
+    Filter = 'Text file|*.txt|All files|*.*'
+    Left = 1000
+    Top = 8
+  end
+end

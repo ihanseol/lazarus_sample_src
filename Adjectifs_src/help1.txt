@@ -1,0 +1,91 @@
+###########################################
+# Les terminaisons de l’adjectif français #
+###########################################
+
+La terminaison de l'adjectif français varie avec le genre et le nombre, la base étant donnée par le masculin singulier.
+
+=====================
+= Féminin singulier =
+=====================
+
+Règle générale:
+===============
+
+On ajoute -e au masculin singulier, sauf si ce dernier se termine par -e.
+
+Quelques adjectifs, cependant sont invariables:
+  - ces 3 adjectifs, utilisés dans la langue parlée: chic, super, sympa;
+  - les adjectifs issus de noms (exceptions : rose, fauve et mauve).
+
+Féminins singuliers irréguliers:
+================================
+
+Les adjectifs suivants ont un féminin irrégulier (ne suivant aucune règle):
+
+  Masc. sg.  Fém. sg.      Masc. sg.  Fém. sg.      Masc. sg.  Fém. sg.
+  --------------------     -------------------      -------------------
+  andalou    andalouse     bénin      bénigne       coi        coite
+  doux       douce         faux       fausse        favori     favorite
+  frais      fraîche       grec       grecque       roux       rousse
+  sec        sèche         tiers      tierce        vieux      vieille
+
+Féminins singuliers avec dédoublement de la consonne terminale.
+===============================================================
+
+Dédoublement de la consonne terminale pour:
+
+  - tous les adjectifs avec m. sg. en -el, -il, -ul, -en, -on.
+  - certains adjectifs avec m. sg. en -s ou en -ot (les autres étant réguliers).
+  - les adjectifs avec m. sg. en -et (mais des exceptions avec f. sg. en -ète).
+
+Féminins singuliers avec une terminaison particulière.
+======================================================
+
+À la différence des adjectifs mentionnés en haut, la terminaison du féminin suit une règle, en fait, dépend de la terminaison du masculin singulier. Pour certaines de ces terminaisons, il y a des exceptions, c'est-à-dire un féminin singulier différent de ce que prévoit la règle.
+
+  Masc. sg.    Fém. sg.    Exceptions
+  -------------------------------------------
+  -x           -se
+  -f           -ve
+  -eau         -elle
+  -ou          -olle
+  -er          -ère
+  -g           -gue
+  -eux         -euse
+  -teur        -teuse      -trice
+  -eur         -euse       régulier, -eresse
+  -c           -que        -che
+
+Finallement, certains adjectifs, dont le masc. sg. se termine en -u (ex: aigu) prennent un tréma sur le -e du féminin (aiguë).
+
+====================
+= Masculin pluriel =
+====================
+
+Règle générale:
+===============
+
+On ajoute -s au masculin singulier, sauf si ce dernier se termine par -s ou par -x (et pour les adjectifs invariables mentionnés en haut).
+
+Masculins pluriels en -x.
+=========================
+
+Les adjectifs, dont le masculin singulier se termine en -eau, forment le pluriel masculin en ajoutant -x au lieu de -s.
+
+Masculins pluriels avec une terminaison particulière.
+=====================================================
+
+La terminaison du masculin pluriel de ces adjectifs suit une règle, dépendant de la terminaison du masculin singulier. Comme pour le féminin, il peut y avoir des exceptions, c'est-à-dire un pluriel différent de ce que prévoit la règle.
+
+  Mas. sg.    Masc. pl.    Exceptions
+  ------------------------------------------
+  -al         -aux         régulier
+
+===================
+= Féminin pluriel =
+===================
+
+Règle générale:
+===============
+
+On ajoute -s au féminin singulier (sauf pour les adjectifs invariables mentionnés en haut). Pas de cas particuliers.

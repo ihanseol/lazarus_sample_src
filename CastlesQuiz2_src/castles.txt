@@ -1,0 +1,344 @@
+DEU 01 S S Burg Altenstein
+DEU 01 S S Schloss Berchtesgaden
+DEU 01 S S Schloss Blutenburg
+DEU 01 S S Burg zu Burghausen
+DEU 01 S S Burgschloss Cadolzburg
+DEU 01 S S Veste Coburg
+DEU 01 S S Schloss Dachau
+DEU 01 S S Schloss Dennenlohe
+DEU 01 S S Burg Donaustauf
+DEU 01 S S Burg Eisenberg
+DEU 01 S S Burg Falkenstein (Falkenstein)
+DEU 01 S S Burg Falkenstein (Pfronten)
+DEU 01 S S Schloss Frankenberg
+DEU 01 S S Hohes Schloss Füssen
+DEU 01 S S Burg Gößweinstein
+DEU 01 S S Schloss Greifenstein
+DEU 01 S S Burg Harburg
+DEU 01 S S Burg Hilpoltstein
+DEU 01 S S Schloss Hohenaschau
+DEU 01 S S Burg Hohenstein
+DEU 01 S S Neues Schloss Ingolstadt
+DEU 01 S S Schloss Johannisburg
+DEU 01 S S Schloss Kaltenberg
+DEU 01 S S Burg Lauenstein
+DEU 01 S S Schloss Leitheim
+DEU 01 S S Schloss Linderhof
+DEU 01 S S Feste Marienberg
+DEU 01 S S Schloss Mindelburg
+DEU 01 S S Burg Nassenfels
+DEU 01 S S Burg Neideck
+DEU 01 S S Schloss Neuburg an der Donau
+DEU 01 S S Kaiserburg Nürnberg
+DEU 01 S S Schloss Nymphenburg
+DEU 01 S S Veste Oberhaus
+DEU 01 S S Burg Pappenheim
+DEU 01 S S Plassenburg
+DEU 01 S S Burg Pottenstein
+DEU 01 S S Burg Prunn
+DEU 01 S S Feste Rosenberg
+DEU 01 S S Schloss Tambach
+DEU 01 S S Burg Trausnitz
+DEU 01 S S Sisi-Schloss Aichach
+DEU 01 S S Schloss Virnsberg
+DEU 01 S S Schloss Weissenstein
+DEU 01 S S Burg Wernstein
+DEU 01 S S Burg Wildenstein
+DEU 01 S S Willibaldsburg
+DEU 01 S S Burg Wolfsegg
+DEU 01 S S Hohenzollernfestung Wülzburg
+DEU 01 S S Burg Zwernitz
+DEU 02 S S Burg Baden
+DEU 02 S S Schloss Baldern
+DEU 02 S S Schloss Bruchsal
+DEU 02 S S Schloss Bürgeln
+DEU 02 S S Feste Dilsberg
+DEU 02 S S Schloss Donzdorf
+DEU 02 S S Schloss Ellwangen
+DEU 02 S S Schloss Etllingen
+DEU 02 S S Gamburg
+DEU 02 S S Schloss Glatt
+DEU 02 S S Götzenburg
+DEU 02 S S Burg Guttenberg
+DEU 02 S S Schloss Heidelberg
+DEU 02 S S Schloss Hellenstein
+DEU 02 S S Hochburg
+DEU 02 S S Altes Schloss Hohenbaden
+DEU 02 S S Burg Hohengeroldseck
+DEU 02 S S Burg Hohenneuffen
+DEU 02 S S Burg Hohenrechberg
+DEU 02 S S Festung Hohentwiel
+DEU 02 S S Burg Honberg
+DEU 02 S S Burg Hornberg
+DEU 02 S S Jesuitenschloss Merzhausen
+DEU 02 S S Kastelburg
+DEU 02 S S Burg Katzenstein
+DEU 02 S S Schloss Kirchheim
+DEU 02 S S Küssaburg
+DEU 02 S S Burg Landeck
+DEU 02 S S Schloss Langenburg
+DEU 02 S S Schloss Ludwigsburg
+DEU 02 S S Burg Meersburg
+DEU 02 S S Minneburg
+DEU 02 S S Burg Rötteln
+DEU 02 S S Schloss Salem
+DEU 02 S S Residenzschloss Urach
+DEU 02 S S Schloss Wäscherburg
+DEU 02 S S Burg Weibertreu
+DEU 02 S S Schloss Weikersheim
+DEU 02 S S Burg Wertheim
+DEU 03 S W Schloss Arolsen
+DEU 03 S W Schloss Berlepsch
+DEU 03 S W Burg Brandenstein
+DEU 03 S W Schloss Braunfels
+DEU 03 S W Burg Falkenstein (Taunus)
+DEU 03 S W Schloss Friedrichstein
+DEU 03 S W Burg Gleiberg
+DEU 03 S W Burg Grebenstein
+DEU 03 S W Burg Hayn
+DEU 03 S W Festung Herzberg
+DEU 03 S W Hinterburg
+DEU 03 S W Burg Königstein
+DEU 03 S W Landgrafenschloss Eschwege
+DEU 03 S W Löwenburg (Kassel)
+DEU 03 S W Burg Ludwigstein
+DEU 03 S W Burg Münzenberg
+DEU 03 S W Orangerie
+DEU 03 S W Schloss Reichenberg
+DEU 03 S W Burg Ronneburg
+DEU 03 S W Sababurg
+DEU 03 S W Trendelburg
+DEU 03 S W Schloss Wilhelmshöhe
+DEU 03 S W Schloss Wilhelmsthal
+DEU 04 N N Jagdschloss Granitz
+DEU 04 N N Schloss Güstrow
+DEU 04 N N Burg Neustadt-Glewe
+DEU 04 N N Schloss Schwerin
+DEU 04 N N Burg Stargard
+DEU 05 N N Schloss Adelebsen
+DEU 05 N N Schloss Agathenburg
+DEU 05 N N Schloss Bevern
+DEU 05 N N Burg Bodenteich
+DEU 05 N N Bramburg
+DEU 05 N N Schloss Bückeburg
+DEU 05 N N Schloss Celle
+DEU 05 N N Schloss Clemenswerth
+DEU 05 N N Burg Coppenbruegge
+DEU 05 N N Burg Dankwarderode
+DEU 05 N N Schloss Derneburg
+DEU 05 N N Burg Dinklage
+DEU 05 N N Schloss Erbhof
+DEU 05 N N Schloss Evenburg
+DEU 05 N N Schloss Fallersleben
+DEU 05 N N Schloss Fürstenau
+DEU 05 N N Schloss Fürstenberg
+DEU 05 N N Schloss Gifhorn
+DEU 05 N N Burg Greene
+DEU 05 N N Schloss Hämelschenburg
+DEU 05 N N Schloss Hannover Herrenhausen
+DEU 05 N N Burg Hardenberg
+DEU 05 N N Schloss Herzberg
+DEU 05 N N Schloss Iburg (Bad Iburg)
+DEU 05 N N Schloss Jever
+DEU 05 N N Schloss Lütetsburg
+DEU 05 N N Burg Lutter
+DEU 05 N N Schloss Marienburg
+DEU 05 N N Burg Neuhaus
+DEU 05 N N Osterburg (Groothusen)
+DEU 05 N N Burg Plesse
+DEU 05 N N Burg Polle
+DEU 05 N N Schloss Pyrmont
+DEU 05 N N Schloss Rodenberg
+DEU 05 N N Burg Sachsenstein
+DEU 05 N N Burg Scharzfels
+DEU 05 N N Schloss Ippenburg
+DEU 05 N N Schloss Söder
+DEU 05 N N Kloster Wienhausen
+DEU 05 N N Schloss Wittlage
+DEU 05 N N Burg Wohldenberg
+DEU 05 N N Schloss Wolfenbüttel
+DEU 05 N N Schloss Wolfsburg
+DEU 06 S O Schloss Bertholdsburg
+DEU 06 S O Burg Bodenstein
+DEU 06 S O Schloss Burgk
+DEU 06 S O Burg Gleichen
+DEU 06 S O Burg Gleichenstein
+DEU 06 S O Burg Greifenstein
+DEU 06 S O Oberes Schloss Greiz
+DEU 06 S O Burg Hanstein
+DEU 06 S O Veste Heldburg
+DEU 06 S O Schloss Heringen
+DEU 06 S O Burg Hohnstein (Harz)
+DEU 06 S O Johanniterburg Kühndorf
+DEU 06 S O Leuchtenburg
+DEU 06 S O Ordensburg Liebstedt
+DEU 06 S O Mühlburg
+DEU 06 S O Wasserburg Niederroßla
+DEU 06 S O Osterburg (Weida)
+DEU 06 S O Burg Posterstein
+DEU 06 S O Burg Ranis
+DEU 06 S O Burg Scharfenstein
+DEU 06 S O Schloss Sondershausen
+DEU 06 S O Wartburg
+DEU 06 S O Schloss Wetzelstein
+DEU 06 S O Schloss Wilhelmstein
+DEU 07 S W Stadtburg Andernach
+DEU 07 S W Reichsburg Cochem
+DEU 07 S W Burg Daun
+DEU 07 S W Ebernburg
+DEU 07 S W Ehrenburg
+DEU 07 S W Burg Eltz
+DEU 07 S W Burg Falkenstein (Winnweiler)
+DEU 07 S W Frauenburg
+DEU 07 S W Genovevaburg
+DEU 07 S W Hambacher Schloss
+DEU 07 S W Burg Kastellaun
+DEU 07 S W Löwenburg (Monreal)
+DEU 07 S W Madenburg
+DEU 07 S W Marksburg
+DEU 07 S W Burg Nassau
+DEU 07 S W Nürburg
+DEU 07 S W Schloss Idar-Oberstein
+DEU 07 S W Burg Olbrück
+DEU 07 S W Burg Reichenstein
+DEU 07 S W Burg Rheinfels
+DEU 07 S W Saarburg
+DEU 07 S W Saynburg
+DEU 07 S W Schmidtburg
+DEU 07 S W Burg Stahleck
+DEU 07 S W Burg Thurant
+DEU 07 S W Reichsburg Trifels
+DEU 07 S W Schloss Veldenz
+DEU 07 S W Burg Wilenstein
+DEU 08 N O Burg und Schloss Allstedt
+DEU 08 N O Burg Anhalt
+DEU 08 N O Schloss Ballenstedt
+DEU 08 N O Schloss Bernburg
+DEU 08 N O Schloss Blankenburg
+DEU 08 N O Burg Egeln
+DEU 08 N O Burg Falkenstein (Harz)
+DEU 08 N O Schloss Flechtingen
+DEU 08 N O Schloss Harzgerode
+DEU 08 N O Schloss Hessen
+DEU 08 N O Schloss Hundisburg
+DEU 08 N O Benediktinerkloster Huysburg
+DEU 08 N O Schloss Parchen
+DEU 08 N O Schloss Plötzkau
+DEU 08 N O Schloss Pretzsch
+DEU 08 N O Schloss Quedlinburg
+DEU 08 N O Festung Regenstein
+DEU 08 N O Schloss Schönfeld
+DEU 08 N O Stiftskirche Walbeck
+DEU 08 N O Burg Wanzleben
+DEU 08 N O Schloss Wernigerode
+DEU 08 N O Schloss Westerburg
+DEU 09 N N Burg Beeskow
+DEU 09 N N Schloss Doberlug
+DEU 09 N N Burg Eisenhardt
+DEU 09 N N Schloss Lübben
+DEU 09 N N Plattenburg
+DEU 09 N N Burg Rabenstein
+DEU 09 N N Schloss Senftenberg
+DEU 09 N N Burg Storkow
+DEU 09 N N Schloss Wolfshagen
+DEU 10 S O Albrechtsburg
+DEU 10 S O Schloss Colditz
+DEU 10 S O Burg Gnandstein
+DEU 10 S O Burg Hohnstein (Hohnstein)
+DEU 10 S O Schloss Klippenstein
+DEU 10 S O Festung Königstein
+DEU 10 S O Burg Kriebstein
+DEU 10 S O Burg Mildenstein
+DEU 10 S O Schloss Moritzburg
+DEU 10 S O Schloss Rochlitz
+DEU 10 S O Schloss Rochsburg
+DEU 10 S O Schloss Schlettau
+DEU 10 S O Burg Stolpen
+DEU 10 S O Schloss Voigtsberg
+DEU 10 S O Schloss Wachau
+DEU 10 S O Schloss Wackerbarth
+DEU 11 N N Schloss Ahrensburg
+DEU 11 N N Schloss Glücksburg
+DEU 11 N N Schloss vor Husum
+DEU 12 N W Burg Altena
+DEU 12 N W Wasserburg Anholt
+DEU 12 N W Schloss Arnsberg
+DEU 12 N W Schloss Benrath
+DEU 12 N W Burg Boetzelaer
+DEU 12 N W Schloss Borbeck
+DEU 12 N W Schloss Brake
+DEU 12 N W Schloss Broich
+DEU 12 N W Schloss Burg
+DEU 12 N W Schloss Corvey
+DEU 12 N W Residenzschloss Detmold
+DEU 12 N W Schloss Drachenburg
+DEU 12 N W Schloss Eringerfeld
+DEU 12 N W Schloss Konradsheim
+DEU 12 N W Burg Lüdinghausen
+DEU 12 N W Burg Monschau
+DEU 12 N W Burg Nideggen
+DEU 12 N W Schloss Rheydt
+DEU 12 N W Burg Eversberg
+DEU 12 N W Ginsburg
+DEU 12 N W Iburg (Bad Driburg)
+DEU 12 N W Schloss Landsberg
+DEU 12 N W Burg Satzvey
+DEU 12 N W Schloss Moyland
+DEU 12 N W Burg Schwalenberg
+DEU 12 N W Schloss Styrum
+DEU 12 N W Burg Veynau
+DEU 12 N W Burg Vischering
+DEU 12 N W Burg Vondern
+AUT        Burg Aggstein
+AUT        Schloss Artstetten
+AUT        Schloss Belvedere
+AUT        Schloss Bruck
+AUT        Burg Deutschlandsberg
+AUT        Burg Dürnstein
+AUT        Schloss Eggenberg
+AUT        Burg Ehrenberg
+AUT        Schloss Ennsegg
+AUT        Schloss Esterhazy
+AUT        Burg Finstergrün
+AUT        Burg Forchtenstein
+AUT        Burg Freundsberg
+AUT        Schloss Greinburg
+AUT        Feste Griffen
+AUT        Burg Hardegg
+AUT        Burg Hasegg
+AUT        Burg Heidenreichstein
+AUT        Schloss Herberstein
+AUT        Burg Heunburg
+AUT        Burg Hochosterwitz
+AUT        Hofburg Innsbruck
+AUT        Festung Hohensalzberg
+AUT        Burg Hohenwerfen
+AUT        Schloss Kornberg
+AUT        Festung Kufstein
+AUT        Schloss Lackenbach
+AUT        Schloss Loosdorf
+AUT        Schloss Moosburg
+AUT        Burg Neudenstein
+AUT        Pfeilburg Fürstenfeld
+AUT        Burg Riegersburg
+AUT        Schloss Rosenburg
+AUT        Schallaburg
+AUT        Schattenburg
+AUT        Schloss Stainz
+AUT        Schloss Thalberg
+AUT        Schloss Tratzberg
+AUT        Schloss Trautenfels
+AUT        Burg Waisenberg
+CHE        Schloss Burgdorf
+CHE        Château de Chillon
+CHE        Festung Munot
+CHE        Château de Gruyères
+CHE        Schloss Habsburg
+CHE        Schloss Hallwyl
+CHE        Schloss Heidegg
+CHE        Kyburg
+CHE        Schloss Lenzburg
+CHE        Château de Nyon
+CHE        Château de Pranings
+CHE        Schloss Wildegg
+CHE        Burg Zug

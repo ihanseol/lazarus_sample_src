@@ -1,0 +1,62 @@
+object HelpForm: THelpForm
+  Left = 645
+  Height = 347
+  Top = 312
+  Width = 767
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Alarm Clock - Help'
+  ClientHeight = 347
+  ClientWidth = 767
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object Memo1: TMemo
+    Left = 16
+    Height = 274
+    Top = 16
+    Width = 736
+    Font.Height = -13
+    Lines.Strings = (
+      'Music alarm clock with individual time and audio file selection for each week day resprctively 3 given dates.'
+      ''
+      'To set the alarm:'
+      ''
+      'If you want the alarm to be rung every week for given days, choose "week days" alarm, check the days you want and '
+      'choose ring time and audio file for each of them. You may use the "Copy" button to copy last time value or audio '
+      'selection to all checked week days.'
+      'If you want the alarm to ring at a given date, choose "dates alarm", check 1, 2 or 3 alarms to be set, choose ring '
+      'date and time and audio file for each of them.'
+      'Click the "Start" button to activate the alarm.'
+      'The "Hide" command in the "Alarm" menu may be used to hide the Alarm Clock window in the system tray. Clicking '
+      'the tray icon will restore the window. Note that if "dates alarm" is selected, alarms that have been rung are '
+      'unchecked; if there aren''t any coming alarms left, the alarm clock is stopped and the application window restored.'
+      ''
+      'The AlarmClock.INI file.'
+      ''
+      'This file stores all selections you make (dates, times, audio directory and files), thus they may be used the next time '
+      'the application is started.'
+      'To reset this file to its default values (as specified in the file AlarmClock_default.INI), use the "Reset" command in '
+      'the "Alarm" menu.'
+      ''
+      'Notes:'
+      ''
+      'After you changed dates/times, please hit the TAB key or move otherwise out of the date-time picker control to '
+      'make your changes active.'
+      'If you hit the "Start" button and the alarm clock is not started, this is simply because no (valid date/time value) '
+      'alarm has been selected.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object ButtonClose: TButton
+    Left = 677
+    Height = 25
+    Top = 312
+    Width = 75
+    Caption = 'Close'
+    OnClick = ButtonCloseClick
+    TabOrder = 0
+  end
+end

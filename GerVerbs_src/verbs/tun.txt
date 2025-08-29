@@ -1,0 +1,8 @@
+# Unregelmäßiger Präsens: "tun"
+
+1 tue
+2 tust
+3 tut
+4 tun*
+5 tut
+6 tun*

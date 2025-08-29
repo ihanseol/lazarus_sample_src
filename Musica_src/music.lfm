@@ -1,0 +1,553 @@
+object fMusica: TfMusica
+  Left = 174
+  Height = 518
+  Top = 139
+  Width = 1140
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Musical notes'
+  ClientHeight = 493
+  ClientWidth = 1140
+  DesignTimePPI = 120
+  Font.Height = -18
+  KeyPreview = True
+  Menu = mMenu
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnKeyUp = FormKeyUp
+  LCLVersion = '2.2.0.4'
+  object shC1: TShape
+    Left = 10
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shC1MouseDown
+    OnMouseUp = shC1MouseUp
+  end
+  object shD1: TShape
+    Left = 50
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shD1MouseDown
+    OnMouseUp = shD1MouseUp
+  end
+  object shE1: TShape
+    Left = 90
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shE1MouseDown
+    OnMouseUp = shE1MouseUp
+  end
+  object shF1: TShape
+    Left = 130
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shF1MouseDown
+    OnMouseUp = shF1MouseUp
+  end
+  object shG1: TShape
+    Left = 170
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shG1MouseDown
+    OnMouseUp = shG1MouseUp
+  end
+  object shA1: TShape
+    Left = 210
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shA1MouseDown
+    OnMouseUp = shA1MouseUp
+  end
+  object shB1: TShape
+    Left = 250
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shB1MouseDown
+    OnMouseUp = shB1MouseUp
+  end
+  object shC2: TShape
+    Left = 290
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shC2MouseDown
+    OnMouseUp = shC2MouseUp
+  end
+  object shD2: TShape
+    Left = 330
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shD2MouseDown
+    OnMouseUp = shD2MouseUp
+  end
+  object shE2: TShape
+    Left = 370
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shE2MouseDown
+    OnMouseUp = shE2MouseUp
+  end
+  object shF2: TShape
+    Left = 410
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shF2MouseDown
+    OnMouseUp = shF2MouseUp
+  end
+  object shG2: TShape
+    Left = 450
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shG2MouseDown
+    OnMouseUp = shG2MouseUp
+  end
+  object shA2: TShape
+    Left = 490
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shA2MouseDown
+    OnMouseUp = shA2MouseUp
+  end
+  object shB2: TShape
+    Left = 530
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shB2MouseDown
+    OnMouseUp = shB2MouseUp
+  end
+  object shCs1: TShape
+    Left = 35
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shCs1MouseDown
+    OnMouseUp = shCs1MouseUp
+  end
+  object shDs1: TShape
+    Left = 75
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shDs1MouseDown
+    OnMouseUp = shDs1MouseUp
+  end
+  object shFs1: TShape
+    Left = 155
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shFs1MouseDown
+    OnMouseUp = shFs1MouseUp
+  end
+  object shGs1: TShape
+    Left = 195
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shGs1MouseDown
+    OnMouseUp = shGs1MouseUp
+  end
+  object shAs1: TShape
+    Left = 235
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shAs1MouseDown
+    OnMouseUp = shAs1MouseUp
+  end
+  object shCs2: TShape
+    Left = 315
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shCs2MouseDown
+    OnMouseUp = shCs2MouseUp
+  end
+  object shDs2: TShape
+    Left = 355
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shDs2MouseDown
+    OnMouseUp = shDs2MouseUp
+  end
+  object shFs2: TShape
+    Left = 435
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shFs2MouseDown
+    OnMouseUp = shFs2MouseUp
+  end
+  object shGs2: TShape
+    Left = 475
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shGs2MouseDown
+    OnMouseUp = shGs2MouseUp
+  end
+  object shAs2: TShape
+    Left = 515
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shAs2MouseDown
+    OnMouseUp = shAs2MouseUp
+  end
+  object shC3: TShape
+    Left = 570
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shC3MouseDown
+    OnMouseUp = shC3MouseUp
+  end
+  object shD3: TShape
+    Left = 610
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shD3MouseDown
+    OnMouseUp = shD3MouseUp
+  end
+  object shE3: TShape
+    Left = 650
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shE3MouseDown
+    OnMouseUp = shE3MouseUp
+  end
+  object shF3: TShape
+    Left = 690
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shF3MouseDown
+    OnMouseUp = shF3MouseUp
+  end
+  object shG3: TShape
+    Left = 730
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shG3MouseDown
+    OnMouseUp = shG3MouseUp
+  end
+  object shA3: TShape
+    Left = 770
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shA3MouseDown
+    OnMouseUp = shA3MouseUp
+  end
+  object shB3: TShape
+    Left = 810
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shB3MouseDown
+    OnMouseUp = shB3MouseUp
+  end
+  object shCs3: TShape
+    Left = 595
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shCs3MouseDown
+    OnMouseUp = shCs3MouseUp
+  end
+  object shDs3: TShape
+    Left = 635
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shDs3MouseDown
+    OnMouseUp = shDs3MouseUp
+  end
+  object shFs3: TShape
+    Left = 715
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shFs3MouseDown
+    OnMouseUp = shFs3MouseUp
+  end
+  object shGs3: TShape
+    Left = 755
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shGs3MouseDown
+    OnMouseUp = shGs3MouseUp
+  end
+  object shAs3: TShape
+    Left = 795
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shAs3MouseDown
+    OnMouseUp = shAs3MouseUp
+  end
+  object shC4: TShape
+    Left = 850
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shC4MouseDown
+    OnMouseUp = shC4MouseUp
+  end
+  object shD4: TShape
+    Left = 890
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shD4MouseDown
+    OnMouseUp = shD4MouseUp
+  end
+  object shE4: TShape
+    Left = 930
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shE4MouseDown
+    OnMouseUp = shE4MouseUp
+  end
+  object shF4: TShape
+    Left = 970
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shF4MouseDown
+    OnMouseUp = shF4MouseUp
+  end
+  object shG4: TShape
+    Left = 1010
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shG4MouseDown
+    OnMouseUp = shG4MouseUp
+  end
+  object shA4: TShape
+    Left = 1050
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shA4MouseDown
+    OnMouseUp = shA4MouseUp
+  end
+  object shB4: TShape
+    Left = 1090
+    Height = 350
+    Top = 86
+    Width = 40
+    OnMouseDown = shB4MouseDown
+    OnMouseUp = shB4MouseUp
+  end
+  object shCs4: TShape
+    Left = 875
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shCs4MouseDown
+    OnMouseUp = shCs4MouseUp
+  end
+  object shDs4: TShape
+    Left = 915
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shDs4MouseDown
+    OnMouseUp = shDs4MouseUp
+  end
+  object shFs4: TShape
+    Left = 995
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shFs4MouseDown
+    OnMouseUp = shFs4MouseUp
+  end
+  object shGs4: TShape
+    Left = 1035
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shGs4MouseDown
+    OnMouseUp = shGs4MouseUp
+  end
+  object shAs4: TShape
+    Left = 1075
+    Height = 250
+    Top = 86
+    Width = 30
+    Brush.Color = clBlack
+    OnMouseDown = shAs4MouseDown
+    OnMouseUp = shAs4MouseUp
+  end
+  object StaticText1: TStaticText
+    Left = 6
+    Height = 21
+    Top = 454
+    Width = 1120
+    Caption = '  C   D   E   F   G   A   B   C   D   E   F   G   A   B   C   D   E   F   G   A   B   C   D   E   F   G   A   B'
+    Font.Height = -18
+    Font.Name = 'Consolas'
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Shape1: TShape
+    Left = 21
+    Height = 2
+    Top = 481
+    Width = 258
+    Brush.Color = clBlack
+  end
+  object Shape2: TShape
+    Left = 302
+    Height = 2
+    Top = 481
+    Width = 258
+    Brush.Color = clBlack
+  end
+  object Shape3: TShape
+    Left = 584
+    Height = 2
+    Top = 481
+    Width = 258
+    Brush.Color = clBlack
+  end
+  object Shape4: TShape
+    Left = 863
+    Height = 2
+    Top = 481
+    Width = 258
+    Brush.Color = clBlack
+  end
+  object StaticText2: TStaticText
+    Left = 11
+    Height = 21
+    Top = 46
+    Width = 1120
+    Caption = '   C#  D#      F#  G#  A#      C#  D#      F#  G#  A#      C#  D#      F#  G#  A#      C#  D#      F#  G#  A#      B'
+    Font.Height = -18
+    Font.Name = 'Consolas'
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Shape5: TShape
+    Left = 41
+    Height = 2
+    Top = 38
+    Width = 224
+    Brush.Color = clBlack
+  end
+  object Shape6: TShape
+    Left = 320
+    Height = 2
+    Top = 38
+    Width = 224
+    Brush.Color = clBlack
+  end
+  object Shape7: TShape
+    Left = 600
+    Height = 2
+    Top = 38
+    Width = 224
+    Brush.Color = clBlack
+  end
+  object Shape8: TShape
+    Left = 880
+    Height = 2
+    Top = 38
+    Width = 224
+    Brush.Color = clBlack
+  end
+  object mMenu: TMainMenu
+    Left = 10
+    Top = 16
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsInput: TMenuItem
+        Caption = 'Input'
+        object mOptionsInputMouse: TMenuItem
+          Caption = 'Mouse'
+          Checked = True
+          OnClick = mOptionsInputMouseClick
+        end
+        object mOptionsInputKeyb: TMenuItem
+          Caption = 'Keyboard'
+          OnClick = mOptionsInputKeybClick
+        end
+      end
+      object mOptionsKeyboard: TMenuItem
+        Caption = 'Keyboard'
+        object mOptionsKeyboard1: TMenuItem
+          Caption = 'qwertz'
+          Checked = True
+          OnClick = mOptionsKeyboard1Click
+        end
+        object mOptionsKeyboard2: TMenuItem
+          Caption = 'qwerty'
+          OnClick = mOptionsKeyboard2Click
+        end
+        object mOptionsKeyboard3: TMenuItem
+          Caption = 'azerty'
+          OnClick = mOptionsKeyboard3Click
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

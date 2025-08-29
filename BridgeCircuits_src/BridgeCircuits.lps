@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="BridgeCircuits.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="47"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="bridges.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fBridges"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="47"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="maxwell.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fMaxwell"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="47"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="hay.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHay"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="46"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="schering.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fSchering"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="45"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="wien.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fWien"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="44"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="common.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="6"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Programs\Lazarus\win64\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3581"/>
+        <CursorPos Y="3594"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Programs\Lazarus\win64\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="372"/>
+        <CursorPos Y="385"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="wien.pas"/>
+        <Caret Line="153" Column="15" TopLine="142"/>
+      </Position>
+      <Position>
+        <Filename Value="maxwell.pas"/>
+        <Caret Line="168" Column="54" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="wien.pas"/>
+        <Caret Line="166" Column="54" TopLine="147"/>
+      </Position>
+      <Position>
+        <Filename Value="common.pas"/>
+        <Caret Line="114" Column="22" TopLine="92"/>
+      </Position>
+      <Position>
+        <Filename Value="bridges.pas"/>
+        <Caret Line="332" TopLine="306"/>
+      </Position>
+      <Position>
+        <Filename Value="maxwell.pas"/>
+        <Caret Line="178" TopLine="152"/>
+      </Position>
+      <Position>
+        <Filename Value="hay.pas"/>
+        <Caret Line="159" Column="18" TopLine="155"/>
+      </Position>
+      <Position>
+        <Filename Value="hay.pas"/>
+        <Caret Line="182" TopLine="156"/>
+      </Position>
+      <Position>
+        <Filename Value="schering.pas"/>
+        <Caret Line="172" TopLine="146"/>
+      </Position>
+      <Position>
+        <Filename Value="wien.pas"/>
+        <Caret Line="176" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="common.pas"/>
+        <Caret Line="118" TopLine="92"/>
+      </Position>
+      <Position>
+        <Filename Value="bridges.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="maxwell.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="hay.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="schering.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="wien.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="common.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="wien.pas"/>
+        <Caret Line="145" Column="24" TopLine="120"/>
+      </Position>
+      <Position>
+        <Filename Value="wien.pas"/>
+        <Caret Line="15"/>
+      </Position>
+      <Position>
+        <Filename Value="wien.pas"/>
+        <Caret Line="160" Column="80" TopLine="148"/>
+      </Position>
+      <Position>
+        <Filename Value="wien.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="wien.pas"/>
+        <Caret Line="160" Column="49" TopLine="147"/>
+      </Position>
+      <Position>
+        <Filename Value="bridges.pas"/>
+        <Caret Line="319" Column="23" TopLine="306"/>
+      </Position>
+      <Position>
+        <Filename Value="maxwell.pas"/>
+        <Caret Line="148" Column="12" TopLine="132"/>
+      </Position>
+      <Position>
+        <Filename Value="hay.pas"/>
+        <Caret Line="151" Column="15" TopLine="138"/>
+      </Position>
+      <Position>
+        <Filename Value="schering.pas"/>
+        <Caret Line="142" Column="15" TopLine="126"/>
+      </Position>
+      <Position>
+        <Filename Value="wien.pas"/>
+        <Caret Line="14" Column="18"/>
+      </Position>
+      <Position>
+        <Filename Value="common.pas"/>
+        <Caret Line="76" Column="12" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="bridges.pas"/>
+        <Caret Line="96" Column="17" TopLine="83"/>
+      </Position>
+      <Position>
+        <Filename Value="schering.pas"/>
+        <Caret Line="118" Column="35" TopLine="110"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

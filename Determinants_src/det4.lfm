@@ -1,0 +1,1222 @@
+object fDet4: TfDet4
+  Left = 57
+  Height = 514
+  Top = 56
+  Width = 1436
+  BorderIcons = [biSystemMenu]
+  Caption = 'Determinants'
+  ClientHeight = 514
+  ClientWidth = 1436
+  DesignTimePPI = 120
+  Font.Height = -17
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Label1: TLabel
+    Left = 10
+    Height = 28
+    Top = 10
+    Width = 256
+    Caption = 'Calculate 4x4 determinant.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edD11: TEdit
+    Left = 22
+    Height = 31
+    Top = 64
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 0
+  end
+  object edD13: TEdit
+    Left = 146
+    Height = 31
+    Top = 64
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 2
+  end
+  object edD21: TEdit
+    Left = 22
+    Height = 31
+    Top = 112
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 4
+  end
+  object edD23: TEdit
+    Left = 146
+    Height = 31
+    Top = 112
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 6
+  end
+  object Shape1: TShape
+    Left = 8
+    Height = 180
+    Top = 61
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape2: TShape
+    Left = 268
+    Height = 180
+    Top = 61
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Label2: TLabel
+    Left = 286
+    Height = 23
+    Top = 139
+    Width = 12
+    Caption = '='
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edI: TEdit
+    Left = 313
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 26
+  end
+  object btCalc: TButton
+    Left = 1328
+    Height = 31
+    Top = 336
+    Width = 100
+    Caption = 'Calculate'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btCalcClick
+    ParentFont = False
+    TabOrder = 16
+  end
+  object edD31: TEdit
+    Left = 22
+    Height = 31
+    Top = 160
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 8
+  end
+  object edD33: TEdit
+    Left = 146
+    Height = 31
+    Top = 160
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 10
+  end
+  object edD12: TEdit
+    Left = 85
+    Height = 31
+    Top = 64
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 1
+  end
+  object edD22: TEdit
+    Left = 85
+    Height = 31
+    Top = 112
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 5
+  end
+  object edD32: TEdit
+    Left = 85
+    Height = 31
+    Top = 160
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 9
+  end
+  object Label3: TLabel
+    Left = 580
+    Height = 23
+    Top = 139
+    Width = 10
+    Caption = '‒'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 286
+    Height = 23
+    Top = 339
+    Width = 12
+    Caption = '='
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edRes: TEdit
+    Left = 313
+    Height = 31
+    Top = 336
+    Width = 64
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 28
+  end
+  object btClose: TButton
+    Left = 1328
+    Height = 31
+    Top = 478
+    Width = 100
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 27
+    TabStop = False
+  end
+  object edD14: TEdit
+    Left = 209
+    Height = 31
+    Top = 64
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 3
+  end
+  object edD24: TEdit
+    Left = 209
+    Height = 31
+    Top = 112
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 7
+  end
+  object edD34: TEdit
+    Left = 209
+    Height = 31
+    Top = 160
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 11
+  end
+  object edD41: TEdit
+    Left = 22
+    Height = 31
+    Top = 208
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 12
+  end
+  object edD43: TEdit
+    Left = 146
+    Height = 31
+    Top = 208
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 14
+  end
+  object edD42: TEdit
+    Left = 85
+    Height = 31
+    Top = 208
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 13
+  end
+  object edD44: TEdit
+    Left = 209
+    Height = 31
+    Top = 208
+    Width = 50
+    Alignment = taRightJustify
+    TabOrder = 15
+  end
+  object edI11: TEdit
+    Left = 377
+    Height = 31
+    Top = 91
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 17
+  end
+  object edI13: TEdit
+    Left = 501
+    Height = 31
+    Top = 91
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 19
+  end
+  object edI21: TEdit
+    Left = 377
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 21
+  end
+  object edI23: TEdit
+    Left = 501
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 23
+  end
+  object Shape9: TShape
+    Left = 369
+    Height = 133
+    Top = 88
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape10: TShape
+    Left = 559
+    Height = 133
+    Top = 88
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object edI31: TEdit
+    Left = 377
+    Height = 31
+    Top = 187
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 24
+  end
+  object edI33: TEdit
+    Left = 501
+    Height = 31
+    Top = 187
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 25
+  end
+  object edI12: TEdit
+    Left = 440
+    Height = 31
+    Top = 91
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 18
+  end
+  object edI22: TEdit
+    Left = 440
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 20
+  end
+  object edI32: TEdit
+    Left = 440
+    Height = 31
+    Top = 187
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 22
+  end
+  object edJ: TEdit
+    Left = 607
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 38
+  end
+  object edJ11: TEdit
+    Left = 671
+    Height = 31
+    Top = 91
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 29
+  end
+  object edJ13: TEdit
+    Left = 795
+    Height = 31
+    Top = 91
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 30
+  end
+  object edJ21: TEdit
+    Left = 671
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 31
+  end
+  object edJ23: TEdit
+    Left = 795
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 32
+  end
+  object Shape11: TShape
+    Left = 663
+    Height = 133
+    Top = 88
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape12: TShape
+    Left = 853
+    Height = 133
+    Top = 88
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object edJ31: TEdit
+    Left = 671
+    Height = 31
+    Top = 187
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 33
+  end
+  object edJ33: TEdit
+    Left = 795
+    Height = 31
+    Top = 187
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 34
+  end
+  object edJ12: TEdit
+    Left = 734
+    Height = 31
+    Top = 91
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 35
+  end
+  object edJ22: TEdit
+    Left = 734
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 36
+  end
+  object edJ32: TEdit
+    Left = 734
+    Height = 31
+    Top = 187
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 37
+  end
+  object Label6: TLabel
+    Left = 870
+    Height = 23
+    Top = 139
+    Width = 12
+    Caption = '+'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edK: TEdit
+    Left = 897
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 39
+  end
+  object Label7: TLabel
+    Left = 1157
+    Height = 23
+    Top = 139
+    Width = 10
+    Caption = '‒'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edK11: TEdit
+    Left = 961
+    Height = 31
+    Top = 91
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 40
+  end
+  object edK13: TEdit
+    Left = 1085
+    Height = 31
+    Top = 91
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 41
+  end
+  object edK21: TEdit
+    Left = 961
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 42
+  end
+  object edK23: TEdit
+    Left = 1085
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 43
+  end
+  object Shape13: TShape
+    Left = 953
+    Height = 133
+    Top = 88
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape14: TShape
+    Left = 1140
+    Height = 133
+    Top = 88
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object edK31: TEdit
+    Left = 961
+    Height = 31
+    Top = 187
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 44
+  end
+  object edK33: TEdit
+    Left = 1085
+    Height = 31
+    Top = 187
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 45
+  end
+  object edK12: TEdit
+    Left = 1024
+    Height = 31
+    Top = 91
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 46
+  end
+  object edK22: TEdit
+    Left = 1024
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 47
+  end
+  object edK32: TEdit
+    Left = 1024
+    Height = 31
+    Top = 187
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 48
+  end
+  object edL: TEdit
+    Left = 1181
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 49
+  end
+  object edL11: TEdit
+    Left = 1245
+    Height = 31
+    Top = 91
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 50
+  end
+  object edL13: TEdit
+    Left = 1369
+    Height = 31
+    Top = 91
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 51
+  end
+  object edL21: TEdit
+    Left = 1245
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 52
+  end
+  object edL23: TEdit
+    Left = 1369
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 53
+  end
+  object Shape15: TShape
+    Left = 1237
+    Height = 133
+    Top = 88
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape16: TShape
+    Left = 1425
+    Height = 133
+    Top = 88
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object edL31: TEdit
+    Left = 1245
+    Height = 31
+    Top = 187
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 54
+  end
+  object edL33: TEdit
+    Left = 1369
+    Height = 31
+    Top = 187
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 55
+  end
+  object edL12: TEdit
+    Left = 1308
+    Height = 31
+    Top = 91
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 56
+  end
+  object edL22: TEdit
+    Left = 1308
+    Height = 31
+    Top = 136
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 57
+  end
+  object edL32: TEdit
+    Left = 1308
+    Height = 31
+    Top = 187
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 58
+  end
+  object edResI: TEdit
+    Left = 402
+    Height = 31
+    Top = 272
+    Width = 64
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 59
+  end
+  object edResJ: TEdit
+    Left = 591
+    Height = 31
+    Top = 272
+    Width = 64
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 60
+  end
+  object Label8: TLabel
+    Left = 286
+    Height = 23
+    Top = 276
+    Width = 12
+    Caption = '='
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edI2: TEdit
+    Left = 313
+    Height = 31
+    Top = 272
+    Width = 64
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 61
+  end
+  object Label9: TLabel
+    Left = 386
+    Height = 23
+    Top = 276
+    Width = 5
+    Caption = '∙'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 482
+    Height = 23
+    Top = 276
+    Width = 10
+    Caption = '‒'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edJ2: TEdit
+    Left = 508
+    Height = 31
+    Top = 272
+    Width = 64
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 62
+  end
+  object Label11: TLabel
+    Left = 579
+    Height = 23
+    Top = 276
+    Width = 5
+    Caption = '∙'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edResK: TEdit
+    Left = 787
+    Height = 31
+    Top = 272
+    Width = 64
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 63
+  end
+  object Label12: TLabel
+    Left = 671
+    Height = 23
+    Top = 276
+    Width = 12
+    Caption = '+'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edK2: TEdit
+    Left = 700
+    Height = 31
+    Top = 272
+    Width = 64
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 64
+  end
+  object Label13: TLabel
+    Left = 773
+    Height = 23
+    Top = 276
+    Width = 5
+    Caption = '∙'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edResL: TEdit
+    Left = 979
+    Height = 31
+    Top = 272
+    Width = 64
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 65
+  end
+  object Label14: TLabel
+    Left = 870
+    Height = 23
+    Top = 276
+    Width = 10
+    Caption = '‒'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edL2: TEdit
+    Left = 896
+    Height = 31
+    Top = 272
+    Width = 64
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 66
+  end
+  object Label15: TLabel
+    Left = 967
+    Height = 23
+    Top = 276
+    Width = 5
+    Caption = '∙'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 283
+    Height = 23
+    Top = 454
+    Width = 12
+    Caption = '='
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edI1: TEdit
+    Left = 316
+    Height = 31
+    Top = 450
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 67
+  end
+  object edI111: TEdit
+    Left = 384
+    Height = 31
+    Top = 427
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 68
+  end
+  object edI121: TEdit
+    Left = 384
+    Height = 31
+    Top = 475
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 69
+  end
+  object Shape3: TShape
+    Left = 372
+    Height = 85
+    Top = 424
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape4: TShape
+    Left = 512
+    Height = 85
+    Top = 424
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object edI112: TEdit
+    Left = 452
+    Height = 31
+    Top = 427
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 70
+  end
+  object edI122: TEdit
+    Left = 452
+    Height = 31
+    Top = 475
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 71
+  end
+  object Label16: TLabel
+    Left = 532
+    Height = 23
+    Top = 454
+    Width = 10
+    Caption = '‒'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edJ1: TEdit
+    Left = 556
+    Height = 31
+    Top = 450
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 72
+  end
+  object edJ111: TEdit
+    Left = 624
+    Height = 31
+    Top = 427
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 73
+  end
+  object edJ121: TEdit
+    Left = 624
+    Height = 31
+    Top = 475
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 74
+  end
+  object Shape5: TShape
+    Left = 612
+    Height = 85
+    Top = 424
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape6: TShape
+    Left = 752
+    Height = 85
+    Top = 424
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object edJ112: TEdit
+    Left = 692
+    Height = 31
+    Top = 427
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 75
+  end
+  object edJ122: TEdit
+    Left = 692
+    Height = 31
+    Top = 475
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 76
+  end
+  object Label17: TLabel
+    Left = 772
+    Height = 23
+    Top = 454
+    Width = 12
+    Caption = '+'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edK1: TEdit
+    Left = 799
+    Height = 31
+    Top = 450
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 77
+  end
+  object edK111: TEdit
+    Left = 869
+    Height = 31
+    Top = 427
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 78
+  end
+  object edK121: TEdit
+    Left = 869
+    Height = 31
+    Top = 475
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 79
+  end
+  object Shape7: TShape
+    Left = 857
+    Height = 85
+    Top = 424
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape8: TShape
+    Left = 997
+    Height = 85
+    Top = 424
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object edK112: TEdit
+    Left = 937
+    Height = 31
+    Top = 427
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 80
+  end
+  object edK122: TEdit
+    Left = 937
+    Height = 31
+    Top = 475
+    Width = 50
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 81
+  end
+  object Label18: TLabel
+    Left = 1024
+    Height = 23
+    Top = 454
+    Width = 12
+    Caption = '='
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edResExp: TEdit
+    Left = 1051
+    Height = 31
+    Top = 450
+    Width = 64
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 82
+  end
+  object Shape17: TShape
+    Left = 20
+    Height = 2
+    Top = 393
+    Width = 1396
+    Brush.Color = clSilver
+    Pen.Color = clSilver
+  end
+  object Label19: TLabel
+    Left = 448
+    Height = 23
+    Top = 56
+    Width = 35
+    Caption = '|D1|'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label20: TLabel
+    Left = 742
+    Height = 23
+    Top = 56
+    Width = 35
+    Caption = '|D2|'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label21: TLabel
+    Left = 1032
+    Height = 23
+    Top = 56
+    Width = 35
+    Caption = '|D3|'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label22: TLabel
+    Left = 1316
+    Height = 23
+    Top = 56
+    Width = 35
+    Caption = '|D4|'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laDetExp: TLabel
+    Left = 233
+    Height = 23
+    Top = 454
+    Width = 29
+    Caption = '|D1|'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object btExpand4: TButton
+    Left = 1211
+    Height = 31
+    Top = 336
+    Width = 100
+    Caption = 'Expand |D4|'
+    OnClick = btExpand4Click
+    TabOrder = 83
+  end
+  object btExpand3: TButton
+    Left = 1211
+    Height = 31
+    Top = 296
+    Width = 100
+    Caption = 'Expand |D3|'
+    OnClick = btExpand3Click
+    TabOrder = 84
+  end
+  object btExpand2: TButton
+    Left = 1096
+    Height = 31
+    Top = 336
+    Width = 100
+    Caption = 'Expand |D2|'
+    OnClick = btExpand2Click
+    TabOrder = 85
+  end
+  object btExpand1: TButton
+    Left = 1096
+    Height = 31
+    Top = 296
+    Width = 100
+    Caption = 'Expand |D1|'
+    OnClick = btExpand1Click
+    TabOrder = 86
+  end
+end

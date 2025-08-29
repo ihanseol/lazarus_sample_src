@@ -1,0 +1,60 @@
+Diodes and diode circuits.
+==========================
+
+Diodes are made from a small piece of semiconductor material (silicon or germanium), in which half is doped as a p region and half is doped as an n region with a pn junction and depletion region in between. Biasing a diode, means applying a DC voltage across it. Forward bias is the condition that allows current through the pn junction. Reverse bias is the condition that essentially prevents current through the diode.
+
+The circuits, included with the "DCircuits3" application, are elementary diode circuits (cf. description below). Calculating voltages, currents and other important values of these circuits, is also elementary, in fact nothing else than applying Ohm's Law and Kirchhoff’s Rules (KVL and KCL). If you are not familiar with those, please, search the Internett or have a look at some basic electronics book. Two recommendations:
+  - All New Electronics Self-Teaching Guide
+    Harry Kybett and Earl Boysen
+    Wiley Publishing, Inc., 2008
+  - Electronic Devices (Electron Flow Version)
+    Thomas L. Floyd
+    Prentice Hall, 2012
+
+Diode models.
+=============
+
+The difference with resistance-only circuits is the presence of the diode (of course) and thus, some explanations concerning this device and its behaviour within the circuit are necessary. A diode may be described in different ways, the so-called diode models, from just simplifying everything to considering it as it really is.
+
+Ideal diode model.
+------------------
+
+The diode is considered having no internal resistances at all, thus, in forward biasing, lets the current flow without any voltage drop (VD = 0, ID = VS / Rlimit) and in reverse biasing let flow no current at all (VD = VS, ID = 0).
+
+Practical diode model.
+----------------------
+
+This model is the one usually used in calculations. In forward biasing, a constant voltage drop across the diode is assumed; this voltage depends on the diode material: 0.7V for silicon, 0.3V for germanium. In reverse biasing, assuming, as for the ideal model, that all current is blocked.
+
+Complete diode model.
+---------------------
+
+With this model, the diode is described as it really is, i.e. considering its internal resistances.
+When the diode is forward-biased, it acts as a closed switch in series with the equivalent barrier potential voltage (as described above) and a small forward dynamic resistance rd. This means, that voltage drop, due to dynamic resistance, increases as the current increases and the formula to apply for a silicon diode becomes: VD = 0.7V + ID·rd.
+When the diode is reverse-biased, it acts as an open switch in parallel with a large internal reverse resistance Rd. This means, that not all current is blocked, but that a small reverse current IR is flowing, and the voltage across the diode will be less than with the practical model: VD = VS - IR·Rlimit.
+
+Diode breakdown.
+================
+
+The V-I curve for a perfect diode would show zero current (or, with the complete model, a very small current) for all voltage values. However, for a real diode, a voltage is reached where the diode "breaks down" and the diode allows a large current to flow. This breakdown voltage, or PIV = peak inverse voltage, is characteristic of a given diode type (normally less than 1000V for Si and less than 400V for Ge). If the breakdown condition continues, the diode will burn out. To avoid this, an appropriate limiting resistor has to be included in the circuit.
+
+Zener diodes.
+=============
+
+Zener diodes are special kinds of diodes, with breakdowns at lower and more precise voltages. This particular form of voltage breakdown is called "Zener" effect. Because Zeners have a precise breakdown voltage, they are best choice to be used, when a constant voltage at some point in a circuit has to be maintained.
+
+The "DCircuits3" circuits.
+==========================
+
+Circuits 1 an d 2 are examples of forward-biased diode circuits. With the bias volatage and the resistance(s) given, determine the diode voltage and current.
+
+Circuit 3 is an example of a reverse-biased diode circuit. Here, too, calculation of the diode volatge and current. Note, that in these examples, there is no checking for diode breaakdown.
+
+Circuit 4 concerns diode breakdown: Determine the value of the limiting resistance to avoid breakdown for a diode with given PIV within a circuit with given bias volatage and maximum circuit current.
+
+Circuit 5 is a practical example of a Zener diode circuit. A lamp has to be maintained at a constant voltage, independently of the source (battery) voltage, which may vary between a minimum and a maximum value. To determine, the limiting resistance, that ensures this voltage with VS at its minimum value. Also to calculate, the minimum power of the Zener, to avoid problems with the diode, when VS has its maximum value.
+
+Note.
+=====
+
+Not 100% sure, if all calculations are correct. In particular, I didn't find an example concerning the calculations for the circuit with parallel resistor, when using the complete diode model, and I set up the formulae, as I suppose them to be. If there are calculation mistakes, sorry for this, and thanks to let me know (allu@streetinfo.lu).

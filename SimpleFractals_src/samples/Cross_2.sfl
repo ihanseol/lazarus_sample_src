@@ -1,0 +1,9 @@
+# Cross II
+
+origin = (260,250)
+displacement = 6
+
+axiom = "2F+3F+4F+7F"
+rules = { "F": "F+F-F+F+F" }
+iterations = 5
+angle = 90

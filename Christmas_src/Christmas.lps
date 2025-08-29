@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="Christmas.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="xmas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fChristmas"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="429" Column="85" TopLine="401"/>
+      </Position1>
+      <Position2>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="657" Column="55" TopLine="629"/>
+      </Position2>
+      <Position3>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="126" Column="16" TopLine="115"/>
+      </Position3>
+      <Position4>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="284" Column="67" TopLine="260"/>
+      </Position4>
+      <Position5>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="642" Column="42" TopLine="634"/>
+      </Position5>
+      <Position6>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="126" Column="16" TopLine="113"/>
+      </Position6>
+      <Position7>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="284" Column="74" TopLine="262"/>
+      </Position7>
+      <Position8>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="286" Column="63" TopLine="262"/>
+      </Position8>
+      <Position9>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="284" Column="55" TopLine="284"/>
+      </Position9>
+      <Position10>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="288" Column="64" TopLine="274"/>
+      </Position10>
+      <Position11>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="658" Column="41" TopLine="640"/>
+      </Position11>
+      <Position12>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="504" TopLine="486"/>
+      </Position12>
+      <Position13>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="628" Column="14" TopLine="610"/>
+      </Position13>
+      <Position14>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="840" TopLine="839"/>
+      </Position14>
+      <Position15>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="1085" Column="37" TopLine="1060"/>
+      </Position15>
+      <Position16>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="636" Column="5" TopLine="618"/>
+      </Position16>
+      <Position17>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="646" TopLine="628"/>
+      </Position17>
+      <Position18>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="966" TopLine="965"/>
+      </Position18>
+      <Position19>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="686" Column="24" TopLine="664"/>
+      </Position19>
+      <Position20>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="648" Column="84" TopLine="637"/>
+      </Position20>
+      <Position21>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="138" Column="13" TopLine="119"/>
+      </Position21>
+      <Position22>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="916" Column="37" TopLine="903"/>
+      </Position22>
+      <Position23>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="1119" Column="3" TopLine="1093"/>
+      </Position23>
+      <Position24>
+        <Filename Value="Christmas.lpr"/>
+        <Caret Line="11" Column="26"/>
+      </Position24>
+      <Position25>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="671" Column="10" TopLine="664"/>
+      </Position25>
+      <Position26>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="36" TopLine="22"/>
+      </Position26>
+      <Position27>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="1027" Column="23" TopLine="999"/>
+      </Position27>
+      <Position28>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="160" TopLine="141"/>
+      </Position28>
+      <Position29>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="972" TopLine="956"/>
+      </Position29>
+      <Position30>
+        <Filename Value="xmas.pas"/>
+        <Caret Line="1127" TopLine="1099"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,701 @@
+object fFractions: TfFractions
+  Left = 275
+  Height = 493
+  Top = 60
+  Width = 687
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Maths game: Fractions'
+  ClientHeight = 468
+  ClientWidth = 687
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object shGrid11: TShape
+    Left = 10
+    Height = 50
+    Top = 10
+    Width = 50
+    OnMouseDown = shGrid11MouseDown
+  end
+  object shGrid12: TShape
+    Left = 60
+    Height = 50
+    Top = 10
+    Width = 50
+    OnMouseDown = shGrid12MouseDown
+  end
+  object shGrid13: TShape
+    Left = 110
+    Height = 50
+    Top = 10
+    Width = 50
+    OnMouseDown = shGrid13MouseDown
+  end
+  object shGrid14: TShape
+    Left = 160
+    Height = 50
+    Top = 10
+    Width = 50
+    OnMouseDown = shGrid14MouseDown
+  end
+  object shGrid15: TShape
+    Left = 210
+    Height = 50
+    Top = 10
+    Width = 50
+    OnMouseDown = shGrid15MouseDown
+  end
+  object shGrid16: TShape
+    Left = 260
+    Height = 50
+    Top = 10
+    Width = 50
+    OnMouseDown = shGrid16MouseDown
+  end
+  object shGrid17: TShape
+    Left = 310
+    Height = 50
+    Top = 10
+    Width = 50
+    OnMouseDown = shGrid17MouseDown
+  end
+  object shGrid18: TShape
+    Left = 360
+    Height = 50
+    Top = 10
+    Width = 50
+    OnMouseDown = shGrid18MouseDown
+  end
+  object shGrid21: TShape
+    Left = 10
+    Height = 50
+    Top = 60
+    Width = 50
+    OnMouseDown = shGrid21MouseDown
+  end
+  object shGrid22: TShape
+    Left = 60
+    Height = 50
+    Top = 60
+    Width = 50
+    OnMouseDown = shGrid22MouseDown
+  end
+  object shGrid23: TShape
+    Left = 110
+    Height = 50
+    Top = 60
+    Width = 50
+    OnMouseDown = shGrid23MouseDown
+  end
+  object shGrid24: TShape
+    Left = 160
+    Height = 50
+    Top = 60
+    Width = 50
+    OnMouseDown = shGrid24MouseDown
+  end
+  object shGrid25: TShape
+    Left = 210
+    Height = 50
+    Top = 60
+    Width = 50
+    OnMouseDown = shGrid25MouseDown
+  end
+  object shGrid26: TShape
+    Left = 260
+    Height = 50
+    Top = 60
+    Width = 50
+    OnMouseDown = shGrid26MouseDown
+  end
+  object shGrid27: TShape
+    Left = 310
+    Height = 50
+    Top = 60
+    Width = 50
+    OnMouseDown = shGrid27MouseDown
+  end
+  object shGrid28: TShape
+    Left = 360
+    Height = 50
+    Top = 60
+    Width = 50
+    OnMouseDown = shGrid28MouseDown
+  end
+  object shGrid31: TShape
+    Left = 10
+    Height = 50
+    Top = 110
+    Width = 50
+    OnMouseDown = shGrid31MouseDown
+  end
+  object shGrid32: TShape
+    Left = 60
+    Height = 50
+    Top = 110
+    Width = 50
+    OnMouseDown = shGrid32MouseDown
+  end
+  object shGrid33: TShape
+    Left = 110
+    Height = 50
+    Top = 110
+    Width = 50
+    OnMouseDown = shGrid33MouseDown
+  end
+  object shGrid34: TShape
+    Left = 160
+    Height = 50
+    Top = 110
+    Width = 50
+    OnMouseDown = shGrid34MouseDown
+  end
+  object shGrid35: TShape
+    Left = 210
+    Height = 50
+    Top = 110
+    Width = 50
+    OnMouseDown = shGrid35MouseDown
+  end
+  object shGrid36: TShape
+    Left = 260
+    Height = 50
+    Top = 110
+    Width = 50
+    OnMouseDown = shGrid36MouseDown
+  end
+  object shGrid37: TShape
+    Left = 310
+    Height = 50
+    Top = 110
+    Width = 50
+    OnMouseDown = shGrid37MouseDown
+  end
+  object shGrid38: TShape
+    Left = 360
+    Height = 50
+    Top = 110
+    Width = 50
+    OnMouseDown = shGrid38MouseDown
+  end
+  object shGrid41: TShape
+    Left = 10
+    Height = 50
+    Top = 160
+    Width = 50
+    OnMouseDown = shGrid41MouseDown
+  end
+  object shGrid42: TShape
+    Left = 60
+    Height = 50
+    Top = 160
+    Width = 50
+    OnMouseDown = shGrid42MouseDown
+  end
+  object shGrid43: TShape
+    Left = 110
+    Height = 50
+    Top = 160
+    Width = 50
+    OnMouseDown = shGrid43MouseDown
+  end
+  object shGrid44: TShape
+    Left = 160
+    Height = 50
+    Top = 160
+    Width = 50
+    OnMouseDown = shGrid44MouseDown
+  end
+  object shGrid45: TShape
+    Left = 210
+    Height = 50
+    Top = 160
+    Width = 50
+    OnMouseDown = shGrid45MouseDown
+  end
+  object shGrid46: TShape
+    Left = 260
+    Height = 50
+    Top = 160
+    Width = 50
+    OnMouseDown = shGrid46MouseDown
+  end
+  object shGrid47: TShape
+    Left = 310
+    Height = 50
+    Top = 160
+    Width = 50
+    OnMouseDown = shGrid47MouseDown
+  end
+  object shGrid48: TShape
+    Left = 360
+    Height = 50
+    Top = 160
+    Width = 50
+    OnMouseDown = shGrid48MouseDown
+  end
+  object shGrid51: TShape
+    Left = 10
+    Height = 50
+    Top = 210
+    Width = 50
+    OnMouseDown = shGrid51MouseDown
+  end
+  object shGrid52: TShape
+    Left = 60
+    Height = 50
+    Top = 210
+    Width = 50
+    OnMouseDown = shGrid52MouseDown
+  end
+  object shGrid53: TShape
+    Left = 110
+    Height = 50
+    Top = 210
+    Width = 50
+    OnMouseDown = shGrid53MouseDown
+  end
+  object shGrid54: TShape
+    Left = 160
+    Height = 50
+    Top = 210
+    Width = 50
+    OnMouseDown = shGrid54MouseDown
+  end
+  object shGrid55: TShape
+    Left = 210
+    Height = 50
+    Top = 210
+    Width = 50
+    OnMouseDown = shGrid55MouseDown
+  end
+  object shGrid56: TShape
+    Left = 260
+    Height = 50
+    Top = 210
+    Width = 50
+    OnMouseDown = shGrid56MouseDown
+  end
+  object shGrid57: TShape
+    Left = 310
+    Height = 50
+    Top = 210
+    Width = 50
+    OnMouseDown = shGrid57MouseDown
+  end
+  object shGrid58: TShape
+    Left = 360
+    Height = 50
+    Top = 210
+    Width = 50
+    OnMouseDown = shGrid58MouseDown
+  end
+  object shGrid61: TShape
+    Left = 10
+    Height = 50
+    Top = 260
+    Width = 50
+    OnMouseDown = shGrid61MouseDown
+  end
+  object shGrid62: TShape
+    Left = 60
+    Height = 50
+    Top = 260
+    Width = 50
+    OnMouseDown = shGrid62MouseDown
+  end
+  object shGrid63: TShape
+    Left = 110
+    Height = 50
+    Top = 260
+    Width = 50
+    OnMouseDown = shGrid63MouseDown
+  end
+  object shGrid64: TShape
+    Left = 160
+    Height = 50
+    Top = 260
+    Width = 50
+    OnMouseDown = shGrid64MouseDown
+  end
+  object shGrid65: TShape
+    Left = 210
+    Height = 50
+    Top = 260
+    Width = 50
+    OnMouseDown = shGrid65MouseDown
+  end
+  object shGrid66: TShape
+    Left = 260
+    Height = 50
+    Top = 260
+    Width = 50
+    OnMouseDown = shGrid66MouseDown
+  end
+  object shGrid67: TShape
+    Left = 310
+    Height = 50
+    Top = 260
+    Width = 50
+    OnMouseDown = shGrid67MouseDown
+  end
+  object shGrid68: TShape
+    Left = 360
+    Height = 50
+    Top = 260
+    Width = 50
+    OnMouseDown = shGrid68MouseDown
+  end
+  object shGrid71: TShape
+    Left = 10
+    Height = 50
+    Top = 310
+    Width = 50
+    OnMouseDown = shGrid71MouseDown
+  end
+  object shGrid72: TShape
+    Left = 60
+    Height = 50
+    Top = 310
+    Width = 50
+    OnMouseDown = shGrid72MouseDown
+  end
+  object shGrid73: TShape
+    Left = 110
+    Height = 50
+    Top = 310
+    Width = 50
+    OnMouseDown = shGrid73MouseDown
+  end
+  object shGrid74: TShape
+    Left = 160
+    Height = 50
+    Top = 310
+    Width = 50
+    OnMouseDown = shGrid74MouseDown
+  end
+  object shGrid75: TShape
+    Left = 210
+    Height = 50
+    Top = 310
+    Width = 50
+    OnMouseDown = shGrid75MouseDown
+  end
+  object shGrid76: TShape
+    Left = 260
+    Height = 50
+    Top = 310
+    Width = 50
+    OnMouseDown = shGrid76MouseDown
+  end
+  object shGrid77: TShape
+    Left = 310
+    Height = 50
+    Top = 310
+    Width = 50
+    OnMouseDown = shGrid77MouseDown
+  end
+  object shGrid78: TShape
+    Left = 360
+    Height = 50
+    Top = 310
+    Width = 50
+    OnMouseDown = shGrid78MouseDown
+  end
+  object shGrid81: TShape
+    Left = 10
+    Height = 50
+    Top = 360
+    Width = 50
+    OnMouseDown = shGrid81MouseDown
+  end
+  object shGrid82: TShape
+    Left = 60
+    Height = 50
+    Top = 360
+    Width = 50
+    OnMouseDown = shGrid82MouseDown
+  end
+  object shGrid83: TShape
+    Left = 110
+    Height = 50
+    Top = 360
+    Width = 50
+    OnMouseDown = shGrid83MouseDown
+  end
+  object shGrid84: TShape
+    Left = 160
+    Height = 50
+    Top = 360
+    Width = 50
+    OnMouseDown = shGrid84MouseDown
+  end
+  object shGrid85: TShape
+    Left = 210
+    Height = 50
+    Top = 360
+    Width = 50
+    OnMouseDown = shGrid85MouseDown
+  end
+  object shGrid86: TShape
+    Left = 260
+    Height = 50
+    Top = 360
+    Width = 50
+    OnMouseDown = shGrid86MouseDown
+  end
+  object shGrid87: TShape
+    Left = 310
+    Height = 50
+    Top = 360
+    Width = 50
+    OnMouseDown = shGrid87MouseDown
+  end
+  object shGrid88: TShape
+    Left = 360
+    Height = 50
+    Top = 360
+    Width = 50
+    OnMouseDown = shGrid88MouseDown
+  end
+  object btQuestion: TButton
+    Left = 585
+    Height = 28
+    Top = 432
+    Width = 94
+    Caption = 'Question'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object edAnswer: TEdit
+    Left = 10
+    Height = 28
+    Top = 432
+    Width = 350
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object btUndo: TButton
+    Left = 438
+    Height = 28
+    Top = 432
+    Width = 94
+    Caption = 'Undo'
+    OnClick = btUndoClick
+    TabOrder = 1
+  end
+  object stTitle: TStaticText
+    Left = 483
+    Height = 60
+    Top = 10
+    Width = 152
+    Alignment = taCenter
+    Caption = 'Maths game'#13#10'Fraction addition'
+    Color = clDefault
+    Font.Color = clBlue
+    Font.Height = -18
+    Font.Style = [fsBold, fsUnderline]
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 3
+  end
+  object memoInstructions: TMemo
+    Left = 439
+    Height = 72
+    Top = 80
+    Width = 240
+    Color = clCream
+    Font.Height = -15
+    Font.Style = [fsBold]
+    Lines.Strings = (
+      'Add fractions in order to get a result of 1. There must be at least 2 different denominators!'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 5
+    TabStop = False
+  end
+  object memoGInstructions: TMemo
+    Left = 439
+    Height = 69
+    Top = 160
+    Width = 240
+    Color = clCream
+    Font.Height = -15
+    Lines.Strings = (
+      'To select a fraction, just click the corresponding square. Use the Undo button to unselect.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 4
+    TabStop = False
+  end
+  object sgEval: TStringGrid
+    Left = 487
+    Height = 124
+    Top = 286
+    Width = 145
+    Color = clCream
+    ColCount = 2
+    Enabled = False
+    FixedCols = 0
+    FixedRows = 0
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 4
+    TabOrder = 7
+    TabStop = False
+    ColWidths = (
+      92
+      49
+    )
+    RowHeights = (
+      30
+      30
+      30
+      30
+    )
+    Cells = (
+      4
+      0
+      0
+      'Questions'
+      0
+      1
+      'Correct'
+      0
+      2
+      'False'
+      0
+      3
+      'Success'
+    )
+  end
+  object StaticText2: TStaticText
+    Left = 515
+    Height = 21
+    Top = 248
+    Width = 89
+    Alignment = taCenter
+    Caption = 'Evaluation'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentFont = False
+    TabOrder = 6
+  end
+  object imEval: TImage
+    Left = 382
+    Height = 28
+    Top = 429
+    Width = 28
+    Center = True
+    Visible = False
+  end
+  object mMenu: TMainMenu
+    Left = 40
+    Top = 32
+    object mGame: TMenuItem
+      Caption = 'Game'
+      object mGameNew: TMenuItem
+        Caption = 'New'
+        OnClick = mGameNewClick
+      end
+      object mGameExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mGameExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsQuestions: TMenuItem
+        Caption = 'Number of questions ...'
+        OnClick = mSettingsQuestionsClick
+      end
+      object mSettingsGrid: TMenuItem
+        Caption = 'Grid size'
+        object mSettingsGrid3: TMenuItem
+          Caption = '3 x 3'
+          OnClick = mSettingsGrid3Click
+        end
+        object mSettingsGrid4: TMenuItem
+          Caption = '4 x 4'
+          OnClick = mSettingsGrid4Click
+        end
+        object mSettingsGrid5: TMenuItem
+          Caption = '5 x 5'
+          Checked = True
+          OnClick = mSettingsGrid5Click
+        end
+        object mSettingsGrid6: TMenuItem
+          Caption = '6 x 6'
+          OnClick = mSettingsGrid6Click
+        end
+        object mSettingsGrid8: TMenuItem
+          Caption = '8 x 8'
+          OnClick = mSettingsGrid8Click
+        end
+      end
+      object mSettingsOpMax: TMenuItem
+        Caption = 'Number of operands'
+        object mSettingsOpMax2: TMenuItem
+          Caption = 'maximum 2'
+          OnClick = mSettingsOpMax2Click
+        end
+        object mSettingsOpMax3: TMenuItem
+          Caption = ' maximum 3'
+          Checked = True
+          OnClick = mSettingsOpMax3Click
+        end
+        object mSettingsOpMax4: TMenuItem
+          Caption = 'maximum 4'
+          OnClick = mSettingsOpMax4Click
+        end
+        object MenuItem1: TMenuItem
+          Caption = '-'
+        end
+        object mSettingsOpMaxAlways: TMenuItem
+          Caption = 'Always use max.'
+          OnClick = mSettingsOpMaxAlwaysClick
+        end
+      end
+      object mSettingsDenominators: TMenuItem
+        Caption = 'Different denominators'
+        object mSettingsDenominators2: TMenuItem
+          Caption = 'at least 2'
+          Checked = True
+          OnClick = mSettingsDenominators2Click
+        end
+        object mSettingsDenominators3: TMenuItem
+          Caption = 'at least 3'
+          OnClick = mSettingsDenominators3Click
+        end
+      end
+      object mSettingsNoHalfs: TMenuItem
+        Caption = 'Exclude halfs'
+        OnClick = mSettingsNoHalfsClick
+      end
+      object mSettingsNoTenths: TMenuItem
+        Caption = 'Exclude tenths'
+        OnClick = mSettingsNoTenthsClick
+      end
+      object mSettingsColor: TMenuItem
+        Caption = 'Colored fractions'
+        OnClick = mSettingsColorClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

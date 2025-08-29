@@ -1,0 +1,1253 @@
+object fPuzzle: TfPuzzle
+  Left = 6
+  Height = 768
+  Top = 9
+  Width = 1491
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Kids Puzzle'
+  ClientHeight = 743
+  ClientWidth = 1491
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object imP0813: TImage
+    Left = 424
+    Height = 120
+    Top = 352
+    Width = 120
+    Center = True
+    OnClick = imP0813Click
+    Stretch = True
+  end
+  object imP0814: TImage
+    Left = 544
+    Height = 120
+    Top = 352
+    Width = 120
+    Center = True
+    OnClick = imP0814Click
+    Stretch = True
+  end
+  object imP0815: TImage
+    Left = 664
+    Height = 120
+    Top = 352
+    Width = 120
+    Center = True
+    OnClick = imP0815Click
+    Stretch = True
+  end
+  object imP0115: TImage
+    Left = 104
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0115Click
+    Stretch = True
+  end
+  object imP0114: TImage
+    Left = 72
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0114Click
+    Stretch = True
+  end
+  object imP0113: TImage
+    Left = 32
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0113Click
+    Stretch = True
+  end
+  object imP0801: TImage
+    Left = 424
+    Height = 120
+    Top = 456
+    Width = 120
+    Center = True
+    OnClick = imP0801Click
+    Stretch = True
+  end
+  object imP0612: TImage
+    Left = 808
+    Height = 120
+    Top = 488
+    Width = 120
+    Center = True
+    OnClick = imP0612Click
+    Stretch = True
+  end
+  object imP0611: TImage
+    Left = 688
+    Height = 120
+    Top = 488
+    Width = 120
+    Center = True
+    OnClick = imP0611Click
+    Stretch = True
+  end
+  object imP0512: TImage
+    Left = 792
+    Height = 120
+    Top = 544
+    Width = 120
+    Center = True
+    OnClick = imP0512Click
+    Stretch = True
+  end
+  object imP0511: TImage
+    Left = 672
+    Height = 120
+    Top = 544
+    Width = 120
+    Center = True
+    OnClick = imP0511Click
+    Stretch = True
+  end
+  object imP0412: TImage
+    Left = 792
+    Height = 120
+    Top = 424
+    Width = 120
+    Center = True
+    OnClick = imP0412Click
+    Stretch = True
+  end
+  object imP0411: TImage
+    Left = 672
+    Height = 120
+    Top = 424
+    Width = 120
+    Center = True
+    OnClick = imP0411Click
+    Stretch = True
+  end
+  object imP0312: TImage
+    Left = 792
+    Height = 120
+    Top = 304
+    Width = 120
+    Center = True
+    OnClick = imP0312Click
+    Stretch = True
+  end
+  object imP0311: TImage
+    Left = 672
+    Height = 120
+    Top = 304
+    Width = 120
+    Center = True
+    OnClick = imP0311Click
+    Stretch = True
+  end
+  object imP0212: TImage
+    Left = 792
+    Height = 120
+    Top = 184
+    Width = 120
+    Center = True
+    OnClick = imP0212Click
+    Stretch = True
+  end
+  object imP0211: TImage
+    Left = 672
+    Height = 120
+    Top = 184
+    Width = 120
+    Center = True
+    OnClick = imP0211Click
+    Stretch = True
+  end
+  object imP0112: TImage
+    Left = 792
+    Height = 120
+    Top = 64
+    Width = 120
+    Center = True
+    OnClick = imP0112Click
+    Stretch = True
+  end
+  object imP0111: TImage
+    Left = 672
+    Height = 120
+    Top = 64
+    Width = 120
+    Center = True
+    OnClick = imP0111Click
+    Stretch = True
+  end
+  object imP0610: TImage
+    Left = 1112
+    Height = 120
+    Top = 488
+    Width = 120
+    Center = True
+    OnClick = imP0610Click
+    Stretch = True
+  end
+  object imP0609: TImage
+    Left = 992
+    Height = 120
+    Top = 488
+    Width = 120
+    Center = True
+    OnClick = imP0609Click
+    Stretch = True
+  end
+  object imP0608: TImage
+    Left = 872
+    Height = 120
+    Top = 488
+    Width = 120
+    Center = True
+    OnClick = imP0608Click
+    Stretch = True
+  end
+  object imP0607: TImage
+    Left = 752
+    Height = 120
+    Top = 488
+    Width = 120
+    Center = True
+    OnClick = imP0607Click
+    Stretch = True
+  end
+  object imP0606: TImage
+    Left = 632
+    Height = 120
+    Top = 488
+    Width = 120
+    Center = True
+    OnClick = imP0606Click
+    Stretch = True
+  end
+  object imP0605: TImage
+    Left = 512
+    Height = 120
+    Top = 488
+    Width = 120
+    Center = True
+    OnClick = imP0605Click
+    Stretch = True
+  end
+  object imP0604: TImage
+    Left = 392
+    Height = 120
+    Top = 488
+    Width = 120
+    Center = True
+    OnClick = imP0604Click
+    Stretch = True
+  end
+  object imP0603: TImage
+    Left = 272
+    Height = 120
+    Top = 488
+    Width = 120
+    Center = True
+    OnClick = imP0603Click
+    Stretch = True
+  end
+  object imP0602: TImage
+    Left = 152
+    Height = 120
+    Top = 488
+    Width = 120
+    Center = True
+    OnClick = imP0602Click
+    Stretch = True
+  end
+  object imP0601: TImage
+    Left = 32
+    Height = 120
+    Top = 488
+    Width = 120
+    Center = True
+    OnClick = imP0601Click
+    Stretch = True
+  end
+  object imP0101: TImage
+    Left = 16
+    Height = 120
+    Top = 64
+    Width = 120
+    Center = True
+    OnClick = imP0101Click
+    Stretch = True
+  end
+  object imP0102: TImage
+    Left = 136
+    Height = 120
+    Top = 64
+    Width = 120
+    Center = True
+    OnClick = imP0102Click
+    Stretch = True
+  end
+  object imP0103: TImage
+    Left = 256
+    Height = 120
+    Top = 64
+    Width = 120
+    Center = True
+    OnClick = imP0103Click
+    Stretch = True
+  end
+  object imP0104: TImage
+    Left = 376
+    Height = 120
+    Top = 64
+    Width = 120
+    Center = True
+    OnClick = imP0104Click
+    Stretch = True
+  end
+  object imP0105: TImage
+    Left = 496
+    Height = 120
+    Top = 64
+    Width = 120
+    Center = True
+    OnClick = imP0105Click
+    Stretch = True
+  end
+  object imP0106: TImage
+    Left = 616
+    Height = 120
+    Top = 64
+    Width = 120
+    Center = True
+    OnClick = imP0106Click
+    Stretch = True
+  end
+  object imP0107: TImage
+    Left = 736
+    Height = 120
+    Top = 64
+    Width = 120
+    Center = True
+    OnClick = imP0107Click
+    Stretch = True
+  end
+  object imP0108: TImage
+    Left = 856
+    Height = 120
+    Top = 64
+    Width = 120
+    Center = True
+    OnClick = imP0108Click
+    Stretch = True
+  end
+  object imP0109: TImage
+    Left = 976
+    Height = 120
+    Top = 64
+    Width = 120
+    Center = True
+    OnClick = imP0109Click
+    Stretch = True
+  end
+  object imP0110: TImage
+    Left = 1096
+    Height = 120
+    Top = 64
+    Width = 120
+    Center = True
+    OnClick = imP0110Click
+    Stretch = True
+  end
+  object imP0201: TImage
+    Left = 16
+    Height = 120
+    Top = 184
+    Width = 120
+    Center = True
+    OnClick = imP0201Click
+    Stretch = True
+  end
+  object imP0202: TImage
+    Left = 136
+    Height = 120
+    Top = 184
+    Width = 120
+    Center = True
+    OnClick = imP0202Click
+    Stretch = True
+  end
+  object imP0203: TImage
+    Left = 256
+    Height = 120
+    Top = 184
+    Width = 120
+    Center = True
+    OnClick = imP0203Click
+    Stretch = True
+  end
+  object imP0204: TImage
+    Left = 376
+    Height = 120
+    Top = 184
+    Width = 120
+    Center = True
+    OnClick = imP0204Click
+    Stretch = True
+  end
+  object imP0205: TImage
+    Left = 496
+    Height = 120
+    Top = 184
+    Width = 120
+    Center = True
+    OnClick = imP0205Click
+    Stretch = True
+  end
+  object imP0206: TImage
+    Left = 616
+    Height = 120
+    Top = 184
+    Width = 120
+    Center = True
+    OnClick = imP0206Click
+    Stretch = True
+  end
+  object imP0207: TImage
+    Left = 736
+    Height = 120
+    Top = 184
+    Width = 120
+    Center = True
+    OnClick = imP0207Click
+    Stretch = True
+  end
+  object imP0208: TImage
+    Left = 856
+    Height = 120
+    Top = 184
+    Width = 120
+    Center = True
+    OnClick = imP0208Click
+    Stretch = True
+  end
+  object imP0209: TImage
+    Left = 976
+    Height = 120
+    Top = 184
+    Width = 120
+    Center = True
+    OnClick = imP0209Click
+    Stretch = True
+  end
+  object imP0210: TImage
+    Left = 1096
+    Height = 120
+    Top = 184
+    Width = 120
+    Center = True
+    OnClick = imP0210Click
+    Stretch = True
+  end
+  object imP0301: TImage
+    Left = 16
+    Height = 120
+    Top = 304
+    Width = 120
+    Center = True
+    OnClick = imP0301Click
+    Stretch = True
+  end
+  object imP0302: TImage
+    Left = 136
+    Height = 120
+    Top = 304
+    Width = 120
+    Center = True
+    OnClick = imP0302Click
+    Stretch = True
+  end
+  object imP0303: TImage
+    Left = 256
+    Height = 120
+    Top = 304
+    Width = 120
+    Center = True
+    OnClick = imP0303Click
+    Stretch = True
+  end
+  object imP0304: TImage
+    Left = 376
+    Height = 120
+    Top = 304
+    Width = 120
+    Center = True
+    OnClick = imP0304Click
+    Stretch = True
+  end
+  object imP0305: TImage
+    Left = 496
+    Height = 120
+    Top = 304
+    Width = 120
+    Center = True
+    OnClick = imP0305Click
+    Stretch = True
+  end
+  object imP0306: TImage
+    Left = 616
+    Height = 120
+    Top = 304
+    Width = 120
+    Center = True
+    OnClick = imP0306Click
+    Stretch = True
+  end
+  object imP0307: TImage
+    Left = 736
+    Height = 120
+    Top = 304
+    Width = 120
+    Center = True
+    OnClick = imP0307Click
+    Stretch = True
+  end
+  object imP0308: TImage
+    Left = 856
+    Height = 120
+    Top = 304
+    Width = 120
+    Center = True
+    OnClick = imP0308Click
+    Stretch = True
+  end
+  object imP0309: TImage
+    Left = 976
+    Height = 120
+    Top = 304
+    Width = 120
+    Center = True
+    OnClick = imP0309Click
+    Stretch = True
+  end
+  object imP0310: TImage
+    Left = 1096
+    Height = 120
+    Top = 304
+    Width = 120
+    Center = True
+    OnClick = imP0310Click
+    Stretch = True
+  end
+  object imP0401: TImage
+    Left = 16
+    Height = 120
+    Top = 424
+    Width = 120
+    Center = True
+    OnClick = imP0401Click
+    Stretch = True
+  end
+  object imP0402: TImage
+    Left = 136
+    Height = 120
+    Top = 424
+    Width = 120
+    Center = True
+    OnClick = imP0402Click
+    Stretch = True
+  end
+  object imP0403: TImage
+    Left = 256
+    Height = 120
+    Top = 424
+    Width = 120
+    Center = True
+    OnClick = imP0403Click
+    Stretch = True
+  end
+  object imP0404: TImage
+    Left = 376
+    Height = 120
+    Top = 424
+    Width = 120
+    Center = True
+    OnClick = imP0404Click
+    Stretch = True
+  end
+  object imP0405: TImage
+    Left = 496
+    Height = 120
+    Top = 424
+    Width = 120
+    Center = True
+    OnClick = imP0405Click
+    Stretch = True
+  end
+  object imP0406: TImage
+    Left = 616
+    Height = 120
+    Top = 424
+    Width = 120
+    Center = True
+    OnClick = imP0406Click
+    Stretch = True
+  end
+  object imP0407: TImage
+    Left = 736
+    Height = 120
+    Top = 424
+    Width = 120
+    Center = True
+    OnClick = imP0407Click
+    Stretch = True
+  end
+  object imP0408: TImage
+    Left = 856
+    Height = 120
+    Top = 424
+    Width = 120
+    Center = True
+    OnClick = imP0408Click
+    Stretch = True
+  end
+  object imP0409: TImage
+    Left = 976
+    Height = 120
+    Top = 424
+    Width = 120
+    Center = True
+    OnClick = imP0409Click
+    Stretch = True
+  end
+  object imP0410: TImage
+    Left = 1096
+    Height = 120
+    Top = 424
+    Width = 120
+    Center = True
+    OnClick = imP0410Click
+    Stretch = True
+  end
+  object imP0501: TImage
+    Left = 16
+    Height = 120
+    Top = 544
+    Width = 120
+    Center = True
+    OnClick = imP0501Click
+    Stretch = True
+  end
+  object imP0502: TImage
+    Left = 136
+    Height = 120
+    Top = 544
+    Width = 120
+    Center = True
+    OnClick = imP0502Click
+    Stretch = True
+  end
+  object imP0503: TImage
+    Left = 256
+    Height = 120
+    Top = 544
+    Width = 120
+    Center = True
+    OnClick = imP0503Click
+    Stretch = True
+  end
+  object imP0504: TImage
+    Left = 376
+    Height = 120
+    Top = 544
+    Width = 120
+    Center = True
+    OnClick = imP0504Click
+    Stretch = True
+  end
+  object imP0505: TImage
+    Left = 496
+    Height = 120
+    Top = 544
+    Width = 120
+    Center = True
+    OnClick = imP0505Click
+    Stretch = True
+  end
+  object imP0506: TImage
+    Left = 616
+    Height = 120
+    Top = 544
+    Width = 120
+    Center = True
+    OnClick = imP0506Click
+    Stretch = True
+  end
+  object imP0507: TImage
+    Left = 736
+    Height = 120
+    Top = 544
+    Width = 120
+    Center = True
+    OnClick = imP0507Click
+    Stretch = True
+  end
+  object imP0508: TImage
+    Left = 856
+    Height = 120
+    Top = 544
+    Width = 120
+    Center = True
+    OnClick = imP0508Click
+    Stretch = True
+  end
+  object imP0509: TImage
+    Left = 976
+    Height = 120
+    Top = 544
+    Width = 120
+    Center = True
+    OnClick = imP0509Click
+    Stretch = True
+  end
+  object imP0510: TImage
+    Left = 1096
+    Height = 120
+    Top = 544
+    Width = 120
+    Center = True
+    OnClick = imP0510Click
+    Stretch = True
+  end
+  object stPuzzle: TStaticText
+    Left = 16
+    Height = 29
+    Top = 16
+    Width = 1200
+    Alignment = taCenter
+    Caption = 'Puzzle: Easter (12 pieces).'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object edHelp: TMemo
+    Left = 16
+    Height = 56
+    Top = 680
+    Width = 1200
+    Color = clCream
+    Lines.Strings = (
+      'Push the START button to begin...'
+    )
+    ReadOnly = True
+    TabOrder = 1
+    TabStop = False
+  end
+  object btAction: TButton
+    Left = 1386
+    Height = 31
+    Top = 705
+    Width = 94
+    Caption = 'Start'
+    OnClick = btActionClick
+    TabOrder = 2
+  end
+  object imTemp: TImage
+    Left = 1260
+    Height = 200
+    Top = 312
+    Width = 200
+    Visible = False
+  end
+  object imP0000: TImage
+    Left = 1240
+    Height = 120
+    Top = 64
+    Width = 240
+    Center = True
+    Proportional = True
+    Stretch = True
+  end
+  object imP0213: TImage
+    Left = 168
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0213Click
+    Stretch = True
+  end
+  object imP0214: TImage
+    Left = 224
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0214Click
+    Stretch = True
+  end
+  object imP0215: TImage
+    Left = 272
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0215Click
+    Stretch = True
+  end
+  object imP0313: TImage
+    Left = 312
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0313Click
+    Stretch = True
+  end
+  object imP0314: TImage
+    Left = 368
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0314Click
+    Stretch = True
+  end
+  object imP0315: TImage
+    Left = 416
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0315Click
+    Stretch = True
+  end
+  object imP0413: TImage
+    Left = 456
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0413Click
+    Stretch = True
+  end
+  object imP0414: TImage
+    Left = 488
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0414Click
+    Stretch = True
+  end
+  object imP0415: TImage
+    Left = 520
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0415Click
+    Stretch = True
+  end
+  object imP0513: TImage
+    Left = 560
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0513Click
+    Stretch = True
+  end
+  object imP0514: TImage
+    Left = 592
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0514Click
+    Stretch = True
+  end
+  object imP0515: TImage
+    Left = 664
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0515Click
+    Stretch = True
+  end
+  object imP0613: TImage
+    Left = 712
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0613Click
+    Stretch = True
+  end
+  object imP0614: TImage
+    Left = 744
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0614Click
+    Stretch = True
+  end
+  object imP0615: TImage
+    Left = 760
+    Height = 120
+    Top = 200
+    Width = 120
+    Center = True
+    OnClick = imP0615Click
+    Stretch = True
+  end
+  object imP0701: TImage
+    Left = 64
+    Height = 120
+    Top = 528
+    Width = 120
+    Center = True
+    OnClick = imP0701Click
+    Stretch = True
+  end
+  object imP0702: TImage
+    Left = 184
+    Height = 120
+    Top = 528
+    Width = 120
+    Center = True
+    OnClick = imP0702Click
+    Stretch = True
+  end
+  object imP0703: TImage
+    Left = 304
+    Height = 120
+    Top = 528
+    Width = 120
+    Center = True
+    OnClick = imP0703Click
+    Stretch = True
+  end
+  object imP0704: TImage
+    Left = 424
+    Height = 120
+    Top = 528
+    Width = 120
+    Center = True
+    OnClick = imP0704Click
+    Stretch = True
+  end
+  object imP0705: TImage
+    Left = 544
+    Height = 120
+    Top = 528
+    Width = 120
+    Center = True
+    OnClick = imP0705Click
+    Stretch = True
+  end
+  object imP0706: TImage
+    Left = 664
+    Height = 120
+    Top = 528
+    Width = 120
+    Center = True
+    OnClick = imP0706Click
+    Stretch = True
+  end
+  object imP0707: TImage
+    Left = 64
+    Height = 120
+    Top = 504
+    Width = 120
+    Center = True
+    OnClick = imP0707Click
+    Stretch = True
+  end
+  object imP0708: TImage
+    Left = 184
+    Height = 120
+    Top = 504
+    Width = 120
+    Center = True
+    OnClick = imP0708Click
+    Stretch = True
+  end
+  object imP0709: TImage
+    Left = 304
+    Height = 120
+    Top = 504
+    Width = 120
+    Center = True
+    OnClick = imP0709Click
+    Stretch = True
+  end
+  object imP0710: TImage
+    Left = 424
+    Height = 120
+    Top = 504
+    Width = 120
+    Center = True
+    OnClick = imP0710Click
+    Stretch = True
+  end
+  object imP0711: TImage
+    Left = 544
+    Height = 120
+    Top = 504
+    Width = 120
+    Center = True
+    OnClick = imP0711Click
+    Stretch = True
+  end
+  object imP0712: TImage
+    Left = 664
+    Height = 120
+    Top = 504
+    Width = 120
+    Center = True
+    OnClick = imP0712Click
+    Stretch = True
+  end
+  object imP0713: TImage
+    Left = 64
+    Height = 120
+    Top = 456
+    Width = 120
+    Center = True
+    OnClick = imP0713Click
+    Stretch = True
+  end
+  object imP0714: TImage
+    Left = 184
+    Height = 120
+    Top = 456
+    Width = 120
+    Center = True
+    OnClick = imP0714Click
+    Stretch = True
+  end
+  object imP0715: TImage
+    Left = 304
+    Height = 120
+    Top = 456
+    Width = 120
+    Center = True
+    OnClick = imP0715Click
+    Stretch = True
+  end
+  object imP0802: TImage
+    Left = 544
+    Height = 120
+    Top = 456
+    Width = 120
+    Center = True
+    OnClick = imP0802Click
+    Stretch = True
+  end
+  object imP0803: TImage
+    Left = 664
+    Height = 120
+    Top = 456
+    Width = 120
+    Center = True
+    OnClick = imP0803Click
+    Stretch = True
+  end
+  object imP0804: TImage
+    Left = 64
+    Height = 120
+    Top = 408
+    Width = 120
+    Center = True
+    OnClick = imP0804Click
+    Stretch = True
+  end
+  object imP0805: TImage
+    Left = 184
+    Height = 120
+    Top = 408
+    Width = 120
+    Center = True
+    OnClick = imP0805Click
+    Stretch = True
+  end
+  object imP0806: TImage
+    Left = 304
+    Height = 120
+    Top = 408
+    Width = 120
+    Center = True
+    OnClick = imP0806Click
+    Stretch = True
+  end
+  object imP0807: TImage
+    Left = 424
+    Height = 120
+    Top = 408
+    Width = 120
+    Center = True
+    OnClick = imP0807Click
+    Stretch = True
+  end
+  object imP0808: TImage
+    Left = 544
+    Height = 120
+    Top = 408
+    Width = 120
+    Center = True
+    OnClick = imP0808Click
+    Stretch = True
+  end
+  object imP0809: TImage
+    Left = 664
+    Height = 120
+    Top = 408
+    Width = 120
+    Center = True
+    OnClick = imP0809Click
+    Stretch = True
+  end
+  object imP0810: TImage
+    Left = 64
+    Height = 120
+    Top = 352
+    Width = 120
+    Center = True
+    OnClick = imP0810Click
+    Stretch = True
+  end
+  object imP0811: TImage
+    Left = 184
+    Height = 120
+    Top = 352
+    Width = 120
+    Center = True
+    OnClick = imP0811Click
+    Stretch = True
+  end
+  object imP0812: TImage
+    Left = 304
+    Height = 120
+    Top = 352
+    Width = 120
+    Center = True
+    OnClick = imP0812Click
+    Stretch = True
+  end
+  object shSelect: TShape
+    Left = 1348
+    Height = 25
+    Top = 544
+    Width = 25
+    Brush.Color = clBlack
+    Shape = stCircle
+    Visible = False
+  end
+  object mMenu: TMainMenu
+    Left = 56
+    Top = 72
+    object mPuzzle: TMenuItem
+      Caption = 'Puzzle'
+      object mPuzzleNew: TMenuItem
+        Caption = 'New ...'
+        OnClick = mPuzzleNewClick
+      end
+      object mPuzzleOpen: TMenuItem
+        Caption = 'Open ...'
+        OnClick = mPuzzleOpenClick
+      end
+      object mPuzzleSave: TMenuItem
+        Caption = 'Save As ...'
+        OnClick = mPuzzleSaveClick
+      end
+      object mPuzzleExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mPuzzleExitClick
+      end
+    end
+    object mUpdate: TMenuItem
+      Caption = 'Update'
+      object mUpdateDownload: TMenuItem
+        Caption = 'Puzzle download'
+        OnClick = mUpdateDownloadClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsOverride: TMenuItem
+        Caption = 'State files override'
+        object mOptionsOverrideAsk: TMenuItem
+          Caption = 'Ask before overriding a file'
+          Checked = True
+          OnClick = mOptionsOverrideAskClick
+        end
+        object mOptionsOverrideAuto: TMenuItem
+          Caption = 'Override files without asking'
+          OnClick = mOptionsOverrideAutoClick
+        end
+        object mOptionsOverrideNo: TMenuItem
+          Caption = 'Never override state files'
+          OnClick = mOptionsOverrideNoClick
+        end
+      end
+      object mOptionsDelete: TMenuItem
+        Caption = 'State files deletion'
+        object mOptionsDeleteAsk: TMenuItem
+          Caption = 'Ask before deleting a file'
+          OnClick = mOptionsDeleteAskClick
+        end
+        object mOptionsDeleteAuto: TMenuItem
+          Caption = 'Automatically delete files'
+          Checked = True
+          OnClick = mOptionsDeleteAutoClick
+        end
+        object mOptionsDeleteNo: TMenuItem
+          Caption = 'Never delete state files'
+          OnClick = mOptionsDeleteNoClick
+        end
+      end
+      object mOptionsAskForSave: TMenuItem
+        Caption = 'Ask for state saving on exit'
+        Checked = True
+        OnClick = mOptionsAskForSaveClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object dgPuzzleSelect: TSelectDirectoryDialog
+    Title = 'Select puzzle directory'
+    Left = 176
+    Top = 72
+  end
+  object dlgPuzzleSave: TSaveDialog
+    Title = 'Save current puuzle state as'
+    DefaultExt = '.kpz'
+    Filter = 'Kidspuzzle state file (.kps)|*.kps'
+    Left = 296
+    Top = 72
+  end
+  object dlgPuzzleOpen: TOpenDialog
+    Title = 'Load puzzle state from file'
+    Filter = 'Kidspuzzle state file|*.kps|All files|*.*'
+    Left = 416
+    Top = 72
+  end
+end

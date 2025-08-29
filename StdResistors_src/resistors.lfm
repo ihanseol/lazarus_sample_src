@@ -1,0 +1,381 @@
+object fResistors: TfResistors
+  Left = 262
+  Height = 492
+  Top = 152
+  Width = 581
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Standard Resistors'
+  ClientHeight = 467
+  ClientWidth = 581
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object memoResults: TMemo
+    Left = 10
+    Height = 168
+    Top = 232
+    Width = 415
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 6
+    TabStop = False
+  end
+  object rbResistor: TRadioButton
+    Left = 10
+    Height = 27
+    Top = 10
+    Width = 193
+    Caption = ' Find standard resistor'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 0
+    TabStop = True
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 23
+    Top = 52
+    Width = 124
+    Caption = 'Resistance value'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edResistance: TEdit
+    Left = 162
+    Height = 31
+    Top = 48
+    Width = 57
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 1
+  end
+  object cbUResistance: TComboBox
+    Left = 226
+    Height = 31
+    Top = 48
+    Width = 53
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 1
+    Items.Strings = (
+      'Ω'
+      'kΩ'
+      'MΩ'
+      'GΩ'
+    )
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 2
+    Text = 'kΩ'
+  end
+  object rbResistance: TRadioButton
+    Left = 10
+    Height = 27
+    Top = 104
+    Width = 234
+    Caption = ' Determine resistance value'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 23
+    Top = 142
+    Width = 222
+    Caption = 'Choose color of resistor rings'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Shape1: TShape
+    Left = 290
+    Height = 28
+    Top = 139
+    Width = 81
+    Brush.Color = 4163021
+  end
+  object Shape2: TShape
+    Left = 266
+    Height = 4
+    Top = 151
+    Width = 25
+    Brush.Color = clBlack
+  end
+  object Shape3: TShape
+    Left = 371
+    Height = 4
+    Top = 151
+    Width = 25
+    Brush.Color = clBlack
+  end
+  object shBlack: TShape
+    Left = 38
+    Height = 25
+    Top = 184
+    Width = 25
+    Brush.Color = clBlack
+    OnMouseDown = shBlackMouseDown
+  end
+  object shBrown: TShape
+    Left = 80
+    Height = 25
+    Top = 184
+    Width = 25
+    Brush.Color = 2763429
+    OnMouseDown = shBrownMouseDown
+  end
+  object shRed: TShape
+    Left = 120
+    Height = 25
+    Top = 184
+    Width = 25
+    Brush.Color = clRed
+    OnMouseDown = shRedMouseDown
+  end
+  object shOrange: TShape
+    Left = 160
+    Height = 25
+    Top = 184
+    Width = 25
+    Brush.Color = 33023
+    OnMouseDown = shOrangeMouseDown
+  end
+  object shYellow: TShape
+    Left = 200
+    Height = 25
+    Top = 184
+    Width = 25
+    Brush.Color = clYellow
+    OnMouseDown = shYellowMouseDown
+  end
+  object shGreen: TShape
+    Left = 240
+    Height = 25
+    Top = 184
+    Width = 25
+    Brush.Color = clLime
+    OnMouseDown = shGreenMouseDown
+  end
+  object shBlue: TShape
+    Left = 280
+    Height = 25
+    Top = 184
+    Width = 25
+    Brush.Color = clBlue
+    OnMouseDown = shBlueMouseDown
+  end
+  object shViolet: TShape
+    Left = 320
+    Height = 25
+    Top = 184
+    Width = 25
+    Brush.Color = clFuchsia
+    OnMouseDown = shVioletMouseDown
+  end
+  object shGray: TShape
+    Left = 360
+    Height = 25
+    Top = 184
+    Width = 25
+    Brush.Color = clGray
+    OnMouseDown = shGrayMouseDown
+  end
+  object shWhite: TShape
+    Left = 400
+    Height = 25
+    Top = 184
+    Width = 25
+    OnMouseDown = shWhiteMouseDown
+  end
+  object shGold: TShape
+    Left = 440
+    Height = 25
+    Top = 184
+    Width = 25
+    Brush.Color = 55295
+    OnMouseDown = shGoldMouseDown
+  end
+  object shSilver: TShape
+    Left = 480
+    Height = 25
+    Top = 184
+    Width = 25
+    Brush.Color = clSilver
+    OnMouseDown = shSilverMouseDown
+  end
+  object btClear: TButton
+    Left = 520
+    Height = 25
+    Top = 184
+    Width = 50
+    Caption = 'Clear'
+    OnClick = btClearClick
+    TabOrder = 4
+  end
+  object btGo: TButton
+    Left = 376
+    Height = 31
+    Top = 424
+    Width = 90
+    Caption = 'Go!'
+    OnClick = btGoClick
+    TabOrder = 5
+  end
+  object shRing1: TShape
+    Left = 299
+    Height = 28
+    Top = 139
+    Width = 10
+    Brush.Color = 4163021
+  end
+  object shRing2: TShape
+    Left = 316
+    Height = 28
+    Top = 139
+    Width = 10
+    Brush.Color = 4163021
+  end
+  object shRing3: TShape
+    Left = 333
+    Height = 28
+    Top = 139
+    Width = 10
+    Brush.Color = 4163021
+  end
+  object shRing4: TShape
+    Left = 352
+    Height = 28
+    Top = 139
+    Width = 10
+    Brush.Color = 4163021
+  end
+  object Shape4: TShape
+    Left = 465
+    Height = 28
+    Top = 264
+    Width = 81
+    Brush.Color = 4163021
+  end
+  object Shape5: TShape
+    Left = 441
+    Height = 4
+    Top = 276
+    Width = 25
+    Brush.Color = clBlack
+  end
+  object Shape6: TShape
+    Left = 545
+    Height = 4
+    Top = 276
+    Width = 25
+    Brush.Color = clBlack
+  end
+  object shRRing1: TShape
+    Left = 474
+    Height = 28
+    Top = 264
+    Width = 10
+    Brush.Color = 4163021
+  end
+  object shRRing2: TShape
+    Left = 491
+    Height = 28
+    Top = 264
+    Width = 10
+    Brush.Color = 4163021
+  end
+  object shRRing3: TShape
+    Left = 508
+    Height = 28
+    Top = 264
+    Width = 10
+    Brush.Color = 4163021
+  end
+  object shRRing4: TShape
+    Left = 527
+    Height = 28
+    Top = 264
+    Width = 10
+    Brush.Color = 4163021
+  end
+  object Label3: TLabel
+    Left = 314
+    Height = 23
+    Top = 52
+    Width = 72
+    Caption = 'Tolerance'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object cbTolerance: TComboBox
+    Left = 393
+    Height = 31
+    Top = 48
+    Width = 58
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 7
+    Items.Strings = (
+      '  1%'
+      '  2%'
+      '  3%'
+      '  4%'
+      '  5%'
+      '10%'
+      '20%'
+      '-----'
+    )
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 7
+    Text = '-----'
+  end
+  object btReset: TButton
+    Left = 481
+    Height = 31
+    Top = 424
+    Width = 90
+    Caption = 'Reset'
+    OnClick = btResetClick
+    TabOrder = 8
+  end
+  object mMenu: TMainMenu
+    left = 528
+    top = 8
+    object mMenuFile: TMenuItem
+      Caption = 'File'
+      object mMenuFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mMenuFileExitClick
+      end
+    end
+    object mMenuHelp: TMenuItem
+      Caption = 'Help'
+      object mMenuHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mMenuHelpHelpClick
+      end
+      object mMenuHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mMenuHelpAboutClick
+      end
+    end
+  end
+  object pAbout: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Text = 'Text'
+    Title = 'Caption'
+    Visible = False
+    left = 528
+    top = 80
+  end
+end

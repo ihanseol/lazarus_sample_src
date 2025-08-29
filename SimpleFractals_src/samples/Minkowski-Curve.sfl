@@ -1,0 +1,9 @@
+# Minkowski-Curve
+
+origin = (0,330)
+displacement = 5
+
+axiom = "8F"
+rules = { "F": "F-F+F+FF-F-F+F" }
+iterations = 4
+angle = 104

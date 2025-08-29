@@ -1,0 +1,104 @@
+object fHelp: TfHelp
+  Left = 435
+  Height = 491
+  Top = 260
+  Width = 947
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Maths game: Fractions'
+  ClientHeight = 491
+  ClientWidth = 947
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object Memo1: TMemo
+    Left = 11
+    Height = 438
+    Top = 10
+    Width = 924
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"Fractions" is a maths game, intended for primary school pupils and dealing with the addition of fractions. The aim of the game is simple: Choose 2, 3 or 4 fractions (as indicated) from those displayed in the grid and add them in order to get a result of 1. But attention: at least 2 or 3 denominators (as indicated) have to be different!'
+      ''
+      'To choose a fraction, just click the corresponding square: The fraction chosen is highlighted and appears in the answer field. If you clicked and nothing happens, it''s because you clicked the bad place; be sure to click the sqaure, not the fraction text itself! Use the "Undo" button to unselect the fractions chosen (remove them from the answer field, the last chosen first).'
+      ''
+      'Menu item "Game"'
+      '================'
+      ''
+      'New'
+      '---'
+      ''
+      'Start a new game (with reset of the evaluation counters). This command has to be executed when all questions have been done and also in order that the changement of the number of questions and/or the size of the grid will become active.'
+      ''
+      'Exit'
+      '----'
+      ''
+      'Exit the application.'
+      ''
+      'Menu item "Settings"'
+      '===================='
+      ''
+      'Number of questions ...'
+      '-----------------------'
+      ''
+      'Choose the number of questions (fraction addition examples) for this game; default is 10.'
+      ''
+      'Grid size'
+      '---------'
+      ''
+      'Choose the size of the grid, i.e. the number of fractions displayed; the bigger the grid, the more fractions you have to choose from, in order to get a result of 1 by adding them; default is 5x5 (25 fractions).'
+      ''
+      'Number of operands'
+      '------------------'
+      ''
+      'Choose the maximim number of operands (fractions) you have to use for your addition; clear that additions with 4 fractions are more difficult as those with only 2. Choosing 4 operands, will result in questions with 2, 3 or 4 operands. If you want all questions being with 4 operands, check the "Always use max." option. Default max. number of fractions is 3.'
+      ''
+      'Different denominators'
+      '----------------------'
+      ''
+      'This is another option to change the game difficulty. For example: With "at least 2 different denominators", 1/4 + 2/8 + 4/8 would be a correct result, but not with "at least 3"! Note, that "at lest" simply means that you may choose more different denominators as indicated. Default = at least 2.'
+      ''
+      'Exclude halfs'
+      '-------------'
+      ''
+      'When this option is checked, there will be no fractions with value 1/2 (ex: 1/2, 2/4, 5/10) available. Increase of the game difficulty...'
+      ''
+      'Exclude tenths'
+      '--------------'
+      ''
+      'When this option is checked, there will be no fractions with denominator 10 (ex: 1/10, 2/10, 3/10) available. Increase of the game difficulty...'
+      ''
+      'Colored fractions'
+      '-----------------'
+      ''
+      'This is a help to find the fractions on the grid: When checked, all squares with fractions with the same denominator will have the same color (otherwise all squaes will be lime).'
+      ''
+      'Menu item "Help"'
+      '----------------'
+      ''
+      'Help'
+      '----'
+      ''
+      'Display of help, how to use the "Fractions" application (this text).'
+      ''
+      'About'
+      '-----'
+      ''
+      'Display of information about the "Fractions" application.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 840
+    Height = 31
+    Top = 456
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

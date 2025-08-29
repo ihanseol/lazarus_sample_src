@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="Latin2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="43"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="latin2_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLatin2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="43"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="latin_declensions.pas"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="18"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\Programs\Lazarus\win64\components\lazutils\lazstringutils.pas"/>
+        <UnitName Value="LazStringUtils"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="232"/>
+        <CursorPos Y="246"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="152" Column="31" TopLine="129"/>
+      </Position1>
+      <Position2>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="215" Column="33" TopLine="193"/>
+      </Position2>
+      <Position3>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="233" Column="23" TopLine="211"/>
+      </Position3>
+      <Position4>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="246" Column="23" TopLine="224"/>
+      </Position4>
+      <Position5>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="393" Column="92" TopLine="370"/>
+      </Position5>
+      <Position6>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="440" Column="28" TopLine="417"/>
+      </Position6>
+      <Position7>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="97" Column="68" TopLine="83"/>
+      </Position7>
+      <Position8>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="98" Column="20" TopLine="83"/>
+      </Position8>
+      <Position9>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="152" Column="35" TopLine="129"/>
+      </Position9>
+      <Position10>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="393" Column="96" TopLine="370"/>
+      </Position10>
+      <Position11>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="440" Column="43" TopLine="417"/>
+      </Position11>
+      <Position12>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="97" Column="72" TopLine="83"/>
+      </Position12>
+      <Position13>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="152" Column="39" TopLine="129"/>
+      </Position13>
+      <Position14>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="440" Column="57" TopLine="417"/>
+      </Position14>
+      <Position15>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="66" Column="42" TopLine="52"/>
+      </Position15>
+      <Position16>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="152" Column="127" TopLine="129"/>
+      </Position16>
+      <Position17>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="224" Column="33" TopLine="202"/>
+      </Position17>
+      <Position18>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="233" Column="56" TopLine="211"/>
+      </Position18>
+      <Position19>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="246" Column="57" TopLine="224"/>
+      </Position19>
+      <Position20>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="437" Column="69" TopLine="414"/>
+      </Position20>
+      <Position21>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="438" Column="107" TopLine="415"/>
+      </Position21>
+      <Position22>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="440" Column="113" TopLine="417"/>
+      </Position22>
+      <Position23>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="66" Column="46" TopLine="52"/>
+      </Position23>
+      <Position24>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="215" Column="48" TopLine="193"/>
+      </Position24>
+      <Position25>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="224" Column="46" TopLine="202"/>
+      </Position25>
+      <Position26>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="233" Column="69" TopLine="211"/>
+      </Position26>
+      <Position27>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="246" Column="70" TopLine="224"/>
+      </Position27>
+      <Position28>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="441" Column="20" TopLine="418"/>
+      </Position28>
+      <Position29>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="511" Column="14" TopLine="500"/>
+      </Position29>
+      <Position30>
+        <Filename Value="latin2_main.pas"/>
+        <Caret Line="206" Column="113" TopLine="190"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

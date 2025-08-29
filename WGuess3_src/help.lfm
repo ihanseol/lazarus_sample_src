@@ -1,0 +1,113 @@
+object fHelp: TfHelp
+  Left = 404
+  Height = 593
+  Top = 280
+  Width = 999
+  BorderIcons = [biSystemMenu]
+  Caption = 'Specialized subjects word search game'
+  ClientHeight = 593
+  ClientWidth = 999
+  DesignTimePPI = 120
+  Font.Height = -17
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 8
+    Height = 28
+    Top = 10
+    Width = 162
+    Caption = '"WGuess3" Help.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 8
+    Height = 496
+    Top = 48
+    Width = 982
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"WGuess3" is a word search game, where random words, belonging to specialized subjects, such informatics, biology, law, music... are displayed as asterisks and the player has to find them by entering letters on the keyboard, that, if they are part of the word replace the corresponding asterisk(s).'
+      ''
+      'Menu "Game".'
+      '============'
+      ''
+      'New.'
+      '----'
+      'Start of a new game with the selections made in the "Options" menu. This command has to be executed to make option changes becoming active. Changing the number of players automatically starts a new game.'
+      ''
+      'Exit.'
+      '-----'
+      'Exit the application.'
+      ''
+      'Menu "Options".'
+      '=============='
+      ''
+      'To make option changes becoming active, you''ll have to select "New" in the "Game" menu.'
+      ''
+      'Number of players.'
+      '------------------'
+      'Selection, if you want to play the game alone or against another player. In this latter case, the word displayed has to be guessed alternately by Player 1 and Player 2. The player, whose turn it actually is, will be highlighted.'
+      ''
+      'Number of words ...'
+      '-------------------'
+      'User input of how many words to find in this game. The minimum accepted is 5, the maximum 40, the value at game startup 10. In 2-player mode, the number entered here, means "number of words for each player".'
+      ''
+      'Max. wrong guesses ...'
+      '----------------------'
+      'User input of how many times the players may enter a letter that is not part of the word. If the word has not been found, when this number is reached, guessing for the word is over and the "not found" penalty is applied to the player''s score. The value entered has to be between 1 and 12; default = 10.'
+      ''
+      'Not found penalty.'
+      '-------------------'
+      'Selection of the penalty to be applied to the players'' score, if a word has not been found after the actual maximum of wrong guesses has been reached (or if the player enters a wrong word using "Solve"). Possible values are: none, -2 (default), -5 and -10.'
+      ''
+      'Subject selection.'
+      '------------------'
+      'Selection, how the application should choose the subject, to which the words of the actual game belong.'
+      ' - Fixed subject:  All words to be guessed during the game belong to the same subject.'
+      ' - User selection: The player selects a subject for each word to guess.'
+      ' - Random subject: The application randomly chooses a subject for each word to guess.'
+      'If "fixed" is selected, a message, telling you to select a subject, is displayed, when the "New" command is executed. To select a subject, click onto the corresponding field in the subjects grid. With "user", select a subject by clicking a grid field, when guessing for the actual word is done. If you push the "Next" button instead, a message remembers you to select a subject. With "random" selected, push the "Next" button to do the application choose a random subject. Default at game start-up is "random selection".'
+      ''
+      'Show letters entered.'
+      '---------------------'
+      'Toggle to display or not the letters entered so far. Not displaying them increases the difficulty of the game, as you have to remember them. In fact, entering a letter, that has already been entered, is counted as entering a wrong letter. Default is yes.'
+      ''
+      'Menu "Help".'
+      '============'
+      ''
+      'Help.'
+      '-----'
+      'Display of application usage help (this text).'
+      ''
+      'About.'
+      '------'
+      'Display of application version, author and date-written.'
+      ''
+      'Playing "WGuess3".'
+      '=================='
+      ''
+      'Choose if you want to play in 1- or 2-player mode, select the way how the application should choose the subject, change any other settings, if you want, execute the "New" command in the "Game" menu. Except for "random subject" selection, click a grid field to select the subject for this game resp. for the first word to be guessed. Push the "Start" button. The word is displayed as asterisks (except for spaces and hyphens, that are displayed as such); the number of asterisks (plus spaces and hyphens) corresponding to the word''s length.'
+      'Now, you can start guessing by hitting a letter key on the keyboard. If this letter is part of the word, the corresponding asterisk(s) will be replaced by the letter. If the letter is not part of the word (or if you enter a letter, that has already been entered), your score is decremented by 1 and the bar, indicating the maximum of wrong guesses, that you may make, is reduced in size. If the maximum allowed is reached, guessing for this word is over and the "not found" penalty. is applied to your score. If the score of one of the players reaches 0, the game is considered to be over.'
+      'If, after having entered some letters, you think to know the word, you may push the "Solve" button and enter the word directly into the edit field. If you are ready, push "Done". But, be careful when doing so: If your guess is wrong, your score will be set to the value, that it would be in the case, where you entered the maximum of wrong letters allowed. With default settings (10 wrong guesses allowed and penalty = -2), for example, this would correspond to decrementing the score by 12!'
+      'If the word has been found, or if it hasn''t after the maximum of wrong guesses has been reached, the turn is over (in 2-player mode, it will be the other player''s turn). If the subject is chosen by "user selection", click the subjects grid to choose the subject for the next word; otherwise click the "Next" button to continue. If the number of words actually selected has been reached (or if one player''s score is 0), the game is over. Use the "New" command in the "Game" menu to start a new one.'
+      'Enjoy!'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 896
+    Height = 31
+    Top = 555
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

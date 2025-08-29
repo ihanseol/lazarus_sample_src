@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="SimpleFractals.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="49"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="sfractals.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fSFractals"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="49"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\Bacteria1\bacteria1_main.pas"/>
+        <ComponentName Value="fBacteria1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\Programs\Lazarus\win64\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3932"/>
+        <CursorPos Y="3945"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="214" Column="15" TopLine="201"/>
+      </Position1>
+      <Position2>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="199" Column="17" TopLine="198"/>
+      </Position2>
+      <Position3>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="329" Column="3" TopLine="321"/>
+      </Position3>
+      <Position4>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="330" Column="3" TopLine="322"/>
+      </Position4>
+      <Position5>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="392" TopLine="379"/>
+      </Position5>
+      <Position6>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="387" Column="25" TopLine="378"/>
+      </Position6>
+      <Position7>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="290" Column="19" TopLine="265"/>
+      </Position7>
+      <Position8>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="292" Column="19" TopLine="267"/>
+      </Position8>
+      <Position9>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="502" TopLine="477"/>
+      </Position9>
+      <Position10>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="501" Column="63" TopLine="480"/>
+      </Position10>
+      <Position11>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="221" Column="10" TopLine="208"/>
+      </Position11>
+      <Position12>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="70" TopLine="56"/>
+      </Position12>
+      <Position13>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="288" Column="23" TopLine="269"/>
+      </Position13>
+      <Position14>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="292" Column="25" TopLine="274"/>
+      </Position14>
+      <Position15>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="303" Column="65" TopLine="289"/>
+      </Position15>
+      <Position16>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="198" Column="38" TopLine="193"/>
+      </Position16>
+      <Position17>
+        <Filename Value="SimpleFractals.lpr"/>
+        <Caret Line="2" Column="50"/>
+      </Position17>
+      <Position18>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="407" Column="6" TopLine="396"/>
+      </Position18>
+      <Position19>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="54" TopLine="41"/>
+      </Position19>
+      <Position20>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="31" Column="16" TopLine="6"/>
+      </Position20>
+      <Position21>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="314" Column="15" TopLine="304"/>
+      </Position21>
+      <Position22>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="31" Column="14" TopLine="14"/>
+      </Position22>
+      <Position23>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="491" Column="15" TopLine="479"/>
+      </Position23>
+      <Position24>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="799" TopLine="773"/>
+      </Position24>
+      <Position25>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="24" Column="7"/>
+      </Position25>
+      <Position26>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="176" Column="25" TopLine="163"/>
+      </Position26>
+      <Position27>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="595" Column="81" TopLine="589"/>
+      </Position27>
+      <Position28>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="128" Column="77" TopLine="104"/>
+      </Position28>
+      <Position29>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="696" Column="13" TopLine="688"/>
+      </Position29>
+      <Position30>
+        <Filename Value="sfractals.pas"/>
+        <Caret Line="540" Column="45" TopLine="521"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

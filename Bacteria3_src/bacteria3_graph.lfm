@@ -1,0 +1,70 @@
+object fBacteria3G: TfBacteria3G
+  Left = 131
+  Height = 752
+  Top = 20
+  Width = 1162
+  BorderIcons = [biSystemMenu]
+  Caption = 'Bacteria growth in the chemostat'
+  ClientHeight = 752
+  ClientWidth = 1162
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object stTitle: TStaticText
+    Left = 10
+    Height = 29
+    Top = 10
+    Width = 574
+    Caption = 'Bacteria growth in the chemostat.'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object stMonod: TStaticText
+    Left = 650
+    Height = 24
+    Top = 56
+    Width = 500
+    Alignment = taRightJustify
+    Caption = 'Monod based growth model:'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 1
+  end
+  object imGraph: TImage
+    Left = 10
+    Height = 600
+    Top = 96
+    Width = 1140
+  end
+  object btClose: TButton
+    Left = 1056
+    Height = 31
+    Top = 712
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 2
+  end
+  object StaticText1: TStaticText
+    Left = 10
+    Height = 21
+    Top = 712
+    Width = 390
+    Caption = '(*) Bacteria as N / (a * γ) and nutrient as S / a'
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 3
+  end
+  object stChemostat: TStaticText
+    Left = 10
+    Height = 24
+    Top = 56
+    Width = 500
+    Caption = 'Chemostat properties:'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 4
+  end
+end

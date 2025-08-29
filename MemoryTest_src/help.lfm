@@ -1,0 +1,59 @@
+object fHelp: TfHelp
+  Left = 407
+  Height = 562
+  Top = 177
+  Width = 839
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Memory Test'
+  ClientHeight = 562
+  ClientWidth = 839
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object Memo1: TMemo
+    Left = 12
+    Height = 486
+    Top = 10
+    Width = 814
+    Font.Height = -15
+    Lines.Strings = (
+      'Memory Test is an application that you may use to test your memory, or if you use it on a regular basis, to improve '
+      'remembering objects and thus improve your visual memory capacities. The program displays given objects in a given '
+      'order and you must try, by remembering what you saw, to reconstitute the object sequence.'
+      ''
+      'There are 2 types of test: with the first one, objects are displayed one by one during the time selected in the "Pictures '
+      '> Time" menu. With the other one, all objects are displayed together during a time equal to 10x the one selected, a '
+      'counter indicating the display time left; if you think to have memorized the objects before this time is over, you may '
+      'push the "OK" button to immediately check if you succeeded. Which test is used and how many objects are displayed, '
+      'is selected in the "New" menu.'
+      ''
+      'The set of objects is selected in the "Objects" menu; a (random) subset may be selected by choosing one of the object '
+      'numbers in the "Pictures > Selection" menu.'
+      ''
+      'Push the "Start" button to display the images; when the button''s caption has changed to "Check", you may check how '
+      'many objects you actually remembered. To do this, click the objects in the main window in the same sequence as they '
+      'were displayed before. If you do correctly, the clicked object appears in the secondary window, if you make a mistake '
+      'checking is stopped. If you remembered the whole sequence, the program automatically increments the number of '
+      'objects to be displayed by 1.'
+      ''
+      'Note that "Colored objects" is a little bit special: this set contains 10 different objects as the others, but several of '
+      'these objects exist 2 or 3 times, with different colors in this case. The total number of the set''s objects is thus 20. The '
+      'subset selected in the "Pictures > Selection" menu will also contain a number of objects twice the value chosen in the '
+      '"Pictures > Selection" menu.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 751
+    Height = 25
+    Top = 520
+    Width = 75
+    Caption = 'Close'
+    OnClick = btCloseClick
+    ParentFont = False
+    TabOrder = 0
+  end
+end

@@ -1,0 +1,21 @@
+Usage:
+  TSORT input-file output-file [sort-oder] [COLS:sortcolumns-list] [options]
+
+  input-file        path to the sort input file
+  output-file       path to the sort output file; if the path doesn't contain
+                    a directory, the input file directory is used; the output
+                    file may be identical to the input file if -O is specified
+                    (you may use * instead of output-file if you want to
+                    override the input file)
+  sort-oder         ASC (default) or DESC
+  sortcolumns-list  sortcolumns, separated by commas (no spaces allowed)
+    sortcolumns     startcolumn and endcolumn, separated by a hyphen
+  options           -A   sort characters with accents by character-code
+                    -C   consider letter case for sort
+                    -D   remove lines with duplicate key values
+                    -H:n consider first n lines as header
+                    -O   allow overriding an existing output-file
+                    -S   consider spaces for sort
+                    -Y   consider symbols (hyphen, apostrophe) for sort
+
+Please, cf. readme.txt (part of the download archive) for further details.

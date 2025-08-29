@@ -1,0 +1,590 @@
+object fWGuess3: TfWGuess3
+  Left = 232
+  Height = 575
+  Top = 164
+  Width = 795
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Specialized subjects word search game'
+  ClientHeight = 550
+  ClientWidth = 795
+  DesignTimePPI = 120
+  Font.Height = -17
+  KeyPreview = True
+  Menu = mMenu
+  OnCreate = FormCreate
+  OnUTF8KeyPress = FormUTF8KeyPress
+  LCLVersion = '2.0.10.0'
+  object shPlayer20: TShape
+    Left = 528
+    Height = 31
+    Top = 192
+    Width = 240
+  end
+  object shPlayer10: TShape
+    Left = 528
+    Height = 31
+    Top = 100
+    Width = 240
+  end
+  object StaticText1: TStaticText
+    Left = 80
+    Height = 29
+    Top = 10
+    Width = 614
+    Alignment = taCenter
+    Caption = 'Specialized subjects word search game.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object shSubject0: TShape
+    Left = 10
+    Height = 120
+    Top = 60
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject0MouseDown
+  end
+  object shSubject1: TShape
+    Left = 130
+    Height = 120
+    Top = 60
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject1MouseDown
+  end
+  object shSubject2: TShape
+    Left = 250
+    Height = 120
+    Top = 60
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject2MouseDown
+  end
+  object shSubject3: TShape
+    Left = 370
+    Height = 120
+    Top = 60
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject3MouseDown
+  end
+  object shSubject4: TShape
+    Left = 10
+    Height = 120
+    Top = 180
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject4MouseDown
+  end
+  object shSubject5: TShape
+    Left = 130
+    Height = 120
+    Top = 180
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject5MouseDown
+  end
+  object shSubject6: TShape
+    Left = 250
+    Height = 120
+    Top = 180
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject6MouseDown
+  end
+  object shSubject7: TShape
+    Left = 370
+    Height = 120
+    Top = 180
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject7MouseDown
+  end
+  object shSubject8: TShape
+    Left = 10
+    Height = 120
+    Top = 300
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject8MouseDown
+  end
+  object shSubject9: TShape
+    Left = 130
+    Height = 120
+    Top = 300
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject9MouseDown
+  end
+  object shSubject10: TShape
+    Left = 250
+    Height = 120
+    Top = 300
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject10MouseDown
+  end
+  object shSubject11: TShape
+    Left = 370
+    Height = 120
+    Top = 300
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject11MouseDown
+  end
+  object shSubject12: TShape
+    Left = 10
+    Height = 120
+    Top = 420
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject12MouseDown
+  end
+  object shSubject13: TShape
+    Left = 130
+    Height = 120
+    Top = 420
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject13MouseDown
+  end
+  object shSubject14: TShape
+    Left = 250
+    Height = 120
+    Top = 420
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject14MouseDown
+  end
+  object shSubject15: TShape
+    Left = 370
+    Height = 120
+    Top = 420
+    Width = 120
+    Brush.Color = clYellow
+    OnMouseDown = shSubject15MouseDown
+  end
+  object stSubject0: TStaticText
+    Left = 10
+    Height = 21
+    Top = 110
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Astronomy'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject0Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object stSubject1: TStaticText
+    Left = 130
+    Height = 21
+    Top = 110
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Biology'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject1Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object stSubject2: TStaticText
+    Left = 250
+    Height = 21
+    Top = 110
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Chemistry'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject2Click
+    ParentFont = False
+    TabOrder = 5
+  end
+  object stSubject3: TStaticText
+    Left = 370
+    Height = 21
+    Top = 110
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Ecology'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject3Click
+    ParentFont = False
+    TabOrder = 6
+  end
+  object stSubject4: TStaticText
+    Left = 10
+    Height = 21
+    Top = 230
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Film'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject4Click
+    ParentFont = False
+    TabOrder = 7
+  end
+  object stSubject5: TStaticText
+    Left = 130
+    Height = 21
+    Top = 230
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Finance'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject5Click
+    ParentFont = False
+    TabOrder = 8
+  end
+  object stSubject6: TStaticText
+    Left = 250
+    Height = 21
+    Top = 230
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Informatics'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject6Click
+    ParentFont = False
+    TabOrder = 9
+  end
+  object stSubject7: TStaticText
+    Left = 370
+    Height = 21
+    Top = 230
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Law'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject7Click
+    ParentFont = False
+    TabOrder = 10
+  end
+  object stSubject8: TStaticText
+    Left = 10
+    Height = 21
+    Top = 350
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Literature'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject8Click
+    ParentFont = False
+    TabOrder = 11
+  end
+  object stSubject9: TStaticText
+    Left = 130
+    Height = 21
+    Top = 350
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Mathematics'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject9Click
+    ParentFont = False
+    TabOrder = 12
+  end
+  object stSubject10: TStaticText
+    Left = 250
+    Height = 21
+    Top = 350
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Medicine'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject10Click
+    ParentFont = False
+    TabOrder = 13
+  end
+  object stSubject11: TStaticText
+    Left = 370
+    Height = 21
+    Top = 350
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Music'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject11Click
+    ParentFont = False
+    TabOrder = 14
+  end
+  object stSubject12: TStaticText
+    Left = 10
+    Height = 21
+    Top = 470
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Pedagogy'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject12Click
+    ParentFont = False
+    TabOrder = 15
+  end
+  object stSubject13: TStaticText
+    Left = 130
+    Height = 21
+    Top = 470
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Religion'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject13Click
+    ParentFont = False
+    TabOrder = 16
+  end
+  object stSubject14: TStaticText
+    Left = 250
+    Height = 21
+    Top = 470
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Sports'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject14Click
+    ParentFont = False
+    TabOrder = 17
+  end
+  object stSubject15: TStaticText
+    Left = 370
+    Height = 21
+    Top = 470
+    Width = 120
+    Alignment = taCenter
+    Caption = 'Technology'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stSubject15Click
+    ParentFont = False
+    TabOrder = 18
+  end
+  object edPlayer1: TEdit
+    Left = 528
+    Height = 31
+    Top = 60
+    Width = 128
+    OnEditingDone = edPlayer1EditingDone
+    TabStop = False
+    TabOrder = 19
+    Text = 'Player 1'
+  end
+  object shPlayer1: TShape
+    Left = 528
+    Height = 31
+    Top = 100
+    Width = 260
+    Brush.Color = clLime
+  end
+  object edScore1: TEdit
+    Left = 728
+    Height = 31
+    Top = 60
+    Width = 60
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 20
+  end
+  object edPlayer2: TEdit
+    Left = 528
+    Height = 31
+    Top = 152
+    Width = 128
+    OnEditingDone = edPlayer2EditingDone
+    TabStop = False
+    TabOrder = 21
+    Text = 'Player 2'
+  end
+  object shPlayer2: TShape
+    Left = 528
+    Height = 31
+    Top = 192
+    Width = 260
+    Brush.Color = clLime
+  end
+  object edScore2: TEdit
+    Left = 728
+    Height = 31
+    Top = 152
+    Width = 60
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 22
+  end
+  object btStart: TButton
+    Left = 694
+    Height = 31
+    Top = 509
+    Width = 94
+    Caption = 'Start'
+    OnClick = btStartClick
+    TabOrder = 0
+  end
+  object laWord: TLabel
+    Left = 528
+    Height = 23
+    Top = 248
+    Width = 41
+    Caption = 'Word'
+    ParentColor = False
+  end
+  object edWord: TEdit
+    Left = 528
+    Height = 31
+    Top = 276
+    Width = 260
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 23
+  end
+  object btSolve: TButton
+    Left = 694
+    Height = 31
+    Top = 464
+    Width = 94
+    Caption = 'Solve'
+    OnClick = btSolveClick
+    TabOrder = 1
+  end
+  object laLettersEntered: TLabel
+    Left = 528
+    Height = 23
+    Top = 368
+    Width = 115
+    Caption = 'Letters entered'
+    ParentColor = False
+  end
+  object edLettersEntered: TEdit
+    Left = 528
+    Height = 31
+    Top = 396
+    Width = 260
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 24
+  end
+  object edWord2: TEdit
+    Left = 528
+    Height = 31
+    Top = 316
+    Width = 260
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 25
+  end
+  object mMenu: TMainMenu
+    Left = 16
+    Top = 8
+    object mGame: TMenuItem
+      Caption = 'Game'
+      object mGameNew: TMenuItem
+        Caption = 'New'
+        OnClick = mGameNewClick
+      end
+      object mGameExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mGameExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsPlayers: TMenuItem
+        Caption = 'Number of players'
+        object mOptionsPlayers1: TMenuItem
+          Caption = '1 player'
+          Checked = True
+          OnClick = mOptionsPlayers1Click
+        end
+        object mOptionsPlayers2: TMenuItem
+          Caption = '2 players'
+          OnClick = mOptionsPlayers2Click
+        end
+      end
+      object mOptionsWords: TMenuItem
+        Caption = 'Number of words ...'
+        OnClick = mOptionsWordsClick
+      end
+      object mOptionsGuesses: TMenuItem
+        Caption = 'Max. wrong guesses ...'
+        OnClick = mOptionsGuessesClick
+      end
+      object mOptionsNotFound: TMenuItem
+        Caption = 'Not found penality'
+        object mOptionsNotFound0: TMenuItem
+          Caption = 'None'
+          OnClick = mOptionsNotFound0Click
+        end
+        object mOptionsNotFound2: TMenuItem
+          Caption = '-2'
+          Checked = True
+          OnClick = mOptionsNotFound2Click
+        end
+        object mOptionsNotFound5: TMenuItem
+          Caption = '-5'
+          OnClick = mOptionsNotFound5Click
+        end
+        object mOptionsNotFound10: TMenuItem
+          Caption = '-10'
+          OnClick = mOptionsNotFound10Click
+        end
+      end
+      object mOptionsSubject: TMenuItem
+        Caption = 'Subject selection'
+        object mOptionsSubjectFixed: TMenuItem
+          Caption = 'Fixed subject'
+          OnClick = mOptionsSubjectFixedClick
+        end
+        object mOptionsSubjectUser: TMenuItem
+          Caption = 'User selection'
+          OnClick = mOptionsSubjectUserClick
+        end
+        object mOptionsSubjectRandom: TMenuItem
+          Caption = 'Random subject'
+          Checked = True
+          OnClick = mOptionsSubjectRandomClick
+        end
+      end
+      object mOptionsLettersEntered: TMenuItem
+        Caption = 'Show letters entered'
+        Checked = True
+        OnClick = mOptionsLettersEnteredClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object tiSelect: TTimer
+    Enabled = False
+    Interval = 250
+    OnTimer = tiSelectTimer
+    Left = 74
+    Top = 8
+  end
+end

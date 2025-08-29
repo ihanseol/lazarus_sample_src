@@ -1,0 +1,50 @@
+Austernpilze                            3
+Blattspinat         Gartenspinat        2
+Blumenkohl                              1
+Brokkoli                                2
+Champignons                             1
+Chicoree                                2
+Chinakohl                               3
+Endiviensalat       Endivien            3
+Erbsen                                  1
+Fenchel             Finocchio           3
+Fruehlingszwiebeln                      3
+Gartensalat         Kopfsalat           1
+Gruene_Bohnen                           1
+Gruenkohl                               2
+Gurken              Kukumern            1
+Kartoffeln                              1
+Kohlrabi                                2
+Kraeutersaitlinge                       3
+Kuerbisse           Speisekuerbisse     2
+Lauch               Porree              1
+Mairueben           Navetten            3
+Mangold                                 3
+Maniok                                  3
+Moehren             Karotten            1
+Pak_Choi                                3
+Paprika                                 2
+Pastinaken                              3
+Radieschen                              1
+Rhababer                                2
+Rosenkohl                               1
+Rote_Beete                              2
+Rotkohl                                 1
+Schalotten                              3
+Schwarzwurzeln                          3
+Sellerie            Knollensellerie     2
+Shiitaken                               3
+Spargel                                 1
+Spitzkohl                               3
+Stangensellerie                         3
+Steckrueben                             3
+Tomaten                                 1
+Tomatillo                               3
+Weisse_Bohnen                           2
+Weisskohl           Weisskabis          1
+Winterrettich                           3
+Wirsing                                 2
+Wurzelpetersilie    Knollenpetersilie   3
+Zuccini                                 2
+Zuckermais          Mais                2
+Zwiebeln                                2

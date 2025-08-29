@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="Decay1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="57"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="decay1_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fDecay1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="57"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="decay1_elements.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fElements"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="decay1_help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="220" Column="28" TopLine="207"/>
+      </Position1>
+      <Position2>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="222" Column="27" TopLine="207"/>
+      </Position2>
+      <Position3>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="220" Column="12" TopLine="207"/>
+      </Position3>
+      <Position4>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="219" Column="13" TopLine="198"/>
+      </Position4>
+      <Position5>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="223" Column="46" TopLine="204"/>
+      </Position5>
+      <Position6>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="417" Column="5" TopLine="398"/>
+      </Position6>
+      <Position7>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="413" Column="55" TopLine="398"/>
+      </Position7>
+      <Position8>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="240" Column="13" TopLine="228"/>
+      </Position8>
+      <Position9>
+        <Filename Value="decay1_elements.pas"/>
+        <Caret Line="28" Column="13" TopLine="22"/>
+      </Position9>
+      <Position10>
+        <Filename Value="decay1_help.pas"/>
+        <Caret Line="34" TopLine="12"/>
+      </Position10>
+      <Position11>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="256" Column="46" TopLine="252"/>
+      </Position11>
+      <Position12>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="512" Column="45" TopLine="489"/>
+      </Position12>
+      <Position13>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="134" Column="41" TopLine="109"/>
+      </Position13>
+      <Position14>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="622" Column="46" TopLine="607"/>
+      </Position14>
+      <Position15>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="294" Column="11" TopLine="280"/>
+      </Position15>
+      <Position16>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="339" Column="12" TopLine="320"/>
+      </Position16>
+      <Position17>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="594" Column="11" TopLine="579"/>
+      </Position17>
+      <Position18>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="59" Column="11" TopLine="46"/>
+      </Position18>
+      <Position19>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="227" Column="17" TopLine="204"/>
+      </Position19>
+      <Position20>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="588" Column="13" TopLine="566"/>
+      </Position20>
+      <Position21>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="592" Column="13" TopLine="570"/>
+      </Position21>
+      <Position22>
+        <Filename Value="Decay1.lpr"/>
+        <Caret Line="2" Column="38"/>
+      </Position22>
+      <Position23>
+        <Filename Value="decay1_elements.pas"/>
+        <Caret Line="3" Column="49"/>
+      </Position23>
+      <Position24>
+        <Filename Value="decay1_elements.pas"/>
+        <Caret Line="60" TopLine="33"/>
+      </Position24>
+      <Position25>
+        <Filename Value="decay1_help.pas"/>
+        <Caret Line="44" TopLine="17"/>
+      </Position25>
+      <Position26>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="580" Column="17" TopLine="572"/>
+      </Position26>
+      <Position27>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="77" TopLine="58"/>
+      </Position27>
+      <Position28>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="174" TopLine="148"/>
+      </Position28>
+      <Position29>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="347" Column="128" TopLine="320"/>
+      </Position29>
+      <Position30>
+        <Filename Value="decay1_main.pas"/>
+        <Caret Line="770" TopLine="743"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

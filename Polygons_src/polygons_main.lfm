@@ -1,0 +1,559 @@
+object fPolygons: TfPolygons
+  Left = 140
+  Height = 780
+  Top = 8
+  Width = 1235
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Regular Polygons'
+  ClientHeight = 755
+  ClientWidth = 1235
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object imDisplay: TImage
+    Left = 16
+    Height = 700
+    Top = 48
+    Width = 700
+  end
+  object StaticText1: TStaticText
+    Left = 355
+    Height = 30
+    Top = 3
+    Width = 524
+    Alignment = taCenter
+    Caption = 'Geometry: Properties of Regular Polygons.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 10
+  end
+  object btCompute: TButton
+    Left = 1133
+    Height = 31
+    Top = 717
+    Width = 94
+    Caption = 'Compute'
+    OnClick = btComputeClick
+    TabOrder = 9
+  end
+  object laPolygon: TLabel
+    Left = 776
+    Height = 23
+    Top = 48
+    Width = 69
+    Caption = 'Polygon:'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 776
+    Height = 23
+    Top = 89
+    Width = 125
+    Caption = 'Number of sides'
+    ParentColor = False
+  end
+  object edN: TEdit
+    Left = 912
+    Height = 31
+    Top = 85
+    Width = 80
+    Alignment = taRightJustify
+    MaxLength = 2
+    NumbersOnly = True
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 776
+    Height = 23
+    Top = 129
+    Width = 103
+    Caption = 'Interior angle'
+    ParentColor = False
+  end
+  object edAInt: TEdit
+    Left = 912
+    Height = 31
+    Top = 125
+    Width = 80
+    Alignment = taRightJustify
+    NumbersOnly = True
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object laUAInt: TLabel
+    Left = 999
+    Height = 23
+    Top = 129
+    Width = 6
+    Caption = '°'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 1024
+    Height = 23
+    Top = 129
+    Width = 105
+    Caption = 'Exterior angle'
+    ParentColor = False
+  end
+  object edAExt: TEdit
+    Left = 1134
+    Height = 31
+    Top = 125
+    Width = 80
+    Alignment = taRightJustify
+    NumbersOnly = True
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object laUAExt: TLabel
+    Left = 1221
+    Height = 23
+    Top = 129
+    Width = 6
+    Caption = '°'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 1024
+    Height = 23
+    Top = 89
+    Width = 86
+    Caption = 'Side length'
+    ParentColor = False
+  end
+  object edS: TEdit
+    Left = 1134
+    Height = 31
+    Top = 85
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 1
+  end
+  object Label5: TLabel
+    Left = 776
+    Height = 23
+    Top = 169
+    Width = 50
+    Caption = 'Radius'
+    ParentColor = False
+  end
+  object edR: TEdit
+    Left = 912
+    Height = 31
+    Top = 165
+    Width = 80
+    Alignment = taRightJustify
+    NumbersOnly = True
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object Label6: TLabel
+    Left = 1024
+    Height = 23
+    Top = 169
+    Width = 71
+    Caption = 'Apothem'
+    ParentColor = False
+  end
+  object edAp: TEdit
+    Left = 1134
+    Height = 31
+    Top = 165
+    Width = 80
+    Alignment = taRightJustify
+    NumbersOnly = True
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object Label7: TLabel
+    Left = 776
+    Height = 23
+    Top = 209
+    Width = 73
+    Caption = 'Perimeter'
+    ParentColor = False
+  end
+  object edP: TEdit
+    Left = 912
+    Height = 31
+    Top = 205
+    Width = 80
+    Alignment = taRightJustify
+    NumbersOnly = True
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 15
+  end
+  object Label8: TLabel
+    Left = 1024
+    Height = 23
+    Top = 209
+    Width = 35
+    Caption = 'Area'
+    ParentColor = False
+  end
+  object edA: TEdit
+    Left = 1134
+    Height = 31
+    Top = 205
+    Width = 80
+    Alignment = taRightJustify
+    NumbersOnly = True
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 16
+  end
+  object cbR: TCheckBox
+    Left = 776
+    Height = 27
+    Top = 249
+    Width = 119
+    Caption = ' Draw radius'
+    Checked = True
+    State = cbChecked
+    TabOrder = 2
+    TabStop = False
+  end
+  object cbAp: TCheckBox
+    Left = 1024
+    Height = 27
+    Top = 249
+    Width = 142
+    Caption = ' Draw apothem'
+    Checked = True
+    State = cbChecked
+    TabOrder = 3
+    TabStop = False
+  end
+  object cbCercleR: TCheckBox
+    Left = 776
+    Height = 27
+    Top = 289
+    Width = 163
+    Caption = ' Draw circumcircle'
+    TabOrder = 4
+    TabStop = False
+  end
+  object cbCircleAp: TCheckBox
+    Left = 1024
+    Height = 27
+    Top = 289
+    Width = 126
+    Caption = ' Draw incircle'
+    TabOrder = 5
+    TabStop = False
+  end
+  object edCircleR: TEdit
+    Left = 802
+    Height = 31
+    Top = 320
+    Width = 174
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 17
+    Text = 'x² + y² = r²'
+  end
+  object edCircleAp: TEdit
+    Left = 1050
+    Height = 31
+    Top = 320
+    Width = 174
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 28
+    Text = 'x² + y² = a²'
+  end
+  object Label9: TLabel
+    Left = 776
+    Height = 23
+    Top = 424
+    Width = 112
+    Caption = 'Main triangles:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 776
+    Height = 23
+    Top = 468
+    Width = 100
+    Caption = 'Side length a'
+    ParentColor = False
+  end
+  object edT1a: TEdit
+    Left = 912
+    Height = 31
+    Top = 464
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 18
+  end
+  object Label11: TLabel
+    Left = 776
+    Height = 23
+    Top = 508
+    Width = 101
+    Caption = 'Side length b'
+    ParentColor = False
+  end
+  object edT1b: TEdit
+    Left = 912
+    Height = 31
+    Top = 504
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 19
+  end
+  object Label12: TLabel
+    Left = 776
+    Height = 23
+    Top = 548
+    Width = 99
+    Caption = 'Side length c'
+    ParentColor = False
+  end
+  object edT1c: TEdit
+    Left = 912
+    Height = 31
+    Top = 544
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 20
+  end
+  object Label13: TLabel
+    Left = 776
+    Height = 23
+    Top = 588
+    Width = 80
+    Caption = 'Angle (a,c)'
+    ParentColor = False
+  end
+  object edT1Angle: TEdit
+    Left = 912
+    Height = 31
+    Top = 584
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 21
+  end
+  object Label14: TLabel
+    Left = 776
+    Height = 23
+    Top = 636
+    Width = 35
+    Caption = 'Area'
+    ParentColor = False
+  end
+  object edT1Area: TEdit
+    Left = 912
+    Height = 31
+    Top = 624
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 22
+  end
+  object Label15: TLabel
+    Left = 1024
+    Height = 23
+    Top = 424
+    Width = 115
+    Caption = 'Small triangles:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label16: TLabel
+    Left = 1024
+    Height = 23
+    Top = 468
+    Width = 100
+    Caption = 'Side length a'
+    ParentColor = False
+  end
+  object edT2a: TEdit
+    Left = 1134
+    Height = 31
+    Top = 464
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 23
+  end
+  object Label17: TLabel
+    Left = 1024
+    Height = 23
+    Top = 508
+    Width = 101
+    Caption = 'Side length b'
+    ParentColor = False
+  end
+  object edT2b: TEdit
+    Left = 1134
+    Height = 31
+    Top = 504
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 24
+  end
+  object Label18: TLabel
+    Left = 1024
+    Height = 23
+    Top = 548
+    Width = 99
+    Caption = 'Side length c'
+    ParentColor = False
+  end
+  object edT2c: TEdit
+    Left = 1134
+    Height = 31
+    Top = 544
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 25
+  end
+  object Label19: TLabel
+    Left = 1024
+    Height = 23
+    Top = 588
+    Width = 80
+    Caption = 'Angle (a,c)'
+    ParentColor = False
+  end
+  object edT2Angle: TEdit
+    Left = 1134
+    Height = 31
+    Top = 584
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 26
+  end
+  object Label20: TLabel
+    Left = 1024
+    Height = 23
+    Top = 628
+    Width = 35
+    Caption = 'Area'
+    ParentColor = False
+  end
+  object edT2Area: TEdit
+    Left = 1134
+    Height = 31
+    Top = 624
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 27
+  end
+  object laT1UAngle: TLabel
+    Left = 999
+    Height = 23
+    Top = 588
+    Width = 6
+    Caption = '°'
+    ParentColor = False
+  end
+  object laT2UAngle: TLabel
+    Left = 1221
+    Height = 23
+    Top = 588
+    Width = 6
+    Caption = '°'
+    ParentColor = False
+  end
+  object cbT1: TCheckBox
+    Left = 776
+    Height = 27
+    Top = 668
+    Width = 131
+    Caption = ' Draw triangle'
+    TabOrder = 7
+    TabStop = False
+  end
+  object cbT2: TCheckBox
+    Left = 1024
+    Height = 27
+    Top = 668
+    Width = 131
+    Caption = ' Draw triangle'
+    TabOrder = 8
+    TabStop = False
+  end
+  object Label21: TLabel
+    Left = 776
+    Height = 23
+    Top = 372
+    Width = 121
+    Caption = 'Nb of diagonals'
+    ParentColor = False
+  end
+  object edDiags: TEdit
+    Left = 912
+    Height = 31
+    Top = 368
+    Width = 80
+    Alignment = taRightJustify
+    NumbersOnly = True
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 29
+  end
+  object cbDiagonals: TCheckBox
+    Left = 1024
+    Height = 27
+    Top = 370
+    Width = 146
+    Caption = ' Draw diagonals'
+    TabOrder = 6
+    TabStop = False
+  end
+  object mMenu: TMainMenu
+    left = 1174
+    top = 8
+    object mPolygon: TMenuItem
+      Caption = 'Polygon'
+      object mPolygonExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mPolygonExitClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

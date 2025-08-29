@@ -1,0 +1,9 @@
+# Reversed Triangle
+
+origin = (610,100)
+displacement = 25
+
+axiom = "1F-2F-7F"
+rules = { "F": "F+F-F" }
+iterations = 5
+angle = 120

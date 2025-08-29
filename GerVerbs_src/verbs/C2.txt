@@ -1,0 +1,69 @@
+# Unregelmäßige und starke deutsche Verben - Sprachniveau C2
+# https://deutschlernerblog.de/1100-unregelmaessige-und-starke-deutsche-verben-nach-sprachniveau-a1-c2/
+
+bersten             birst               barst               geborsten           S S -
+bleichen            bleicht             blich               geblichen           R S - bleich werden
+bleichen            bleicht             bleichte            gebleicht           R H - etwas bleich machen
+dreschen            drischt             drosch              gedroschen          S H -
+flechten            flicht              flocht              geflochten          S H -
+glimmen             glimmt              glomm/glimmte       geglommen/geglimmt  R H -
+hauen               haut                hieb/haute          gehauen             R H -
+schelten            schilt              schalt              gescholten          S H -
+scheren             schert              schor               geschoren           R H - die Haare schneiden
+sich scheren_1      schert              scherte             geschert            R H - sich um etwas kümmern
+sich scheren_2      schert              schor               geschoren           R H - sich die Haare schneiden
+speien              speit               spie                gespien             R H -
+stieben             stiebt              stob                gestoben            R X -
+verdrießen          verdrießt           verdross            verdrossen          R H -
+weben               webt                wob/webte           gewoben/gewebt      R H -
+ab-liegen_?                                                                     T ? -
+an-schmeißen                                                                    T H -
+sich auf-schwingen                                                              T H -
+auseinander-stieben                                                             T S P
+aus-fechten                                                                     T H -
+aus-kneifen                                                                     T S -
+aus-ringen                                                                      T H -
+aus-scheiden                                                                    T S -
+aus-schelten                                                                    T H -
+aus-stechen                                                                     T H -
+aus-winden                                                                      T H -
+be-fliegen                                                                      N H -
+be-schleichen                                                                   N H -
+darnieder-liegen                                                                T H -
+ein-flechten                                                                    T H -
+ein-schmelzen                                                                   T H -
+ein-stoßen                                                                      T H -
+ent-bieten                                                                      N H -
+ent-brennen                                                                     N S -
+ent-flechten                                                                    N H -
+ent-gelten                                                                      N H -
+ent-heben                                                                       N H -
+ent-rinnen                                                                      N S -
+ent-wachsen                                                                     N S -
+ent-winden                                                                      N H -
+er-bieten                                                                       N H -
+er-schleichen                                                                   N H -
+er-schwingen                                                                    N H -
+er-sinnen                                                                       N H -
+ge-rinnen                                                                       N S -
+hinter-bringen                                                                  N H -
+nach-stehen                                                                     T H -
+quer-treiben                                                                    T H -
+über-schreien                                                                   N H -
+um-schleichen                                                                   N H -
+um-winden                                                                       N H -
+sich ver-beißen                                                                 N H -
+ver-dreschen                                                                    N H -
+ver-drießen                                                                     N H -
+ver-flechten                                                                    N H -
+ver-glimmen                                                                     N S -
+sich ver-kneifen_D                                                              N H -
+ver-sitzen                                                                      N H -
+sich ver-steigen                                                                N H -
+ver-wachsen                                                                     N S -
+zer-bersten                                                                     N S -
+zer-gehen                                                                       N S -
+zer-lassen                                                                      N H -
+zer-lesen                                                                       N H -
+zer-rinnen                                                                      N S -
+zu-kneifen                                                                      T H -

@@ -1,0 +1,89 @@
+object fHelp: TfHelp
+  Left = 207
+  Height = 635
+  Top = 225
+  Width = 1028
+  BorderIcons = [biSystemMenu]
+  Caption = 'Music-Files List'
+  ClientHeight = 635
+  ClientWidth = 1028
+  DesignTimePPI = 120
+  Font.Height = -18
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 11
+    Height = 23
+    Top = 10
+    Width = 135
+    Caption = '"MusicList" help.'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 11
+    Height = 536
+    Top = 48
+    Width = 1006
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"MusicList" is a simple application to create a list of the MP3 files stored in the MS Windows "Music" library. The list may include all MP3 files, or only music album files (see further down in the text); the list may be a formatted text file, a CSV file or a HTML table; the MP3 files may be grouped and sorted in several ways.'
+      'To create the list, choose the input, sort and output options in the "Settings" menu, choose which "Music" libraries you want to search (private, public, custom if you added supplementary folders to "Music"), then push the "Search files" button. The names of all MP3 files in the library (or libraries) specified are listed; note, that this list is always ordered by filename. To do the application generate the list, push "Create list".'
+      'Please, note, that this application only works if your MP3 files'' tags (artist, album, genre, year, track number, title) are correctly filled in (year and track numbers may be empty)!'
+      ''
+      'Menu File.'
+      '=========='
+      ''
+      'Exit.'
+      '-----'
+      'Exit the application.'
+      ''
+      'Menu Settings.'
+      '=============='
+      ''
+      'List contents.'
+      '--------------'
+      'The options in this menu item are rather specific to be used with my own "Music" library contents. In fact, all my MP3 correspond to music albums, mostly one big file per album, sometimes the individual tracks, stored in a subfolder containing all tracks of a given album. So, my list should normally be a music album list, and not a list of all individual files. This kind of list may be created (under specific conditions; see below) choosing "List contents = Albums only". In the case, where you want to have a list entry for each of your MP3 files (what will be, for example, the case, if most of your MP3 are individual songs), select "List contents = All files".'
+      'All other items in this menu apply exclusively to the albums list. In such a list, only albums should be listed, thus, there must be a possibility for the application to decide if a file is an album or not. To be able to use the albums list feature, your album files must contain the word "Album" (or "album") either in the Title MP3 tag (selection = Albums identified by track title) or in the MP3 filename (selection = Albums identified by file name). In my case, the MP3 being whole album files have set their Album tag to the actual album name and the Title tag to this name, followed by "[Album]". This works fine to exclude individual songs from the list, but albums with individual track files wouldn''t be listed either. To be able to include such albums in the list, the track files have to be stored in a subfolder, that has a name ending with the name of the album (identical to the MP3 tag Album). If your album tracks are organized this way, you can check the "Search for album folders" option, and the individual-tracks albums will correctly be listed together with the one-file albums.'
+      ''
+      'List format.'
+      '------------'
+      'The options in this menu item allow to select the output format.'
+      'HTML will create a HTML document (in the form of a table), that you can view in your web browser.'
+      'TXT will create a formatted text file, i.e. a text file that is organized in columns, producing an easily readable list, with all information (artist, album, etc) starting at the same line position.'
+      'CSV will create a standard CSV file (that may be useful as input for other applications); all data will be delimited by double quotes, the separator used being the comma.'
+      ''
+      'List sort order.'
+      '----------------'
+      'The options in this menu item are of two kinds: Grouping and sorting.'
+      'Grouping the list entries is similar to creating sub-lists. All MP3 for a given genre (option 1) or music artist (option 2) are placed together with, in text and HTML format, a header, indicating the value of the group. If option 3 (No file grouping) is checked, there are no sub-lists; all MP3 are displayed the one below the others, ordered accordingly to the sort options selected.'
+      'Sorting is done within the sub-lists, if they exist, otherwise is applied to all MP3. Several sort criteria are available: sort by artist, then by album name; sort by artist, then by album release year; sort by album name; sort by album year; sort by song title (this option is disabled if an album, and not an all files list is created). Also note that sort options 3 and 4 make no sense if the MP3 are grouped by artist name; if you check one of them in that case, options 1 resp. 2 are automatically used instead.'
+      ''
+      'Menu Help.'
+      '=========='
+      ''
+      'Help.'
+      '-----'
+      'Display of the "MusicList" usage help text (this document).'
+      ''
+      'About.'
+      '------'
+      'Display of the "MusicList" author, version and date-written.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 923
+    Height = 31
+    Top = 600
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

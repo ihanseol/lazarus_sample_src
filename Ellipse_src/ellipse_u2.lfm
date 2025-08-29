@@ -1,0 +1,224 @@
+object fGraph: TfGraph
+  Left = 13
+  Height = 625
+  Top = 125
+  Width = 1473
+  BorderIcons = [biSystemMenu]
+  Caption = 'Ellipses'
+  ClientHeight = 625
+  ClientWidth = 1473
+  DesignTimePPI = 120
+  Font.Height = -18
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object stTitle: TStaticText
+    Left = 79
+    Height = 30
+    Top = 10
+    Width = 868
+    Alignment = taCenter
+    Caption = 'Tangent and Normal to an Ellipse.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object imDraw: TImage
+    Left = 13
+    Height = 500
+    Top = 64
+    Width = 1000
+  end
+  object Label11: TLabel
+    Left = 1032
+    Height = 25
+    Top = 68
+    Width = 184
+    Caption = 'Horizontal semi-axis (a)'
+  end
+  object edEllipseA: TEdit
+    Left = 1224
+    Height = 33
+    Top = 64
+    Width = 55
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object Label10: TLabel
+    Left = 1032
+    Height = 23
+    Top = 17
+    Width = 152
+    Caption = 'Ellipse parameters:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label12: TLabel
+    Left = 1032
+    Height = 25
+    Top = 108
+    Width = 158
+    Caption = 'Vertical semi-axis (a)'
+  end
+  object edEllipseB: TEdit
+    Left = 1224
+    Height = 33
+    Top = 104
+    Width = 55
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object btClose: TButton
+    Left = 1345
+    Height = 31
+    Top = 584
+    Width = 120
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 13
+    Height = 25
+    Top = 588
+    Width = 172
+    Caption = 'Scale (1 grid division):'
+  end
+  object edScale: TEdit
+    Left = 192
+    Height = 33
+    Top = 584
+    Width = 64
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+    Text = '1'
+  end
+  object tbScale: TTrackBar
+    Left = 280
+    Height = 31
+    Top = 584
+    Width = 400
+    Max = 24
+    OnChange = tbScaleChange
+    PageSize = 1
+    Position = 12
+    TabStop = False
+    TabOrder = 6
+  end
+  object btRedraw: TButton
+    Left = 1345
+    Height = 31
+    Top = 533
+    Width = 120
+    Caption = 'Redraw'
+    OnClick = btRedrawClick
+    TabOrder = 1
+  end
+  object Label13: TLabel
+    Left = 1032
+    Height = 23
+    Top = 168
+    Width = 94
+    Caption = 'Calculation:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edCalc: TEdit
+    Left = 1032
+    Height = 33
+    Top = 200
+    Width = 433
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object laFormula: TLabel
+    Left = 1032
+    Height = 25
+    Top = 252
+    Width = 129
+    Caption = 'Tangent formula'
+  end
+  object edFormula: TEdit
+    Left = 1191
+    Height = 33
+    Top = 248
+    Width = 274
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object laEquation: TLabel
+    Left = 1032
+    Height = 25
+    Top = 292
+    Width = 137
+    Caption = 'Tangent equation'
+  end
+  object edEquation: TEdit
+    Left = 1191
+    Height = 33
+    Top = 288
+    Width = 274
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object laEquation2: TLabel
+    Left = 1032
+    Height = 25
+    Top = 372
+    Width = 152
+    Caption = 'Tangent 2 equation'
+  end
+  object edEquation2: TEdit
+    Left = 1191
+    Height = 33
+    Top = 368
+    Width = 274
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object laIntersect1: TLabel
+    Left = 1032
+    Height = 25
+    Top = 332
+    Width = 154
+    Caption = 'Intersection point 1'
+  end
+  object edIntersect1: TEdit
+    Left = 1191
+    Height = 33
+    Top = 328
+    Width = 274
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object laIntersect2: TLabel
+    Left = 1032
+    Height = 25
+    Top = 412
+    Width = 154
+    Caption = 'Intersection point 2'
+  end
+  object edIntersect2: TEdit
+    Left = 1191
+    Height = 33
+    Top = 408
+    Width = 274
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+end

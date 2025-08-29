@@ -1,0 +1,764 @@
+object fAmplifiers: TfAmplifiers
+  Left = 23
+  Height = 443
+  Top = 34
+  Width = 1377
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Transistor amplifiers'
+  ClientHeight = 418
+  ClientWidth = 1377
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object imCircuit: TImage
+    Left = 10
+    Height = 400
+    Top = 10
+    Width = 400
+    Center = True
+  end
+  object Label1: TLabel
+    Left = 464
+    Height = 17
+    Top = 108
+    Width = 63
+    Caption = 'Voltage VS'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edVS: TEdit
+    Left = 570
+    Height = 25
+    Hint = 'Source voltage'
+    Top = 104
+    Width = 56
+    Alignment = taRightJustify
+    Color = clSkyBlue
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ReadOnly = True
+    ShowHint = True
+    TabStop = False
+    TabOrder = 0
+  end
+  object laAV: TLabel
+    Left = 1164
+    Height = 17
+    Top = 156
+    Width = 64
+    Caption = 'AC gain AV'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edAV: TEdit
+    Left = 1282
+    Height = 25
+    Hint = 'AC voltage gain'
+    Top = 152
+    Width = 56
+    Alignment = taRightJustify
+    Color = clMenuHighlight
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ReadOnly = True
+    ShowHint = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object laRGiv: TLabel
+    Left = 708
+    Height = 17
+    Top = 108
+    Width = 81
+    Caption = 'Resistance RC'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edRGiv: TEdit
+    Left = 804
+    Height = 25
+    Hint = 'Collector resistance'
+    Top = 104
+    Width = 56
+    Alignment = taRightJustify
+    Color = clSkyBlue
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ReadOnly = True
+    ShowHint = True
+    TabStop = False
+    TabOrder = 1
+  end
+  object Label6: TLabel
+    Left = 464
+    Height = 17
+    Top = 204
+    Width = 63
+    Caption = 'Voltage VB'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edVB: TEdit
+    Left = 570
+    Height = 25
+    Hint = 'Base voltage'
+    Top = 200
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object Label8: TLabel
+    Left = 464
+    Height = 17
+    Top = 252
+    Width = 57
+    Caption = 'Current IB'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edIB: TEdit
+    Left = 570
+    Height = 25
+    Hint = 'Base current'
+    Top = 248
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object Label5: TLabel
+    Left = 464
+    Height = 17
+    Top = 156
+    Width = 97
+    Caption = 'Transistor gain β'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edBeta: TEdit
+    Left = 570
+    Height = 25
+    Hint = 'Transistor current gain'
+    Top = 152
+    Width = 56
+    Alignment = taRightJustify
+    Color = clSkyBlue
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ReadOnly = True
+    ShowHint = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object laVE: TLabel
+    Left = 708
+    Height = 17
+    Top = 204
+    Width = 63
+    Caption = 'Voltage VE'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edVE: TEdit
+    Left = 804
+    Height = 25
+    Hint = 'Emitter voltage'
+    Top = 200
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object laICalc: TLabel
+    Left = 708
+    Height = 17
+    Top = 252
+    Width = 58
+    Caption = 'Current IC'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edICalc: TEdit
+    Left = 804
+    Height = 25
+    Hint = 'Collector current'
+    Top = 248
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object laICalc2: TLabel
+    Left = 936
+    Height = 17
+    Top = 252
+    Width = 57
+    Caption = 'Current I2'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edICalc2: TEdit
+    Left = 1032
+    Height = 25
+    Hint = 'Resistor R2 current'
+    Top = 248
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object Label12: TLabel
+    Left = 464
+    Height = 17
+    Top = 300
+    Width = 80
+    Caption = 'Resistance R1'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edR1: TEdit
+    Left = 570
+    Height = 25
+    Hint = 'Biasing resistance R1'
+    Top = 296
+    Width = 56
+    Alignment = taRightJustify
+    Color = clFuchsia
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object Label13: TLabel
+    Left = 708
+    Height = 17
+    Top = 300
+    Width = 80
+    Caption = 'Resistance R2'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edR2: TEdit
+    Left = 804
+    Height = 25
+    Hint = 'Biasing resistance R2'
+    Top = 296
+    Width = 56
+    Alignment = taRightJustify
+    Color = clFuchsia
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabStop = False
+    TabOrder = 15
+  end
+  object laRE: TLabel
+    Left = 936
+    Height = 17
+    Top = 300
+    Width = 80
+    Caption = 'Resistance RE'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edRE: TEdit
+    Left = 1032
+    Height = 25
+    Hint = 'Emitter resistance'
+    Top = 296
+    Width = 56
+    Alignment = taRightJustify
+    Color = clFuchsia
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabStop = False
+    TabOrder = 16
+  end
+  object stTitle: TStaticText
+    Left = 464
+    Height = 32
+    Top = 43
+    Width = 645
+    Caption = 'Transistor circuits.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 19
+  end
+  object btCheck: TButton
+    Left = 1282
+    Height = 31
+    Top = 379
+    Width = 80
+    Caption = 'Check'
+    OnClick = btCheckClick
+    TabOrder = 18
+    Visible = False
+  end
+  object edEvaluation: TEdit
+    Left = 464
+    Height = 25
+    Top = 352
+    Width = 396
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 20
+    Visible = False
+  end
+  object laDC: TLabel
+    Left = 936
+    Height = 17
+    Top = 156
+    Width = 79
+    Caption = 'DC output VC'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edDC: TEdit
+    Left = 1032
+    Height = 25
+    Hint = 'DC output voltage (bias point)'
+    Top = 152
+    Width = 56
+    Alignment = taRightJustify
+    Color = clMenuHighlight
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ReadOnly = True
+    ShowHint = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object laF: TLabel
+    Left = 1164
+    Height = 17
+    Top = 300
+    Width = 109
+    Caption = 'Lowest frequency f'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edF: TEdit
+    Left = 1282
+    Height = 25
+    Hint = 'Lowest operating frequency'
+    Top = 296
+    Width = 56
+    Alignment = taRightJustify
+    Color = clFuchsia
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabStop = False
+    TabOrder = 17
+  end
+  object laXCE: TLabel
+    Left = 1164
+    Height = 17
+    Top = 252
+    Width = 86
+    Caption = 'Reactance XCE'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edXCE: TEdit
+    Left = 1282
+    Height = 25
+    Hint = 'Capacitor reactance'
+    Top = 248
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object Label15: TLabel
+    Left = 637
+    Height = 17
+    Top = 108
+    Width = 8
+    Caption = 'V'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object laUDC: TLabel
+    Left = 1100
+    Height = 17
+    Top = 156
+    Width = 8
+    Caption = 'V'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object laURgiv: TLabel
+    Left = 872
+    Height = 17
+    Top = 108
+    Width = 16
+    Caption = 'kΩ'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label19: TLabel
+    Left = 637
+    Height = 17
+    Top = 300
+    Width = 16
+    Caption = 'kΩ'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label20: TLabel
+    Left = 872
+    Height = 17
+    Top = 300
+    Width = 16
+    Caption = 'kΩ'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object laURE: TLabel
+    Left = 1100
+    Height = 17
+    Top = 300
+    Width = 16
+    Caption = 'kΩ'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object laUXCE: TLabel
+    Left = 1348
+    Height = 17
+    Top = 252
+    Width = 16
+    Caption = 'kΩ'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label23: TLabel
+    Left = 637
+    Height = 17
+    Top = 204
+    Width = 8
+    Caption = 'V'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label24: TLabel
+    Left = 872
+    Height = 17
+    Top = 204
+    Width = 8
+    Caption = 'V'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object laUIB: TLabel
+    Left = 637
+    Height = 17
+    Top = 252
+    Width = 16
+    Caption = 'µA'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label26: TLabel
+    Left = 872
+    Height = 17
+    Top = 252
+    Width = 19
+    Caption = 'mA'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object laUIcalc2: TLabel
+    Left = 1100
+    Height = 17
+    Top = 252
+    Width = 19
+    Caption = 'mA'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object laUF: TLabel
+    Left = 1348
+    Height = 17
+    Top = 300
+    Width = 15
+    Caption = 'Hz'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object laCE: TLabel
+    Left = 1164
+    Height = 17
+    Top = 108
+    Width = 89
+    Caption = 'Capacitance CE'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCE: TEdit
+    Left = 1282
+    Height = 25
+    Hint = 'Emitter bypass capacitance'
+    Top = 104
+    Width = 56
+    Alignment = taRightJustify
+    Color = clSkyBlue
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ReadOnly = True
+    ShowHint = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object laUCE: TLabel
+    Left = 1348
+    Height = 17
+    Top = 108
+    Width = 14
+    Caption = 'µF'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object laRIn: TLabel
+    Left = 708
+    Height = 17
+    Top = 156
+    Width = 83
+    Caption = 'Resistance Rin'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edRin: TEdit
+    Left = 804
+    Height = 25
+    Hint = 'Transistor internal resistance'
+    Top = 152
+    Width = 56
+    Alignment = taRightJustify
+    Color = clSkyBlue
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ReadOnly = True
+    ShowHint = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object laURIn: TLabel
+    Left = 872
+    Height = 17
+    Top = 156
+    Width = 16
+    Caption = 'kΩ'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object laRGiv2: TLabel
+    Left = 936
+    Height = 17
+    Top = 108
+    Width = 80
+    Caption = 'Resistance RE'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edRGiv2: TEdit
+    Left = 1032
+    Height = 25
+    Hint = 'Emitter resistance'
+    Top = 104
+    Width = 56
+    Alignment = taRightJustify
+    Color = clSkyBlue
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ReadOnly = True
+    ShowHint = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object laURGiv2: TLabel
+    Left = 1100
+    Height = 17
+    Top = 108
+    Width = 16
+    Caption = 'kΩ'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object btShow: TButton
+    Left = 1164
+    Height = 31
+    Top = 379
+    Width = 80
+    Caption = 'Show'
+    OnClick = btShowClick
+    TabOrder = 21
+    TabStop = False
+    Visible = False
+  end
+  object mMenu: TMainMenu
+    left = 24
+    top = 24
+    object mCircuit: TMenuItem
+      Caption = 'Circuit'
+      object mNewExercise: TMenuItem
+        Caption = 'New exercise'
+        OnClick = mNewExerciseClick
+      end
+      object mNewCalculation: TMenuItem
+        Caption = 'New circuit biasing'
+        OnClick = mNewCalculationClick
+      end
+      object mNewCalculation2: TMenuItem
+        Caption = 'New circuit analysis'
+        OnClick = mNewCalculation2Click
+      end
+      object mExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsCircuits: TMenuItem
+        Caption = 'Circuits for exercises'
+        object mSettingsCircuits1: TMenuItem
+          Caption = 'Simple amplifier biasing'
+          Checked = True
+          OnClick = mSettingsCircuits1Click
+        end
+        object mSettingsCircuits2: TMenuItem
+          Caption = 'Emitter follower biasing'
+          Checked = True
+          OnClick = mSettingsCircuits2Click
+        end
+        object mSettingsCircuits3: TMenuItem
+          Caption = 'Amplifier circuit analyse'
+          Checked = True
+          OnClick = mSettingsCircuits3Click
+        end
+      end
+      object mSettingsResistance: TMenuItem
+        Caption = 'Use standard resistor values'
+        Checked = True
+        OnClick = mSettingsResistanceClick
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object mSettingsDigits2: TMenuItem
+        Caption = 'Results with 2 decimal digits'
+        OnClick = mSettingsDigits2Click
+      end
+      object mSettingsMABC: TMenuItem
+        Caption = 'Base current in µA'
+        Checked = True
+        OnClick = mSettingsMABCClick
+      end
+      object mSettingsIntBC: TMenuItem
+        Caption = 'Base current as integer'
+        Checked = True
+        OnClick = mSettingsIntBCClick
+      end
+      object mSettingsIntF: TMenuItem
+        Caption = 'Frequency as integer'
+        Checked = True
+        OnClick = mSettingsIntFClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpResistors: TMenuItem
+        Caption = 'Standard resistors'
+        OnClick = mHelpResistorsClick
+      end
+      object mHelpContent: TMenuItem
+        Caption = 'Application help'
+        OnClick = mHelpContentClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

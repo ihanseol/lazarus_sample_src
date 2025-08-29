@@ -1,0 +1,45 @@
+object fData: TfData
+  Left = 324
+  Height = 107
+  Top = 369
+  Width = 249
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Priorités'
+  ClientHeight = 107
+  ClientWidth = 249
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object Label1: TLabel
+    Left = 16
+    Height = 23
+    Top = 21
+    Width = 165
+    Caption = 'Nombre de questions'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edNQuestions: TEdit
+    Left = 192
+    Height = 31
+    Top = 19
+    Width = 40
+    Alignment = taRightJustify
+    Font.Height = -17
+    MaxLength = 3
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 0
+    Text = '20'
+  end
+  object btOK: TButton
+    Left = 138
+    Height = 31
+    Top = 64
+    Width = 94
+    Caption = 'OK'
+    OnClick = btOKClick
+    TabOrder = 1
+  end
+end

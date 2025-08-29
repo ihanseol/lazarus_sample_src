@@ -1,0 +1,32 @@
+* Atoms
+N         nitr_ogen      -3
+O         oxy_gen        -2
+F         fluor_ine      -1
+Cl        chlor_ine      -1
+S         sulf_ur        -2
+Br        brom_ine       -1
+I         iod_ine        -1
+Se        selen_ium      -2
+Te        tellur_ium     -2
+* Ions
+CN        cyanide        -1
+OH        hydroxide      -1
+O2        peroxide       -2
+CO3       carbonate      -2   1
+ClO3      chlorate       -1
+ClO2      chlorite       -1
+ClO4      perchlorate    -1
+ClO       hypochlorite   -1
+CrO4      chromate       -2
+Cr2O7     dichromate     -2
+MnO4      permanganate   -1
+NO3       nitrate        -1
+NO2       nitrite        -1
+PO4       phosphate      -3   2
+P2O7      diphosphate    -4
+P3O10     triphosphate   -5
+P2O6      hypophosphate  -4
+HPO3      phosphonate    -2
+SO4       sulfate        -2   1
+SO3       sulfite        -2   1
+S2O3      thiosulfate    -2

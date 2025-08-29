@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="SearchMP3.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="132"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mp3serach.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fSearchMP3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="132"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="mp3files.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fFilesMP3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="82"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="mp3file.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <CursorPos Y="40"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="Mp3FileUtils.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3250"/>
+        <CursorPos X="20" Y="3263"/>
+        <UsageCount Value="8"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="ID3v2.pas"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\Programs\lazarus\components\lazutils\lazutf8classes.pas"/>
+        <UnitName Value="LazUTF8Classes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="138"/>
+        <CursorPos Y="151"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\Programs\lazarus\components\lazutils\textstrings.pas"/>
+        <UnitName Value="TextStrings"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="220"/>
+        <CursorPos Y="233"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="949" Column="16" TopLine="938"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mp3serach.pas"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mp3files.pas"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="555" Column="27" TopLine="530"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="542" Column="128" TopLine="531"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="540" Column="6" TopLine="531"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mp3serach.pas"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="47" Column="91" TopLine="26"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="77" Column="26" TopLine="56"/>
+      </Position9>
+      <Position10>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="1129" Column="3" TopLine="1126"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mp3serach.pas"/>
+      </Position11>
+      <Position12>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="1328" Column="77" TopLine="1309"/>
+      </Position12>
+      <Position13>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="1129" Column="3" TopLine="1126"/>
+      </Position13>
+      <Position14>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="1211" Column="3" TopLine="1208"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="1325" Column="3" TopLine="1322"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="1346" Column="76" TopLine="1331"/>
+      </Position16>
+      <Position17>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="1349" Column="33" TopLine="1331"/>
+      </Position17>
+      <Position18>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="1136" Column="3" TopLine="1133"/>
+      </Position18>
+      <Position19>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="1221" Column="3" TopLine="1218"/>
+      </Position19>
+      <Position20>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="1343" Column="3" TopLine="1333"/>
+      </Position20>
+      <Position21>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="1336" Column="40" TopLine="1333"/>
+      </Position21>
+      <Position22>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="57" Column="17" TopLine="53"/>
+      </Position22>
+      <Position23>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="1358" TopLine="1332"/>
+      </Position23>
+      <Position24>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="585" TopLine="562"/>
+      </Position24>
+      <Position25>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="1385" TopLine="1359"/>
+      </Position25>
+      <Position26>
+        <Filename Value="SearchMP3.lpr"/>
+        <Caret Line="7" Column="77"/>
+      </Position26>
+      <Position27>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="22" Column="13" TopLine="14"/>
+      </Position27>
+      <Position28>
+        <Filename Value="mp3serach.pas"/>
+      </Position28>
+      <Position29>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="768" Column="37" TopLine="752"/>
+      </Position29>
+      <Position30>
+        <Filename Value="mp3serach.pas"/>
+        <Caret Line="18" Column="80"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

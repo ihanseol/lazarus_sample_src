@@ -1,0 +1,95 @@
+object fList: TfList
+  Left = 340
+  Height = 539
+  Top = 143
+  Width = 600
+  BorderIcons = [biSystemMenu]
+  Caption = 'Acids and bases list.'
+  ClientHeight = 539
+  ClientWidth = 600
+  DesignTimePPI = 120
+  Font.Height = -17
+  LCLVersion = '1.8.4.0'
+  object Label1: TLabel
+    Left = 10
+    Height = 23
+    Top = 15
+    Width = 48
+    Caption = 'Acids:'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object sgAcids: TStringGrid
+    Left = 10
+    Height = 480
+    Top = 50
+    Width = 281
+    ColCount = 2
+    FixedCols = 0
+    RowCount = 33
+    TabOrder = 2
+    TabStop = False
+    TitleFont.Height = -17
+    ColWidths = (
+      178
+      78
+    )
+    Cells = (
+      2
+      0
+      0
+      'Acid name'
+      1
+      0
+      'Formula'
+    )
+  end
+  object Label2: TLabel
+    Left = 328
+    Height = 23
+    Top = 15
+    Width = 48
+    Caption = 'Bases:'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object sgBases: TStringGrid
+    Left = 328
+    Height = 273
+    Top = 50
+    Width = 262
+    ColCount = 2
+    FixedCols = 0
+    RowCount = 9
+    ScrollBars = ssNone
+    TabOrder = 0
+    TabStop = False
+    TitleFont.Height = -17
+    ColWidths = (
+      183
+      78
+    )
+    Cells = (
+      2
+      0
+      0
+      'Base name'
+      1
+      0
+      'Formula'
+    )
+  end
+  object btClose: TButton
+    Left = 496
+    Height = 31
+    Top = 499
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+end

@@ -1,0 +1,104 @@
+object HelpForm: THelpForm
+  Left = 448
+  Height = 560
+  Top = 149
+  Width = 1017
+  HorzScrollBar.Page = 1336
+  HorzScrollBar.Range = 1336
+  VertScrollBar.Page = 520
+  VertScrollBar.Range = 520
+  Caption = 'WGuess Help'
+  ClientHeight = 560
+  ClientWidth = 1017
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object HelpText: TMemo
+    Left = 10
+    Height = 486
+    Top = 10
+    Width = 998
+    Font.Height = -12
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '==========================='
+      '= WGuess - Guess the Word ='
+      '==========================='
+      ''
+      'The application chooses a word from those provided in the words data files and displays it as a sequence of hyphens, each hyphen corresponding to one letter of the word. The game consists in guessing this word (in as few attempts as possible). To guess the word, the user has 2 possibilities:'
+      '  - entering a single letter (by hitting the letter-key on the keyboard):'
+      '    if this letter is part of the word, it is displayed at the corresponding positions (replacing the hyphens).'
+      '  - entering the whole word (by pressing the "Solve" button):'
+      '    possibility to enter the whole word in the word text field, then pressing the "Check" button to check if the answer is correct.'
+      ''
+      'Choose "New" from the "Game" menu to start a new game. To make the application choose the first word, press the "Start" button. Use the "Next" button for subsequent words (note that you must have guessed the actual word before continuing the game).'
+      ''
+      'Which of the words provided in the data files are chosen, is determined by the major game options:'
+      '  - Language:    English, French, German or Luxembourgish words'
+      '  - Word class:  Nouns, verbs and/or adjectives'
+      '  - Word length: Word length between minimum and maximum specified;'
+      '                 0 means "any value", thus setting the maximum to 0 means "words with more than ''minimum'' letters".'
+      ''
+      'The WGuess menu items.'
+      '======================'
+      ''
+      'Game > New'
+      '----------'
+      '  Start a new game (enabling user access to the major game options).'
+      ''
+      'Game > Reset'
+      '------------'
+      '  Same as Game > New, but with resetting the major game options (as well as the common game settings) to their default values.'
+      ''
+      'Game >Exit'
+      '----------'
+      '  Exit the application.'
+      ''
+      'Settings'
+      '--------'
+      '  Common game settings: Toggle options that may be changed during the game.'
+      '  Please, note that the new settings may have effect only after you pressed the "Next" button!'
+      ''
+      'Settings > Show letters used'
+      '----------------------------'
+      '  Show all letters entered so far (instead of having to memorize them).'
+      ''
+      'Settings > Show first letter'
+      '----------------------------'
+      '  Little hint to find the word by displaying it''s first letter.'
+      '  Note that if this letter appears at other positions in the word, it''s NOT displayed there.'
+      ''
+      'Settings > Accents/umlauts'
+      '--------------------------'
+      '  Tell the application, how it should deal with words having accents and umlauts: Toggle function with 3 options:  '
+      '    - Enable:    Accents/umlauts are enabled = such words are allowed to be chosen by the application'
+      '    - Disable:   Accents/umlauts are disabled = such words are ignored (not displayed for guess) by the application'
+      '    - Transform: Accents/umlauts are enabled, but are transformed ("English characters only represention").'
+      '                 This means: accents are ignored (e.g. é -> e) and umlauts are represented by 2 letters (e.g. ä -> ae).'
+      ''
+      'Help > Help'
+      '-----------'
+      '  This help text...'
+      ''
+      'Help > About'
+      '------------'
+      '  Application version, date written and author information.'
+      ''
+      '--------------------'
+      '© allu, August 2017.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    TabStop = False
+  end
+  object ButtonClose: TButton
+    Left = 933
+    Height = 25
+    Top = 520
+    Width = 75
+    Caption = 'Close'
+    OnClick = ButtonCloseClick
+    TabOrder = 1
+  end
+end

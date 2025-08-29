@@ -1,0 +1,48 @@
+object fHelp: TfHelp
+  Left = 33
+  Height = 721
+  Top = 26
+  Width = 1298
+  BorderIcons = []
+  Caption = 'Conjugaison des verbes en -er'
+  ClientHeight = 721
+  ClientWidth = 1298
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object memoHelp: TMemo
+    Left = 14
+    Height = 584
+    Top = 72
+    Width = 1270
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      ''
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    TabStop = False
+  end
+  object stTitle: TStaticText
+    Left = 16
+    Height = 32
+    Top = 24
+    Width = 416
+    Caption = 'Grammaire française: Conjugaison.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btClose: TButton
+    Left = 1190
+    Height = 31
+    Top = 680
+    Width = 94
+    Caption = 'Fermer'
+    OnClick = btCloseClick
+    TabOrder = 2
+  end
+end

@@ -1,0 +1,25 @@
+Latin1 - Aide programme.
+========================
+
+Latin1 génère des exercices de déclinaison des substantifs et adjectifs latins. Le nombre de questions peut être choisi dans le menu "Options" (20 au lancement du programme), le nombre de bonnes et mauvaises réponses et le pourcentage de réussite est mis à jour après chaque réponse donnée par l'utilisateur.
+
+3 types d'exercices sont possibles:
+
+  - Déclinaison des substantifs (avec choix d'une ou de plusieurs des 5 déclinaisons en latin).
+  - Déclinaison des adjectifs (avec choix d'une ou des deux classes d'adjectifs).
+  - Déclinaison des substantifs avec adjectif (avec les type de déclinaison sélectionnés sous le point 1).
+    Dans ce cas il faut tenir compte du genre du substantif pour correctement faire l'accord de l'adjectif.
+	
+Pour chacune de ces possibilités, on peut choisir d'afficher la question en la latin ou en français (menu "Options"); dans ce dernier cas, il y a en plus de la déclinaison aussi la traduction à faire.
+
+Pour faire les exercices, appuyer sur "Question", entrez votre réponse et cliquez sur "Réponse". Le programme contrôle si ce que vous avez entré est correct et met à jour le compteur des exact et des faux. Pour démarrer un nouvel exercice, choisissez "Nouveau" dans le menu "Exercices". Notez, s'il-vous-plaît, qu'il faut choisir "Nouveau" pour que les changements de type d'exercice (substantif/adjectif/substantif avec adjectif, déclinaison/classe) prennent effet.
+
+Si la question est affichée en latin, c'est le nominatif singulier qui est donné pour les substantifs et le nominatif singulier masculin pour les adjectifs; ceci reste vrai dans le cas des substantifs avec adjectif (donc si l'affichage est p.ex. "filia pulcher", ce n'est pas une erreur de ma part, mais voulu sous cette forme). Comme dans le cas du nominatif singulier (masculin), la réponse est identique à la question, le menu "Options" donne la possibilité de choisir d'exclure de telles questions.
+
+Dans le menu "Options" aussi la possibilité de choisir si dans les cas de la déclinaison des adjectis seuls, ceux-ci se rapportent à une personne ou à une chose. Ceci joue un rôle dans le cas des adjectifs, qui se déclinent selon le modèle "prudens". En effet, l'ablatif singulier masculain et féminin se termine en -e dans le cas d'une personne, en -i dans le cas d'une chose.
+
+Pour avoir de l'aide avec les déclinaisons, choisissez "Aide grammaire latine" dans le menu "Aide"; le menu "Déclinaisons" permet d'affichage de la déclinaison avec tous les cas (et les 3 genres pour les adjectifs) des différents substantifs/adjectifs modèle. Ne sont pas repris ici les exceptions telles "deabus" au datif/ablatif pluriel.
+
+Merci de me signaler (info@streetinfo.lu) d'éventuels erreurs de grammaire, fautes de frappe ou paires substantif-adjectif mal choisies ou invalides.
+
+Bonnes études!

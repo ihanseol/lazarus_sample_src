@@ -1,0 +1,300 @@
+11A  一    一    yī        one
+11A  二    二    èr        two,second
+11A  三    三    sān       three
+11A  七    七    qī        seven
+11A  八    八    bā        eight
+11A  十    十    shí       ten
+11N  人    人    rén       person, people
+11N  中    中    zhōng     center, middle, interior
+11N  山    山    shān      pike, mountain, chimney, hill
+11V  上    上    shàng     to go up, to mount, to get on, to go to, to leave for, to go ahead, to enter
+11V  出    出    chū       to produce, to turn out, to arise, to happen
+11V  可    可    kě        can, may
+11A  小    小    xiǎo      small, little, petty, minor, young
+11A  大    大    dà        great, old, vast, tall, big, high
+11A  同    同    tóng      simialr, same
+11a  全    全    quán      all, whole
+11-  又    又    yòu       and, in addition, but, on the other hand, again, moreover
+11-  不    不    bù        not, do not, no, nowise, no more
+11-  下    下    xià       below, under, underneath
+11-  了    了    le        entirely
+22A  五    五    wǔ        five
+22A  六    六    liù       six
+22N  手    手    shǒu      hand
+22N  區    区    !!        ward, district
+22N  句    句    jù        sentence
+22-  月    月    yuè       moon
+22V  比    比    bǐ        to compare, to emulate
+22-  太    太    tài       excessively, too, extremely, very
+22-  正    正    zhèng     precisely, punctually
+22-  已    已    yǐ        already
+22-  只    只    zhǐ       only, merely
+22-  尚    尚    shàng     still, yet, fairly, rather
+22-  早    早    zǎo       early, long ago, in advance, prematurely
+22-  才    才    cái       then and only then, just now, only
+22-  而    而    ér        and, and yet
+22-  由    由    yóu       from, via, by, through, owing, due to
+23-  共    共    gòng      totally, together, in company, altogether
+23-  四    四    sì        four
+23N  車    车    chē       vehicle
+23N  代    代    dài       period, generation
+23V  見    见    jiàn      to see, to be exposed to, to become visible, to call on, to refer to, to meet with, to appear
+23V  用    用    yòng      to use, to employ, to apply, to eat, to drink, to spend
+23-  半    半    bàn       half
+23-  之    之    zhī       it, him, her, this
+23-  本    本    běn       this
+23-  未    未    wèi       not yet, or not, not
+23-  因    因    yīn       because, as
+23-  向    向    xiàng     to, towards
+23-  自    自    zì        from, since
+23-  久    久    jiǔ       for a long time, of specified duration
+32-  並    并    bìng      simultaneously, actually, truly
+33N  心    心    xīn       heart, mind, feeling, center, core
+33N  年    年    nián      year
+33N  水    水    shuǐ      water, liquid, bubble, aquarium, river, drink
+33N  性    性    xìng      nature, character, sex, gender
+33N  女    女    nǔ        girl, female, woman, daughter, beaver, creature
+33N  件    件    jiàn      correspondence, paper, document, letter, piece
+33V  去    去    qù        to go, to go to
+33v  往    往    wǎng      to go toward
+33V  去    去    qù        to go, to leave
+33V  具    具    jù        to possess, to have, to provide, to furnish
+33V  怕    怕    pà        to be afraid of, to fear
+33V  言    言    yán       to say, to talk, to speak
+33V  令    令    lìng      to make, to cause
+33V  坐    坐    zuò       to sit, to take a seat
+33V  及    及    jí        to reach, to catch up
+33V  有    有    yǒu       to have, to possess
+33V  作    作    zuò       to do, to make, to rise, to write, to compose, to pretend, to affect
+33V  在    在    zài       to exist, to live, to be at, to be in, to be on, to depend on, to rest with
+33V  少    少    shǎo      to lack, to be deficient, to lose, to be missing
+33A  和    和    hé        gentle, peaceful
+33-  它    它    tā        they, this, that, it
+33-  非    非    fēi       not
+33-  内    内    nèi       inside
+34N  次    次    cì        order, sequence
+34N  字    字    zì        graphic symbol, writing, pronunciation, receipt, script, character, contract
+34N  位    位    wèi       location, digit, status, figure, position, place, condition
+34V  到    到    dào       to arrive, to reach, to go to
+34V  給    给    gěi       to give
+34V  住    住    zhù       to inhabit, to stay, to visit, to stop, to live, to reside
+34V  分    分    fēn       to separate, to distinguish, to differentiate, to discriminate
+34V  叫    叫    jiào      to be called
+34V  以    以    yǐ        using, taking
+34A  各    各    gè        each, every
+34A  多    多    duō       many, much, more, excessive, too much, much more, far more
+34A  另    另    lìng      another
+34-  此    此    cǐ        this, here
+34-  則    则    zé        then, in that case
+34-  仍    仍    réng      yet, anyway, still
+34-  即    即    jí        at present, in the immediate future, then, promptly, at once
+34-  在    在    zài       in, at, on
+34-  真    真    zhēn      really, truly, indeed, clearly
+34-  但    但    dàn       but, yet, still, nevertheless, only, merely
+34-  卻    却    què       however, but, yet, indeed
+34-  再    再    zài       again, once more, further, further more, and then
+34-  亦    亦    yì        also, too
+34-  和    和    hé        together with
+34-  如    如    rú        according to, in accordance with, such as, as if, like, for example
+34-  以    以    yǐ        in order to, so as to
+34-  先    先    xiān      earlier, in advance, before
+42N  廳    厅    tīng      hall, office, living room
+42N  價    价    jià       price
+42N  個    个    ge        piece, item
+42v  開    开    kāi       to open, to reclaim, to start, to begin, to turn on, to divide into, to reveal
+42V  讓    让    ràng      to allow, to induce
+42V  歸    归    guī       to return, to revert, to go back to, to give back
+42V  無    无    wú        not to have, there is not
+42A  廣    广    guǎng     wide, broad
+42A  豐    丰    fēng      abundant, plentiful
+42A  萬    万    wàn       ten-thousand
+42a  幾    几    jǐ        a few, several, some
+42-  於    于    yū        in, at, to, from, out of, by
+42-  從    从    cóng      from, since, through
+43N  頭    头    tóu       head, hair style, end, chief, boss
+43N  雙    双    shuāng    pair
+43N  電    电    diàn      electricity
+43N  畫    画    huà       picture
+43N  國    国    guó       country, nation, state
+43N  聲    声    shēng     sound, voice, tone, noise
+43n  壓    压    yā        pressure, compression
+43n  風    风    fēng      wind, news
+43n  蟲    虫    chóng     insect, worm
+43N  氣    气    qì        air, gas, weather
+43n  馬    马    mǎ        horse
+43v  長    长    cháng     to be strong, to be good in, to be good at
+43v  會    会    huì       can, to be possible, to be able to, to be sure to
+44N  點    点    diǎn      dot, point, drop
+44v  知    知    zhī       to tell, to notify, to inform, to be expert in, to know, to be aware of, to be in charge of, to realize
+44V  聽    听    tīng      to listen, to hear, to obey
+44-  當    当    dāng      when, while
+44-  好    好    hǎo       very, quite, good to, easy to
+44-  至    至    zhì       to, until, till
+44-  較    较    jiào      rather, quite, relatively, more
+44V  找    找    zhǎo      to look for, to seek, to call on, to approach
+44-  約    约    yuē       about, around
+44V  來    来    lái       to come, to arrive
+44v  教    教    jiāo      to teach
+44V  等    等    děng      to wait
+44v  變    变    biàn      to change, to transform
+44-  皆    皆    jiē       all, everyone
+44v  拿    拿    ná        to take, to hold, to capture
+44N  邊    边    biān      border, boundary
+44-  曾    曾    zēng      once, ever, before
+44v  帶    带    dài       to look after, to raise
+44-  誰    谁    shéi      who, someone, anyone
+44N  書    书    shū       volume, document, book, script, letter
+44-  我    我    wǒ        I, me, ego, self
+44-  若    若    ruò       if, as if
+44-  這    这    zhè       now, this, it
+44-  他    他    tā        he, she, it, they
+44-  也    也    yě        also, too, as well, either, even
+44-  就    就    jiù       then, at once, right away
+44-  都    都    dōu       even, already
+44v  說    说    shuō      to speak, to talk, to explain
+44-  你    你    nǐ        you
+44V  要    要    yào       to want, to need, must, should
+44v  會    会    huì       to be able, can, will, to meet
+44A  對    对    duì       correct, true
+44-  與    与    yǔ        and, together with
+44V  能    能    néng      can, to be capable of
+44-  她    她    tā        she, her
+44-  那    那    nà        that
+44-  還    还    hái       still, yet, also, too, as well, besides
+44a  最    最    zuì       most, much
+44A  兩    两    liǎng     two, both, either, a few, some
+44V  為    为    wéi       to be, to become
+44-  或    或    huò       or, either or
+44A  好    好    hǎo       good
+44-  等    等    děng      and so on, etc
+44v  將    将    jiāng     to be about to
+44-  更    更    gèng      more, still, even more, further, furthermore
+44A  每    每    měi       every
+44-  其    其    qí        its, his, her, their, it, this, that
+44V  做    做    zuò       to make, to do
+44v  想    想    xiǎng     to think, to suppose, to consider, to want to, would like to
+44V  看    看    kàn       to see, to look at, to watch, to read, to look upon, to regard, to look after, to call on, to visit
+44A  新    新    xīn       new, fresh, up-to-date
+44-  裡    里    lǐ        inside
+44V  應    应    yīng      should, ought to
+44A  高    高    gāo       tall, high
+44A  對    对    duì       right, correct
+44N  家    家    jiā       family, household, home, house
+44N  地    地    dì        earth, land, fields, ground, place, position, background, distance
+44v  像    像    xiàng     to be like
+44v  請    请    qǐng      to request, to ask a favor, to engage, to hire
+44-  常    常    cháng     often, usually, frequently
+44-  沒    没    méi       not
+44N  話    话    huà       language, tongue, talk, speech, conversation, expression, story, tale, word
+44A  整    整    zhěng     exact
+44-  那    那    nà        then, in that case
+44v  聽    听    tīng      to hear, to obey, to listen, to let, to allow
+44N  錢    钱    qián      copper coin, cash, money, fund, sum
+44-  您    您    nín       you
+44n  條    条    tiáo      bar, item, short note, clause, stripe, article, slip
+44V  愛    爱    ài        to love, to like, to cherish, to be apt to
+44-  均    均    jūn       without exception, all
+44A  難    难    nán       unpleasant, hard, difficult
+44n  寫    写    xiě       description, pencil, drawing, painting, address, author, word
+44v  買    买    mǎi       to pick up, to invest, to hire, to buy, to purchase, to trade, to get
+44v  得    得    děi       should be, to need
+44-  依    依    yī        according to, judging by
+44-  給    给    gěi       for, for the benefit of, by
+44-  嗯    嗯    ēn        O.K., what, why, agreed!
+44v  過    过    guò       to pass, to cross, to transfer, to undergo, to go through, to celebrate, to observe
+44v  成    成    chéng     to become, to turn into
+44-  經    经    jīng      as a result of, through, after
+44-  連    连    lián      including
+44A  某    某    mǒu       some, certain
+44-  極    极    jí        extraordinary, unusual, special, very, extremely, highly
+44N  路    路    lù        road, path, way, journey, distance, means, sequence, logic, line, region, district, grade, class
+44A  快    快    kuài      fast, quick, ingenious, sharp, straightforward
+44V  學    学    xué       to study, to learn, to imitate
+44-  前    前    qián      former, preceding
+44V  沒    没    méi       not to have, there is not, to be without
+44A  老    老    lǎo       old, aged, outdated, dark
+44N  喝    喝    hē        drink
+44v  敢    敢    gǎn       to dare, to make bold, to have courage to, to be sure, to have confidence to, to be certain
+44N  院    院    yuàn      college, courtyard, hospital, clinic, university, institute, academy, faculty
+44V  談    谈    tán       to talk, to chat
+44-  就    就    jiù       with regard to, concerning
+44V  玩    玩    wán       to amuse oneself, to have fun, to enjoy, to appreciate, to play
+44v  受    受    shòu      to receive, to accept, to endure, to suffer, to be subjected to
+44n  頭    头    tóu       head, hair style, top, end, chief
+44-  除    除    chú       except
+44v  低    低    dī        to hang down, to lower
+44v  供    供    gōng      to supply, to feed
+44V  須    须    xū        must, to have to
+44V  要    要    yào       to want, to wish, to ask for
+44A  遠    远    yuǎn      far, distant
+44n  法    法    fǎ        law, method, way, mode, standard, model
+44v  要    要    yào       to demand, to request
+44v  達    达    dá        to lead, to extend, to express, to inform, to reach
+44v  站    站    zhàn      to stand
+44-  剛    刚    gāng      exactly, just now, barely, just
+44v  道    道    dào       to say, to speak, to talk, to think, to suppose
+44-  頗    颇    pǒ        very, quite, considerably, greatly
+44-  總    总    zǒng      always, anyway, after all, inevitably, sooner or later
+44A  深    深    shēn      profound, deep, dark
+44-  旁    旁    páng      side, by the side of, other
+44V  笑    笑    xiào      to smile, to laugh
+44-  故    故    gù        hence, so, therefore, as a result
+44A  強    强    qiáng     strong, powerful, vigorous, better
+44-  哪    哪    nǎ        which
+44n  樹    树    shù       wood, tree
+44N  茶    茶    chá       tea
+44-  有    有    yǒu       there is, there are
+44n  般    般    bān       way, kind, variety, sort
+44V  買    买    mǎi       to buy, to purchase
+44A  紅    红    hóng      red, popular
+44V  愛    爱    ài        to love, to like
+44N  時    时    shí       time, o'clock, hour, season, period
+44n  鳥    鸟    niǎo      bird
+44n  島    岛    dǎo       island
+44N  語    语    yǔ        dialect, language, speech
+44N  魚    鱼    yú        fish
+44n  園    园    yuán      garden
+44A  長    长    cháng     long
+44N  紙    纸    zhǐ       paper
+44A  假    假    jiǎ       false, artificial
+44n  德    德    dé        moral, virtue, ethics, kindness
+44v  拜    拜    bài       to worship, to pay respect, to pray to
+44A  黑    黑    hēi       black, dark, secret, illegal
+44N  冰    冰    bīng      ice
+44n  兔    兔    tù        rabbit
+44n  妒    妒    dù        jealousy
+44n  莓    莓    méi       strawberry
+44A  實    实    shí       real, true, honest
+44n  證    证    zhèng     certificate, proof
+44N  龍    龙    lóng      dragon
+44V  賣    卖    mài       to sell, to betray
+44N  藝    艺    yì        art, arts, skill
+44n  戰    战    zhàn      fight, war, conflict
+44n  鐵    铁    tiě       iron, metal, arms, weapons
+44N  團    团    tuán      group, regiment, society
+44V  轉    转    zhuǎn     to turn, to change direction, to transfer
+44A  惡    恶    è         bad, evil, vicious, ugly
+44n  腦    脑    nǎo       brain, mind
+44-  雜    杂    zá        miscellaneous, various
+44N  鷄    鸡    jī        chicken, fowl
+44N  樂    乐    yuè       fun, music
+44v  發    发    fā        to emit, to send out, to develop
+44n  勞    劳    láo       labor
+44n  劍    剑    jiàn      sword
+44v  燒    烧    shāo      to burn, to cook, to bake, to roast, to heat
+44v  譯    译    yì        to translate, to interpret
+44n  齒    齿    chǐ       tooth
+44n  驛    驿    yì        relay station
+44n  櫻    樱    yīng      cherry
+44N  藥    药    yào       medicine, drug
+44V  讀    读    dú        to read, to study
+44n  顏    颜    yán       face, color
+44n  體    体    tǐ        body, form, style, system, substance
+44n  寶    宝    bǎo       treasure, jewel
+44A  黃    黄    huáng     yellow
+44n  盜    盗    dào       thief, bandit, robber
+44n  麥    麦    mài       wheat
+44N  晝    昼    zhòu      noon, daytime
+44n  產    产    chǎn      product, resource
+44v  觸    触    chù       to touch, to make contact with
+44v  贊    赞    zàn       to support, to praise, to like

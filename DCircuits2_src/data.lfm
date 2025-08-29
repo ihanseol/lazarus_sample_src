@@ -1,0 +1,357 @@
+object fData: TfData
+  Left = 912
+  Height = 438
+  Top = 304
+  Width = 395
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Transistor switches'
+  ClientHeight = 438
+  ClientWidth = 395
+  DesignTimePPI = 120
+  OnActivate = FormActivate
+  LCLVersion = '1.8.2.0'
+  object StaticText1: TStaticText
+    Left = 16
+    Height = 25
+    Top = 16
+    Width = 232
+    Caption = 'Please, enter circuit data:'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 14
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 17
+    Top = 56
+    Width = 83
+    Caption = 'Circuit layout'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object rbTransistors1: TRadioButton
+    Left = 16
+    Height = 23
+    Top = 80
+    Width = 94
+    Caption = ' 1 transistor'
+    Checked = True
+    Font.Height = -13
+    OnChange = rbTransistors1Change
+    ParentFont = False
+    TabOrder = 8
+    TabStop = True
+  end
+  object rbTransistors2: TRadioButton
+    Left = 144
+    Height = 23
+    Top = 80
+    Width = 100
+    Caption = ' 2 transistors'
+    Font.Height = -13
+    OnChange = rbTransistors2Change
+    ParentFont = False
+    TabOrder = 9
+  end
+  object rbTransistors3: TRadioButton
+    Left = 280
+    Height = 23
+    Top = 80
+    Width = 100
+    Caption = ' 3 transistors'
+    Font.Height = -13
+    OnChange = rbTransistors3Change
+    ParentFont = False
+    TabOrder = 13
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 17
+    Top = 128
+    Width = 95
+    Caption = 'Battery voltage'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edVoltage: TEdit
+    Left = 16
+    Height = 25
+    Top = 156
+    Width = 48
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label3: TLabel
+    Left = 72
+    Height = 17
+    Top = 160
+    Width = 8
+    Caption = 'V'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 144
+    Height = 17
+    Top = 128
+    Width = 78
+    Caption = 'Load current'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCurrent: TEdit
+    Left = 144
+    Height = 25
+    Top = 156
+    Width = 48
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label5: TLabel
+    Left = 200
+    Height = 17
+    Top = 160
+    Width = 8
+    Caption = 'A'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 17
+    Top = 208
+    Width = 67
+    Caption = 'Transistors'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 16
+    Height = 17
+    Top = 232
+    Width = 57
+    Caption = 'Transistor'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 144
+    Height = 17
+    Top = 232
+    Width = 72
+    Caption = 'Current gain'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 280
+    Height = 17
+    Top = 232
+    Width = 48
+    Caption = 'Material'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 38
+    Height = 17
+    Top = 268
+    Width = 17
+    Caption = 'Q1'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 38
+    Height = 17
+    Top = 308
+    Width = 17
+    Caption = 'Q2'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label12: TLabel
+    Left = 38
+    Height = 17
+    Top = 348
+    Width = 17
+    Caption = 'Q3'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object edBeta1: TEdit
+    Left = 144
+    Height = 25
+    Top = 264
+    Width = 48
+    Alignment = taRightJustify
+    Font.Height = -13
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 3
+    Text = '100'
+  end
+  object edBeta2: TEdit
+    Left = 144
+    Height = 25
+    Top = 304
+    Width = 48
+    Alignment = taRightJustify
+    Enabled = False
+    Font.Height = -13
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 4
+    Text = '50'
+  end
+  object edBeta3: TEdit
+    Left = 144
+    Height = 25
+    Top = 344
+    Width = 48
+    Alignment = taRightJustify
+    Enabled = False
+    Font.Height = -13
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 5
+    Text = '20'
+  end
+  object cbMaterial1: TComboBox
+    Left = 280
+    Height = 28
+    Top = 264
+    Width = 100
+    Font.Height = -13
+    ItemHeight = 17
+    ItemIndex = 0
+    Items.Strings = (
+      'Silicon'
+      'Germanium'
+    )
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 10
+    TabStop = False
+    Text = 'Silicon'
+  end
+  object cbMaterial2: TComboBox
+    Left = 280
+    Height = 28
+    Top = 304
+    Width = 100
+    Enabled = False
+    Font.Height = -13
+    ItemHeight = 17
+    ItemIndex = 0
+    Items.Strings = (
+      'Silicon'
+      'Germanium'
+    )
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 11
+    TabStop = False
+    Text = 'Silicon'
+  end
+  object cbMaterial3: TComboBox
+    Left = 280
+    Height = 28
+    Top = 344
+    Width = 100
+    Enabled = False
+    Font.Height = -13
+    ItemHeight = 17
+    ItemIndex = 0
+    Items.Strings = (
+      'Silicon'
+      'Germanium'
+    )
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 12
+    TabStop = False
+    Text = 'Silicon'
+  end
+  object btOK: TButton
+    Left = 216
+    Height = 25
+    Top = 400
+    Width = 75
+    Caption = 'OK'
+    OnClick = btOKClick
+    TabOrder = 6
+  end
+  object btCancel: TButton
+    Left = 305
+    Height = 25
+    Top = 400
+    Width = 75
+    Caption = 'Cancel'
+    OnClick = btCancelClick
+    TabOrder = 7
+  end
+  object Label13: TLabel
+    Left = 280
+    Height = 17
+    Top = 128
+    Width = 95
+    Caption = 'Load resistance'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edResistance: TEdit
+    Left = 280
+    Height = 25
+    Top = 156
+    Width = 48
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Label14: TLabel
+    Left = 336
+    Height = 17
+    Top = 160
+    Width = 10
+    Caption = 'Ω'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label15: TLabel
+    Left = 246
+    Height = 17
+    Top = 128
+    Width = 18
+    Caption = 'OR'
+    Font.Height = -13
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+end

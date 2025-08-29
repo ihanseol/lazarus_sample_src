@@ -1,0 +1,41 @@
+Geometrical Optics: Ray Tracing.
+================================
+
+Ray tracing is the technique of determining or following (tracing) the paths that light rays take. When falling on a mirror, the rays will be reflected, when passing through a lens, they are refracted. A thin lens is a lens that does not allow properties such as dispersion and aberrations. An ideal thin lens has two refracting surfaces but the lens is thin enough to assume that light rays bend only once.
+
+A concave mirror looks like part of the inside of a sphere; a convex mirror like part of its outside. The mirror curvatutre is defined by the curvature radius R; by convention R > 0 for concave and R < 0 for convex mirrors. A lens may be imagined as cut out of two spheres of glass, with these spehres having radii R1 and R2. By convention, for a bi-convex lens R1 > 0 and R2 < 0; for a bi-concave lens R1 < 0 and R2 > 0.
+
+When a beam of parallel rays is reflected resp. refracted off a mirror resp. a lens and all theses rays get together at one single point, the device is said converging; if the rays spread out, it is called diverging. The point where the outgoing rays converge is called the focus F, the distance between F and the center of the device being called focal length. In the case of a diverging device, extending the outgoing rays backward, all of them appear to be coming from one single point, called virtual focus.
+
+In the case of a mirror the focal length f = R / 2. In the case of a lens, the focal length depends on both surfaces' radius and of the refraction index, depending on the type of glass the lens is made of: 1/f = (n-1)(1/R1 - 1/R2). To simplify calculations, assuming the lens is such that R1 = R2 and n = 1.5, with given total radius of curvature R, a good approximation of the focal length is given by f = R / 2. 1/f is called the strength (power) of a lens; it is measured in diopters (1D = 1/m).
+
+If an object of height ho is placed at a distance do in front of a mirror (or seen through a lens placed at distance do in front of it), there is formation of an image. The image height hi may be equal, smaller or larger than the object's one; the image may have the same orientation or be upside-down (inverted) and finally it may appear on the same side or on the opposite side than the object. If the image is on the same side of a mirror or on the opposite side of a lens than the object, it is called a real image, otherwise it is called a virtual image. Virtual images can't be projected: Light rays only appear to originate at a virtual image; they do not actually pass through that location.
+
+Image height and distance (to the center of the mirror/lens) may be calculated by the mirrors (or thin lens) equations:
+
+  1/do + 1/di = 1/f
+  hi/ho = -di/do
+
+The ratio m = hi/ho is called magnification.
+
+Images formed by mirrors or thin lenses may be one of three types:
+
+Type       Formed when       Image type      di          m
+---------------------------------------------------------------
+Case 1     f > 0, do > f     real           > 0     < 0
+Case 2     f > 0, do < f     virtual        < 0     > 0 and > 1
+Case 3     f < 0             virtual        < 0     > 0 and < 1
+
+Ray tracing consists in tracing 2 or 3 rays for the optical device used; the point where these rays meet, defines the position of the image.
+
+In the case of a concave mirror, the 3 rays may be described as follows:
+
+  - P-ray: Leaves horizontally from the object to the mirror, bounces off, and goes through the focal point.
+  - F-ray: Travels from the object through the focal point, bounces off the mirror, and ends up going parallel to the horizontal axis.
+  - C-ray: Leaves the object, bounces off the mirror, and goes through the center of curvature.
+
+And, in the case of a convex lens:
+
+  - P-ray: Leaves horizontally from the object to the lens and then goes through the focal point.
+  - F-ray: Goes from the object through the focal point, through the lens, and ends up going parallel to the horizontal axis.
+  - C-ray: Leaves the object and goes through the center of the lens.

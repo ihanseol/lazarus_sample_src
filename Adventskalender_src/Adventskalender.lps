@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Adventskalender.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="698"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="advent.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fAdvent"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="698"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Programs\Lazarus\win64\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4557"/>
+        <CursorPos Y="4570"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="608" Column="3" TopLine="584"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="620" Column="3" TopLine="618"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="632" Column="3" TopLine="619"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="644" Column="3" TopLine="620"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="656" Column="3" TopLine="654"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="668" Column="3" TopLine="655"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="680" Column="3" TopLine="656"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="692" Column="3" TopLine="690"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="704" Column="3" TopLine="691"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="716" Column="3" TopLine="692"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="728" Column="3" TopLine="726"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="740" Column="3" TopLine="727"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="752" Column="3" TopLine="728"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="764" Column="3" TopLine="762"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="776" Column="3" TopLine="763"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="774" Column="11" TopLine="763"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="114" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="632" Column="4" TopLine="624"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="378" Column="3" TopLine="373"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="376" TopLine="371"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="379" Column="3" TopLine="373"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="380" Column="54" TopLine="355"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="446" Column="34" TopLine="426"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="458" Column="55" TopLine="441"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="496" Column="10" TopLine="487"/>
+      </Position>
+      <Position>
+        <Filename Value="Adventskalender.lpr"/>
+        <Caret Line="18" Column="9"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="697" TopLine="671"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="advent.pas"/>
+        <Caret Line="430" TopLine="421"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

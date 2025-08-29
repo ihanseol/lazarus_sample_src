@@ -1,0 +1,83 @@
+object FormHelp: TFormHelp
+  Left = 670
+  Height = 581
+  Top = 204
+  Width = 826
+  BorderIcons = [biMinimize]
+  Caption = 'Arithmetik Aufgaben'
+  ClientHeight = 581
+  ClientWidth = 826
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object HelpText: TMemo
+    Left = 10
+    Height = 502
+    Top = 10
+    Width = 806
+    Font.Height = -12
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'Arithmetische Spielereien.'
+      '**************************'
+      ''
+      'Arithmetik Aufgaben, mit denen die Schüler folgendes erlernen können:'
+      '  1. Eine Aufgabe aufmerksam lesen und verstehen.'
+      '  2. Logisch denken und dies auf die gestellte Frage anwenden.'
+      '  3. Die aritmethischen Grundrechenarten (mit Zahlen bis 100).'
+      '  4. Bruchrechnen (Halbe, Drittel, Viertel, Fünftel).'
+      ''
+      'Das Prinzip ist einfach:'
+      'Schalter "Frage" drücken und diese wird angezeigt. Resultat eingeben, Schalter "Antwort" drücken und das Programm gibt Auskunft ob das eingegebene Resultat richtig oder falsch ist. (Wenn "Aufgabenbeispiele anzeigen" im Menü "Aufgaben" ausgewählt wurde, wird die Antwort zusammen mit der Frage angezeigt).'
+      ''
+      'Menüeintrag "Aufgaben".'
+      '======================='
+      '  - Aufgabenbeispiele anzeigen:'
+      '    Aufgabenbeispiele für die ausgewählen Aufgabentypen (s. "Einstellungen") mit Resultaten anzeigen.'
+      '  - Test 1 (alle Aufgabenbeispiele):'
+      '    Test mit je einer Frage für alle ausgewählen Aufgabentypen.'
+      '  - Test 2 (zufällige Aufgaben Auswahl):'
+      '    Test mit zufälligen Fragen aus den ausgewählen Aufgabentypen (Voreinstellung bei Programmstart).'
+      '    Die Anzahl der Fragen (25) kann in "Einstellungen" geändert werden.'
+      '  - Programm verlassen:'
+      '    Programm beenden.'
+      ''
+      'Menüeintrag "Einstellungen".'
+      '============================'
+      '  - Test 2 Aufgaben = N > Ändern:'
+      '    Anzahl der Fragen für Test 2 (s. oben) einstellen.'
+      '  - Aufgaben Auswahl:'
+      '    Auswahl des Typs der Beispiel- resp. Testfragen:'
+      '      - Addition/Subtraktion: Grundrechenoperationen (plus, minus).'
+      '      - Brüche (Typ 1): Bruchrechnen (Halbe, Drittel, Viertel, Fünftel).'
+      '      - Vielfache (Typ 1): Grundrechenoperationen (plus, minus, mal 2, geteilt durch 2).'
+      '      - Brüche (Typ 2): ähnlich wie Typ 1 Brüche, aber andere (zum Teil schwierigere) Aufgabenstellungen.'
+      '      - Vielfache (Typ 2): ähnlich wie Typ 1 Vielfache, aber andere (zum Teil schwierigere) Aufgabenstellungen.'
+      ''
+      'Menüeintrag "Extras".'
+      '====================='
+      '  - Beispielaufgaben Textdatei erstellen:'
+      '    Aufgabenbeispiele für die ausgewählen Aufgabentypen mit Resultaten in Textdatei abspeichern.'
+      ''
+      'Menüeintrag "Hilfe".'
+      '===================='
+      '  - Hilfe:'
+      '    Programm Hilfstext anzeigen.'
+      '  - Info:'
+      '    Programm Informationen anzeigen.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    TabStop = False
+  end
+  object ButtonClose: TButton
+    Left = 741
+    Height = 33
+    Top = 536
+    Width = 75
+    Caption = 'Close'
+    OnClick = ButtonCloseClick
+    TabOrder = 1
+  end
+end

@@ -1,0 +1,300 @@
+object fFruitquiz: TfFruitquiz
+  Left = 208
+  Height = 735
+  Top = 59
+  Width = 1015
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Fruitquiz for children'
+  ClientHeight = 710
+  ClientWidth = 1015
+  Color = 14745599
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object Shape8: TShape
+    Left = 631
+    Height = 302
+    Top = 402
+    Width = 202
+  end
+  object Shape7: TShape
+    Left = 424
+    Height = 302
+    Top = 402
+    Width = 202
+  end
+  object Shape6: TShape
+    Left = 217
+    Height = 302
+    Top = 402
+    Width = 202
+  end
+  object Shape5: TShape
+    Left = 10
+    Height = 302
+    Top = 402
+    Width = 202
+  end
+  object Shape4: TShape
+    Left = 631
+    Height = 302
+    Top = 95
+    Width = 202
+  end
+  object Shape3: TShape
+    Left = 424
+    Height = 302
+    Top = 95
+    Width = 202
+  end
+  object Shape2: TShape
+    Left = 217
+    Height = 302
+    Top = 95
+    Width = 202
+  end
+  object Shape1: TShape
+    Left = 10
+    Height = 302
+    Top = 95
+    Width = 202
+  end
+  object StaticText1: TStaticText
+    Left = 312
+    Height = 30
+    Top = 10
+    Width = 390
+    Alignment = taCenter
+    Caption = 'Fruitquiz for children.'
+    Font.Color = clBlue
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object imFruit1: TImage
+    Left = 11
+    Height = 300
+    Top = 96
+    Width = 200
+    Center = True
+    OnClick = imFruit1Click
+  end
+  object imFruit2: TImage
+    Left = 218
+    Height = 300
+    Top = 96
+    Width = 200
+    Center = True
+    OnClick = imFruit2Click
+  end
+  object laFruit: TLabel
+    Left = 10
+    Height = 23
+    Top = 56
+    Width = 255
+    Caption = 'Which of these pictures shows ...?'
+    ParentColor = False
+  end
+  object imFruit3: TImage
+    Left = 425
+    Height = 300
+    Top = 96
+    Width = 200
+    Center = True
+    OnClick = imFruit3Click
+  end
+  object imFruit4: TImage
+    Left = 632
+    Height = 300
+    Top = 96
+    Width = 200
+    Center = True
+    OnClick = imFruit4Click
+  end
+  object imFruit5: TImage
+    Left = 11
+    Height = 300
+    Top = 403
+    Width = 200
+    Center = True
+    OnClick = imFruit5Click
+  end
+  object imFruit6: TImage
+    Left = 218
+    Height = 300
+    Top = 403
+    Width = 200
+    Center = True
+    OnClick = imFruit6Click
+  end
+  object imFruit7: TImage
+    Left = 425
+    Height = 300
+    Top = 403
+    Width = 200
+    Center = True
+    OnClick = imFruit7Click
+  end
+  object imFruit8: TImage
+    Left = 632
+    Height = 300
+    Top = 403
+    Width = 200
+    Center = True
+    OnClick = imFruit8Click
+  end
+  object Label2: TLabel
+    Left = 855
+    Height = 23
+    Top = 96
+    Width = 41
+    Caption = 'Quiz.'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object sgEval: TStringGrid
+    Left = 855
+    Height = 124
+    Top = 176
+    Width = 153
+    ColCount = 2
+    FixedRows = 0
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 4
+    TabOrder = 1
+    ColWidths = (
+      90
+      59
+    )
+    RowHeights = (
+      30
+      30
+      30
+      30
+    )
+    Cells = (
+      4
+      0
+      0
+      'Fruits'
+      0
+      1
+      'Correct'
+      0
+      2
+      'False'
+      0
+      3
+      'Success'
+    )
+  end
+  object btStart: TButton
+    Left = 914
+    Height = 31
+    Top = 672
+    Width = 94
+    Caption = 'Question'
+    OnClick = btStartClick
+    TabOrder = 2
+  end
+  object shSel1: TShape
+    Left = 11
+    Height = 5
+    Top = 96
+    Width = 200
+    Brush.Color = clRed
+  end
+  object shSel2: TShape
+    Left = 11
+    Height = 5
+    Top = 391
+    Width = 200
+    Brush.Color = clRed
+  end
+  object shSel3: TShape
+    Left = 11
+    Height = 300
+    Top = 96
+    Width = 5
+    Brush.Color = clRed
+  end
+  object shSel4: TShape
+    Left = 206
+    Height = 300
+    Top = 96
+    Width = 5
+    Brush.Color = clRed
+  end
+  object laFruits: TLabel
+    Left = 855
+    Height = 23
+    Top = 136
+    Width = 34
+    Caption = 'Fruit'
+    ParentColor = False
+  end
+  object MainMenu1: TMainMenu
+    Left = 8
+    Top = 8
+    object mQuiz: TMenuItem
+      Caption = 'Quiz'
+      object mQuizNew: TMenuItem
+        Caption = 'New'
+        OnClick = mQuizNewClick
+      end
+      object mQuizExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mQuizExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Settings'
+      object mOptionsLang: TMenuItem
+        Caption = 'Language'
+        object mOptionsLangEng: TMenuItem
+          Caption = 'English'
+          Checked = True
+          OnClick = mOptionsLangEngClick
+        end
+        object mOptionsLangGer: TMenuItem
+          Caption = 'German'
+          OnClick = mOptionsLangGerClick
+        end
+      end
+      object mOptionsFruits: TMenuItem
+        Caption = 'Fruit group'
+        object mOptionsFruits1: TMenuItem
+          Caption = 'Group 1 (15)'
+          Checked = True
+          OnClick = mOptionsFruits1Click
+        end
+        object mOptionsFruits2: TMenuItem
+          Caption = 'Group  2 (30)'
+          OnClick = mOptionsFruits2Click
+        end
+        object mOptionsFruits3: TMenuItem
+          Caption = 'Group  3 (50)'
+          OnClick = mOptionsFruits3Click
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

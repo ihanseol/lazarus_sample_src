@@ -1,0 +1,89 @@
+object fHelp: TfHelp
+  Left = 249
+  Height = 541
+  Top = 143
+  Width = 1076
+  BorderIcons = [biSystemMenu]
+  Caption = 'ColorCircles Help'
+  ClientHeight = 541
+  ClientWidth = 1076
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object memoHelp: TMemo
+    Left = 8
+    Height = 481
+    Top = 10
+    Width = 1060
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"ColorCircles" is a logic game, the aim being to find (by clicking it in the right grid) the one circle, that differs in color when comparing the circles at equivalent positions in the two grids. My program is based on the game "Farbkreise", that I found in Mathematik alpha 2018 (copyright © 1985-2018 Steffen Polster). Mathematik alpha is a great collection of maths related programs, aiming to help teachers and students understand and solve scientific problems (maths, physics, simulations, games...). The software (in German) is entirely free and may be downloaded from http://mathematikalpha.de.'
+      ''
+      'Menu "Game".'
+      '============'
+      ''
+      'New.'
+      '----'
+      'Start a new game (with counters reset). It is mandatory to click "New" to make any settings changements to become active.'
+      ''
+      'Exit.'
+      '----'
+      'Exit the application.'
+      ''
+      'Menu "Settings".'
+      '================'
+      ''
+      'Number of players.'
+      '------------------'
+      'Choose between 1- and 2-player game. In 1-player mode, you play so to say against time. In 2-player mode. the players play (in alternating turns, the name of the actual player being highlighted) against each other; the one, who (for a couple of rounds made) took the less time to find the different colored circle, will score.'
+      ''
+      'Number of circles.'
+      '------------------'
+      'The number of circles in the grids (4x4, 5x5, 6x6, or 8x8). Largely influencies the difficulty of the game.'
+      'Please, note that in version 1.0, only 4x4 and 5x5 grids are available.'
+      ''
+      'Number of colors.'
+      '-----------------'
+      'The number of different colors, the circles may have (3, 4, 5, or 6).'
+      ''
+      'Usage of "easy" colors.'
+      '-----------------------'
+      'Normally all circles have a similar coloration, being all some kind of red, or all some kind of blue or all some kind of green. If this option is checked, however, easily distinguishable colors will be used; this may be interresting for children or people having problems with their eyes.'
+      ''
+      'Usage of highscore list.'
+      '------------------------'
+      '1-player mode option only; previewed for some later version...'
+      ''
+      'Scoring by time difference.'
+      '---------------------------'
+      '2-player mode option only. In 1-player mode, the score you get, only depends on the time you took to find the different colored circle. In 2-player mode, the times made by each of them are compared and the one who took the less time will score. If this option is unchecked, scoring is simply done by 1 point for each game won; if it is checked, the player, who won, gets its score increased by a nmber depending on the difference of time the players took to find the circle.'
+      ''
+      'Note: Clicking a bad circle (circle, having the same color in both grids) will result in a time penality (actually set to 15 seconds).'
+      ''
+      'Menu "Help".'
+      '============'
+      ''
+      'Help.'
+      '-----'
+      'Display of "ColorCircles" help text (this document).'
+      ''
+      'About.'
+      '------'
+      'Display of "ColorCircles" version, author and date-written info. Also displays copyright info concerning the Mathematik alpha application.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 974
+    Height = 31
+    Top = 504
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="Fluides2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="119"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="fluides.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fFluides2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="119"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\Fluides1\fluides.pas"/>
+        <ComponentName Value="fFluides1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="17"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="c:\Programs\lazarus\win64\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3413"/>
+        <CursorPos Y="3427"/>
+        <UsageCount Value="7"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="923" Column="17" TopLine="902"/>
+      </Position1>
+      <Position2>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="735" TopLine="733"/>
+      </Position2>
+      <Position3>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="851" Column="48" TopLine="823"/>
+      </Position3>
+      <Position4>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="858" Column="48" TopLine="830"/>
+      </Position4>
+      <Position5>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="945" TopLine="918"/>
+      </Position5>
+      <Position6>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="560" Column="51" TopLine="544"/>
+      </Position6>
+      <Position7>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="909" Column="18" TopLine="883"/>
+      </Position7>
+      <Position8>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="881" Column="39" TopLine="869"/>
+      </Position8>
+      <Position9>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="885" Column="30" TopLine="873"/>
+      </Position9>
+      <Position10>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="629" TopLine="604"/>
+      </Position10>
+      <Position11>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="593" Column="129" TopLine="580"/>
+      </Position11>
+      <Position12>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="611" Column="70" TopLine="584"/>
+      </Position12>
+      <Position13>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="559" TopLine="535"/>
+      </Position13>
+      <Position14>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="660" TopLine="632"/>
+      </Position14>
+      <Position15>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="623" TopLine="610"/>
+      </Position15>
+      <Position16>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="639" Column="60" TopLine="627"/>
+      </Position16>
+      <Position17>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="392" Column="9" TopLine="389"/>
+      </Position17>
+      <Position18>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="506" Column="25" TopLine="488"/>
+      </Position18>
+      <Position19>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="501" Column="41" TopLine="497"/>
+      </Position19>
+      <Position20>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="426" Column="39" TopLine="417"/>
+      </Position20>
+      <Position21>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="932" Column="59" TopLine="907"/>
+      </Position21>
+      <Position22>
+        <Filename Value="Fluides2.lpr"/>
+        <Caret Line="22" Column="47"/>
+      </Position22>
+      <Position23>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="915" Column="4" TopLine="911"/>
+      </Position23>
+      <Position24>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="53" Column="5" TopLine="35"/>
+      </Position24>
+      <Position25>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="943" TopLine="915"/>
+      </Position25>
+      <Position26>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="286" Column="31" TopLine="274"/>
+      </Position26>
+      <Position27>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="996" TopLine="968"/>
+      </Position27>
+      <Position28>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="407" Column="39" TopLine="392"/>
+      </Position28>
+      <Position29>
+        <Filename Value="fluides.pas"/>
+      </Position29>
+      <Position30>
+        <Filename Value="fluides.pas"/>
+        <Caret Line="552" Column="26" TopLine="543"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="Bohr.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="44"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="bohr_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fBohr"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="44"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="bohr_help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="25"/>
+        <CursorPos X="40" Y="48"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="270" Column="8" TopLine="249"/>
+      </Position1>
+      <Position2>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="406" Column="7" TopLine="400"/>
+      </Position2>
+      <Position3>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="12" Column="101"/>
+      </Position3>
+      <Position4>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="403" Column="16" TopLine="399"/>
+      </Position4>
+      <Position5>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="404" Column="16" TopLine="400"/>
+      </Position5>
+      <Position6>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="403" Column="16" TopLine="399"/>
+      </Position6>
+      <Position7>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="490" Column="7" TopLine="470"/>
+      </Position7>
+      <Position8>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="491" Column="7" TopLine="471"/>
+      </Position8>
+      <Position9>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="490" Column="7" TopLine="470"/>
+      </Position9>
+      <Position10>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="489" Column="7" TopLine="469"/>
+      </Position10>
+      <Position11>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="496" Column="7" TopLine="476"/>
+      </Position11>
+      <Position12>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="538" Column="31" TopLine="526"/>
+      </Position12>
+      <Position13>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="152" Column="56" TopLine="127"/>
+      </Position13>
+      <Position14>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="154" Column="33" TopLine="140"/>
+      </Position14>
+      <Position15>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="577" Column="16" TopLine="552"/>
+      </Position15>
+      <Position16>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="207" TopLine="204"/>
+      </Position16>
+      <Position17>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="514" Column="9" TopLine="489"/>
+      </Position17>
+      <Position18>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="515" Column="9" TopLine="490"/>
+      </Position18>
+      <Position19>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="514" Column="9" TopLine="489"/>
+      </Position19>
+      <Position20>
+        <Filename Value="bohr_help.pas"/>
+        <Caret Line="2" Column="22"/>
+      </Position20>
+      <Position21>
+        <Filename Value="bohr_help.pas"/>
+        <Caret Line="40" TopLine="18"/>
+      </Position21>
+      <Position22>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="514" Column="9" TopLine="219"/>
+      </Position22>
+      <Position23>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="462" Column="7" TopLine="457"/>
+      </Position23>
+      <Position24>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="549" Column="69" TopLine="532"/>
+      </Position24>
+      <Position25>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="613" Column="8" TopLine="596"/>
+      </Position25>
+      <Position26>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="34" Column="22" TopLine="22"/>
+      </Position26>
+      <Position27>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="111" Column="32" TopLine="89"/>
+      </Position27>
+      <Position28>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="356" Column="16" TopLine="334"/>
+      </Position28>
+      <Position29>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="526" Column="17" TopLine="510"/>
+      </Position29>
+      <Position30>
+        <Filename Value="bohr_main.pas"/>
+        <Caret Line="622" TopLine="596"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

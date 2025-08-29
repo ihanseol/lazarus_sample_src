@@ -1,0 +1,35 @@
+object fHelp: TfHelp
+  Left = 308
+  Height = 458
+  Top = 171
+  Width = 930
+  BorderIcons = [biSystemMenu]
+  Caption = 'Function Plotter'
+  ClientHeight = 458
+  ClientWidth = 930
+  Font.Height = -14
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object edHelp: TMemo
+    Left = 9
+    Height = 408
+    Top = 8
+    Width = 913
+    Font.Height = -12
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 847
+    Height = 25
+    Top = 429
+    Width = 75
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+end

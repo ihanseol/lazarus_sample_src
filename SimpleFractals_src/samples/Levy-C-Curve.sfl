@@ -1,0 +1,9 @@
+# Levy-C-Curve
+
+origin = (310,175)
+displacement = 6
+
+axiom = "2F"
+rules = { "F": "+F--F+" }
+iterations = 12
+angle = 45

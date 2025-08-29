@@ -1,0 +1,104 @@
+ENG 2 Alnwick Castle
+ENG 2 Arundel Castle
+ENG 1 Bamburgh Castle
+ENG 1 Berry Pomeroy Castle
+ENG 2 Blenheim Palace
+ENG 2 Bodiam Castle
+ENG 1 Canterbury Castle
+ENG 1 Corfe Castle
+ENG 1 Castle Cornet
+ENG 1 Dartmouth Castle
+ENG 2 Dover Castle
+ENG 2 Castle Drogo
+ENG 1 Dunstanburgh Castle
+ENG 1 Dunster Castle
+ENG 1 Farleigh Hungerford Castle
+ENG 1 Forde Abbey
+ENG 1 Goodrich Castle
+ENG 2 Grimsthorpe Castle
+ENG 1 Hestercombe House
+ENG 2 Hever Castle
+ENG 1 Kenilworth Castle
+ENG 1 Killerton House
+ENG 1 Kingston Lacy
+ENG 2 Lanhydrock Castle
+ENG 2 Leeds Castle
+ENG 2 Lindisfarne Castle
+ENG 2 Lulworth Castle
+ENG 2 Mont Orgueil Castle
+ENG 1 Okehampton Castle
+ENG 1 Old Wardour Castle
+ENG 2 Osborne House
+ENG 2 Pendennis Castle
+ENG 1 Pevensey Castle
+ENG 2 Powderham Castle
+ENG 1 Raby Castle
+ENG 1 Restormel Castle
+ENG 1 Scotney Castle
+ENG 2 Sezincote House
+ENG 1 Sissinghurst Castle
+ENG 2 Skipton Castle
+ENG 2 Saint Michael’s Mount
+ENG 2 Syon House
+ENG 1 Totnes Castle
+ENG 1 Trerice House
+ENG 2 Waddesdon Manor
+ENG 2 Warkworth Castle
+ENG 2 Wilton House
+ENG 1 Winchester Castle
+ENG 1 Wolvesey Castle
+SCO 1 Balloch Castle
+SCO 1 The Bishop´s Palace
+SCO 2 Braemar Castle
+SCO 1 Caerlaverock Castle
+SCO 1 Campbell Castle
+SCO 1 Crichton Castle
+SCO 1 Culzean Castle
+SCO 1 Dirleton Castle
+SCO 2 Drum Castle
+SCO 1 Dryburgh Abbey
+SCO 2 Duart Castle
+SCO 1 Dumfries House
+SCO 2 Dunnottar Castle
+SCO 2 Dunrobin Castle
+SCO 1 Dunstaffnage Castle
+SCO 2 Dunvegan Castle
+SCO 1 Dunyvaig Castle
+SCO 2 The Earl’s Palace
+SCO 2 Edinburgh Castle
+SCO 2 Eilean Donan Castle
+SCO 2 Inveraray Castle
+SCO 1 Iona Abbey
+SCO 2 Kelso Abbey
+SCO 2 Kilchurn Castle
+SCO 1 Kildrummy Castle
+SCO 1 Linlithgow Palace
+SCO 2 Melrose Abbey
+SCO 1 Castle of Mey
+SCO 1 Scalloway Castle
+SCO 1 Skaill House
+SCO 1 St. Andrews Castle
+SCO 2 Castle Stalker
+SCO 2 Stirling Castle
+SCO 1 Tantallon Castle
+SCO 1 Urquhart Castle
+WAL 2 Beaumaris Castle
+WAL 2 Caernarfon Castle
+WAL 1 Caerphilly Castle
+WAL 2 Carew Castle
+WAL 1 Chepstow Castle
+WAL 2 Chirk Castle
+WAL 1 Castell Coch
+WAL 1 Coity Castle
+WAL 2 Conwy Castle
+WAL 1 Narberth Castle
+WAL 1 Pembroke Castle
+WAL 2 Powis Castle
+WAL 2 Raglan Castle
+IRL 2 Bantry House
+IRL 2 Birr Castle
+IRL 1 Blarney Castle
+IRL 2 Cahir Castle
+IRL 2 Kilkenny Castle
+IRL 2 Malahide Castle
+IRL 1 Gradina Trsat

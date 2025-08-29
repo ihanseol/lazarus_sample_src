@@ -1,0 +1,338 @@
+object fSigns: TfSigns
+  Left = 415
+  Height = 675
+  Top = 48
+  Width = 721
+  BorderIcons = [biSystemMenu]
+  Caption = 'Astrologie: Sternzeichen'
+  ClientHeight = 675
+  ClientWidth = 721
+  DesignTimePPI = 120
+  Font.Height = -17
+  OnActivate = FormActivate
+  LCLVersion = '1.8.4.0'
+  object StaticText1: TStaticText
+    Left = 216
+    Height = 40
+    Top = 16
+    Width = 289
+    Alignment = taCenter
+    Caption = 'Astrologie: Sternzeichen.'
+    Font.Color = clBlue
+    Font.Height = -23
+    Font.Style = [fsBold, fsUnderline]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object sgZodiac: TStringGrid
+    Left = 10
+    Height = 394
+    Top = 64
+    Width = 703
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 13
+    TabOrder = 2
+    TabStop = False
+    TitleFont.Height = -17
+    TitleFont.Name = 'Consolas'
+    ColWidths = (
+      122
+      135
+      263
+      89
+      90
+    )
+    RowHeights = (
+      30
+      30
+      30
+      30
+      30
+      30
+      30
+      30
+      30
+      30
+      30
+      30
+      30
+    )
+    Cells = (
+      65
+      0
+      0
+      'Sternzeichen'
+      0
+      1
+      'Widder'
+      0
+      2
+      'Stier'
+      0
+      3
+      'Zwillinge'
+      0
+      4
+      'Krebs'
+      0
+      5
+      'Löwe'
+      0
+      6
+      'Jungfrau'
+      0
+      7
+      'Waage'
+      0
+      8
+      'Skorpion'
+      0
+      9
+      'Schütze'
+      0
+      10
+      'Steinbock '
+      0
+      11
+      'Wassermann '
+      0
+      12
+      'Fische'
+      1
+      0
+      'eklipt. Länge'
+      1
+      1
+      '  0° –  30°'
+      1
+      2
+      ' 30° –  60°'
+      1
+      3
+      ' 60° –  90°'
+      1
+      4
+      ' 90° – 120°'
+      1
+      5
+      '120° – 150°'
+      1
+      6
+      '150° – 180°'
+      1
+      7
+      '180° – 210°'
+      1
+      8
+      '210° – 240°'
+      1
+      9
+      '240° – 270°'
+      1
+      10
+      '270° – 300°'
+      1
+      11
+      '300° – 330°'
+      1
+      12
+      '330° – 360°'
+      2
+      0
+      'Zeitraum'
+      2
+      1
+      '21. März - 20. April'
+      2
+      2
+      '21. April - 20. Mai'
+      2
+      3
+      '21. Mai - 21. Juni'
+      2
+      4
+      '22. Juni - 22. Juli'
+      2
+      5
+      '23. Juli - 23. August'
+      2
+      6
+      '24. August - 23. September'
+      2
+      7
+      '24. September - 23. Oktober'
+      2
+      8
+      '24. Oktober - 22. November'
+      2
+      9
+      '23. November - 21. Dezember'
+      2
+      10
+      '22. Dezember - 20. Januar'
+      2
+      11
+      '21. Januar - 19. Februar'
+      2
+      12
+      '20. Februar - 20. März'
+      3
+      0
+      'Elemente'
+      3
+      1
+      'Feuer'
+      3
+      2
+      'Erde'
+      3
+      3
+      'Luft'
+      3
+      4
+      'Wasser'
+      3
+      5
+      'Feuer'
+      3
+      6
+      'Erde'
+      3
+      7
+      'Luft'
+      3
+      8
+      'Wasser'
+      3
+      9
+      'Feuer'
+      3
+      10
+      'Erde'
+      3
+      11
+      'Luft'
+      3
+      12
+      'Wasser'
+      4
+      0
+      'Planeten'
+      4
+      1
+      'Mars'
+      4
+      2
+      'Venus'
+      4
+      3
+      'Merkur'
+      4
+      4
+      'Mond'
+      4
+      5
+      'Sonne'
+      4
+      6
+      'Merkur'
+      4
+      7
+      'Venus'
+      4
+      8
+      'Pluto'
+      4
+      9
+      'Jupiter'
+      4
+      10
+      'Saturn'
+      4
+      11
+      'Uranus'
+      4
+      12
+      'Neptun'
+    )
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 23
+    Top = 480
+    Width = 458
+    Caption = 'Elemente und Planeten: Bedeutungen und Eigenschaften.'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edDetails: TMemo
+    Left = 10
+    Height = 152
+    Top = 512
+    Width = 558
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 5
+    TabStop = False
+  end
+  object cobElements: TComboBox
+    Left = 588
+    Height = 31
+    Top = 512
+    Width = 125
+    ItemHeight = 23
+    ItemIndex = 0
+    Items.Strings = (
+      '-Elemente-'
+      'Feuer'
+      'Erde'
+      'Luft'
+      'Wasser'
+    )
+    OnChange = cobElementsChange
+    Style = csDropDownList
+    TabOrder = 4
+    TabStop = False
+    Text = '-Elemente-'
+  end
+  object cobPlanets: TComboBox
+    Left = 588
+    Height = 31
+    Top = 560
+    Width = 125
+    ItemHeight = 23
+    ItemIndex = 0
+    Items.Strings = (
+      '-Planeten-'
+      'Jupiter'
+      'Mars'
+      'Merkur'
+      'Mond'
+      'Neptun'
+      'Pluto'
+      'Saturn'
+      'Sonne'
+      'Uranus'
+      'Venus'
+    )
+    OnChange = cobPlanetsChange
+    Style = csDropDownList
+    TabOrder = 3
+    TabStop = False
+    Text = '-Planeten-'
+  end
+  object btClose: TButton
+    Left = 588
+    Height = 31
+    Top = 633
+    Width = 125
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

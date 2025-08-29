@@ -1,0 +1,62 @@
+"DCircuits3" application help.
+==============================
+
+"DCircuits3" is an electronics application, dealing with simple diode circuits. The program may be used in 2 ways:
+  - Calculation of the essential values of diode circuits.
+  - Simple diode circuits exercise generator.
+
+Application usage is quite simple: Select your prefered settings and choose to do a calculation or an exercise. In the first case, fill in the values of your circuit and push "Calculation". In the second case, alternately push "Question" and "Answer" to generate an exercise and to do the program check your answers. Please, note, that answers are checked with a minimum precision of 3 decimal digits; for calculations, depending on values, calculated before, the "full" value (7+ decimal digits) of the intermediate results has to be used.
+
+Menu "Circuit".
+===============
+
+Menu item "New calculation".
+----------------------------
+
+Start a new calculation. A data entry window opens, where you may choose one of the 5 included kinds of circuits and if you use a silicon or germanium diode. In the case of a diode breakdown calculation, you have also to indicate the PIV; for the common diodes included, the PIV is set by the application. This value may be changed later on the calculation form.
+
+Menu item "New exercise".
+-------------------------
+
+Start a new exercise. The kinds of circuits included in the exercises depend on your selections in the "Settings" menu.
+
+Menu item "Exit".
+-----------------
+
+Exit the application.
+
+Menu "Settings".
+================
+
+Menu item "Diode model".
+------------------------
+
+Choose, which diode model, you want to use for calculations: ideal, practical or complete. If you don't know what's this about, have a look at the "Electronics help" text for details.
+
+Menu item "Exercise circuits".
+------------------------------
+
+Choose which kinds of circuits, you want to be part of the exercise. 5 kinds available:
+ - Forward biased diode
+ - Forward biased diode with parallel resistor
+ - Reverse-biased diode
+ - Diode breakdown voltage
+ - Zehner diode
+
+Menu "Help".
+============
+
+Menu item "Electronics help".
+-----------------------------
+
+Some useful electronics background concerning diodes and diode circuits.
+
+Menu item "Application help".
+-----------------------------
+
+Help with the usage of the "DCircuits3" application (this text).
+
+Menu item "About".
+------------------
+
+Information about version, author and date-written of the "DCircuits3" application.

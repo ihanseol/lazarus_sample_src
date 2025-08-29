@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="Kidney.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="4"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="kidney_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fKidney"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="kidney_help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="223" TopLine="208"/>
+      </Position1>
+      <Position2>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="381" Column="26" TopLine="361"/>
+      </Position2>
+      <Position3>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="226" TopLine="216"/>
+      </Position3>
+      <Position4>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="384" Column="12" TopLine="365"/>
+      </Position4>
+      <Position5>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="222" Column="15" TopLine="208"/>
+      </Position5>
+      <Position6>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="255" TopLine="240"/>
+      </Position6>
+      <Position7>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="363" Column="26" TopLine="354"/>
+      </Position7>
+      <Position8>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="317" Column="3" TopLine="307"/>
+      </Position8>
+      <Position9>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="354" Column="29" TopLine="341"/>
+      </Position9>
+      <Position10>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="353" Column="29" TopLine="340"/>
+      </Position10>
+      <Position11>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="355" Column="30" TopLine="340"/>
+      </Position11>
+      <Position12>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="288" TopLine="280"/>
+      </Position12>
+      <Position13>
+        <Filename Value="kidney_help.pas"/>
+        <Caret Line="3" Column="23"/>
+      </Position13>
+      <Position14>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="196" Column="45" TopLine="169"/>
+      </Position14>
+      <Position15>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="316" TopLine="314"/>
+      </Position15>
+      <Position16>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="124" TopLine="99"/>
+      </Position16>
+      <Position17>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="242" Column="46" TopLine="218"/>
+      </Position17>
+      <Position18>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="368" Column="38" TopLine="350"/>
+      </Position18>
+      <Position19>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="140" Column="14" TopLine="131"/>
+      </Position19>
+      <Position20>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="155" Column="9" TopLine="135"/>
+      </Position20>
+      <Position21>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="272" Column="60" TopLine="259"/>
+      </Position21>
+      <Position22>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="325" Column="56" TopLine="309"/>
+      </Position22>
+      <Position23>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="328" Column="32" TopLine="313"/>
+      </Position23>
+      <Position24>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="435" Column="51" TopLine="418"/>
+      </Position24>
+      <Position25>
+        <Filename Value="kidney_help.pas"/>
+        <Caret Line="38" TopLine="15"/>
+      </Position25>
+      <Position26>
+        <Filename Value="kidney_help.pas"/>
+        <Caret Line="44" TopLine="16"/>
+      </Position26>
+      <Position27>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="155" Column="11" TopLine="141"/>
+      </Position27>
+      <Position28>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="116" TopLine="91"/>
+      </Position28>
+      <Position29>
+        <Filename Value="kidney_main.pas"/>
+        <Caret Line="419" TopLine="391"/>
+      </Position29>
+      <Position30>
+        <Filename Value="kidney_help.pas"/>
+        <Caret Line="18" Column="25"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

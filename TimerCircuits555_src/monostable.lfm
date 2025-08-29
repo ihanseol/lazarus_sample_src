@@ -1,0 +1,861 @@
+object fMonoStable: TfMonoStable
+  Left = 303
+  Height = 696
+  Top = 171
+  Width = 940
+  BorderIcons = [biSystemMenu]
+  Caption = 'Monostable circuits'
+  ClientHeight = 696
+  ClientWidth = 940
+  DesignTimePPI = 120
+  Font.Height = -17
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object Shape22: TShape
+    Left = 10
+    Height = 488
+    Top = 200
+    Width = 606
+  end
+  object Shape1: TShape
+    Left = 260
+    Height = 200
+    Top = 334
+    Width = 200
+    Pen.Width = 5
+  end
+  object Shape2: TShape
+    Left = 210
+    Height = 3
+    Top = 394
+    Width = 50
+    Brush.Color = clBlack
+  end
+  object Shape3: TShape
+    Left = 110
+    Height = 3
+    Top = 474
+    Width = 150
+    Brush.Color = clBlack
+  end
+  object Shape4: TShape
+    Left = 460
+    Height = 3
+    Top = 394
+    Width = 120
+    Brush.Color = clBlack
+  end
+  object Shape5: TShape
+    Left = 360
+    Height = 115
+    Top = 219
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape46: TShape
+    Left = 400
+    Height = 57
+    Top = 534
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape7: TShape
+    Left = 320
+    Height = 137
+    Top = 534
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Label12: TLabel
+    Left = 272
+    Height = 23
+    Hint = 'Discharge'
+    Top = 384
+    Width = 9
+    Caption = '7'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object Label2: TLabel
+    Left = 272
+    Height = 23
+    Hint = 'Trigger'
+    Top = 464
+    Width = 9
+    Caption = '2'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object Label3: TLabel
+    Left = 356
+    Height = 23
+    Hint = 'Supply voltage'
+    Top = 342
+    Width = 9
+    Caption = '8'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object Label4: TLabel
+    Left = 316
+    Height = 23
+    Hint = 'Ground'
+    Top = 504
+    Width = 9
+    Caption = '1'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object Label11: TLabel
+    Left = 397
+    Height = 23
+    Hint = 'Control'
+    Top = 504
+    Width = 9
+    Caption = '5'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object Label6: TLabel
+    Left = 440
+    Height = 23
+    Hint = 'Output'
+    Top = 384
+    Width = 9
+    Caption = '3'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object StaticText1: TStaticText
+    Left = 320
+    Height = 21
+    Top = 424
+    Width = 81
+    Alignment = taCenter
+    Caption = '555 timer'
+    TabOrder = 7
+  end
+  object Shape8: TShape
+    Left = 210
+    Height = 240
+    Top = 344
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape9: TShape
+    Left = 200
+    Height = 75
+    Top = 269
+    Width = 23
+  end
+  object Shape10: TShape
+    Left = 210
+    Height = 50
+    Top = 219
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape41: TShape
+    Left = 110
+    Height = 240
+    Top = 344
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape45: TShape
+    Left = 100
+    Height = 75
+    Top = 269
+    Width = 23
+  end
+  object Shape40: TShape
+    Left = 110
+    Height = 50
+    Top = 219
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape14: TShape
+    Left = 60
+    Height = 3
+    Top = 219
+    Width = 520
+    Brush.Color = clBlack
+  end
+  object Shape15: TShape
+    Left = 105
+    Height = 12
+    Top = 214
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Shape16: TShape
+    Left = 205
+    Height = 12
+    Top = 214
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Shape17: TShape
+    Left = 355
+    Height = 12
+    Top = 214
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Shape18: TShape
+    Left = 105
+    Height = 12
+    Top = 469
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Shape19: TShape
+    Left = 205
+    Height = 12
+    Top = 389
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object shSwitch1a: TShape
+    Left = 94
+    Height = 39
+    Top = 575
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object Shape43: TShape
+    Left = 105
+    Height = 12
+    Top = 579
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Shape44: TShape
+    Left = 105
+    Height = 12
+    Top = 599
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object shSwitch1b: TShape
+    Left = 79
+    Height = 5
+    Top = 592
+    Width = 15
+    Brush.Color = clBlack
+  end
+  object Shape42: TShape
+    Left = 110
+    Height = 60
+    Top = 611
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape30: TShape
+    Left = 60
+    Height = 3
+    Top = 673
+    Width = 520
+    Brush.Color = clBlack
+  end
+  object Shape31: TShape
+    Left = 205
+    Height = 12
+    Top = 669
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Shape32: TShape
+    Left = 105
+    Height = 12
+    Top = 669
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Shape33: TShape
+    Left = 315
+    Height = 12
+    Top = 669
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Shape26: TShape
+    Left = 395
+    Height = 12
+    Top = 669
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Label7: TLabel
+    Left = 20
+    Height = 23
+    Top = 208
+    Width = 32
+    Caption = '+VS'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 32
+    Height = 23
+    Top = 662
+    Width = 20
+    Caption = '0V'
+    ParentColor = False
+  end
+  object shLed1: TShape
+    Left = 553
+    Height = 50
+    Top = 302
+    Width = 50
+    Brush.Color = clLime
+    Brush.Style = bsDiagCross
+    Shape = stCircle
+  end
+  object shLed1a: TShape
+    Left = 577
+    Height = 84
+    Top = 219
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object shLed1b: TShape
+    Left = 577
+    Height = 45
+    Top = 351
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object shLed2: TShape
+    Left = 553
+    Height = 50
+    Top = 517
+    Width = 50
+    Brush.Color = clLime
+    Brush.Style = bsDiagCross
+    Shape = stCircle
+  end
+  object shLed2a: TShape
+    Left = 577
+    Height = 124
+    Top = 394
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object shLed2b: TShape
+    Left = 577
+    Height = 109
+    Top = 566
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object shLed12c: TShape
+    Left = 572
+    Height = 12
+    Top = 389
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object imSwitch1: TImage
+    Left = 75
+    Height = 47
+    Top = 571
+    Width = 28
+    OnClick = imSwitch1Click
+    Transparent = True
+  end
+  object StaticText2: TStaticText
+    Left = 10
+    Height = 29
+    Top = 10
+    Width = 478
+    Caption = 'Using IC-555 to implement monostable circuits.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 6
+  end
+  object laTriggerSw: TLabel
+    Left = 79
+    Height = 23
+    Top = 626
+    Width = 24
+    Caption = 'Set'
+    Color = clBlack
+    Font.Color = clYellow
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object edMonostable: TMemo
+    Left = 10
+    Height = 120
+    Top = 56
+    Width = 921
+    Color = clMoneyGreen
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'When the SET switch is pushed, the active low Trigger input (pin 2) sets the 555 internal RS latch, the logic low at the  latch output is  inverted and the timer''s  output (pin 3) becomes  logic high. The  capacitor C starts to charge through resistor R. Once the time period has started further trigger pulses are ignored.'
+      'The active high Threshold input (pin 6) monitors the  voltage across C and when this reaches ⅔Vs, the time period is over and the output becomes low. At the same time the Discharge output (pin 7) is connected to 0V, discharging the capacitor ready for the next trigger.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 9
+    TabStop = False
+  end
+  object edLeds: TMemo
+    Left = 640
+    Height = 208
+    Top = 200
+    Width = 291
+    Color = clCream
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'LED1 goes on, if the timer output is logic low: LED1 = on indicates the stable (default) state, LED1 = out indicates the unstable state (triggered time period).'
+      ''
+      'LED2 goes on, if the timer output is logic high: LED2 = on indicates the unstable state (triggered time period), LED2 = out indicates the stable (default) state.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 11
+    TabStop = False
+  end
+  object Label14: TLabel
+    Left = 50
+    Height = 23
+    Top = 296
+    Width = 44
+    Caption = '10 kΩ'
+    ParentColor = False
+  end
+  object laR: TLabel
+    Left = 180
+    Height = 23
+    Top = 296
+    Width = 11
+    Caption = 'R'
+    Font.Color = clBlue
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edComponents: TMemo
+    Left = 640
+    Height = 63
+    Top = 418
+    Width = 291
+    Color = clCream
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'The supply voltage VS should best be between +4.5V and +15V.'
+      'R should be between 1kΩ to 1MΩ.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 5
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 841
+    Height = 31
+    Top = 657
+    Width = 90
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 4
+  end
+  object Shape6: TShape
+    Left = 376
+    Height = 5
+    Top = 588
+    Width = 50
+    Brush.Color = clBlack
+  end
+  object Shape11: TShape
+    Left = 376
+    Height = 5
+    Top = 599
+    Width = 50
+    Brush.Color = clBlack
+  end
+  object Shape47: TShape
+    Left = 400
+    Height = 76
+    Top = 599
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Label1: TLabel
+    Left = 352
+    Height = 23
+    Top = 611
+    Width = 41
+    Caption = '10 nF'
+    ParentColor = False
+  end
+  object Label13: TLabel
+    Left = 272
+    Height = 23
+    Hint = 'Threshold'
+    Top = 424
+    Width = 9
+    Caption = '6'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object Shape12: TShape
+    Left = 210
+    Height = 3
+    Top = 434
+    Width = 50
+    Brush.Color = clBlack
+  end
+  object Shape25: TShape
+    Left = 205
+    Height = 12
+    Top = 430
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Shape13: TShape
+    Left = 186
+    Height = 9
+    Top = 584
+    Width = 50
+    Pen.Width = 2
+  end
+  object Shape20: TShape
+    Left = 186
+    Height = 9
+    Top = 599
+    Width = 50
+    Brush.Color = clBlack
+  end
+  object Shape27: TShape
+    Left = 210
+    Height = 76
+    Top = 599
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object laC: TLabel
+    Left = 180
+    Height = 23
+    Top = 611
+    Width = 11
+    Caption = 'C'
+    Font.Color = clBlue
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object shReset2: TShape
+    Left = 508
+    Height = 240
+    Top = 344
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object shResetR: TShape
+    Left = 498
+    Height = 75
+    Top = 269
+    Width = 23
+  end
+  object shReset1: TShape
+    Left = 508
+    Height = 50
+    Top = 219
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object shSwitch2a: TShape
+    Left = 492
+    Height = 39
+    Top = 575
+    Width = 5
+    Brush.Color = clBlack
+  end
+  object shReset5: TShape
+    Left = 503
+    Height = 12
+    Top = 579
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object shReset6: TShape
+    Left = 503
+    Height = 12
+    Top = 599
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object shSwitch2b: TShape
+    Left = 477
+    Height = 5
+    Top = 592
+    Width = 15
+    Brush.Color = clBlack
+  end
+  object shReset3: TShape
+    Left = 508
+    Height = 73
+    Top = 602
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object imSwitch2: TImage
+    Left = 473
+    Height = 47
+    Top = 571
+    Width = 28
+    OnClick = imSwitch2Click
+    Transparent = True
+  end
+  object laResetSw: TLabel
+    Left = 460
+    Height = 23
+    Top = 626
+    Width = 41
+    Caption = 'Reset'
+    Color = clBlack
+    Font.Color = clYellow
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object laResetRVal: TLabel
+    Left = 448
+    Height = 23
+    Top = 296
+    Width = 44
+    Caption = '10 kΩ'
+    ParentColor = False
+  end
+  object shReset7: TShape
+    Left = 503
+    Height = 12
+    Top = 669
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Shape23: TShape
+    Left = 503
+    Height = 12
+    Top = 214
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Label9: TLabel
+    Left = 440
+    Height = 23
+    Hint = 'Reset'
+    Top = 464
+    Width = 9
+    Caption = '4'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object Shape21: TShape
+    Left = 460
+    Height = 3
+    Top = 474
+    Width = 50
+    Brush.Color = clBlack
+  end
+  object shReset4: TShape
+    Left = 503
+    Height = 12
+    Top = 469
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Label5: TLabel
+    Left = 640
+    Height = 23
+    Top = 516
+    Width = 119
+    Caption = 'Capacitance (C)'
+    ParentColor = False
+  end
+  object edC: TEdit
+    Left = 765
+    Height = 31
+    Top = 512
+    Width = 98
+    Alignment = taRightJustify
+    OnChange = edCChange
+    TabOrder = 0
+  end
+  object cobUC: TComboBox
+    Left = 873
+    Height = 31
+    Top = 512
+    Width = 58
+    ItemHeight = 23
+    ItemIndex = 0
+    Items.Strings = (
+      'µF'
+      'nF'
+    )
+    Style = csDropDownList
+    TabOrder = 8
+    TabStop = False
+    Text = 'µF'
+  end
+  object Label10: TLabel
+    Left = 640
+    Height = 23
+    Top = 556
+    Width = 104
+    Caption = 'Resistance (R)'
+    ParentColor = False
+  end
+  object edR: TEdit
+    Left = 765
+    Height = 31
+    Top = 552
+    Width = 98
+    Alignment = taRightJustify
+    OnChange = edRChange
+    TabOrder = 1
+  end
+  object cobUR: TComboBox
+    Left = 873
+    Height = 31
+    Top = 552
+    Width = 58
+    ItemHeight = 23
+    ItemIndex = 0
+    Items.Strings = (
+      'kΩ'
+      'MΩ'
+    )
+    OnChange = cobURChange
+    Style = csDropDownList
+    TabOrder = 10
+    TabStop = False
+    Text = 'kΩ'
+  end
+  object Label16: TLabel
+    Left = 640
+    Height = 23
+    Top = 596
+    Width = 115
+    Caption = 'Time period (T)'
+    ParentColor = False
+  end
+  object edT: TEdit
+    Left = 765
+    Height = 31
+    Top = 592
+    Width = 98
+    Alignment = taRightJustify
+    OnChange = edTChange
+    TabOrder = 2
+  end
+  object cobUT: TComboBox
+    Left = 873
+    Height = 31
+    Top = 592
+    Width = 58
+    ItemHeight = 23
+    ItemIndex = 1
+    Items.Strings = (
+      'ms'
+      's'
+      'min'
+    )
+    OnChange = cobUTChange
+    Style = csDropDownList
+    TabOrder = 12
+    TabStop = False
+    Text = 's'
+  end
+  object btCalc: TButton
+    Left = 742
+    Height = 31
+    Top = 657
+    Width = 90
+    Caption = 'Calculate'
+    OnClick = btCalcClick
+    TabOrder = 3
+  end
+  object laLED1: TLabel
+    Left = 530
+    Height = 23
+    Top = 351
+    Width = 38
+    Caption = 'LED1'
+    ParentColor = False
+  end
+  object laLED2: TLabel
+    Left = 530
+    Height = 23
+    Top = 494
+    Width = 38
+    Caption = 'LED2'
+    ParentColor = False
+  end
+  object edTime: TEdit
+    Left = 640
+    Height = 26
+    Top = 659
+    Width = 85
+    Alignment = taCenter
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object tiSwitches: TTimer
+    Enabled = False
+    Interval = 25
+    OnTimer = tiSwitchesTimer
+    Left = 888
+    Top = 8
+  end
+  object tiCapacitor: TTimer
+    Enabled = False
+    Interval = 1
+    OnTimer = tiCapacitorTimer
+    Left = 832
+    Top = 8
+  end
+end

@@ -1,0 +1,23 @@
+"Marble" application help.
+==========================
+
+"Marble" is a program based on the Windows 95 application "Super Marble Solitaire", distributed as shareware by Wrenware (version 1.1 released in 1995).
+
+The aim of the game is to eliminate all but one marbles with the remaining marble being located in the goal.
+
+Game rules:
+  - the game is played on a board containing a given number of holes;
+  - each hole can be empty or hold one marble;
+  - a legal move consists in one marble jumping over another;
+  - the jumped marble is removed from the board.
+
+The game is over if
+  - there is one single marble left;
+    if this marble is in the goal, you win, otherwise you loose.
+  - if there are several marbles left, but there isn't any legal move; you loose.
+
+You can choose among 8 different board layouts/starting number of marbles, by choosing one of the items in the "Game" menu.
+
+To move a marble, click it in order to select it (its color changes to green), then click the hole where you want to move it. If the move is valid, the marble is moved to the new location (its color becoming red again) and the jumped marble is removed from the board. To unselect the marble actually selected, just click it again (its color changing from green to red).
+
+The goal, where the last marble must be placed, is the board field that is darker than the others.

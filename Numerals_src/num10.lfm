@@ -1,0 +1,360 @@
+object fNumerals: TfNumerals
+  Left = 308
+  Height = 391
+  Top = 171
+  Width = 830
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Foreign languages'
+  ClientHeight = 366
+  ClientWidth = 830
+  DesignTimePPI = 120
+  Font.Height = -18
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object stTitle: TStaticText
+    Left = 10
+    Height = 30
+    Top = 10
+    Width = 390
+    Caption = 'Numerals from 1 to 10 in 45 languages.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object laLanguage: TLabel
+    Left = 10
+    Height = 25
+    Top = 60
+    Width = 77
+    Caption = 'Language'
+    ParentColor = False
+  end
+  object edLanguage: TEdit
+    Left = 98
+    Height = 33
+    Top = 56
+    Width = 132
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 1
+  end
+  object laNumeral: TLabel
+    Left = 10
+    Height = 25
+    Top = 76
+    Width = 67
+    Caption = 'Numeral'
+    ParentColor = False
+  end
+  object edNumeral: TEdit
+    Left = 88
+    Height = 33
+    Top = 72
+    Width = 44
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object laQuestion: TLabel
+    Left = 10
+    Height = 25
+    Top = 105
+    Width = 385
+    Caption = 'Indicate the incorrect numerals for this language.'
+    ParentColor = False
+  end
+  object edNum1: TEdit
+    Left = 40
+    Height = 33
+    Top = 144
+    Width = 100
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object laNum1: TLabel
+    Left = 10
+    Height = 25
+    Top = 148
+    Width = 10
+    Caption = '1'
+    ParentColor = False
+  end
+  object edNum2: TEdit
+    Left = 210
+    Height = 33
+    Top = 144
+    Width = 100
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object laNum2: TLabel
+    Left = 180
+    Height = 25
+    Top = 148
+    Width = 10
+    Caption = '1'
+    ParentColor = False
+  end
+  object edNum3: TEdit
+    Left = 380
+    Height = 33
+    Top = 144
+    Width = 100
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object laNum3: TLabel
+    Left = 350
+    Height = 25
+    Top = 148
+    Width = 10
+    Caption = '1'
+    ParentColor = False
+  end
+  object edNum4: TEdit
+    Left = 550
+    Height = 33
+    Top = 144
+    Width = 100
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object laNum4: TLabel
+    Left = 520
+    Height = 25
+    Top = 148
+    Width = 10
+    Caption = '1'
+    ParentColor = False
+  end
+  object edNum5: TEdit
+    Left = 720
+    Height = 33
+    Top = 144
+    Width = 100
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object laNum5: TLabel
+    Left = 690
+    Height = 25
+    Top = 148
+    Width = 10
+    Caption = '1'
+    ParentColor = False
+  end
+  object cbNum1: TCheckBox
+    Left = 83
+    Height = 23
+    Top = 184
+    Width = 24
+    TabOrder = 8
+  end
+  object cbNum2: TCheckBox
+    Left = 253
+    Height = 23
+    Top = 184
+    Width = 24
+    TabOrder = 9
+  end
+  object cbNum3: TCheckBox
+    Left = 423
+    Height = 23
+    Top = 184
+    Width = 24
+    TabOrder = 10
+  end
+  object cbNum4: TCheckBox
+    Left = 593
+    Height = 23
+    Top = 184
+    Width = 24
+    TabOrder = 11
+  end
+  object cbNum5: TCheckBox
+    Left = 763
+    Height = 23
+    Top = 184
+    Width = 24
+    TabOrder = 12
+  end
+  object edLang1: TEdit
+    Left = 10
+    Height = 33
+    Top = 246
+    Width = 132
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object cbNumLang1: TCheckBox
+    Left = 69
+    Height = 23
+    Top = 286
+    Width = 24
+    TabOrder = 14
+  end
+  object stNumLang1: TStaticText
+    Left = 38
+    Height = 24
+    Top = 216
+    Width = 76
+    Alignment = taCenter
+    Caption = 'one'
+    TabOrder = 15
+  end
+  object edLang2: TEdit
+    Left = 180
+    Height = 33
+    Top = 246
+    Width = 132
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 16
+  end
+  object cbNumLang2: TCheckBox
+    Left = 239
+    Height = 23
+    Top = 286
+    Width = 24
+    TabOrder = 17
+  end
+  object stNumLang2: TStaticText
+    Left = 208
+    Height = 24
+    Top = 216
+    Width = 76
+    Alignment = taCenter
+    Caption = 'one'
+    TabOrder = 18
+  end
+  object edLang3: TEdit
+    Left = 350
+    Height = 33
+    Top = 246
+    Width = 132
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 19
+  end
+  object cbNumLang3: TCheckBox
+    Left = 409
+    Height = 23
+    Top = 286
+    Width = 24
+    TabOrder = 20
+  end
+  object stNumLang3: TStaticText
+    Left = 378
+    Height = 24
+    Top = 216
+    Width = 76
+    Alignment = taCenter
+    Caption = 'one'
+    TabOrder = 21
+  end
+  object edLang4: TEdit
+    Left = 520
+    Height = 33
+    Top = 246
+    Width = 132
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 22
+  end
+  object cbNumLang4: TCheckBox
+    Left = 579
+    Height = 23
+    Top = 286
+    Width = 24
+    TabOrder = 23
+  end
+  object stNumLang4: TStaticText
+    Left = 548
+    Height = 24
+    Top = 216
+    Width = 76
+    Alignment = taCenter
+    Caption = 'one'
+    TabOrder = 24
+  end
+  object edLang5: TEdit
+    Left = 690
+    Height = 33
+    Top = 246
+    Width = 132
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 25
+  end
+  object cbNumLang5: TCheckBox
+    Left = 749
+    Height = 23
+    Top = 286
+    Width = 24
+    TabOrder = 26
+  end
+  object stNumLang5: TStaticText
+    Left = 718
+    Height = 24
+    Top = 216
+    Width = 76
+    Alignment = taCenter
+    Caption = 'one'
+    TabOrder = 27
+  end
+  object btQuestion: TButton
+    Left = 726
+    Height = 31
+    Top = 328
+    Width = 94
+    Caption = 'Start'
+    OnClick = btQuestionClick
+    TabOrder = 28
+  end
+  object mMenu: TMainMenu
+    Left = 776
+    Top = 8
+    object mTest: TMenuItem
+      Caption = 'Test'
+      object mTestLanguage: TMenuItem
+        Caption = 'Language test'
+        OnClick = mTestLanguageClick
+      end
+      object mTestNumber: TMenuItem
+        Caption = 'Number test'
+        OnClick = mTestNumberClick
+      end
+      object mTextExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mTextExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsQuestions: TMenuItem
+        Caption = 'Number of questions ...'
+        OnClick = mOptionsQuestionsClick
+      end
+      object mOptionsRegional: TMenuItem
+        Caption = 'Include regional languages'
+        OnClick = mOptionsRegionalClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="bship.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="10" HistoryIndex="9">
+      <Position1>
+        <Filename Value="bship.lpr"/>
+        <Caret Line="58" Column="83" TopLine="42"/>
+      </Position1>
+      <Position2>
+        <Filename Value="bship.lpr"/>
+        <Caret Line="62" Column="3" TopLine="51"/>
+      </Position2>
+      <Position3>
+        <Filename Value="bship.lpr"/>
+        <Caret Line="121" Column="13" TopLine="108"/>
+      </Position3>
+      <Position4>
+        <Filename Value="bship.lpr"/>
+        <Caret Line="125" Column="80" TopLine="108"/>
+      </Position4>
+      <Position5>
+        <Filename Value="bship.lpr"/>
+        <Caret Line="65" Column="21" TopLine="58"/>
+      </Position5>
+      <Position6>
+        <Filename Value="bship.lpr"/>
+        <Caret Line="67" Column="25" TopLine="59"/>
+      </Position6>
+      <Position7>
+        <Filename Value="bship.lpr"/>
+        <Caret Line="149" TopLine="108"/>
+      </Position7>
+      <Position8>
+        <Filename Value="bship.lpr"/>
+        <Caret Line="51" Column="45" TopLine="44"/>
+      </Position8>
+      <Position9>
+        <Filename Value="bship.lpr"/>
+        <Caret Line="134" Column="30" TopLine="125"/>
+      </Position9>
+      <Position10>
+        <Filename Value="bship.lpr"/>
+        <Caret Line="147" TopLine="121"/>
+      </Position10>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

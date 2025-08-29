@@ -1,0 +1,523 @@
+object fGraph: TfGraph
+  Left = 44
+  Height = 641
+  Top = 120
+  Width = 1460
+  BorderIcons = [biSystemMenu]
+  Caption = 'Circles'
+  ClientHeight = 641
+  ClientWidth = 1460
+  DesignTimePPI = 120
+  Font.Height = -17
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object stTitle: TStaticText
+    Left = 206
+    Height = 30
+    Top = 10
+    Width = 534
+    Alignment = taCenter
+    Caption = 'Analytical Geometry: Circles.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object imDraw: TImage
+    Left = 13
+    Height = 520
+    Top = 64
+    Width = 920
+  end
+  object laCircle: TLabel
+    Left = 962
+    Height = 23
+    Top = 17
+    Width = 50
+    Caption = 'Circle:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 962
+    Height = 23
+    Top = 68
+    Width = 67
+    Caption = 'Center C'
+    ParentColor = False
+  end
+  object edCenter: TEdit
+    Left = 1067
+    Height = 31
+    Top = 64
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object Label7: TLabel
+    Left = 962
+    Height = 23
+    Top = 103
+    Width = 50
+    Caption = 'Radius'
+    ParentColor = False
+  end
+  object edRadius: TEdit
+    Left = 1067
+    Height = 31
+    Top = 99
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 1
+  end
+  object btClose: TButton
+    Left = 1332
+    Height = 31
+    Top = 604
+    Width = 120
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 13
+    Height = 23
+    Top = 608
+    Width = 45
+    Caption = 'Zoom'
+    ParentColor = False
+  end
+  object edScale: TEdit
+    Left = 68
+    Height = 31
+    Top = 604
+    Width = 64
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+    Text = '1'
+  end
+  object tbScale: TTrackBar
+    Left = 152
+    Height = 31
+    Top = 604
+    Width = 600
+    Max = 24
+    OnChange = tbScaleChange
+    PageSize = 1
+    Position = 12
+    TabStop = False
+    TabOrder = 5
+  end
+  object Label8: TLabel
+    Left = 1217
+    Height = 23
+    Top = 103
+    Width = 70
+    Caption = 'Diameter'
+    ParentColor = False
+  end
+  object edDiameter: TEdit
+    Left = 1322
+    Height = 31
+    Top = 99
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object Label9: TLabel
+    Left = 962
+    Height = 23
+    Top = 138
+    Width = 73
+    Caption = 'Perimeter'
+    ParentColor = False
+  end
+  object edPerimeter: TEdit
+    Left = 1067
+    Height = 31
+    Top = 134
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object Label10: TLabel
+    Left = 1217
+    Height = 23
+    Top = 138
+    Width = 94
+    Caption = 'Surface area'
+    ParentColor = False
+  end
+  object edArea: TEdit
+    Left = 1322
+    Height = 31
+    Top = 134
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object laPointA: TLabel
+    Left = 962
+    Height = 23
+    Top = 208
+    Width = 55
+    Caption = 'Point A'
+    ParentColor = False
+  end
+  object edPointA: TEdit
+    Left = 1067
+    Height = 31
+    Top = 204
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object laPointB: TLabel
+    Left = 1217
+    Height = 23
+    Top = 208
+    Width = 54
+    Caption = 'Point B'
+    ParentColor = False
+  end
+  object edPointB: TEdit
+    Left = 1322
+    Height = 31
+    Top = 204
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object laCirclePoints: TLabel
+    Left = 962
+    Height = 23
+    Top = 173
+    Width = 98
+    Caption = 'Circle points:'
+    ParentColor = False
+  end
+  object laTangentPoint: TLabel
+    Left = 962
+    Height = 23
+    Top = 278
+    Width = 52
+    Caption = 'Point F'
+    ParentColor = False
+  end
+  object edTangentPoint: TEdit
+    Left = 1067
+    Height = 31
+    Top = 274
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object laTangent: TLabel
+    Left = 962
+    Height = 23
+    Top = 243
+    Width = 65
+    Caption = 'Tangent:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laTangentEqu: TLabel
+    Left = 962
+    Height = 23
+    Top = 313
+    Width = 68
+    Caption = 'Equation'
+    ParentColor = False
+  end
+  object edTangentEqu: TEdit
+    Left = 1067
+    Height = 31
+    Top = 309
+    Width = 200
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object laIntersectionI1: TLabel
+    Left = 962
+    Height = 23
+    Top = 387
+    Width = 58
+    Caption = 'Point I1'
+    ParentColor = False
+  end
+  object edIntersectionI1: TEdit
+    Left = 1067
+    Height = 31
+    Top = 383
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object laIntersection: TLabel
+    Left = 962
+    Height = 23
+    Top = 352
+    Width = 94
+    Caption = 'Intersection:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laIntersectionI2: TLabel
+    Left = 962
+    Height = 23
+    Top = 422
+    Width = 58
+    Caption = 'Point I2'
+    ParentColor = False
+  end
+  object edIntersectionI2: TEdit
+    Left = 1067
+    Height = 31
+    Top = 418
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object laSquareInnerS1: TLabel
+    Left = 1217
+    Height = 23
+    Top = 278
+    Width = 62
+    Caption = 'Point S1'
+    ParentColor = False
+  end
+  object edSquareInnerS1: TEdit
+    Left = 1322
+    Height = 31
+    Top = 274
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 15
+  end
+  object laSquareInner: TLabel
+    Left = 1217
+    Height = 23
+    Top = 243
+    Width = 100
+    Caption = 'Inner square:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laSquareInnerS2: TLabel
+    Left = 1217
+    Height = 23
+    Top = 313
+    Width = 62
+    Caption = 'Point S2'
+    ParentColor = False
+  end
+  object edSquareInnerS2: TEdit
+    Left = 1322
+    Height = 31
+    Top = 309
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 16
+  end
+  object laSquareInnerS3: TLabel
+    Left = 1217
+    Height = 23
+    Top = 348
+    Width = 62
+    Caption = 'Point S3'
+    ParentColor = False
+  end
+  object edSquareInnerS3: TEdit
+    Left = 1322
+    Height = 31
+    Top = 344
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 17
+  end
+  object laSquareInnerS4: TLabel
+    Left = 1217
+    Height = 23
+    Top = 383
+    Width = 62
+    Caption = 'Point S4'
+    ParentColor = False
+  end
+  object edSquareInnerS4: TEdit
+    Left = 1322
+    Height = 31
+    Top = 379
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 18
+  end
+  object laSquareInnerSide: TLabel
+    Left = 1217
+    Height = 23
+    Top = 417
+    Width = 86
+    Caption = 'Side length'
+    ParentColor = False
+  end
+  object edSquareInnerSide: TEdit
+    Left = 1322
+    Height = 31
+    Top = 413
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 19
+  end
+  object laSquareOuterS1: TLabel
+    Left = 1217
+    Height = 23
+    Top = 307
+    Width = 62
+    Caption = 'Point S1'
+    ParentColor = False
+  end
+  object edSquareOuterS1: TEdit
+    Left = 1322
+    Height = 31
+    Top = 303
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 20
+  end
+  object laSquareOuter: TLabel
+    Left = 1217
+    Height = 23
+    Top = 272
+    Width = 104
+    Caption = 'Outer square:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laSquareOuterS2: TLabel
+    Left = 1217
+    Height = 23
+    Top = 342
+    Width = 62
+    Caption = 'Point S2'
+    ParentColor = False
+  end
+  object edSquareOuterS2: TEdit
+    Left = 1322
+    Height = 31
+    Top = 338
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 21
+  end
+  object laSquareOuterS3: TLabel
+    Left = 1217
+    Height = 23
+    Top = 377
+    Width = 62
+    Caption = 'Point S3'
+    ParentColor = False
+  end
+  object edSquareOuterS3: TEdit
+    Left = 1322
+    Height = 31
+    Top = 373
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 22
+  end
+  object laSquareOuterS4: TLabel
+    Left = 1217
+    Height = 23
+    Top = 412
+    Width = 62
+    Caption = 'Point S4'
+    ParentColor = False
+  end
+  object edSquareOuterS4: TEdit
+    Left = 1322
+    Height = 31
+    Top = 408
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 23
+  end
+  object laSquareOuterSide: TLabel
+    Left = 1217
+    Height = 23
+    Top = 446
+    Width = 86
+    Caption = 'Side length'
+    ParentColor = False
+  end
+  object edSquareOuterSide: TEdit
+    Left = 1322
+    Height = 31
+    Top = 442
+    Width = 130
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 24
+  end
+  object edIntersection: TMemo
+    Left = 1217
+    Height = 66
+    Top = 383
+    Width = 235
+    ReadOnly = True
+    TabOrder = 25
+    TabStop = False
+  end
+end

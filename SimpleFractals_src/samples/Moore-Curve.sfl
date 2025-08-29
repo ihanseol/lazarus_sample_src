@@ -1,0 +1,10 @@
+# Moore-Curve
+
+origin = (240,330)
+displacement = 8
+
+axiom = "4X7FX-F-2X0FX"
+rules = { "X": "+YF-XFX-FY+",
+          "Y": "-XF+YFY+FX-" }
+iterations = 5
+angle = 90

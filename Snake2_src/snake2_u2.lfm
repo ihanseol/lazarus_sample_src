@@ -1,0 +1,154 @@
+object fGame: TfGame
+  Left = 200
+  Height = 668
+  Top = 39
+  Width = 840
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Snake2'
+  ClientHeight = 668
+  ClientWidth = 840
+  DesignTimePPI = 120
+  KeyPreview = True
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  LCLVersion = '1.8.4.0'
+  object shGameWindow: TShape
+    Left = 20
+    Height = 500
+    Top = 110
+    Width = 800
+    Brush.Color = clBlack
+  end
+  object StaticText1: TStaticText
+    Left = 184
+    Height = 30
+    Top = 10
+    Width = 473
+    Alignment = taCenter
+    Caption = 'SNAKE2:  Simple Snake Game'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 20
+    Height = 23
+    Top = 68
+    Width = 50
+    Caption = 'Round'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edRound: TEdit
+    Left = 80
+    Height = 31
+    Top = 64
+    Width = 40
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    Left = 208
+    Height = 23
+    Top = 68
+    Width = 95
+    Caption = 'Snake speed'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSpeed: TEdit
+    Left = 313
+    Height = 31
+    Top = 64
+    Width = 40
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object Label3: TLabel
+    Left = 464
+    Height = 23
+    Top = 68
+    Width = 73
+    Caption = 'Meals left'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edMeals: TEdit
+    Left = 546
+    Height = 31
+    Top = 64
+    Width = 40
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object Label4: TLabel
+    Left = 664
+    Height = 23
+    Top = 68
+    Width = 105
+    Caption = 'Snake length'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edLength: TEdit
+    Left = 780
+    Height = 31
+    Top = 64
+    Width = 40
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object btCancel: TButton
+    Left = 726
+    Height = 31
+    Top = 624
+    Width = 94
+    Caption = 'Cancel'
+    OnClick = btCancelClick
+    TabOrder = 1
+  end
+  object btStart: TButton
+    Left = 608
+    Height = 31
+    Top = 624
+    Width = 94
+    Caption = 'Start'
+    OnClick = btStartClick
+    TabOrder = 0
+  end
+  object tiSnakeMove: TTimer
+    Enabled = False
+    OnTimer = tiSnakeMoveTimer
+    left = 752
+    top = 128
+  end
+  object tiEndOfGame: TTimer
+    Enabled = False
+    OnTimer = tiEndOfGameTimer
+    left = 648
+    top = 128
+  end
+end

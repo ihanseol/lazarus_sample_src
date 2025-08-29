@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="DCircuits3.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="86"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="diodes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fDiodes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="86"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="data.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fData"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="86"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="c:\Programs\lazarus\win64\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="446"/>
+        <CursorPos Y="460"/>
+        <UsageCount Value="9"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="c:\Programs\lazarus\win64\lcl\include\menuitem.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="70"/>
+        <CursorPos Y="83"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="85" Column="20" TopLine="71"/>
+      </Position1>
+      <Position2>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="392" Column="14" TopLine="370"/>
+      </Position2>
+      <Position3>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="425" Column="14" TopLine="403"/>
+      </Position3>
+      <Position4>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="85" Column="20" TopLine="71"/>
+      </Position4>
+      <Position5>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="392" Column="14" TopLine="370"/>
+      </Position5>
+      <Position6>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="421" Column="24" TopLine="403"/>
+      </Position6>
+      <Position7>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="94" TopLine="74"/>
+      </Position7>
+      <Position8>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="390" Column="66" TopLine="368"/>
+      </Position8>
+      <Position9>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="401" Column="7" TopLine="387"/>
+      </Position9>
+      <Position10>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="984" Column="29" TopLine="957"/>
+      </Position10>
+      <Position11>
+        <Filename Value="data.pas"/>
+        <Caret Line="245" Column="101" TopLine="225"/>
+      </Position11>
+      <Position12>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="7" Column="24"/>
+      </Position12>
+      <Position13>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="26" Column="60" TopLine="3"/>
+      </Position13>
+      <Position14>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="28" Column="45" TopLine="5"/>
+      </Position14>
+      <Position15>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="68" TopLine="47"/>
+      </Position15>
+      <Position16>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="59" TopLine="53"/>
+      </Position16>
+      <Position17>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="986" TopLine="959"/>
+      </Position17>
+      <Position18>
+        <Filename Value="data.pas"/>
+      </Position18>
+      <Position19>
+        <Filename Value="data.pas"/>
+        <Caret Line="68" Column="52" TopLine="53"/>
+      </Position19>
+      <Position20>
+        <Filename Value="diodes.pas"/>
+      </Position20>
+      <Position21>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="162" Column="14" TopLine="140"/>
+      </Position21>
+      <Position22>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="190" Column="10" TopLine="168"/>
+      </Position22>
+      <Position23>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="229" Column="10" TopLine="207"/>
+      </Position23>
+      <Position24>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="239" Column="14" TopLine="217"/>
+      </Position24>
+      <Position25>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="370" Column="5" TopLine="347"/>
+      </Position25>
+      <Position26>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="426" Column="12" TopLine="403"/>
+      </Position26>
+      <Position27>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="526" Column="12" TopLine="504"/>
+      </Position27>
+      <Position28>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="731" Column="14" TopLine="709"/>
+      </Position28>
+      <Position29>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="870" Column="14" TopLine="848"/>
+      </Position29>
+      <Position30>
+        <Filename Value="diodes.pas"/>
+        <Caret Line="934" Column="14" TopLine="912"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

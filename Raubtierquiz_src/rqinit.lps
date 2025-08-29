@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="rqinit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="30"/>
+        <CursorPos X="18" Y="45"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="6" HistoryIndex="5">
+      <Position1>
+        <Filename Value="rqinit.pas"/>
+        <Caret Line="59" Column="16" TopLine="47"/>
+      </Position1>
+      <Position2>
+        <Filename Value="rqinit.pas"/>
+        <Caret Line="29" Column="37" TopLine="16"/>
+      </Position2>
+      <Position3>
+        <Filename Value="rqinit.pas"/>
+        <Caret Line="68" TopLine="41"/>
+      </Position3>
+      <Position4>
+        <Filename Value="rqinit.pas"/>
+      </Position4>
+      <Position5>
+        <Filename Value="rqinit.pas"/>
+        <Caret Line="15" Column="12"/>
+      </Position5>
+      <Position6>
+        <Filename Value="rqinit.pas"/>
+        <Caret Line="43" Column="20" TopLine="22"/>
+      </Position6>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

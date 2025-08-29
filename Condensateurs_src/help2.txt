@@ -1,0 +1,14 @@
+Ce programme calcule et représente graphiquement la variation de la tension et du courant en fonction du temps lors de la charge resp. décharge d'un condensateur dans un circuit RC.
+
+L'utilisation du programme est simple: sélectionnez le cas que vous voulez étudier (charge ou décharge), entrez les valeurs pour E, R et C (en tenant compte des unités), puis dans le menu "Calcul", choississez ce que vous voulez calculer: la tension u(t), le courant i(t) ou bien les deux, c'est-à-dire tracer les 2 courbes sur un même graphique.
+
+Les points t/u(t) resp. t/i(t) représentés sur le graphique correspondent à t = τ, t = 2τ, t = 3τ (omis dans le cas des 2 courbes à la fois pour éviter l'encombrement) et t = 5τ (correspondant quasiment au cas où le condensateur est entièrement chargé resp. déchargé).
+
+Notes:
+======
+
+Le programme choisit lui-même les unités pour les résultats, ceci pour avoir de "petits nombres avec 3 décimales".
+
+Les valeurs pouvant être entrés sont limités vers le bas; ceci parce que, si trop petits, ils ne pourront plus être représentés avec juste 3 décimales. Des valeurs trop élevées ne sont pas "proprement" affichés sur le graphique.
+
+La fonction "u(t) et i(t)" dans le menu "Calcul" n'est disponible que pour la charge; à cause du travail supplémentaire dû au courant négatif lors de la décharge, je n'ai pas programmé cette fonctionalité.

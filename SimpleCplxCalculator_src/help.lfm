@@ -1,0 +1,105 @@
+object fHelp: TfHelp
+  Left = 249
+  Height = 501
+  Top = 143
+  Width = 1111
+  BorderIcons = []
+  Caption = 'SimpleCplxCalculator Help'
+  ClientHeight = 501
+  ClientWidth = 1111
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object Memo1: TMemo
+    Left = 9
+    Height = 438
+    Top = 10
+    Width = 1092
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'SimpleCplxCalculator is a very simple calculator application, that may be used to perform basic arithmetic operations (add, subtract, multiply, divide) with complex numbers.'
+      ''
+      'To enter a complex number a = x+yi, proceed as follows:'
+      ''
+      '1. Enter its real part x, just as you would enter any real number.'
+      '2. Start entering the imaginary part by pushing the "+i" or "-i" button (depending on the imaginary part''s sign).'
+      '3. Enter the imaginary part y (as you would do for a positive real number).'
+      ''
+      'You may enter real numbers by simply not adding an imaginary part. To enter a complex number with Re(a) = 0, just start your entry with "+i" or "-i".'
+      ''
+      'Note: When pushing the "+i" or "-i" button, "+0i" resp. "-0i" will be displayed. When entering digits, the "0" will be replaced by them, just as is the initial "0" displayed, when entering a real number on a regular calculator.'
+      ''
+      'Digits, decimal separator and sign buttons.'
+      '============================================'
+      ''
+      '- Digits 0 - 9 ...'
+      '- The decimal seperator used is a period (independently of regional settings).'
+      '- The sign button (+/-) may be used to change the sign of the REAL part of a complex number.'
+      ''
+      'Note: To change the sign of the imaginary part, you may use the conjugate function (see below).'
+      ''
+      'Arithmetic operations buttons:'
+      '=============================='
+      ''
+      'For 2 complex numbers a1 = x1+y1i and a2 = x2+y2i:'
+      ''
+      '  - Addition (+)       x1+y1i + x2+y2i = (x1 + x2) + (y1 + y2)i'
+      '  - Subtraction (-)    x1+y1i - x2+y2i = (x1 - x2) + (y1 - y2)i'
+      '  - Multilication (x)  x1+y1i * x2+y2i = (x1x2 - y1y2) + (x1y2 + x2y1)i'
+      '  - Division (:)       x1+y1i / x2+y2i = [(x1y1 + x2y2) / (x2x2 + y2y2)] + [(x2y1 - x1y2) / (x2x2 + y2y2)]i'
+      ''
+      'Note that operations are performed as they are entered. Thus 2 + 3 x 5 = 25 and not 17, as would be if there was an operator precedence as is in programming languages,'
+      ''
+      '"Imaginary" buttons:'
+      '===================='
+      ''
+      'The buttons "+i" and "-i" have to be used to enter the imaginary part of a complex number. Use "+i" if Im(a) is positive, "-i" if it is negative.'
+      ''
+      'Function buttons:'
+      '================='
+      ''
+      '- Square     (a²)   a * a (see multiplication)'
+      '- Cube       (a³)   a * a * a (see multiplication)'
+      '- Inverse    (1/a)  1 / a (see division)'
+      '- Conjugate  (ā)    for a = x1+y1i, the conjugate is defined as ā = x1-y1i'
+      ''
+      'As the conjugate function inverses the sign of Im(a), you may use this function to change the sign of the imaginary part of a complex (as you use "+/-" to change the sign of its real part).'
+      ''
+      'Note: Functions are applied to the actual complex number without being displayed in the "calculation history".'
+      ''
+      'Memory buttons:'
+      '==============='
+      ''
+      'Memory works exactly the same way as on standard calculators:'
+      ''
+      '- MS  stores the actual number into memory.'
+      '- M+  adds the actual number to the actual memory content.'
+      '- M-  subtracts the actual number from the actual memory content.'
+      '- MR  retrieves the actual memory content (becoming the actual number).'
+      '- MC  clears the memory (sets its content to 0).'
+      ''
+      '"Clear" buttons:'
+      '================'
+      ''
+      'The "Clear" buttons may be used as on standard calculators:'
+      ''
+      '- CA  clear all: clears the actual calculation (including the actual number), but NOT the memory.'
+      '- CE  clear entry: clears the actual number (without affecting the actual calculation).'
+      '- <-  backspace: clears the last digit entered.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 1007
+    Height = 31
+    Top = 464
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

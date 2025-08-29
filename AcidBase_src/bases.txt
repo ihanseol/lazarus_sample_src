@@ -1,0 +1,8 @@
+ammonia                       NH3       00
+barium hydroxide              Ba(OH)2   22
+calcium hydroxide             Ca(OH)2   22
+lithium hydroxide             LiOH      11
+magnesium hydroxide           Mg(OH)2   22
+potassium hydroxide           KOH       11
+sodium hydroxide              NaOH      11
+strontium hydroxide           Sr(OH)2   22

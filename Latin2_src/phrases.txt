@@ -1,0 +1,213 @@
+; Grammaire latine: Phrases avec prépositions
+
+- ad (ac)
+ad #subst# volare: 18n, 21s, 49s, 67s, 84s, 92s, 96s, 124p, 162s
+ad #subst# currere: 5s, 28s, 33s, 35s, 37s, 39s, 42n, 44s, 61s, 71s, 78s, 102n, 113s, 146s, 153s, 163s, 164s
+as #subst# [meus,mea;meum] ambulare: 3s, 9s, 12n, 41s, 43p, 45n, 57n, 59s, 70s, 83s, 95s, 108s, 110s, 114s, 121s, 143s, 150s
+ad #subst# confugere: 77n, 82s, 99s, 179s, 180s
+ad #subst# veniet: 86s, 144s, 173s, 175s, 181s
+ad [viginti,vigintae;viginta] #subst# vidi: 11p, 24p, 26p, 29p, 47p, 55p, 72p, 81p, 97p, 103p, 104p, 117p, 126p, 127p, 135p, 177p
+ad #subst# [tuus,tua;tuum]: 15s, 19s, 22s, 51s, 101s, 145s, 147s, 148s, 174s, 178s, 182s, 183s
+
+- adversus (ac)
+adversus #subst# jacere: 5s, 18n, 33s, 35s, 37s, 39s, 42p, 44s, 61s, 71s, 78s, 92s, 96s, 113s, 124n, 153s, 162s
+adversus #subst# certare: 13p, 47p, 62s, 69s, 85s, 98s, 99s, 105s, 109s, 111s, 117p, 120s, 125s, 128s, 141s, 142s, 145s, 179s, 184s, 185s, 186s, 187s, 157s, 159s, 170s
+ira adversus #subst#: 8s, 9s, 31s, 41s, 43p, 52p, 70n, 81p, 93s, 110s, 138s
+
+- ante (ac)
+ante #subst# versari: 23s, 28s, 33s, 35s, 37s, 39s, 42n, 44s, 47p, 61n, 64s, 71s, 78s, 90s, 91p, 92s, 94n, 96s, 102n, 113s, 117p, 124n, 127s, 138s, 146n, 153s, 162n, 163s, 164s
+ante #subst# abire: 30s, 48s, 63s, 86s, 100s, 115s, 130s, 158s, 175s, 181s, 186s, 187s, 189s
+ante #subst# [suus,sua;suum] abire: 38s, 125s, 154s, 165s, 160s
+
+- apud (ac)
+apud #subst# esse: 4n, 24n, 26n, 27s, 29n, 31s, 34s, 47n, 55n, 65n, 72n, 75s, 81n, 87s, 93s, 97s, 104n, 116n, 118n, 126n, 131s, 138s, 140n, 157s
+apud #subst# [meus,mea;meum] sum: 3n, 9s, 12n, 41s, 43n, 45n, 57n, 59s, 71s, 83s, 95s, 108s, 110s, 114n, 121s, 143n, 150s
+
+- circa (ac)
+circa #subst# esse: 5s, 18s, 28s, 33s, 35s, 39s, 42n, 44s, 61n, 64n, 67s, 71s, 78s, 84s, 96s, 102s, 113s, 124s, 127s, 134p, 146s, 151p, 153s, 164s
+egestas circa #subst#: 4p, 24p, 27p, 56p, 70p, 72p, 75n, 81p, 116p, 126p
+circa [quingenti,quingentae;quingenta] #subst#: 1p, 26p, 29p, 47p, 55p, 91p, 103p, 104p, 112p, 118p, 137p
+
+- circiter (ac)
+circiter #subst# abibimus: 86s, 175s, 181s
+circiter #subst# mensis abibimus: 63s, 189s, 190s
+[octavus,octava;octavum] circiter #subst# abibimus: 17s
+
+- circum (ac)
+circum #subst# esse: 5s, 18s, 28s, 33s, 35s, 39s, 42n, 44s, 61n, 64n, 67s, 71s, 78s, 84s, 96s, 102s, 113s, 124s, 127s, 134p, 146s, 151p, 153s, 164s
+circum [omnis,omnis;omne] [alius,alia;alium] #subst#: 4p, 24p, 26p, 27p, 34p, 47p, 56p, 65p, 70p, 72p, 75p, 81p, 87p, 91p, 110p, 116p, 118p, 126p, 131p, 140p, 170p, 171p
+
+- citra (ac)
+citra #subst# natus est: 5s, 37s, 78s, 92s, 113s, 162s
+citra #subst#: 14s, 19s, 101s, 109s, 111s, 141s, 145s, 147s, 148s, 182s, 183s, 174s, 178s
+citra [Troianus,Troiana;Troianum] #subst#: 144p
+
+- contra (ac)
+contra #subst# jacere: 5s, 18n, 33s, 35s, 37s, 39s, 42p, 44s, 61s, 71s, 78s, 92s, 96s, 113s, 124n, 153s, 162s
+arma contra #subst# tollere: 9s, 24p, 26p, 41s, 47p, 62s, 65s, 81p, 90s, 191s, 91p, 93s, 110s, 116p, 117p, 118p, 126p, 140p, 159s, 170s
+contra #subst# [suus,sua;suum]: 89s, 99s, 109s, 145s, 147s, 188s, 174s, 178s, 179s, 182s, 183s
+
+- erga (ac)
+favor erga #subst# [noster,nostra;nostrum]: 3n, 4n, 12n, 43n, 45n, 57n, 59s, 81n, 83s, 91p, 191s, 95s, 114n, 121s, 143n, 157s, 159s, 177s
+odium erga #subst#: 8s, 9s, 24n, 26n, 27n, 28n, 31s, 34n, 41s, 47p, 52n, 70n, 72n, 75n, 87p, 93s, 97p, 103p, 104p, 110n, 116p, 117p, 118n, 126p
+
+- extra (ac)
+extra #subst# ludere: 33s, 35n, 42n, 44n, 61n, 78n, 92s, 113s, 127s, 146s, 153s, 162s
+extra #subst# esse: 14s, 15s, 174s, 195s, 196s
+
+- in (ac)
+in #subst# venire: 5s, 16s, 18s, 33s, 35s, 39s, 42s, 44s, 61s, 67s, 78s, 92s, 96s, 113s, 124p, 127s, 146s, 153s, 163s
+in #subst# credere: 10s, 28s, 32s, 40s, 74s, 89s, 99s, 101s, 106n, 136s, 147s, 148n, 183s, 156n, 171n, 174s, 178s, 192n
+
+- in (ab)
+in #subst# stare: 5s, 16s, 18s, 33s, 35s, 39s, 42s, 44s, 61s, 67s, 78s, 92s, 96s, 113s, 124p, 127s, 146s, 153s, 163s
+in #subst#: 144s, 198s, 199s, 200p
+
+- infra (ac)
+infra #subst# versari: 1p, 16s, 21s, 23s, 28s, 49s, 58p, 60s, 64s, 66n, 73s, 80s, 102n, 112p, 134n, 139s, 142s, 193p, 151s, 152s, 155s, 164s, 172s, 179s, 197s
+
+- inter (ac)
+inter #subst# esse: 3p, 4p, 8p, 9p, 24p, 26p, 27p, 29p, 31p, 34p, 41p, 43p, 45p, 47p, 52p, 56p, 65p, 70p, 72p, 75p, 81p, 87p, 110p, 114p, 116p, 118p, 121p, 126p, 131p, 138p, 140p, 143p
+inter #subst#: 10p, 37p, 46p, 68p, 100s, 122p, 130s, 184s, 186s, 187s, 194p, 156p, 166p, 168p, 173p, 192p
+
+- intra (ac)
+intra #subst# ludere: 33s, 35n, 42n, 44n, 61n, 78n, 92s, 113s, 127s, 146s, 153s, 162s
+
+- juxta (ac)
+juxta #subst# esse: 11s, 13p, 18s, 21s, 23s, 31s, 33s, 194s, 41s, 42n, 47p, 55p, 64s, 84s, 94s, 97s, 102n, 103n, 104s, 107s, 110s, 112p, 117p, 127n, 134n, 137s, 139s, 193n, 152s, 153s, 155s, 164s, 171s, 172s
+juxta #subst# ambulare: 5s, 35s, 37s, 39s, 44s, 61n, 71p, 78s, 92s, 96s, 113s, 124n, 146s, 162s, 163s
+
+- ob (ac)
+ob #subst# amicam ducere: 1p, 8s, 9s, 23s, 27s, 28s, 31s, 33s, 35s, 39s, 41s, 44s, 52s, 61s, 64s, 71p, 72n, 78s, 90s, 91p, 92s, 94s, 96s, 110s, 112p, 113s, 127s, 146s, 153s, 162s, 164s, 193s, 191s, 194s
+ob #subst#: 25s, 36s, 40s, 50s, 54n, 66n, 73s, 76p, 77p, 112p, 119s, 123s, 127s, 132s, 135n, 136s, 137s, 171s, 180s, 174s, 201p
+
+- penes (ac)
+penes #subst# fuit: 3s, 12s, 27s, 31s, 34s, 43p, 45n, 56s, 59s, 65s, 70s, 72s, 75s, 83s, 131s, 140s
+culpa #subst# penes est: 4s, 8s, 9s, 24n, 41s, 47p, 81n, 87p, 90s, 93s, 110s, 116p, 126p, 138s, 157s, 159s
+
+- per (ac)
+per #subst# ambulavit: 5s, 13p, 16s, 18s, 37s, 42n, 58p, 61n, 67s, 78s, 96s, 112p, 124p, 153s
+per #subst# manebit: 21s, 30s, 48s, 68p, 69s, 86s, 100s, 115s, 130s, 142s, 144s, 156p, 158s, 173s, 180p, 181s, 186s, 187s, 189s
+per #subst#: 174s, 177s, 202s, 203n
+
+- pone (ac)
+pone #subst# versari: 23s, 28s, 33s, 44s, 64s, 127s, 146s, 153s, 193s
+pone #subst# tegere: 21s, 66p, 71s, 73p, 76p, 77p, 94s, 102s, 112p, 132s, 137n, 164s, 204s
+
+- post (ac)
+post #subst# esse: 18s, 21s, 23s, 28s, 33s, 35s, 39s, 194s, 44s, 61s, 71s, 78s, 102s, 113s, 124n, 127s, 146s, 153s, 162s, 164s
+post #subst# [quintus,quinta;quintum]: 46s, 100s, 115s, 122s, 173s
+post #subst# [conditus,condita;conditum]: 62s, 96s, 120s, 157s, 159s, 170s
+
+- praeter (ac)
+praeter #subst# versari: 23s, 28s, 33s, 39s, 44s, 64s, 71s, 78s, 102s, 107s, 113s, 124s, 127s, 134p, 146s, 153s, 162s, 164s, 194s, 201p
+prater #subst#: 14s, 15s, 99s, 101s, 109s, 145s, 147s, 148s, 174s, 178s, 182s, 183s, 196s, 199s, 205s, 206s
+
+- prope (ac)
+prope #subst# esse: 5s, 18s, 23s, 28s, 33s, 35s, 37s, 39s, 42n, 44n, 61n, 64n, 67s, 71s, 78s, 84s, 92s, 96s, 102n, 113s, 124n, 127s, 146n, 153n, 162s, 163s, 164n, 194s
+prope #subst# fuerat: 51s, 101s, 179s, 148s, 183s, 207s
+
+- propter (ac)
+propter #subst# volare: 18n, 21s, 49s, 67s, 84s, 92s, 96s, 124p, 162s
+propter #subst# currere: 5s, 28s, 33s, 35s, 37s, 39s, 42n, 44s, 61s, 71s, 78s, 102n, 113s, 146s, 153s, 163s, 164s
+propter #subst# esse: 23s, 64n, 124n, 127s, 146n, 153n, 164n, 194s
+propter #subst#: 25s, 36s, 40s, 50s, 54n, 66n, 73s, 76p, 77p, 112p, 119s, 123s, 132s, 135n, 136s, 137s, 171s, 180s, 174s, 201p
+
+- secundum (ac)
+iter secundum #subst# facere: 5s, 35s, 37s, 42p, 61p, 71p, 78n, 92s, 102p, 113s, 124n, 193p, 153
+secundum #subst# exire: 30s, 38s, 48s, 68n, 74s
+secundum #subst#: 202s, 206s, 208n
+
+- sub (ac)
+sub #subst# succedere: 35s, 39s, 42s, 44s, 61s, 71n, 78s, 92s, 96s, 113s, 124n, 146s, 153s, 162s, 163s
+sub #subst# ponere: 23s, 28s, 64s, 73s, 84s, 102s, 128s, 134s, 164s
+
+- sub (ab)
+sub #subst# habitare: 5s, 16s, 35s, 39s, 42s, 49s, 58p, 61s, 71n, 78s, 92s, 96s, 102n, 113s, 124n, 142n, 146s, 162s, 163s, 193p, 164s
+sub #subst# esse: 23s, 28s, 64s, 66n, 73s, 84s, 127s, 128s, 134p, 137s, 151n, 194s
+sub #subst# esse: 209s, 210s, 211
+sub #subst# videri: 142s, 181s
+
+- subter (ac)
+subter #subst# esse: 23s, 28s, 36s, 203s, 54s, 58p, 64s, 66s, 73s, 80s, 112p, 127s, 134n, 151n, 152s, 155s
+
+- subter (ab)
+subter #subst# esse: 221s
+
+- super (ac)
+super #subst# jacere: 1p, 23n, 64s, 71s, 78s, 84s, 102n, 146s, 164s
+super #subst# habitare: 5s, 33s, 39s, 44s, 61n, 92s, 96s, 193p
+
+- super (ab)
+#subst# super [medius,media;medium] : 130s
+
+- supra (ac)
+supra #subst# versari: 1p, 16s, 21s, 23s, 28s, 49s, 58p, 60s, 64s, 66n, 73s, 80s, 102n, 112p, 134n, 139s, 142s, 193p, 151s, 152s, 155s, 164s, 172s, 179s, 197s
+
+- tenus (ab)
+#subst# tenus: 33s, 35s, 37s, 39s, 44s, 78s, 92s, 113s, 153n, 162
+#subst# tenus: 21s, 49s, 71s, 84s, 190s, 204s, 102n, 107s, 124n, 127s, 146s, 193p
+
+- tenus (ge)
+#subst# tenus: 33s, 35s, 37s, 39s, 44s, 78s, 92s, 113s, 153n, 162
+#subst# tenus: 21s, 49s, 71s, 84s, 190s, 204s, 102n, 107s, 124n, 127s, 146s, 193p
+
+- trans (ac)
+trans #subst# currere: 1p, 5s, 13p, 16s, 35n, 42n, 58n, 61s, 96s, 112p, 124n, 153s, 163s
+trans #subst# versari: 23s, 28s, 33s, 37s, 39s, 194s, 44s, 64s, 67s, 71s, 92s, 113s, 127s, 146s, 162s
+
+- ultra (ac)
+ultra #subst# versari: 18s, 21s, 28s, 35s, 67s, 71n, 78s, 84s, 92s, 96s, 113s, 124p, 153p, 162
+ultra #subst#: 15s, 19s, 40s, 46p, 79p, 101s, 100s, 115s, 122p, 145s, 148s, 174s, 180s, 183s, 208, 212s, 213s
+
+- ab (ab)
+ab #subst# profectus est: 18s, 33s, 35s, 37s, 39s, 44s, 61s, 71s, 78s, 92s, 96s, 113s, 124s, 127s, 146s, 153s, 162s, 163s
+ibi esse ab #subst# [tertius,tertia;tertium]: 17s, 46s, 79s, 86s, 122s, 130s
+ab [summus,summa;summum] #subst#: 15s, 19s, 74s, 82s, 109s, 145s, 148s, 174s, 178s, 183s, 192s, 199s
+ab #subst#: 25s, 43s, 133s, 211s, 214s
+ab #subst# [suus,sua;suum] deductus est: 3s, 9s, 12s, 41s, 43s, 45s, 57s, 59s, 70s, 83s, 95s, 108s, 110s, 114s, 117s, 121s, 143s, 150s, 170s
+
+- coram (ab)
+coram #subst# [meus,mea;meum]: 3n, 4n, 9s, 12n, 31n, 41s, 43n, 45n, 57n, 59s, 70s, 81n, 83s, 95s, 104n, 108s, 110s, 114n, 117n, 121s, 138s, 143n, 150s, 210s
+
+- cum (ab)
+cum #subst# proficisceri: 3n, 4n, 24p, 26p, 27s, 29n, 34s, 43p, 45n, 47p, 56s, 65s, 70s, 72n, 75s, 87p, 93s, 103p, 110s, 116n, 117n, 118n, 120s, 126n, 131s, 135p, 114s, 157s, 159s
+[magnus,magna;magnum] cum #subst#: 14s, 15s, 19s, 32s, 99s, 101s, 179s, 199s, 109s, 145s, 147s, 148s, 182s, 183s, 184s, 195s, 196s, 166s, 207s, 174s, 178s
+cum #subst#: 5s, 20s, 76p, 132s, 180s, 215p, 216s, 217n, 218s
+
+- de (ab)
+de #subst# descendere: 23s, 35s, 37s, 39s, 44s, 194s, 49s, 64s, 67s, 71s, 84s, 93s, 96s, 124s, 127s, 146s, 153s, 162s
+de #subst# audivisse: 3s, 4s, 29n, 43p, 45s, 47n, 65s, 70s, 75s, 81s, 110s, 116n, 118n, 131s, 140s, 157s
+consilia de #subst#: 30s, 48s, 218s
+de #subst#: 40s, 202n
+
+- ex (ab)
+ex #subst# evolaverunt: 33s, 35s, 39s, 42s, 44s, 61s, 62s, 67s, 96s, 127s, 146s, 153s
+ex #subst# tollere: 5s, 18s, 64s, 71p, 78s, 92s, 113s, 162s, 163s
+ex #subst# non audire: 3n, 4n, 8s, 9s, 27n, 29n, 31s, 34s, 41s, 43p, 45n, 47n, 52n, 56n, 65s, 70n, 72n, 75n, 81n, 87n, 90s, 91p, 93s, 110n, 116p, 118n, 126p, 131s, 138s, 140n, 210s
+ex [eus,ea;eum] #subst# [difficilis,difficilis;difficile]: 17s, 46s, 63s, 68s, 79s, 100s, 115s, 122s, 130s, 144s, 169s, 173s, 180s, 189s, 205s, 214s, 218s
+ex #subst#: 30s, 40s, 55s, 191s, 219s, 220s
+
+- prae (ab)
+prae #subst# versari: 23s, 28s, 33s, 35s, 37s, 39s, 42n, 44s, 47p, 61n, 64s, 71s, 78s, 90s, 91p, 92s, 94n, 96s, 102n, 113s, 117p, 124n, 127s, 138s, 146n, 153s, 162n, 163s, 164s
+prae #subst# [suus,sua;suum]: 15s, 19s, 20s, 22p, 25s, 32s, 216p, 82s, 88s, 89s, 99s, 101s, 109s, 111s, 129s, 136s, 141s, 145s, 147s, 148s, 149s, 182s, 183s, 185s, 188s, 195s, 196s, 179s, 192s, 205s, 207s, 174s, 178s
+
+- pro (ab)
+sedens pro #subst#: 1p, 13p, 23s, 28s, 33s, 39s, 44s, 50s, 54p, 61s, 64s, 66n, 76p, 97n, 102s, 103p, 112p, 127s, 137s, 146s, 153s, 164s
+pro #subst# copias producere: 18s, 35s, 37s, 42p, 71p, 77s, 78s, 92s, 96s, 113s, 124s, 219s, 221s
+pro #subst# agere: 4p, 9s, 29s, 31s, 41s, 43p, 47p, 59s, 65s, 70s, 75s, 81p, 91p, 93s, 108s, 110s, 118s, 126n, 138s, 140s, 150s, 162s, 163s, 170s, 210s, 211s
+pro #subst#: 87p, 134p, 151p, 201p, 208s
+
+- sine (ab)
+sine #subst# fuerant: 5s, 14s, 15s, 19s, 36p, 43p, 45p, 50s, 51s, 55p, 60p, 66p, 75p, 76p, 77p, 80p, 84s, 89p, 98s, 101s, 104n, 119s, 123s, 127n, 132s, 139p, 145s, 147s, 148s, 149s, 153s, 155p, 174s, 178s, 179s, 182s, 183s, 187s, 192p, 195s, 196s, 199p, 208p, 216p
+
+- causa (ge)
+#subst# causa: 18s, 29n, 34s, 35n, 39s, 44s, 47p, 56p, 61s, 62s, 65s, 72n, 75s, 91p, 191s, 92s, 93s, 96s, 97p, 102p, 103p, 113s, 116p, 118p, 120s, 123s, 124p, 126p, 127s, 140p, 210s, 162n, 163s, 164n, 177s
+#subst# [noster,nostra;nostrum] causa: 3n, 9s, 12n, 31s, 41s, 43n, 45n, 55p, 57n, 70s, 83s, 94s, 95s, 198s, 104n, 110s, 114n, 121s, 134p, 138s, 143n, 151p, 153n
+
+- ergo (ge)
+#subst# [suus,sua;suum] ergo: 15s, 19s, 20s, 22p, 25s, 32s, 206s, 69s, 82s, 179s, 192p, 199p, 99s, 101s, 145s, 147s, 148s, 182s, 183s, 185s, 188n, 195s, 196s, 169s, 207s, 174s, 178s
+
+- gratia (ge)
+#subst# gratia: 18s, 29n, 34s, 35n, 39s, 44s, 47p, 56p, 61s, 62s, 65s, 72n, 75s, 91p, 191s, 92s, 93s, 96s, 97p, 102p, 103p, 113s, 116p, 118p, 120s, 123s, 124p, 126p, 127s, 140p, 210s, 162n, 163s, 164n, 177s
+#subst# [noster,nostra;nostrum] gratia: 3n, 9s, 12n, 31s, 41s, 43n, 45n, 55p, 57n, 70s, 83s, 94s, 95s, 198s, 104n, 110s, 114n, 121s, 134p, 138s, 143n, 151p, 153n

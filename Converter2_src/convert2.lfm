@@ -1,0 +1,308 @@
+object fConverter2: TfConverter2
+  Left = 209
+  Height = 376
+  Top = 53
+  Width = 979
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Maths trainer: Measurement units'
+  ClientHeight = 351
+  ClientWidth = 979
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Memo1: TMemo
+    Left = 10
+    Height = 56
+    Top = 48
+    Width = 960
+    Color = clCream
+    Font.Height = -17
+    Lines.Strings = (
+      'Maths exercise generator, dealing with measurement units conversion. The program is primarily intended for American and British primary school pupils; thus, exercises with questions about international units are rather limited.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 2
+    TabStop = False
+  end
+  object stTitle: TStaticText
+    Left = 10
+    Height = 30
+    Top = 5
+    Width = 334
+    Caption = 'American measurement units.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 23
+    Top = 132
+    Width = 177
+    Caption = 'Measurement selection'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object cobMeasure: TComboBox
+    Left = 195
+    Height = 31
+    Top = 128
+    Width = 169
+    Font.Height = -17
+    ItemHeight = 23
+    ItemIndex = 0
+    Items.Strings = (
+      'Length'
+      'Area'
+      'Volume'
+      'Capacity (liquid)'
+      'Capacity (dry)'
+      'Weight'
+      ''
+    )
+    OnChange = cobMeasureChange
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 3
+    TabStop = False
+    Text = 'Length'
+  end
+  object laExercise: TLabel
+    Left = 10
+    Height = 23
+    Top = 180
+    Width = 71
+    Caption = 'Question'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edValue1: TEdit
+    Left = 10
+    Height = 31
+    Top = 216
+    Width = 120
+    Alignment = taCenter
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object edUnit1: TEdit
+    Left = 136
+    Height = 31
+    Top = 216
+    Width = 175
+    Alignment = taCenter
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object Label2: TLabel
+    Left = 329
+    Height = 23
+    Top = 220
+    Width = 12
+    Caption = '='
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edValue2: TEdit
+    Left = 358
+    Height = 31
+    Top = 216
+    Width = 150
+    Alignment = taCenter
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 4
+  end
+  object edUnit2: TEdit
+    Left = 513
+    Height = 31
+    Top = 216
+    Width = 175
+    Alignment = taCenter
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object edEval: TEdit
+    Left = 10
+    Height = 31
+    Top = 256
+    Width = 678
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object Label3: TLabel
+    Left = 719
+    Height = 23
+    Top = 180
+    Width = 76
+    Caption = 'Questions'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edQuestions: TEdit
+    Left = 803
+    Height = 31
+    Top = 176
+    Width = 50
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object Label4: TLabel
+    Left = 719
+    Height = 23
+    Top = 220
+    Width = 56
+    Caption = 'Correct'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCorrect: TEdit
+    Left = 803
+    Height = 31
+    Top = 216
+    Width = 50
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object Label5: TLabel
+    Left = 873
+    Height = 23
+    Top = 220
+    Width = 36
+    Caption = 'False'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edFalse: TEdit
+    Left = 920
+    Height = 31
+    Top = 216
+    Width = 50
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object Label6: TLabel
+    Left = 719
+    Height = 23
+    Top = 260
+    Width = 58
+    Caption = 'Success'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSuccess: TEdit
+    Left = 803
+    Height = 31
+    Top = 256
+    Width = 50
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object btQuestion: TButton
+    Left = 876
+    Height = 31
+    Top = 316
+    Width = 94
+    Caption = 'Question'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object mMenu: TMainMenu
+    left = 922
+    top = 120
+    object mTest: TMenuItem
+      Caption = 'Test'
+      object mTestNew1: TMenuItem
+        Caption = 'American system'
+        OnClick = mTestNew1Click
+      end
+      object mTestNew2: TMenuItem
+        Caption = 'British system'
+        OnClick = mTestNew2Click
+      end
+      object mTestNew3A: TMenuItem
+        Caption = 'International/US'
+        OnClick = mTestNew3AClick
+      end
+      object mTestNew3B: TMenuItem
+        Caption = 'International/UK'
+        OnClick = mTestNew3BClick
+      end
+      object mTestExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mTestExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsExercises: TMenuItem
+        Caption = 'Number of questions ...'
+        OnClick = mSettingsExercisesClick
+      end
+      object mSettingsNames: TMenuItem
+        Caption = 'Use full unit names'
+        OnClick = mSettingsNamesClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

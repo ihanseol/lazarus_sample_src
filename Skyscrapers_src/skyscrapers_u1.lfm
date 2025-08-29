@@ -1,0 +1,638 @@
+object fSkyscrapers: TfSkyscrapers
+  Left = 154
+  Height = 646
+  Top = 64
+  Width = 601
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Skyscrapers'
+  ClientHeight = 621
+  ClientWidth = 601
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Square11: TEdit
+    Left = 80
+    Height = 65
+    Top = 72
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square11Change
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Square12: TEdit
+    Left = 176
+    Height = 65
+    Top = 72
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square12Change
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Square13: TEdit
+    Left = 272
+    Height = 65
+    Top = 72
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square13Change
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Square14: TEdit
+    Left = 368
+    Height = 65
+    Top = 72
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square14Change
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Square15: TEdit
+    Left = 464
+    Height = 65
+    Top = 72
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square15Change
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Square21: TEdit
+    Left = 80
+    Height = 65
+    Top = 160
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square21Change
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Square22: TEdit
+    Left = 176
+    Height = 65
+    Top = 160
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square22Change
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Square23: TEdit
+    Left = 272
+    Height = 65
+    Top = 160
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square23Change
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Square24: TEdit
+    Left = 368
+    Height = 65
+    Top = 160
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square24Change
+    ParentFont = False
+    TabOrder = 8
+  end
+  object Square25: TEdit
+    Left = 464
+    Height = 65
+    Top = 160
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square25Change
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Square31: TEdit
+    Left = 80
+    Height = 65
+    Top = 248
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square31Change
+    ParentFont = False
+    TabOrder = 10
+  end
+  object Square32: TEdit
+    Left = 176
+    Height = 65
+    Top = 251
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square32Change
+    ParentFont = False
+    TabOrder = 11
+  end
+  object Square33: TEdit
+    Left = 272
+    Height = 65
+    Top = 248
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square33Change
+    ParentFont = False
+    TabOrder = 12
+  end
+  object Square34: TEdit
+    Left = 368
+    Height = 65
+    Top = 248
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square34Change
+    ParentFont = False
+    TabOrder = 13
+  end
+  object Square35: TEdit
+    Left = 464
+    Height = 65
+    Top = 248
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square35Change
+    ParentFont = False
+    TabOrder = 14
+  end
+  object Square41: TEdit
+    Left = 80
+    Height = 65
+    Top = 336
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square41Change
+    ParentFont = False
+    TabOrder = 15
+  end
+  object Square42: TEdit
+    Left = 176
+    Height = 65
+    Top = 336
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square42Change
+    ParentFont = False
+    TabOrder = 16
+  end
+  object Square43: TEdit
+    Left = 272
+    Height = 65
+    Top = 336
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square43Change
+    ParentFont = False
+    TabOrder = 17
+  end
+  object Square44: TEdit
+    Left = 368
+    Height = 65
+    Top = 336
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square44Change
+    ParentFont = False
+    TabOrder = 18
+  end
+  object Square45: TEdit
+    Left = 464
+    Height = 65
+    Top = 336
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square45Change
+    ParentFont = False
+    TabOrder = 19
+  end
+  object Square51: TEdit
+    Left = 80
+    Height = 65
+    Top = 424
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square51Change
+    ParentFont = False
+    TabOrder = 20
+  end
+  object Square52: TEdit
+    Left = 176
+    Height = 65
+    Top = 424
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square52Change
+    ParentFont = False
+    TabOrder = 21
+  end
+  object Square53: TEdit
+    Left = 272
+    Height = 65
+    Top = 424
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square53Change
+    ParentFont = False
+    TabOrder = 22
+  end
+  object Square54: TEdit
+    Left = 368
+    Height = 65
+    Top = 424
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square54Change
+    ParentFont = False
+    TabOrder = 23
+  end
+  object Square55: TEdit
+    Left = 464
+    Height = 65
+    Top = 424
+    Width = 65
+    Alignment = taCenter
+    Font.Height = -42
+    MaxLength = 1
+    OnChange = Square55Change
+    ParentFont = False
+    TabOrder = 24
+  end
+  object CountT1: TEdit
+    Left = 98
+    Height = 28
+    Top = 24
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 26
+  end
+  object CountT2: TEdit
+    Left = 194
+    Height = 28
+    Top = 24
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 27
+  end
+  object CountT3: TEdit
+    Left = 290
+    Height = 28
+    Top = 24
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 28
+  end
+  object CountT4: TEdit
+    Left = 386
+    Height = 28
+    Top = 24
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 29
+  end
+  object CountT5: TEdit
+    Left = 482
+    Height = 28
+    Top = 24
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 30
+  end
+  object CountL1: TEdit
+    Left = 24
+    Height = 28
+    Top = 90
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 31
+  end
+  object CountL2: TEdit
+    Left = 24
+    Height = 28
+    Top = 178
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 32
+  end
+  object CountL3: TEdit
+    Left = 24
+    Height = 28
+    Top = 266
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 33
+  end
+  object CountL4: TEdit
+    Left = 24
+    Height = 28
+    Top = 354
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 34
+  end
+  object CountL5: TEdit
+    Left = 24
+    Height = 28
+    Top = 442
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 35
+  end
+  object CountB1: TEdit
+    Left = 98
+    Height = 28
+    Top = 512
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 36
+  end
+  object CountB2: TEdit
+    Left = 194
+    Height = 28
+    Top = 512
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 37
+  end
+  object CountB3: TEdit
+    Left = 290
+    Height = 28
+    Top = 512
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 38
+  end
+  object CountB4: TEdit
+    Left = 386
+    Height = 28
+    Top = 512
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 39
+  end
+  object CountB5: TEdit
+    Left = 482
+    Height = 28
+    Top = 512
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 40
+  end
+  object CountR1: TEdit
+    Left = 552
+    Height = 28
+    Top = 90
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 41
+  end
+  object CountR2: TEdit
+    Left = 552
+    Height = 28
+    Top = 178
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 42
+  end
+  object CountR3: TEdit
+    Left = 552
+    Height = 28
+    Top = 266
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 43
+  end
+  object CountR4: TEdit
+    Left = 552
+    Height = 28
+    Top = 354
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 44
+  end
+  object CountR5: TEdit
+    Left = 552
+    Height = 28
+    Top = 442
+    Width = 28
+    Alignment = taCenter
+    Color = clSilver
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 45
+  end
+  object btCheck: TButton
+    Left = 486
+    Height = 31
+    Top = 584
+    Width = 94
+    Caption = 'Check'
+    Enabled = False
+    OnClick = btCheckClick
+    TabOrder = 25
+  end
+  object mMenu: TMainMenu
+    left = 24
+    top = 10
+    object mSkyscrapers: TMenuItem
+      Caption = 'Skyscrapers'
+      object mSkyscrapers4: TMenuItem
+        Caption = 'New 4x4 grid'
+        OnClick = mSkyscrapers4Click
+      end
+      object mSkyscrapers5: TMenuItem
+        Caption = 'New 5x5 grid'
+        OnClick = mSkyscrapers5Click
+      end
+      object mSkyscrapersCancel: TMenuItem
+        Caption = 'Cancel'
+        OnClick = mSkyscrapersCancelClick
+      end
+      object mSkyscrapersExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mSkyscrapersExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsHints: TMenuItem
+        Caption = 'Allow fill-in help (hints)'
+        Checked = True
+        OnClick = mOptionsHintsClick
+      end
+      object mOptionsHighlight: TMenuItem
+        Caption = 'Highlight correct entries'
+        OnClick = mOptionsHighlightClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpRules: TMenuItem
+        Caption = 'Rules'
+        OnClick = mHelpRulesClick
+      end
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpCopyright: TMenuItem
+        Caption = 'Copyright'
+        OnClick = mHelpCopyrightClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

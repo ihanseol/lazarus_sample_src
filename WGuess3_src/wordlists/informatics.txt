@@ -1,0 +1,197 @@
+accumulator
+adware
+allocation
+analog computer
+analysis
+antivirus
+application
+architecture
+argument
+artificial intelligence
+ascii character set
+assembler
+automata theory
+automation
+background
+background process
+backup
+backup file
+binary file
+bloatware
+buffer
+cascading menu
+central processor
+client
+command line
+command prompt
+compiler
+computational
+compute
+computer address
+computerbased
+computer code
+computer engineering
+computer file
+computer graphics
+computer language
+computer network
+computer peripheral
+computer program
+computer programming
+computer science
+computer security
+computer simulation
+computer software
+configuration section
+control key
+core dump
+core memory
+counter
+cryptography
+cursor
+cyberdating
+cybernetics
+cybernetwork
+cybersystem
+cybertechnology
+database management
+database model
+data compression
+data converter
+data encryption
+data path
+data process
+data track
+data transmission
+descriptor
+desktop
+desktop computer
+desktop publishing
+dialog box
+digital
+digital assistant
+dip switch
+directory
+disk controller
+disk drive
+diskette
+disk file
+display adapter
+document
+downloader
+download manager
+electronic device
+electronic mail
+emulation
+escape key
+execution speed
+expansion slot
+extranet
+file name
+file server
+firewall
+fixed storage
+foreground
+formal language
+free software
+graphic card
+groupware
+hackathon
+hard copy
+hard drive
+heuristic
+home computer
+image processing
+incrementor
+index register
+information processing
+information technology
+input data
+input device
+input file
+instance
+interactive
+internet
+intranet
+laptop
+library
+light pen
+machine code
+machine language
+machine translation
+magnetic disk
+malware
+memory access
+memory cache
+memory chip
+microcode
+microcomputer
+monitor
+motherboard
+mouseclick
+multiload
+multimedia
+multitask
+nanocomputer
+numerical analysis
+object
+online
+open source
+optimizer
+output file
+package
+parameter
+parser
+peripheral device
+personal computer
+pointer
+printer
+procedure
+program
+programmer
+programming language
+program semantics
+query language
+ram disk
+read-only file
+read-only memory
+reference
+register
+response time
+rootkit
+router
+screen saver
+segmentation fault
+serial number
+server
+shift register
+signal processing
+simulation
+software development
+software engineer
+software package
+source code
+spreadsheet
+spyware
+storage allocation
+subdirectory
+subprogram
+sysadmin
+system
+system analysis
+technical support
+terminal emulation
+text editor
+text file
+touchpad
+uninstall
+uploader
+utility program
+video card
+video game
+virtual memory
+virtual reality
+virtual storage
+web server
+window
+word processor

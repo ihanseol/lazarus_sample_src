@@ -1,0 +1,1047 @@
+object fAstable: TfAstable
+  Left = 303
+  Height = 679
+  Top = 154
+  Width = 1251
+  BorderIcons = [biSystemMenu]
+  Caption = 'Astable circuits'
+  ClientHeight = 679
+  ClientWidth = 1251
+  DesignTimePPI = 120
+  Font.Height = -17
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object Shape23: TShape
+    Left = 8
+    Height = 488
+    Top = 184
+    Width = 606
+  end
+  object Shape1: TShape
+    Left = 259
+    Height = 200
+    Top = 318
+    Width = 200
+    Pen.Width = 5
+  end
+  object shDiode3: TShape
+    Left = 33
+    Height = 3
+    Top = 348
+    Width = 226
+    Brush.Color = clBlack
+  end
+  object shDiode4: TShape
+    Left = 33
+    Height = 3
+    Top = 488
+    Width = 226
+    Brush.Color = clBlack
+  end
+  object Shape4: TShape
+    Left = 459
+    Height = 3
+    Top = 418
+    Width = 120
+    Brush.Color = clBlack
+  end
+  object Shape5: TShape
+    Left = 319
+    Height = 115
+    Top = 203
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape46: TShape
+    Left = 399
+    Height = 57
+    Top = 518
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape7: TShape
+    Left = 319
+    Height = 137
+    Top = 518
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Label12: TLabel
+    Left = 271
+    Height = 23
+    Hint = 'Discharge'
+    Top = 338
+    Width = 9
+    Caption = '7'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object Label2: TLabel
+    Left = 271
+    Height = 23
+    Hint = 'Trigger'
+    Top = 478
+    Width = 9
+    Caption = '2'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object Label3: TLabel
+    Left = 315
+    Height = 23
+    Hint = 'Supply voltage'
+    Top = 326
+    Width = 9
+    Caption = '8'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object Label4: TLabel
+    Left = 315
+    Height = 23
+    Hint = 'Ground'
+    Top = 488
+    Width = 9
+    Caption = '1'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object Label11: TLabel
+    Left = 396
+    Height = 23
+    Hint = 'Control'
+    Top = 488
+    Width = 9
+    Caption = '5'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object Label6: TLabel
+    Left = 439
+    Height = 23
+    Hint = 'Output'
+    Top = 408
+    Width = 9
+    Caption = '3'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object StaticText1: TStaticText
+    Left = 319
+    Height = 21
+    Top = 408
+    Width = 81
+    Alignment = taCenter
+    Caption = '555 timer'
+    TabOrder = 8
+  end
+  object Shape9: TShape
+    Left = 99
+    Height = 75
+    Top = 372
+    Width = 23
+  end
+  object Shape10: TShape
+    Left = 109
+    Height = 50
+    Top = 446
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape41: TShape
+    Left = 109
+    Height = 44
+    Top = 328
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape45: TShape
+    Left = 99
+    Height = 75
+    Top = 253
+    Width = 23
+  end
+  object Shape40: TShape
+    Left = 109
+    Height = 50
+    Top = 203
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape14: TShape
+    Left = 59
+    Height = 3
+    Top = 203
+    Width = 520
+    Brush.Color = clBlack
+  end
+  object Shape15: TShape
+    Left = 104
+    Height = 12
+    Top = 198
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Shape16: TShape
+    Left = 104
+    Height = 12
+    Top = 483
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Shape17: TShape
+    Left = 314
+    Height = 12
+    Top = 198
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Shape18: TShape
+    Left = 104
+    Height = 12
+    Top = 342
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Shape42: TShape
+    Left = 109
+    Height = 69
+    Top = 584
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape30: TShape
+    Left = 59
+    Height = 3
+    Top = 657
+    Width = 520
+    Brush.Color = clBlack
+  end
+  object Shape32: TShape
+    Left = 104
+    Height = 12
+    Top = 653
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Shape33: TShape
+    Left = 314
+    Height = 12
+    Top = 653
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Label22: TShape
+    Left = 394
+    Height = 12
+    Top = 653
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Label7: TLabel
+    Left = 19
+    Height = 23
+    Top = 192
+    Width = 32
+    Caption = '+VS'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 31
+    Height = 23
+    Top = 646
+    Width = 20
+    Caption = '0V'
+    ParentColor = False
+  end
+  object shLed1: TShape
+    Left = 552
+    Height = 50
+    Top = 286
+    Width = 50
+    Brush.Color = clLime
+    Brush.Style = bsDiagCross
+    Shape = stCircle
+  end
+  object shLed1a: TShape
+    Left = 576
+    Height = 84
+    Top = 203
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object shLed1b: TShape
+    Left = 576
+    Height = 85
+    Top = 335
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object shLed2: TShape
+    Left = 552
+    Height = 50
+    Top = 501
+    Width = 50
+    Brush.Color = clLime
+    Brush.Style = bsDiagCross
+    Shape = stCircle
+  end
+  object shLed2a: TShape
+    Left = 576
+    Height = 84
+    Top = 418
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object shLed2b: TShape
+    Left = 576
+    Height = 109
+    Top = 550
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object shLed12c: TShape
+    Left = 571
+    Height = 12
+    Top = 414
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object StaticText2: TStaticText
+    Left = 9
+    Height = 29
+    Top = 10
+    Width = 478
+    Caption = 'Using IC-555 to implement astable circuits.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 10
+  end
+  object edAstable: TMemo
+    Left = 9
+    Height = 104
+    Top = 56
+    Width = 1235
+    Color = clMoneyGreen
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'When the output (pin 3) is high (+Vs), the capacitor C is charged by the current flowing through R1 and R2. The threshold and trigger inputs monitor the capacitor voltage and when it reaches ⅔Vs (threshold voltage), the output becomes low and the discharge output (pin 7) is connected to 0V.'
+      ''
+      'The  capacitor now discharges with the current flowing through  R2 into the discharge pin.  When the voltage falls to ⅓Vs (trigger voltage), the  output becomes high again and the discharge pin is disconnected, allowing the capacitor to start charging again. '
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 11
+    TabStop = False
+  end
+  object edLeds: TMemo
+    Left = 639
+    Height = 102
+    Top = 184
+    Width = 605
+    Color = clCream
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'LED1 goes on, if the timer output is logic low: LED1 = on indicates the space time period, LED1 = out the mark time period.'
+      ''
+      'LED2 goes on, if the timer output is logic high: LED2 = on indicates the mark time period, LED2 = out the space time period.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 12
+    TabStop = False
+  end
+  object laR1: TLabel
+    Left = 74
+    Height = 23
+    Top = 279
+    Width = 21
+    Caption = 'R1'
+    Font.Color = clBlue
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laR2: TLabel
+    Left = 74
+    Height = 23
+    Top = 398
+    Width = 21
+    Caption = 'R2'
+    Font.Color = clBlue
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edComponents: TMemo
+    Left = 639
+    Height = 48
+    Top = 304
+    Width = 605
+    Color = clCream
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'The supply voltage VS should best be between +4.5V and +15V.'
+      'R1 and R2 should be between 1kΩ to 1MΩ.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 15
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 1154
+    Height = 31
+    Top = 638
+    Width = 90
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 6
+  end
+  object Shape6: TShape
+    Left = 375
+    Height = 5
+    Top = 572
+    Width = 50
+    Brush.Color = clBlack
+  end
+  object Shape11: TShape
+    Left = 375
+    Height = 5
+    Top = 583
+    Width = 50
+    Brush.Color = clBlack
+  end
+  object Shape47: TShape
+    Left = 399
+    Height = 76
+    Top = 583
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Label1: TLabel
+    Left = 351
+    Height = 23
+    Top = 595
+    Width = 41
+    Caption = '10 nF'
+    ParentColor = False
+  end
+  object Label13: TLabel
+    Left = 271
+    Height = 23
+    Hint = 'Threshold'
+    Top = 408
+    Width = 9
+    Caption = '6'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object Shape12: TShape
+    Left = 209
+    Height = 3
+    Top = 418
+    Width = 50
+    Brush.Color = clBlack
+  end
+  object Shape13: TShape
+    Left = 85
+    Height = 9
+    Top = 568
+    Width = 50
+    Pen.Width = 2
+  end
+  object Shape20: TShape
+    Left = 85
+    Height = 9
+    Top = 583
+    Width = 50
+    Brush.Color = clBlack
+  end
+  object Label23: TShape
+    Left = 109
+    Height = 82
+    Top = 488
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object laC: TLabel
+    Left = 79
+    Height = 23
+    Top = 595
+    Width = 11
+    Caption = 'C'
+    Font.Color = clBlue
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 396
+    Height = 23
+    Hint = 'Reset'
+    Top = 326
+    Width = 9
+    Caption = '4'
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object Label5: TLabel
+    Left = 639
+    Height = 23
+    Top = 389
+    Width = 119
+    Caption = 'Capacitance (C)'
+    ParentColor = False
+  end
+  object edC: TEdit
+    Left = 764
+    Height = 31
+    Top = 385
+    Width = 98
+    Alignment = taRightJustify
+    OnChange = edCChange
+    TabOrder = 0
+  end
+  object cobUC: TComboBox
+    Left = 869
+    Height = 31
+    Top = 385
+    Width = 58
+    ItemHeight = 23
+    ItemIndex = 0
+    Items.Strings = (
+      'µF'
+      'nF'
+    )
+    Style = csDropDownList
+    TabOrder = 7
+    TabStop = False
+    Text = 'µF'
+  end
+  object laRes1: TLabel
+    Left = 639
+    Height = 23
+    Top = 429
+    Width = 103
+    Caption = 'Resistance R1'
+    ParentColor = False
+  end
+  object edR1: TEdit
+    Left = 764
+    Height = 31
+    Top = 425
+    Width = 98
+    Alignment = taRightJustify
+    OnChange = edR1Change
+    TabOrder = 1
+  end
+  object cobUR1: TComboBox
+    Left = 869
+    Height = 31
+    Top = 425
+    Width = 58
+    ItemHeight = 23
+    ItemIndex = 0
+    Items.Strings = (
+      'kΩ'
+      'MΩ'
+    )
+    OnChange = cobUR1Change
+    Style = csDropDownList
+    TabOrder = 9
+    TabStop = False
+    Text = 'kΩ'
+  end
+  object Label16: TLabel
+    Left = 639
+    Height = 23
+    Top = 509
+    Width = 115
+    Caption = 'Time period (T)'
+    ParentColor = False
+  end
+  object edT: TEdit
+    Left = 764
+    Height = 31
+    Top = 505
+    Width = 98
+    Alignment = taRightJustify
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 16
+  end
+  object btCalc: TButton
+    Left = 952
+    Height = 31
+    Top = 638
+    Width = 90
+    Caption = 'Calculate'
+    OnClick = btCalcClick
+    TabOrder = 5
+  end
+  object Shape21: TShape
+    Left = 399
+    Height = 115
+    Top = 203
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape22: TShape
+    Left = 394
+    Height = 12
+    Top = 198
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object Label24: TShape
+    Left = 209
+    Height = 72
+    Top = 418
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object Shape34: TShape
+    Left = 204
+    Height = 12
+    Top = 483
+    Width = 12
+    Brush.Color = clBlack
+    Shape = stCircle
+  end
+  object imDiode: TImage
+    Left = 9
+    Height = 40
+    Top = 389
+    Width = 50
+    Picture.Data = {
+      0A544A706567496D61676544120000FFD8FFE000104A46494600010101007800
+      780000FFE10EA645786966000049492A000800000000000E0000000800000104
+      0001000000000100000101040001000000840000000201030003000000740000
+      0003010300010000000600000006010300010000000600000015010300010000
+      000300000001020400010000007A0000000202040001000000240E0000000000
+      00080008000800FFD8FFE000104A46494600010101007800780000FFDB004300
+      03020203020203030203030303030407050404040409060705070A090B0B0A09
+      0A0A0C0D110E0C0C100C0A0A0E140F1011121313130B0E141614121611121312
+      FFDB00430103030304040408050508120C0A0C12121212121212121212121212
+      1212121212121212121212121212121212121212121212121212121212121212
+      1212121212FFC0001108008400A503012200021101031101FFC4001D00000104
+      0301010000000000000000000000010208090406070503FFC400471000010302
+      04030405060B0607000000000100020304110506072108123113224151096191
+      92E114175262C1D215181932365671818294D11625537274B1232433426465A1
+      FFC40014010100000000000000000000000000000000FFC40014110100000000
+      000000000000000000000000FFDA000C03010002110311003F00B534D0F06FEA
+      4E58589D4FC9299EE6B4B8F2F820CA0E691D47B534BF94EE45946DD54E22A1D3
+      BA87C35E0B0D891CC6CB9A378E1C32A620D648C0E02E7BFF0014137C39A7A11E
+      D4BCEDF30A0CC1C70E1AC796BE46EE7C5FF159278DEC2FFC58FDF413779DBE61
+      1CEDF30A117E3BF85FF8B1FBE81C6F617CC3FE2B3DF41370969F10B8F7113A79
+      4D9BB2956C92C6D79829C95C1AAF8EAC2628400584DFA87FC578B9B38DEC2ABB
+      2BE2101E52668081DEF8A08367205253EAD0C38C42CEE636B7D656C9C3BE9750
+      65CCAD43530C4D63A584127654F92EAE5354EAB3714000600475FACA78E9C71A
+      D86E1F97E969647B41863B6EEF8A0B048C321686B48DBD69DCCD71EA3DAA0D4D
+      C6EE1C64DA665BFCFF0014F6F1BB86B5A2F2B3DFF8A09C65C00D88F6A68783B1
+      70F6A83EDE38F0CE70DED19B9EBCFF0015F4A8E34F0D8CF38A88EDE5CE826EF3
+      35BE23DA836BF51ED50764E3870C8DAC25ED3BEFDFF8AFBD471DB84082CD2CE6
+      B783BE2826D19003D47B53AE36B78A8C1A57C45C5A81344CA5B9E700F5525F0F
+      97B6A1864775736E83209B74421A79821039635447DB02D90774AC94C70F3DD0
+      423E3A742A6CD58555E2F42270D82122F1BCB7A8F57EC55BFA7DA5F1D4E69928
+      315ADAF172D6D8CEF3D76F357C39AF2F419A3089B0FAC673C330EF34F8AAB8E2
+      C347310D36CCAFC672AC7F278E3A98DC7963BDDA1F73D3D483DDCBDE8F9A1CC7
+      45155C4EC45C1EC0EB8A89075FE25ED7E4DAA476FF00DE5FCCC9F79767E0BF88
+      CA2CDF819C3ABE573AAA1B43671B6E0FAD4C16C82E00DC798415AFF936693FF6
+      5FCCC9F791F936A906E3F097F3327DE56597B754BD420ACF77A37A989B118890
+      3FF224FBC95FE8E0A59D858E6E205B6B106793FAAB2EE5F343581BD3C5056433
+      D1878330F38A4AAED3CFB47DFF00DD117A3620648406622D68E96A8907DAACE2
+      DBA0F4D90568B7D1B3487AFE12FE664FBC9CEF46D519DBFBCBF9993FAAB2A603
+      E25048E6415A23D1B1480936C4AFFEA64FBC98EF46E533DF779C5397FD4CBF79
+      598BBA5C2F9BA46B2325FB347541591993D1FB8660784BE62FC4418D85DBD449
+      E03FCCA1AE6BD2B76179D22C3282AAB8874AE67299DFE1FBD59DF173C40C1957
+      0D96870F95CDA873BB3EE9BF53651B3870D07C6B557373331630E6C94ECA973B
+      95ECB6C4FACA0ED9C1A68855E078750D75436620B1BBB9C4F87AD4EAA28BB2A4
+      8E2FA0DB2F1F26E55A7CAB8445474B18608FA596C20590230728425B59081534
+      0DF74E4D2437AA0639C5AED82E49AEDA65499C72E4E258A373CB1C776DCF45D7
+      BA8D96257D20AC84C728BB5C2C829BF0FA9C4F87CD5663B9278E8EA2BDEE22E0
+      36DD7EC5689A21ABB45A8996E9AA9B2C624940EEDF7E8A3AF1BDA054D8B617F8
+      4707A7BCB4F1979772F4362A37F08BACB5F9171CA5C171D9844D800162EF5D90
+      5B7B5C1DB83B79A773EF65E0652C7A1CC38252D453BF9FB46735D7B249328F24
+      190842100842426C8184F2B804FDBA94D2017028779040A5DEC5CAB5CB5628F4
+      E32C55D44D2C62485B7E5277E8B7ACCB98A9B2F615535354FE411C65D7BAAA1E
+      34B5EAAF3FE6C932EE5EA86CADAA89E080FF002B0FB5061D66333F105A91335A
+      6434F1D4B1E0037077BAB27E1F34FE0C95959B0B226873D80DEDBA8C3C1970CE
+      EC1B0BA5C62BA9ACFA98C38BADD4D94F0C368D9434AC8DA2DC8D0106544DB0B9
+      EABE8BE6CE6E6DFA2FA20108420135CDBA7210211B6C92DB6E9C841AF66DCB94
+      B98B06AAA7AD89B2F68CE517555DC57E9255E9C66CA8C6B2FB5D0C708279636F
+      AEEADBE4607B6C7A15C335F74629B3DE11521D1F3BA407A041C33834E25A0C66
+      89B85E28E776B030476936DECA6F515436AE06CACB10E008FDEA97B1CA6C4F40
+      B529B2C4C962A47D6B0125F6165679C3B6B252EA3E588248A68DEE0D6B3BBE60
+      59076F6F447326B1BCA7AA52102DF7484EFD125EC2E53858840D7F982B16B6B9
+      9454CE9A62034027759361D2FD570DE24B5669723E579DA276B666730B5EC838
+      4716FC4A4183514D87D0BDDDA4A1D1D986F73BA8E9C26E90546A967AA6C771DA
+      67C91C8E77FD565B62E1FD16974F4189EB9EA645664B2D232BBBC438DAD6F8AB
+      48D02D23A3D3BCAF4F1C70B1B2B034EEDDFA20E8D95F2FD3E59C1E9E8A9236B1
+      B0B79406AF6F97C50DDC5CA07540A0A724B8BDBC52A0108420108420108497BA
+      0475FC17C2AE1EDE02C76F75907F65D35DD3EC4107F8C8E1E8E65C224ACA4A76
+      BA46DE4BF2DF70A37708BAA55BA558D8C0B1995D186D5496162DD83CAB5BCC38
+      1D3E3B86CF4F55131E1F1968E60AB738A4D187E45CD2DC5B07618DB1873C98C7
+      9EE82C5B2566B8334E150D4D3BC3FB417BDEEB64DF7BA84BC1DEB5D3D70830DC
+      4AAD8D9238C5DAF77891F0535A9E76D4C0D9186ED78B823C502C9BB128079459
+      28171629934A2185EF75ACC04941E3664CCB4B96A99F3D73B95AC173BD9554F1
+      8DAC1519FB51AAF03C0253243239B668BBBAB88527B8CDD6D8707C2EAA970FAA
+      6B67744435AC76F701701E1174327D4FCC11661CC25EF3531B1D798795CFDA83
+      B6F063A06703A16E2189403B4980941E5B6FB29C31C3D9B5AC6FE68165E5659C
+      B94D9730C8296963633B2606DDA3AAF646DD4A05D80B049F9BD504A43B91BA07
+      068BDC754E4D1B1B2720108420131C5D7D827A613CDD1028B91BA00B149B8D89
+      08DC205B9497B94BD41B6C9AD043B74013E1E6B956B8695C19FB02A98CC5CF23
+      D96161EA5D58B2E764D759C395DB82829B738E59C6387CD46756523648A98CD1
+      B0DE4200EFDBED565FC3F6AD333E658A4BCAD7BE185A0D8DF75CCB8B8D007672
+      C0EA2B6918CED2E5E0DAE76DD446E1DF59F10D2DCDB5781E312CAC6B2ACC6DBB
+      4816082DAC8B8B85C6B884D60669D6599A4A491A26963734871B6EBD5C0359F0
+      C932B0C4AA668CB4017BC83C956FF117ADB5DAB1A873E5FCBF24D2450D5B5AE0
+      D617000941ABE0B85E3DC476A9C2FC66271C3C54C8D3C921371CD6E8AD2B43F4
+      930FD36CAF494D451F23E16DAC5B6F05C6B840D12832DE5F655E274BFF00345D
+      CE1CE6D8EE6EA5810226D9BD3C9001D77A739A1C5232C6E404E71EEDD02D8016
+      4DE50DDEE9237F3B884E22E37E881C0876E12AF9B1E39B95A17D100842100B0B
+      11AC661D4D2CD23800C693BACD5E3E67A36D660B58D78B9EC8D90703D40E2C28
+      3276266095F0F76FD48F05A9CBC79E16C8C11F263FBC2859C69654C6999A1EEC
+      218EE4B3EFB1F52894FC1B3600039AE22FF45C82E11BC7B61A7AB6987EF09EFE
+      3D30C6B7614DED0AA01B81E6A919B31F703E8B935D9773739B62D3EEB905BF9E
+      3DB0C6806D4DBFAC25671ED863C175A9B6F5854FCECB99BDED00B4EDF55C963C
+      B79BDADE40D3BFD5720B76C538DFC1B1AA2969EA45259CC70EF107A855F9C40E
+      A0E1ECCD31E278349135D254190F65B7815C425C9D9C61884CE0794FD472F1B1
+      8C9798F148C3EA58EE5877376390778ABE28F108F204B430D44ED7DB6B49BF44
+      70C9A8F4B8166CADC631BECEAA4A895AF3DB77AD603CD458A9C2ABE3A8F91D8F
+      31DFA15BBE0B9233451D2365A46F7246FD0720B84CB5C716090D1C51471D1D3B
+      23635A796C3A0B2C8A8E3BB0C6D69644699EC1FF00702153F372D66E6C4E6069
+      B38EFDD7274397B37C0DE56B4FEF6B905C3D471DF8442C6F66FA571237171B26
+      B38EFC29CCEFBA99A7CAE153AB72B66D6485E03AE4DCF75C925C13363DDDE6BB
+      9874EEB905C47E3E385467634DBFAC273B8EFC2F9DAC069AEEE9B854F90656CD
+      F5360C0EDBEAB97A545923383B1181D38361E4D720BEFD29D4B8B51304A7AF80
+      339671705BFB16FE0DD44EE05C565269E6114B885C48C89BCC2DE3CA14B06F52
+      81C842100BE2F8C3DAE6C9DE6BBA82BEC99B128356C5F4BB2C6392F698AE114B
+      50E3E2F6DD799F317910F5CB987FB8B7C248361D129D86FB20D0FE633228E997
+      283DC47CC6E46FD5DA0F756F81C1C94FA90688DD0DC8DFABB41EE23E633237EA
+      ED07B8B7BDD2125068AED10C90459D97A848F2E45ABEA2E88E49A7C9F8ACB4B9
+      7E858F653920866EBB0137D9DD16B1A8EF1064AC5DC373F273B1FDA105366219
+      6F0B76B6B28461D1888B5C797976FCE0AD4B4A34632655648C31F5580513DE61
+      1725AAB16AB129E4E21633D9339431FE03E9856E5A482F9230C71D898420C7F9
+      8DC8DFABB41EE243A1B91AFF00A3B41EEADF3746E8343F98EC8D6FD1DA0F7530
+      686E4527F46E83DC5BF1BA07FF005068ADD0EC8CD1DDCBD403F817CEA3437264
+      9BC78151348F1E55BE0DC94E76C7641E2E5DCA786E5AA764385D2450359D3902
+      F7135A6E9C8042108049CA10840590403D5084081A0744E421009A4D8A108108
+      046EB57D4E68FEC3E2FEAA63FEE108415038838C5ADED7B36759DBFF0012B5AD
+      0AAF9AA728E1EC99D76884590841D3D084201258210818FEE8D92444B81BA108
+      1C3AA7A1080421083FFFD9000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000FFDB00430006040506050406060506070706080A10
+      0A0A09090A140E0F0C1017141818171416161A1D251F1A1B231C1616202C2023
+      2627292A29191F2D302D283025282928FFDB0043010707070A080A130A0A1328
+      1A161A2828282828282828282828282828282828282828282828282828282828
+      282828282828282828282828282828282828282828FFC0001108002800320301
+      2200021101031101FFC4001B0000020301010100000000000000000000000604
+      0507080103FFC400351000010304010104070607000000000000010203040005
+      0611072122314151121314326171D21516235681931752536391B2D1FFC40014
+      010100000000000000000000000000000000FFC4001411010000000000000000
+      0000000000000000FFDA000C03010002110311003F00E8ECCAF126C18E4EBA44
+      82B9EB8AD974C741014A48EFD6FC875FD2B3BB3F28E4F78B7B53AD9C7F729311
+      E1E936E37219D1F8755F856BCB0140820107C0D64501C571967BF66B80A713BF
+      BC5C8CA27B10E51F791E402BBF5E74125FCE7307D95B2F71A5D16DB80A54953E
+      CE8823A8F7A93B8BE56618559A4C34F1BCF5BCF495BE5C6DD64765476127B5E0
+      2BA141DD7A6832CFBFD9A6F478DEEA3AFF005D9D7FBD4DE38E439D985EEE3024
+      63F22DA9807D07DC71C4AC073F97B24D7DF95F2B93678512CD606FDA323BC39E
+      CD11B1BFC307DE7547C02478D5F6098D46C571D8F6E8E905C03D37DDEF53AE1E
+      AA528F89F8D030D145140550E6F8D43CB31E936B9E9DA1C1B42FC50B1EEA87C8
+      D4DBEDE6DD6182A9B7796DC48A92125C70F4D9A5AFE2A611F9920FF957FCA085
+      C4D7D9EE45918D64BD2FF68FC25A8F73ED6F48707CC6B7F1A72BFDDE258ACF2E
+      E772703712320B8E2BC742B18E4CCCB1332616578CDFEDEABFDB0ECB614A0653
+      07A2DB3FA6C8F95554CE4BC6F91F288116EB7166DF8BDBD0DCA7DB90B23DB241
+      D908D0E8529D0DEE81F38A2C736E571979C64B1CB775B88D43657DF163F8003C
+      091ADD6A029213CA58325002723B7A400349D91AF21DDD2AF31BCAEC592AA40B
+      0DCE3CEF50125DF544F677DDBE9E3AA0BCA28A282AF25B05B326B4BB6CBEC44C
+      C80E9056D29452091DDD4106920705F1BEB5F75A3F4FEFBDF5D14500AE0DE37F
+      44818B46FDE77EBA42E17E28C1EFF8BCC9377B031264A2E121A0A53AE2484257
+      A48D05F9514503E9E0BE37FCAD1BF7DEFAE9970EC171BC3972558CDADA81ED21
+      21DF56B5282B5DDDE4F9D1450335145141FFD9
+    }
+  end
+  object shDiode2: TShape
+    Left = 33
+    Height = 66
+    Top = 424
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object shDiode1: TShape
+    Left = 33
+    Height = 46
+    Top = 348
+    Width = 3
+    Brush.Color = clBlack
+  end
+  object laLED1: TLabel
+    Left = 529
+    Height = 23
+    Top = 336
+    Width = 38
+    Caption = 'LED1'
+    ParentColor = False
+  end
+  object laLED2: TLabel
+    Left = 529
+    Height = 23
+    Top = 478
+    Width = 38
+    Caption = 'LED2'
+    ParentColor = False
+  end
+  object laRes2: TLabel
+    Left = 957
+    Height = 23
+    Top = 429
+    Width = 103
+    Caption = 'Resistance R2'
+    ParentColor = False
+  end
+  object edR2: TEdit
+    Left = 1081
+    Height = 31
+    Top = 425
+    Width = 98
+    Alignment = taRightJustify
+    OnChange = edR2Change
+    TabOrder = 2
+  end
+  object cobUR2: TComboBox
+    Left = 1186
+    Height = 31
+    Top = 425
+    Width = 58
+    ItemHeight = 23
+    ItemIndex = 0
+    Items.Strings = (
+      'kΩ'
+      'MΩ'
+    )
+    OnChange = cobUR2Change
+    Style = csDropDownList
+    TabOrder = 13
+    TabStop = False
+    Text = 'kΩ'
+  end
+  object Label17: TLabel
+    Left = 957
+    Height = 23
+    Top = 509
+    Width = 98
+    Caption = 'Frequency (f)'
+    ParentColor = False
+  end
+  object edF: TEdit
+    Left = 1081
+    Height = 31
+    Top = 505
+    Width = 98
+    Alignment = taRightJustify
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object Label15: TLabel
+    Left = 1186
+    Height = 23
+    Top = 509
+    Width = 20
+    Caption = 'Hz'
+    ParentColor = False
+  end
+  object Label18: TLabel
+    Left = 639
+    Height = 23
+    Top = 469
+    Width = 115
+    Caption = 'Mark time (Tm)'
+    ParentColor = False
+  end
+  object edTm: TEdit
+    Left = 764
+    Height = 31
+    Top = 465
+    Width = 98
+    Alignment = taRightJustify
+    OnChange = edTmChange
+    TabOrder = 3
+  end
+  object cobUTm: TComboBox
+    Left = 869
+    Height = 31
+    Top = 465
+    Width = 58
+    ItemHeight = 23
+    ItemIndex = 1
+    Items.Strings = (
+      'ms'
+      's'
+      'min'
+    )
+    OnChange = cobUTmChange
+    Style = csDropDownList
+    TabOrder = 17
+    TabStop = False
+    Text = 's'
+  end
+  object Label19: TLabel
+    Left = 957
+    Height = 23
+    Top = 469
+    Width = 114
+    Caption = 'Space time (Ts)'
+    ParentColor = False
+  end
+  object edTs: TEdit
+    Left = 1081
+    Height = 31
+    Top = 465
+    Width = 98
+    Alignment = taRightJustify
+    OnChange = edTsChange
+    TabOrder = 4
+  end
+  object cobUTs: TComboBox
+    Left = 1186
+    Height = 31
+    Top = 465
+    Width = 58
+    ItemHeight = 23
+    ItemIndex = 1
+    Items.Strings = (
+      'ms'
+      's'
+      'min'
+    )
+    OnChange = cobUTsChange
+    Style = csDropDownList
+    TabOrder = 18
+    TabStop = False
+    Text = 's'
+  end
+  object Label20: TLabel
+    Left = 639
+    Height = 23
+    Top = 549
+    Width = 78
+    Caption = 'Duty cycle'
+    ParentColor = False
+  end
+  object edDutyCycle: TEdit
+    Left = 764
+    Height = 31
+    Top = 545
+    Width = 98
+    Alignment = taRightJustify
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 19
+  end
+  object Label21: TLabel
+    Left = 869
+    Height = 23
+    Top = 549
+    Width = 14
+    Caption = '%'
+    ParentColor = False
+  end
+  object laUT: TLabel
+    Left = 869
+    Height = 23
+    Top = 509
+    Width = 20
+    Caption = 'Hz'
+    ParentColor = False
+  end
+  object btStart: TButton
+    Left = 1053
+    Height = 31
+    Top = 638
+    Width = 90
+    Caption = 'Start'
+    OnClick = btStartClick
+    TabOrder = 20
+  end
+  object edTimeMark: TEdit
+    Left = 683
+    Height = 26
+    Top = 641
+    Width = 85
+    Alignment = taCenter
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 21
+  end
+  object Label10: TLabel
+    Left = 639
+    Height = 23
+    Top = 642
+    Width = 38
+    Caption = 'Mark'
+    ParentColor = False
+  end
+  object edTimeSpace: TEdit
+    Left = 843
+    Height = 26
+    Top = 641
+    Width = 85
+    Alignment = taCenter
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 22
+  end
+  object Label14: TLabel
+    Left = 792
+    Height = 23
+    Top = 642
+    Width = 45
+    Caption = 'Space'
+    ParentColor = False
+  end
+  object tiCapacitor: TTimer
+    Enabled = False
+    Interval = 1
+    OnTimer = tiCapacitorTimer
+    Left = 1208
+    Top = 8
+  end
+end

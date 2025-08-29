@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="9">
+      <Unit0>
+        <Filename Value="Latin1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="74"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="latin1_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLatin1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="74"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="latin_declensions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="74"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="latin1_nouns.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fNouns"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="50"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="latin1_adjs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fAdjs"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="46"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="latin1_help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="latin1_adjectives.pas"/>
+        <ComponentName Value="fNouns"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="49" Y="31"/>
+        <UsageCount Value="20"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="latin1_nouns.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="19"/>
+      </Unit8>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="latin1_nouns.pas"/>
+        <Caret Line="27" Column="82" TopLine="15"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Latin1.lpr"/>
+        <Caret Line="26" Column="39"/>
+      </Position2>
+      <Position3>
+        <Filename Value="latin1_help.pas"/>
+        <Caret Line="42" TopLine="16"/>
+      </Position3>
+      <Position4>
+        <Filename Value="latin1_adjs.pas"/>
+        <Caret Line="3" Column="64"/>
+      </Position4>
+      <Position5>
+        <Filename Value="latin1_adjs.pas"/>
+        <Caret Line="43" TopLine="17"/>
+      </Position5>
+      <Position6>
+        <Filename Value="latin1_adjs.pas"/>
+        <Caret Line="34" Column="50" TopLine="14"/>
+      </Position6>
+      <Position7>
+        <Filename Value="latin1_nouns.pas"/>
+        <Caret Line="43" TopLine="17"/>
+      </Position7>
+      <Position8>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="106" TopLine="97"/>
+      </Position8>
+      <Position9>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="72" Column="16" TopLine="59"/>
+      </Position9>
+      <Position10>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="514" TopLine="488"/>
+      </Position10>
+      <Position11>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="497" Column="65" TopLine="493"/>
+      </Position11>
+      <Position12>
+        <Filename Value="latin_declensions.pas"/>
+      </Position12>
+      <Position13>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="412" Column="71" TopLine="390"/>
+      </Position13>
+      <Position14>
+        <Filename Value="latin1_main.pas"/>
+        <Caret Line="624" TopLine="598"/>
+      </Position14>
+      <Position15>
+        <Filename Value="latin1_main.pas"/>
+        <Caret Line="857" TopLine="834"/>
+      </Position15>
+      <Position16>
+        <Filename Value="latin1_main.pas"/>
+        <Caret Line="875" TopLine="851"/>
+      </Position16>
+      <Position17>
+        <Filename Value="latin1_main.pas"/>
+        <Caret Line="826" Column="23" TopLine="808"/>
+      </Position17>
+      <Position18>
+        <Filename Value="latin1_main.pas"/>
+        <Caret Line="21" Column="76"/>
+      </Position18>
+      <Position19>
+        <Filename Value="latin1_main.pas"/>
+        <Caret Line="846" Column="25" TopLine="826"/>
+      </Position19>
+      <Position20>
+        <Filename Value="latin1_main.pas"/>
+        <Caret Line="19" Column="123"/>
+      </Position20>
+      <Position21>
+        <Filename Value="latin1_main.pas"/>
+        <Caret Line="419" Column="7" TopLine="403"/>
+      </Position21>
+      <Position22>
+        <Filename Value="latin1_main.pas"/>
+        <Caret Line="248" TopLine="248"/>
+      </Position22>
+      <Position23>
+        <Filename Value="latin1_main.pas"/>
+        <Caret Line="348" Column="32" TopLine="337"/>
+      </Position23>
+      <Position24>
+        <Filename Value="latin1_help.pas"/>
+      </Position24>
+      <Position25>
+        <Filename Value="latin_declensions.pas"/>
+        <Caret Line="399" Column="32" TopLine="387"/>
+      </Position25>
+      <Position26>
+        <Filename Value="latin1_main.pas"/>
+        <Caret Line="425" TopLine="425"/>
+      </Position26>
+      <Position27>
+        <Filename Value="latin1_main.pas"/>
+        <Caret Line="701" Column="40" TopLine="687"/>
+      </Position27>
+      <Position28>
+        <Filename Value="latin1_main.pas"/>
+        <Caret Line="12" Column="83"/>
+      </Position28>
+      <Position29>
+        <Filename Value="latin1_main.pas"/>
+      </Position29>
+      <Position30>
+        <Filename Value="Latin1.lpr"/>
+        <Caret Line="11" Column="78"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

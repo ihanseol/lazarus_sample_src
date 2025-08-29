@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="Conics.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="conics_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fConics"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="conics_graph.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fGraph"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="61"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="c:\Programs\lazarus\win64\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="446"/>
+        <CursorPos Y="460"/>
+        <UsageCount Value="9"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="conics_main.pas"/>
+        <Caret Line="198" Column="30" TopLine="172"/>
+      </Position1>
+      <Position2>
+        <Filename Value="conics_main.pas"/>
+        <Caret Line="37" TopLine="29"/>
+      </Position2>
+      <Position3>
+        <Filename Value="conics_main.pas"/>
+        <Caret Line="187" TopLine="181"/>
+      </Position3>
+      <Position4>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="134" Column="18" TopLine="129"/>
+      </Position4>
+      <Position5>
+        <Filename Value="conics_main.pas"/>
+        <Caret Line="3" Column="38"/>
+      </Position5>
+      <Position6>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="64" Column="10" TopLine="45"/>
+      </Position6>
+      <Position7>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="541" Column="38" TopLine="518"/>
+      </Position7>
+      <Position8>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="550" Column="38" TopLine="527"/>
+      </Position8>
+      <Position9>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="617" Column="88" TopLine="602"/>
+      </Position9>
+      <Position10>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="68" Column="30" TopLine="52"/>
+      </Position10>
+      <Position11>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="622" Column="78" TopLine="610"/>
+      </Position11>
+      <Position12>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="403" Column="17" TopLine="377"/>
+      </Position12>
+      <Position13>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="597" Column="15" TopLine="575"/>
+      </Position13>
+      <Position14>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="64" Column="45" TopLine="50"/>
+      </Position14>
+      <Position15>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="510" Column="64" TopLine="501"/>
+      </Position15>
+      <Position16>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="621" Column="3" TopLine="614"/>
+      </Position16>
+      <Position17>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="612" Column="11" TopLine="607"/>
+      </Position17>
+      <Position18>
+        <Filename Value="conics_main.pas"/>
+        <Caret Line="233" Column="98" TopLine="218"/>
+      </Position18>
+      <Position19>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="621" Column="3" TopLine="610"/>
+      </Position19>
+      <Position20>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="29" Column="22" TopLine="15"/>
+      </Position20>
+      <Position21>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="529" Column="22" TopLine="503"/>
+      </Position21>
+      <Position22>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="464" Column="18" TopLine="442"/>
+      </Position22>
+      <Position23>
+        <Filename Value="conics_main.pas"/>
+        <Caret Line="234" Column="20" TopLine="227"/>
+      </Position23>
+      <Position24>
+        <Filename Value="conics_main.pas"/>
+      </Position24>
+      <Position25>
+        <Filename Value="conics_main.pas"/>
+        <Caret Line="231" TopLine="218"/>
+      </Position25>
+      <Position26>
+        <Filename Value="conics_main.pas"/>
+        <Caret Line="133" TopLine="115"/>
+      </Position26>
+      <Position27>
+        <Filename Value="conics_main.pas"/>
+      </Position27>
+      <Position28>
+        <Filename Value="conics_main.pas"/>
+        <Caret Line="208" Column="52" TopLine="194"/>
+      </Position28>
+      <Position29>
+        <Filename Value="conics_main.pas"/>
+        <Caret Line="63" Column="45" TopLine="47"/>
+      </Position29>
+      <Position30>
+        <Filename Value="conics_graph.pas"/>
+        <Caret Line="742" Column="61" TopLine="715"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

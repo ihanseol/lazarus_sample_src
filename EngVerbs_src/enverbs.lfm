@@ -1,0 +1,317 @@
+object fEngVerbs: TfEngVerbs
+  Left = 34
+  Height = 400
+  Top = 19
+  Width = 810
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Language trainer: English verbs'
+  ClientHeight = 375
+  ClientWidth = 810
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Shape1: TShape
+    Left = 640
+    Height = 209
+    Top = 8
+    Width = 161
+  end
+  object stTitle: TStaticText
+    Left = 8
+    Height = 38
+    Top = 8
+    Width = 600
+    Alignment = taCenter
+    Caption = 'Tenses conjugation test.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 7
+  end
+  object memoDetails: TMemo
+    Left = 8
+    Height = 57
+    Top = 56
+    Width = 600
+    Color = clCream
+    Lines.Strings = (
+      'Find the conjugated form of the simple past (preterite) and the past participle of randomly selected verbs.'
+    )
+    ReadOnly = True
+    TabOrder = 8
+    TabStop = False
+  end
+  object laQuestion: TLabel
+    Left = 8
+    Height = 23
+    Top = 194
+    Width = 69
+    Caption = 'Question'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laInf: TLabel
+    Left = 8
+    Height = 23
+    Top = 244
+    Width = 65
+    Caption = 'Infinitive'
+    ParentColor = False
+  end
+  object edInf: TEdit
+    Left = 128
+    Height = 31
+    Top = 240
+    Width = 230
+    Color = clForm
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object laPast: TLabel
+    Left = 8
+    Height = 23
+    Top = 292
+    Width = 88
+    Caption = 'Simple past'
+    ParentColor = False
+  end
+  object edPast: TEdit
+    Left = 128
+    Height = 31
+    Top = 288
+    Width = 230
+    TabOrder = 3
+  end
+  object laParticiple: TLabel
+    Left = 8
+    Height = 23
+    Top = 340
+    Width = 106
+    Caption = 'Past participle'
+    ParentColor = False
+  end
+  object edParticiple: TEdit
+    Left = 128
+    Height = 31
+    Top = 336
+    Width = 230
+    TabOrder = 4
+  end
+  object cbIrreg: TCheckBox
+    Left = 8
+    Height = 27
+    Top = 144
+    Width = 176
+    Caption = ' Irregular verbs only'
+    TabOrder = 10
+    TabStop = False
+  end
+  object Label1: TLabel
+    Left = 648
+    Height = 23
+    Top = 16
+    Width = 88
+    Caption = 'Evaluation:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 648
+    Height = 23
+    Top = 60
+    Width = 76
+    Caption = 'Questions'
+    ParentColor = False
+  end
+  object edQuestions: TEdit
+    Left = 735
+    Height = 31
+    Top = 56
+    Width = 57
+    Alignment = taRightJustify
+    Color = clForm
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object Label3: TLabel
+    Left = 648
+    Height = 23
+    Top = 100
+    Width = 56
+    Caption = 'Correct'
+    ParentColor = False
+  end
+  object edCorrect: TEdit
+    Left = 735
+    Height = 31
+    Top = 96
+    Width = 57
+    Alignment = taRightJustify
+    Color = clForm
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object Label4: TLabel
+    Left = 648
+    Height = 23
+    Top = 140
+    Width = 36
+    Caption = 'False'
+    ParentColor = False
+  end
+  object edFalse: TEdit
+    Left = 735
+    Height = 31
+    Top = 136
+    Width = 57
+    Alignment = taRightJustify
+    Color = clForm
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object Label5: TLabel
+    Left = 648
+    Height = 23
+    Top = 180
+    Width = 58
+    Caption = 'Success'
+    ParentColor = False
+  end
+  object edSuccess: TEdit
+    Left = 735
+    Height = 31
+    Top = 176
+    Width = 57
+    Alignment = taRightJustify
+    Color = clForm
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object btQuestion: TButton
+    Left = 707
+    Height = 31
+    Top = 336
+    Width = 94
+    Caption = 'Start'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object edPast2: TEdit
+    Left = 378
+    Height = 31
+    Top = 288
+    Width = 230
+    TabOrder = 5
+  end
+  object edParticiple2: TEdit
+    Left = 378
+    Height = 31
+    Top = 336
+    Width = 230
+    TabOrder = 6
+  end
+  object btCorrect: TButton
+    Left = 707
+    Height = 31
+    Top = 240
+    Width = 94
+    Caption = 'Correct'
+    OnClick = btCorrectClick
+    TabOrder = 1
+  end
+  object btFalse: TButton
+    Left = 707
+    Height = 31
+    Top = 288
+    Width = 94
+    Caption = 'False'
+    OnClick = btFalseClick
+    TabOrder = 2
+  end
+  object imEval: TImage
+    Left = 664
+    Height = 31
+    Top = 336
+    Width = 31
+    Center = True
+  end
+  object mMenu: TMainMenu
+    left = 560
+    top = 128
+    object mTest: TMenuItem
+      Caption = 'Test'
+      object mTestRegIrreg: TMenuItem
+        Caption = 'Regular/Irregular test'
+        OnClick = mTestRegIrregClick
+      end
+      object mTestYesNo: TMenuItem
+        Caption = 'Tenses yes/no test'
+        OnClick = mTestYesNoClick
+      end
+      object mTestConj: TMenuItem
+        Caption = 'Tenses conjugation test'
+        OnClick = mTestConjClick
+      end
+      object mTestAlt: TMenuItem
+        Caption = 'Tenses alternate forms test'
+        OnClick = mTestAltClick
+      end
+      object mTestExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mTestExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsQuestions: TMenuItem
+        Caption = 'Number of questions ...'
+        OnClick = mSettingsQuestionsClick
+      end
+      object mSettingsLItems: TMenuItem
+        Caption = 'Number of list items'
+        object mSettingsLItems5: TMenuItem
+          Caption = '5'
+          OnClick = mSettingsLItems5Click
+        end
+        object mSettingsLItems10: TMenuItem
+          Caption = '10'
+          Checked = True
+          OnClick = mSettingsLItems10Click
+        end
+        object mSettingsLItems15: TMenuItem
+          Caption = '15'
+          OnClick = mSettingsLItems15Click
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object tiList: TTimer
+    Enabled = False
+    Interval = 10
+    OnTimer = tiListTimer
+    left = 488
+    top = 128
+  end
+end

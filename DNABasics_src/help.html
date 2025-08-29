@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <title><span style="font-style: italic">DNABasics</span> help</title>
+  <meta name="description" content="Help text for Lazarus/Free Pascal application 'DNABasics'"/>
+  <style type="text/css"><!--
+    a:link { color:#000000; text-decoration: none }
+    a:hover { font-weight: bold }
+  //--></style>
+</head>
+
+<body style="margin: 0; padding: 0; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.9em; background-color: #FFEBCD; color: #000000;">
+  <div id="nav" style="float: left; padding: 8px; width: 15%; position: fixed">
+  <p style="text-decoration: underline">
+    <a href="#top">Content:</a>
+  </p>
+  <p style="padding-top:10px">
+    <a href="#file">Menu: File</a>
+  </p>
+  <p>
+    <a href="#options">Menu: Settings</a>
+  </p>
+  <p>
+    <a href="#tools">Menu: Tools</a>
+  </p>
+  <p>
+    <a href="#help">Menu: Help</a>
+  </p>
+  <p style="padding-top:10px">
+    <a href="#stats">DNA analysis</a>
+  </p>
+  <p style="padding-top:10px">
+    <a href="#dna">Working with DNA</a>
+  </p>
+  <p>
+    <a href="#rna">Working with RNA</a>
+  </p>
+  <p>
+    <a href="#prot">Working with proteins</a>
+  </p>
+  <p style="padding-top:10px">
+    <a href="mailto:info@streetinfo.lu">Contact</a>
+  </p>
+  </div>
+  <div id="content" style="float: right; padding: 8px; width: 85%; background-color: #FFF8DC">
+  <a name="top"><h1 style="margin: 0; padding: 0"><span style="font-style:italic">DNABasics</span> Help.</h1></a>
+  <p style="padding-top:10px; text-align:justify">
+    <span style="font-style: italic">DNABasics</span> is a biology application primarily intended for students and people interested in the basics of molecular genetics:
+    Simple statistics and molecular weight of a DNA sequence, transcription of DNA to RNA, translation of RNA to proteins. Sequences (raw data or FASTA format) may be
+    entered manually, loaded from a file or randomly generated. All sequences may be saved to a file, with the number of characters per line chosen by the user. Translation
+    may be done for the complete sequence (using any of the 3 reading frames), or considering the start and/or stop codon. A <span style="font-style: italic">translation
+    report</span> informs the user, what part of the sequence has actually been translated.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="file">Menu: File.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Exit.
+  </p>
+  <p style="text-align:justify">
+    Exit the <span style="font-style: italic">DNABasics</span> application.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="options">Menu: Settings.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Allow lowercase base codes.
+  </p>
+  <p style="text-align:justify">
+    Normally nucleobase codes are uppercase. However lots of bioinformatics applications accept lowercase codes. As does DNABasics, if this option is checked (this is the
+    default setting). If you uncheck the option and you enter a sequence containing lowercase codes, you will get an "Invalid DNA/RNA sequence" error message.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Allow extended base codes.
+  </p>
+  <p style="text-align:justify">
+    With this option unchecked (this is the default setting), the sequence, you enter or load from file, may only contain the 4 standard base codes (A, C, G, T for DNA, A, C, G,
+    U for RNA). If you check the option, all IUB/IUPAC base codes (R = purine, Y = pyrimidine, N = any of the 4 bases ...) will be accepted. You must also check this option, if
+    you want random sequences to contain extended base codes.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Initiate translation at start codon.
+  </p>
+  <p style="text-align:justify">
+    With this option unchecked (this is the default setting), the translation of the sequence starts with the first codon of the reading frame chosen (bases 1-3, 2-4, 3-5
+    respectively). When the option is checked, translation starts with the first start codon found; if there isn't a start codon, no translation will be done.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Terminate translation at stop codon.
+  </p>
+  <p style="text-align:justify">
+    With this option unchecked (this is the default setting), the translation of the sequence continues until the end of the sequence (with possibly the last base or the last
+    2 bases being ignored). If the option is checked, translation ends with the first stop codon found; if there isn't a stop codon, translation continues until the end of
+    the sequence.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Random sequence properties...
+  </p>
+  <p style="text-align:justify">
+    This menu item opens a window, where you can configure the randomly generated sequences: <span style="font-style:italic">Minimum length</span> and <span style="font-style:italic">maximum
+    length</span> determines the random sequences' length interval. <span style="font-style:italic">Uncertain bases</span> allows to fix the approximate percentage of bases, that
+    are not known with certitude (i.e. the approximate percentage of extended base codes). If <span style="font-style:italic">Unknown bases only</span> is checked, all uncertain
+    bases will be "any base" (N). Note, that extended base codes must be enabled in order to get random sequences with uncertain bases.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Sequence display format...
+  </p>
+  <p style="text-align:justify">
+    This menu item lets you set the number of characters (base codes or 1-letter amino acid codes) per line. The format set here will be used for sequence display and sequence
+    saving. If, for example, you set a format of 80 characters and you load a DNA sequence from a file formatted with 72 bases per line, the sequence will be displayed with 80
+    bases per line and if you save it, the output file will also be formatted with 80 characters per line. Note that for 3-letter coded proteins, the format set here means
+    "characters", not "amino acids"; the number of characters may be diminished by 1 or 2 in order not to span a code over two lines. To create a one-line sequence (sequence
+    without end-of-line characters), set the number of characters per line to 0.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="tools">Menu: Tools.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Display base codes table.
+  </p>
+  <p style="text-align:justify">
+    Displays a table with all IUB/IUPAC base codes (for both DNA and RNA) with those of the 4 standard bases they represent.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Display genetic code table.
+  </p>
+  <p style="text-align:justify">
+    Displays a table with all possible codons and the corresponding amino acids (in both 1-letter and 3-letter code). Note that the codons are those that are part of a RNA
+    sequence (in the corresponding DNA, U being replaced by T).
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    6 reading frames translation...
+  </p>
+  <p style="text-align:justify">
+    Transcription of the actually loaded DNA sequence and its reverse complement and translation of the obtained RNA sequences to proteins considering all 3 reading frames. This
+    is equivalent to a translation of all 6 reading frames of the DNA sequence, considered as double-stranded, so to say. The result is saved to a multiple sequence FASTA
+    file.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="help">Menu: Help.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Biology help.
+  </p>
+  <p style="text-align:justify">
+    Opens your default web browser pointed to the <a href="https://www.streetinfo.lu/learning/bio/gencode.html" target="_blank"><span style="color:blue">Nucleic acids and genetic
+    code primer</a> tutorial on my website www.streetinfo.lu.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Application help.
+  </p>
+  <p style="text-align:justify">
+    Opens your default web browser pointed to the <span style="font-style: italic">DNABasics</span> application help file (this document).
+  </p>
+    <p style="padding-top:5px; text-decoration:underline">
+    About.
+  </p>
+  <p style="text-align:justify">
+    Displays the <span style="font-style: italic">DNABasics</span> application version, author and date-written.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="stats">DNA analysis.</a>
+  </p>
+  <p style="text-align:justify">
+    With a DNA sequence loaded in the corresponding input field, you can use the <span style="color:#8B008B">Analyze</span> button, to calculate the sequence molecular
+    weight and to determine some simple statistical values.
+  </p>
+  <p style="text-align:justify">
+    The <span style="font-weight:bold">sequence molecular weight</span> is equal to the sum of the different base molecular weights + 17.01 (molecular weight of a hydroxide
+    group). It is calculated for both <span style="font-weight:bold">single-stranded DNA</span> (the actual sequence) and <span style="font-weight:bold">double-stranded DNA</span>
+    (the sequence plus its reverse complement).
+  </p>
+  <p style="text-align:justify">
+    If the sequence contains bases other than A, C, G, T, there are two molecular weights displayed: the <span style="font-weight:bold">minimum molecular weight</span>
+    corresponds to the case where all uncertain bases are considered being those with the lowest molecular weight; the <span style="font-weight:bold">maximum molecular
+    weight</span> corresponds to the case where all uncertain bases are considered being those with the highest molecular weight. Example: for base code H, corresponding
+    to A (mm: 313.21), G (mm: 329.21), or T (mm: 304.20), the molecular weight of T will be used to calculate the minimum, the molecular weight of G to determine the maximum.
+  </p>
+  <p style="text-align:justify">
+    The statistical values are simple <span style="font-weight:bold">counts and the corresponding percentages</span>: the base composition (A, C, G, T and others), the purines
+    (A, G, R), pyrimidines (C, T, Y) and unknown bases (N), and finally the <span style="font-weight:bold">GC percentage</span>. If the sequence contains uncertain base codes,
+    the percentage is a minimum value (considering G, C and S, but not base codes like for example, R, Y or V, that could eventually be one resp. both of these bases).
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="dna">Working with DNA.</a>
+  </p>
+  <p style="text-align:justify">
+    You can load a DNA sequence from file (button <span style="color:#8B008B">Load</span>), let the application generate a random one (button
+    <span style="color:#8B008B">Random</span>), or enter it manually into the DNA input field. All sequences may be either raw data or FASTA. The number of characters per line
+    will be the one defined in the <span style="font-style: italic">Settings</span> menu (not the one used in the loaded file, for example). Also remember that in order to use
+    the extended base codes, you must explicitly enable this in the <span style="font-style: italic">Settings</span> menu. You can remove the sequence from the input filed, using
+    the <span style="color:#8B008B">Clear</span> button.
+  </p>
+  <p style="text-align:justify">
+    The DNA sequence may be written to a file, using the <span style="color:#8B008B">Save</span> button. Again, the number of characters per line will be the one defined in the
+    <span style="font-style: italic">Settings</span> menu. This allows, for example, to save an existing file, using a more convenient formatting. If you save a FASTA sequence
+    as raw data (e.g. as a text file), the FASTA header will simply be dropped. If you try to save raw data as FASTA, a warning message is displayed. You can then choose to save
+    the sequence anyway (the application adding ">" as FASTA header in this case), or to cancel the operation (for example to manually add a more descriptive FASTA header). In
+    all cases, existing files will only be overwritten after user confirmation.
+  </p>
+  <p style="text-align:justify">
+    Use the button <span style="color:#8B008B">Reverse complement</span> to calculate the <span style="font-weight:bold">reverse complement</span> of the sequence (that
+    actually corresponds to the second strand of the DNA double helix). If you analyze the one and the other of such two sequences, you'll note some fundamental properties
+    of DNA sequences:
+    <ul style="margin-top:0px; margin-bottom:0px">
+      <li>The two sequences have the same length (number of bases).</li>
+      <li>The two sequences have the same dsDNA molecular weight.</li>
+      <li>The two sequences have the same GC percentage.</li>
+      <li>The percentage of purines in one is equal to the number of pyrimidines in the other.</li>
+    </ul>
+  </p>
+  <p style="text-align:justify">
+    The <span style="font-weight:bold">transcription</span> of the DNA sequence to RNA is done using the button <span style="color:#8B008B">Transcribe</span>. This simply
+    transforms the entire DNA sequence to RNA (replacing base T by base U). The RNA sequence is displayed in the corresponding input field, using the number of characters per
+    line defined in the <span style="font-style: italic">Settings</span> menu; the FASTA header is copied without modification.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="rna">Working with RNA.</a>
+  </p>
+  <p style="text-align:justify">
+    Everything said for DNA concerning loading and saving a sequence and generating random sequences also applies to RNA.
+  </p>
+  <p style="text-align:justify">
+    Use the button <span style="color:#8B008B">Reverse transcribe</span> to do a <span style="font-weight:bold">reverse transcription</span> of the RNA sequence to DNA
+    (what actually corresponds to create a cDNA sequence). This transforms the entire RNA sequence to DNA (replacing base U by base T). The DNA sequence is displayed in the
+    corresponding input field, using the number of characters per line defined in the <span style="font-style: italic">Settings</span> menu, the FASTA header simply being copied.
+  </p>
+  <p style="text-align:justify">
+    The <span style="font-weight:bold">translation</span> of a RNA sequence to a protein (or polypeptide, if you prefer) is done using the button
+    <span style="color:#8B008B">Translate</span>. This operation, demonstrating the functioning of the <span style="font-weight:bold">genetic code</span> is the central feature
+    of the <span style="font-style: italic">DNABasics</span> application.
+  </p>
+  <p style="text-align:justify">
+    There are essentially two ways to use the RNA translation feature:
+    <ol style="margin-top:0px; margin-bottom:0px">
+      <li style="text-align:justify"><span style="font-weight:bold">Translating the sequence without considering start and stop codons</span>. In this case the sequence is
+      translated from begin to end. "Begin" means here, starting with the codon at position 1, 2, or 3, depending on the reading-frame, that you want to consider. "End" means
+      here as long as there is any complete codon to translate, thus being possible that the last base or the last two bases of the sequence will be ignored. The resulting
+      protein sequence may this way contain "gaps" (stop codons do not code for any amino acid); they are represented by an underscore (_) in the protein sequence
+      display.</li>
+      <li style="text-align:justify"><span style="font-weight:bold">Translating the sequence considering start and/or stop codons</span>. If "considering start codons" is
+      enabled, the translation starts at the first encounter of the start codon AUG; if no AUG is found a message is displayed and nothing is translated. If "considering stop
+      codons" is enabled, translation is ended when the first stop codon (UAA, UAG, UGA) is found. If there isn't any stop codon, translation continues until the end of the
+      sequence, with (as above) the possibility that 1 base or 2 bases are ignored.</li>
+    </ol>
+  </p>
+  <p style="text-align:justify">
+    The <span style="font-weight:bold">sequence translation report</span> shows details concerning the translation operation: position of the first base that has been translated
+    (base 1, 2 or 3 at sequence begin or first occurence of a start codon), position of the last base that has been translated (end of sequence, with possibility that 1 base or
+    2 bases have been ignored, or base just before the first stop codon encountered), number of bases that have been translated, number of amino acids of the resulting protein
+    (equal to the number of bases translated divided by 3, or this number diminished by the number of "gaps", resulting from the "translation of stop codons").
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="prot">Working with proteins.</a>
+  </p>
+  <p style="text-align:justify">
+    The application does not support protein input; they appear only as the result of RNA translation. Thus there are no <span style="font-style: italic">Load</span> and
+    <span style="font-style: italic">Random</span> buttons near the protein display field and this field is read-only. Saving a protein sequence, on the other side, is, of
+    course possible. What has been said for DNA concerning sequence saving also applies to proteins.
+  </p>
+  <p style="text-align:justify">
+    The only operation on proteins, you can do with <span style="font-style: italic">DNABasics</span> is the <span style="font-weight:bold">transformation of 1-letter code
+    to 3-letter code</span>, using the button <span style="color:#8B008B">3-letter code</span>. The number of characters per line of a 3-letter code protein sequence is the
+    one defined in the <span style="font-style: italic">Settings</span> menu, rounded downwards to the next multiple of 3. This means that 1 line of DNA/RNA base codes or
+    1-letter amino acid codes will correspond to 3 lines of 3-letter amino acid codes (with amino acid codes never spanning over 2 lines).
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    Contact the author of <span style="font-style: italic">DNABasics</span>.
+  </p>
+  <p style="text-align:justify">
+    If you have any questions, correction/improvement suggestions, or feature extension ideas, please, don't hesitate to contact me, using the email given in the navigation
+    pane. And, if you really like this application, or want to support me and my "free programs for everyone", please, visit
+    <a href="https://www.streetinfo.lu"><span style="color:blue">streetinfo.lu</span></a> and sign my guestbook.
+  </p><br/><br/>
+  </div>
+</body>
+
+</html>

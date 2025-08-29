@@ -1,0 +1,17 @@
+RayTrace Program Help.
+======================
+
+RayTrace is a geometrical optics application, which may be used to trace rays with mirrors and thin lenses. Choose the device (concave or convex mirror, convex or concave lens), enter the device features (curvature radius), the object's height and its distance from the device and push the "Trace" button: the program calculates all relevant data and graphically displays the corresponding P-, F- and C-ray.
+
+For lenses, two ways of calculation may be chosen (in the "Settings" menu):
+
+  - Simplified calculation: entering total radius and approximating the focal length F = R / 2 (refraction index supposed = 1.50).
+  - "Complete" calculation: entering all data to calculate the focal length (both radii and the refractive index of the lens glass).
+
+Lenses are made of glass. If a refractive index, whose value isn't between 1.5 and 2.0 is entered, a warning message is displayed; calculation and graphical display will be done as usual.
+
+The graphical display of the rays becomes difficult or impossible to read, if the data entered falls outside certain limits. Thus, you should choose the position of the object not "to near" to the device's focus. You should also choose data in order that the magnification isn't "to big or to small".
+
+Depending on the data entered, display of a C-ray touching the device is not always possible. In this case, the application displays a warning message and the C-ray isn't displayed. You can turn off this message in the "Settings" menu.
+
+For details about ray tracing and the formulas used for calculation, please, use the "Optics help" menu item.

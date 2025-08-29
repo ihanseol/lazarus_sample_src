@@ -1,0 +1,90 @@
+Aide "Collisions".
+==================
+
+"Collisions" est un programme de physique qui simule les collisions (chocs) élastiques (collisions dans 1 dimension et cas particulier des billes de billard dans 2 dimensions) et inélastiques (collisions dans 1 dimension).
+
+En plus, le déplacement des billes dans la simulation se faisant en respectant la relation entre chemin parcouru, vitesse et temps dans la réalité, "Collisions" peut être considéré comme une application montrant la physique des mouvements rectilignes uniformes. À remarquer, que la position des billes indiquée correspond à la position de leur partie la plus à gauche et l'impact est supposé se faire quand le bord droite de la bille 1 touche le bord gauche de la bille 2 (ce qui dans le cas du déplacement dans 2 dimensions n'est pas tout à fait exact, car la position de l'impact augmente plus l'impact se fait vers les extrémités et ceci variant avec le rayon des billes). Il en résulte que la position de la bille 1 indiquée lors de l'impact n'est pas égal à la position de l'impact indiqué, mais à cette valeur moins le diamètre de la bille (10 cm dans les déplacements à 1 dimension, sélectable dans le cas des billes de billard).
+
+Les valeurs de départ à entrer par l'utilisatrice tout comme les valeurs décrivant la situation après l'impact calculées par le programme varient en fonction du type de collision choisi. Détails avec la description des entrées du menu "Collision".
+
+Menu "Collision".
+=================
+
+Ce menu permet de choisir le type de collision souhaité. Il en faut choisir un chaque fois qu'une simulation est terminée (les billes étant arrivées à la fin de la surface d'affichage ou l'utilisatrice ayant appuyé sur "Stop"). C'est en le faisant qu'on pourra à nouveau changer la valeur des paramètres et que les boutons seront à nouveau accessibles.
+
+Collision élastique (1d).
+-------------------------
+
+Nouvelle simulation d'une collision élastique dans 1 dimension.
+Les valeurs initiales à fournir sont les masses et les vitesses respectives des 2 billes. Mettant v2 = 0 simule une collision avec la bille 2 initialement au repos. Les autres valeurs doivent être supérieurs à 0; si v2 > v1, la bille 1 ne pourra jamais rattrapper la bille 2 et il n'y aura pas de collision évidememnt (un message d'avertissement sera affiché dans ce cas).
+La situation après l'impact est caractérisée par les vitesses respectives des 2 billes après que l'impact a eu lieu.
+La situation la plus usuelle est le freinage de la bille 1 et l'accélération de la bille 2. Cas particuliers avec la bille 2 au repos:
+ - m1  >  m2: situation usuelle
+ - m1  =  m2: la bille 1 s'arrête et la bille 2 part avec la vitesse qu'avait la bille 1
+ - m1  <  m2: la bille 2 part comme d'habitude, la bille 1 est propulsée en direction opposée
+ 
+Collision inélastique (1d).
+---------------------------
+
+Nouvelle simulation d'une collision inélastique dans 1 dimension.
+Les valeurs initiales à fournir sont les mêmes que pour le choc élastique dans 1 dimension.
+La situation après l'impact est caractérisée par la vitesse commune des deux billes (qui se déplaceront l'une collée contre l'autre).
+Cas particulier avec la bille 2 en repos:
+ - m1  =  m2: la vitesse (des 2 billes accollées) sera la moitié de la vitesse avant le choc
+ - m1 >>  m2: la vitesse tendra à devenir égale à la vitesse initiale (pas de freinage)
+ - m1 <<  m2: la vitesse tendra vers 0 (bille 1 arrêtée; les 2 billes seront immobiles).
+ 
+Collision élastique (2d).
+-------------------------
+
+Nouvelle simulation d'une collision élastique dans 2 dimensions.
+Tombant sur une situation où il y a plus d'inconnues que d'équations, il n'est pas possible de résoudre les collisions en 2 dimensions de manière générale. Est repris ici un cas particulier (cité dans beaucoup de cours de physique): 2 billes de masse (et de rayon) identiques et bille 2 étant au repos; c'est la situation qui se rencontre avec deux billes de billard par exemple.
+Les valeurs initiales à fournir sont la masses et la vitesse de la bille 1 (bille 2: m2 = m1 et v2 = 0), le rayon (commun) des billes et la paramètre d'impact (voir le texte d'aide de physique pour détails).
+La situation après l'impact est caractérisée par les vitesses et les angles de déviation des 2 billes après que l'impact a eu lieu.
+
+Le rayon des billes est donné en spécifiant sa valeur dans le champ d'entrée correspondant, puis appuyer sur le bouton "Fixer". Ceci est nécessaire, car la grandeur des billes dans la simulation est proportionnelle au rayon réel. À remarquer que fixer le rayon remet le paramètre d'impact à 0. Donc: Modifiez le rayon avant de choisir un paramètre d'impact afin d'éviter de devoir le faire deux fois.
+
+La manière la plus simple d'entrer le paramètre d'impact est d'utiliser la barre de piste. Son déplacement bouge la position de l'impact vers le haut (paramètre d'impact positif) ou vers le bas (paramètre d'impact négatif); le nombre de centimètres correspondant à une unité sur la barre de piste dépendant du rayon des billes. Sa position centrale correspond à un paramètre d'impact de 0 ("visée pleine bille"), son minimum et maximum à un paramètre d'impact égal au diamètre des billes (dans un sens ou dans l'auutre), donc à la situation ou les deux billes se frôlent lors du choc.
+On peut aussi entrer le paramètre d'impact directement (en appuyant sur le bouton "Fixer" après que c'est fait). Ceci permet d'entrer des valeurs autres que celles sélectionnables par la barre de piste (aussi plus vers le haut ou le bas que le diamètre des billes, mais dans ce cas il n'y aura bien-sûr pas de collision et un message d'avertissement sera affiché). Comme dans ce cas, le paramètre d'impact peut ne pas avoir de position correspondante sur la barre de piste, celle-ci est désactivée quand on entre le paramètre d'impact manuellement. Pour la réactiver, utilisez le petit bouton "TB" (Notez que le paramètre d'impact sera remis à 0 en le faisant).
+
+Quelques cas particuliers:
+
+"Visée pleine bille" (b = 0):
+La bille 1 s'immobilise et la bille 2 part tout droit (angle de déviation = 0°).
+
+"Visée finesse" (b = 2r):
+La bille 1 continue son chemin tout droit (angle de déviation = 0°); la bille 2 part avec un angle de 90°, mais avec une vitesse trop petite pour être observée dans la simulation.
+
+"Visée demi-bille" (b = r):
+La bille 1 est déviée de 60° et la bille 2 de -30° (respectivement -60° et 30° si b = -r, c'est-à-dire l'impact se faisant en dessous la ligne de visée).
+ 
+Menu "Options".
+===============
+
+Ne pas afficher les avertissements.
+-----------------------------------
+
+Si les valeurs de départ sont incorrectes, si le rayon a été modifié sans le fixer ou si le paramètre d'impact a été modifié manuellement sans le fixer, un message d'erreur est affiché et la simulation ne pourra démarrer que quand l'erreur sera corrigée.
+Dans d'autres situations, un avertissement s'affiche, puis la simulation démarre. C'est le cas quand
+ - vitesse de la bille 2 > vitesse de la bille 1 (pas de collision possible).
+ - paramètre d'impact > diamètre des billes (bille 1 dépasse bille 2 sans choc).
+ - l'impact se fait à une position qui tombe en dehors de la zone d'affichage.
+En cochant l'option, la simulation démarre directement (sans affichage de l'avertissement).
+
+Menu "Aide".
+============
+
+Aide physique.
+--------------
+
+Petit texte explicatif concernant la physique des collisions (avec les formules à utiliser).
+
+Aide programme.
+---------------
+
+Aide d'utilisation de l'application "Collisions" (ce document).
+
+Info programme.
+---------------
+
+Version, auteur et date de développement de l'application "Collisions".

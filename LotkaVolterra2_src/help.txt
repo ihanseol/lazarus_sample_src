@@ -1,0 +1,123 @@
+"LotkaVolterra2" application help.
+==================================
+
+The "LotkaVolterra2" application is a biology simulation, dealing with three species populations growth. The simulation is an extension of the Lotka-Volterra predator-prey model, that describes the variation of two species populations vs time, one of these species being the prey, the other the predator. In the 3 species model, the mid-level species acts as predator of the lowest-level species and, at the same time, is the prey of the top-level species. Please have a look at "The (2 species) Lotka-Volterra model" and "3 species Lotka-Volterra extension" for details.
+
+Menu item "File".
+=================
+
+New.
+----
+Clear the display window in order to run a new simulation. This command has to be executed each time a simulation ended (either by itself, or the user having pushed the "Stop" button).
+
+Samples.
+--------
+Load the parameters of one of 10 application included samples (cf. below).
+
+Exit.
+-----
+Exit the application.
+
+Menu item "Settings".
+=====================
+
+Simulation time interval.
+-------------------------
+By default, the simulation runs at a speed of 1 sec real time for 1 year simulation time. If you want to run the simulation slower or faster, use this menu item to change the timer value.
+
+Use alternate pictures.
+-----------------------
+At start-up, the application uses pictures of mice, snakes and owls to represent the lowest-level, mid-level resp. top-level species. If this option is checked, pictures of worms, robins and falcons will be ussed instead.
+
+Do not display warnings.
+------------------------
+It is possible to run the simulation with only one or two species. However, in this case a warning message is displayed. To avoid this message pop-up, check this option.
+
+Menu item "Help".
+=================
+
+The (2-species) Lotka-Volterra model.
+-------------------------------------
+Help text concerning the original Lotka-Volterra model (2-species predator-prey model).
+
+3-species Lotka-Volterra extension.
+----------------------------------
+Help text concerning the extension of the Lotka-Volterra model to 3 species, including the formulae used by the application.
+
+Application help.
+-----------------
+Help text concerning the usage of the "LotkaVolterra2" application (this document).
+
+About.
+------
+Information about version, author and date-written of the "LotkaVolterra2" application.
+
+Running the predator-prey simulation.
+=====================================
+
+Enter the populations' initial sizes and the Lotka-Volterra model parameters, then push the "Start" button. The pictures of the 3 species are displayed in the main display window, each display update (by default, at 1 sec intervals) corresponding to 1 year. The "Pause" button allows to hold the simulation, "Stop" ends it.
+
+This visual presentation of the model is primarily programming fun of my own. If you are seriously interested in the biological data, have a look at the graph output!
+
+The predator-prey simulation graph.
+===================================
+
+Entering the populations' initial sizes and the Lotka-Volterra model parameters, then pushing the "Graph" button, opens a new window, where the variations of the 3 species are displayed as a graph (curves representing the population sizes versus time). This allows to clearly show the different cases of populations evolution in time: periodic oscillations, population extinction,  non-monotonical fluctuations, as described in the two biology help texts. It also allows you to see what influence the modification of one or the other model parameter has on the variation of the population sizes.
+
+Sample simulation input data.
+=============================
+
+The application includes 10 sample cases, that you may load with the "Samples ..." item in the "File" menu.
+
+Sample 1: Lowest-level species only.
+------------------------------------
+As there is no predator, the species grows infinitely (exponential growth model).
+
+Sample 2: Mid-level species only.
+---------------------------------
+As there is no prey, the species will extinct by starvation.
+
+Sample 3: No lowest-level species.
+----------------------------------
+The mid-level species will extinct by starvation and by being eaten by the top-level species. This one, will first grow by feeding on the mid-level species, then, if there is no more food, extinct, as well.
+Note, that the curves' shapes are identical to the one of sample 5.
+
+Sample 4: No top-level species (periodic oscillation).
+------------------------------------------------------
+This is the classical case of the 2-species Lotka-Volterra model: Both species populations vary periodically in time, i.e. repeating in time, maximum and minimum values reappearing after always the same number of years. The variations of both populations are very "similar", the up or down of the mid-level species (predator) curve always being later in time than the corresponding variation of the lowest-level species (prey).
+
+Sample 5: No top-level species (extinction).
+-------------------------------------------
+The "zero" equilibrium state of the the 2-species Lotka-Volterra model: All prey (lowest-level species) is eaten by the predator (mid-level species), that, with no food left, will extinct, as well.
+
+Sample 7: All 3 species (periodic oscillation, ex. 1).
+------------------------------------------------------
+All 3 species populations vary periodically in time. This is similar to the 2-species curves of sample 4. The mathematical analysis of the model shows that this situation occurs, if ga = fb (independently of the values of initial population sizes or the other parameters).
+
+Sample 8: All 3 species (periodic oscillation, ex. 2).
+------------------------------------------------------
+Identical to sample 7; just to show that the curves sometimes present differently from their "usual" shapes.
+
+Sample 9: All 3 species (top-level species extinction).
+-------------------------------------------------------
+The lowest-level and mid-level populations vary periodically in time, whereas the top-level population extincts. This is the case, if there is not enough food to make the top-level species grow faster than it is reduced due to natural death. Mathematically, this situation occurs, whenever ga < fb.
+
+Sample 10:  All 3 species (non-monotonical fluctuations).
+---------------------------------------------------------
+Oscillations of all 3 species, but without any periodicity. The mid-level species presents variations with a relatively small amplitude and the intervals between the curve's maxima become smaller and smaller. The lowest-level and top-level species present completely non-monotonical fluctuations, both population sizes tending to infinity. This situation occurs, whenever ga > fb.
+
+Using your own input data.
+==========================
+
+If you use all new input data, please be aware that this data is not checked to be valid (except for being present). This means, if you enter senseless values, the graph display will be senseless and the simulation may not work correctly.
+
+If the total number of animals is less than 750, the number of animals displayed corresponds to the real (simulation) animal number. Otherwise, the number of the 3 species pictures displayed is relative to this maximum of images, 1 animal displayed corresponding to several animals in reality. If a population size becomes so big, that the initial population sizes are such, that no animal would be displayed, an error message pops up and the simulation is not started. Reducing the time period considered should resolve this issue.
+
+The "LotkaVolterra1" application.
+=================================
+
+"LotkaVolterra2" may be used to run 2-species predator-prey simulations. Alternately, you may want to download my "LotkaVolterra1" application. Advantages:
+
+  - the GUI is not "overfilled" with the input fields concerning the 3rd species.
+  - option to use the "predation efficiency rate" parameter instead of the "predation growth rate".
+  - option to use the logistic growth model, instead of the exponential growth model, for the prey.

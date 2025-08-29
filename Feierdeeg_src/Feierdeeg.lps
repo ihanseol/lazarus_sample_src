@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Feierdeeg.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="holidays.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fFeierdeeg"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="72" Column="21" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="83" Column="29" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="111" Column="19" TopLine="92"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="17"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="112" Column="25" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="108" Column="34" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="74" Column="22" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="126" Column="3" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="137" Column="3" TopLine="110"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="66" Column="13" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="154" Column="13" TopLine="145"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="153" Column="47" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="176" Column="33" TopLine="164"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="116" Column="10" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="150" Column="5" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="74" Column="7" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="182" Column="41" TopLine="156"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="135" Column="35" TopLine="119"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="183" Column="18" TopLine="156"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="165" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="29" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="28"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="17" Column="24"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="179" TopLine="164"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="155" Column="30" TopLine="138"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="38" Column="5" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="144" TopLine="133"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="holidays.pas"/>
+        <Caret Line="134" TopLine="134"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

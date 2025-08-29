@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="FbSQL.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="fb.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fFbSQL"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="8" HistoryIndex="7">
+      <Position1>
+        <Filename Value="fb.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="fb.pas"/>
+        <Caret Line="61" Column="5" TopLine="55"/>
+      </Position2>
+      <Position3>
+        <Filename Value="fb.pas"/>
+        <Caret Line="102" Column="22" TopLine="81"/>
+      </Position3>
+      <Position4>
+        <Filename Value="FbSQL.lpr"/>
+        <Caret Line="3" Column="40"/>
+      </Position4>
+      <Position5>
+        <Filename Value="fb.pas"/>
+        <Caret Line="49" Column="80" TopLine="38"/>
+      </Position5>
+      <Position6>
+        <Filename Value="fb.pas"/>
+        <Caret Line="53" Column="33" TopLine="28"/>
+      </Position6>
+      <Position7>
+        <Filename Value="fb.pas"/>
+        <Caret Line="77" Column="55" TopLine="55"/>
+      </Position7>
+      <Position8>
+        <Filename Value="fb.pas"/>
+        <Caret Line="71" Column="11" TopLine="44"/>
+      </Position8>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

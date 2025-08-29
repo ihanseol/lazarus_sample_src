@@ -1,0 +1,455 @@
+object fConjER: TfConjER
+  Left = 283
+  Height = 378
+  Top = 137
+  Width = 879
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Conjugaison des verbes en -er'
+  ClientHeight = 353
+  ClientWidth = 879
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object laExercice: TLabel
+    Left = 10
+    Height = 23
+    Top = 112
+    Width = 64
+    Caption = 'Exercice'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edExercise: TEdit
+    Left = 10
+    Height = 31
+    Top = 150
+    Width = 694
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 1
+  end
+  object edAnswer: TEdit
+    Left = 10
+    Height = 31
+    Top = 190
+    Width = 694
+    Font.Height = -17
+    ParentFont = False
+    TabStop = False
+    TabOrder = 0
+  end
+  object edEvaluation: TEdit
+    Left = 10
+    Height = 31
+    Top = 238
+    Width = 694
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object stTitle: TStaticText
+    Left = 10
+    Height = 30
+    Top = 10
+    Width = 457
+    Caption = 'Conjugaison: Verbes  en -er'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    Left = 728
+    Height = 23
+    Top = 80
+    Width = 76
+    Caption = 'Questions'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edQuestion: TEdit
+    Left = 810
+    Height = 31
+    Top = 76
+    Width = 60
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object Label3: TLabel
+    Left = 728
+    Height = 23
+    Top = 132
+    Width = 56
+    Caption = 'Correct'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCorrect: TEdit
+    Left = 810
+    Height = 31
+    Top = 128
+    Width = 60
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object Label4: TLabel
+    Left = 728
+    Height = 23
+    Top = 180
+    Width = 34
+    Caption = 'Faux'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edFalse: TEdit
+    Left = 810
+    Height = 31
+    Top = 176
+    Width = 60
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object Label5: TLabel
+    Left = 728
+    Height = 23
+    Top = 242
+    Width = 62
+    Caption = 'Réussite'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSuccess: TEdit
+    Left = 810
+    Height = 31
+    Top = 238
+    Width = 60
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object btQuestion: TButton
+    Left = 664
+    Height = 31
+    Top = 312
+    Width = 94
+    Caption = 'Question'
+    OnClick = btQuestionClick
+    TabOrder = 8
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 23
+    Top = 68
+    Width = 165
+    Caption = 'Nombre de questions'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edQuestions: TEdit
+    Left = 184
+    Height = 31
+    Top = 64
+    Width = 52
+    Alignment = taRightJustify
+    Font.Height = -17
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 9
+    Text = '20'
+  end
+  object btAnswer: TButton
+    Left = 776
+    Height = 31
+    Top = 312
+    Width = 94
+    Caption = 'Réponse'
+    OnClick = btAnswerClick
+    TabOrder = 10
+  end
+  object memoQuestions: TMemo
+    Left = 504
+    Height = 32
+    Top = 112
+    Width = 95
+    TabOrder = 11
+    Visible = False
+  end
+  object memoAnswers: TMemo
+    Left = 609
+    Height = 32
+    Top = 112
+    Width = 95
+    Lines.Strings = (
+      ''
+    )
+    TabOrder = 12
+    Visible = False
+  end
+  object btLetter3: TButton
+    Left = 104
+    Height = 31
+    Top = 312
+    Width = 31
+    Caption = 'é'
+    Font.Style = [fsBold]
+    OnClick = btLetter3Click
+    ParentFont = False
+    TabOrder = 21
+    TabStop = False
+  end
+  object btLetter4: TButton
+    Left = 150
+    Height = 31
+    Top = 312
+    Width = 31
+    Caption = 'è'
+    Font.Style = [fsBold]
+    OnClick = btLetter4Click
+    ParentFont = False
+    TabOrder = 14
+    TabStop = False
+  end
+  object btLetter5: TButton
+    Left = 198
+    Height = 31
+    Top = 312
+    Width = 31
+    Caption = 'ê'
+    Font.Style = [fsBold]
+    OnClick = btLetter5Click
+    ParentFont = False
+    TabOrder = 13
+    TabStop = False
+  end
+  object btLetter6: TButton
+    Left = 246
+    Height = 31
+    Top = 312
+    Width = 31
+    Caption = 'ë'
+    Font.Style = [fsBold]
+    OnClick = btLetter6Click
+    ParentFont = False
+    TabOrder = 15
+    TabStop = False
+  end
+  object btLetter1: TButton
+    Left = 10
+    Height = 31
+    Top = 312
+    Width = 31
+    Caption = 'à'
+    Font.Style = [fsBold]
+    OnClick = btLetter1Click
+    ParentFont = False
+    TabOrder = 22
+    TabStop = False
+  end
+  object btLetter2: TButton
+    Left = 56
+    Height = 31
+    Top = 312
+    Width = 31
+    Caption = 'â'
+    Font.Style = [fsBold]
+    OnClick = btLetter2Click
+    ParentFont = False
+    TabOrder = 23
+    TabStop = False
+  end
+  object btLetter7: TButton
+    Left = 296
+    Height = 31
+    Top = 312
+    Width = 31
+    Caption = 'î'
+    Font.Style = [fsBold]
+    OnClick = btLetter7Click
+    ParentFont = False
+    TabOrder = 20
+    TabStop = False
+  end
+  object btLetter9: TButton
+    Left = 400
+    Height = 31
+    Top = 312
+    Width = 31
+    Caption = 'ù'
+    Font.Style = [fsBold]
+    OnClick = btLetter9Click
+    ParentFont = False
+    TabOrder = 19
+    TabStop = False
+  end
+  object btLetter10: TButton
+    Left = 448
+    Height = 31
+    Top = 312
+    Width = 31
+    Caption = 'û'
+    Font.Style = [fsBold]
+    OnClick = btLetter10Click
+    ParentFont = False
+    TabOrder = 18
+    TabStop = False
+  end
+  object btLetter8: TButton
+    Left = 344
+    Height = 31
+    Top = 312
+    Width = 31
+    Caption = 'ô'
+    Font.Style = [fsBold]
+    OnClick = btLetter8Click
+    ParentFont = False
+    TabOrder = 17
+    TabStop = False
+  end
+  object btLetter11: TButton
+    Left = 496
+    Height = 31
+    Top = 312
+    Width = 31
+    Caption = 'ç'
+    Font.Style = [fsBold]
+    OnClick = btLetter11Click
+    ParentFont = False
+    TabOrder = 16
+    TabStop = False
+  end
+  object mMenu: TMainMenu
+    left = 816
+    top = 8
+    object mMenuConj: TMenuItem
+      Caption = 'Conjugaison'
+      object mConjAvoir: TMenuItem
+        Caption = 'Exercices "avoir"'
+        OnClick = mConjAvoirClick
+      end
+      object mConjEtre: TMenuItem
+        Caption = 'Exercices "être"'
+        OnClick = mConjEtreClick
+      end
+      object mConjER: TMenuItem
+        Caption = 'Exercices "verbes -er"'
+        OnClick = mConjERClick
+      end
+      object mConjFile: TMenuItem
+        Caption = 'Fichier exercices'
+        OnClick = mConjFileClick
+      end
+      object mConjConj: TMenuItem
+        Caption = 'Affichage conjugaison'
+        OnClick = mConjConjClick
+      end
+      object mConjExit: TMenuItem
+        Caption = 'Quitter'
+        OnClick = mConjExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsDisplay: TMenuItem
+        Caption = 'Affichage'
+        object mOptionsDisplayIndicatif: TMenuItem
+          Caption = 'Ne pas afficher "Indicatif"'
+          Checked = True
+          OnClick = mOptionsDisplayIndicatifClick
+        end
+        object mOptionsDisplaySep: TMenuItem
+          Caption = 'Séparation entre le radical et la terminaison'
+          Checked = True
+          OnClick = mOptionsDisplaySepClick
+        end
+        object mOptionsDisplaySepRacine: TMenuItem
+          Caption = 'Séparation entre la racine et le reste du radical'
+          Checked = True
+          OnClick = mOptionsDisplaySepRacineClick
+        end
+        object MenuItem1: TMenuItem
+          Caption = '-'
+        end
+        object mOptionsDisplayIrreg: TMenuItem
+          Caption = 'Afficher les irrégularités en couleur'
+          Checked = True
+          OnClick = mOptionsDisplayIrregClick
+        end
+        object mOptionsDisplayExcept: TMenuItem
+          Caption = 'Afficher les exceptions en couleur'
+          Checked = True
+          OnClick = mOptionsDisplayExceptClick
+        end
+      end
+      object mOptionsConj: TMenuItem
+        Caption = 'Conjugaison'
+        object mOptionsConjReforme: TMenuItem
+          Caption = '-eler/eter: selon la réforme de 1990'
+          Checked = True
+          Enabled = False
+          OnClick = mOptionsConjReformeClick
+        end
+        object mOptionsConjKeepY: TMenuItem
+          Caption = '-ayer: garder le y dans tous les cas'
+          OnClick = mOptionsConjKeepYClick
+        end
+      end
+      object mOptionsAux2: TMenuItem
+        Caption = 'Utiliser "avoir" pour verbes à 2 auxiliaires'
+        Enabled = False
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Aide'
+      object mHelpConj: TMenuItem
+        Caption = 'Conjugaison'
+        OnClick = mHelpConjClick
+      end
+      object mHelpConjER: TMenuItem
+        Caption = 'Verbes en -er'
+        OnClick = mHelpConjERClick
+      end
+      object mHelpHelp: TMenuItem
+        Caption = 'Aide programme'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'Info programme'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object dlgSave: TSaveDialog
+    Title = 'Création fichier exercices'
+    DefaultExt = '.txt'
+    left = 736
+    top = 8
+  end
+end

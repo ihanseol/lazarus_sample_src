@@ -1,0 +1,472 @@
+object fTriangles: TfTriangles
+  Left = 308
+  Height = 748
+  Top = 171
+  Width = 1339
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Triangles'
+  ClientHeight = 723
+  ClientWidth = 1339
+  DesignTimePPI = 120
+  Font.Height = -18
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object imDraw: TImage
+    Left = 10
+    Height = 600
+    Top = 112
+    Width = 900
+  end
+  object StaticText1: TStaticText
+    Left = 10
+    Height = 29
+    Top = 15
+    Width = 486
+    Caption = 'Centre de gravité et orthocentre d''un triangle.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 15
+  end
+  object rbCentroid: TRadioButton
+    Left = 10
+    Height = 29
+    Top = 64
+    Width = 164
+    Caption = ' Centre de gravité'
+    Checked = True
+    OnChange = rbCentroidChange
+    TabOrder = 16
+    TabStop = True
+  end
+  object rbOrthocenter: TRadioButton
+    Left = 288
+    Height = 29
+    Top = 64
+    Width = 124
+    Caption = ' Orthocentre'
+    OnChange = rbOrthocenterChange
+    TabOrder = 17
+  end
+  object Label1: TLabel
+    Left = 928
+    Height = 25
+    Top = 112
+    Width = 64
+    Caption = 'Triangle:'
+    Font.Height = -18
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 928
+    Height = 25
+    Top = 152
+    Width = 75
+    Caption = 'A(xa, ya): '
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 1064
+    Height = 25
+    Top = 152
+    Width = 17
+    Caption = 'xa'
+    ParentColor = False
+  end
+  object edXA: TEdit
+    Left = 1104
+    Height = 33
+    Top = 148
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 0
+  end
+  object Label4: TLabel
+    Left = 1210
+    Height = 25
+    Top = 152
+    Width = 18
+    Caption = 'ya'
+    ParentColor = False
+  end
+  object edYA: TEdit
+    Left = 1250
+    Height = 33
+    Top = 148
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 1
+  end
+  object Label5: TLabel
+    Left = 928
+    Height = 25
+    Top = 192
+    Width = 77
+    Caption = 'B(xb, yb): '
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 1064
+    Height = 25
+    Top = 192
+    Width = 19
+    Caption = 'xb'
+    ParentColor = False
+  end
+  object edXB: TEdit
+    Left = 1104
+    Height = 33
+    Top = 188
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 2
+  end
+  object Label7: TLabel
+    Left = 1210
+    Height = 25
+    Top = 192
+    Width = 20
+    Caption = 'yb'
+    ParentColor = False
+  end
+  object edYB: TEdit
+    Left = 1250
+    Height = 33
+    Top = 188
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 3
+  end
+  object Label8: TLabel
+    Left = 928
+    Height = 25
+    Top = 232
+    Width = 72
+    Caption = 'C(xc, yc): '
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 1064
+    Height = 25
+    Top = 232
+    Width = 16
+    Caption = 'xc'
+    ParentColor = False
+  end
+  object edXC: TEdit
+    Left = 1104
+    Height = 33
+    Top = 228
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 4
+  end
+  object Label10: TLabel
+    Left = 1210
+    Height = 25
+    Top = 232
+    Width = 17
+    Caption = 'yc'
+    ParentColor = False
+  end
+  object edYC: TEdit
+    Left = 1250
+    Height = 33
+    Top = 228
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 5
+  end
+  object laLines: TLabel
+    Left = 928
+    Height = 25
+    Top = 277
+    Width = 80
+    Caption = 'Médianes:'
+    Font.Height = -18
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laLine1: TLabel
+    Left = 928
+    Height = 25
+    Top = 441
+    Width = 102
+    Caption = 'Droite (AM1)'
+    ParentColor = False
+  end
+  object edLine1: TEdit
+    Left = 1064
+    Height = 33
+    Top = 437
+    Width = 266
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 18
+  end
+  object laLine2: TLabel
+    Left = 928
+    Height = 25
+    Top = 481
+    Width = 100
+    Caption = 'Droite (BM2)'
+    ParentColor = False
+  end
+  object edLine2: TEdit
+    Left = 1064
+    Height = 33
+    Top = 477
+    Width = 266
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object laLine3: TLabel
+    Left = 928
+    Height = 25
+    Top = 521
+    Width = 101
+    Caption = 'Droite (CM3)'
+    ParentColor = False
+  end
+  object edLine3: TEdit
+    Left = 1064
+    Height = 33
+    Top = 517
+    Width = 266
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object laPoint1: TLabel
+    Left = 928
+    Height = 25
+    Top = 317
+    Width = 123
+    Caption = 'M1(xm1, ym1): '
+    ParentColor = False
+  end
+  object laPoint1X: TLabel
+    Left = 1064
+    Height = 25
+    Top = 317
+    Width = 34
+    Caption = 'xm1'
+    ParentColor = False
+  end
+  object edXP1: TEdit
+    Left = 1104
+    Height = 33
+    Top = 313
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object laPoint1Y: TLabel
+    Left = 1210
+    Height = 25
+    Top = 317
+    Width = 35
+    Caption = 'ym1'
+    ParentColor = False
+  end
+  object edYP1: TEdit
+    Left = 1250
+    Height = 33
+    Top = 313
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object laPoint2: TLabel
+    Left = 928
+    Height = 25
+    Top = 357
+    Width = 123
+    Caption = 'M2(xm2, ym2): '
+    ParentColor = False
+  end
+  object laPoint2X: TLabel
+    Left = 1064
+    Height = 25
+    Top = 357
+    Width = 34
+    Caption = 'xm2'
+    ParentColor = False
+  end
+  object edXP2: TEdit
+    Left = 1104
+    Height = 33
+    Top = 353
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object laPoint2Y: TLabel
+    Left = 1210
+    Height = 25
+    Top = 357
+    Width = 35
+    Caption = 'ym2'
+    ParentColor = False
+  end
+  object edYP2: TEdit
+    Left = 1250
+    Height = 33
+    Top = 353
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object laPoint3: TLabel
+    Left = 928
+    Height = 25
+    Top = 397
+    Width = 123
+    Caption = 'M3(xm3, ym3): '
+    ParentColor = False
+  end
+  object laPoint3X: TLabel
+    Left = 1064
+    Height = 25
+    Top = 397
+    Width = 34
+    Caption = 'xm3'
+    ParentColor = False
+  end
+  object edXP3: TEdit
+    Left = 1104
+    Height = 33
+    Top = 393
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object laPoint3Y: TLabel
+    Left = 1210
+    Height = 25
+    Top = 397
+    Width = 35
+    Caption = 'ym3'
+    ParentColor = False
+  end
+  object edYP3: TEdit
+    Left = 1250
+    Height = 33
+    Top = 393
+    Width = 80
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object laPoint0: TLabel
+    Left = 928
+    Height = 25
+    Top = 562
+    Width = 139
+    Caption = 'Centre de gravité:'
+    Font.Height = -18
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laPoint: TLabel
+    Left = 928
+    Height = 25
+    Top = 602
+    Width = 79
+    Caption = 'G(xg, yg): '
+    ParentColor = False
+  end
+  object laPointX: TLabel
+    Left = 1064
+    Height = 25
+    Top = 602
+    Width = 19
+    Caption = 'xg'
+    ParentColor = False
+  end
+  object edXP: TEdit
+    Left = 1104
+    Height = 33
+    Top = 598
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 19
+  end
+  object laPointY: TLabel
+    Left = 1210
+    Height = 25
+    Top = 602
+    Width = 20
+    Caption = 'yg'
+    ParentColor = False
+  end
+  object edYP: TEdit
+    Left = 1250
+    Height = 33
+    Top = 598
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 20
+  end
+  object btCalc: TButton
+    Left = 1236
+    Height = 31
+    Top = 681
+    Width = 94
+    Caption = 'Calcul'
+    OnClick = btCalcClick
+    TabOrder = 6
+  end
+  object Label11: TLabel
+    Left = 808
+    Height = 25
+    Top = 68
+    Width = 52
+    Caption = 'Zoom:'
+    ParentColor = False
+  end
+  object edZoom: TEdit
+    Left = 870
+    Height = 33
+    Top = 64
+    Width = 40
+    Alignment = taRightJustify
+    TabOrder = 21
+    Text = '1'
+  end
+  object mMenu: TMainMenu
+    Left = 24
+    Top = 128
+    object mFile: TMenuItem
+      Caption = 'Fichier'
+      object mFileExit: TMenuItem
+        Caption = 'Quitter'
+        OnClick = mFileExitClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Aide'
+      object mHelpAbout: TMenuItem
+        Caption = 'Info'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

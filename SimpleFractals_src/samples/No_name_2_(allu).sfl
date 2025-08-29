@@ -1,0 +1,9 @@
+# No name II (allu)
+
+origin = (500,30)
+displacement = 6
+
+axiom = "0F+1F+2F+3F"
+rules = { "F": "F+FF-F-FF+F+F-F" }
+iterations = 3
+angle = 90

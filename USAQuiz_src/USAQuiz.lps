@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="USAQuiz.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="64"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="usquiz.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fUSQuiz"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="64"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="usflagseals.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fUSAFlagSeals"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="44"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="usquiz.pas"/>
+        <Caret Line="7" Column="9"/>
+      </Position1>
+      <Position2>
+        <Filename Value="usquiz.pas"/>
+        <Caret Line="422" Column="80" TopLine="399"/>
+      </Position2>
+      <Position3>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="10" Column="109"/>
+      </Position3>
+      <Position4>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="460" Column="54" TopLine="444"/>
+      </Position4>
+      <Position5>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="3" Column="8"/>
+      </Position5>
+      <Position6>
+        <Filename Value="usquiz.pas"/>
+        <Caret Line="426" Column="48" TopLine="400"/>
+      </Position6>
+      <Position7>
+        <Filename Value="usquiz.pas"/>
+        <Caret Line="433" Column="48" TopLine="406"/>
+      </Position7>
+      <Position8>
+        <Filename Value="USAQuiz.lpr"/>
+        <Caret Line="10" Column="42"/>
+      </Position8>
+      <Position9>
+        <Filename Value="usquiz.pas"/>
+        <Caret Line="436" Column="20" TopLine="411"/>
+      </Position9>
+      <Position10>
+        <Filename Value="usquiz.pas"/>
+        <Caret Line="442" TopLine="416"/>
+      </Position10>
+      <Position11>
+        <Filename Value="usquiz.pas"/>
+        <Caret Line="39" Column="11" TopLine="29"/>
+      </Position11>
+      <Position12>
+        <Filename Value="usquiz.pas"/>
+        <Caret Line="107" TopLine="107"/>
+      </Position12>
+      <Position13>
+        <Filename Value="usquiz.pas"/>
+      </Position13>
+      <Position14>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="96" Column="13" TopLine="81"/>
+      </Position14>
+      <Position15>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="18" Column="14"/>
+      </Position15>
+      <Position16>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="90" Column="26" TopLine="80"/>
+      </Position16>
+      <Position17>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="88" Column="12" TopLine="66"/>
+      </Position17>
+      <Position18>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="459" Column="27" TopLine="444"/>
+      </Position18>
+      <Position19>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="86" Column="10" TopLine="67"/>
+      </Position19>
+      <Position20>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="455" Column="6" TopLine="444"/>
+      </Position20>
+      <Position21>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="87" Column="5" TopLine="81"/>
+      </Position21>
+      <Position22>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="158" Column="14" TopLine="141"/>
+      </Position22>
+      <Position23>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="483" Column="40" TopLine="456"/>
+      </Position23>
+      <Position24>
+        <Filename Value="usflagseals.pas"/>
+      </Position24>
+      <Position25>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="479" Column="14" TopLine="456"/>
+      </Position25>
+      <Position26>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="476" Column="78" TopLine="456"/>
+      </Position26>
+      <Position27>
+        <Filename Value="usflagseals.pas"/>
+        <Caret Line="143" TopLine="122"/>
+      </Position27>
+      <Position28>
+        <Filename Value="usquiz.pas"/>
+        <Caret Line="153" Column="12" TopLine="147"/>
+      </Position28>
+      <Position29>
+        <Filename Value="usquiz.pas"/>
+        <Caret Line="159" Column="9" TopLine="141"/>
+      </Position29>
+      <Position30>
+        <Filename Value="usquiz.pas"/>
+        <Caret Line="441" Column="36" TopLine="419"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

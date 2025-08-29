@@ -1,0 +1,167 @@
+object fHelp: TfHelp
+  Left = 303
+  Height = 548
+  Top = 143
+  Width = 1008
+  BorderIcons = [biSystemMenu]
+  Caption = 'Temperature and Heat'
+  ClientHeight = 548
+  ClientWidth = 1008
+  DesignTimePPI = 120
+  Font.Height = -17
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Memo1: TMemo
+    Left = 5
+    Height = 486
+    Top = 10
+    Width = 998
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '********************'
+      '* "TempHeat" help. *'
+      '********************'
+      ''
+      '"TempHeat" is a simple physics application, that may be used to do some elementary calculations, concerning temperature and heat.'
+      ''
+      'Menu "Calculation".'
+      '==================='
+      ''
+      'Temperature scales:'
+      '-------------------'
+      ''
+      'Covert a temperature value (or 2 temperature values, if the second edit field is filled in) from one temperature scale (the one displayed in the combobox) into another. Formulas used:'
+      ' - Conversion from °C to °F:  Tf = (9/5)·Tc + 32'
+      ' - Conversion from °C to K :  Tk = Tc + 273.15'
+      'To convert from °F to K, convert to °C first.'
+      ''
+      'Temperatures entered by the user (except for the melting and boiling point, that are always in °C) have to be in the unit actually displayed in the scales combobox. The scales table will be filled in with all items in the "Calculation" menu.'
+      ''
+      'Temperature expansion.'
+      '----------------------'
+      ''
+      'Calculation of the change of length resp. volume (selection done with the radio-buttons) of a given material if the temperature changes from T1 to T2. Formula used:'
+      ' - Length expansion: ΔL = α·L·ΔT'
+      ' - Volume expansion: ΔV = β·L·ΔT'
+      'where L is the length, V the volume.'
+      'α is the coefficient of linear expansion, β the coefficient of volume expansion, which are constants for a given material (cf. below).'
+      ''
+      'Heat transfer.'
+      '--------------'
+      ''
+      'Calculation of the quantity of heat transfered if the temperature of a given material changes from T1 to T2. Formula used:'
+      ' - Q = m·c·ΔT'
+      'where m is the mass.'
+      'c is the specific heat, which is a constant for a given material (see below).'
+      ''
+      'Phase changes.'
+      '-------------'
+      ''
+      'Calculation of the heat released or absorbed, when a given material changes from one physical phase into another  (melting/vaporization selection done with the radio-buttons). Formulas used:'
+      ' - Melting (freezing)         : Q = m·Lf'
+      ' - Vaporization (condensation): Q = m·Lv'
+      'where m is the mass.'
+      'Lf is the latent heat of fusion, Lv the latent heat of vaporization, which are constants for a given material (cf. below).'
+      ''
+      'The actual material temperature is not needed in this calculation and you may let the corr. edit field empty. If you fill it in and if the material is one of those in the table (or if you enter a custom melting/boiling temperature), the application tells you what''s the physical phase of the material at this temperature.'
+      ''
+      'Heat conduction.'
+      '----------------'
+      ''
+      'Calculation of the rate of conductive heat transfer through a slab of material with a higher temperature at one end than at the other. Formaula used:'
+      ' - P = [k·A·(Th - Tc)]/d'
+      'where Th and Tc are the temperatures at the "hot" resp. "cold" end of the material, and A and d the surface area resp. thickness of the slab.'
+      'k is the thermal conductivity, which is a constant for a given material (cf. below).'
+      ''
+      'Note: T1 is considered to be the "hot" temperature. If you enter values such that T1 < T2, the application issues a message and automatically inverts the two values.'
+      ''
+      'Heat radiation.'
+      '---------------'
+      ''
+      'Calculation of the net rate of heat transfer between an object at given temperature and its environment being at a uniform temperature. Formula used:'
+      ' - P = σ·A·e·(T24 - T14)'
+      'where T1 and T2 are the object resp. environment temperatures (in Kelvin), A is the surface area and σ is the Stefan-Boltzmann constant (5.67×10−8 J/s⋅m2⋅K4).'
+      'e is the emissivity of the material, a value between 0 and 1, mathematical expression of how much radiation is actually absorbed. Thus, for an ideal radiator (perfect reflector): e = 0 and for an ideal absorber ("blackbody" radiator): e = 1.'
+      ''
+      'Exit.'
+      '-----'
+      ''
+      'Exit application.'
+      ''
+      'Menu "Settings".'
+      '================'
+      ''
+      'Heat quantities in kcal.'
+      '------------------------'
+      ''
+      'By default, heat quantities are calculated in Joule and the material constants are displayed in units, depending on the Joule. If you prefer kilocalorie instead, check this option.'
+      ''
+      'Disable material constants checking.'
+      '------------------------------------'
+      ''
+      'To avoid senseless calculations as much as possible, the application checks the values entered by the user and issues an error message for invalid data. Thus, for example, a negative length or temperatures below absolute zero will not be accepted by the program. Concerning the material constants, the validity check should be more rigorous: setting a minimum and a maximum value allowed, may be really helpful, especially for users, who aren''t physics experts. To disable this limiting value control, check this option (cf. details below).'
+      ''
+      'Menu "Help".'
+      '============'
+      ''
+      'Help.'
+      '-----'
+      ''
+      'Display the "TempHeat" application help text (this document).'
+      ''
+      'About.'
+      '------'
+      ''
+      'Display the "TempHeat" application version, author and date-written.'
+      ''
+      'Temperature and heat related material constants.'
+      '================================================'
+      ''
+      'Material constants data file.'
+      '-----------------------------'
+      ''
+      '"TempHeat" includes a data file (materials.txt), containing, for given materials, the standard values of the constants used in the calculations. In the file, the values listed are (from left to right): coefficient of linear expansion (in 1/°C; to be multiplied by 10-6), coefficient of volume expansion (in 1/°C; to be multiplied by 10-6), specific heat in J/kg⋅°C), specific heat in kcal/kg⋅°C), melting point (in °C), latent heat of fusion (in kJ/kg), latent heat of fusion (in kcal/kg), boiling point (in °C), latent heat of vaporization (in kJ/kg), latent heat of vaporization (in kcal/kg), thermal conductivity k(in W/m°C). You are free to modify this file, in particular add the "missing" values or add further materials. On your own risk!'
+      ''
+      'Material constants details.'
+      '---------------------------'
+      ''
+      'All constant data is from the free online physics book "University Physics II - Thermodynamics, Electricity, and Magnetism (OpenStax)". Internet adress:'
+      'https://phys.libretexts.org/Bookshelves/University_Physics/Book%3A_University_Physics_(OpenStax)/Map%3A_University_Physics_II_-_Thermodynamics%2C_Electricity%2C_and_Magnetism_(OpenStax)'
+      ''
+      'The values quoted are for the following conditions:'
+      ''
+      'Thermal expansion:'
+      'According to experiments, the dependence of thermal expansion on temperature, substance, and original length is summarized in the equation dL/dT = αL. Approximating α as a constant (using the simplified formula  ΔL ≈ αLΔT) is quite accurate for small changes in temperature and sufficient for most practical purposes, even for large changes in temperature. Also note, that the values for α in 1/K are just the same as in 1/°C.'
+      ''
+      'Specific heat:'
+      'The values for solids and liquids are at constant volume and 25°C, except as noted. The values for gases are at constant volume and at 20.0°C, except as noted.'
+      'In reality, specific heat isn''t a constant, but depends on temperature (c = (1/m)·(dQ/dT). However, except for gases, the temperature and volume dependence of the specific heat of most substances is weak at normal temperatures. Therefore, taking the constant specific heat values given in the table, mostly gives a realistic approximation.'
+      ''
+      'Latent heat coefficients:'
+      'The values given are at the normal melting and boiling temperatures at standard atmospheric pressure (1atm), except for helium (having no solid phase at atmospheric pressure), the melting point given is at a pressure of 2.5 MPa.'
+      ''
+      'Custom material constants.'
+      '--------------------------'
+      'Beside using the materials in the list (with their constants defined in the data file), the user has the possibility to enter custom values for thermal expansion coefficients, specific heat, etc. In the combobox, select "--custom--" and, the constant''s edit field becoming available for writing, enter your actual value.'
+      ''
+      'Material constants validity check.'
+      '----------------------------------'
+      'To prevent (non-physics-experienced) users to enter senseless material constants, I decided to check the values entered against a minimum and maximum, only values between those being accepted by the application. The minimum and maximum actually used are the smallest and biggest value, quoted in the tables of the OpenStax physics book, mentionned above. This is, of course, not the ideal solution, but first, the easiest one and second, a control, that in most cases, does, what it is expected to do. Anyway, if your actual constant value is not accepted by the program, just check the "Disable material constants checking" option in the "Settings" menu. Of course, doing so, will make possible to enter any nonsense values yielding some senseless calculation result...'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 909
+    Height = 31
+    Top = 512
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+end

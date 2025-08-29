@@ -1,0 +1,127 @@
+object fPGSQL: TfPGSQL
+  Left = 295
+  Height = 343
+  Top = 330
+  Width = 711
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Test PostgreSQL connection using TPQConnection'
+  ClientHeight = 343
+  ClientWidth = 711
+  DesignTimePPI = 120
+  Font.Height = -18
+  LCLVersion = '2.2.6.0'
+  object StaticText1: TStaticText
+    Left = 45
+    Height = 30
+    Top = 10
+    Width = 621
+    Alignment = taCenter
+    Caption = 'Reading the number of cities from the "world" databse.'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 25
+    Top = 56
+    Width = 294
+    Caption = '1. Connecting to the database server:'
+    ParentColor = False
+  end
+  object edCities: TEdit
+    Left = 550
+    Height = 33
+    Top = 88
+    Width = 52
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object btConnect: TButton
+    Left = 28
+    Height = 31
+    Top = 88
+    Width = 94
+    Caption = 'Connect'
+    OnClick = btConnectClick
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 392
+    Height = 25
+    Top = 56
+    Width = 310
+    Caption = '2. Submitting the query to PostgreSQL:'
+    ParentColor = False
+  end
+  object btQuery: TButton
+    Left = 410
+    Height = 31
+    Top = 136
+    Width = 94
+    Caption = 'Query'
+    OnClick = btQueryClick
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 410
+    Height = 25
+    Top = 92
+    Width = 131
+    Caption = 'Number of cities'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 10
+    Height = 25
+    Top = 192
+    Width = 208
+    Caption = 'Database access message:'
+    ParentColor = False
+  end
+  object btExit: TButton
+    Left = 608
+    Height = 31
+    Top = 303
+    Width = 94
+    Caption = 'Exit'
+    OnClick = btExitClick
+    TabOrder = 2
+  end
+  object edMess: TMemo
+    Left = 10
+    Height = 110
+    Top = 224
+    Width = 540
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 5
+    TabStop = False
+  end
+  object dbSQLTransaction: TSQLTransaction
+    Active = False
+    Database = dbPQConnection
+    Left = 312
+    Top = 88
+  end
+  object dbSQLQuery: TSQLQuery
+    FieldDefs = <>
+    Database = dbPQConnection
+    Transaction = dbSQLTransaction
+    Params = <>
+    Macros = <>
+    Left = 312
+    Top = 152
+  end
+  object dbPQConnection: TPQConnection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    Transaction = dbSQLTransaction
+    Left = 184
+    Top = 88
+  end
+end

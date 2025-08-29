@@ -1,0 +1,8 @@
+# Unregelmäßiger Präsens: "sein"
+
+1 bin*
+2 bist*
+3 ist*
+4 sind*
+5 seid*
+6 sind*

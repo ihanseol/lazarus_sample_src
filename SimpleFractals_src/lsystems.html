@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <title>Fractals and L-systems</title>
+  <meta name="description" content="A short introduction to fractals and L-systems, as used in the SimpleFractals application"/>
+  <style type="text/css"><!--
+    a:link { color:#000000; text-decoration:none }
+    a:hover { font-weight:bold }
+  //--></style>
+</head>
+
+<body style="margin:0; padding:0; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:0.9em; background-color:#FFEBCD; color:#000000;">
+  <div id="nav" style="float:left; padding:8px; width:15%; position:fixed">
+  <p style="text-decoration:underline">
+    <a href="#top">Content:</a>
+  </p>
+  <p style="padding-top:15px">
+    <a href="#fractals">Fractals</a>
+  </p>
+  <p>
+    <a href="#turtle">Turtle graphics</a>
+  </p>
+  <p>
+    <a href="#lsystems">L-systems</a>
+  </p>
+    <p>
+    <a href="#sfractals">SimpleFractals</a>
+  </p>
+  </div>
+  <div id="content" style="float:right; padding:8px; width:85%; background-color:#FFF8DC">
+  <a name="top"><h2 style="margin:0; padding:0">A short introduction to fractals and L-systems, as used in the <span style="font-style:italic">SimpleFractals</span> application.</h2></a>
+  <p style="padding-top:15px; font-weight:bold; text-decoration:underline">
+    <a name="fractals">Fractals.</a>
+  </p>
+  <p style="padding-top:5px; text-align:justify">
+    Here, how <a href="http://mathworld.wolfram.com/Fractal.html"><span style="color:blue">Math World</span></a> defines fractals: A fractal is an object or quantity that
+    displays self-similarity, in a somewhat technical sense, on all scales. The object need not exhibit exactly the same structure at all scales, but the same "type" of
+    structures must appear on all scales. A plot of the quantity on a log-log graph versus scale then gives a straight line, whose slope is said to be the fractal dimension.
+  </p>
+  <p style="padding-top:5px; text-align:justify">
+    Or somewhat simpler: A fractal is basically a <span style="font-weight:bold">geometric figure</span>, that shows the same characteristics no matter how much you zoom in.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="turtle">Turtle graphics.</a>
+  </p>
+  <p style="padding-top:5px; text-align:justify">
+    Turtle graphics was part of the original <span style="font-weight:bold">Logo</span> programming language developed by Wally Feurzig and Seymour Papert in 1966 and intended
+    to introduce programming to kids. Some modern programming languages, such as <span style="font-weight:bold">Python</span> contain a turtle module. The principle of turtle
+    graphics is simple:Let the turtle (the pen on your drawing surface) execute a series of commands in order to plot, whatever you want. Basic <span
+    style="font-weight:bold">Turtle graphics commands and options</span>:Move forward, turn left, turn right, disable writing, enable writing.
+  </p>
+  <p style="padding-top:5px; text-align:justify">
+    Fractals are geometric figures, composed of pattern, that repeat again and again, we said. Thus, why not using Turtle graphics to draw them:Starting from an initial figure,
+    within successive <span style="font-weight:bold">iterations</span>, transform the figure to a new one, being the repetition of itself, corresponding to the actual iteration
+    step and continue this procedure, as long as we want, being limited, of course, by the resolution of the graphics display. So far, so good. But how to do, to implement
+    the figure repetitions in an easy way? Is this even possible? The answer is yes. By using an <span style="font-weight:bold">L-system</span>!
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="lsystems">L-systems.</a>
+  </p>
+  <p style="padding-top:5px; text-align:justify">
+    Definition, according to <a href="http://mathworld.wolfram.com/Fractal.html"><span style="color:blue">Math World</span></a>:A Lindenmayer system, also known as an L-system,
+    is a <span style="font-weight:bold">string rewriting system</span> that can be used to generate fractals with dimension between 1 and 2.
+  </p>
+  <p style="padding-top:5px; text-align:justify">
+    Or, with other words:An L-system is a way of representing recursive structures (such as fractals) as a string of characters, this is done by rewriting the string over
+    and over.
+  </p>
+  <p style="padding-top:5px; text-align:justify; text-decoration:underline">
+    Components of an L-system.
+  </p>
+  <p style="padding-top:5px; text-align:justify">
+    Every L-system has:
+    <ul>
+      <li>An <span style="font-weight:bold">alphabet</span>: The set of symbols, that the L-system is going to use.</li>
+      <li>An <span style="font-weight:bold">axiom</span>: The initial string for the generation.</li>
+      <li>A set of <span style="font-weight:bold">production rules</span>: Rules telling, how each symbol should be replaced in the following iteration.</li>
+    </ul>
+  </p>
+  <p style="padding-top:0px; text-align:justify">
+    As we are going to use Turtle graphics to plot and L-systems to represent what we want to plot, we need to create a <span style="font-weight:bold">relationship between
+    the alphabet symbols and the Turtle commands</span>. We can assign a symbol to each of the Turtle commands, mentioned above, and these symbols will represent the alphabet
+    of the L-system; for example:
+  </p>
+  <p style="padding-top:5px">
+    &nbsp; &nbsp; F: &nbsp; Move forwards<br/>
+    &nbsp; &nbsp; +: &nbsp;Turn right<br/>
+    &nbsp; &nbsp; -: &nbsp; Turn left
+  </p>
+  <p style="padding-top:5px; text-align:justify">
+    Moving forward meaning here drawing, while moving forward and turning right resp. left meaning turning by a given angle, that, as the axiom and the rules, has to be defined
+    as part of the L-system. To take into account the <span style="font-style:italic">disable writing</span> option of Turtle graphics, we can extend our alphabet by a further
+    symbol:
+  </p>
+  <p style="padding-top:5px; text-align:justify">
+    &nbsp; &nbsp; G: &nbsp;Move without drawing
+  </p>
+  <p style="padding-top:5px; text-align:justify">
+    This 4-symbols alphabet is rudimentary and will only allow to draw <span style="font-weight:bold">simple fractals</span>. For more complex drawings (in particular biological
+    structures, such as trees and plants), further L-system commands will be needed, the most common would be:move backwards, remember (push to stack) turtle position, restore
+    (pop from stack) turtle position. There are even L-systems, that include symbols, doing arithmetic operations, such as incrementing or decrementing the line width or the angle.
+  </p>
+  <p style="padding-top:5px; text-align:justify">
+    Except (probably) for F, there isn't a real standard for the symbols used in L-systems. Move forward without drawing is sometimes represented by f (instead of G) and
+    the turn commands are often considered by the mathematical way of seeing angles (positive angle, turning to the left), thus, you'll find L-system definitions, where +
+    means turn left and where - means turn right.
+  </p>
+  <p style="padding-top:5px; text-align:justify">
+    Depending on the complexity of the fractal, several rules may be needed to define it with an L-system. This makes necessary an extension of the alphabet by what I call
+    <span style="font-weight:bold">placeholders</span> (placeholders are also sometimes necessary in one-rule L-systems). These are symbols, that may appear within the axiom
+    and/or the rules, without having any effect on the turtle, but being replaced by a new command string at each iteration. Often X and Y are used as such placeholder symbols,
+    but you'll find L-systems, that use A, B, C, D or other letters. Concerning multiple-rules L-systems, it is important to know, that <span style="font-weight:bold">all
+    rules have to be applied simultaneously</span>, that is independently the one from the other on the previous iteration string.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Examples:
+  </p>
+  <table border="0" style="padding-top:0px">
+    <tr><td>Levy C-Curve</td><td width="25px">&nbsp;</td><td>axiom = "F"</td></tr>
+    <tr><td colspan="2">&nbsp;</td><td>rules = {"F": "+F--F+"}</td></tr>
+    <tr><td colspan="2">&nbsp;</td><td>iterations = 12</td></tr>
+    <tr><td colspan="2">&nbsp;</td><td>angle = 45</td></tr>
+    <tr><td>Hilberts-Curve</td><td width="25px">&nbsp;</td><td>axiom = "L"</td></tr>
+    <tr><td colspan="2">&nbsp;</td><td>rules = {"L": "+RF-LFL-FR+", "R": "-LF+RFR+FL-"}</td></tr>
+    <tr><td colspan="2">&nbsp;</td><td>iterations = 6</td></tr>
+    <tr><td colspan="2">&nbsp;</td><td>angle = 90</td></tr>
+  </table>
+  <p style="padding-top:0px; text-align:justify">
+    In the first example, at each iteration, each F of the previous iteration string is replaced by the string described by the rule. The second example has two rules, telling
+    that at each iteration the placeholders L and R have to be replaced by the corresponding string. Remember, that there is no rule priority, but that rules have to be applied
+    simultaneously.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="sfractals">The <span class="italic">SimpleFractals</span> application.</a>
+  </p>
+  <p style="padding-top:10px; padding-bottom:0px; text-align:justify">
+    <span style="font-style:italic">SimpleFractals</span> is a PC application, that uses basic L-systems to draw simple fractals. The alphabet is made of the following symbols:
+  </p>
+  <table border="0">
+    <tr><td>&nbsp; &nbsp; F, G, +, -</td><td width="25px">&nbsp;</td><td>Turtle commands, as described above</td></tr>
+    <tr><td>&nbsp; &nbsp; V, W, X, Y, Z</td><td width="25px">&nbsp;</td><td>Placeholders, as defined above</td></tr>
+    <tr><td>&nbsp; &nbsp; 0..9</td><td width="25px">&nbsp;</td><td>Color codes (see below)</td></tr>
+  </table>
+  <p style="padding-top:5px; text-align:justify">
+    To simplify the L-system definition parsing, if there are more than one rules, these have to be written one per line at subsequent lines.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Non-standard L-system parameters.
+  </p>
+  <p style="padding-top:5px; text-align:justify">
+    As fractals are mathematical structures, it is possible to do a complete mathematical analysis of them and doing so, determine where the drawing will appear on the
+    graph. <span style="font-style:italic">SimpleFractals</span> uses another way, to ensure that the fractal is drawn centered on the drawing surface, by extending the L-systems
+    syntax by the (non-standard) parameter <span style="font-weight:bold">origin = (x,y)</span>, where x and y are the coordinates, where the turtle has to be placed, before
+    starting to draw. Another variable, that affects the proper drawing of the fractal, is the length of the turtle displacement. Also note, that, in some cases, this displacement
+    has a modifying effect on the fractal image. <span class="italic">SimpleFractals</span> allows the specification of a (non-standard) parameter <span
+    style="font-weight:bold">displacement = d</span>, where d is the displacement, that does the turtle each time, when an F or G command is executed.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Colored fractal drawings.
+  </p>
+  <p style="padding-top:5px; text-align:justify">
+    It's obvious, that the pictures produced are lots prettier if colored, than if just drawing black on white or green on black. I found a very simple way to add color to
+    most (not all) classic fractal drawings: I extended the alphabet by the <span style="font-weight:bold">(non-standard) color codes 0..9</span>. Their meaning is, that each time
+    one of these symbols appears in the command string, the color of the turtle-pen is set to a given value (predefined values: 0=red, 1=orange...). As these symbols are my
+    "personal invention" (thus never used in fractal definitions, that you find in some book or at some website), they may turned off in the application's Settings menu; opening
+    a .sfl file, with color drawing disabled, will automatically remove the color symbols and load a standard L-system definition (except for the origin and displacement
+    parameters, not mandatory, and possible to be entered into edit fields on the application's form).
+  </p>
+  <p style="padding-top:15px; font-size:85%">
+    [text mostly based on <a href="https://elc.github.io/posts/plotting-fractals-step-by-step-with-python/"><span style="color: blue">Step by Step Fractals with Python</span></a>
+    by Ezequiel Leonardo Castaño]
+  </p>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+Alanine         A  Ala 071.0800
+Cysteine        C  Cys 103.1400
+Aspartic acid   D  Asp 115.0900
+Glutamic acid   E  Glu 129.1200
+Phenylalanine   F  Phe 147.1800
+Glycine         G  Gly 057.0600
+Histidine       H  His 137.1500
+Isoleucine      I  Ile 113.1700
+Lysine          K  Lys 128.1800
+Leucine         L  Leu 113.1700
+Methionine      M  Met 131.2100
+Asparagine      N  Asn 114.1100
+Proline         P  Pro 097.1200
+Glutamine       Q  Gln 128.4100
+Arginine        R  Arg 156.2000
+Serine          S  Ser 087.0800
+Threonine       T  Thr 101.1100
+Valine          V  Val 099.1400
+Tryptophan      W  Trp 186.2100
+Tyrosine        Y  Tyr 163.1800
+D, or N         B  Asx --------
+E, or Q         Z  Glx --------
+Unknown         X  Xxx --------

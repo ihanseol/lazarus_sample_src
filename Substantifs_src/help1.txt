@@ -1,0 +1,62 @@
+#######################################
+# Le pluriel des substantifs français #
+#######################################
+
+Règle générale:
+===============
+
+Pour les noms communs, on ajoute -s au singulier, sauf si ce dernier se termine par -s, -x ou -z.
+
+Pour les mots étrangers, la réforme orthographique recommande la formation du pluriel calquée sur le français. Exemples:
+  le boss       les boss
+  le match      les matchs
+Cependant il demeure courant de trouver le pluriel de mots étrangers respectant la grammaire du mot dans sa langue d'origine (en particulier s'il s'agit du latin). Exemples:
+  le maximum    les maxima
+  le minimum    les minima
+  l'erratum     les errata
+  le scenario   les scenarii
+
+À la différence des noms communs, les noms propres (et notamment les noms de famille) sont invariables. On écrira donc:
+  les Belmondo, les Trump
+Dans quelques cas particulier, cependant, le nom prend la marque du pluriel:
+  - noms propres de région divisée géographiquement ou politiquement;
+    ex: les Amériques, les deux Corées.
+  - noms propres employés métaphoriquement;
+    ex: les Einstein = la famille Einstein; ils se prennent comme des Einsteins = comme des génies.
+  - noms propres d'un certain nombre de grandes familles françaises (ou francisées);
+    ex: les Bourbons, les Césars, les Gracques.
+
+Pluriels irréguliers:
+=====================
+
+Les substantifs suivants ont un pluriel irrégulier (ne suivant aucune règle):
+
+  Singulier  Pluriel
+  ------------------
+  oeil       yeux
+  aïeul      aïeux
+  ail        aulx
+  ciel       cieux
+
+À noter que aïeuls et ails (pluriels formés de manière régulière) est également exacte. Pour ciel, le pluriel irrégulier cieux est utilisé quand on parle du paradis, du climat; dans l'utilisation commune du mot, le pluriel se forme de manière régulière et on écrira donc ciels dans ce cas.
+
+Pluriels spéciaux (dépendant de la terminaison du singulier).
+=============================================================
+
+  Sing.    Règle générale       Plur. exceptions     Noms exceptions
+  ----------------------------------------------------------------------------------------------------
+  -eau     pluriel en -eaux
+  -au      pluriel en -aux      pluriel régulier     landau, sarrau
+  -eu      pluriel en -eux      pluriel régulier     bleu, pneu, émeu, enfeu, lieu (le poisson)
+  -ou      pluriel régulier     pluriel en -oux      bijou, caillou, chou, genou, hibou, joujou, pou
+  -al      pluriel en -aux      pluriel régulier     aval, bal, cal, carnaval, chacal, cérémonial,
+                                                     festival, pal, égal, serval, étal, val, récital,
+                                                     final (musique), choral (musique)
+  -ail     pluriel régulier     pluriel en -aux      bail, corail, émail, fermail, gemmail, soupirail,
+                                                     travail, vantail, ventail, vitrail
+
+Quelques noms, pour lesquels deux formes de pluriels sont possibles:
+
+  ripou     ripous     ripoux
+  idéal     idéals     idéaux
+  chenal    chenals    chenaux

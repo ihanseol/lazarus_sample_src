@@ -1,0 +1,186 @@
+object Form1: TForm1
+  Left = 238
+  Height = 297
+  Top = 149
+  Width = 582
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Arithmetic Trainer'
+  ClientHeight = 297
+  ClientWidth = 582
+  DesignTimePPI = 120
+  Font.Style = [fsBold]
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object StaticText1: TStaticText
+    Left = 9
+    Height = 33
+    Top = 8
+    Width = 351
+    Caption = 'Complex numbers basic operations.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 11
+  end
+  object Label1: TLabel
+    Left = 9
+    Height = 23
+    Top = 48
+    Width = 80
+    Caption = 'Operators:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object cbAddition: TCheckBox
+    Left = 9
+    Height = 27
+    Top = 80
+    Width = 89
+    Caption = 'Addition'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 6
+    TabStop = False
+  end
+  object cbSubtraction: TCheckBox
+    Left = 149
+    Height = 27
+    Top = 80
+    Width = 112
+    Caption = 'Subtraction'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 7
+    TabStop = False
+  end
+  object cbMultiplication: TCheckBox
+    Left = 312
+    Height = 27
+    Top = 80
+    Width = 128
+    Caption = 'Multiplication'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 10
+    TabStop = False
+  end
+  object cbDivision: TCheckBox
+    Left = 491
+    Height = 27
+    Top = 80
+    Width = 83
+    Caption = 'Division'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 5
+    TabStop = False
+  end
+  object btStart: TButton
+    Left = 9
+    Height = 35
+    Top = 256
+    Width = 85
+    Caption = 'Start'
+    OnClick = btStartClick
+    TabOrder = 0
+  end
+  object btSolve: TButton
+    Left = 120
+    Height = 35
+    Top = 256
+    Width = 85
+    Caption = 'Solve'
+    Enabled = False
+    OnClick = btSolveClick
+    TabOrder = 2
+  end
+  object btReset: TButton
+    Left = 232
+    Height = 35
+    Top = 256
+    Width = 85
+    Caption = 'Eval/Reset'
+    Enabled = False
+    OnClick = btResetClick
+    TabOrder = 3
+    TabStop = False
+  end
+  object btQuit: TButton
+    Left = 489
+    Height = 35
+    Top = 256
+    Width = 85
+    Caption = 'Quit'
+    OnClick = ButtonQuitClick
+    TabOrder = 4
+    TabStop = False
+  end
+  object edQuestion: TEdit
+    Left = 168
+    Height = 31
+    Top = 160
+    Width = 264
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object edAnswer: TEdit
+    Left = 440
+    Height = 31
+    Top = 160
+    Width = 134
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabStop = False
+    TabOrder = 1
+  end
+  object edEvaluation: TEdit
+    Left = 9
+    Height = 31
+    Top = 200
+    Width = 565
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object edOperation: TEdit
+    Left = 10
+    Height = 31
+    Top = 160
+    Width = 150
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object StaticText2: TStaticText
+    Left = 9
+    Height = 21
+    Top = 120
+    Width = 565
+    Caption = 'Please, enter result as "a+bi" resp. "a-bi" (with 3 significant decimal digits)'
+    Font.Color = clFuchsia
+    Font.Height = -15
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 13
+  end
+end

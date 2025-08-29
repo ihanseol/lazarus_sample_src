@@ -1,0 +1,85 @@
+object fComposition: TfComposition
+  Left = 846
+  Height = 766
+  Top = 11
+  Width = 530
+  BorderIcons = [biSystemMenu]
+  Caption = 'Molecular weight calculator'
+  ClientHeight = 766
+  ClientWidth = 530
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object stTitle: TStaticText
+    Left = -65
+    Height = 29
+    Top = 10
+    Width = 615
+    Alignment = taCenter
+    Caption = 'Chemical composition'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object grComposition: TStringGrid
+    Left = 15
+    Height = 644
+    Top = 56
+    Width = 500
+    ColCount = 3
+    DefaultColWidth = 165
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 24
+    ScrollBars = ssNone
+    TabOrder = 2
+    TabStop = False
+    TitleFont.Height = -15
+    TitleFont.Name = 'Consolas'
+    RowHeights = (
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      25
+      25
+      25
+      25
+    )
+    Cells = (
+      2
+      1
+      0
+      'Atoms (cont)'
+      2
+      0
+      'Atoms (Percentage)'
+    )
+  end
+  object btClose: TButton
+    Left = 421
+    Height = 31
+    Top = 720
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

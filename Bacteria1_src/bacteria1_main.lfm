@@ -1,0 +1,527 @@
+object fBacteria1: TfBacteria1
+  Left = -3
+  Height = 775
+  Top = 5
+  Width = 1517
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Bacteria growth'
+  ClientHeight = 750
+  ClientWidth = 1517
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object shCulture: TShape
+    Left = 16
+    Height = 637
+    Top = 66
+    Width = 1250
+  end
+  object Label0: TLabel
+    Left = 1280
+    Height = 20
+    Top = 48
+    Width = 40
+    Caption = 'Name'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edBacteriaName: TEdit
+    Left = 1280
+    Height = 28
+    Top = 71
+    Width = 224
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 1
+    Text = 'Escherichia coli'
+  end
+  object Label1: TLabel
+    Left = 1280
+    Height = 20
+    Top = 216
+    Width = 76
+    Caption = 'Description'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edNutrientName: TEdit
+    Left = 1280
+    Height = 28
+    Top = 239
+    Width = 128
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 3
+    Text = 'glucose at 37 ºC'
+  end
+  object Label2: TLabel
+    Left = 1280
+    Height = 20
+    Top = 16
+    Width = 57
+    Caption = 'Bacteria'
+    Font.Height = -15
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 1280
+    Height = 20
+    Top = 112
+    Width = 96
+    Caption = 'Initial biomass'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edBacteria: TEdit
+    Left = 1280
+    Height = 28
+    Top = 135
+    Width = 128
+    Alignment = taRightJustify
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 2
+    Text = '0,0046'
+  end
+  object Label4: TLabel
+    Left = 1280
+    Height = 20
+    Top = 281
+    Width = 132
+    Caption = 'Initial concentration'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edNutrient: TEdit
+    Left = 1280
+    Height = 28
+    Top = 304
+    Width = 128
+    Alignment = taRightJustify
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 4
+    Text = '0,6'
+  end
+  object laBacteriaUnit: TLabel
+    Left = 1416
+    Height = 20
+    Top = 139
+    Width = 19
+    Caption = 'g/l'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object laNutrientUnit: TLabel
+    Left = 1416
+    Height = 20
+    Top = 308
+    Width = 19
+    Caption = 'g/l'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 1280
+    Height = 20
+    Top = 384
+    Width = 138
+    Caption = 'Maximal growth rate'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edGrowthRate: TEdit
+    Left = 1280
+    Height = 28
+    Top = 407
+    Width = 128
+    Alignment = taRightJustify
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 5
+    Text = '1,35'
+  end
+  object Label6: TLabel
+    Left = 1280
+    Height = 20
+    Top = 184
+    Width = 60
+    Caption = 'Nutrient'
+    Font.Height = -15
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 1280
+    Height = 20
+    Top = 352
+    Width = 172
+    Caption = 'Bacteria/Nutrient values'
+    Font.Height = -15
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 1280
+    Height = 20
+    Top = 448
+    Width = 160
+    Caption = 'Half-saturation constant'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edHalfSaturation: TEdit
+    Left = 1280
+    Height = 28
+    Top = 471
+    Width = 128
+    Alignment = taRightJustify
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 6
+    Text = '0,004'
+  end
+  object laHalfsatUnit: TLabel
+    Left = 1416
+    Height = 20
+    Top = 475
+    Width = 19
+    Caption = 'g/l'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 1280
+    Height = 20
+    Top = 512
+    Width = 158
+    Caption = 'Growth yield coefficient'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edYieldCoeff: TEdit
+    Left = 1280
+    Height = 28
+    Top = 535
+    Width = 128
+    Alignment = taRightJustify
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 7
+    Text = '0,23'
+  end
+  object Label10: TLabel
+    Left = 1280
+    Height = 20
+    Top = 608
+    Width = 194
+    Caption = 'Maintenance energy constant'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edMaintenance: TEdit
+    Left = 1280
+    Height = 28
+    Top = 631
+    Width = 128
+    Alignment = taRightJustify
+    Font.Height = -15
+    ParentFont = False
+    TabOrder = 8
+    Text = '0,25'
+  end
+  object laMaintenanceUnit: TLabel
+    Left = 1416
+    Height = 20
+    Top = 635
+    Width = 35
+    Caption = 'per g'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 1280
+    Height = 20
+    Top = 576
+    Width = 142
+    Caption = 'Maintenance energy'
+    Font.Height = -15
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btStart: TButton
+    Left = 1410
+    Height = 31
+    Top = 710
+    Width = 94
+    Caption = 'Start'
+    OnClick = btStartClick
+    TabOrder = 0
+  end
+  object btPause: TButton
+    Left = 1410
+    Height = 31
+    Top = 672
+    Width = 94
+    Caption = 'Pause'
+    Enabled = False
+    OnClick = btPauseClick
+    TabOrder = 9
+    TabStop = False
+  end
+  object imBacteria: TImage
+    Left = 1216
+    Height = 25
+    Top = 88
+    Width = 25
+    Picture.Data = {
+      0A544A706567496D616765F9010000FFD8FFE000104A46494600010101007800
+      780000FFDB00430006040506050406060506070706080A100A0A09090A140E0F
+      0C1017141818171416161A1D251F1A1B231C1616202C20232627292A29191F2D
+      302D283025282928FFC0000B080019001901011100FFC4001900000203010000
+      00000000000000000000050701020604FFC400321000020200050202050D0000
+      0000000000010203040005061112213107131422324161151733425156717291
+      93B1B2D2FFDA0008010100003F006855CDE5D719B66505B967AD956550ABCB04
+      33490191999B72E54071C557D9076DCFBFA604695CCAF653E23D7CB65BD2D8AF
+      66184C5CCB4812370EC230EFB1DB71CB76DDBB0EC30EE4389E43085AD4AA64DE
+      200AB99A486A3C8BE86F2B4B04496E3E7E5212CC77528D2761C7D51F6E0F6BED
+      2FF2A6ADA5672EB2F0E7B30F566153CC813CAD9D564906CCA413D363D7DE319C
+      5D41AEF49538B32CCE5A9986521C44C609DA621833280C1955802761B8DFA8C6
+      B7E74ADFDD6CEFF607FAC1EF10343D6D4B089519A2B28A4388F8A9B0BD364672
+      0951D3B8ED8C3D0B5AAF4B4B529E6141737AF15955ACB2CED1C91BB93EAAC9B1
+      12A2211BB305EDF0C5F4C3DFD6198E675A386E57A33DB8730B325E9D6431C7C8
+      F186155FAA4C44EE4F407B75C39B8FC07EB8BB76C72D9F617F03FC606698FA39
+      BF247FD70771FFD9
+    }
+    Visible = False
+  end
+  object edSimTime: TEdit
+    Left = 64
+    Height = 28
+    Top = 16
+    Width = 100
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object Label12: TLabel
+    Left = 16
+    Height = 20
+    Top = 20
+    Width = 42
+    Caption = 'Time t'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSimBacteria: TEdit
+    Left = 344
+    Height = 28
+    Top = 16
+    Width = 100
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object Label13: TLabel
+    Left = 266
+    Height = 20
+    Top = 20
+    Width = 69
+    Caption = 'Bacteria N'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSimBacteriaDiff: TEdit
+    Left = 630
+    Height = 28
+    Top = 16
+    Width = 100
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object Label15: TLabel
+    Left = 543
+    Height = 20
+    Top = 20
+    Width = 79
+    Caption = 'Bacteria ΔN'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSimNutrient: TEdit
+    Left = 904
+    Height = 28
+    Top = 16
+    Width = 100
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 13
+  end
+  object Label16: TLabel
+    Left = 830
+    Height = 20
+    Top = 20
+    Width = 66
+    Caption = 'Nutrient S'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label14: TLabel
+    Left = 16
+    Height = 23
+    Top = 714
+    Width = 68
+    Caption = 'Nutrient'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object shNutrient0: TShape
+    Left = 116
+    Height = 17
+    Top = 717
+    Width = 1150
+  end
+  object shNutrient: TShape
+    Left = 116
+    Height = 17
+    Top = 717
+    Width = 1150
+    Brush.Color = clGreen
+  end
+  object btSamples: TButton
+    Left = 1280
+    Height = 31
+    Top = 672
+    Width = 94
+    Caption = 'Samples'
+    OnClick = btSamplesClick
+    TabOrder = 14
+    TabStop = False
+  end
+  object btGraph: TButton
+    Left = 1280
+    Height = 31
+    Top = 710
+    Width = 94
+    Caption = 'Graph'
+    OnClick = btGraphClick
+    TabOrder = 15
+    TabStop = False
+  end
+  object laGrowthRateUnit: TLabel
+    Left = 1416
+    Height = 20
+    Top = 411
+    Width = 56
+    Caption = 'per hour'
+    Font.Height = -15
+    ParentColor = False
+    ParentFont = False
+  end
+  object mMenu: TMainMenu
+    left = 32
+    top = 80
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileNew: TMenuItem
+        Caption = 'New'
+        OnClick = mFileNewClick
+      end
+      object mFileReset: TMenuItem
+        Caption = 'Reset'
+        OnClick = mFileResetClick
+      end
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsMaintenance0: TMenuItem
+        Caption = 'Allow zero maintenance'
+        Checked = True
+        OnClick = mSettingsMaintenance0Click
+      end
+      object mSettingsTime: TMenuItem
+        Caption = 'Simulation time interval'
+        object mSettingsTimeAuto: TMenuItem
+          Caption = 'Automatic'
+          Checked = True
+          OnClick = mSettingsTimeAutoClick
+        end
+        object mSettingsTimeCustom: TMenuItem
+          Caption = 'Custom...'
+          OnClick = mSettingsTimeCustomClick
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpBacteria: TMenuItem
+        Caption = 'Bacteria growth'
+        OnClick = mHelpBacteriaClick
+      end
+      object mHelpHelp: TMenuItem
+        Caption = 'Program help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object tiBacteria: TTimer
+    Enabled = False
+    Interval = 10
+    OnTimer = tiBacteriaTimer
+    left = 112
+    top = 80
+  end
+  object dlgOpen: TOpenDialog
+    Title = 'Open samples file'
+    left = 112
+    top = 160
+  end
+  object pnAbout: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Text = 'Text'
+    Title = 'Bacteria Growth.'
+    Visible = False
+    left = 32
+    top = 160
+  end
+end

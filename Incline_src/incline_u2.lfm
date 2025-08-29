@@ -1,0 +1,132 @@
+object fPSelect: TfPSelect
+  Left = 526
+  Height = 262
+  Top = 368
+  Width = 482
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Schiefe Ebene'
+  ClientHeight = 262
+  ClientWidth = 482
+  DesignTimePPI = 120
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Label1: TLabel
+    Left = 16
+    Height = 23
+    Top = 24
+    Width = 310
+    Caption = 'Automatisches Pausieren der Simulation.'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object rbSel1: TRadioButton
+    Left = 16
+    Height = 27
+    Top = 64
+    Width = 204
+    Caption = ' Zeit: Nach ... Sekunden'
+    Font.Height = -17
+    OnChange = rbSel1Change
+    ParentFont = False
+    TabOrder = 4
+  end
+  object rbSel2: TRadioButton
+    Left = 16
+    Height = 27
+    Top = 100
+    Width = 192
+    Caption = ' Zeit: Alle ... Sekunden'
+    Checked = True
+    Font.Height = -17
+    OnChange = rbSel2Change
+    ParentFont = False
+    TabOrder = 3
+    TabStop = True
+  end
+  object rbSel3: TRadioButton
+    Left = 288
+    Height = 27
+    Top = 64
+    Width = 180
+    Caption = ' Weg: Nach ... Meter'
+    Font.Height = -17
+    OnChange = rbSel3Change
+    ParentFont = False
+    TabOrder = 5
+  end
+  object rbSel4: TRadioButton
+    Left = 288
+    Height = 27
+    Top = 100
+    Width = 168
+    Caption = ' Weg: Alle ... Meter'
+    Font.Height = -17
+    OnChange = rbSel4Change
+    ParentFont = False
+    TabOrder = 6
+  end
+  object rbSel5: TRadioButton
+    Left = 16
+    Height = 27
+    Top = 136
+    Width = 224
+    Caption = ' Erreichte Geschwindigkeit'
+    Font.Height = -17
+    OnChange = rbSel5Change
+    ParentFont = False
+    TabOrder = 7
+  end
+  object edPauseValue: TEdit
+    Left = 16
+    Height = 31
+    Top = 216
+    Width = 84
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 0
+    Text = '1,0'
+  end
+  object laPauseValue: TLabel
+    Left = 16
+    Height = 23
+    Top = 180
+    Width = 72
+    Caption = 'Zeit (sec)'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btCancel: TButton
+    Left = 264
+    Height = 31
+    Top = 216
+    Width = 94
+    Caption = 'Cancel'
+    OnClick = btCancelClick
+    TabOrder = 2
+  end
+  object btOK: TButton
+    Left = 374
+    Height = 31
+    Top = 216
+    Width = 94
+    Caption = 'OK'
+    OnClick = btOKClick
+    TabOrder = 1
+  end
+  object cbAutoPause: TCheckBox
+    Left = 264
+    Height = 27
+    Top = 180
+    Width = 213
+    Caption = ' Autom. Pause aktivieren'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 8
+  end
+end

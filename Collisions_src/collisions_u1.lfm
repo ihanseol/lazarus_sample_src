@@ -1,0 +1,628 @@
+object fCollisions: TfCollisions
+  Left = 71
+  Height = 643
+  Top = 42
+  Width = 1422
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Physique: Collisions élastiques et inélastiques'
+  ClientHeight = 618
+  ClientWidth = 1422
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Shape1: TShape
+    Left = 72
+    Height = 511
+    Top = 48
+    Width = 938
+  end
+  object Label1: TLabel
+    Left = 1032
+    Height = 23
+    Top = 48
+    Width = 49
+    Caption = 'Bille 1:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 1032
+    Height = 23
+    Top = 92
+    Width = 47
+    Caption = 'Masse'
+    ParentColor = False
+  end
+  object edMass1: TEdit
+    Left = 1088
+    Height = 31
+    Top = 88
+    Width = 72
+    Alignment = taRightJustify
+    OnChange = edMass1Change
+    TabOrder = 0
+  end
+  object Label3: TLabel
+    Left = 1240
+    Height = 23
+    Top = 92
+    Width = 53
+    Caption = 'Vitesse'
+    ParentColor = False
+  end
+  object edSpeed1: TEdit
+    Left = 1304
+    Height = 31
+    Top = 88
+    Width = 72
+    Alignment = taRightJustify
+    TabOrder = 1
+  end
+  object Label4: TLabel
+    Left = 1032
+    Height = 23
+    Top = 136
+    Width = 49
+    Caption = 'Bille 2:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 1032
+    Height = 23
+    Top = 180
+    Width = 47
+    Caption = 'Masse'
+    ParentColor = False
+  end
+  object edMass2: TEdit
+    Left = 1088
+    Height = 31
+    Top = 176
+    Width = 72
+    Alignment = taRightJustify
+    TabOrder = 2
+  end
+  object Label6: TLabel
+    Left = 1240
+    Height = 23
+    Top = 180
+    Width = 53
+    Caption = 'Vitesse'
+    ParentColor = False
+  end
+  object edSpeed2: TEdit
+    Left = 1304
+    Height = 31
+    Top = 176
+    Width = 72
+    Alignment = taRightJustify
+    TabOrder = 3
+  end
+  object Label7: TLabel
+    Left = 1168
+    Height = 23
+    Top = 92
+    Width = 18
+    Caption = 'kg'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 1384
+    Height = 23
+    Top = 92
+    Width = 29
+    Caption = 'm/s'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 1168
+    Height = 23
+    Top = 180
+    Width = 18
+    Caption = 'kg'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 1384
+    Height = 23
+    Top = 180
+    Width = 29
+    Caption = 'm/s'
+    ParentColor = False
+  end
+  object btStart: TButton
+    Left = 1320
+    Height = 31
+    Top = 579
+    Width = 94
+    Caption = 'Start'
+    Font.Height = -17
+    OnClick = btStartClick
+    ParentFont = False
+    TabOrder = 12
+  end
+  object btPause: TButton
+    Left = 1193
+    Height = 31
+    Top = 579
+    Width = 94
+    Caption = 'Pause'
+    Font.Height = -17
+    OnClick = btPauseClick
+    ParentFont = False
+    TabOrder = 6
+    TabStop = False
+  end
+  object la2dTitle: TLabel
+    Left = 1032
+    Height = 23
+    Top = 232
+    Width = 187
+    Caption = 'Collision billes de billard:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object la2dRadius: TLabel
+    Left = 1032
+    Height = 23
+    Top = 276
+    Width = 163
+    Caption = 'Rayon des deux billes'
+    ParentColor = False
+  end
+  object edRadius: TEdit
+    Left = 1304
+    Height = 31
+    Top = 272
+    Width = 72
+    Alignment = taRightJustify
+    OnEditingDone = edRadiusEditingDone
+    TabOrder = 4
+    Text = '5'
+  end
+  object la2dURadius: TLabel
+    Left = 1384
+    Height = 23
+    Top = 276
+    Width = 23
+    Caption = 'cm'
+    ParentColor = False
+  end
+  object Label16: TLabel
+    Left = 1032
+    Height = 23
+    Top = 10
+    Width = 198
+    Caption = 'Situation avant l''impact:'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object la2dImpact: TLabel
+    Left = 1032
+    Height = 23
+    Top = 324
+    Width = 149
+    Caption = 'Paramètre d''impact'
+    ParentColor = False
+  end
+  object edImpact: TEdit
+    Left = 1304
+    Height = 31
+    Top = 320
+    Width = 72
+    Alignment = taRightJustify
+    OnEditingDone = edImpactEditingDone
+    TabOrder = 5
+    Text = '0'
+  end
+  object la2dUImpact: TLabel
+    Left = 1384
+    Height = 23
+    Top = 324
+    Width = 23
+    Caption = 'cm'
+    ParentColor = False
+  end
+  object laSituation: TLabel
+    Left = 1032
+    Height = 23
+    Top = 368
+    Width = 197
+    Caption = 'Situation après l''impact:'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laSpeedF1: TLabel
+    Left = 1032
+    Height = 23
+    Top = 412
+    Width = 103
+    Caption = 'Vitesse bille 1'
+    ParentColor = False
+  end
+  object edSpeedF1: TEdit
+    Left = 1304
+    Height = 31
+    Top = 408
+    Width = 72
+    Alignment = taRightJustify
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object laUSpeedF1: TLabel
+    Left = 1384
+    Height = 23
+    Top = 412
+    Width = 29
+    Caption = 'm/s'
+    ParentColor = False
+  end
+  object laSpeedF2: TLabel
+    Left = 1032
+    Height = 23
+    Top = 452
+    Width = 103
+    Caption = 'Vitesse bille 2'
+    ParentColor = False
+  end
+  object edSpeedF2: TEdit
+    Left = 1304
+    Height = 31
+    Top = 448
+    Width = 72
+    Alignment = taRightJustify
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object laUSpeedF2: TLabel
+    Left = 1384
+    Height = 23
+    Top = 452
+    Width = 29
+    Caption = 'm/s'
+    ParentColor = False
+  end
+  object laAngleF1: TLabel
+    Left = 1032
+    Height = 23
+    Top = 492
+    Width = 122
+    Caption = 'Déviation bille 1'
+    ParentColor = False
+  end
+  object edAngleF1: TEdit
+    Left = 1304
+    Height = 31
+    Top = 488
+    Width = 72
+    Alignment = taRightJustify
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object laUAngleF1: TLabel
+    Left = 1384
+    Height = 23
+    Top = 492
+    Width = 6
+    Caption = '°'
+    ParentColor = False
+  end
+  object laAngleF2: TLabel
+    Left = 1032
+    Height = 23
+    Top = 532
+    Width = 122
+    Caption = 'Déviation bille 2'
+    ParentColor = False
+  end
+  object edAngleF2: TEdit
+    Left = 1304
+    Height = 31
+    Top = 528
+    Width = 72
+    Alignment = taRightJustify
+    Color = clCream
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object laUAngleF2: TLabel
+    Left = 1384
+    Height = 23
+    Top = 532
+    Width = 6
+    Caption = '°'
+    ParentColor = False
+  end
+  object shBall1: TShape
+    Left = 100
+    Height = 20
+    Top = 290
+    Width = 20
+    Brush.Color = clRed
+    Shape = stCircle
+  end
+  object shBall2: TShape
+    Left = 350
+    Height = 20
+    Top = 290
+    Width = 20
+    Brush.Color = clBlue
+    Shape = stCircle
+  end
+  object tbBall: TTrackBar
+    Left = 24
+    Height = 500
+    Top = 50
+    Width = 31
+    LineSize = 5
+    Max = 100
+    Min = -100
+    OnChange = tbBallChange
+    Orientation = trVertical
+    PageSize = 10
+    Position = 0
+    TabStop = False
+    TabOrder = 13
+  end
+  object edTitle: TEdit
+    Left = 312
+    Height = 31
+    Top = 8
+    Width = 459
+    Alignment = taCenter
+    Color = clBlack
+    Font.Color = clYellow
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+    Text = 'Collision élastique dans 1 dimension.'
+  end
+  object shMarker1: TShape
+    Left = 105
+    Height = 1
+    Top = 290
+    Width = 300
+  end
+  object shMarker2: TShape
+    Left = 105
+    Height = 1
+    Top = 310
+    Width = 300
+  end
+  object Label11: TLabel
+    Left = 82
+    Height = 23
+    Top = 572
+    Width = 52
+    Caption = 'Temps:'
+    ParentColor = False
+  end
+  object edTime: TEdit
+    Left = 138
+    Height = 31
+    Top = 568
+    Width = 72
+    Alignment = taRightJustify
+    Color = clBlack
+    Font.Color = clWhite
+    Font.Height = -17
+    OnChange = edMass1Change
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object Label12: TLabel
+    Left = 224
+    Height = 23
+    Top = 572
+    Width = 114
+    Caption = 'Position bille 1:'
+    ParentColor = False
+  end
+  object edPosition1: TEdit
+    Left = 341
+    Height = 31
+    Top = 568
+    Width = 72
+    Alignment = taRightJustify
+    Color = clBlack
+    Font.Color = clWhite
+    Font.Height = -17
+    OnChange = edMass1Change
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 15
+  end
+  object Label13: TLabel
+    Left = 718
+    Height = 23
+    Top = 572
+    Width = 52
+    Caption = 'Temps:'
+    ParentColor = False
+  end
+  object edImpactTime: TEdit
+    Left = 775
+    Height = 31
+    Top = 568
+    Width = 72
+    Alignment = taRightJustify
+    Color = clBlack
+    Font.Color = clWhite
+    Font.Height = -17
+    OnChange = edMass1Change
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 16
+  end
+  object Label14: TLabel
+    Left = 858
+    Height = 23
+    Top = 572
+    Width = 64
+    Caption = 'Position:'
+    ParentColor = False
+  end
+  object edImpactPosition: TEdit
+    Left = 928
+    Height = 31
+    Top = 568
+    Width = 72
+    Alignment = taRightJustify
+    Color = clBlack
+    Font.Color = clWhite
+    Font.Height = -17
+    OnChange = edMass1Change
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 17
+  end
+  object laImpact: TLabel
+    Left = 642
+    Height = 23
+    Top = 572
+    Width = 68
+    Caption = 'IMPACT:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label15: TLabel
+    Left = 428
+    Height = 23
+    Top = 572
+    Width = 114
+    Caption = 'Position bille 2:'
+    ParentColor = False
+  end
+  object edPosition2: TEdit
+    Left = 545
+    Height = 31
+    Top = 568
+    Width = 72
+    Alignment = taRightJustify
+    Color = clBlack
+    Font.Color = clWhite
+    Font.Height = -17
+    OnChange = edMass1Change
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 18
+  end
+  object btTrackbar: TButton
+    Left = 24
+    Height = 31
+    Hint = 'Click button to re-enable trackbar!'
+    Top = 568
+    Width = 31
+    Caption = 'TB'
+    Enabled = False
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = btTrackbarClick
+    ParentFont = False
+    TabOrder = 19
+  end
+  object btSetRadius: TButton
+    Left = 1240
+    Height = 31
+    Top = 272
+    Width = 47
+    Caption = 'Fixer'
+    OnClick = btSetRadiusClick
+    TabOrder = 20
+    TabStop = False
+    Visible = False
+  end
+  object btSetImpact: TButton
+    Left = 1240
+    Height = 31
+    Top = 320
+    Width = 47
+    Caption = 'Fixer'
+    OnClick = btSetImpactClick
+    TabOrder = 21
+    TabStop = False
+    Visible = False
+  end
+  object mMenu: TMainMenu
+    left = 944
+    top = 64
+    object mCollision: TMenuItem
+      Caption = 'Collision'
+      object mCollision1el: TMenuItem
+        Caption = 'Collision élastique (1d)'
+        OnClick = mCollision1elClick
+      end
+      object mCollision1inel: TMenuItem
+        Caption = 'Collision inélastique (1d)'
+        OnClick = mCollision1inelClick
+      end
+      object mCollision2el: TMenuItem
+        Caption = 'Collision élastique (2d)'
+        OnClick = mCollision2elClick
+      end
+      object mCollisionExit: TMenuItem
+        Caption = 'Quitter'
+        OnClick = mCollisionExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsNoWarnings: TMenuItem
+        Caption = 'Ne pas afficher les avertissements'
+        OnClick = mOptionsNoWarningsClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Aide'
+      object mHelpPhysics: TMenuItem
+        Caption = 'Aide physique'
+        OnClick = mHelpPhysicsClick
+      end
+      object mHelpHelp: TMenuItem
+        Caption = 'Aide programme'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'Info programme'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object tiCollisions: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = tiCollisionsTimer
+    left = 944
+    top = 144
+  end
+end

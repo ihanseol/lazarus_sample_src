@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="BinaryGame.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="binary.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fBinary"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\Programs\Lazarus\win64\lcl\include\brush.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="25"/>
+        <CursorPos Y="38"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="753" Column="3" TopLine="731"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="761" Column="3" TopLine="745"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="769" Column="3" TopLine="747"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="777" Column="3" TopLine="761"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="785" Column="3" TopLine="763"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="793" Column="3" TopLine="777"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="801" Column="3" TopLine="779"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="427" Column="38" TopLine="413"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="799" Column="55" TopLine="784"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="312" Column="49" TopLine="292"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="316" Column="37" TopLine="303"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="408" Column="80" TopLine="398"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="473" Column="33" TopLine="447"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="454" Column="3" TopLine="452"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="462" Column="32" TopLine="443"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="470" Column="4" TopLine="454"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="409" Column="34" TopLine="395"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="411" Column="13" TopLine="398"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="458" Column="38" TopLine="432"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="469" Column="16" TopLine="444"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="454" Column="6" TopLine="440"/>
+      </Position>
+      <Position>
+        <Filename Value="BinaryGame.lpr"/>
+        <Caret Line="3" Column="22"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="427" TopLine="401"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="776" TopLine="751"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="811" TopLine="785"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="252" Column="46" TopLine="231"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="280" Column="35" TopLine="259"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="282" Column="12" TopLine="261"/>
+      </Position>
+      <Position>
+        <Filename Value="binary.pas"/>
+        <Caret Line="278" Column="38" TopLine="265"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

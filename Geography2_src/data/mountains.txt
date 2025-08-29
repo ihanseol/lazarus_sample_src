@@ -1,0 +1,336 @@
+# =============== #
+# World mountains #
+# =============== #
+
+# Data from https://en.wikipedia.org/wiki/...
+
+# List columns:
+#  1-30: Mountain name
+# 31-34: Elevation in m; 41-45: Elevation in ft (North America and Asia only)
+# 51-80: Mountain range/region
+# 81-82: Continent code; 91-  : Countries
+
+# Highest European ultra-prominent peaks
+# (elevation above 2900 meters and prominence above 1500 meters)
+
+Mount Elbrus                  5642                Caucasus Mountains            EU        Russia
+Dykh-Tau                      5205                Caucasus Mountains            EU        Russia
+Mont Blanc                    4810                Graian Alps                   EU        France, Italy
+Dufourspitze                  4634                Pennine Alps                  EU        Switzerland
+Grand Combin                  4314                Pennine Alps                  EU        Switzerland
+Finsteraarhorn                4274                Bernese Alps                  EU        Switzerland
+Addala Shukgelmezr            4152                Caucasus Mountains            EU        Russia
+Dyultydag                     4127                Caucasus Mountains            EU        Russia
+Barre des Écrins              4102                Dauphiné Alps                 EU        France
+Gran Paradiso                 4061                Graian Alps                   EU        Italy
+Piz Bernina                   4049                Rhaetian Alps                 EU        Switzerland
+Ortler                        3905                Southern Limestone Alps       EU        Italy
+Monte Viso                    3841                Cottian Alps                  EU        Italy
+Grossglockner                 3798                Hohe Tauern                   EU        Austria
+Wildspitze                    3768                Ötztal Alps                   EU        Austria
+Tödi                          3614                Glarus Alps                   EU        Switzerland
+Presanella                    3558                Adamello-Presanella           EU        Italy
+Mulhacén                      3479                Cordillera Penibética         EU        Spain
+Piz Kesch                     3418                Rhaetian Alps                 EU        Switzerland
+Aneto                         3404                Pyrenees                      EU        Spain
+Marmolada                     3343                Dolomites                     EU        Italy
+Mount Etna                    3329                Apennines                     EU        Italy
+Monte Antelao                 3264                Dolomites                     EU        Italy
+Dents du Midi                 3257                Chablais Alps                 EU        Switzerland
+Cima Tosa                     3173                Rhaetian Alps                 EU        Italy
+Pizzo di Coca                 3050                Bergamo Alps                  EU        Italy
+Hoher Dachstein               2995                Northern Limestone Alps       EU        Austria
+Zugspitze                     2962                Northern Limestone Alps       EU        Austria, Germany
+Hochkönig                     2941                Northern Limestone Alps       EU        Austria
+Musala                        2925                Rila-Rhodope Massif           EU        Bulgaria
+Mount Olympus                 2917                Olympus Range                 EU        Greece
+Vihren                        2915                Rila-Rhodope Massif           EU        Bulgaria
+Corno Grande                  2912                Apennines                     EU        Italy
+
+# Highest summits of greater North America
+# (at least 500 meters of topographic prominence)
+
+Denali                        6191      20310     Alaska Range                  NA        USA
+Pico de Orizaba               5636      18491     Cordillera Neovolcanica       NA        Mexico
+Mount Saint Elias             5489      18009     Saint Elias Mountains         NA        USA
+Popocatépetl                  5410      17749     Cordillera Neovolcanica       NA        Mexico
+Mount Foraker                 5304      17400     Alaska Range                  NA        USA
+Mount Lucania                 5260      17257     Saint Elias Mountains         NA        Canada
+Mount Logan                   5247      19551     Saint Elias Mountains         NA        Canada
+Iztaccíhuatl                  5230      17159     Cordillera Neovolcanica       NA        Mexico
+King Peak                     5173      16972     Saint Elias Mountains         NA        Canada
+Mount Bona                    5044      16550     Saint Elias Mountains         NA        USA
+Mount Steele                  5020      16470     Saint Elias Mountains         NA        Canada
+Mount Blackburn               4996      16390     Wrangell Mountains            NA        USA
+Mount Sanford                 4949      16237     Wrangell Mountains            NA        USA
+Mount Wood                    4860      15945     Saint Elias Mountains         NA        Canada
+Mount Vancouver               4812      15787     Saint Elias Mountains         NA        Canada
+Mount Slaggard                4742      15558     Saint Elias Mountains         NA        Canada
+Nevado de Toluca              4690      15387     Cordillera Neovolcanica       NA        Mexico
+Mount Fairweather             4671      15325     Saint Elias Mountains         NA        USA, Canada
+Mount Hubbard                 4557      14951     Saint Elias Mountains         NA        USA, Canada
+Mount Bear                    4520      14831     Saint Elias Mountains         NA        USA
+Mount Walsh                   4506      14783     Saint Elias Mountains         NA        Canada
+Mount Hunter                  4442      14573     Alaska Range                  NA        USA
+La Malintzin                  4430      14534     Cordillera Neovolcanica       NA        Mexico
+Mount Whitney                 4421      14505     Sierra Nevada                 NA        USA
+Mount Alverstone              4420      14500     Saint Elias Mountains         NA        USA, Canada
+University Peak               4410      14470     Saint Elias Mountains         NA        USA
+Mount Elbert                  4401      14440     Sawatch Range                 NA        USA
+Mount Massive                 4398      14428     Sawatch Range                 NA        USA
+Mount Harvard                 4396      14421     Sawatch Range                 NA        USA
+Mount Rainier                 4394      14417     Cascade Range                 NA        USA
+Mount Williamson              4383      14379     Sierra Nevada                 NA        USA
+McArthur Peak                 4380      14370     Saint Elias Mountains         NA        Canada
+Blanca Peak                   4374      14351     Sangre de Cristo Mountains    NA        USA
+La Plata Peak                 4372      14343     Sawatch Range                 NA        USA
+Uncompahgre Peak              4365      14321     San Juan Mountains            NA        USA
+Crestone Peak                 4359      14300     Sangre de Cristo Mountains    NA        USA
+Mount Lincoln                 4357      14293     Mosquito Range                NA        USA
+Castle Peak                   4352      14279     Elk Mountains                 NA        USA
+Grays Peak                    4352      14278     Front Range                   NA        USA
+Mount Antero                  4351      14276     Sawatch Range                 NA        USA
+Mount Evans                   4350      14271     Front Range                   NA        USA
+Longs Peak                    4346      14259     Front Range                   NA        USA
+Mount Wilson                  4344      14252     San Juan Mountains            NA        USA
+White Mountain Peak           4344      14252     White Mountains               NA        USA
+North Palisade                4343      14248     Sierra Nevada                 NA        USA
+Mount Princeton               4329      14204     Sawatch Range                 NA        USA
+Mount Yale                    4328      14200     Sawatch Range                 NA        USA
+Mount Shasta                  4322      14179     Cascade Range                 NA        USA
+Maroon Peak                   4317      14163     Elk Mountains                 NA        USA
+Mount Wrangell                4317      14163     Wrangell Mountains            NA        USA
+
+# Highest mountains of South America
+# (mountains above 4000 metres in the South American Andes; partial)
+
+Aconcagua                     6961                Principal Cordillera          SA        Argentina
+Ojos del Salado               6893                Puna de Atacama               SA        Argentina, Chile
+Monte Pissis                  6792                Puna de Atacama               SA        Argentina
+Huascarán                     6768                Cordillera Blanca             SA        Peru
+Bonete                        6759                Puna de Atacama               SA        Argentina
+Tres Cruces                   6758                Puna de Atacama               SA        Argentina, Chile
+Llullaillaco                  6739                Puna de Atacama               SA        Argentina, Chile
+Mercedario                    6720                Cordillera de la Ramada       SA        Argentina
+Cazadero                      6658                Puna de Atacama               SA        Argentina
+Incahuasi                     6638                Puna de Atacama               SA        Argentina, Chile
+Yerupajá                      6634                Cordillera Huayhuash          SA        Peru
+Tupungato                     6565                                              SA        Argentina, Chile
+Sajama                        6542                Cordillera Occidental         SA        Bolivia
+Ramada Norte                  6500                Cordillera de la Ramada       SA        Argentina
+El Muerto                     6488                                              SA        Argentina, Chile
+Del Veladero                  6471                                              SA        Argentina
+Illimani                      6438                Cordillera Real               SA        Bolivia
+Antofalla                     6437                Puna de Atacama               SA        Argentina
+Cerro del Nacimiento          6436                Cordillera de la Ramada       SA        Argentina
+Ancohuma                      6427                Cordillera Real               SA        Bolivia
+Coropuna                      6425                Cordillera Ampato             SA        Peru
+El Cóndor                     6414                Puna de Atacama               SA        Argentina
+Huandoy                       6395                Cordillera Blanca             SA        Peru
+Ausangate                     6380                Cordillera Vilcanota          SA        Peru
+Cachi                         6380                                              SA        Argentina
+Huantsán                      6369                Cordillera Blanca             SA        Peru
+Illampu                       6368                Cordillera Real               SA        Bolivia
+Chopicalqui                   6345                Cordillera Blanca             SA        Peru
+Siula Grande                  6344                Cordillera Huayhuash          SA        Peru
+Parinacota                    6342                Cordillera Occidental         SA        Bolivia, Chile
+Reclus                        6335                                              SA        Argentina
+Solimana                      6320                Cordillera Ampato             SA        Peru
+Ampato                        6310                Cordillera Ampato             SA        Peru
+Chinchey                      6309                Cordillera Blanca             SA        Peru
+Pomerape                      6282                Cordillera Occidental         SA        Bolivia, Chile
+Majadita                      6280                                              SA        Argentina, Chile
+Palcaraju                     6274                Cordillera Blanca             SA        Peru
+Salcantay                     6271                                              SA        Peru
+Chimborazo                    6267                Cordillera Occidental         SA        Ecuador
+Santa Cruz                    6259                Cordillera Blanca             SA        Peru
+Tres Quebradas                6239                                              SA        Argentina
+Los Patos                     6239                                              SA        Argentina, Chile
+Pular                         6233                Puna de Atacama               SA        Chile
+Olivares                      6216                Principal Cordillera          SA        Argentina, Chile
+Cerro Solo                    6205                Puna de Atacama               SA        Argentina, Chile
+Ramada                        6200                Cordillera de la Ramada       SA        Argentina, Chile
+Copa                          6188                Cordillera Blanca             SA        Peru
+Cerro Quemado                 6184                Puna de Atacama               SA        Argentina
+Aucanquilcha                  6176                                              SA        Chile
+El Toro                       6168                                              SA        Argentina, Chile
+
+# Highest mountain peaks of Asia
+# (highest summits with at least 500 meters topographic prominence)
+
+Mount Everest#                8848      29029     Mahalangur Himalaya           A1        Nepal, China
+K2#                           8611      28251     Baltoro Karakoram             A1        China, Pakistan
+Kangchenjunga                 8586      28169     Kangchenjunga Himalaya        A1        Nepal, India
+Lhotse                        8516      27940     Mahalangur Himalaya           A1        Nepal, China
+Makalu                        8485      27838     Mahalangur Himalaya           A1        Nepal, China
+Cho Oyu                       8188      26864     Mahalangur Himalaya           A1        Nepal, China
+Dhaulagiri I                  8167      26795     Dhaulagiri Himalaya           A1        Nepal
+Manaslu                       8163      26781     Manaslu Himalaya              A1        Nepal
+Nanga Parbat                  8126      26660     Nanga Parbat Himalaya         A1        Pakistan
+Annapurna I                   8091      26545     Annapurna Himalaya            A1        Nepal
+Gasherbrum I                  8080      26509     Baltoro Karakoram             A1        Pakistan, China
+Broad Peak                    8051      26414     Baltoro Karakoram             A1        Pakistan, China
+Gasherbrum II                 8035      26362     Baltoro Karakoram             A1        Pakistan, China
+Shishapangma                  8027      26335     Jugal Himalaya                A1        China
+Gyachung Kang                 7952      26089     Mahalangur Himalaya           A1        Nepal, China
+Gasherbrum III                7946      26070     Baltoro Karakoram             A1        Pakistan, China
+Annapurna II                  7937      26040     Annapurna Himalaya            A1        Nepal
+Gasherbrum IV                 7932      26024     Baltoro Karakoram             A1        Pakistan
+Himalchuli                    7893      25896     Manaslu Himalaya              A1        Nepal
+Distaghil Sar                 7884      25866     Hispar Karakoram              A1        Pakistan
+Ngadi Chuli                   7871      25823     Manaslu Himalaya              A1        Nepal
+Nuptse                        7864      25801     Mahalangur Himalaya           A1        Nepal
+Khunyang Chhish               7823      25666     Hispar Karakoram              A1        Pakistan
+Masherbrum                    7821      25659     Masherbrum Karakoram          A1        Pakistan
+Nanda Devi                    7816      25643     Garhwal Himalaya              A1        India
+Chomo Lonzo                   7804      25604     Mahalangur Himalaya           A1        China
+Batura Sar                    7795      25574     Batura Karakoram              A1        Pakistan
+Kanjut Sar                    7790      25558     Hispar Karakoram              A1        Pakistan
+Rakaposhi                     7788      25551     Rakaposhi-Haramosh Karakoram  A1        Pakistan
+Namcha Barwa                  7782      25531     Assam Himalaya                A1        China
+Kamet                         7756      25446     Garhwal Himalaya              A1        India
+Dhaulagiri II                 7751      25430     Dhaulagiri Himalaya           A1        Nepal
+Saltoro Kangri                7742      25400     Saltoro Karakoram             A1        India, Pakistan
+Kumbhakarna                   7711      25299     Kangchenjunga Himalaya        A1        Nepal
+Tirich Mir#                   7708      25289     Hindu Kush                    A1        Pakistan
+Molamenqing                   7703      25272     Langtang Himalaya             A1        China
+Gurla Mandhata                7694      25243     Nalakankar Himalaya           A1        China
+Saser Kangri I                7672      25171     Saser Karakoram               A1        India
+Chogolisa                     7665      25148     Masherbrum Karakoram          A1        Pakistan
+Dhaulagiri IV                 7661      25135     Dhaulagiri Himalaya           A1        Nepal
+Kongur Tagh                   7649      25095     Kongur Shan                   A1        China
+Dhaulagiri V                  7618      24993     Dhaulagiri Himalaya           A1        Nepal
+Shispare                      7611      24970     Batura Karakoram              A1        Pakistan
+Trivor                        7577      24859     Hispar Karakoram              A1        Pakistan
+Gangkhar Puensum              7570      24836     Kula Kangri Himalaya          A1        Bhutan, China
+Gongga Shan                   7556      24790     Hengduan Shan                 A1        China
+Annapurna III                 7555      24787     Annapurna Himalaya            A1        Nepal
+Skyang Kangri                 7545      24754     Baltoro Karakoram             A1        Pakistan, China
+Changtse                      7543      24747     Mahalangur Himalaya           A1        China
+Kula Kangri                   7538      24731     Kula Kangri Himalaya          A1        China, Bhutan
+Kongur Tiube                  7530      24705     Kongur Shan                   A1        China
+Mamostong Kangri              7516      24659     Rimo Karakoram                A1        India
+Saser Kangri II E             7513      24649     Saser Karakoram               A1        India
+Muztagh Ata                   7509      24636     Muztagata                     A1        China
+Ismoil Somoni Peak            7495      24590     Pamir Mountains               A1        Tajikistan
+
+# Mountains of Asia
+# (highest mountains, being part of Asian mountain ranges with elevation above 2800 meters)
+
+Mount Everest                 8848      29029     Himalaya                      A2        Nepal, China
+K2                            8611      28251     Baltoro Karakoram             A2        China, Pakistan
+Tirich Mir                    7708      25289     Hindu Kush                    A2        Pakistan
+Kongur Tagh                   7649      25095     Pamir Mountains               A2        China
+Liushi Shan                   7167      23514     Kunlun Mountains              A2        China, Tibet
+Mount Damavand                5671      18606     Alborz                        A2        Iran
+Pik Tandykul                  5544      18189     Alay Mountains                A2        Kyrgyzstan, Tajikistan
+Mount Ararat                  5137      16854     Taurus Mountains              A2        Turkey
+Mount Sikaram                 4755      15600     Spīn Ghar                     A2        Afghanistan, Pakistan
+Belukha Mountain              4506      14784     Altai Mountains               A2        Russia
+Mount Kinabalu                4095      13435     Crocker Range                 A2        Malaysia
+Xiuguluan Mountain            3825      12549     Central Mountain Range        A2        Taiwan
+Mount Kerinci                 3805      12484     Barisan Mountains             A2        Indonesia
+Loe Nekan                     3578                Sulaiman Mountains            A2        Pakistan
+Mönkh Saridag                 3491      11453     Sayan Mountains               A2        Mongolia, Russia
+Takht-e-Sulaiman              3487      11440     Toba Kakar Range              A2        Pakistan
+Mount Kita                    3193      10476     Akaishi Mountains             A2        Japan
+Mount Hotaka                  3190                Hida Mountains                A2        Japan
+Jabal Sawda                   3133      10279     Asir Mountains                A2        Saudi Arabia
+Jebel Shams                   3009      09872     Al Hajar Mountains            A2        Oman
+Peak Pobeda                   3003      09852     Chersky Range                 A2        Russia
+Mus-Khaya Mountain            2959      09708     Verkhoyansk Range             A2        Russia
+Mount Kisokoma                2956      09698     Kiso Mountains                A2        Japan
+Mount Apo                     2954      09692     Mount Apo                     A2        Philippines
+Mount Dulang-dulang           2941      09649     Kitanglad Mountain Range      A2        Philippines
+Mount Pulag                   2926      09600     Cordillera Central            A2        Philippines
+Phou Bia                      2819      09249     Annamite Range                A2        Laos
+Mount Hermon                  2814      09232     Anti-Lebanon                  A2        Lebanon, Syria
+
+# Highest mountain peaks of Africa
+# (mountains with at least 500 meters topographic prominence)
+
+Kibo                          5895                Kilimanjaro                   AF        Tanzania
+Batian                        5199                Mount Kenya                   AF        Kenya
+Mawenzi                       5148                Kilimanjaro                   AF        Tanzania
+Ngaliema (Margherita Pk)      5109                Rwenzori                      AF        DR Congo, Uganda
+Mount Kenya                   4985                Mount Kenya                   AF        Kenya
+Ngaliema (Savoia Pk)*         4977                Rwenzori                      AF        Uganda
+Duwoni                        4890                Rwenzori                      AF        Uganda
+Kiyanja                       4844                Rwenzori                      AF        Uganda
+Mount Emin                    4798                Rwenzori                      AF        DR Congo
+Mount Gessi                   4715                Rwenzori                      AF        Uganda
+Mount Luigi di Savoia         4627                Rwenzori                      AF        Uganda
+Mount Meru                    4566                Mount Meru                    AF        Tanzania
+Ras Dashen                    4550                Semien Mountains              AF        Ethiopia, Kenya
+Karisimbi                     4507                Virunga Mountains             AF        DR Congo, Rwanda
+Ancua                         4462                Semien Mountains              AF        Ethiopia
+Kidis Yared                   4453                Semien Mountains              AF        Ethiopia
+Mikeno                        4437                Virunga Mountains             AF        DR Congo
+Bwahit                        4437                Semien Mountains              AF        Ethiopia
+Kihuma                        4391                Rwenzori                      AF        Uganda
+Tullu Demtu                   4377                Bale Mountains                AF        Ethiopia
+Mount Elgon ((Wagagai)        4321                Mount Elgon                   AF        Uganda
+Mount Elgon (Sudek)*          4302                Mount Elgon                   AF        Kenya, Uganda
+Amba Farit                    4270                Kollo Massif                  AF        Ethiopia
+Abune Yosef                   4260                Lasta Massif                  AF        Ethiopia
+Ioll                          4220                Kollo Massif                  AF        Ethiopia
+Bada                          4195                Arsi Mountains                AF        Ethiopia
+Kaka                          4193                Arsi Mountains                AF        Ethiopia
+Jbel Toubkal                  4167                Toubkal Atlas                 AF        Morocco
+Muhavura                      4127                Virunga Mountains             AF        Rwanda, Uganda
+Hey                           4125                Semien Mountains              AF        Ethiopia
+Guna                          4120                Guna Massif                   AF        Ethiopia
+Choqa                         4100                Choqa Mountains               AF        Ethiopia
+Ouanoukrim                    4088                Toubkal Atlas                 AF        Morocco
+Chilalo                       4071                Arsi Mountains                AF        Ethiopia
+Inatye                        4070                Semien Mountains              AF        Ethiopia
+Ighil Mgoun                   4068                Central High Atlas            AF        Morocco
+Mount Cameroon                4040                Cameroon line                 AF        Cameroon
+Weshema                       4030                Bale Mountains                AF        Ethiopia
+Oldoinyo Lesatima             4001                Aberdare Range                AF        Kenya
+Jebel n'Tarourt               3996                Toubkal Atlas                 AF        Morocco
+Muggia                        3950                Lasta Massif                  AF        Ethiopia
+Dubbai                        3941                Tigray Mountains              AF        Ethiopia
+Taska n’Zat                   3912                Toubkal Atlas                 AF        Morocco
+Aksouâl                       3903                Toubkal Atlas                 AF        Morocco
+Mount Kinangop                3902                Aberdare Range                AF        Kenya
+Cimbia                        3900                Kollo Massif                  AF        Ethiopia
+Anrhemer                      3892                Toubkal Atlas                 AF        Morocco
+Ieciuol?                      3840                Kollo Massif                  AF        Ethiopia
+Kawa                          3830                Bale Mountains                AF        Ethiopia
+Pt3820*                       3820                Kollo Massif                  AF        Ethiopia
+Jbel Tignousti                3819                Central High Atlas            AF        Morocco
+Filfo                         3805                Arsi Mountains                AF        Ethiopia
+Kosso Amba                    3805                Lasta Massif                  AF        Ethiopia
+Jbel Ghat                     3781                Central High Atlas            AF        Morocco
+
+# Highest mountains of Australia
+# (elevation above 1300 meters and top ranked by topographic prominence)
+
+Mount Kosciuszko              2228                Snowy Mountains               AU        Australia
+Mount Bogong                  1986                Victorian Alps                AU        Australia
+Mount Feathertop              1922                Victorian Alps                AU        Australia
+Mount Hotham                  1862                Victorian Alps                AU        Australia
+Mount Buller                  1805                Victorian Alps                AU        Australia
+Mount Buffalo                 1723                Victorian Alps                AU        Australia
+Mount Bartle Frere            1622                Bellenden Ker Range           AU        Australia
+Mount Ossa                    1617                Tasmanian Central Highlands   AU        Australia
+Brumlow Top                   1600                Barrington Tops               AU        Australia
+Bellenden Ker                 1590                Bellenden Ker Range           AU        Australia
+Round Mountain                1586                Northern Tablelands           AU        Australia
+Legges Tor                    1574                Ben Lomond Range              AU        Australia
+Mount Zeil                    1531                MacDonnell Ranges             AU        Australia
+Mount Kaputar                 1509                Nandewar Range                AU        Australia
+Frenchmans Cap                1445                F.G. Wild Rivers National ParkAU        Australia
+Mount Woodroffe               1435                Musgrave Ranges               AU        Australia
+Mount Field West              1434                Mount Field National Park     AU        Australia
+Mount Anne                    1425                Southwest National Park       AU        Australia
+Mount Barrow                  1414                Tasmanian Northern Slopes     AU        Australia
+Snowy South                   1393                Snowy Mountains               AU        Australia
+Mount Carbine Tableland       1383                Daintree                      AU        Australia
+Mount Superbus                1381                South East Queensland         AU        Australia
+Mount Trickett                1362                Oberon Shire                  AU        Australia
+Mount Barney                  1354                Scenic Rim                    AU        Australia
+Mount Bindo                   1352                City of Lithgow               AU        Australia
+Thornton Peak                 1351                Daintree                      AU        Australia
+Mount Picton                  1327                Southwest National Park       AU        Australia

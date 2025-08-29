@@ -1,0 +1,426 @@
+object EFlags: TEFlags
+  Left = 639
+  Height = 440
+  Top = 228
+  Width = 768
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Europa Flaggen'
+  ClientHeight = 440
+  ClientWidth = 768
+  DesignTimePPI = 120
+  Font.Height = -17
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Title: TStaticText
+    Left = 129
+    Height = 46
+    Top = 10
+    Width = 510
+    Alignment = taCenter
+    Caption = 'Europa Flaggen.'
+    Font.Height = -33
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 17
+    Top = 72
+    Width = 543
+    Caption = 'Zum Auswählen einer Flagge, diese anklicken. Durch Drücken von "OK" wird sie übernommen.'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object imFlag1: TImage
+    Left = 10
+    Height = 40
+    Top = 112
+    Width = 80
+    OnClick = imFlag1Click
+    Proportional = True
+  end
+  object imFlag2: TImage
+    Left = 104
+    Height = 40
+    Top = 112
+    Width = 80
+    OnClick = imFlag2Click
+    Proportional = True
+  end
+  object imFlag3: TImage
+    Left = 200
+    Height = 40
+    Top = 112
+    Width = 80
+    OnClick = imFlag3Click
+    Proportional = True
+  end
+  object imFlag4: TImage
+    Left = 296
+    Height = 40
+    Top = 112
+    Width = 80
+    OnClick = imFlag4Click
+    Proportional = True
+  end
+  object imFlag5: TImage
+    Left = 392
+    Height = 40
+    Top = 112
+    Width = 80
+    OnClick = imFlag5Click
+    Proportional = True
+  end
+  object imFlag6: TImage
+    Left = 488
+    Height = 40
+    Top = 112
+    Width = 80
+    OnClick = imFlag6Click
+    Proportional = True
+  end
+  object imFlag7: TImage
+    Left = 584
+    Height = 40
+    Top = 112
+    Width = 80
+    OnClick = imFlag7Click
+    Proportional = True
+  end
+  object imFlag8: TImage
+    Left = 680
+    Height = 40
+    Top = 112
+    Width = 80
+    OnClick = imFlag8Click
+    Proportional = True
+  end
+  object imFlag9: TImage
+    Left = 10
+    Height = 40
+    Top = 168
+    Width = 80
+    OnClick = imFlag9Click
+    Proportional = True
+  end
+  object imFlag10: TImage
+    Left = 104
+    Height = 40
+    Top = 168
+    Width = 80
+    OnClick = imFlag10Click
+    Proportional = True
+  end
+  object imFlag11: TImage
+    Left = 200
+    Height = 40
+    Top = 168
+    Width = 80
+    OnClick = imFlag11Click
+    Proportional = True
+  end
+  object imFlag12: TImage
+    Left = 296
+    Height = 40
+    Top = 168
+    Width = 80
+    OnClick = imFlag12Click
+    Proportional = True
+  end
+  object imFlag13: TImage
+    Left = 392
+    Height = 40
+    Top = 168
+    Width = 80
+    OnClick = imFlag13Click
+    Proportional = True
+  end
+  object imFlag14: TImage
+    Left = 488
+    Height = 40
+    Top = 168
+    Width = 80
+    OnClick = imFlag14Click
+    Proportional = True
+  end
+  object imFlag15: TImage
+    Left = 584
+    Height = 40
+    Top = 168
+    Width = 80
+    OnClick = imFlag15Click
+    Proportional = True
+  end
+  object imFlag16: TImage
+    Left = 680
+    Height = 40
+    Top = 168
+    Width = 80
+    OnClick = imFlag16Click
+    Proportional = True
+  end
+  object imFlag17: TImage
+    Left = 10
+    Height = 40
+    Top = 224
+    Width = 80
+    OnClick = imFlag17Click
+    Proportional = True
+  end
+  object imFlag18: TImage
+    Left = 104
+    Height = 40
+    Top = 224
+    Width = 80
+    OnClick = imFlag18Click
+    Proportional = True
+  end
+  object imFlag19: TImage
+    Left = 200
+    Height = 40
+    Top = 224
+    Width = 80
+    OnClick = imFlag19Click
+    Proportional = True
+  end
+  object imFlag20: TImage
+    Left = 296
+    Height = 40
+    Top = 224
+    Width = 80
+    OnClick = imFlag20Click
+    Proportional = True
+  end
+  object imFlag21: TImage
+    Left = 392
+    Height = 40
+    Top = 224
+    Width = 80
+    OnClick = imFlag21Click
+    Proportional = True
+  end
+  object imFlag22: TImage
+    Left = 488
+    Height = 40
+    Top = 224
+    Width = 80
+    OnClick = imFlag22Click
+    Proportional = True
+  end
+  object imFlag23: TImage
+    Left = 584
+    Height = 40
+    Top = 224
+    Width = 80
+    OnClick = imFlag23Click
+    Proportional = True
+  end
+  object imFlag24: TImage
+    Left = 680
+    Height = 40
+    Top = 224
+    Width = 80
+    OnClick = imFlag24Click
+    Proportional = True
+  end
+  object imFlag25: TImage
+    Left = 10
+    Height = 40
+    Top = 280
+    Width = 80
+    OnClick = imFlag25Click
+    Proportional = True
+  end
+  object imFlag26: TImage
+    Left = 104
+    Height = 40
+    Top = 280
+    Width = 80
+    OnClick = imFlag26Click
+    Proportional = True
+  end
+  object imFlag27: TImage
+    Left = 200
+    Height = 40
+    Top = 280
+    Width = 80
+    OnClick = imFlag27Click
+    Proportional = True
+  end
+  object imFlag28: TImage
+    Left = 296
+    Height = 40
+    Top = 280
+    Width = 80
+    OnClick = imFlag28Click
+    Proportional = True
+  end
+  object imFlag29: TImage
+    Left = 392
+    Height = 40
+    Top = 280
+    Width = 80
+    OnClick = imFlag29Click
+    Proportional = True
+  end
+  object imFlag30: TImage
+    Left = 488
+    Height = 40
+    Top = 280
+    Width = 80
+    OnClick = imFlag30Click
+    Proportional = True
+  end
+  object imFlag31: TImage
+    Left = 584
+    Height = 40
+    Top = 280
+    Width = 80
+    OnClick = imFlag31Click
+    Proportional = True
+  end
+  object imFlag32: TImage
+    Left = 680
+    Height = 40
+    Top = 280
+    Width = 80
+    OnClick = imFlag32Click
+    Proportional = True
+  end
+  object imFlag33: TImage
+    Left = 10
+    Height = 40
+    Top = 336
+    Width = 80
+    OnClick = imFlag33Click
+    Proportional = True
+  end
+  object imFlag34: TImage
+    Left = 104
+    Height = 40
+    Top = 336
+    Width = 80
+    OnClick = imFlag34Click
+    Proportional = True
+  end
+  object imFlag35: TImage
+    Left = 200
+    Height = 40
+    Top = 336
+    Width = 80
+    OnClick = imFlag35Click
+    Proportional = True
+  end
+  object imFlag36: TImage
+    Left = 296
+    Height = 40
+    Top = 336
+    Width = 80
+    OnClick = imFlag36Click
+    Proportional = True
+  end
+  object imFlag37: TImage
+    Left = 392
+    Height = 40
+    Top = 336
+    Width = 80
+    OnClick = imFlag37Click
+    Proportional = True
+  end
+  object imFlag38: TImage
+    Left = 488
+    Height = 40
+    Top = 336
+    Width = 80
+    OnClick = imFlag38Click
+    Proportional = True
+  end
+  object imFlag39: TImage
+    Left = 584
+    Height = 40
+    Top = 336
+    Width = 80
+    OnClick = imFlag39Click
+    Proportional = True
+  end
+  object imFlag40: TImage
+    Left = 680
+    Height = 40
+    Top = 336
+    Width = 80
+    OnClick = imFlag40Click
+    Proportional = True
+  end
+  object imFlag41: TImage
+    Left = 10
+    Height = 40
+    Top = 392
+    Width = 80
+    OnClick = imFlag41Click
+    Proportional = True
+  end
+  object imFlag42: TImage
+    Left = 104
+    Height = 40
+    Top = 392
+    Width = 80
+    OnClick = imFlag42Click
+    Proportional = True
+  end
+  object imFlag43: TImage
+    Left = 200
+    Height = 40
+    Top = 392
+    Width = 80
+    OnClick = imFlag43Click
+    Proportional = True
+  end
+  object imFlag44: TImage
+    Left = 296
+    Height = 40
+    Top = 392
+    Width = 80
+    OnClick = imFlag44Click
+    Proportional = True
+  end
+  object imFlag45: TImage
+    Left = 392
+    Height = 40
+    Top = 392
+    Width = 80
+    OnClick = imFlag45Click
+    Proportional = True
+  end
+  object imFlag46: TImage
+    Left = 488
+    Height = 40
+    Top = 392
+    Width = 80
+    OnClick = imFlag46Click
+    Proportional = True
+  end
+  object imFlag47: TImage
+    Left = 584
+    Height = 40
+    Top = 392
+    Width = 80
+    OnClick = imFlag47Click
+    Proportional = True
+  end
+  object btOK: TButton
+    Left = 680
+    Height = 40
+    Top = 392
+    Width = 80
+    Caption = 'OK'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    OnClick = btOKClick
+    ParentFont = False
+    TabOrder = 1
+  end
+end

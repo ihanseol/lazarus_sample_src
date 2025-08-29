@@ -1,0 +1,63 @@
+=========================
+= "Atoms" program help. =
+=========================
+
+"Atoms" draws a graphical representation of the atomic structure, the nucleus being shown as a group of colored disks (for the protons and the neutrons), the electrons being drawn as disks located on circles around the nucleus. These circles have nothing to do with the electrons' trajectory around the nucleus, but represent their position within a given shell (cf. chemistry help text). The shells are filled up by filling the subshells following the Aufbau principle; in the case of anions (positive ions), electons are removed by considering the particular energy situations for transition metals and inner transition metals.
+
+Menu "File".
+============
+
+Exit.
+-----
+Quit the application.
+
+Menu "Settings".
+================
+
+Elements sort.
+--------------
+Sort order of the elements in the listbox. One of the following:
+  - by atomic number: Z, equal to the number of protons.
+  - by element symbol.
+  - by element name.
+
+Menu "Help".
+============
+
+Chemistry help.
+---------------
+Brief chemistry background concerning the atomic structure.
+
+Program help.
+-------------
+Program "Atoms" help text (this document). 
+
+About.
+------
+Program "Atoms" about text.
+
+Usage of the "Atoms" program.
+=============================
+
+Choose an element in the list. If you want to draw the structure of the uncharged atom as it appears in the periodic table, let the "Mass number"  and "Charge" fields empty. Otherwise:
+
+  - For isotopes, other than the one stated in the periodic table, enter their mass number;
+    e.g. element = carbon, mass number = 14, for C-14, "normal" mass number being 12.
+ 
+  - For ions (charged atoms), enter the charge (positive number for anions, negative number for cations);
+    e.g. element = hydrogen, charge = 1 for H+; element = chlorine, charge = -1 for Cl-.
+ 
+Beside the graphical representation, as described above, the program displays the following information:
+
+  - Z and A: atomic number and mass number of the element (as stated in the periodic table)
+  - Electons, protons and neutrons: their actual number in the chosen (possibly charged) isotope.
+  - For each of the shells: the number of electrons and their distribution in the different subshells.
+  
+Note:
+-----
+
+Z = number of protons, for uncharged atoms = also number of electrons.
+    => for ions, the number of electrons is different from Z.
+A = mass number, for periodic table isotope = number of protons + number of neutrons.
+    => for non-periodic-table isotopes, the number of neutrons is different from A - Z.
+	

@@ -1,0 +1,155 @@
+object fLatin2: TfLatin2
+  Left = 303
+  Height = 375
+  Top = 143
+  Width = 813
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Grammaire latine'
+  ClientHeight = 350
+  ClientWidth = 813
+  DesignTimePPI = 120
+  Font.Height = -18
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object StaticText1: TStaticText
+    Left = 115
+    Height = 30
+    Top = 10
+    Width = 582
+    Alignment = taCenter
+    Caption = 'Grammaire latine: Utilisation des cas avec les prépositions.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object laQuestion: TLabel
+    Left = 10
+    Height = 25
+    Top = 56
+    Width = 76
+    Caption = 'Question:'
+    ParentColor = False
+  end
+  object edQuestion: TEdit
+    Left = 10
+    Height = 33
+    Top = 88
+    Width = 598
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object laAnswer: TLabel
+    Left = 10
+    Height = 25
+    Top = 136
+    Width = 72
+    Caption = 'Réponse:'
+    ParentColor = False
+  end
+  object edAnswer: TEdit
+    Left = 10
+    Height = 33
+    Top = 168
+    Width = 598
+    TabOrder = 1
+  end
+  object edEval: TEdit
+    Left = 10
+    Height = 33
+    Top = 310
+    Width = 598
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object StaticText2: TStaticText
+    Left = 10
+    Height = 72
+    Top = 220
+    Width = 598
+    Caption = 'La réponse consiste à ré-entrer la   phrase ou  expression avec le  substantif (et, le cas échéant,  l''adjectif) décliné(s)  au  cas  correct  et  au  nombre  (sg.  ou  pl.)  comme indiqué.'
+    TabOrder = 5
+  end
+  object sgEval: TStringGrid
+    Left = 639
+    Height = 112
+    Top = 89
+    Width = 163
+    ColCount = 2
+    FixedRows = 0
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 4
+    TabOrder = 6
+    TabStop = False
+    ColWidths = (
+      98
+      61
+    )
+    Cells = (
+      4
+      0
+      0
+      'Questions'
+      0
+      1
+      'Correct'
+      0
+      2
+      'Faux'
+      0
+      3
+      'Succès'
+    )
+  end
+  object Label1: TLabel
+    Left = 639
+    Height = 25
+    Top = 56
+    Width = 85
+    Caption = 'Évaluation:'
+    ParentColor = False
+  end
+  object btQuestion: TButton
+    Left = 708
+    Height = 33
+    Top = 310
+    Width = 94
+    Caption = 'Question'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object mMenu: TMainMenu
+    Left = 752
+    Top = 8
+    object mExercise: TMenuItem
+      Caption = 'Exercice'
+      object mExerciseNew: TMenuItem
+        Caption = 'Nouveau'
+        OnClick = mExerciseNewClick
+      end
+      object mExerciseExit: TMenuItem
+        Caption = 'Quitter'
+        OnClick = mExerciseExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsQuestions: TMenuItem
+        Caption = 'Nombre de questions ...'
+        OnClick = mOptionsQuestionsClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Aide'
+      object mHelpAbout: TMenuItem
+        Caption = 'Info programme'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

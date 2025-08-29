@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="integration1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="27"/>
+        <CursorPos X="88" Y="51"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Integration.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="31"/>
+        <CursorPos Y="58"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="12">
+      <Position>
+        <Filename Value="integration1.lpr"/>
+        <Caret Line="12"/>
+      </Position>
+      <Position>
+        <Filename Value="integration1.lpr"/>
+        <Caret Line="4" Column="15"/>
+      </Position>
+      <Position>
+        <Filename Value="Integration.pas"/>
+        <Caret Line="6" Column="17"/>
+      </Position>
+      <Position>
+        <Filename Value="Integration.pas"/>
+        <Caret Line="47" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="integration1.lpr"/>
+        <Caret Line="51" Column="78" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="integration1.lpr"/>
+        <Caret Line="33" Column="29" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="integration1.lpr"/>
+        <Caret Line="17" Column="25"/>
+      </Position>
+      <Position>
+        <Filename Value="integration1.lpr"/>
+        <Caret Line="50" Column="81" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="integration1.lpr"/>
+        <Caret Line="12" Column="25"/>
+      </Position>
+      <Position>
+        <Filename Value="integration1.lpr"/>
+        <Caret Line="50" Column="87" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="integration1.lpr"/>
+      </Position>
+      <Position>
+        <Filename Value="integration1.lpr"/>
+        <Caret Line="15"/>
+      </Position>
+      <Position>
+        <Filename Value="integration1.lpr"/>
+        <Caret Line="50" Column="78" TopLine="27"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

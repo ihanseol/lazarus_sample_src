@@ -1,0 +1,10 @@
+# Double Dragon-Curve
+
+origin = (840,275)
+displacement = 4
+
+axiom = "7FXGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG--2FX"
+rules = { "X": "X+YF+",
+          "Y": "-FX-Y" }
+iterations = 12
+angle = 90

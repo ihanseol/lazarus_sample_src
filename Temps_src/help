@@ -1,0 +1,43 @@
+"Temps": Aide programme.
+========================
+
+"Temps" est une application de grammaire françsise, qui génère des exercices de "concordance des temps". Utilisez le bouton "Question" pour afficher la question, puis, entrez le verbe sous sa forme conjuguée correcte et appuyez sur le bouton "Réponse" (si l'option "Conjuguer les verbes" est sélectionnée) ou bien utilisez les "boutons temps" pour répondre. A noter que, comme la première chose à faire dans ce genre d'exercice, c'est de déterminer quel est le mode du verbe dans la phrase subordonnée, le programme peut aussi sevir pour s'exercer avec l'emploi du subjonctif.
+
+Menu "Exercice".
+================
+
+Nouveau.
+--------
+Démarrer un nouvel exercise avec mise à zéro des compteurs d'évaluation.
+
+Quitter.
+--------
+Terminer l'application.
+
+Menu "Options".
+===============
+
+Nombre de questions ...
+-----------------------
+Choisissez le nombre de questions de l'exercice (défaut = 10).
+
+Conjuguer les verbes.
+---------------------
+Choix du mode de réponse:
+  - si cette option est sélectionnée, il faut entrer la forme conjuguée du verbe de la subordonnée.
+  - si cette option n'est pas sélectionnée, il faut utiliser les "boutons temps" pour répondre.
+  
+Menu "Aide".
+============
+
+Aide grammaire.
+---------------
+Un bref aperçu, concernant les règles de la concordance des temps.
+
+Aide programme.
+---------------
+Ce texte, décrivant comment utiliser le programme "Temps".
+
+Info programme.
+---------------
+Informations concernant l'auteur, la version et la date de création du programme "Temps".

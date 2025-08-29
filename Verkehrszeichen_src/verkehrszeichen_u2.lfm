@@ -1,0 +1,98 @@
+object fHelp: TfHelp
+  Left = 303
+  Height = 593
+  Top = 171
+  Width = 1137
+  BorderIcons = [biSystemMenu]
+  Caption = 'Verkehrszeichen'
+  ClientHeight = 593
+  ClientWidth = 1137
+  DesignTimePPI = 120
+  Font.Height = -17
+  LCLVersion = '2.0.10.0'
+  object Memo1: TMemo
+    Left = 8
+    Height = 490
+    Top = 56
+    Width = 1120
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'Menü "Test".'
+      '============'
+      ''
+      'Neu.'
+      '----'
+      'Einen neuen Verkehrszeichentest mit den ausgewählten Optionen starten. Dieser Befehl muss ausgeführt werden, damit die Änderung der Einstellungen wirksam wird.'
+      ''
+      'Verlassen.'
+      '----------'
+      'Die Anwendung verlassen.'
+      ''
+      'Menü "Einstellungen".'
+      '====================='
+      ''
+      'Anzahl der Fragen.'
+      '------------------'
+      'Einstellen, wie viele Fragen gestellt (verschiedene Verkehrszeichen gezeigt) werden sollen (Minimum 10). Die Einstellung bei Programmstart ist 20.'
+      ''
+      'Verkehrszeichen Liste.'
+      '----------------------'
+      'Auswahl welche Verkehrszeichen im Quiz verwendet werden sollen. Bei Programmstart werden nur Schilder benutzt, die in Deutschland üblich sind. Mit der Einstellung "Komplette Liste" kommen 17 Schilder hinzu, die in Deutschland nicht (mehr) benutzt werden oder nicht offiziell sind.'
+      ''
+      'Angezeigte Antworten.'
+      '---------------------'
+      'Die Anwendung zeigt mehrere Antwortvorschläge, von denen der Benutzer eine auswählen muss. Hier kann eingestellt werden, ob jeweils 3 (Programmstart) oder 4 Vorschläge gezeigt werden sollen.'
+      ''
+      '"Alle falsch" Vorschlag.'
+      '------------------------'
+      'Ist diese Option angekreuzt, wird in ungefähr der Hälfte der Fragen, der Antwortvorschlag "Keine der angezeigten Antworten ist richtig..." angezeigt. Das heißt, wenn alle anderen Antworten falsch sind, muss der Benutzer den "Alle falsch" Radioknopf auswählen. Diese Option ist nur bei 4 angezeigten Antworten verfügbar.'
+      ''
+      'Benotung.'
+      '---------'
+      'Auswahl, wie der Test benotet werden soll; Wahl zwischen 3 Möglichkeiten: 1 0 (Programmstart); 1 -1; 1 -1 0. Siehe weiter unten für Details.'
+      ''
+      'Menü "Hilfe".'
+      '============='
+      ''
+      'Hilfe.'
+      '------'
+      'Hilfstext für das Benutzen der "Verkehrszeichen" Anwendung (dieses Dokument).'
+      ''
+      'Über.'
+      '-----'
+      'Version, Autor und Datum der "Verkehrszeichen" Anwendung.'
+      ''
+      'Benotung.'
+      '========='
+      'Die übliche Art und Weise den Verkehrszeichentest einer Führerscheinprüfung zu benoten, besteht darin die richtigen Antworten mit je einem Punkt zu belohnen (für falsche Antworten kriegt man keinen Punkt). In dieser 1, 0 Benotung muss man 50% der Fragen richtig beantworten, um eine 50%-Note zu erhalten.'
+      'Die Benotung wäre auch anders möglich. Für multiple choice Tests an Universitäten wird manchmal die 1, -1 Benotung angewandt: Richtige Antworten werden mit einem Punkt belohnt, falsche Antworten werden mit -1 bestraft. In diesem Falle muss der Prüfling 75% der Fragen richtig beantworten, um eine 50%-Note zu erhalten. Bei 50% richtiger Antworten ist seine Note 0!'
+      'Diese beiden Benotungs-Arten haben gemeinsam, dass ausgelassene Antworten als falsche Antworten interpretiert werden. Auch hier gibt es eine andere Möglichkeit. Wenn man dem Prüfling das Recht zugesteht nicht auf alle Fragen eine Antwort zu kennen, und er sein "das weiß ich leider nicht" kundtut, indem er keine der möglichen Antworten ankreuzt, kommt man auf eine 1, -1, 0 Benotung (1 Punkt für richtig, -1 Punkt für falsch, weder plus noch minus für Antwort ausgelassen). Die einfachste Möglichkeit in der "Verkehrszeichen" Anwendung eine Antwort auszulassen, besteht darin, anstatt des "Antwort" Knopfes, den "Frage" Knopf zum Generieren der nächsten Frage zu drücken.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 28
+    Top = 10
+    Width = 230
+    Caption = '"Verkehrszeichen" Hilfe.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btClose: TButton
+    Left = 1034
+    Height = 31
+    Top = 557
+    Width = 94
+    Caption = 'Schließen'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

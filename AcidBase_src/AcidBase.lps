@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="AcidBase.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="71"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="acidbase_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fAcidBase"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="71"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="acidbase_list.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fList"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="acidbase_help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="c:\Programs\lazarus\win64\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3487"/>
+        <CursorPos Y="3501"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="567" Column="38" TopLine="541"/>
+      </Position1>
+      <Position2>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="833" Column="3" TopLine="831"/>
+      </Position2>
+      <Position3>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="860" Column="3" TopLine="858"/>
+      </Position3>
+      <Position4>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="901" Column="3" TopLine="878"/>
+      </Position4>
+      <Position5>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="856" Column="3" TopLine="854"/>
+      </Position5>
+      <Position6>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="879" Column="3" TopLine="877"/>
+      </Position6>
+      <Position7>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="902" Column="3" TopLine="896"/>
+      </Position7>
+      <Position8>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="878" Column="24" TopLine="867"/>
+      </Position8>
+      <Position9>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="867" TopLine="867"/>
+      </Position9>
+      <Position10>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="856" TopLine="851"/>
+      </Position10>
+      <Position11>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="836" TopLine="830"/>
+      </Position11>
+      <Position12>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="889" Column="24" TopLine="879"/>
+      </Position12>
+      <Position13>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="99" TopLine="81"/>
+      </Position13>
+      <Position14>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="880" TopLine="854"/>
+      </Position14>
+      <Position15>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="879" TopLine="853"/>
+      </Position15>
+      <Position16>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="878" TopLine="852"/>
+      </Position16>
+      <Position17>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="558" TopLine="547"/>
+      </Position17>
+      <Position18>
+        <Filename Value="acidbase_list.pas"/>
+        <Caret Line="5" Column="4"/>
+      </Position18>
+      <Position19>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="644" Column="63" TopLine="621"/>
+      </Position19>
+      <Position20>
+        <Filename Value="acidbase_help.pas"/>
+        <Caret Line="34" TopLine="12"/>
+      </Position20>
+      <Position21>
+        <Filename Value="acidbase_list.pas"/>
+        <Caret Line="3"/>
+      </Position21>
+      <Position22>
+        <Filename Value="AcidBase.lpr"/>
+        <Caret Line="5" Column="40"/>
+      </Position22>
+      <Position23>
+        <Filename Value="acidbase_help.pas"/>
+        <Caret Line="44" TopLine="17"/>
+      </Position23>
+      <Position24>
+        <Filename Value="acidbase_list.pas"/>
+        <Caret Line="47" TopLine="20"/>
+      </Position24>
+      <Position25>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="586" Column="10" TopLine="577"/>
+      </Position25>
+      <Position26>
+        <Filename Value="acidbase_help.pas"/>
+      </Position26>
+      <Position27>
+        <Filename Value="acidbase_help.pas"/>
+        <Caret Line="31" Column="35" TopLine="23"/>
+      </Position27>
+      <Position28>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="115" Column="16" TopLine="108"/>
+      </Position28>
+      <Position29>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="301" Column="64" TopLine="294"/>
+      </Position29>
+      <Position30>
+        <Filename Value="acidbase_main.pas"/>
+        <Caret Line="1000" TopLine="973"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

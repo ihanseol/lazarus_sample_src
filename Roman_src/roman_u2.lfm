@@ -1,0 +1,35 @@
+object fHelp: TfHelp
+  Left = 249
+  Height = 522
+  Top = 143
+  Width = 914
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Roman numerals'
+  ClientHeight = 522
+  ClientWidth = 914
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object edHelp: TMemo
+    Left = 10
+    Height = 454
+    Top = 10
+    Width = 894
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 810
+    Height = 31
+    Top = 480
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

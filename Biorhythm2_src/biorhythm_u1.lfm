@@ -1,0 +1,335 @@
+object fBiorhythm: TfBiorhythm
+  Left = 70
+  Height = 564
+  Top = 73
+  Width = 1145
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Biorhythm partner compatibility'
+  ClientHeight = 564
+  ClientWidth = 1145
+  Color = clSilver
+  DesignTimePPI = 120
+  Menu = mMenu
+  LCLVersion = '4.2.0.0'
+  OnCreate = FormCreate
+  object imCharts: TImage
+    Left = 10
+    Height = 350
+    Top = 56
+    Width = 800
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 23
+    Top = 432
+    Width = 114
+    Caption = 'Your birth date'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 10
+    Height = 23
+    Top = 499
+    Width = 113
+    Caption = 'Their birthdate'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edBirthDateYour: TEdit
+    Left = 10
+    Height = 31
+    Top = 457
+    Width = 120
+    Alignment = taCenter
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 0
+    Text = 'dd/mm/yyyy'
+  end
+  object edBirthDateTheir: TEdit
+    Left = 10
+    Height = 31
+    Top = 524
+    Width = 120
+    Alignment = taCenter
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 1
+    Text = 'dd/mm/yyyy'
+  end
+  object btCalculate: TButton
+    Left = 716
+    Height = 31
+    Top = 524
+    Width = 94
+    Caption = 'Calculate'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 7
+    OnClick = btCalculateClick
+  end
+  object stTitle: TLabel
+    Left = 8
+    Height = 23
+    Top = 10
+    Width = 143
+    Caption = 'Biorhythm charts.'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 840
+    Height = 23
+    Top = 56
+    Width = 210
+    Caption = 'Partner compatibility (in %):'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 840
+    Height = 23
+    Top = 96
+    Width = 60
+    Caption = 'Physical'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object Shape1: TShape
+    Left = 840
+    Height = 24
+    Top = 128
+    Width = 250
+  end
+  object Label5: TLabel
+    Left = 840
+    Height = 23
+    Top = 168
+    Width = 84
+    Caption = 'Intellectual'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object Shape2: TShape
+    Left = 840
+    Height = 24
+    Top = 200
+    Width = 250
+  end
+  object Label6: TLabel
+    Left = 840
+    Height = 23
+    Top = 240
+    Width = 77
+    Caption = 'Emotional'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object Shape3: TShape
+    Left = 840
+    Height = 24
+    Top = 272
+    Width = 250
+  end
+  object Label7: TLabel
+    Left = 840
+    Height = 23
+    Top = 312
+    Width = 62
+    Caption = 'Average'
+    Font.Height = -17
+    ParentFont = False
+  end
+  object Shape4: TShape
+    Left = 840
+    Height = 24
+    Top = 344
+    Width = 250
+  end
+  object rbBiorhythmYour: TRadioButton
+    Left = 248
+    Height = 27
+    Top = 464
+    Width = 145
+    Caption = ' Your biorhythm'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 2
+    TabStop = True
+  end
+  object Label8: TLabel
+    Left = 248
+    Height = 23
+    Top = 432
+    Width = 53
+    Caption = 'Charts:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object rbBiorhythmTheir: TRadioButton
+    Left = 248
+    Height = 27
+    Top = 496
+    Width = 148
+    Caption = ' Their biorhythm'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 3
+  end
+  object rbPhysical: TRadioButton
+    Left = 440
+    Height = 27
+    Top = 464
+    Width = 135
+    Caption = ' Physical cycles'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 4
+    OnChange = rbPhysicalChange
+  end
+  object rbIntellectual: TRadioButton
+    Left = 440
+    Height = 27
+    Top = 496
+    Width = 159
+    Caption = ' Intellectual cycles'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 5
+    OnChange = rbIntellectualChange
+  end
+  object rbEmotional: TRadioButton
+    Left = 440
+    Height = 27
+    Top = 528
+    Width = 152
+    Caption = ' Emotional cycles'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 6
+    OnChange = rbEmotionalChange
+  end
+  object shPhysical: TShape
+    Left = 840
+    Height = 24
+    Top = 128
+    Width = 50
+    Brush.Color = clGreen
+    Visible = False
+  end
+  object shIntellectual: TShape
+    Left = 840
+    Height = 24
+    Top = 200
+    Width = 50
+    Brush.Color = clBlue
+    Visible = False
+  end
+  object shEmotional: TShape
+    Left = 840
+    Height = 24
+    Top = 272
+    Width = 50
+    Brush.Color = clRed
+    Visible = False
+  end
+  object shAverage: TShape
+    Left = 840
+    Height = 24
+    Top = 344
+    Width = 50
+    Brush.Color = clBlack
+    Visible = False
+  end
+  object laPhysical: TLabel
+    Left = 1104
+    Height = 23
+    Top = 129
+    Width = 14
+    Caption = '%'
+    Font.Height = -17
+    ParentFont = False
+    Visible = False
+  end
+  object laIntellectual: TLabel
+    Left = 1104
+    Height = 23
+    Top = 201
+    Width = 14
+    Caption = '%'
+    Font.Height = -17
+    ParentFont = False
+    Visible = False
+  end
+  object laEmotional: TLabel
+    Left = 1104
+    Height = 23
+    Top = 273
+    Width = 14
+    Caption = '%'
+    Font.Height = -17
+    ParentFont = False
+    Visible = False
+  end
+  object laAverage: TLabel
+    Left = 1104
+    Height = 23
+    Top = 345
+    Width = 14
+    Caption = '%'
+    Font.Height = -17
+    ParentFont = False
+    Visible = False
+  end
+  object Memo1: TMemo
+    Left = 840
+    Height = 149
+    Top = 406
+    Width = 250
+    Color = cl3DLight
+    Font.Color = clNavy
+    Font.Height = -18
+    Font.Name = 'Old English Text MT'
+    Lines.Strings = (
+      'Neither God, nor the stars, but only you, yourself, by the free-will decisions that you make today (based on this application or not), are responsible of what your life will look like in the future!'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 8
+    TabStop = False
+  end
+  object mMenu: TMainMenu
+    Left = 32
+    Top = 72
+    object mBiorhythm: TMenuItem
+      Caption = 'Biorhythm'
+      object mBiorhythmExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mBiorhythmExitClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpBiorhythm: TMenuItem
+        Caption = 'Biorhythm help'
+        OnClick = mHelpBiorhythmClick
+      end
+      object mHelpHelp: TMenuItem
+        Caption = 'Application help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'Application about'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

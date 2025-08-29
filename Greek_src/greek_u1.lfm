@@ -1,0 +1,385 @@
+object fGreek: TfGreek
+  Left = 407
+  Height = 269
+  Top = 217
+  Width = 634
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'The Greek Alphabet'
+  ClientHeight = 244
+  ClientWidth = 634
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object StaticText1: TStaticText
+    Left = 106
+    Height = 30
+    Top = 5
+    Width = 422
+    Alignment = taCenter
+    Caption = 'Learn the Greek alphabet.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 27
+  end
+  object laName: TLabel
+    Left = 10
+    Height = 23
+    Top = 60
+    Width = 92
+    Caption = 'Letter name'
+    ParentColor = False
+  end
+  object edName: TEdit
+    Left = 112
+    Height = 31
+    Top = 56
+    Width = 100
+    TabOrder = 1
+  end
+  object laLetter: TLabel
+    Left = 256
+    Height = 23
+    Top = 60
+    Width = 44
+    Caption = 'Letter'
+    ParentColor = False
+  end
+  object edLetter: TEdit
+    Left = 312
+    Height = 31
+    Top = 56
+    Width = 32
+    Alignment = taCenter
+    TabOrder = 2
+  end
+  object bt01: TButton
+    Left = 8
+    Height = 31
+    Top = 112
+    Width = 31
+    Caption = 'bt01'
+    OnClick = bt01Click
+    TabOrder = 17
+    TabStop = False
+  end
+  object bt02: TButton
+    Left = 57
+    Height = 31
+    Top = 112
+    Width = 31
+    Caption = 'bt02'
+    OnClick = bt02Click
+    TabOrder = 18
+    TabStop = False
+  end
+  object bt03: TButton
+    Left = 106
+    Height = 31
+    Top = 112
+    Width = 31
+    Caption = 'bt03'
+    OnClick = bt03Click
+    TabOrder = 19
+    TabStop = False
+  end
+  object bt04: TButton
+    Left = 155
+    Height = 31
+    Top = 112
+    Width = 31
+    Caption = 'bt04'
+    OnClick = bt04Click
+    TabOrder = 20
+    TabStop = False
+  end
+  object bt05: TButton
+    Left = 204
+    Height = 31
+    Top = 112
+    Width = 31
+    Caption = 'bt05'
+    OnClick = bt05Click
+    TabOrder = 21
+    TabStop = False
+  end
+  object bt06: TButton
+    Left = 253
+    Height = 31
+    Top = 112
+    Width = 31
+    Caption = 'bt06'
+    OnClick = bt06Click
+    TabOrder = 22
+    TabStop = False
+  end
+  object bt07: TButton
+    Left = 302
+    Height = 31
+    Top = 112
+    Width = 31
+    Caption = 'bt07'
+    OnClick = bt07Click
+    TabOrder = 23
+    TabStop = False
+  end
+  object bt08: TButton
+    Left = 351
+    Height = 31
+    Top = 112
+    Width = 31
+    Caption = 'bt08'
+    OnClick = bt08Click
+    TabOrder = 24
+    TabStop = False
+  end
+  object bt09: TButton
+    Left = 400
+    Height = 31
+    Top = 112
+    Width = 31
+    Caption = 'bt09'
+    OnClick = bt09Click
+    TabOrder = 3
+    TabStop = False
+  end
+  object bt10: TButton
+    Left = 449
+    Height = 31
+    Top = 112
+    Width = 31
+    Caption = 'bt10'
+    OnClick = bt10Click
+    TabOrder = 25
+    TabStop = False
+  end
+  object bt11: TButton
+    Left = 498
+    Height = 31
+    Top = 112
+    Width = 31
+    Caption = 'bt11'
+    OnClick = bt11Click
+    TabOrder = 26
+    TabStop = False
+  end
+  object bt12: TButton
+    Left = 547
+    Height = 31
+    Top = 112
+    Width = 31
+    Caption = 'bt12'
+    OnClick = bt12Click
+    TabOrder = 28
+    TabStop = False
+  end
+  object bt13: TButton
+    Left = 8
+    Height = 31
+    Top = 160
+    Width = 31
+    Caption = 'bt13'
+    OnClick = bt13Click
+    TabOrder = 16
+    TabStop = False
+  end
+  object bt14: TButton
+    Left = 57
+    Height = 31
+    Top = 160
+    Width = 31
+    Caption = 'bt14'
+    OnClick = bt14Click
+    TabOrder = 4
+    TabStop = False
+  end
+  object bt15: TButton
+    Left = 106
+    Height = 31
+    Top = 160
+    Width = 31
+    Caption = 'bt15'
+    OnClick = bt15Click
+    TabOrder = 5
+    TabStop = False
+  end
+  object bt16: TButton
+    Left = 155
+    Height = 31
+    Top = 160
+    Width = 31
+    Caption = 'bt16'
+    OnClick = bt16Click
+    TabOrder = 6
+    TabStop = False
+  end
+  object bt17: TButton
+    Left = 204
+    Height = 31
+    Top = 160
+    Width = 31
+    Caption = 'bt17'
+    OnClick = bt17Click
+    TabOrder = 7
+    TabStop = False
+  end
+  object bt18: TButton
+    Left = 253
+    Height = 31
+    Top = 160
+    Width = 31
+    Caption = 'bt18'
+    OnClick = bt18Click
+    TabOrder = 8
+    TabStop = False
+  end
+  object bt19: TButton
+    Left = 302
+    Height = 31
+    Top = 160
+    Width = 31
+    Caption = 'bt19'
+    OnClick = bt19Click
+    TabOrder = 9
+    TabStop = False
+  end
+  object bt20: TButton
+    Left = 351
+    Height = 31
+    Top = 160
+    Width = 31
+    Caption = 'bt20'
+    OnClick = bt20Click
+    TabOrder = 10
+    TabStop = False
+  end
+  object bt21: TButton
+    Left = 400
+    Height = 31
+    Top = 160
+    Width = 31
+    Caption = 'bt21'
+    OnClick = bt21Click
+    TabOrder = 11
+    TabStop = False
+  end
+  object bt22: TButton
+    Left = 449
+    Height = 31
+    Top = 160
+    Width = 31
+    Caption = 'bt22'
+    OnClick = bt22Click
+    TabOrder = 12
+    TabStop = False
+  end
+  object bt23: TButton
+    Left = 498
+    Height = 31
+    Top = 160
+    Width = 31
+    Caption = 'bt23'
+    OnClick = bt23Click
+    TabOrder = 13
+    TabStop = False
+  end
+  object bt24: TButton
+    Left = 547
+    Height = 31
+    Top = 160
+    Width = 31
+    Caption = 'bt24'
+    OnClick = bt24Click
+    TabOrder = 14
+    TabStop = False
+  end
+  object bt25: TButton
+    Left = 596
+    Height = 31
+    Top = 160
+    Width = 31
+    Caption = 'bt25'
+    OnClick = bt25Click
+    TabOrder = 15
+    TabStop = False
+  end
+  object btQuestion: TButton
+    Left = 533
+    Height = 31
+    Top = 208
+    Width = 94
+    Caption = 'Start'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object edEval: TEdit
+    Left = 8
+    Height = 31
+    Top = 208
+    Width = 204
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 29
+  end
+  object btCancel: TButton
+    Left = 424
+    Height = 31
+    Top = 208
+    Width = 94
+    Caption = 'Cancel'
+    OnClick = btCancelClick
+    TabOrder = 30
+    TabStop = False
+  end
+  object mMenu: TMainMenu
+    Left = 584
+    Top = 8
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileLetters: TMenuItem
+        Caption = 'Greek letters'
+        OnClick = mFileLettersClick
+      end
+      object mFileNames: TMenuItem
+        Caption = 'Greek letter names'
+        OnClick = mFileNamesClick
+      end
+      object mFileAlphabet: TMenuItem
+        Caption = 'Greek alphabet'
+        OnClick = mFileAlphabetClick
+      end
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsCase: TMenuItem
+        Caption = 'Letter case'
+        object mOptionsLowercase: TMenuItem
+          Caption = 'Lowercase'
+          Checked = True
+          OnClick = mOptionsLowercaseClick
+        end
+        object mOptionsUppercase: TMenuItem
+          Caption = 'Uppercase'
+          OnClick = mOptionsUppercaseClick
+        end
+      end
+      object mOptionsRepeat: TMenuItem
+        Caption = 'Repeat wrong answers'
+        OnClick = mOptionsRepeatClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Triangles.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="45"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="triangles_u1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fTriangles"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="45"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="140" Column="36" TopLine="117"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="404" Column="40" TopLine="396"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="416" Column="26" TopLine="391"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="180" Column="29" TopLine="154"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="431" Column="50" TopLine="427"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="461" Column="9" TopLine="448"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="492" Column="36" TopLine="474"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="450" Column="39" TopLine="443"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="524" Column="22" TopLine="503"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="440" Column="3" TopLine="440"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="455" Column="12" TopLine="433"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="458" Column="38" TopLine="442"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="494" Column="76" TopLine="471"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="446" Column="24" TopLine="428"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="498" Column="69" TopLine="482"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="519" Column="12" TopLine="513"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="531" Column="4" TopLine="449"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="624" Column="18" TopLine="614"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="48" Column="5" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="689" TopLine="667"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="661" Column="20" TopLine="644"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="325" TopLine="300"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="717" Column="19" TopLine="714"/>
+      </Position>
+      <Position>
+        <Filename Value="Triangles.lpr"/>
+        <Caret Line="3" Column="52"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="824" TopLine="798"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="737" Column="51" TopLine="716"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="736" Column="70" TopLine="723"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="180" Column="33" TopLine="163"/>
+      </Position>
+      <Position>
+        <Filename Value="triangles_u1.pas"/>
+        <Caret Line="741" Column="17" TopLine="731"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

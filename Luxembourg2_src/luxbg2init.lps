@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="luxbg2init.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="21" HistoryIndex="20">
+      <Position1>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="13"/>
+      </Position1>
+      <Position2>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="11" Column="11"/>
+      </Position2>
+      <Position3>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="36" Column="9" TopLine="13"/>
+      </Position3>
+      <Position4>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="45" Column="7" TopLine="20"/>
+      </Position4>
+      <Position5>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="41" Column="31" TopLine="29"/>
+      </Position5>
+      <Position6>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="13" Column="22"/>
+      </Position6>
+      <Position7>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="42" Column="50" TopLine="22"/>
+      </Position7>
+      <Position8>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="37" Column="12" TopLine="15"/>
+      </Position8>
+      <Position9>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="25" Column="31" TopLine="11"/>
+      </Position9>
+      <Position10>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="45" Column="24" TopLine="25"/>
+      </Position10>
+      <Position11>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="48" Column="55" TopLine="29"/>
+      </Position11>
+      <Position12>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="72" Column="45" TopLine="65"/>
+      </Position12>
+      <Position13>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="93" Column="3" TopLine="73"/>
+      </Position13>
+      <Position14>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="100" Column="67" TopLine="74"/>
+      </Position14>
+      <Position15>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="107" TopLine="85"/>
+      </Position15>
+      <Position16>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="94" Column="10" TopLine="83"/>
+      </Position16>
+      <Position17>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="89" Column="33" TopLine="63"/>
+      </Position17>
+      <Position18>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="58" Column="22" TopLine="58"/>
+      </Position18>
+      <Position19>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="80" Column="19" TopLine="59"/>
+      </Position19>
+      <Position20>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="129" TopLine="102"/>
+      </Position20>
+      <Position21>
+        <Filename Value="luxbg2init.lpr"/>
+        <Caret Line="121" Column="49" TopLine="96"/>
+      </Position21>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

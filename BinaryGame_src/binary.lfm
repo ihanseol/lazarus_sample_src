@@ -1,0 +1,1233 @@
+object fBinary: TfBinary
+  Left = 288
+  Height = 637
+  Top = 105
+  Width = 422
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Binary Game'
+  ClientHeight = 612
+  ClientWidth = 422
+  DesignTimePPI = 120
+  Font.Height = -18
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object shGrid11: TShape
+    Left = 10
+    Height = 50
+    Top = 60
+    Width = 50
+  end
+  object StaticText1: TStaticText
+    Left = -4
+    Height = 29
+    Top = 10
+    Width = 430
+    Alignment = taCenter
+    Caption = 'Binary: A logic game with Ones and Zeros.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object shGrid12: TShape
+    Left = 60
+    Height = 50
+    Top = 60
+    Width = 50
+  end
+  object shGrid13: TShape
+    Left = 110
+    Height = 50
+    Top = 60
+    Width = 50
+  end
+  object shGrid14: TShape
+    Left = 160
+    Height = 50
+    Top = 60
+    Width = 50
+  end
+  object shGrid15: TShape
+    Left = 210
+    Height = 50
+    Top = 60
+    Width = 50
+  end
+  object shGrid16: TShape
+    Left = 260
+    Height = 50
+    Top = 60
+    Width = 50
+  end
+  object shGrid17: TShape
+    Left = 310
+    Height = 50
+    Top = 60
+    Width = 50
+  end
+  object shGrid18: TShape
+    Left = 360
+    Height = 50
+    Top = 60
+    Width = 50
+  end
+  object shGrid21: TShape
+    Left = 10
+    Height = 50
+    Top = 110
+    Width = 50
+  end
+  object shGrid22: TShape
+    Left = 60
+    Height = 50
+    Top = 110
+    Width = 50
+  end
+  object shGrid23: TShape
+    Left = 110
+    Height = 50
+    Top = 110
+    Width = 50
+  end
+  object shGrid24: TShape
+    Left = 160
+    Height = 50
+    Top = 110
+    Width = 50
+  end
+  object shGrid25: TShape
+    Left = 210
+    Height = 50
+    Top = 110
+    Width = 50
+  end
+  object shGrid26: TShape
+    Left = 260
+    Height = 50
+    Top = 110
+    Width = 50
+  end
+  object shGrid27: TShape
+    Left = 310
+    Height = 50
+    Top = 110
+    Width = 50
+  end
+  object shGrid28: TShape
+    Left = 360
+    Height = 50
+    Top = 110
+    Width = 50
+  end
+  object shGrid31: TShape
+    Left = 10
+    Height = 50
+    Top = 160
+    Width = 50
+  end
+  object shGrid32: TShape
+    Left = 60
+    Height = 50
+    Top = 160
+    Width = 50
+  end
+  object shGrid33: TShape
+    Left = 110
+    Height = 50
+    Top = 160
+    Width = 50
+  end
+  object shGrid34: TShape
+    Left = 160
+    Height = 50
+    Top = 160
+    Width = 50
+  end
+  object shGrid35: TShape
+    Left = 210
+    Height = 50
+    Top = 160
+    Width = 50
+  end
+  object shGrid36: TShape
+    Left = 260
+    Height = 50
+    Top = 160
+    Width = 50
+  end
+  object shGrid37: TShape
+    Left = 310
+    Height = 50
+    Top = 160
+    Width = 50
+  end
+  object shGrid38: TShape
+    Left = 360
+    Height = 50
+    Top = 160
+    Width = 50
+  end
+  object shGrid41: TShape
+    Left = 10
+    Height = 50
+    Top = 210
+    Width = 50
+  end
+  object shGrid42: TShape
+    Left = 60
+    Height = 50
+    Top = 210
+    Width = 50
+  end
+  object shGrid43: TShape
+    Left = 110
+    Height = 50
+    Top = 210
+    Width = 50
+  end
+  object shGrid44: TShape
+    Left = 160
+    Height = 50
+    Top = 210
+    Width = 50
+  end
+  object shGrid45: TShape
+    Left = 210
+    Height = 50
+    Top = 210
+    Width = 50
+  end
+  object shGrid46: TShape
+    Left = 260
+    Height = 50
+    Top = 210
+    Width = 50
+  end
+  object shGrid47: TShape
+    Left = 310
+    Height = 50
+    Top = 210
+    Width = 50
+  end
+  object shGrid48: TShape
+    Left = 360
+    Height = 50
+    Top = 210
+    Width = 50
+  end
+  object shGrid51: TShape
+    Left = 10
+    Height = 50
+    Top = 260
+    Width = 50
+  end
+  object shGrid52: TShape
+    Left = 60
+    Height = 50
+    Top = 260
+    Width = 50
+  end
+  object shGrid53: TShape
+    Left = 110
+    Height = 50
+    Top = 260
+    Width = 50
+  end
+  object shGrid54: TShape
+    Left = 160
+    Height = 50
+    Top = 260
+    Width = 50
+  end
+  object shGrid55: TShape
+    Left = 210
+    Height = 50
+    Top = 260
+    Width = 50
+  end
+  object shGrid56: TShape
+    Left = 260
+    Height = 50
+    Top = 260
+    Width = 50
+  end
+  object shGrid57: TShape
+    Left = 310
+    Height = 50
+    Top = 260
+    Width = 50
+  end
+  object shGrid58: TShape
+    Left = 360
+    Height = 50
+    Top = 260
+    Width = 50
+  end
+  object shGrid61: TShape
+    Left = 10
+    Height = 50
+    Top = 310
+    Width = 50
+  end
+  object shGrid62: TShape
+    Left = 60
+    Height = 50
+    Top = 310
+    Width = 50
+  end
+  object shGrid63: TShape
+    Left = 110
+    Height = 50
+    Top = 310
+    Width = 50
+  end
+  object shGrid64: TShape
+    Left = 160
+    Height = 50
+    Top = 310
+    Width = 50
+  end
+  object shGrid65: TShape
+    Left = 210
+    Height = 50
+    Top = 310
+    Width = 50
+  end
+  object shGrid66: TShape
+    Left = 260
+    Height = 50
+    Top = 310
+    Width = 50
+  end
+  object shGrid67: TShape
+    Left = 310
+    Height = 50
+    Top = 310
+    Width = 50
+  end
+  object shGrid68: TShape
+    Left = 360
+    Height = 50
+    Top = 310
+    Width = 50
+  end
+  object shGrid71: TShape
+    Left = 10
+    Height = 50
+    Top = 360
+    Width = 50
+  end
+  object shGrid72: TShape
+    Left = 60
+    Height = 50
+    Top = 360
+    Width = 50
+  end
+  object shGrid73: TShape
+    Left = 110
+    Height = 50
+    Top = 360
+    Width = 50
+  end
+  object shGrid74: TShape
+    Left = 160
+    Height = 50
+    Top = 360
+    Width = 50
+  end
+  object shGrid75: TShape
+    Left = 210
+    Height = 50
+    Top = 360
+    Width = 50
+  end
+  object shGrid76: TShape
+    Left = 260
+    Height = 50
+    Top = 360
+    Width = 50
+  end
+  object shGrid77: TShape
+    Left = 310
+    Height = 50
+    Top = 360
+    Width = 50
+  end
+  object shGrid78: TShape
+    Left = 360
+    Height = 50
+    Top = 360
+    Width = 50
+  end
+  object shGrid81: TShape
+    Left = 10
+    Height = 50
+    Top = 410
+    Width = 50
+  end
+  object shGrid82: TShape
+    Left = 60
+    Height = 50
+    Top = 410
+    Width = 50
+  end
+  object shGrid83: TShape
+    Left = 110
+    Height = 50
+    Top = 410
+    Width = 50
+  end
+  object shGrid84: TShape
+    Left = 160
+    Height = 50
+    Top = 410
+    Width = 50
+  end
+  object shGrid85: TShape
+    Left = 210
+    Height = 50
+    Top = 410
+    Width = 50
+  end
+  object shGrid86: TShape
+    Left = 260
+    Height = 50
+    Top = 410
+    Width = 50
+  end
+  object shGrid87: TShape
+    Left = 310
+    Height = 50
+    Top = 410
+    Width = 50
+  end
+  object shGrid88: TShape
+    Left = 360
+    Height = 50
+    Top = 410
+    Width = 50
+  end
+  object stGrid11: TStaticText
+    Left = 11
+    Height = 48
+    Top = 61
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid11MouseDown
+    ParentFont = False
+    TabOrder = 1
+  end
+  object stGrid12: TStaticText
+    Left = 61
+    Height = 48
+    Top = 61
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid12MouseDown
+    ParentFont = False
+    TabOrder = 2
+  end
+  object stGrid13: TStaticText
+    Left = 111
+    Height = 48
+    Top = 61
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid13MouseDown
+    ParentFont = False
+    TabOrder = 3
+  end
+  object stGrid14: TStaticText
+    Left = 161
+    Height = 48
+    Top = 61
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid14MouseDown
+    ParentFont = False
+    TabOrder = 4
+  end
+  object stGrid15: TStaticText
+    Left = 211
+    Height = 48
+    Top = 61
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid15MouseDown
+    ParentFont = False
+    TabOrder = 5
+  end
+  object stGrid16: TStaticText
+    Left = 261
+    Height = 48
+    Top = 61
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid16MouseDown
+    ParentFont = False
+    TabOrder = 6
+  end
+  object stGrid17: TStaticText
+    Left = 311
+    Height = 48
+    Top = 61
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid17MouseDown
+    ParentFont = False
+    TabOrder = 7
+  end
+  object stGrid18: TStaticText
+    Left = 361
+    Height = 48
+    Top = 61
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid18MouseDown
+    ParentFont = False
+    TabOrder = 8
+  end
+  object stGrid21: TStaticText
+    Left = 11
+    Height = 48
+    Top = 111
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid21MouseDown
+    ParentFont = False
+    TabOrder = 9
+  end
+  object stGrid22: TStaticText
+    Left = 61
+    Height = 48
+    Top = 111
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid22MouseDown
+    ParentFont = False
+    TabOrder = 10
+  end
+  object stGrid23: TStaticText
+    Left = 111
+    Height = 48
+    Top = 111
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid23MouseDown
+    ParentFont = False
+    TabOrder = 11
+  end
+  object stGrid24: TStaticText
+    Left = 161
+    Height = 48
+    Top = 111
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid24MouseDown
+    ParentFont = False
+    TabOrder = 12
+  end
+  object stGrid25: TStaticText
+    Left = 211
+    Height = 48
+    Top = 111
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid25MouseDown
+    ParentFont = False
+    TabOrder = 13
+  end
+  object stGrid26: TStaticText
+    Left = 261
+    Height = 48
+    Top = 111
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid26MouseDown
+    ParentFont = False
+    TabOrder = 14
+  end
+  object stGrid27: TStaticText
+    Left = 311
+    Height = 48
+    Top = 111
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid27MouseDown
+    ParentFont = False
+    TabOrder = 15
+  end
+  object stGrid28: TStaticText
+    Left = 361
+    Height = 48
+    Top = 111
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid28MouseDown
+    ParentFont = False
+    TabOrder = 16
+  end
+  object stGrid31: TStaticText
+    Left = 11
+    Height = 48
+    Top = 161
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid31MouseDown
+    ParentFont = False
+    TabOrder = 17
+  end
+  object stGrid32: TStaticText
+    Left = 61
+    Height = 48
+    Top = 161
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid32MouseDown
+    ParentFont = False
+    TabOrder = 18
+  end
+  object stGrid33: TStaticText
+    Left = 111
+    Height = 48
+    Top = 161
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid33MouseDown
+    ParentFont = False
+    TabOrder = 19
+  end
+  object stGrid34: TStaticText
+    Left = 161
+    Height = 48
+    Top = 161
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid34MouseDown
+    ParentFont = False
+    TabOrder = 20
+  end
+  object stGrid35: TStaticText
+    Left = 211
+    Height = 48
+    Top = 161
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid35MouseDown
+    ParentFont = False
+    TabOrder = 21
+  end
+  object stGrid36: TStaticText
+    Left = 261
+    Height = 48
+    Top = 161
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid36MouseDown
+    ParentFont = False
+    TabOrder = 22
+  end
+  object stGrid37: TStaticText
+    Left = 311
+    Height = 48
+    Top = 161
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid37MouseDown
+    ParentFont = False
+    TabOrder = 23
+  end
+  object stGrid38: TStaticText
+    Left = 361
+    Height = 48
+    Top = 161
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid38MouseDown
+    ParentFont = False
+    TabOrder = 24
+  end
+  object stGrid41: TStaticText
+    Left = 11
+    Height = 48
+    Top = 211
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid41MouseDown
+    ParentFont = False
+    TabOrder = 25
+  end
+  object stGrid42: TStaticText
+    Left = 61
+    Height = 48
+    Top = 211
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid42MouseDown
+    ParentFont = False
+    TabOrder = 26
+  end
+  object stGrid43: TStaticText
+    Left = 111
+    Height = 48
+    Top = 211
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid43MouseDown
+    ParentFont = False
+    TabOrder = 27
+  end
+  object stGrid44: TStaticText
+    Left = 161
+    Height = 48
+    Top = 211
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid44MouseDown
+    ParentFont = False
+    TabOrder = 28
+  end
+  object stGrid45: TStaticText
+    Left = 211
+    Height = 48
+    Top = 211
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid45MouseDown
+    ParentFont = False
+    TabOrder = 29
+  end
+  object stGrid46: TStaticText
+    Left = 261
+    Height = 48
+    Top = 211
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid46MouseDown
+    ParentFont = False
+    TabOrder = 30
+  end
+  object stGrid47: TStaticText
+    Left = 311
+    Height = 48
+    Top = 211
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid47MouseDown
+    ParentFont = False
+    TabOrder = 31
+  end
+  object stGrid48: TStaticText
+    Left = 361
+    Height = 48
+    Top = 211
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid48MouseDown
+    ParentFont = False
+    TabOrder = 32
+  end
+  object stGrid51: TStaticText
+    Left = 11
+    Height = 48
+    Top = 261
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid51MouseDown
+    ParentFont = False
+    TabOrder = 33
+  end
+  object stGrid52: TStaticText
+    Left = 61
+    Height = 48
+    Top = 261
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid52MouseDown
+    ParentFont = False
+    TabOrder = 34
+  end
+  object stGrid53: TStaticText
+    Left = 111
+    Height = 48
+    Top = 261
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid53MouseDown
+    ParentFont = False
+    TabOrder = 35
+  end
+  object stGrid54: TStaticText
+    Left = 161
+    Height = 48
+    Top = 261
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid54MouseDown
+    ParentFont = False
+    TabOrder = 36
+  end
+  object stGrid55: TStaticText
+    Left = 211
+    Height = 48
+    Top = 261
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid55MouseDown
+    ParentFont = False
+    TabOrder = 37
+  end
+  object stGrid56: TStaticText
+    Left = 261
+    Height = 48
+    Top = 261
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid56MouseDown
+    ParentFont = False
+    TabOrder = 38
+  end
+  object stGrid57: TStaticText
+    Left = 311
+    Height = 48
+    Top = 261
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid57MouseDown
+    ParentFont = False
+    TabOrder = 39
+  end
+  object stGrid58: TStaticText
+    Left = 361
+    Height = 48
+    Top = 261
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid58MouseDown
+    ParentFont = False
+    TabOrder = 40
+  end
+  object stGrid61: TStaticText
+    Left = 11
+    Height = 48
+    Top = 311
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid61MouseDown
+    ParentFont = False
+    TabOrder = 41
+  end
+  object stGrid62: TStaticText
+    Left = 61
+    Height = 48
+    Top = 311
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid62MouseDown
+    ParentFont = False
+    TabOrder = 42
+  end
+  object stGrid63: TStaticText
+    Left = 111
+    Height = 48
+    Top = 311
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid63MouseDown
+    ParentFont = False
+    TabOrder = 43
+  end
+  object stGrid64: TStaticText
+    Left = 161
+    Height = 48
+    Top = 311
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid64MouseDown
+    ParentFont = False
+    TabOrder = 44
+  end
+  object stGrid65: TStaticText
+    Left = 211
+    Height = 48
+    Top = 311
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid65MouseDown
+    ParentFont = False
+    TabOrder = 45
+  end
+  object stGrid66: TStaticText
+    Left = 261
+    Height = 48
+    Top = 311
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid66MouseDown
+    ParentFont = False
+    TabOrder = 46
+  end
+  object stGrid67: TStaticText
+    Left = 311
+    Height = 48
+    Top = 311
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid67MouseDown
+    ParentFont = False
+    TabOrder = 47
+  end
+  object stGrid68: TStaticText
+    Left = 361
+    Height = 48
+    Top = 311
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid68MouseDown
+    ParentFont = False
+    TabOrder = 48
+  end
+  object stGrid71: TStaticText
+    Left = 11
+    Height = 48
+    Top = 361
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid71MouseDown
+    ParentFont = False
+    TabOrder = 49
+  end
+  object stGrid72: TStaticText
+    Left = 61
+    Height = 48
+    Top = 361
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid72MouseDown
+    ParentFont = False
+    TabOrder = 50
+  end
+  object stGrid73: TStaticText
+    Left = 111
+    Height = 48
+    Top = 361
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid73MouseDown
+    ParentFont = False
+    TabOrder = 51
+  end
+  object stGrid74: TStaticText
+    Left = 161
+    Height = 48
+    Top = 361
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid74MouseDown
+    ParentFont = False
+    TabOrder = 52
+  end
+  object stGrid75: TStaticText
+    Left = 211
+    Height = 48
+    Top = 361
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid75MouseDown
+    ParentFont = False
+    TabOrder = 53
+  end
+  object stGrid76: TStaticText
+    Left = 261
+    Height = 48
+    Top = 361
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid76MouseDown
+    ParentFont = False
+    TabOrder = 54
+  end
+  object stGrid77: TStaticText
+    Left = 311
+    Height = 48
+    Top = 361
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid77MouseDown
+    ParentFont = False
+    TabOrder = 55
+  end
+  object stGrid78: TStaticText
+    Left = 361
+    Height = 48
+    Top = 361
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid78MouseDown
+    ParentFont = False
+    TabOrder = 56
+  end
+  object stGrid81: TStaticText
+    Left = 11
+    Height = 48
+    Top = 411
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid81MouseDown
+    ParentFont = False
+    TabOrder = 57
+  end
+  object stGrid82: TStaticText
+    Left = 61
+    Height = 48
+    Top = 411
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid82MouseDown
+    ParentFont = False
+    TabOrder = 58
+  end
+  object stGrid83: TStaticText
+    Left = 111
+    Height = 48
+    Top = 411
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid83MouseDown
+    ParentFont = False
+    TabOrder = 59
+  end
+  object stGrid84: TStaticText
+    Left = 161
+    Height = 48
+    Top = 411
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid84MouseDown
+    ParentFont = False
+    TabOrder = 60
+  end
+  object stGrid85: TStaticText
+    Left = 211
+    Height = 48
+    Top = 411
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid85MouseDown
+    ParentFont = False
+    TabOrder = 61
+  end
+  object stGrid86: TStaticText
+    Left = 261
+    Height = 48
+    Top = 411
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid86MouseDown
+    ParentFont = False
+    TabOrder = 62
+  end
+  object stGrid87: TStaticText
+    Left = 311
+    Height = 48
+    Top = 411
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid87MouseDown
+    ParentFont = False
+    TabOrder = 63
+  end
+  object stGrid88: TStaticText
+    Left = 361
+    Height = 48
+    Top = 411
+    Width = 48
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -33
+    OnMouseDown = stGrid88MouseDown
+    ParentFont = False
+    TabOrder = 64
+  end
+  object Memo1: TMemo
+    Left = 11
+    Height = 92
+    Top = 472
+    Width = 398
+    Color = clCream
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'To enter a number, click an empty field:'
+      '  - left mouse button  = 0'
+      '  - right mouse button = 1'
+      'To clear a non-empty field, click it.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 65
+    TabStop = False
+  end
+  object btDone: TButton
+    Left = 315
+    Height = 31
+    Top = 576
+    Width = 94
+    Caption = 'Done'
+    OnClick = btDoneClick
+    TabOrder = 66
+  end
+  object mMenu: TMainMenu
+    Left = 832
+    Top = 288
+    object mGame: TMenuItem
+      Caption = 'Game'
+      object mGameNew: TMenuItem
+        Caption = 'New'
+        OnClick = mGameNewClick
+      end
+      object mGameExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mGameExitClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

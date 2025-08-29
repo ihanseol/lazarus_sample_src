@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="Arithmetic8.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="14" Y="3"/>
+        <UsageCount Value="48"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="arithmetic8_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fArithmetic8"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="48"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="arithmetic8_help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="c:\Programs\lazarus\win64\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2851"/>
+        <CursorPos Y="2864"/>
+        <UsageCount Value="9"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="300" Column="18" TopLine="286"/>
+      </Position1>
+      <Position2>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="188" TopLine="187"/>
+      </Position2>
+      <Position3>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="302" Column="18" TopLine="285"/>
+      </Position3>
+      <Position4>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="318" TopLine="310"/>
+      </Position4>
+      <Position5>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="325" TopLine="317"/>
+      </Position5>
+      <Position6>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="133" TopLine="131"/>
+      </Position6>
+      <Position7>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="328" Column="37" TopLine="312"/>
+      </Position7>
+      <Position8>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="366" Column="14" TopLine="342"/>
+      </Position8>
+      <Position9>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="263" Column="10" TopLine="248"/>
+      </Position9>
+      <Position10>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="327" Column="11" TopLine="303"/>
+      </Position10>
+      <Position11>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="321" Column="34" TopLine="320"/>
+      </Position11>
+      <Position12>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="342" Column="38" TopLine="321"/>
+      </Position12>
+      <Position13>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="255" Column="59" TopLine="233"/>
+      </Position13>
+      <Position14>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="262" Column="59" TopLine="240"/>
+      </Position14>
+      <Position15>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="159" TopLine="137"/>
+      </Position15>
+      <Position16>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="384" Column="3" TopLine="365"/>
+      </Position16>
+      <Position17>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="383" Column="3" TopLine="364"/>
+      </Position17>
+      <Position18>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="155" Column="17" TopLine="139"/>
+      </Position18>
+      <Position19>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="168" Column="31" TopLine="147"/>
+      </Position19>
+      <Position20>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="165" Column="22" TopLine="148"/>
+      </Position20>
+      <Position21>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="172" TopLine="161"/>
+      </Position21>
+      <Position22>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="333" Column="23" TopLine="310"/>
+      </Position22>
+      <Position23>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="332" Column="45" TopLine="313"/>
+      </Position23>
+      <Position24>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="134" Column="4" TopLine="128"/>
+      </Position24>
+      <Position25>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="144" Column="30" TopLine="127"/>
+      </Position25>
+      <Position26>
+        <Filename Value="arithmetic8_main.pas"/>
+      </Position26>
+      <Position27>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="259" Column="31" TopLine="247"/>
+      </Position27>
+      <Position28>
+        <Filename Value="arithmetic8_help.pas"/>
+        <Caret Line="44" TopLine="20"/>
+      </Position28>
+      <Position29>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="423" TopLine="399"/>
+      </Position29>
+      <Position30>
+        <Filename Value="arithmetic8_main.pas"/>
+        <Caret Line="340" Column="11" TopLine="338"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

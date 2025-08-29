@@ -1,0 +1,150 @@
+*********************
+* "ChessMoves" Help *
+*********************
+
+"ChessMoves" is NOT a chess engine, it is NOT a chess engine frontend and it is NOT a program to learn to play chess. "ChessMoves" is an interactive graphical application, intended for absolute chess beginners, who may use it to learn to correctly move the different kind chess pieces. Instead of reading in a chess book "the bishop moves diagonally only", the application user may take a bishop piece, place it on the board and let her show, where the bishop actually can move or, alternately, try to move the piece herself, the program telling her, if her move is valid or not. But, the application isn't limited to a single piece on the board: The user may also train herself in setting up the chess board, trying out all possible moves at game opening, trying out the castling move and trying to move the different pieces in 6 predefined game situations. This includes moves to empty fields, captures, setting the opponent check and forbidden moves, in particular of the king piece, when it tries to move into check.
+
+"ChessMoves" version 1.0 offers 5 different features, that may be chosen in the "Chess" menu. The way to proceed is similar for all of them: Select a piece (from your 16 pieces or on the board, depending on the feature), then click the board field, where you want to place/move it. Or, use the "Show" button to let the application show you all valid moves. Feature-dependend instructions and piece-dependend hints will help you to correctly use the program. Error and information messages will be displayed in the case, where "something special happens" (e.g. a forbidden move or setting the opponent into check). Please, note, that before using another piece, you have to unselect the actually selected first: Do so, by clicking this piece on the board.
+
+Menu item "Chess".
+******************
+
+Chessboard setup.
+=================
+
+Learn to correctly setup the chessboard for White resp Black.
+
+Click one of your 16 pieces and when it is highlighted (blue), click the field on the board, where you intend to place it.
+If the position is valid, the piece will be placed there, if it is invalid, the field will be highlighted in red.
+As the setup of the pawns is not a big deal, you may choose to let the program do it for you: Just push the "Pawns" button.
+
+Note: The "Show" button will show the completed board setup for all 32 pieces and not only for the 16 ones of your actual pieces color.
+
+Messages:
+---------
+ Error  if a piece is placed outside the 2 first rows.
+ Error  if a white piece is placed outside rows 1 and 2.
+ Error  if a black piece is placed outside rows 7 and 8.
+ Info   when setup for your colour is successfully terminated.
+ 
+Piece movements.
+================
+ 
+Learn to correctly move a given kind of chess piece (white or black piece, all alone on the board).
+ 
+Click a piece and when it is highlighted (blue), click the field on the board, where you want to place it. Then, click the field, where you intend to move it. Valid moves are shown in green, invalid ones in red. Click the piece on the board to remove it.
+
+Note: The "Show" button will show all valid moves for the actual pieces. For better readability, up and down queen moves are shown in lime, diagonaal moves in medium green.
+
+Messages:
+---------
+ Error  if a white pawn is placed on row 1.
+ Error  if a black pawn is placed on row 8.
+ Info   white pawn promotion (pawn placed on or moved to row 8).
+ Info   black pawn promotion (pawn placed on or moved to row 1).
+ 
+Castling.
+=========
+
+Learn how to castle king- or queenside (for White resp. Black).
+
+First, click the king, then the field, where to move him. Second, click one of the rooks, then the field, where to move it. The piece selected is highlighted in blue; if you choose the bad rook, it will be highlighted in red. Valid moves are shown in green, invalid ones in red.
+
+Note: The "Show" button will show the castling piece positions for both White and Black. The pieces of your actual color are shown as they are after kingside castling, the opponent's pieces as they are after queenside castling.
+
+Messages.
+---------
+ Error  if you start the castling move by trying to move the rook.
+ Error  if you try to move the king a second time.
+ Error  if you try to move the bad rook (for kingside resp. queenside castling).
+ Info   start of the (kingside or queenside) castling procedure (when moving the king)
+ Info   end of the (kingside or queenside) castling procedure (when moving the correct rook)
+ 
+Game opening.
+=============
+
+Learn what are the valid chess moves at game opening. There are only 20 for each color.
+
+Click a piece on the board; blue highlighting shows, that this piece is now selected. Then click the field, where you want to move to (valid and invalid move highlighting as usual). Remember, that before trying another piece, you must click the actual piece to unselect it.
+
+Using this feature, the user can explore the following chess rules: how to correctly move a chess piece to an empty field, depending on the piece's kind; moves not being allowed if there is an own piece on the move-to field; jumping over other pieces with the knight.
+
+Game position.
+==============
+
+Learn what are the valid chess moves (of a piece of your choice) for a given game position.
+
+First, select one of the 6 predefined game positions (in the window, that opens, if you choose this feature). Click a piece on the board; blue highlighting shows, that this piece is now selected. Then click the field, where you want to move to. Valid moves to an empty field are highlighted in green, captures in yellow and invalid moves (including forbidden moves) in red. Before trying another piece, you must click the actual piece to unselect it.
+
+Using this feature, the user can explore all of the game opening chess rules, plus the following: capturing an opponent piece; starting the castling move; setting the opponent into check; not being allowed to move the king to a field, where he would be in check; not being allowed to move a piece, when this would set the own king into check.
+
+Note: With this feature, the "Show" button will not only show valid moves, but also forbidden ones (red highlighting).
+
+Messages.
+---------
+ Error  if you try to move the king into check.
+ Error  if you try to make a move that would put your own king into check.
+ Info   white pawn promotion (pawn arriving at row 8).
+ Info   black pawn promotion (pawn arriving at row 1). 
+ Info   when moving the king as start of the castling procedure.
+ Info   when your move puts the opponent's king into check.
+ Info   when your move puts the opponent's king into checkmate.
+ 
+Game position special features.
+-------------------------------
+ Opening I       castling, check.
+ Opening II      capture with a pawn, castling, check, forbidden king moves.
+ Endgame I       check.
+ Endgame II      check, checkmate, forbidden king moves.
+ Middle game I   check, forbidden king moves.
+ Middle game II  capture with a pawn, castling, check, forbidden piece moves.
+
+Note: The application only considers the move as such, not its consequences, that you'd have to think of in a real game, where capturing a pawn with your queen and being then captured yourself, would in most cases make you loose the game. Similarly, there is normally no sense to set the opponent's king into check, if the attacking piece can be captured with the opponent's next move.
+ 
+Menu item "Options".
+********************
+
+Choose your color.
+==================
+
+Choose the color of your own pieces (white or black). The 16 player pieces at the right of the board will be of this color.
+
+This option has different effects, depending on the actual feature:
+ Chessboard setup  Chessboard setup for the color selected
+ Piece movements   Movement of a piece with the selected color (difference for pawns only)
+ Castling          Castling with king and rook of the selected color
+ Game opening      No effect (all 32 pieces are on the board) 
+ Game position     No efefct (you may move any piece on the board)
+ 
+Disable info messages.
+======================
+
+Toggle to display or not display info messages.
+
+Disable error messages.
+=======================
+
+Toggle to display or not display error messages.
+
+Menu item "Help".
+*****************
+
+Quick start.
+============
+
+Short help text concerning the chess pieces moves and the usage of the "ChessMoves" application.
+
+Chess help.
+===========
+
+Help text concerning the chess rules, in particular detailed description of the valid moves for each piece kind.
+
+Program help.
+=============
+
+Detailed help text concerning the usage of the "ChessMoves" application (this document).
+
+Program about.
+==============
+
+Information concerning the version, author and date-written of the "ChessMoves" application.

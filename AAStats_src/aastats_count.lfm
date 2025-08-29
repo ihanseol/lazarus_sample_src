@@ -1,0 +1,399 @@
+object fAACount: TfAACount
+  Left = 3
+  Height = 759
+  Top = 12
+  Width = 1515
+  BorderIcons = [biSystemMenu]
+  Caption = 'Proteins: Amino acids by number'
+  ClientHeight = 759
+  ClientWidth = 1515
+  DesignTimePPI = 120
+  OnActivate = FormActivate
+  LCLVersion = '1.8.4.0'
+  object sgCounts: TStringGrid
+    Left = 8
+    Height = 571
+    Top = 107
+    Width = 481
+    ColCount = 6
+    FixedCols = 3
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 21
+    TabOrder = 0
+    TabStop = False
+    TitleFont.Height = -15
+    TitleFont.Name = 'Consolas'
+    ColWidths = (
+      67
+      66
+      114
+      74
+      98
+      58
+    )
+    RowHeights = (
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+    )
+    Cells = (
+      66
+      0
+      0
+      ' Code1'
+      0
+      1
+      '   A'
+      0
+      2
+      '   C'
+      0
+      3
+      '   D'
+      0
+      4
+      '   E'
+      0
+      5
+      '   F'
+      0
+      6
+      '   G'
+      0
+      7
+      '   H'
+      0
+      8
+      '   I'
+      0
+      9
+      '   K'
+      0
+      10
+      '   L'
+      0
+      11
+      '   M'
+      0
+      12
+      '   N'
+      0
+      13
+      '   P'
+      0
+      14
+      '   Q'
+      0
+      15
+      '   R'
+      0
+      16
+      '   S'
+      0
+      17
+      '   T'
+      0
+      18
+      '   V'
+      0
+      19
+      '   W'
+      0
+      20
+      '   Y'
+      1
+      0
+      ' Code3 '
+      1
+      1
+      '  Ala'
+      1
+      2
+      '  Cys'
+      1
+      3
+      '  Asp'
+      1
+      4
+      '  Glu'
+      1
+      5
+      '  Phe'
+      1
+      6
+      '  Gly'
+      1
+      7
+      '  His'
+      1
+      8
+      '  Ile'
+      1
+      9
+      '  Lys'
+      1
+      10
+      '  Leu'
+      1
+      11
+      '  Met'
+      1
+      12
+      '  Asn'
+      1
+      13
+      '  Pro'
+      1
+      14
+      '  Gln'
+      1
+      15
+      '  Arg'
+      1
+      16
+      '  Ser'
+      1
+      17
+      '  Thr'
+      1
+      18
+      '  Val'
+      1
+      19
+      '  Trp'
+      1
+      20
+      '  Tyr'
+      2
+      0
+      '    Name'
+      2
+      1
+      'Alanine'
+      2
+      2
+      'Cysteine'
+      2
+      3
+      'Aspartic acid'
+      2
+      4
+      'Glutamic acid'
+      2
+      5
+      'Phenylalanine'
+      2
+      6
+      'Glycine'
+      2
+      7
+      'Histidine'
+      2
+      8
+      'Isoleucine'
+      2
+      9
+      'Lysine'
+      2
+      10
+      'Leucine'
+      2
+      11
+      'Methionine'
+      2
+      12
+      'Asparagine'
+      2
+      13
+      'Proline'
+      2
+      14
+      'Glutamine'
+      2
+      15
+      'Arginine'
+      2
+      16
+      'Serine'
+      2
+      17
+      'Threonine'
+      2
+      18
+      'Valine'
+      2
+      19
+      'Tryptophan'
+      2
+      20
+      'Tyrosine'
+      3
+      0
+      '  Count'
+      4
+      0
+      'Mol. Weight'
+      5
+      0
+      '  %'
+    )
+  end
+  object chCounts: TChart
+    Left = 512
+    Height = 595
+    Top = 105
+    Width = 1000
+    AxisList = <    
+      item
+        Visible = False
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Grid.Visible = False
+        Alignment = calBottom
+        Marks.Format = '%2:s'
+        Marks.LabelBrush.Style = bsClear
+        Marks.Range.Max = 20
+        Marks.Range.Min = 1
+        Marks.Range.UseMax = True
+        Marks.Range.UseMin = True
+        Marks.Source = lcsLabels
+        Marks.Style = smsLabel
+        Minors = <>
+        Range.Max = 21
+        Range.UseMax = True
+        Range.UseMin = True
+        Title.LabelBrush.Style = bsClear
+      end>
+    BackColor = clCream
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    object chbarCounts: TBarSeries
+      BarBrush.Color = clRed
+      BarWidthStyle = bwPercentMin
+      Source = lcsData
+    end
+  end
+  object stProtein: TStaticText
+    Left = 8
+    Height = 21
+    Top = 16
+    Width = 1496
+    Caption = 'Unknown protein'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 23
+    Top = 60
+    Width = 93
+    Caption = 'Amino acids'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCount: TEdit
+    Left = 110
+    Height = 31
+    Top = 56
+    Width = 72
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    Left = 224
+    Height = 23
+    Top = 60
+    Width = 131
+    Caption = 'Molecular weight'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edMolWeight: TEdit
+    Left = 363
+    Height = 31
+    Top = 56
+    Width = 110
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object btClose: TButton
+    Left = 1418
+    Height = 31
+    Top = 720
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 5
+  end
+  object lcsData: TListChartSource
+    left = 1448
+    top = 128
+  end
+  object lcsLabels: TListChartSource
+    DataPoints.Strings = (
+      '1|1|?|Ala'
+      '2|2|?|Cys'
+      '3|3|?|Asp'
+      '4|4|?|Glu'
+      '5|5|?|Phe'
+      '6|6|?|Gly'
+      '7|7|?|His'
+      '8|8|?|Ile'
+      '9|9|?|Lys'
+      '10|10|?|Leu'
+      '11|11|?|Met'
+      '12|12|?|Asn'
+      '13|13|?|Pro'
+      '14|14|?|Gln'
+      '15|15|?|Arg'
+      '16|16|?|Ser'
+      '17|17|?|Thr'
+      '18|18|?|Val'
+      '19|19|?|Trp'
+      '20|20|?|Tyr'
+    )
+    left = 1448
+    top = 216
+  end
+end

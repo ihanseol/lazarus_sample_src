@@ -1,0 +1,7 @@
+DCircuits1 is a simple exercise generator, dealing with Ohm's Law, i.e. the study of voltage, current and resistances in electrical circuits.
+
+A new serirs of exercises is started by issuing the "New" command in the "Test" menu. The type(s) of circuits used (simple, series or parallel) my be chosen by checking or unchecking those in the "Circuits" menu. Note, that at program start, a test with exercises using all 3 circuit types is immediately started.
+
+The program gives some of the values of total or individual voltage, current or resistance, the others having to be calculated and filled in by the user (a calculator will be needed in most cases). Hit the "Check" button to see if your answers are correct. If so, your score is increased; the success percentage is adapted after each exercise. Hit "Next" to generate the next question.
+
+Note, that the program gives the possibility to show the results (instaed of asking the user to fill them in). This may be thought as generating complete examples (instaed of the test exercises). To do so, check "View results" in the "Options" menu.

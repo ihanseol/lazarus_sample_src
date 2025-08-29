@@ -1,0 +1,1699 @@
+aalglatt       UR
+abergläubisch
+abgrundtief    N3
+abhängig
+absolut        n2
+abwesend       N2
+administrativ  N2
+ängstlich
+aggressiv
+ahnungslos
+aktiv
+aktuell
+akustisch      N2
+albern
+alkoholfrei    N2
+alkoholisch
+allein         N2
+alltäglich
+alphabetisch   N2
+alt            UU
+alternativ
+altmodisch
+amtlich
+amüsant
+anatomisch     N2
+angenehm
+anspruchsvoll
+anständig
+anstößig
+anstrengend
+antik
+anwesend       N2
+appetitlich
+appetitlos
+arbeitsam
+arbeitsfähig
+arbeitslos     N2
+arg            UU
+arm            UU
+athletisch
+attraktiv
+atypisch
+auffällig
+aufmerksam
+aufmüpfig
+aufwendig
+ausdruckslos
+ausführlich
+ausgestorben
+ausländisch    N2
+außerirdisch
+aussichtslos
+ausweglos
+authentisch    N2
+automatisch    N2
+bärenstark     N3
+bange          UR
+bankrott
+bar            N2
+barfuß         N2
+bedauerlich
+bedenkenlos
+bedenklich
+bedeutend
+bedeutsam
+bedeutungslos
+beeinflussbar
+begehrenswert
+behaglich
+beharrlich
+behindert      N2
+behutsam
+beige          N1
+bejahrt
+bekannt
+bemerkenswert
+beneidenswert
+bequem
+berechenbar
+berechtigt
+bereit         N2
+bereitwillig
+beruflich      N2
+berufstätig    N2
+bescheiden
+besinnungslos
+besoffen
+besorgt
+bestechlich
+betrunken
+beweglich
+bewohnbar
+bewundernswert
+bewusstlos     N2
+bezaubernd
+bildhübsch     N3
+billig
+biologisch     N2
+bitterbös
+bitterböse
+bläulich       N1
+blass          UR
+blau
+blauäugig
+bleich
+blind
+blöd
+blöde
+blond
+blutig
+blutrot        N3
+bös
+bösartig
+böse
+brauchbar
+braun
+braungebrannt  N2
+brav
+breit
+breitschultrig
+brennbar
+bunt
+buntschillernd N3
+butterweich    N3
+chancenlos
+chaotisch
+charmant
+chronologisch  N2
+cremig
+dankbar
+dauerhaft
+demokratisch
+denkwürdig
+depressiv
+diagonal       N2
+dick
+dickflüssig
+dienstunfähig  N2
+digital
+diplomatisch
+direkt
+diskutabel
+doof
+dottergelb     N3
+dramatisch
+dreiblättrig   N2
+dreieckig      N2
+dünn
+dumm           UU
+dunkel
+dunkelhaarig   N3
+durstig
+dynamisch
+echt
+eckig
+egoistisch
+ehemalig       N2
+ehrgeizig
+ehrlich
+eifersüchtig
+eifrig
+eigenartig
+eigensinnig
+eigenwillig
+eindeutig
+eindrucksvoll
+einfach
+einflussreich
+einheimisch
+einlich
+einmalig
+einsam
+einseitig
+einwandfrei
+einzigartig    N2
+eisern         N2
+eiskalt        N3
+eitel
+ekelhaft
+eklektisch     N2
+elastisch
+elegant
+elend
+elliptisch     N2
+emotional
+empfehlenswert
+empört         N2
+endgültig      N2
+endlos
+eng
+engagiert
+enorm
+entschlossen
+entsetzlich
+erbarmungslos
+erfolglos
+erfolgreich
+erfreulich
+ergebnislos
+erholsam
+erkennbar      N2
+erledigt       N2
+ernst
+erotisch
+erstaunlich
+erste          N2
+erstklassig
+ertragbar      N2
+erwachsen      N2
+erwünscht
+essbar
+ewig           N2
+exklusiv
+exotisch
+extern
+extravagant
+extrem         n2
+fabelhaft
+fad
+fade
+fähig
+fahrlässig
+fair
+fakultativ     N2
+falsch
+fanatisch
+fantastisch
+farbenblind    N2
+farbig
+farblos
+faschistisch
+fassungslos
+fatal
+faul
+federleicht    N3
+feierlich
+feig
+feige
+fein
+fern
+fertig         N2
+fest
+fett
+fettig
+feucht
+feuerrot       UR
+finster
+fit            II
+flach
+fleißig
+flüchtig
+flüssig
+fragwürdig
+frech
+frei
+freiberuflich  N2
+freiwillig
+fremd
+freundlich
+friedlich
+frisch
+fristlos       N2
+fröhlich
+froh
+fromm          UR
+fruchtbar
+fruchtig
+früh
+furchtbar
+furchtlos
+furchtsam
+ganz           N2
+ganzjährig     N2
+gasförmig      N2
+gebirgig
+geduldig
+gefährlich
+gefahrlos
+gefahrvoll     N2
+gegenseitig    N2
+geheim
+gehorsam
+geisterhaft
+geizig
+gelassen
+gelb
+gelblich
+gelenkig
+gemein
+gemütlich
+genau
+genetisch      N2
+genial
+geografisch    N2
+geometrisch    N2
+geräuschlos    N2
+gerecht
+gerichtlich    N2
+gering
+gern           II
+geruchlos      N2
+geschäftlich   N2
+gesellig
+gesetzlich     N2
+gesprächig
+gestreift      N2
+gesund         UR
+gewaltig
+gewaltlos      N2
+gewaltsam
+gewalttätig
+gewandt
+gewissenhaft
+gewissenlos
+gewöhnlich
+giftig
+gigantisch     N2
+glänzend
+gläsern        N2
+glatt          UR
+glaubhaft
+glaubwürdig
+gleich
+gleichartig    N2
+gleichgültig   N2
+gleichmäßig
+gleichwertig   N2
+gleichzeitig   N2
+glücklich
+glückselig
+göttlich
+golden
+goldgelb       N1
+grafisch       N2
+grammatisch
+grandios
+grasgrün       N3
+grau
+grausam
+grell
+grenzenlos
+grob           UU
+groß           UU
+großartig
+großzügig
+grotesk
+grün
+gründlich
+grünlich       N1
+grundlos       N2
+grundsätzlich  N2
+gruselig
+gültig
+günstig
+gut            II
+haargenau      N3
+hämisch
+hässlich
+häufig
+hager
+halblaut       N3
+halbstark      N3
+handgreiflich
+handlich       N2
+harmlos
+harmonisch
+hart           UU
+hartnäckig
+hasserfüllt    N2
+hastig
+hauchdünn      N3
+hauptamtlich   N3
+hauptberuflich N3
+hausgemacht    N2
+hauteng        N3
+heftig
+heilfroh       N3
+heilig
+heimlich
+heiser
+heiß
+heißblütig
+heiter
+hektisch
+heldenhaft
+hell
+hemmungslos
+herablassend
+herbstlich
+herrlich
+hervorragend   N2
+herzförmig     N3
+herzhaft
+herzlich
+herzlos
+heterosexuell  N2
+heuchlerisch
+hilflos
+hilfreich
+hilfsbedürftig
+hilfsbereit
+himmelblau     N3
+hinreichend
+hinterhältig
+historisch
+hitzig
+hoch           II
+hochkarätig
+hochmütig
+hochwertig     N3
+hochwirksam    N3
+höflich
+höhnisch
+höllisch
+hölzern        N2
+hörbar
+hoffnungslos
+hohl
+holprig
+homosexuell    N2
+honigsüß       N3
+horizontal     N2
+humanitär
+humorlos
+humorvoll
+hungrig
+hysterisch
+ideal
+identisch
+illegal
+immergrün      N3
+indirekt
+indiskret
+individuell
+industriell
+infernalisch
+inflationär
+informativ
+infrarot       N3
+inhaltslos
+inkompetent
+innig
+inoffiziell
+instabil
+inständig
+instinktiv
+intellektuell
+intelligent
+intensiv
+interaktiv
+interessant
+intern         N2
+international
+interstellar   N2
+intim
+intolerant
+intravenös     N2
+introvertiert
+intuitiv
+irdisch
+ironisch
+irrational
+irreal
+irrelevant
+irreparabel
+islamisch
+jährlich       N2
+jähzornig      N3
+jämmerlich
+jüdisch        N2
+jugendfrei     N2
+jugendlich
+jung           UU
+juristisch     N2
+käuflich
+kaffeebraun    N3
+kahl
+kalt           UU
+kaltblütig
+kaltschnäuzig
+kamerascheu
+kampflos       N2
+kaputt
+karg           UR
+kariert        N2
+kastanienbraun N3
+katastrophal
+kategorisch
+katholisch
+kegelförmig
+keilförmig
+keimfrei       N2
+kerngesund     N3
+kernig
+kerzengerade   N3
+keusch
+kinderleicht   N3
+kinderlos      N2
+kindisch
+kindlich
+kirschrot      N3
+kitschig
+kitzlig
+kläglich
+klammheimlich  N3
+klar
+klassisch
+klatschnass    N3
+klebrig
+klein
+kleinkariert   N3
+kleinlaut      N2
+kleinlich
+klinisch       N2
+klug           UU
+knackig
+knapp
+knauserig
+knifflig
+körperlich     N2
+köstlich
+komfortabel
+komisch
+kommerziell
+kommunikativ
+kompakt
+kompatibel
+kompetent
+kompetitiv
+komplementär   N2
+komplett
+komplex
+kompliziert
+kompromisslos
+konisch        N2
+konkret
+konsequent
+konservativ
+konstant
+konstruktiv
+kontaktscheu
+kontrastreich
+kontrovers
+konventionell
+korrekt
+korrupt
+koscher        N2
+kosmetisch     N2
+kosmisch       N2
+kostbar
+kostenfrei     N2
+kostengünstig
+kostenlos      N2
+kräftig
+kränklich
+kraftlos
+krampfhaft
+krank          UU
+krankhaft
+krass
+kreativ
+krebserregend  N2
+kreidebleich   N3
+kreisförmig    N2
+kriegerisch
+kriminell
+krisensicher
+kristallklar   N3
+krumm          UR
+kühl
+künstlerisch
+künstlich
+kugelförmig    N2
+kugelsicher    N2
+kunterbunt
+kurios
+kurz           UU
+kurzärmlig     N2
+kurzfristig
+kurzsichtig
+lächerlich
+ländlich
+länglich
+lässig
+lästig
+lahm
+landesweit     N2
+lang           UU
+langärmlig     N2
+langatmig
+langfristig    N2
+langhaarig
+langjährig
+langsam
+langweilig
+lateinisch
+lau
+launisch
+laut
+lautlos
+lautstark      UU
+lauwarm        N3
+lebendig
+lebhaft
+leblos
+lecker
+ledig
+leer
+legendär
+leichenblass   N3
+leicht
+leichtfertig
+leichtsinnig
+leise
+lesbar
+lesbisch       N2
+leserlich
+letzte         N2
+liberal
+lieb
+liebenswert
+liebenswürdig
+liebestoll
+liebevoll
+lieblich
+lila           N1
+listig
+literarisch
+lobenswert
+locker
+lockig
+logisch
+lohnenswert
+lokal
+los
+loyal
+lückenlos      N2
+lüstern
+luftgekühlt    N3
+luftig
+lukrativ
+lupenrein      N3
+lustig
+lustlos
+lustvoll
+luxuriös
+machbar
+machtlos
+mächtig
+männlich
+märchenhaft
+mäßig
+mäuschenstill  N3
+mager
+magersüchtig
+magisch
+maisgelb       N3
+makaber
+makellos
+malerisch
+mangelhaft
+manierlich
+manuell
+marginal
+maritim
+maskulin
+massenhaft
+maßgeblich
+massig
+massiv
+materiell
+mathematisch
+mausetot       N3
+mausgrau       N3
+maximal        n2
+mechanisch
+medizinisch    N2
+mehrmalig      N2
+mehrsprachig   N2
+mehrspurig     N2
+melancholisch
+melodisch
+menschenleer   N2
+menschlich
+mental         N2
+merkwürdig
+messbar        N2
+mild
+milde
+militärisch    N2
+militant
+minderjährig   N2
+minderwertig   N2
+minimal        n2
+miserabel
+missmutig
+misstrauisch
+mitteilsam
+mobil
+modal          N2
+modern
+möglich        N2
+mörderisch
+molekular      N2
+mollig
+monatelang     N2
+monatlich      N2
+mondsüchtig    N2
+monoton
+monumental
+moralisch
+motiviert
+müd
+müde
+mühelos
+mühsam
+mühselig
+mündlich       N2
+mürrisch
+müßig
+mütterlich
+mundtot        N2
+munter
+muskulös
+mutig
+mutmaßlich     N2
+mutwillig
+mysteriös
+mystisch
+nachdenklich
+nachdrücklich
+nachgiebig
+nachhaltig
+nachlässig
+nachtaktiv
+nachträglich   N2
+nachtragend    N2
+nachweisbar
+nackt
+nah            II
+nass           UR
+nasskalt       N3
+natürlich
+neblig
+nebulös
+negativ
+neidisch
+nervös
+nett
+neu
+neugierig
+neumodisch
+neurotisch
+neuwertig
+nichtsnutzig
+niederträchtig
+niedlich
+niedrig
+niveaulos
+nobel
+nördlich
+nötig
+normal
+nostalgisch
+notwendig
+nüchtern
+nützlich
+nuklear        N2
+numerisch      N2
+nutzbar        N2
+nutzlos
+obdachlos      N2
+oberflächlich
+oberirdisch    N2
+objektiv
+obligatorisch
+öffentlich
+ökologisch     N2
+ökonomisch
+ölhaltig       N2
+österlich
+östlich
+offen
+offenbar
+offensichtlich
+offensiv
+offiziell
+oftmalig       N2
+ohnmächtig
+olympisch
+optimal
+optimistisch
+optional       N2
+optisch        N2
+oral
+orange         N1
+ordentlich
+ordinär
+organisch
+originär       N2
+original
+originell
+orthodox
+panikartig
+paradiesisch
+paradox
+parallel       N2
+paranoid
+passabel
+passiv
+pathetisch
+pauschal
+pausenlos      N2
+pazifistisch
+pedantisch
+peinlich
+pelzig
+penetrant
+penibel
+perfekt
+perfide
+periodisch     N2
+permanent      N2
+perplex
+persönlich
+pervers
+pessimistisch
+pfeilschnell   N3
+pflanzlich
+pflichtbewusst
+phänomenal
+phantastisch
+philosophisch
+photogen
+physikalisch   N2
+physiologisch  N2
+physisch
+pickelig
+pittoresk
+planmäßig
+platt
+plausibel
+plump
+poetisch
+polemisch
+politisch
+polygam
+polyglott
+populär
+populistisch
+pornografisch
+portofrei      N2
+positiv
+possessiv
+potent
+potentiell
+prachtvoll
+prächtig
+prähistorisch  N2
+präsent
+präzise
+pragmatisch
+praktisch
+prall
+preisgekrönt
+preiswert
+prekär
+prima          N2
+primär
+primitiv
+prinzipiell
+problematisch
+problemlos
+produktiv
+professionell
+profitabel
+progressiv
+prominent
+proportional
+provisorisch
+provokant
+provokativ
+prüde
+prunkvoll
+psychisch      N2
+pünktlich
+purpurn        N1
+quaderförmig   N2
+quadratisch    N2
+qualifiziert
+qualitativ     N2
+quantitativ    N2
+quirlig
+quitt          N2
+radial         N2
+radikal
+radioaktiv
+rätselhaft
+rar
+rasant
+rassig
+rassistisch
+rastlos
+rationell
+ratlos
+ratsam
+rau
+rauchig
+reaktionär
+real
+realistisch
+recht
+rechteckig     N2
+rechthaberisch
+rechtlich
+rechtmäßig     N2
+rechtshändig   N2
+rechtwinklig   N2
+rechtzeitig    N2
+redegewandt
+redlich
+reell
+reflexiv       N2
+rege
+regelmäßig
+regelwidrig    N2
+reglos
+regnerisch
+regulär
+regungslos     N2
+reibungslos
+reich
+reichhaltig
+reif
+rein
+reinrassig     N2
+reiselustig
+reißerisch
+reißfest
+reizbar
+reizend
+reizvoll       N2
+relativ
+relevant
+religiös
+renommiert
+rentabel
+repräsentativ  N2
+repressiv      N2
+reserviert     N2
+resigniert
+resistent
+resolut
+respektabel
+respektlos
+reversibel     N2
+revolutionär   N2
+rezessiv       N2
+rhythmisch
+richtig
+riesengroß     N3
+riesig
+ringförmig     N2
+risikofreudig
+risikolos      N2
+riskant
+rissfest
+robust
+rötlich
+roh
+romantisch
+rosa           N1
+rosig
+rostfrei       N2
+rostig
+rot            UR
+rothaarig
+routiniert
+rubinrot       N3
+rudimentär     N2
+rückgängig     N2
+rücksichtslos
+rüd
+rüde
+rührselig
+rüstig
+ruhelos
+ruhig
+ruhmreich      N2
+ruhmvoll
+rund
+runzelig
+ruppig
+rußig
+rustikal
+sachlich
+säuberlich
+sagenhaft
+sahnig
+saisonal       N2
+salonfähig
+salopp
+salzig
+sanft
+sanftmütig
+sarkastisch
+satt
+sauber
+sauer
+schade         N2
+schadenfroh
+schäbig
+schädlich
+schamhaft
+schamlos
+scharf         UU
+scharfsinnig
+schattig
+schauerlich
+schaurig
+scheinbar
+schematisch
+scherzhaft
+scheu
+scheußlich
+schick
+schief
+schimmlig
+schizophren
+schläfrig
+schlaff
+schlaftrunken  N2
+schlagfertig
+schlank
+schlau
+schlecht
+schlimm
+schmackhaft
+schmächtig
+schmal
+schmerzhaft
+schmutzig
+schneebedeckt  N2
+schneeweiß     N3
+schnell
+schnelllebig
+schnuckelig
+schnurgerade   N3
+schön
+schöpferisch
+schonungslos
+schräg
+schrecklich
+schreibfaul
+schriftlich    N2
+schroff
+schüchtern
+schuldenfrei   N2
+schuldig
+schulfrei      N2
+schwach        UU
+schwachsinnig
+schwächlich
+schwanger      N2
+schwarz        UU
+schwatzhaft
+schweigsam
+schwer
+schwerelos     N2
+schwierig
+schwindelfrei  N2
+schwindelig
+schwindsüchtig
+schwül
+schwul
+seekrank       N2
+seelenruhig
+seelisch       N2
+sehenswert
+sehnsüchtig
+seitlich       N2
+selbständig
+selbstbewusst
+selbstlos
+selbstsicher
+selten
+seltsam
+senil
+senkrecht      N2
+sensationell
+sensibel
+seriös
+sesshaft
+sexistisch
+sexuell
+sicher
+sichtbar
+siegessicher
+siegreich
+signifikant
+simpel
+simultan       N2
+sinnlich
+sinnlos
+sinnvoll
+skandalös
+skeptisch
+skrupellos
+skurril
+solidarisch
+solid
+solide
+sommerlich     N2
+sonderbar
+sonderlich
+sonnenklar     N3
+sonnig
+sorgfältig
+sorglos
+souverän
+spät
+spannend
+sparsam
+speziell
+spezifisch
+spiegelglatt   N3
+spielerisch    N2
+spießig
+spitz
+spitzfindig
+spöttisch
+spontan
+sportlich
+spottbillig    N3
+sprachgewandt
+sprachlos      N2
+spürbar
+spurlos        N2
+staatlich      N2
+stabil
+stachelig
+städtisch      N2
+stahlhart      N3
+standhaft
+stark          UU
+starr
+startbereit    N2
+stationär      N2
+statisch
+stattlich
+staubig
+steif
+steil
+steinalt       N3
+steinern       N2
+steinig        N2
+sterblich      N2
+stereotyp      N2
+steril         N2
+steuerfrei     N2
+stichhaltig
+stickig
+still
+stinkig
+stockdunkel    N3
+störrisch
+stolz
+strafbar
+stramm
+strategisch
+strebsam
+streitbar
+streitsüchtig
+streng
+stressfrei
+strikt
+stubenrein
+stürmisch
+stufenlos      N2
+stumm
+stumpf
+stumpfsinnig
+stundenlang    N2
+stur
+stutzig
+subjektiv
+süchtig
+südlich
+sündig
+süß
+super          N2
+symbolisch     N2
+symmetrisch
+sympathisch
+synchron       N2
+synthetisch
+systematisch   N2
+täglich        N2
+tätig          N2
+tagelang       N2
+taghell        N3
+taktisch
+taktlos
+tapfer
+tatenlos       N2
+taub
+taubstumm      N2
+tauglich
+technisch
+telefonisch    N2
+temporär       N2
+teuer
+teuflisch
+thematisch     N2
+theologisch    N2
+theoretisch
+tief
+tierisch
+tobsüchtig
+todernst
+todmüde
+tödlich
+töricht
+tolerant
+toll
+tollpatschig
+torlos         N2
+tot
+total          n2
+totalitär
+totenblass     N3
+traditionell
+trächtig       N2
+träg
+träge
+träumerisch    N2
+tragbar        N2
+tragisch
+transparent
+transportabel  N2
+traumhaft
+traurig
+treffsicher
+trennbar       N2
+trocken
+tropisch
+trostlos
+trotzig
+trüb
+trübe
+tüchtig
+tückisch
+türkis         N1
+tumultartig    N2
+turbulent
+typisch
+übel
+überdrüssig
+überfällig     N2
+überflüssig    N2
+überglücklich  N2
+überheblich
+überlegen
+überlegt       N2
+übermäßig
+übermenschlich N2
+übermütig
+übernatürlich  N2
+überragend     N2
+überraschend
+überschaubar   N2
+übersichtlich
+übersinnlich   N2
+übertragbar
+überwältigend  N2
+üblich
+übrig          N2
+üppig
+ulkig
+ultimativ
+ultraviolett   N2
+umfangreich
+umständlich
+umstritten     N2
+unabänderlich  N2
+unabhängig
+unabsichtlich  N2
+unangenehm
+unanständig
+unantastbar    N2
+unappetitlich
+unauffällig
+unaufhörlich   N2
+unausstehlich  N2
+unbändig
+unbeabsichtigt N2
+unbedenklich   N2
+unbedeutend
+unbefangen
+unbefristet    N2
+unbefugt
+unbegreiflich
+unbegründet
+unbehaglich
+unbeirrbar
+unbekannt
+unbekümmert
+unbemerkt      N2
+unbenutzt
+unbequem
+unberechenbar
+unberührt
+unbeschwert
+unbespielbar   N2
+unbeständig
+unbestimmt
+unbeugbar
+unbewaffnet    N2
+unbeweglich
+unbeweisbar    N2
+unbewusst
+unbezahlbar
+unbezwingbar
+unbrauchbar
+undankbar
+undeutlich
+undicht
+uneben
+unecht
+unehrlich
+unempfindlich
+unentgeltlich  N2
+unentschlossen
+unerbittlich
+unerfahren
+unerfüllbar    N2
+unerheblich
+unerhört
+unerklärlich
+unermüdlich
+unerreichbar
+unerschrocken
+unerträglich
+unerwartet
+unerwünscht
+unfähig
+unfassbar
+unfrei
+unfreiwillig
+unfreundlich
+unfruchtbar
+ungebildet
+ungeduldig
+ungefähr       N2
+ungefährlich
+ungehindert    N2
+ungemütlich
+ungenau
+ungenießbar
+ungenügend
+ungepflegt
+ungerade       N2
+ungerecht
+ungeschickt
+ungeschützt
+ungesetzlich
+ungestört
+ungestüm
+ungesund       UR
+ungewiss
+ungewöhnlich
+ungezogen
+ungiftig       N2
+ungläubig
+unglaublich
+ungleich       N2
+unglücklich
+ungültig
+ungünstig
+unheilbar      N2
+unheilvoll
+unheimlich
+unhöflich
+unhörbar
+uniform        N2
+unilateral     N2
+uninteressant
+universal
+unklar
+unkompliziert
+unkundig
+unleserlich
+unmenschlich
+unmöglich
+unnachgiebig
+unnahbar
+unnatürlich
+unnötig
+unnütz
+unordentlich
+unorganisiert
+unpassend
+unpersönlich
+unpopulär
+unpünktlich
+unrasiert      N2
+unrealistisch
+unregelmäßig
+unreif
+unruhig
+unsachlich
+unsagbar
+unschädlich
+unschätzbar
+unscheinbar
+unschön
+unschuldig
+unsicher
+unsichtbar     N2
+unsinnig
+unsportlich
+unsterblich    N2
+unsympathisch
+untätig
+untauglich
+unterhaltsam
+unterirdisch   N2
+untreu
+unüberlegt     N2
+unüberschaubar N2
+unübersehbar   N2
+unüblich
+unverbindlich
+unverfroren
+unvergesslich
+unvergleichbar N2
+unverhofft
+unvermeidlich
+unvernünftig
+unverschämt
+unversehrt     N2
+unverständlich
+unverzagt
+unverzichtbar
+unverzüglich
+unvollständig
+unvorsichtig
+unvorstellbar
+unwahr
+unweigerlich   N2
+unwichtig
+unwillig
+unwillkürlich
+unwirksam
+unwissend
+unzeitgemäß
+unzerstörbar
+unzertrennlich
+unzivilisiert
+unzufrieden
+unzugänglich
+unzumutbar
+unzureichend
+uralt          N3
+ursprünglich
+utopisch
+väterlich
+vag
+vage
+vakant         N2
+variabel
+vegan          N2
+verächtlich
+verblüffend
+verboten
+verdächtig
+verdammt
+verdutzt
+verfahren      N2
+verflucht      N2
+verfügbar      N2
+verführerisch
+vergänglich
+vergammelt
+vergeblich
+vergesslich
+vergleichbar   N2
+verhängnisvoll
+verhasst
+verheerend
+verkehrt
+verlässlich
+verlassen
+verlegen
+verliebt
+verlogen
+vermeintlich   N2
+vermessen
+vermögend
+vermutlich     N2
+vernünftig
+verpönt
+verrückt
+verschlafen
+verschlossen   N2
+verschmust
+verschollen    N2
+verschwiegen
+versehentlich  N2
+verständlich
+verständnislos
+verstaubt
+verstört
+vertikal
+vertrauensvoll
+vertraulich
+vertretbar
+verwandt       N2
+verwegen
+verwendbar     N2
+verwerflich
+verwertbar     N2
+verwitwet      N2
+verwöhnt
+verwundbar
+verwunschen    N2
+viel           II
+vielfach       N2
+vielfältig
+vielseitig
+viereckig      N2
+violett
+visuell
+vital
+völlig
+vogelfrei      N3
+voll
+vollendet      N2
+volljährig     N2
+vollkommen
+vollschlank
+vollständig
+vorbestraft    N2
+vorbildlich
+vordergründig
+vorhanden      N2
+vorherig       N2
+vorhersehbar   N2
+vorläufig      N2
+vornehm
+vorsätzlich    N2
+vorsichtig
+vorsorglich
+vorstellbar    N2
+vorteilhaft
+vortrefflich
+vorübergehend  N2
+vorwurfsvoll   N2
+vorzeigbar
+vorzeitig      N2
+vorzüglich
+vulgär
+waagerecht     N2
+wach
+wachsam
+wählerisch
+wässrig        N2
+wahlberechtigt N2
+wahllos        N2
+wahnsinnig
+wahr
+wahrhaft
+wahrnehmbar    N2
+wahrscheinlich
+warm           UU
+wasserdicht    N3
+weiblich
+weich
+weise
+weiß
+weit
+welk
+weltlich
+weltweit       N2
+wenig
+wert
+wertlos
+wertvoll
+wesentlich
+westlich
+wichtig
+widerlich
+widersinnig
+wild
+wildfremd      N2
+willenlos
+willensstark
+willig
+willkommen
+willkürlich
+windig         N2
+windstill      N2
+winterlich     N2
+winzig
+wirklich
+wirksam
+wirkungsvoll
+wirr
+wirtschaftlich
+wissbegierig
+wissenswert
+witzig
+wochenlang     N2
+wörtlich       N2
+wohlgenährt
+wohlhabend     N2
+wolkenlos      N2
+wolkig
+wollüstig
+wortgewaltig
+wortkarg       N2
+wortlos        N2
+wortreich
+wortwörtlich   N2
+wünschenswert
+würzig
+wüst
+wütend
+wund
+wunderbar
+wunderschön
+wundervoll
+wurmstichig
+wutentbrannt   N2
+wutschnaubend  N2
+x-beliebig     N2
+x-förmig       N2
+y-förmig       N2
+zäh
+zähflüssig
+zählbar
+zärtlich
+zaghaft
+zahlbar
+zahlreich
+zahlungsfähig
+zahm
+zahnlos        N2
+zappelig
+zart
+zeitgemäß
+zeitgleich     N2
+zeitig
+zeitlos
+zentral
+zerbrechlich
+zerknirscht
+zerstreut
+zickig
+zielbewusst
+ziellos
+ziemlich
+zierlich
+zimperlich
+zitronengelb   N3
+zittrig
+zivil          N2
+zögerlich
+zollfrei       N2
+zoologisch     N2
+zornig
+zuckerkrank    N2
+zuckersüß      N3
+zudringlich
+zügellos
+zügig          N2
+zufällig       N2
+zufrieden
+zugänglich
+zugehörig      N2
+zukünftig      N2
+zulässig       N2
+zurückhaltend  N2
+zusätzlich     N2
+zuständig      N2
+zutraulich
+zuverlässig
+zuversichtlich
+zwanglos
+zwangsläufig   N2
+zwecklos
+zweckmäßig
+zweideutig
+zweifelhaft
+zweifelsfrei   N2
+zweischneidig  N2
+zweisprachig   N2
+zwiespältig
+zynisch

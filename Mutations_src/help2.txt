@@ -1,0 +1,96 @@
+****************************
+* "Mutations" program help *
+****************************
+
+"Mutations" is a very simple molecular genetics application, that may be used:
+ 1. to analyse point mutations within a DNA sequence,
+ 2. to generate exercices concerning point mutations.
+
+The DNA sequence can't actually have incomplete codons, i.e. its length must be a multiple of 3.
+
+Mutations supported by the programs (one single mutation per DNA sequence):
+ - 1-base substitutions (transition or transversion),
+ - 1-base indel mutations (insertion or deletion),
+ - 2-base insertions (2 identical bases only),
+ - 3-base insertions (3 identical bases only), insertion at a codon-position (1, 4, 7...) only.
+ 
+Version 1.0 issue:
+==================
+Inserting the codon AAA into a sequence like GGGAAAACC at position 4 is not recognized as a mutation supported by the application. This is due to the fact that the program determines the insertion position by seaarching for the first non-matching base in the original and mutated sequence; in the example given, this would be position 8, that's not a codon position!
+
+The "Mutations" menu.
+*********************
+
+Menu item "Mutation".
+=====================
+
+New analysis:
+Start a new point mutation analysis.
+  
+New exercise:
+Start a new point mutation exercise.
+  
+Exit:
+Exit the application.
+  
+Menu item "Settings".
+=====================
+
+Lowercase base codes:
+Allow user to use lowercase letters for DNA bases; use lower case DNA base codes in exercises.
+  
+3-letters amino acid codes:
+Use 3-letters instead of 1-letter amino acid codes (not implemented in v1.0!).
+  
+Exercise settings:
+------------------
+  
+Number of questions:
+User entry of number of point mutation questions to solve (minimum = 10).
+
+Sequence length:
+User entry of maximum length of random DNA sequence (minimum = 15 bases).
+
+Evaluate translation:
+Normally, the application only checks the mutation position, type and effect, that the user has entered, the protein sequence corresponding to the original and mutated DNA being automatically filled in, when the user pushes the "Answer" button.
+If this option is checked, the user has to translate the two DNA sequences by herself and the protein sequences entered are considered when evaluating the user's answer.
+
+Menu item "Help".
+=================
+
+Genetic code:
+Display of the standard genetic code table.
+
+Genetics help:
+Display of a help text concerning the genetics background of point mutations.
+
+Program help.
+Display of a help text, how to use the "Mutations" application (this document).
+
+About.
+Display of version, author and date-written of the "Mutations" application.
+
+Point mutation analysis.
+========================
+
+Enter the original DNA sequence in the corresponding memo field (remember that all codons have to be complete), use the "Copy" button at the left of the field to copy the sequence to the "Mutated DNA sequence" field, change this sequence by applying a point substitution or indel mutation and push the "Analyse" button.
+
+The program determines the mutation position, type and effect and displays the protein sequences corresponding to the original and mutated DNA. The modified, inserted or deleted base(s) is/are marked with {}. In the protein sequence, modifications, insertions and deletions are also marked with {}, except for frame shifts, that are marked with a [ at the position, where the shift begins.
+
+To clean the marking characters, push the "Clean" button; to clear all input fields, use "Clear all".
+
+Point mutation exercise.
+========================
+
+Change the exercise settings as you like and choose "New exercise" in the "Mutation" menu. The caption of the main button is changed to "Question" and an (empty) evaluation grid is displayed.
+
+To do the exercise, for each question, push "Question" to generate the mutation to solve, enter mutation position, type and effect (and the protein sequences, if you have selected to consider this supplementary test when evaluation of your answer is done) and push "Answer" to check your solution. A "correct" resp. "false" icon is displayed at the left of the different answer fields. The {} and [ markers are used within the sequences as described above.
+
+Notes:
+======
+
+1. Indel mutations at the end of the DNA sequence, with no stop codon involved, are considered as resulting in a frame shift mutation. Just imagine, that the sequences continue beyond the part of them, that you entered...
+
+2. In the actual version 1.0, there is an inconsistency between mutation analyse and exercises. An indel mutation, that induces the appearance of a stop codon downstream from the mutation site (i.e. not at the position corresponding to the inserted/deleted base), is reported as being a missense mutation, when analysing the sequences. In the exercises, however, the correct answer to be entered by the user as mutation effect has to be "frameshift mutation".
+
+3. Inserting a A into or deleting a A from a sequence part like AAAAA makes it impossible to determine where the mutation actually occured. As mutation analyses searches for the first non-matching base, the position reported will be the one of the last A. In order to avoid wrong "false" mutation positions during exercises, the application checks for such situations and accepts any valid position, that the user has entered.

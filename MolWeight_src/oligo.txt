@@ -1,0 +1,20 @@
+DNA/RNA oligonucleotide molecular weight calculation.
+=====================================================
+
+Molecular weight of oligonucleotides, as calculated by this application, are supposed to be for anhydrous molecules and considering the following assumptions:
+
+DNA molecular weight.
+---------------------
+  - typically for synthesized DNA oligonucleotides, assuming that the nucleotide has no 5' monophosphate
+  - formula used: MW = (An x 313.21) + (Tn x 304.2) + (Cn x 289.18) + (Gn x 329.21) - 61.96
+    where An, Tn, Cn and Gn are the number of each respective base within the nucleotide;
+    the subtraction of 61.96 g/mole takes into account the removal of HPO2 (63.98) and the addition of two hydrogens (2.02)
+  - for double-stranded DNA oligonucleotides, the value of 61.96 is subtracted twice (once for each strand)
+
+RNA molecular weight.
+---------------------
+  - typically for instance from an RNA transcript, assuming that the nucleotide has a 5' triphosphate
+  - formula used: MW = (An x 329.21) + (Un x 306.17) + (Cn x 305.18) + (Gn x 345.21) + 159.00
+    where An, Un, Cn, and Gn are the number of each respective base within the nucleotide;
+    the addition of 159.0 g/mole takes into account the 5' triphosphate.
+  - for double-stranded RNA oligonucleotides, the value of 159.00 is added twice (once for each strand)

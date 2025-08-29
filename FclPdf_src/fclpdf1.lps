@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="fclpdf1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="9">
+      <Position>
+        <Filename Value="fclpdf1.lpr"/>
+        <Caret Line="16" Column="38"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf1.lpr"/>
+        <Caret Line="24" Column="31"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf1.lpr"/>
+        <Caret Line="26" Column="30"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf1.lpr"/>
+        <Caret Line="25" Column="24" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf1.lpr"/>
+        <Caret Line="11" Column="21" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf1.lpr"/>
+        <Caret Line="32" Column="33" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf1.lpr"/>
+        <Caret Line="33" Column="33" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf1.lpr"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf1.lpr"/>
+        <Caret Line="29" Column="23" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="fclpdf1.lpr"/>
+        <Caret Line="32" Column="18" TopLine="9"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

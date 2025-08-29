@@ -1,0 +1,361 @@
+object fVerbes: TfVerbes
+  Left = 189
+  Height = 388
+  Top = 209
+  Width = 631
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Lëtzebuergesch Verben: Partizip'
+  ClientHeight = 363
+  ClientWidth = 631
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object laQuestion: TLabel
+    Left = 16
+    Height = 25
+    Top = 8
+    Width = 27
+    Caption = 'Fro'
+    Font.Height = -18
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 23
+    Top = 55
+    Width = 35
+    Caption = 'Verb'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edVerb: TEdit
+    Left = 130
+    Height = 31
+    Top = 51
+    Width = 318
+    Color = clSilver
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object edVerbGe: TEdit
+    Left = 130
+    Height = 31
+    Top = 89
+    Width = 318
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object edVerbFr: TEdit
+    Left = 130
+    Height = 31
+    Top = 127
+    Width = 318
+    Color = clForm
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object edConj: TEdit
+    Left = 130
+    Height = 31
+    Top = 184
+    Width = 318
+    Color = clSilver
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object edAnswer: TEdit
+    Left = 15
+    Height = 31
+    Top = 240
+    Width = 433
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edEval: TEdit
+    Left = 16
+    Height = 31
+    Top = 280
+    Width = 432
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object btQuestion: TButton
+    Left = 522
+    Height = 31
+    Top = 320
+    Width = 94
+    Caption = 'Fro'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object laConj: TLabel
+    Left = 16
+    Height = 23
+    Top = 188
+    Width = 103
+    Caption = 'Konjugatioun'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 488
+    Height = 23
+    Top = 55
+    Width = 43
+    Caption = 'Froen'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edQuestions: TEdit
+    Left = 556
+    Height = 31
+    Top = 51
+    Width = 60
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object Label5: TLabel
+    Left = 488
+    Height = 23
+    Top = 93
+    Width = 57
+    Caption = 'Richteg'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCorrect: TEdit
+    Left = 556
+    Height = 31
+    Top = 89
+    Width = 60
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object Label6: TLabel
+    Left = 488
+    Height = 23
+    Top = 131
+    Width = 45
+    Caption = 'Falsch'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edFalse: TEdit
+    Left = 556
+    Height = 31
+    Top = 127
+    Width = 60
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object Label7: TLabel
+    Left = 488
+    Height = 23
+    Top = 188
+    Width = 63
+    Caption = 'Punkten'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSuccess: TEdit
+    Left = 556
+    Height = 31
+    Top = 184
+    Width = 60
+    Alignment = taRightJustify
+    Color = clCream
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object btAccAigu: TButton
+    Left = 16
+    Height = 31
+    Top = 320
+    Width = 31
+    Caption = 'é'
+    OnClick = btAccAiguClick
+    TabOrder = 16
+    TabStop = False
+  end
+  object btAccGrave: TButton
+    Left = 72
+    Height = 31
+    Top = 320
+    Width = 31
+    Caption = 'è'
+    OnClick = btAccGraveClick
+    TabOrder = 12
+    TabStop = False
+  end
+  object btTrema: TButton
+    Left = 128
+    Height = 31
+    Top = 320
+    Width = 31
+    Caption = 'ë'
+    OnClick = btTremaClick
+    TabOrder = 11
+    TabStop = False
+  end
+  object btUe: TButton
+    Left = 417
+    Height = 31
+    Top = 320
+    Width = 31
+    Caption = 'ü'
+    OnClick = btUeClick
+    TabOrder = 13
+    TabStop = False
+  end
+  object btOe: TButton
+    Left = 361
+    Height = 31
+    Top = 320
+    Width = 31
+    Caption = 'ö'
+    OnClick = btOeClick
+    TabOrder = 14
+    TabStop = False
+  end
+  object btAe: TButton
+    Left = 305
+    Height = 31
+    Top = 320
+    Width = 31
+    Caption = 'ä'
+    OnClick = btAeClick
+    TabOrder = 15
+    TabStop = False
+  end
+  object mMenu: TMainMenu
+    left = 136
+    top = 8
+    object mExercise: TMenuItem
+      Caption = 'Exercice'
+      object mExerciseNew: TMenuItem
+        Caption = 'Neien Exercice'
+        OnClick = mExerciseNewClick
+      end
+      object mExerciseConj: TMenuItem
+        Caption = 'Konjugatioun'
+        OnClick = mExerciseConjClick
+      end
+      object mExerciseExit: TMenuItem
+        Caption = 'Verloossen'
+        OnClick = mExerciseExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Astellungen'
+      object mSettingsQuestions: TMenuItem
+        Caption = 'Zuel vun de Froen ...'
+        OnClick = mSettingsQuestionsClick
+      end
+      object mSettingsTenses: TMenuItem
+        Caption = 'Zäitenauswiel'
+        object mSettingsTensesPP: TMenuItem
+          Caption = 'Partizip'
+          OnClick = mSettingsTensesPPClick
+        end
+        object mSettingsTensesPC: TMenuItem
+          Caption = 'Perfekt'
+          Checked = True
+          OnClick = mSettingsTensesPCClick
+        end
+        object mSettingsTensesPQP: TMenuItem
+          Caption = 'Plusquamperfekt'
+          Checked = True
+          OnClick = mSettingsTensesPQPClick
+        end
+      end
+      object mSettingsP100: TMenuItem
+        Caption = 'Punkten op 100'
+        OnClick = mSettingsP100Click
+      end
+      object mSettingsNoFrench: TMenuItem
+        Caption = 'Keng Verben op -éieren'
+        OnClick = mSettingsNoFrenchClick
+      end
+      object mSettingsInfHide: TMenuItem
+        Caption = 'Infinitiv verstoppen'
+        OnClick = mSettingsInfHideClick
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object mSettingsNoEN: TMenuItem
+        Caption = '-en Endunge wegloossen'
+        OnClick = mSettingsNoENClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Hëllef'
+      object mHelpHelp: TMenuItem
+        Caption = 'Hëllef'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'Iwwer'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object pnAbout: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Text = 'Text'
+    Title = 'Iwwer Luxverbes1.'
+    Visible = False
+    left = 400
+    top = 8
+  end
+end

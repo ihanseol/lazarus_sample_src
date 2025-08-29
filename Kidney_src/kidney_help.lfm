@@ -1,0 +1,60 @@
+object fHelp: TfHelp
+  Left = 166
+  Height = 540
+  Top = 219
+  Width = 1178
+  BorderIcons = [biSystemMenu]
+  Caption = 'Renal Physiology'
+  ClientHeight = 540
+  ClientWidth = 1178
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object Memo1: TMemo
+    Left = 6
+    Height = 478
+    Top = 10
+    Width = 1166
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"Kidney" is a free PC application, dealing with renal physiology. Based on measurment values of the concentrations of a solute in arterial plasma, in the plasma of a renal vein and in urine, and the rate of urine formation, it calculates the glomerular filtration rate, the renal blood flow and the filtration fraction, as well as the amount per minute of solute filtered, reabsorbed, secreted and appearing in urine.'
+      ''
+      'The application allows to enter measurement values for up to 3 solutes. Only the first of these is mandatory, the fields of the other ones may be left blank. The first solute is considered to be neither reabsorbed nor secreted, i.e. only filtered (e.g. insulin), thus this solute''s clearance represents the actual GFR. As for a solute, that is only filtered, the extraction ratio represents the filtration fraction, FF is set to E of the first solute and these values are then used to determine the renal plasma flow and, if a value for the henatocrit is entered, the renal blood flow.'
+      ''
+      'Finally, the application calculates the amount of each solute, that appears per minute in the urine, showing how much solute has been filtered, reabsorbed and secreted during this time.'
+      ''
+      'The application does''t actually check the validity of the values, that the user enters. Thus, if you enter senseless values, you''ll get senseless results. There is however a simple checking of the filtration rate, displayed with green blackground, if its value lies in the normal limits between 0.15 and 0.20. If it is outside these limits, the background will be yellow for values betwwen 0.10 and 0.15 and between 0.20 and 0.25; for unrealistic values outside this range, the background will be red.'
+      ''
+      'Note, that the item "Sample" in the "File" menu loads sample measurment values for 3 solutes, the first one supposed to be only filtered, the second one being also secreted and the third one being also reabsorbed.'
+      ''
+      'Renal physiology formulae.'
+      '=========================='
+      ''
+      'With PA = [solute] in arterial plasma, PV = [solute] in plasma of renal vein, U = [solute] in urine and V = urine flow rate:'
+      ''
+      'Clearance                C = U x V / PA                glomerular filtration rate GFR = C for a solute, that is only filtered'
+      'Extraction ratio         E = (PA - PV) / PA            filtration fraction FF = E for a solute, that is only filtered'
+      'Renal plasma flow        RPF = C / E'
+      'Renal blood flow         RBF = RPF x [1 / (1 - Hct)]   Hct = hematocrit'
+      ''
+      'Solute filtered / min    PA x GFR'
+      'Solute reabsorbed / min  (PA x GFR) - (U x V)'
+      'Solute secreted / min    (U x V) - (PA x GFR)'
+      'Solute in urine / min    U x V                         solute filtered - solute reabsorbed + solute secreted'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 1078
+    Height = 31
+    Top = 504
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+end

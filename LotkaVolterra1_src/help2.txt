@@ -1,0 +1,74 @@
+"LotkaVolterra1" application help.
+==================================
+
+The "LotkaVolterra1" application is a biology simulation, dealing with two species populations growth, one of these specieses being the prey, the other being the predator. The simulation is based on the Lotka-Volterra predator-prey model; please have a look at "Biology help" for details.
+
+Menu item "File".
+=================
+
+New.
+----
+Clear the display window in order to run a new simulation. This command has to be executed each time a simulation ended (either by itself, or the user having pushed the "Stop" button).
+
+Sample.
+-------
+Load the sample parameters of "Lynx and hares in Canada" (cf. "Biology help").
+
+Exit.
+-----
+Exit the application.
+
+Menu item "Settings".
+=====================
+
+Use logistic growth for prey.
+-----------------------------
+This option is new in version 1.1. When checked prey growth is considered to follow the logistic instead of the exponential growth model. This means in particular, that prey will no longer grow infinitely in the absence of a predator, but that there is a limiting size. This limiting size has to be entered by the user as carrying capacity.
+
+Use alternate formulae.
+-----------------------
+Some authors use a "predation efficiency rate" parameter instead of the more common "predation growth rate" (cf. "Biology" help). To use these alternate formulation of the Lotka-Volterra model, check this option.
+
+Simulation time interval.
+-------------------------
+By default, the simulation runs at a speed of 1 sec real time for 1 year simulation time. If you want to run the simulation slower or faster, use this menu item to change the timer value.
+
+Menu item "Help".
+=================
+
+Biology help.
+-------------
+Help text concerning the Lotka-Volterra predator-prey model (including the formulae used by the application).
+
+Program help.
+-------------
+Help text concerning the usage of the "LotkaVolterra1" application (this document).
+
+About.
+------
+Information about version, author and date-written of the "LotkaVolterra1" application.
+
+Running the predator-prey simulation.
+=====================================
+
+Enter the populations' initial sizes and the Lotka-Volterra model parameters, then push the "Start" button. Predotors and preys are displayed in the main display window, each display update (by default, at 1 sec intervals) corresponding to 1 year. The "Pause" button allows to hold the simulation, "Stop" ends it.
+
+This visual presentation of the model is primarily programming fun of my own. If you are seriously interested in the biological data, have a look at the graph output!
+
+The predator-prey simulation graph.
+===================================
+
+Entering the populations' initial sizes and the Lotka-Volterra model parameters, then pushing the "Graph" button, opens a new window, where the variations of the predator and the prey are displayed as a graph (curves representing the population sizes versus time). This allows to clearly show the periodic oscillation resp. the populations' extinction states, described in the "Biology" help text. It also allows you to see what influence the modification of one or the other model parameter has on the variation of the population sizes.
+
+When using the logistic growth model for the prey, the oscillations decrease in amplitude with the time and both population sizes converge to constant values. This is what I noticed when running my application; not really sure if this corresponds to what happens in reality (?).
+
+The simulation input data.
+==========================
+
+Sample data is provided as described above. For the alternate formulae, you may for example try ɛ values from 0.2 to 2.0 and higher (all other parameters as given with the sample data).
+
+If you enter an initial predator population of zero, prey will grow infinitely; if you enter a prey population of zero, predators will all die by starving (cf "Biology" help). Note, that in these cases, a warning message will be displayed.
+
+If you use all new input data, please be aware that this data is not checked to be valid (except for being present). This means, if you enter senseless values, the graph display will be senseless and the simulation may not work correctly.
+
+If the total number of predators and preys is less than 500, the number of animals displayed corresponds to the real (simulation) animal number. Otherwise, the number of predators and preys displayed is relative to this maximum of images, 1 animal displayed corresponding to several animals in reality. In this case, if the minimum population sizes, as reached during simulation, is such that no animal would be displayed, an error message is displayed and the simulation is not started.

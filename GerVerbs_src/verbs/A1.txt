@@ -1,0 +1,48 @@
+# Unregelmäßige und starke deutsche Verben - Sprachniveau A1
+# https://deutschlernerblog.de/1100-unregelmaessige-und-starke-deutsche-verben-nach-sprachniveau-a1-c2/
+
+beginnen            beginnt             begann              begonnen            R H -
+bleiben             bleibt              blieb               geblieben           R S -
+bringen             bringt              brachte             gebracht            R H -
+denken              denkt               dachte              gedacht             R H -
+dürfen              darf                durfte              gedurft             U H -
+essen               isst                aß                  gegessen            S H -
+fahren              fährt               fuhr                gefahren            S X -
+fangen              fängt               fing                gefangen            S H -
+finden              findet              fand                gefunden            R H -
+fliegen             fliegt              flog                geflogen            R X -
+geben               gibt                gab                 gegeben             S H -
+gehen               geht                ging                gegangen            R S -
+haben               hat                 hatte               gehabt              U H -
+heißen              heißt               hieß                geheißen            R H -
+helfen              hilft               half                geholfen            S H -
+kennen              kennt               kannte              gekannt             R H -
+kommen              kommt               kam                 gekommen            R S -
+können              kann                konnte              gekonnt             U H -
+lesen               liest               las                 gelesen             S H -
+mögen               mag                 mochte              gemocht             U H -
+müssen              muss                musste              gemusst             U H -
+nehmen              nimmt               nahm                genommen            S H -
+rufen               ruft                rief                gerufen             R H -
+schlafen            schläft             schlief             geschlafen          S H -
+schreiben           schreibt            schrieb             geschrieben         R H -
+schwimmen           schwimmt            schwamm             geschwommen         R X -
+sehen               sieht               sah                 gesehen             S H -
+sein                ist                 war                 gewesen             U S -
+singen              singt               sang                gesungen            R H -
+sollen              soll                sollte              gesollt             U H -
+sprechen            spricht             sprach              gesprochen          S H -
+stehen              steht               stand               gestanden           R H -
+treffen             trifft              traf                getroffen           S H -
+trinken             trinkt              trank               getrunken           R H -
+tun                 tut                 tat                 getan               U H -
+wissen              weiß                wusste              gewusst             U H -
+wollen              will                wollte              gewollt             U H -
+an-fangen                                                                       T H -
+an-kommen                                                                       T S -
+an-rufen                                                                        T H -
+auf-stehen                                                                      T S -
+be-kommen                                                                       N H -
+fern-sehen                                                                      T H -
+ver-stehen                                                                      N H -
+weh-tun                                                                         T H -

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="TimeBomb.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="tbomb.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fTimeBomb"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="326" Column="3" TopLine="320"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="337" Column="63" TopLine="328"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="349" Column="29" TopLine="329"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="340" TopLine="329"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="479" TopLine="453"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="415" Column="11" TopLine="414"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="445" Column="11" TopLine="427"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="440" Column="11" TopLine="427"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="206" TopLine="194"/>
+      </Position>
+      <Position>
+        <Filename Value="TimeBomb.lpr"/>
+        <Caret Line="4" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="279" TopLine="267"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="278" TopLine="266"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="483" Column="14" TopLine="464"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="244" Column="20" TopLine="224"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="490" TopLine="465"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="244" Column="22" TopLine="234"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="479" Column="23" TopLine="473"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="247" Column="13" TopLine="234"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="264" Column="7" TopLine="241"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="256" Column="12" TopLine="244"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="44" Column="26" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="380" TopLine="357"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="149" TopLine="131"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="291" Column="4" TopLine="287"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="268" TopLine="250"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="412" Column="21" TopLine="391"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="50" Column="42" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="tbomb.pas"/>
+        <Caret Line="270" Column="15" TopLine="262"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

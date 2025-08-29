@@ -1,0 +1,66 @@
+The "SpanishAR" application comes with 2 functionalities:
+1. Conjugation exercises, the student having the possibility to select which verbs, moods, forms and genders to include in the questions to answer.
+2. Display of the conjugation tables of Spanish verbs in -ar.
+
+For both features, only the 101 verbs, being part of a predefined list, are considered. Conjugation concerns only the active voice (thus no passive, no pronominal voice) and only the simple tenses (compound tenses not available). For further details, please have a look at the grammar help text.
+
+Menu item "Conjugation".
+========================
+
+New exercise.
+-------------
+This opens a new window, where the user can choose what exactly the exercises should be about. Selection of the type of verb (regular, irregular, semi-irregular), the mood (indicative, subjunctive, imperative, participle), the form (affirmative, negative) and the gender (masculine, feminine). The answer given has to include the personal pronoun, except for the imperative, for which the user can select in the "Options" menu if it has to be included or not. To allow the input of non-ANSI characters (not present on most keyboards), you can use the corresponding letter buttons to insert these characters.
+
+Conjugation table.
+------------------
+This opens a dialog box, where the student can enter the verb to be conjugated. As said above, only one of the 101 verbs included in the list, will be accepted. The conjugation table window shows the conjugated forms for the simple tenses of the active voice. The user can use the "Masculine"/"Feminine" buttons to switch between genders (the only difference actually being the personal pronouns) and the "Affirmative"/"Negative" buttons to switch between these two forms of the conjugated verb form; this will in particular show the 2 different suffixes for the 2nd person (singular and plural) of the imperative, depending on the verb form. Concerning the format of the conjugation display, cf. the "Options" menu, below.
+
+Exit.
+-----
+Exit the application.
+
+Menu item "Options".
+====================
+
+User selections, concerning the exercises and/or the conjugation table display.
+
+Number of questions ...
+-----------------------
+User input of the number of exercise questions (verb forms to conjugate). Minimum = 10; default at application start = 20.
+
+Conjugation display options.
+----------------------------
+Selection, how the conjugated verb forms should be displayed in the conjugation tables.
+Separation between root and suffix: If checked, a hyphen is used to separate the verb root and the suffix. Example: yo am-o.
+Separation between root and rest of stem: If checked, another hyphen is used to separate the stem from the root suffix added for some tenses. Example: tú am-ab-as (option checked), tú amab-as (option unchecked).
+Mark irregular verb forms by color: If checked all verb forms, that do not follow the regular conjugation rules, are highlighted. Colors are used as follows:
+  - Blue: stem modification of a semi-irregular verb.
+  - Orange: irregular modification of the stem.
+  - Pink: irregular root suffix.
+  - Red: irregular suffix.
+Use same color for all irregularities: If checked, all irregular verb forms will be highlighted in red.
+
+Exercise display options.
+-------------------------
+Selection, how the conjugation question should be displayed during exercises.
+Do not display "indicative": If checked, all indicative tenses are displayed without the mood (ex: present instead of indicative present).
+Do not display "affirmative": If checked, the form is only displayed if negative is asked (note that the gender is always only displayed if feminine is asked).
+
+Use imperative pronouns.
+------------------------
+Normally, the imperative is used without personal pronouns. You can however display them in the conjugation table, by checking this option. Attention: This affects also the exercises, and if the option is checked, the pronoun is mandatory for a correct answer!
+
+Menu item "Help".
+=================
+
+Grammar.
+--------
+Help with the conjugation of Spanish verbs in -ar. Also includes information concerning the differences between Spanish spoken in Spain and Spanish spoken in Middle and South America (the latter one actually not being considered by the "SpanishAR" application).
+
+Help.
+-----
+Help, how to use the "SpanishAR" application (this text).
+
+About.
+------
+Version, author and date-written of the "SpanishAR" application.

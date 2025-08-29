@@ -1,0 +1,359 @@
+object fOrbits: TfOrbits
+  Left = 45
+  Height = 516
+  Top = 101
+  Width = 1250
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = '2D Planetary Orbits Simulation'
+  ClientHeight = 491
+  ClientWidth = 1250
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnDeactivate = FormDeactivate
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 20
+    Height = 23
+    Top = 24
+    Width = 62
+    Caption = 'Planets:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object cbMercury: TCheckBox
+    Left = 20
+    Height = 27
+    Top = 64
+    Width = 91
+    Caption = ' Mercury'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 0
+  end
+  object cbVenus: TCheckBox
+    Left = 220
+    Height = 27
+    Top = 64
+    Width = 76
+    Caption = ' Venus'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 1
+  end
+  object cbEarth: TCheckBox
+    Left = 420
+    Height = 27
+    Top = 64
+    Width = 69
+    Caption = ' Earth'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 2
+  end
+  object cbMars: TCheckBox
+    Left = 620
+    Height = 27
+    Top = 64
+    Width = 61
+    Caption = 'Mars'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 3
+  end
+  object cbJupiter: TCheckBox
+    Left = 20
+    Height = 27
+    Top = 112
+    Width = 80
+    Caption = ' Jupiter'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 4
+  end
+  object cbSaturn: TCheckBox
+    Left = 220
+    Height = 27
+    Top = 112
+    Width = 79
+    Caption = ' Saturn'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 5
+  end
+  object cbUranus: TCheckBox
+    Left = 420
+    Height = 27
+    Top = 112
+    Width = 78
+    Caption = 'Uranus'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 6
+  end
+  object cbNeptune: TCheckBox
+    Left = 620
+    Height = 27
+    Top = 112
+    Width = 96
+    Caption = ' Neptune'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 7
+  end
+  object cbPluto: TCheckBox
+    Left = 820
+    Height = 27
+    Top = 112
+    Width = 69
+    Caption = ' Pluto'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 8
+  end
+  object laSimulation: TLabel
+    Left = 20
+    Height = 23
+    Top = 168
+    Width = 92
+    Caption = 'Simulation:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object grOrbits: TStringGrid
+    Left = 20
+    Height = 204
+    Top = 205
+    Width = 1214
+    ColCount = 11
+    DefaultColWidth = 110
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 8
+    ScrollBars = ssNone
+    TabOrder = 10
+    TabStop = False
+    TitleFont.Height = -15
+    TitleFont.Name = 'Consolas'
+    TitleFont.Style = [fsBold]
+    Cells = (
+      17
+      0
+      1
+      'Mass'
+      0
+      2
+      'Volume'
+      0
+      3
+      'Orbit period'
+      0
+      4
+      'Position X'
+      0
+      5
+      '         Y'
+      0
+      6
+      'Velocity X'
+      0
+      7
+      '         Y'
+      1
+      0
+      'Sun'
+      2
+      0
+      'Mercury'
+      3
+      0
+      'Venus'
+      4
+      0
+      'Earth'
+      5
+      0
+      'Mars'
+      6
+      0
+      'Jupiter'
+      7
+      0
+      'Saturn'
+      8
+      0
+      'Uranus'
+      9
+      0
+      'Neptune'
+      10
+      0
+      'Pluto'
+    )
+  end
+  object btStart: TButton
+    Left = 904
+    Height = 31
+    Top = 440
+    Width = 94
+    Caption = 'Start'
+    OnClick = btStartClick
+    TabOrder = 9
+  end
+  object btAll: TButton
+    Left = 1020
+    Height = 27
+    Top = 64
+    Width = 75
+    Caption = 'All'
+    OnClick = btAllClick
+    TabOrder = 11
+  end
+  object btNone: TButton
+    Left = 1020
+    Height = 27
+    Top = 112
+    Width = 75
+    Caption = 'None'
+    OnClick = btNoneClick
+    TabOrder = 12
+  end
+  object btOrbits: TButton
+    Left = 1140
+    Height = 31
+    Top = 440
+    Width = 94
+    Caption = 'Show orbits'
+    OnClick = btOrbitsClick
+    TabOrder = 13
+  end
+  object btPause: TButton
+    Left = 1016
+    Height = 31
+    Top = 440
+    Width = 94
+    Caption = 'Pause'
+    OnClick = btPauseClick
+    TabOrder = 14
+  end
+  object mMenu: TMainMenu
+    Left = 1200
+    Top = 8
+    object mSimulation: TMenuItem
+      Caption = 'Simulation'
+      object mSimulationExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mSimulationExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsTimeStep: TMenuItem
+        Caption = 'Simulation time step'
+        object mSettingsTimeStepDay: TMenuItem
+          Caption = '1 day'
+          Checked = True
+          OnClick = mSettingsTimeStepDayClick
+        end
+        object mSettingsTimeStepWeek: TMenuItem
+          Caption = '1 week'
+          OnClick = mSettingsTimeStepWeekClick
+        end
+        object mSettingsTimeStepMonth: TMenuItem
+          Caption = '1 month'
+          OnClick = mSettingsTimeStepMonthClick
+        end
+      end
+      object mSettingsTimer: TMenuItem
+        Caption = 'Timer interval'
+        object mSettingsTimer1000: TMenuItem
+          Caption = '    1 sec'
+          OnClick = mSettingsTimer1000Click
+        end
+        object mSettingsTimer100: TMenuItem
+          Caption = '100 msec'
+          OnClick = mSettingsTimer100Click
+        end
+        object mSettingsTimer10: TMenuItem
+          Caption = '  10 msec'
+          Checked = True
+          OnClick = mSettingsTimer10Click
+        end
+        object mSettingsTimer1: TMenuItem
+          Caption = '    1 msec'
+          OnClick = mSettingsTimer1Click
+        end
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object mSettingsOrbits: TMenuItem
+        Caption = 'Display planet orbits'
+        Checked = True
+        OnClick = mSettingsOrbitsClick
+      end
+      object mSettingsPlanets: TMenuItem
+        Caption = 'Display planet movement'
+        Checked = True
+        OnClick = mSettingsPlanetsClick
+      end
+      object mSettingsImages: TMenuItem
+        Caption = 'Use sized planet images'
+        Checked = True
+        OnClick = mSettingsImagesClick
+      end
+      object mSettingsScaling: TMenuItem
+        Caption = 'Use same horiz. and vert. scaling'
+        Checked = True
+        OnClick = mSettingsScalingClick
+      end
+      object MenuItem2: TMenuItem
+        Caption = '-'
+      end
+      object mSettingsRevolutionOff: TMenuItem
+        Caption = 'Turn revolution messages off'
+        OnClick = mSettingsRevolutionOffClick
+      end
+      object mSettingsODrawing: TMenuItem
+        Caption = 'Turn orbit drawing warnings off'
+        OnClick = mSettingsODrawingClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Application help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpTechnical: TMenuItem
+        Caption = 'Technical info'
+        OnClick = mHelpTechnicalClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object tiOrbits: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = tiOrbitsTimer
+    Left = 1200
+    Top = 80
+  end
+end

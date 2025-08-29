@@ -1,0 +1,10 @@
+# Sierpinski-Triangle
+
+origin = (260,575)
+displacement = 2
+
+axiom = "7FXF--FF--FF"
+rules = { "F": "FF",
+          "X": "--FXF++FXF++FXF--" }
+iterations = 7
+angle = 60

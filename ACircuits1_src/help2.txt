@@ -1,0 +1,46 @@
+"ACircuits1" is a simple exercise generator, dealing with alternate current RLC circuits, i.e. circuits whose components are resistors, inductors and capacitors. The circuits proposed reach from a simple AC circuit with a resistor to complete parallel RLC circuits (selection done in the "Circuits" menu). For a given circuit, the application randomly gives some values, the others having to be entered by the user. Please note, that the program awaits values with a precision of 4 decimals! The user answer is considered to be correct, if all values entered are correct.
+
+Menu "Test".
+============
+
+New.
+---
+Start a new test, i.e. reset evaluation counters.
+
+Exit.
+-----
+Exit the application.
+
+Menu "Circuits".
+================
+
+R circuits, L circuits ... Parallel RLC circuits.
+-------------------------------------------------
+Select what kind of circuits the test should be made of. This setting may be changed during the current test.
+
+Menu "Options".
+===============
+
+View results.
+-------------
+If this option is checked, the application shows all results by itself. Unchecked, the application runs as a real test, where the user has to enter the different values.
+
+Menu "Help".
+============
+
+Electronics help.
+-----------------
+Display of help text concerning RLC circuits.
+
+Program help.
+-------------
+Display of help, how to use the program (this text).
+
+About.
+------
+Display of program version, author and date-written.
+
+Note:
+=====
+
+"ACircuits1" deals with RLC circuits in a simplified way, as all calculations are done using real numbers; a more appropriate approch would be to use complex numbers or phasors. Thus, only the magnitude of voltages, currents and impedances are considered, wheras angles (except the phase angle between total voltage and total current) are ignored.

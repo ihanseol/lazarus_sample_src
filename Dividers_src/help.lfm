@@ -1,0 +1,96 @@
+object fHelp: TfHelp
+  Left = 435
+  Height = 491
+  Top = 260
+  Width = 947
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Maths game: Dividers'
+  ClientHeight = 491
+  ClientWidth = 947
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object Memo1: TMemo
+    Left = 11
+    Height = 438
+    Top = 10
+    Width = 924
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"Dividers" is a maths game, dealing with division and dividers. The aim of the game is simple: In the grid, choose all those numbers, that (eventually modified by addition or subtraction of a given number; see below) have as divider the number indicated (A number X is a divider of a number Y, if Y/X is an integer; e.g. numbers with divider = 4: 4, 8, 12, 16...).'
+      ''
+      'To select a number (being part of your answer), just click the corresponding square: The square is highlighted (becomes yellow). Clicking an already selected square, unselects it (removes the corresponding number from your answers); the square color changes to green again. If you clicked and nothing happens, it''s because you clicked the bad place; be sure to click the sqaure, not the number text itself!'
+      ''
+      'Menu item "Game"'
+      '================'
+      ''
+      'Simple game'
+      '-----------'
+      'Start a new "simple" game. In this type of game, you have to find all numbers, that have as divider the number indicated. E.g. for divider = 6: 12, 24 and 48 would be solutions; 21, 28 and 45 wouldn''t be.'
+      ''
+      'Addition game'
+      '-------------'
+      'Start a new "addition" game. In this type of game, you have to find all numbers, that, after you added the number displayed in the "Addition number" field, have as divider the number indicated. E.g. for divider = 6 and addition number = 2: 10, 22 and 46 are solutions (10 + 2 = 12 is a divider of 6, as are 22 + 2 and 46 + 2).'
+      ''
+      'Subtraction game'
+      '----------------'
+      'Start a new "subtraction" game. In this type of game, you have to find all numbers, that, after you subtracted the number displayed in the "Subtraction number" field, have as divider the number indicated. E.g. for divider = 6 and subtraction number = 2: 14, 26 and 50 are solutions (14 - 2 = 12 is a divider of 6, as are 26 - 2 and 50 - 2).'
+      ''
+      'Exit'
+      '----'
+      ''
+      'Exit the application.'
+      ''
+      'Menu item "Settings"'
+      '===================='
+      ''
+      'Please note, that after changing settings, you have to start a new game in order that the modifications, you made, become active!'
+      ''
+      'Grid size'
+      '---------'
+      'Choose the size of the grid, i.e. the number of numbers displayed; the bigger the grid, the more difficult it will be not to exceed the time limit (see below); possible values are: 3x3, 4x4, 5x5, 6x6 and 8x8; default is 5x5 (25 numbers).'
+      ''
+      'Max. number'
+      '-----------'
+      'Choose the maximum value for the numbers displayed in the grid. For "easy game", choose 100 (default), for "difficult" game, choose 1000.'
+      ''
+      'Max. divider'
+      '------------'
+      'Choose the maximum value for the divider. Another option, that largely effects the difficulty level of the game. With maximum divider = 10 (default), the answer is rather easy to find (at least if maximum number is set to 100); with maximum divider = 100 and maximum number = 1000, the game can become really hard for most users (is 187 a divider of 17? is 274 a divider of 21?). Please note, that with max. number = 100, the only selectable values for max. divider are 10 and 20.'
+      ''
+      'Exclusions'
+      '----------'
+      'Exclude one or more of the numbers listed (2, 5, 10, 20, 25, 50, 100) to be used as dividers (excluded dividers are listed with a "checked" mark). This option has been added in order to avoid "to easy" solutions (finding numbers with dividers of 2 or 10 is really not difficult...).'
+      ''
+      'Max. time'
+      '---------'
+      'Choose the maximum time you''ll have to find the correct solution. Possible values are 20sec, 30sec, 1min, 2min and unlimited; in this latter case, no timer will be set and you may solve the question at your ease.'
+      ''
+      'Menu item "Help"'
+      '----------------'
+      ''
+      'Help'
+      '----'
+      'Display of help, how to use the "Dividers" application (this text).'
+      ''
+      'About'
+      '-----'
+      'Display of version, author and date-written information concerning the "Dividers" application.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 840
+    Height = 31
+    Top = 456
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

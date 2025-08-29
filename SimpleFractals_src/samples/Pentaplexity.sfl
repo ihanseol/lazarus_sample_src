@@ -1,0 +1,9 @@
+# Pentaplexity
+
+origin = (325,25)
+displacement = 8
+
+axiom = "0F++1F++2F++3F++4F"
+rules = { "F": "F++F++F+++++F-F++F" }
+iterations = 4
+angle = 36

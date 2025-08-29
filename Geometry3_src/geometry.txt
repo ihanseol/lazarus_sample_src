@@ -1,0 +1,88 @@
+*************************************
+* Les transformations géométriques. *
+*************************************
+
+Une transformation géométrique consiste à déplacer une figure initiale ou à en changer les dimensions pour obtenir une figure image.
+
+Translation: De façon grossière, il s'agit simplement de déplacer une figure en la «glissant» sans modifier son orientation. On glisse la figure sur une certaine distance. La figure image conserve les mêmes caractéristiques que la figure initiale (mesures de côtés et d'angles). Dans ce cas, on parle d’une transformation isométrique.
+
+Rotation: Il s'agit de faire tourner la figure afin d'en changer son orientation. Une rotation est une transformation géométrique qui consiste à faire tourner une figure autour d’un point ou d’un axe.
+
+Réflexion: Il s'agit de trac​er le reflet de la figure dans un miroir. La réflexion est une transformation géométrique qui permet d'obtenir la figure image «miroir» de la figure initiale par rapport à une droite appelée axe de réflexion.
+
+Homothétie: Il s'agit de changer la taille de la figure. Une homothétie est une transformation qui consiste à agrandir ou à réduire une figure selon un rapport d'homothétie k et un centre O.
+
+Dans l'application "Geometry3", ces transformations sont effectuées dans un plan cartésien. On est donc en présence d'un repère orthonormé, avec un axe des abscisses (axe des x) horizontal et un axe des ordonnées (axe des y) vertical. Chaque point du plan peut être représenté par P(x, y); le point O(0, 0) est l'origine du repère. L'abscisse x est positive pour les points à droite de O, négative pour ceux à gauche de O; l'ordonnée y est positive en haut de O, négative en bas de O.
+
+Translations dans un plan cartésien.
+====================================
+
+​​On appelle translation une transformation géométrique qui associe une figure initiale à une figure image selon trois caractéristiques: une direction, un sens et une longueur. La translation d'une figure consiste à faire glisser celle-ci selon une flèche de translation.
+
+On note une translation par t et on indique le glissement horizontal qu'elle fait subir à la figure initiale par a et le glissement vertical par b.
+
+Règle de transformation: t(a,b): (x,y) → (x+a,y+b).
+
+Pour effectuer la translation d'une figure initiale, on applique la règle de transformation à chaque sommet.
+
+Rotations dans un plan cartésien.
+=================================
+
+On appelle rotation la transformation géométrique qui fait tourner une figure autour d'un point fixe appelé centre de rotation, selon un angle donné.
+
+Ainsi, une rotation r est définie par son centre O et son angle θ. On note donc une rotation par: r(O,θ).
+
+L'application "Geometry3" ne prend en compte que des rotations simples (angles θ particuliers), pour lesquelles les coordonnées image peuvent être déterminées sans devoir faire de calculs complexes.
+
+Rotations centrées à l'origine.
+-------------------------------
+
+Certaines rotations particulières peuvent être définies par les règles suivantes lorsqu'elles sont centrées à l’origine O=(0,0):
+  r(O,90°) ou r(O,−270°) :  (x,y) → (−y,x)   pour une rotation de 90° ou −270°.
+  r(O,180°) ou r(O,−180°):  (x,y) → (−x,−y)  pour une rotation de 180° ou −180°.
+  r(O,270°) ou r(O,−90°) :  (x,y) → (y,−x)   pour une rotation de 270° ou −90°.
+
+Attention: Le sens positif d’une rotation suit le sens contraire des aiguilles d’une horloge. Une rotation de 90° signifie donc une rotation de 90° dans le sens antihoraire (on passe de midi à 9 h, par exemple).
+
+Rotations, dont le centre n'est pas à l'origine.
+------------------------------------------------
+
+Si le centre de rotation n'est pas à l'origine:
+1. On effectue une translation pour ramener le centre de rotation à l'origine du plan cartésien.
+2. On effectue la rotation (comme décrit au paragraphe précédent).
+3. On effectue la translation inverse; pour t(a,b), on doit effectuer t(−a,−b).
+
+Réflexions dans un plan cartésien.
+==================================
+
+On appelle réflexion (ou symétrie) la transformation géométrique, qui génère une image renversée par rapport à un axe de réflexion. L’axe de réflexion se trouve à mi-chemin entre la figure initiale et la figure image.
+
+L'application "Geometry3" ne prend en compte que des réflexions simples (axes de réflexion particuliers), pour lesquelles les coordonnées image peuvent être déterminées sans devoir faire de calculs complexes.
+
+Réflexions avec axes particuliers.
+----------------------------------
+
+Certaines réflexions particulières peuvent être définies par les règles suivantes:
+  axe de réflexion = axe des abscisses:                   (x,y) → (x,-y)
+  axe de réflexion = axe des ordonnées:                   (x,y) → (-x,y)
+  axe de réflexion = bissectrice des quadrants q1 et q3:  (x,y) → (y,x)
+  axe de réflexion = bissectrice des quadrants q2 et q4:  (x,y) → (-y,-x)
+
+Homothéties dans un plan cartésien.
+===================================
+
+On appelle homothétie la transformation géométrique qui permet d'agrandir ou de réduire une figure. On réalise l'homothétie à partir d'un centre d’homothétie O et d’un rapport d'homothétie (k). On note l'homothétie h(O,k).
+
+L'application "Geometry3" ne prend en compte que des homothéties simples (centre d'homothétie = origine du repère cartésien), pour lesquelles les coordonnées image peuvent être déterminées sans devoir faire de calculs complexes.
+
+Homothéties centrées à l'origine.
+---------------------------------
+
+Lorsque le centre d’homothétie se trouve au point origine dans un plan cartésien, l’homothétie est représentée par une règle de transformation de la forme :
+  h(O,k):  (x,y) → (kx,ky)
+
+Le centre d'homothétie peut se trouver soit à l'intérieur ou à l'extérieur de la figure, mais c’est toujours la même règle qui s’applique. Les rapports d’homothétie peuvent être positifs ou négatifs, entiers ou fractionnaires.
+
+Pour 0 < |k| < 1, il y a réduction (contraction) de la figure initiale, pour |k| > 1, il y a agrandissement (dilation). Si k < 0, la figure image change d’orientation.
+
+[texte extrait des pages Web concernant les transformations géométriques de "alloprof"; https://www.alloprof.qc.ca/]

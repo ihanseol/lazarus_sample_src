@@ -1,0 +1,515 @@
+001 Gefährliche Kreuzung
+    Unfall voraus!
+    Schleudergefahr bei Nässe oder Schmutz
+    Schnee- oder Eisglätte
+002 Vorfahrt
+    Vorfahrt an der nächsten Kreuzung oder Einmündung
+    Straße unpassierbar
+    Durchfahrt verboten
+003 Links abbiegen verboten
+    Vorgeschriebene Fahrtrichtung – hier links
+    Nach dem Schild links abbiegen!
+004 Rechts abbiegen verboten
+    Vorgeschriebene Fahrtrichtung – hier rechts
+    Nach dem Schild rechts abbiegen!
+005 Links an einer Verkehrsinsel, einem Hindernis oder einer Baustelle vorbeifahren
+    Schleudergefahr bei Nässe oder Schmutz
+    Achtung, zu umfahrende Hindernisse voraus!
+    Doppelkurve (zunächst rechts)
+006 Rechts an einer Verkehrsinsel, einem Hindernis oder einer Baustelle vorbeifahren
+    Schleudergefahr bei Nässe oder Schmutz
+    Achtung, zu umfahrende Hindernisse voraus!
+    Doppelkurve (zunächst links)
+007 10% Steigung
+    10% Schiefe der Straße linksseitig
+    10% Schiefe der Straße rechtsseitig
+008 12% Gefälle
+    12% Schiefe der Straße linksseitig
+    12% Schiefe der Straße rechtsseitig
+009 Ölspur
+    Schneewehen
+    Baustelle
+    Straße mit Steigungen und Gefällen
+010 Seitenwind
+    Fahrzeuge ohne Winterreifen dürfen diesen Weg nicht benutzen
+    Fahrzeuge ohne Schneeketten dürfen diesen Weg nicht benutzen
+    Achtung, Kreisverkehr!
+011 Schleudergefahr bei Schnee- oder Eisglätte
+    Schleudergefahr bei Seitenwind
+    Schleudergefahr wegen unebener Fahrbahn
+012 Splitt und Schotter
+    Straße unpassierbar
+    Sprengungsarbeiten
+013 Steinschlag
+    spitze Gegenstände auf der Fahrbahn
+    Schneematsch
+014 Flughafen
+    Verkehrshelfer (Schülerlotsen)
+    Auto- oder Fahrrad-Rennen
+    Lärm, Staub und Wind wegen Flugverkehrs
+015 Vorgeschriebene Vorbeifahrt – rechts oder links vorbei
+    Gegenverkehr
+    Nothalte- und Pannenbucht
+016 Vorgeschriebene Vorbeifahrt – rechts vorbei
+    Dem Gegenverkehr Vorrang gewähren!
+    Seitenstreifen räumen!
+017 Vorgeschriebene Vorbeifahrt – links vorbei
+    Vorrang vor dem Gegenverkehr
+    Seitenstreifen befahren!
+018 Straße wegen Aufräumarbeiten gesperrt
+    Steinschlag
+    Splitt und Schotter
+019 Überholverbot für Kraftfahrzeuge aller Art
+    Mindestabstand einhalten!
+    Seitenstreifen befahren!
+020 Dem Gegenverkehr Vorrang gewähren!
+    Vorrang vor dem Gegenverkehr
+    Stau in beiden Richtungen
+021 Ufer
+    Brücke unpassierbar, bitte wenden!
+    Brücke mit Zollabfertigungsstelle
+    Brücke mit Maut-Pflicht
+022 Bewegliche Brücke
+    Gefahr bei Schnee oder Eis ins Wasser zu geraten
+    Brücke geschlossen; Fluss hier nicht überquerbar
+023 Schnee und Eis Warnsystem
+    Ampel außer Betrieb
+    Ampel, die auf eine Zollabfertigungsstelle hinweist
+024 Verbot für Fußgänger
+    Straße nur für Fußgänger
+    Wanderweg
+    Fußgängerüberweg
+    Fußgänger den Vorrang überlassen!
+025 Verbot für Fußgänger
+    Fußgängerzone
+    Straße nur für Fußgänger
+026 Fußgängerzone
+    Verkehrsberuhigter Bereich
+    Verbot für Kinder die Straße zu überqueren
+    Schule
+027 Fahrradweg
+    Verbot für Radverkehr
+    Radfahrern den Vorrang überlassen!
+    Verbot Radfahrer zu überholen
+028 Vieh den Vorrang überlassen!
+    Vom Vieh stark verschmutzte Straße
+    Entlaufenes Vieh auf der Straße
+029 Achtung, Treibjagd!
+    Vom Wild stark verschmutzte Straße
+    Tiergehege
+030 Nahe gelegener Flugplatz
+    Parkplatz für Flugreisende
+    Flugzeugunglück
+031 Naturschutzgebiet
+    Ufer
+    Wildwechsel
+032 Bahnübergang
+    Bussonderfahrstreifen
+    Verbot für Omnibusse
+    Bushaltestelle
+    Achtung, Straßenbahn!
+033 Straße gesperrt! Bitte wenden!
+    Zoll
+    Verbot der Einfahrt
+034 Achtung, Straßenbahn!
+    Bahnhof
+    Parkplatz für Zugreisende
+035 Verbot der Einfahrt
+    Halt! Vorfahrt gewähren!
+    Windmühlen
+    Allgemeine Gefahrenstelle
+036 Halt! Vorfahrt gewähren!
+    Verbot der Einfahrt
+    Allgemeine Gefahrenstelle
+    Kreuzung, Verzweigung oder Einmündung mit Vorfahrt von rechts
+    Durchfahrt verboten
+    Dem Gegenverkehr Vorrang gewähren!
+037 Vorfahrt gewähren (wenn nötig, muss man anhalten)
+    Vorfahrt gewähren (anhalten, außer für Rechtsabbieger)
+    Halt! Zollabfertigungsstelle!
+038 Vorrang vor dem Gegenverkehr
+    Gegenverkehr
+    Vorgeschriebene Fahrtrichtung (schwarzer Pfeil)
+    Verbotene Fahrtrichtung (roter Pfeil)
+039 Vorgeschriebene Fahrtrichtung – hier rechts
+    Vorgeschriebene Vorbeifahrt – rechts vorbei
+    Rechtsrum in den Kreisverkehr einfahren
+    Vor dem Schild rechts abbiegen!
+    Einbiegen nach rechts verboten
+040 Vorrang vor dem Gegenverkehr
+    Einbahnstraße
+    Weiterfahren, ohne anzuhalten!
+041 Vorgeschriebene Fahrtrichtung – rechts
+    Vorgeschriebene Vorbeifahrt – rechts vorbei
+    Rechtsrum in den Kreisverkehr einfahren
+    Nach dem Schild rechts abbiegen!
+    Einbiegen nach rechts verboten
+042 Geradeaus und recht abbiegen verboten
+    Autobahn-Ausfahrt
+    Verlauf einer Vorfahrtstraße
+043 Kreisverkehr (linksrum einfahren)
+    Wendelstraße nach unten - Licht einschalten!
+    Verbot in dieser Straße zu wenden
+    Vorgeschriebene Vorbeifahrt – rechts vorbei
+044 Straße mit einer einzigen Fahrspur
+    Straße die nur in der entgegengesetzten Richtung befahren werden darf
+    Straße die in eine Sackgasse endet
+    Straße in der Radfahrer hintereinander fahren müssen
+045 Vorgeschriebene Fahrtrichtung – rechts
+    Nach dem Schild rechts abbiegen!
+    Hier rechts abbiegen!
+    Verbot nach rechts abzubiegen
+    Gefährliches Gefälle
+046 Langsame Fahrzeuge müssen den Seitenstreifen als rechter Fahrbahnstreifen nutzen
+    Der Seitenstreifen darf bei Pannen oder Notfällen benutzt werden
+    Vor dem Abbiegen an der nächsten Einmündung, rechts einreihen!
+047 Der rechte Fahrbahnstreifen ist gesperrt
+    Verbot auf dem Seitenstreifen anzuhalten
+    Einseitig verengte Fahrbahn
+048 Vor dem Abbiegen an der nächsten Einmündung, rechts einreihen!
+    Radfahrer müssen zurück auf den rechten Fahrbahnstreifen
+    Ende eines Bussonderfahrstreifens
+049 Krankenhaus
+    Autobahn-Hotel
+    Taxihaltestelle
+    Erste Hilfe
+050 Absolutes Halteverbot für Taxis
+    Eingeschränktes Halteverbot für Taxis
+    Verbot für Taxis diesen Weg zu benutzen
+    Verbot für Taxis hier Kunden ein- oder aussteigen zu lassen
+051 Achtung, Radverkehr!
+    Verbot für Radverkehr
+    Fahrradstraße
+    Fahrrädern den Vorrang überlassen!
+    Weg, der nur von Radfahrern (und Fußgängern) genutzt werden darf
+052 Verbot für Reiter
+    Achtung, Reiter!
+    Weg, der nur von Reitern, Radfahrern und Fußgängern genutzt werden darf
+    Reitern den Vorrang überlassen!
+053 Fußgängerzone
+    Weg, der nur von Fußgängern und Radfahrern genutzt werden darf
+    Verbot für Fußgänger
+    Kinder dürfen diesen Weg nur in Begleitung eines Erwachsenen benutzen
+    Achtung, Fußgänger!
+054 Getrennter Rad- und Gehweg
+    Verbot für Fußgänger und Radfahrer
+    Fahrrad-Parkplatz, der in erster Linie für Spaziergänger gedacht ist
+055 Gemeinsamer Geh- und Radweg
+    Verbot für Fußgänger und Radfahrer
+    Fahrrad-Parkplatz, der in erster Linie für Spaziergänger gedacht ist
+    Fußgänger nach rechts, Radfahrer nach links abbiegen!
+056 Zone, die nur von Fußgängern und Radfahrern genutzt werden darf
+    Kinder dürfen diesen Weg nur in Begleitung eines Erwachsenen benutzen
+    Achtung, Fußgänger!
+057 -----
+058 -----
+059 -----
+060 Verbot für Omnibusse
+    Bushaltestelle
+    Achtung, Kraftomnibusse!
+    Parkplatz nur für Omnibusse
+061 Verbot der Einfahrt
+    Halteverbot
+    Ende sämtlicher Streckenverbote
+    Vorfahrt gewähren (wenn nötig, muss man anhalten)
+062 Fahrverbot für ein- und mehrspurige Kraftfahrzeuge
+    Fahrverbot für Autos (Nutzfahrzeuge dürfen passieren)
+    Kraftfahrstraße
+    Parkverbot für mehrspurige Kraftfahrzeuge
+063 Fahrverbot für alle mehrspurige Kraftfahrzeuge
+    Achtung, LKW-Ausfahrt!
+    Parkverbot für Nutzfahrzeuge
+064 Achtung, Radverkehr!
+    Fahrradweg
+    Verbot sein Fahrrad hier abzustellen
+    Verbot für Fahrräder und Krafträder
+    Verbot Radfahrer zu überholen
+065 Verbot für Mofas
+    Parkverbot für alle Krafträder
+    Parkverbot für Mofas
+    Achtung, Mofas und andere Krafträder!
+066 Verbot für alle Krafträder
+    Parkverbot für alle Krafträder
+    Parkverbot für Mofas
+    Achtung, Mofas und andere Krafträder!
+067 Weg, der nur von Reitern genutzt werden darf
+    Achtung, Reiter!
+    Weg, der nur von Reitern, Radfahrern und Fußgängern genutzt werden darf
+    Weg, der nur von Reitern und Fußgängern genutzt werden darf
+068 Straße nur für Fußgänger
+    Achtung, Fußgänger!
+    Fußgänger müssen hier auf die andere Straßenseite wechseln
+    Fußgängerüberweg
+    Verbot für Fußgänger und Fahrräder
+069 Fahrverbot für ein- und mehrspurige Kraftfahrzeuge (Nutzfahrzeuge dürfen passieren)
+    Getrennte Fahrbahnen für ein- und mehrspurige Kraftfahrzeuge
+    Parkverbot für ein- und mehrspurige Kraftfahrzeuge
+070 Verbot für Nutzfahrzeuge
+    Verbot für Fahrzeuge mit wassergefährdender Ladung
+    Verbot für Kraftfahrzeuge mit Sprengstoff
+    Vorgeschriebene Fahrtrichtung für LKWs
+071 Verbot für Fahrzeuge über der angegebenen Achslast
+    Verbot für Fahrzeuge über der angegebenen Tandem-Achslast
+    Verbot für Fahrzeuge mit einer Ladung über der angegebenen Masse
+072 Verbot für Fahrzeuge über der angegebenen Masse
+    Verbot für Fahrzeuge über der angegebenen Tandem-Achslast
+    Verbot für Fahrzeuge mit einer Ladung über der angegebenen Masse
+073 Verbot des Fahrens ohne einen Mindestabstand
+    Verbot für Fahrzeuge über der angegebenen Länge
+    Parkverbot für Fahrzeuge über der angegebenen Länge
+    Parkverbot für Fahrzeuge über der angegebenen Breite
+    Verengte Fahrbahn
+    Tunnel mit verengter Fahrbahn
+074 Tunneleinfahrt-Verbot für Fahrzeuge über der angegebenen Höhe
+    Gefährliches Gefälle
+    Steigung
+075 Verbot für LKWs ohne einen Mindestabstand zu fahren
+    Achtung, ausschwenkende LKWs!
+    Parkverbot für LKWs über der angegebenen Länge
+076 Verbot der Durchfahrt
+    Straßensperre
+    Zoll
+    Absolutes Halteverbot
+    Halt! Vorfahrt gewähren!
+    Ende der Vorfahrtstraße
+    Wendeverbot
+077 Ersatzreifenpflicht
+    Winterreifenpflicht
+    Reparaturwerkstatt
+    Befahren der Straße nur mit speziellen Radkappen
+078 Verbot für Nutzfahrzeuge
+    Verbot für Gefahrengutstransporter
+    Verbot für Kraftfahrzeuge mit Sprengstoff
+    Verbot für Fahrzeuge mit flüssiger Ladung
+    Vorgeschriebene Fahrtrichtung für LKWs
+079 Verbot von Fahrzeugen, die einer bestimmten Gewichtsklasse zugehören
+    Verbot für Gefahrengutstransporter
+    Verbot für Fahrzeuge mit wassergefährdender Ladung
+    Verbot für Kraftfahrzeuge mit Sprengstoff
+080 -----
+081 Verbot links abzubiegen
+    Sackgasse ohne Wendemöglichkeit
+    Links um eine Verkehrsinsel herumfahren
+    Wendeverbot (inklusive Linksabbiegen]
+082 Verbot LKW-Kolonnen von mehr als 70m zu bilden
+    Kraftfahrzeuge über 2,8 t oder Zugmaschinen müssen einen Mindestabstand von 70m einhalten
+    LKWs mit Anhänger müssen einen Mindestabstand von 70m einhalten
+083 Vorgeschriebene Mindestgeschwindigkeit
+    Empfohlene Mindestgeschwindigkeit
+    Empfohlene Höchstgeschwindigkeit
+084 -----
+085 -----
+086 Zulässige Höchstgeschwindigkeit
+    Empfohlene Mindestgeschwindigkeit
+    Empfohlene Höchstgeschwindigkeit
+    Beginn einer Tempo 30-Zone
+087 Die rot gezeichneten Autos müssen warten, bis die anderen alle weg sind
+    Die schwarz gezeichneten Autos müssen warten, bis die anderen alle weg sind
+    Verbot links zu überholen
+    Verbot rechts zu überholen
+    Seitenstreifen befahren!
+088 Überholverbot für Kraftfahrzeuge aller Art
+    Überholverbot für Kraftfahrzeuge über 2,8 t
+    Überholverbot für Gefahrengutstransporter
+    Die LKWs müssen warten, bis die Autos alle weg sind
+    Verbot Nutzfahrzeuge zu überholen
+089 Ende der vorgeschriebenen Mindestgeschwindigkeit
+    Ende der empfohlenen Mindestgeschwindigkeit
+    Ende der empfohlenen Höchstgeschwindigkeit
+090 Ende der zulässigen Höchstgeschwindigkeit
+    Ende der empfohlenen Mindestgeschwindigkeit
+    Ende der empfohlenen Höchstgeschwindigkeit
+091 -----
+092 -----
+093 Ende sämtlicher Streckenregeln
+    Ende sämtlicher Geschwindigkeitsbegrenzungen
+    Ende sämtlicher Überholverbote
+    Ende der speziellen Regeln, die in dieser Zone gelten
+    Ende der absoluten und eingeschränkten Halteverbote
+094 Eingeschränktes Halteverbot
+    Absolutes Halteverbot auf der Fahrbahn (an der Fahrbahn für 3 Minuten erlaubt)
+    Wendeverbot
+    Verbot der Durchfahrt
+    Straßensperre
+095 Absolutes Halteverbot
+    Eingeschränktes Halteverbot an der Fahrbahn (auf der Fahrbahn strikt verboten)
+    Halten auf und an der Fahrbahn für über 5 Minuten verboten
+    Verbot links abzubiegen
+096 -----
+097 -----
+098 Überdachter Parkplatz
+    Parken nur am Wochenende erlaubt
+    Parkplatz mit Münzenautomat
+099 Vorfahrtstraße
+    Kreuzung, Verzweigung oder Einmündung mit Vorfahrt von rechts
+    Verbot (links und rechts) abzubiegen
+    Allgemeine Gefahrenstelle
+    Baustelle
+100 Kreuzung, Verzweigung oder Einmündung mit Vorfahrt von rechts
+    Vorfahrt an der nächsten Kreuzung oder Einmündung
+    Vorgeschriebene Fahrtrichtung für Gefahrengutstransporter
+    Naturschutzgebiet
+101 -----
+102 Die Fahrzeuge in Richtung des roten Pfeiles haben Vorrang vor dem Gegenverkehr
+    Dem Gegenverkehr Vorrang gewähren!
+    Gegenverkehr
+    Einbahnstraße (weißer Pfeil)
+    Einbahnstraße (roter Pfeil)
+103 Parken auf dem Gehweg erlaubt
+    Parkverbot
+    Pannenhilfe
+104 Parkverbot auf dem Gehweg
+    Seitenstreifen befahren erlaubt
+    Parkplatz, der nur bei Pannen oder Notfällen benutzt werden darf
+    Fahrzeuge und Anhänger bis 3,5 t zulässiger Gesamtmasse dürfen auf dem Gehweg parken
+105 Parken und Rasten
+    Pausieren und Rasten
+    Pausieren und Reisen
+106 Parkplatz mit Anschluss an den öffentlichen Nahverkehr
+    Gebührenpflichtiger Parkplatz mit Anschluss an den öffentlichen Nahverkehr
+    Gebührenpflichtiger Parkplatz, der in erster Linie für Wanderer gedacht ist
+    Jugendherberge mit eigenem Parkplatz
+    Autobahn-Hotel mit eigenem Parkplatz
+107 Fußgängerzone
+    Spielplatz
+    Sportplatz
+    Schule oder Kindergarten
+108 -----
+109 Unübersichtliche Ausfahrt
+    Sackgasse
+    Tunnelausfahrt
+110 Straßenausbuchtung, die zum Rasten benutzt werden darf
+    Straßenausbuchtung, die von LKW- und Busfahrern zum Rasten benutzt werden darf
+    Straßenausbuchtung, die langsame Fahrzeuge benutzen können um den schnelleren Verkehr vorbei zu lassen
+    Parken auf dem Gehweg erlaubt
+    Parkplatz nur für Fahrräder
+111 Kraftfahrstraße
+    Straße, die nur von Fahrzeugen, die eine Höchstgeschwindigkeit > 50 km/h haben, befahren werden darf
+    Straße, die nur von Fahrzeugen, die eine Höchstgeschwindigkeit > 70 km/h haben, befahren werden darf
+    Straße, die nur von Fahrzeugen, die eine Höchstgeschwindigkeit > 80 km/h haben, befahren werden darf
+112 -----
+113 Autobahn
+    Straße, die nur von Fahrzeugen, die eine Höchstgeschwindigkeit > 60 km/h haben, befahren werden darf
+    Straße, die nur von Fahrzeugen, die eine Höchstgeschwindigkeit > 50 km/h haben, befahren werden darf
+114 ---
+115 Verbot für Fußgänger
+    Fußgängerzone
+    Straße nur für Fußgänger
+116 Sonderweg für Gespannfuhrwerke
+    Achtung, Gespannfuhrwerke!
+    Verbot für Gespannfuhrwerke und Reiter
+117 Verbot für Fahrzeuge, die wassergefährdende Stoffe transportieren
+    Verbot für Fahrzeuge, die einer bestimmten Schadstoffgruppe zugehören
+    Verbot für Gefahrengutstransporter
+118 Fußgänger müssen durch die Unterführung auf die andere Straßenseite wechseln
+    Baufällige Treppe! Nicht für Kinder!
+    Wanderweg
+    Zugang zur U-Bahn
+119 -----
+120 Tunnel
+    Verbot geradeaus zu fahren
+    Straße gesperrt
+    Baustelle
+121 Notrufsäule
+    Krankenhaus
+    Rotes Kreuz Zentrum
+122 Parkplatz, der bei Pannen benutzt werden darf
+    Straßenausbuchtung, die bei Pannen benutzt werden darf
+    Schneeketten-Verkauf und -Montage
+123 Notrufsäule
+    Fremdenverkehrsbüro oder Auskunftsstelle
+    Erste Hilfe
+    Polizei
+124 -----
+125 -----
+126 Telefon
+    Erste Hilfe
+    Polizei
+    Pannendienst
+127 -----
+128 -----
+129 -----
+130 -----
+131 Weg für selbstfahrende Arbeitsgeräte und langsame Fahrzeuge
+    Achtung, langsame Fahrzeuge!
+    Parkverbot für selbstfahrende Arbeitsgeräte
+132 Vorgeschriebene Fahrtrichtung – links
+    Verbot links abzubiegen
+    Kreuzung mit Rechtsvorfahrt
+    Kreuzung mit Linksvorfahrt
+133 -----
+134 -----
+135 -----
+136 -----
+137 Bahnübergang in 320m!
+    Bahnübergang in 250m!
+    Bahnübergang in 200m!
+    Bahnübergang in 160m!
+138 Bahnübergang in 240m!
+    Bahnübergang in 200m!
+    Bahnübergang in 150m!
+    Bahnübergang in 120m!
+139 Bahnübergang in 160m!
+    Bahnübergang in 150m!
+    Bahnübergang in 120m!
+    Bahnübergang in 100m!
+140 Vorfahrtstraße
+    Einmündung mit Vorfahrt von rechts
+    Verbot rechts abzubiegen
+141 Achtung Kreisverkehr! (linksrum einfahren)
+    Wendelstraße nach unten - Licht anschalten
+    Verbot in dieser Straße zu wenden
+    Vorgeschriebene Vorbeifahrt – rechts vorbei
+142 Beschrankter Bahnübergang
+    Unbeschrankter Bahnübergang
+    Verbot für Straßenbahn und Omnibusse
+    Park and Ride
+143 Schneewehen
+    Baustelle
+    Schleudergefahr bei Nässe oder Schmutz
+144 Verbot für Fahrzeuge über der angegebenen Masse
+    Verbot für Fahrzeuge über der angegebenen Achslast
+    Verbot für Fahrzeuge mit einer Ladung über der angegebenen Masse
+145 Ende des Hupverbots
+    Motor beim Anhalten abstellen!
+    Straße, die nur von geräuscharmen Fahrzeugen benutzt werden darf
+    Krankenhausbereich! Bitte Ruhe!
+146 Verbot für Gefahrengutstransporter
+    Achtung, Fahrzeuge mit Sprengstoff!
+    Sonderweg für Fahrzeuge mit Sprengstoff
+147 Einmündung von rechts gesperrt
+    Ende des Rechtsabiegen-Verbots
+    Wenden (nach rechts drehend) verboten
+148 Einmündung von links gesperrt
+    Ende des Linksabiegen-Verbots
+    Wenden (nach links drehend) verboten
+149 Vorgeschriebene Fahrtrichtung - rechts und links
+    Verbot nach rechts oder links abzubiegen
+    Unebene Straße (an beiden Rändern hängend)
+    Beidseitige Einmündungen mit gefährlichem Gefälle
+150 Vorgeschriebene Fahrtrichtung - geradeaus
+    Vorrang vor dem Gegenverkehr
+    Weiterfahren, ohne anzuhalten!
+151 Verbot der Einfahrt
+    Halt! Vorfahrt gewähren!
+    Windmühlen
+    Allgemeine Gefahrenstelle
+    Bahnübergang (ein- oder mehrgleisig)
+152 Verbot der Einfahrt
+    Halt! Vorfahrt gewähren!
+    Allgemeine Gefahrenstelle
+    Bahnübergang (ein- oder mehrgleisig)
+153 Verbot für Omnibusse
+    Achtung, Kraftomnibusse!
+    Parkplatz nur für Omnibusse
+    Bussonderfahrstreifen
+154 Unübersichtliche Ausfahrt
+    Sackgasse
+    Tunnelausfahrt
+155 Bushaltestelle
+    Autobahn-Hotel
+    Taxihaltestelle
+    Erste Hilfe
+156 Achtung, Straßenbahn!
+    Bahnhof
+    Parkplatz für Zugreisende

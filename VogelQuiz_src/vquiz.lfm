@@ -1,0 +1,272 @@
+object fVQ: TfVQ
+  Left = 263
+  Height = 446
+  Top = 152
+  Width = 723
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Vogelquiz'
+  ClientHeight = 421
+  ClientWidth = 723
+  DesignTimePPI = 120
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object imBird: TImage
+    Left = 10
+    Height = 400
+    Top = 10
+    Width = 400
+    Center = True
+  end
+  object edName1: TEdit
+    Left = 424
+    Height = 31
+    Top = 56
+    Width = 188
+    Color = clAqua
+    Font.Height = -17
+    ParentFont = False
+    TabStop = False
+    TabOrder = 1
+    Text = 'Spieler 1'
+  end
+  object edScore1: TEdit
+    Left = 624
+    Height = 31
+    Top = 56
+    Width = 88
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object edName2: TEdit
+    Left = 424
+    Height = 31
+    Top = 96
+    Width = 188
+    Enabled = False
+    Font.Height = -17
+    ParentFont = False
+    TabStop = False
+    TabOrder = 3
+    Text = 'Spieler 2'
+  end
+  object edScore2: TEdit
+    Left = 624
+    Height = 31
+    Top = 96
+    Width = 88
+    Alignment = taRightJustify
+    Enabled = False
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object cobBirds: TComboBox
+    Left = 424
+    Height = 31
+    Top = 152
+    Width = 288
+    Font.Height = -17
+    ItemHeight = 23
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 5
+  end
+  object btStart: TButton
+    Left = 618
+    Height = 31
+    Top = 379
+    Width = 94
+    Caption = 'Start'
+    OnClick = btStartClick
+    TabOrder = 0
+  end
+  object edAnswer: TEdit
+    Left = 424
+    Height = 31
+    Top = 200
+    Width = 288
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 6
+  end
+  object edAnswer2: TEdit
+    Left = 424
+    Height = 31
+    Top = 240
+    Width = 288
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 7
+  end
+  object stQuiz: TStaticText
+    Left = 424
+    Height = 21
+    Top = 10
+    Width = 225
+    Caption = 'QUIZ'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 8
+  end
+  object stSlide: TStaticText
+    Left = 424
+    Height = 21
+    Top = 304
+    Width = 225
+    Caption = 'DIA'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 9
+    Visible = False
+  end
+  object edSlide: TEdit
+    Left = 424
+    Height = 31
+    Top = 336
+    Width = 288
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 10
+    Visible = False
+  end
+  object btPause: TButton
+    Left = 512
+    Height = 31
+    Top = 379
+    Width = 94
+    Caption = 'Pause'
+    OnClick = btPauseClick
+    TabOrder = 11
+    Visible = False
+  end
+  object mMenu: TMainMenu
+    left = 24
+    top = 24
+    object mFile: TMenuItem
+      Caption = 'Datei'
+      object mFileNew: TMenuItem
+        Caption = 'Neuer Quiz'
+        OnClick = mFileNewClick
+      end
+      object mFileSlideshow: TMenuItem
+        Caption = 'Vogel-Diashow'
+        OnClick = mFileSlideshowClick
+      end
+      object mFileExit: TMenuItem
+        Caption = 'Verlassen'
+        OnClick = mFileExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Einstellungen'
+      object mSettingsPlayers: TMenuItem
+        Caption = 'Anzahl der Spieler'
+        object mSettingsPlayers1: TMenuItem
+          Caption = '1 Spieler'
+          Checked = True
+          OnClick = mSettingsPlayers1Click
+        end
+        object mSettingsPlayers2: TMenuItem
+          Caption = '2 Spieler'
+          OnClick = mSettingsPlayers2Click
+        end
+      end
+      object mSettingsLevel: TMenuItem
+        Caption = 'Schwierigkeitsgrad'
+        object mSettingsLevel1: TMenuItem
+          Caption = 'Level 1'
+          OnClick = mSettingsLevel1Click
+        end
+        object mSettingsLevel2: TMenuItem
+          Caption = 'Level 2'
+          Checked = True
+          OnClick = mSettingsLevel2Click
+        end
+        object mSettingsLevel3: TMenuItem
+          Caption = 'Level 3'
+          OnClick = mSettingsLevel3Click
+        end
+        object mSettingsLevel4: TMenuItem
+          Caption = 'Level 4'
+          OnClick = mSettingsLevel4Click
+        end
+        object mSettingsLevelX: TMenuItem
+          Caption = 'Exotik-Vögel'
+          OnClick = mSettingsLevelXClick
+        end
+      end
+      object mSettingsLanguage: TMenuItem
+        Caption = 'Sprache für Vögelnamen'
+        object mSettingsLanguageGer: TMenuItem
+          Caption = 'Deutsch'
+          Checked = True
+          OnClick = mSettingsLanguageGerClick
+        end
+        object mSettingsLanguageEng: TMenuItem
+          Caption = 'Englisch'
+          OnClick = mSettingsLanguageEngClick
+        end
+      end
+      object mSettingsShortNames: TMenuItem
+        Caption = 'Vögel-Kurznamen'
+        Checked = True
+        OnClick = mSettingsShortNamesClick
+      end
+      object mSettingsShortNamesEng: TMenuItem
+        Caption = 'Vereinfachte engl. Namen'
+        Checked = True
+        OnClick = mSettingsShortNamesEngClick
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object mSettingsSlideshow: TMenuItem
+        Caption = 'Diashow Zeitintervall'
+        object mSettingsSlideshow1: TMenuItem
+          Caption = '1,0 sec'
+          OnClick = mSettingsSlideshow1Click
+        end
+        object mSettingsSlideshow2: TMenuItem
+          Caption = '1,5 sec'
+          Checked = True
+          OnClick = mSettingsSlideshow2Click
+        end
+        object mSettingsSlideshow3: TMenuItem
+          Caption = '2,0 sec'
+          OnClick = mSettingsSlideshow3Click
+        end
+        object mSettingsSlideshow4: TMenuItem
+          Caption = '3,0 sec'
+          OnClick = mSettingsSlideshow4Click
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Hilfe'
+      object mHelpHelp: TMenuItem
+        Caption = 'Hilfe'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'Über'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object tiVQ: TTimer
+    Enabled = False
+    Interval = 1500
+    OnTimer = tiVQTimer
+    left = 88
+    top = 24
+  end
+end

@@ -1,0 +1,226 @@
+object fMorse2: TfMorse2
+  Left = 260
+  Height = 492
+  Top = 84
+  Width = 729
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'International Morse Code'
+  ClientHeight = 467
+  ClientWidth = 729
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  OnMouseEnter = FormMouseEnter
+  LCLVersion = '1.8.4.0'
+  object sgLetters1: TStringGrid
+    Left = 16
+    Height = 312
+    Top = 104
+    Width = 133
+    ColCount = 2
+    FixedCols = 0
+    Font.Height = -13
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 14
+    TabOrder = 3
+    TabStop = False
+    TitleFont.Height = -13
+    TitleFont.Name = 'Consolas'
+    ColWidths = (
+      51
+      78
+    )
+    Cells = (
+      2
+      0
+      0
+      'Letter'
+      1
+      0
+      'Morse code'
+    )
+  end
+  object Label1: TLabel
+    Left = 128
+    Height = 23
+    Top = 64
+    Width = 51
+    Caption = 'Letters'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object StaticText1: TStaticText
+    Left = 233
+    Height = 24
+    Top = 16
+    Width = 262
+    Alignment = taCenter
+    Caption = 'Morse code alphabet.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object sgNumbers: TStringGrid
+    Left = 376
+    Height = 246
+    Top = 104
+    Width = 133
+    ColCount = 2
+    FixedCols = 0
+    Font.Height = -13
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 11
+    TabOrder = 1
+    TabStop = False
+    TitleFont.Height = -13
+    TitleFont.Name = 'Consolas'
+    ColWidths = (
+      51
+      78
+    )
+    Cells = (
+      2
+      0
+      0
+      'Number'
+      1
+      0
+      'Morse code'
+    )
+  end
+  object Label2: TLabel
+    Left = 407
+    Height = 23
+    Top = 64
+    Width = 70
+    Caption = 'Numbers'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object sgMarks: TStringGrid
+    Left = 581
+    Height = 356
+    Top = 104
+    Width = 133
+    ColCount = 2
+    FixedCols = 0
+    Font.Height = -13
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 16
+    TabOrder = 0
+    TabStop = False
+    TitleFont.Height = -13
+    TitleFont.Name = 'Consolas'
+    ColWidths = (
+      51
+      78
+    )
+    Cells = (
+      2
+      0
+      0
+      ' Mark'
+      1
+      0
+      'Morse code'
+    )
+  end
+  object Label3: TLabel
+    Left = 576
+    Height = 23
+    Top = 64
+    Width = 143
+    Caption = 'Punctuation marks'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object sgLetters2: TStringGrid
+    Left = 168
+    Height = 312
+    Top = 104
+    Width = 133
+    ColCount = 2
+    FixedCols = 0
+    Font.Height = -13
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 14
+    TabOrder = 2
+    TabStop = False
+    TitleFont.Height = -13
+    TitleFont.Name = 'Consolas'
+    ColWidths = (
+      51
+      78
+    )
+    Cells = (
+      2
+      0
+      0
+      'Letter'
+      1
+      0
+      'Morse code'
+    )
+  end
+  object mMenu: TMainMenu
+    left = 32
+    top = 8
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileText: TMenuItem
+        Caption = 'Text conversion'
+        OnClick = mFileTextClick
+      end
+      object mFileMorse: TMenuItem
+        Caption = 'Morse code conversion'
+        OnClick = mFileMorseClick
+      end
+      object mFileTest1: TMenuItem
+        Caption = 'Character to morse test'
+        OnClick = mFileTest1Click
+      end
+      object mFileTest2: TMenuItem
+        Caption = 'Morse to character test'
+        OnClick = mFileTest2Click
+      end
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsLDash: TMenuItem
+        Caption = 'Longer dash duration'
+        OnClick = mSettingsLDashClick
+      end
+      object mSettingsLWSep: TMenuItem
+        Caption = 'Longer word separation'
+        OnClick = mSettingsLWSepClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

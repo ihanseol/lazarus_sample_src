@@ -1,0 +1,4 @@
+Bacteria=Escherichia coli
+Nutrient=glucose at 37 ºC
+R=1.35
+A=4 (mg/l)

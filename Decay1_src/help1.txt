@@ -1,0 +1,83 @@
+Nuclear physics: Radioactive decay.
+***********************************
+
+Atomic substructure. Nuclei and isotopes.
+=========================================
+
+Elements are chemical substances, formed by one or sometimes several same atoms. An atom may be considered as a nucleus (formed by protons and neutrons) and electrons "turning around" the nucleus. All properties of a nucleus are determined by the number of protons and neutrons it has. A specific combination of protons and neutrons is called a nuclide and is a unique nucleus.
+
+A particular nuclide may be represented by the notation ZX-A, where Z is the element's atomic number (corresponding to the number of protons and for an uncharged atom also to the number of electrons), X the element's symbol and A its mass number, as given in the periodic table of elements. In fact, the correct notation consists in placing Z and A at the left of the element's symbol, with Z being written as subscript and A as superscript; sometimes, the number of neutrons (N = A - Z) is placed as subscript at the right of the element's symbol.
+
+Whereas the number of protons for an uncharged atom is always the same (a given X always having the same Z), the number of neutrons (and thus the mass number) may change. Nuclei, having the same Z and different Ns, are defined to be isotopes of the same element. Some of these isotopes are natural (existing in our natural environment), others are synthetically created.
+
+Nuclear radioactivity. Decay types.
+===================================
+
+Some nuclides are stable, apparently living forever. Others are unstable (radioactive). Radioactive nuclides decay, that means produce new nuclides (normally of another element), by the way emitting small paricles (for example electrons). We call the original nuclide the parent and its decay products the daughters. Some radioactive nuclides decay in a single step to a stable nucleus. For example, Co-60 is unstable and decays directly to Ni-60, which is stable. Others, such as U-238, decay to another unstable nuclide, resulting in a decay series in which each subsequent nuclide decays until a stable nuclide is finally produced. The U-238 decay series ends with Pb-206, a stable isotope of lead.
+
+There are several types of radioactive decay, caracterized by the radiation (particles) that they emit:
+
+ - alpha decay (α): emission of a 2He-4 nucleus.
+ - beta decay: decay, where electrons (e-) or positrons (e+) are involved:
+    - β- decay: emission of an electron.
+    - β+ decay: emission of a positron.
+    - ε (EC) decay: capture of an electron.
+ - gamma decay (γ): emission of energetic photons by nuclei left in an excited state by some earlier process.
+
+Other, more special types of decay are IC (internal conversion) and SF (spontaneous fission).
+
+α decay.
+========
+
+In α decay, a He-4 nucleus breaks away from the parent nucleus, leaving a daughter with two fewer protons and two fewer neutrons than the parent. General form of the α decay equation:
+
+  ZX-A → (Z-2)Y-(A-4) + 2He-4
+
+or, being more complete and considering N:
+
+  [ZX-A]N → [(Z-2)Y-(A-4)](N-2) + [2He-4]2.
+
+Example: 94Pu-239 → 92U-235 + 2He-4
+
+β- decay.
+=========
+
+In β- decay (electron emission), there is emission of two small particles: an electron (normally noted β- instead of e-) and an electron’s antineutrino (noted as a bared Greek letter nu and a subscript e placed at the right of the ν). The bar indicates, that this is a particle of antimatter. In fact, all particles have antimatter counterparts that are nearly identical, except that they have the opposite charge. Antimatter is almost entirely absent on Earth, but it is found in nuclear decay and other nuclear and particle reactions as well as in outer space. General form of the β- decay equation:
+
+  ZX-A → (Z+1)Y-A + β- + ṽ (with ṽ for the antineutrino)
+
+or, being more complete and considering N:
+
+  ZX-A → [(Z+1)Y-A](N-1) + β- + ṽ
+
+To understand the daughter's values for Z, A and N, consider the equation:
+
+  n → p + β− + ṽ (with n for a neutron and p for a proton)
+
+Example: 27Co-60 → 28Ni-60 + β- + ṽ
+
+β+ decay.
+=========
+
+In β+ decay (antielectron or positron decay), there is emission of two small particles: a positron (normally noted β+ instead of e+) and an electron’s neutrino (noted as a Greek letter nu and a subscript e placed at the right of the ν). Antielectrons are the antimatter counterpart to electrons, being nearly identical, having the same mass, spin, and so on, but having a positive charge. General form of the β- decay equation:
+
+  ZX-A → (Z-1)Y-A + β+ + v (with v for the neutrino)
+
+or, being more complete and considering N:
+
+  ZX-A → [(Z-1)Y-A](N+1) + β+ + v
+
+Example: 11Na-22 → 10Ne-22 + β+ + v
+
+ε decay.
+========
+
+In ε decay (electron capture), a nucleus captures an inner-shell electron and undergoes a nuclear reaction that has the same effect as β+ decay. We know that electrons cannot reside in the nucleus, but this is a nuclear reaction that consumes the electron and occurs spontaneously only when the products have less mass than the parent plus the electron.General form of the ε decay equation:
+
+  ZX-A + e- → (Z-1)Y-A + v
+
+or, being more complete and considering N:
+
+  ZX-A + e- → [(Z-1)Y-A](N+1) + v
+
+Example: 20Ca-41 + e- → 19K-41 + v

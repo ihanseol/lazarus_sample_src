@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="eququad.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="12" HistoryIndex="11">
+      <Position1>
+        <Filename Value="eququad.lpr"/>
+        <Caret Line="25" Column="22"/>
+      </Position1>
+      <Position2>
+        <Filename Value="eququad.lpr"/>
+        <Caret Line="16" Column="17" TopLine="9"/>
+      </Position2>
+      <Position3>
+        <Filename Value="eququad.lpr"/>
+        <Caret Line="59" Column="21" TopLine="40"/>
+      </Position3>
+      <Position4>
+        <Filename Value="eququad.lpr"/>
+        <Caret Line="94" Column="56" TopLine="76"/>
+      </Position4>
+      <Position5>
+        <Filename Value="eququad.lpr"/>
+        <Caret Line="167" TopLine="126"/>
+      </Position5>
+      <Position6>
+        <Filename Value="eququad.lpr"/>
+        <Caret Line="3" Column="40"/>
+      </Position6>
+      <Position7>
+        <Filename Value="eququad.lpr"/>
+        <Caret Line="136" Column="10" TopLine="132"/>
+      </Position7>
+      <Position8>
+        <Filename Value="eququad.lpr"/>
+        <Caret Line="66" Column="80" TopLine="57"/>
+      </Position8>
+      <Position9>
+        <Filename Value="eququad.lpr"/>
+        <Caret Line="43" Column="104" TopLine="32"/>
+      </Position9>
+      <Position10>
+        <Filename Value="eququad.lpr"/>
+        <Caret Line="75" Column="6" TopLine="64"/>
+      </Position10>
+      <Position11>
+        <Filename Value="eququad.lpr"/>
+        <Caret Line="10" Column="65"/>
+      </Position11>
+      <Position12>
+        <Filename Value="eququad.lpr"/>
+        <Caret Line="3"/>
+      </Position12>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

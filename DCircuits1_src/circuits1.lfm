@@ -1,0 +1,367 @@
+object DCircuits1Form: TDCircuits1Form
+  Left = 262
+  Height = 531
+  Top = 146
+  Width = 638
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Electrical circuits: Ohm''s Law'
+  ClientHeight = 506
+  ClientWidth = 638
+  DesignTimePPI = 120
+  Menu = MenuDCircuits1
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object Image: TImage
+    Left = 16
+    Height = 350
+    Top = 72
+    Width = 480
+    Center = True
+  end
+  object Title: TStaticText
+    Left = 16
+    Height = 46
+    Top = 8
+    Width = 478
+    Caption = 'Ohm''s Law'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 10
+  end
+  object Label1: TLabel
+    Left = 528
+    Height = 17
+    Top = 76
+    Width = 9
+    Caption = 'U'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object EditU: TEdit
+    Left = 552
+    Height = 25
+    Hint = 'Battery voltage'
+    Top = 72
+    Width = 72
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 528
+    Height = 17
+    Top = 116
+    Width = 3
+    Caption = 'I'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object EditI: TEdit
+    Left = 552
+    Height = 25
+    Hint = 'Total current'
+    Top = 112
+    Width = 72
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 528
+    Height = 17
+    Top = 156
+    Width = 15
+    Caption = 'R1'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object EditR1: TEdit
+    Left = 552
+    Height = 25
+    Hint = 'Resistance 1'
+    Top = 152
+    Width = 72
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Left = 528
+    Height = 17
+    Top = 196
+    Width = 15
+    Caption = 'R2'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object EditR2: TEdit
+    Left = 552
+    Height = 25
+    Hint = 'Resistance 2'
+    Top = 192
+    Width = 72
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
+  end
+  object Label5: TLabel
+    Left = 528
+    Height = 17
+    Top = 236
+    Width = 8
+    Caption = 'R'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object EditR: TEdit
+    Left = 552
+    Height = 25
+    Hint = 'Total resistance'
+    Top = 232
+    Width = 72
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 4
+  end
+  object Label6: TLabel
+    Left = 528
+    Height = 17
+    Top = 276
+    Width = 16
+    Caption = 'U1'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object EditU1: TEdit
+    Left = 552
+    Height = 25
+    Hint = 'Resistance 1 voltage'
+    Top = 272
+    Width = 72
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 5
+  end
+  object Label7: TLabel
+    Left = 528
+    Height = 17
+    Top = 316
+    Width = 10
+    Caption = 'I1'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object EditI1: TEdit
+    Left = 552
+    Height = 25
+    Hint = 'Resistance 1 current'
+    Top = 312
+    Width = 72
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 6
+  end
+  object Label8: TLabel
+    Left = 528
+    Height = 17
+    Top = 356
+    Width = 16
+    Caption = 'U2'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object EditU2: TEdit
+    Left = 552
+    Height = 25
+    Hint = 'Resistance 2 voltage'
+    Top = 352
+    Width = 72
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 7
+  end
+  object Label9: TLabel
+    Left = 528
+    Height = 17
+    Top = 398
+    Width = 10
+    Caption = 'I2'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object EditI2: TEdit
+    Left = 552
+    Height = 25
+    Hint = 'Resistance 2 current'
+    Top = 394
+    Width = 72
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 8
+  end
+  object Button: TButton
+    Left = 552
+    Height = 28
+    Top = 463
+    Width = 72
+    Caption = 'Start'
+    OnClick = ButtonClick
+    TabOrder = 9
+  end
+  object Label10: TLabel
+    Left = 16
+    Height = 17
+    Top = 467
+    Width = 97
+    Caption = 'Correct answers'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object AnswersCorrect: TEdit
+    Left = 120
+    Height = 25
+    Top = 463
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object Label11: TLabel
+    Left = 256
+    Height = 17
+    Top = 467
+    Width = 46
+    Caption = 'Success'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object AnswersSuccess: TEdit
+    Left = 310
+    Height = 25
+    Top = 464
+    Width = 56
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object AnswersPic: TImage
+    Left = 512
+    Height = 28
+    Top = 463
+    Width = 28
+    Center = True
+  end
+  object MenuDCircuits1: TMainMenu
+    left = 72
+    top = 360
+    object MenuTest: TMenuItem
+      Caption = 'Test'
+      object MenuTestNew: TMenuItem
+        Caption = 'New'
+        OnClick = MenuTestNewClick
+      end
+      object MenuTestExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = MenuTestExitClick
+      end
+    end
+    object MenuCircuits: TMenuItem
+      Caption = 'Circuits'
+      object MenuCircuitsSimple: TMenuItem
+        Caption = 'Simple'
+        Checked = True
+        OnClick = MenuCircuitsSimpleClick
+      end
+      object MenuCircuitsSeries: TMenuItem
+        Caption = 'Series'
+        Checked = True
+        OnClick = MenuCircuitsSeriesClick
+      end
+      object MenuCircuitsParallel: TMenuItem
+        Caption = 'Parallel'
+        Checked = True
+        OnClick = MenuCircuitsParallelClick
+      end
+    end
+    object MenuOptions: TMenuItem
+      Caption = 'Options'
+      object MenuOptionsView: TMenuItem
+        Caption = 'View results'
+        OnClick = MenuOptionsViewClick
+      end
+    end
+    object MenuHelp: TMenuItem
+      Caption = 'Help'
+      object MenuHelpPhysics: TMenuItem
+        Caption = 'Physics'
+        OnClick = MenuHelpPhysicsClick
+      end
+      object MenuHelpProgram: TMenuItem
+        Caption = 'Program'
+        OnClick = MenuHelpProgramClick
+      end
+      object MenuHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = MenuHelpAboutClick
+      end
+    end
+  end
+  object PopupAbout: TPopupNotifier
+    Color = 14483455
+    Icon.Data = {
+      07544269746D617000000000
+    }
+    Text = 'Text'
+    Title = 'Ohm''s Law - About'
+    Visible = False
+    left = 432
+    top = 360
+  end
+end

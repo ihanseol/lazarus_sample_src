@@ -1,0 +1,294 @@
+object fAAPolarity: TfAAPolarity
+  Left = 45
+  Height = 413
+  Top = 141
+  Width = 1314
+  BorderIcons = [biSystemMenu]
+  Caption = 'Proteins: Amino acids by polarity'
+  ClientHeight = 413
+  ClientWidth = 1314
+  DesignTimePPI = 120
+  OnActivate = FormActivate
+  LCLVersion = '1.8.4.0'
+  object sgCounts: TStringGrid
+    Left = 10
+    Height = 85
+    Top = 96
+    Width = 209
+    ColCount = 3
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 3
+    TabOrder = 1
+    TabStop = False
+    TitleFont.Height = -15
+    TitleFont.Name = 'Consolas'
+    ColWidths = (
+      73
+      74
+      58
+    )
+    RowHeights = (
+      27
+      27
+      27
+    )
+    Cells = (
+      5
+      0
+      0
+      'Polarity'
+      0
+      1
+      'polar'
+      0
+      2
+      'nonpolar'
+      1
+      0
+      '  Count'
+      2
+      0
+      '  %'
+    )
+  end
+  object stProtein: TStaticText
+    Left = 10
+    Height = 21
+    Top = 16
+    Width = 1282
+    Caption = 'Unknown protein'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object laClassification: TLabel
+    Left = 10
+    Height = 23
+    Top = 56
+    Width = 178
+    Caption = 'Amino acids by polarity'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object sgCounts2: TStringGrid
+    Left = 10
+    Height = 139
+    Top = 200
+    Width = 302
+    ColCount = 4
+    FixedCols = 2
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    ParentFont = False
+    TabOrder = 0
+    TabStop = False
+    TitleFont.Height = -15
+    TitleFont.Name = 'Consolas'
+    ColWidths = (
+      73
+      90
+      77
+      58
+    )
+    RowHeights = (
+      27
+      27
+      27
+      27
+      27
+    )
+    Cells = (
+      10
+      0
+      0
+      'Polarity'
+      0
+      1
+      'polar'
+      0
+      4
+      'nonpolar'
+      1
+      0
+      'Charge'
+      1
+      1
+      'positive'
+      1
+      2
+      'negative'
+      1
+      3
+      'uncharged'
+      1
+      4
+      'uncharged'
+      2
+      0
+      '  Count'
+      3
+      0
+      '  %'
+    )
+  end
+  object chPercents: TChart
+    Left = 1008
+    Height = 300
+    Top = 56
+    Width = 300
+    AxisList = <    
+      item
+        Visible = False
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Visible = False
+        Alignment = calBottom
+        Marks.LabelBrush.Style = bsClear
+        Marks.Source = lcsLabels
+        Minors = <>
+        Title.LabelBrush.Style = bsClear
+      end>
+    BackColor = clCream
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    object chPercentsPies: TPieSeries
+    end
+  end
+  object chCounts: TChart
+    Left = 336
+    Height = 318
+    Top = 56
+    Width = 240
+    AxisList = <    
+      item
+        Visible = False
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Grid.Visible = False
+        Alignment = calBottom
+        Marks.Format = '%2:s'
+        Marks.LabelBrush.Style = bsClear
+        Marks.Range.Max = 2
+        Marks.Range.Min = 1
+        Marks.Range.UseMax = True
+        Marks.Range.UseMin = True
+        Marks.Source = lcsLabels
+        Marks.Style = smsLabel
+        Minors = <>
+        Range.Max = 3
+        Range.UseMax = True
+        Range.UseMin = True
+        Title.LabelBrush.Style = bsClear
+      end>
+    BackColor = clCream
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    object chBarCounts: TBarSeries
+      BarBrush.Color = clBlue
+      BarWidthStyle = bwPercentMin
+      Source = lcsData
+    end
+  end
+  object btClose: TButton
+    Left = 1214
+    Height = 31
+    Top = 368
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 5
+  end
+  object chCounts2: TChart
+    Left = 600
+    Height = 318
+    Top = 56
+    Width = 384
+    AxisList = <    
+      item
+        Visible = False
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Grid.Visible = False
+        Alignment = calBottom
+        Marks.Format = '%2:s'
+        Marks.LabelBrush.Style = bsClear
+        Marks.Range.Max = 4
+        Marks.Range.Min = 1
+        Marks.Range.UseMax = True
+        Marks.Range.UseMin = True
+        Marks.Source = lcsLabels2
+        Marks.Style = smsLabel
+        Minors = <>
+        Range.Max = 5
+        Range.UseMax = True
+        Range.UseMin = True
+        Title.LabelBrush.Style = bsClear
+      end>
+    BackColor = clCream
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    object chBarCounts2: TBarSeries
+      BarBrush.Color = clBlue
+      BarWidthStyle = bwPercentMin
+      Source = lcsData2
+    end
+  end
+  object lcsData: TListChartSource
+    left = 1168
+    top = 80
+  end
+  object lcsLabels: TListChartSource
+    DataPoints.Strings = (
+      '1|1|$0000FF|polar'
+      '2|2|$FFFFFF|nonpolar'
+    )
+    left = 1168
+    top = 168
+  end
+  object lcsData2: TListChartSource
+    left = 1248
+    top = 80
+  end
+  object lcsLabels2: TListChartSource
+    DataPoints.Strings = (
+      '1|1|$0080FF|polar pos.'
+      '2|2|$8000FF|polar neg.'
+      '3|3|$8080FF|polar unch.'
+      '4|4|$FFFFFF|nonpolar'
+    )
+    left = 1248
+    top = 168
+  end
+end

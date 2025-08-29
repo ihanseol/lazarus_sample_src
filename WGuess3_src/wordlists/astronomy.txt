@@ -1,0 +1,142 @@
+aeronautics
+alpha centauri
+andromeda
+antiplanet
+antistar
+apoapsis
+ascension
+asteroid
+astral
+astrobiology
+astrochemistry
+astrodynamics
+astrogeology
+astronautics
+astronavigation
+astronomical clock
+astronomical telescope
+astroparticle physics
+astrostatistics
+atmosphere
+aurora
+autumnal equinox
+barycenter
+beta centauri
+big bang
+black hole
+brown dwarf
+calendar
+celestial body
+celestial dynamics
+celestial latitude
+celestial longitude
+celestial object
+circumstellar disk
+constellation
+copernican system
+cosmic inflation
+cosmochemistry
+cosmos
+dark matter
+dark nebula
+dwarf galaxy
+dwarf planet
+electromagnetic radiation
+elliptical galaxy
+equinoctial point
+equinox
+europe
+exocomet
+exoplanet
+extragalactic
+extragalactic nebula
+extrasolar planet
+extraterrestrial
+fix star
+galaxy
+galileo galilei
+general relativity
+geocentric model
+giant star
+gravity
+heliocentrism
+heliosphere
+inferior conjunction
+infrared
+interplanetary space
+interstellar dust
+interstellar gas
+interstellar planet
+isaac newton
+johannes kepler
+jupiter
+lunar eclipses
+magellanic cloud
+mercury
+meteor
+meteoroid
+meteor shower
+molecular cloud
+nebula
+neptune
+nicolaus copernicus
+night sky
+omega centauri
+optical telescope
+orbital
+particle physics
+periapsis
+perihelion
+photon
+photosphere
+planetary body
+planetary nebula
+planetary object
+planetary system
+planetoid
+planet
+proxima centauri
+quantum mechanics
+quantum physics
+quark star
+radial velocity
+red dwarf
+reflecting telescope
+refracting telescope
+relativity theory
+right ascension
+rocket
+satellite
+saturn
+solar mass
+solar wind
+space observatory
+space technology
+space telescope
+spiral galaxy
+starcraft
+stardust
+star formation
+stargaze
+starquake
+starship
+star system
+stellar dynamics
+stellar evolution
+sunspot
+supercluster
+superior conjunction
+supernova
+superplanet
+superstar
+telescope
+terrestrial time
+tidal acceleration
+transorbital
+ultraviolet
+universe
+vernal equinox
+vortex
+wander star
+wavelength
+white hole

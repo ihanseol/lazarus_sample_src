@@ -1,0 +1,100 @@
+absorber       R to absorb
+acceder        R to access
+atraer         i to attract, to charm
+beber          R to drink
+caber          I to fit
+caer           I to fall, to drop
+ceder          R to give, to yield
+comer          R to eat
+cometer        R to commit
+comprender     R to understand, to comprehend
+comprometer    R to compromise, to engage
+conceder       R to grant, to award
+conmover       s to move, to stir
+contender      s to fight, to quarrel
+contener       i to contain, to retain
+contraer       i to contract, to get
+correr         R to run, to race
+corresponder   R to correspond, to reciprocate
+corromper      R to corrupt, to defile
+coser          R to sew, to stitch
+creer          s to believe, to think
+deber          R should, must
+defender       s to defend, to uphold
+demoler        s to demolish, to tear down
+depender       R to depend, to rely
+desatender     s to neglect, to disregard
+deshacer       i to undo, to dissolve
+desprender     R to detach, to release
+detener        i to stop, to halt
+devolver       s to return, to repay
+disolver       s to dissolve, to disperse
+disponer       i to provide, to lay out
+distraer       i to distract, divert
+doler          s to hurt, to pain
+emprender      R to undertake, to begin
+entender       s to understand
+entretener     i to entertain, to amuse
+envolver       s to wrap, to engage
+esconder       R to hide, to conceal
+exceder        R to exceed, to surpass
+exponer        i to expose, to exhibit
+extender       s to extend, to spread
+extraer        i to remove, to extract
+haber          I to have
+hacer          I to do, to make
+imponer        i to impose, to force
+interceder     R to intercede, to intervene
+lamer          R to lick
+leer           S to read
+malentender    s to misunderstand
+mantener       i to maintain, to keep
+meter          R to put, to pop
+morder         s to bite, to chew
+mover          S to move, to shift
+oler           I to smell, to sniff
+oponer         i to oppose, to refuse
+perder         S to loose, to miss
+poder          I to be able, can
+poner          I to put, to place
+poseer         s to possess, to own
+posponer       i to postpone, to put off
+prender        R to turn on, to fire
+pretender      R to pretend, to intend
+proceder       R to proceed, to move on
+prometer       R to promise, to vow
+promover       s to promote
+proponer       i to propose, to suggest
+proveer        s to provide, to supply
+querer         I to want, to like
+recaer         i to relapse, to revert
+recorrer       R to travel, to tour
+remover        s to move, to transfer, to remove
+repeler        R to repel, to fight
+reponer        i to replenish, to replace
+resolver       s to resolve, to solve
+responder      R to respond, to answer
+retener        i to retain, to hold
+retraer        i to retract
+retroceder     R to back, to retreat
+romper         R to break, to crack
+saber          I to know, to know how
+satisfacer     i to satisfy
+ser            I to be
+socorrer       R to help, to assist
+someter        R to submit, to subject
+sostener       i to sustain, to support
+suceder        R to happen, to occur
+suponer        i to assume, to suppose
+suspender      R to suspend, to stop
+sustraer       i to subtract, to abstract
+tejer          R to weave, to knit
+temer          R to fear, to dread
+tender         s to tend, to extend
+tener          I to have, to hold
+toser          R to cough
+traer          I to bring, to carry
+valer          I to be worth, to cost
+vender         T to sell
+ver            I to see, to view
+volver         s to return, to go back

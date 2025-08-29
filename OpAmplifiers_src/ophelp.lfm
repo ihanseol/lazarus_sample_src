@@ -1,0 +1,89 @@
+object fHelp: TfHelp
+  Left = 236
+  Height = 669
+  Top = 94
+  Width = 1046
+  BorderIcons = [biSystemMenu]
+  Caption = 'Operational amplifiers'
+  ClientHeight = 669
+  ClientWidth = 1046
+  DesignTimePPI = 120
+  Font.Height = -17
+  LCLVersion = '2.0.10.0'
+  object Memo1: TMemo
+    Left = 10
+    Height = 606
+    Top = 10
+    Width = 1028
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"OpAmplifiers" program help.'
+      '============================'
+      ''
+      '"OpAmplifiers" is a simple electronics program, showing common linear and non-linear applications of operational amplifiers. The user may choose the values of circuits components (mostly the resistances) and then, by modifying the input voltage(s) observe the effect on the op-amp''s output. The circuit to study is selected in the main window; a new window opens for each particular op-amp application.'
+      ''
+      'All applications (except the astable multivibrator) have in common one or more input voltages to be entered. The usual way to do this is to use the trackbar(s). These allow to enter values between -15V and +15V (between 0V and 15V for the comparator application), by steps of 0.05V (arrow key) or 0.5V (page key or mouse click). Note, that the trackbar will only react after the "Start" button has been pushed; the resistances may only be modified after pushing "Stop". A second way to enter the voltage is to disable the trackbar in the "Options" menu and enter any value (within the -15V to +15V limits) manually.'
+      ''
+      'The following help text describes some program-related aspects of the application''s op-amp circuits. For details, in particular the formulas used to calculate the output voltage and other relevant values, please have a look at "Electronics help".'
+      ''
+      'Inverting amplifiers.'
+      '====================='
+      ''
+      'The amplified output voltage is proportional to the input voltage, with a proportionality constant −Rf/R1 set by the two resistors. The minus sign means that the signal is inverted. As well increasing as reducing the input signal is possible.'
+      ''
+      'Such circuits allow to amplify a voltage by any amplification factor, the only limitation being that Vsat- ≤ Vout ≤ Vsat+. This limitation also applies to the other linear op-amp applications. If Vout exceeds the limits, the program displays a warning message (and sets Vout to ±Vsat).'
+      ''
+      'Non-inverting amplifiers.'
+      '========================='
+      ''
+      'The amplified output voltage is proportional to the input voltage, with a proportionality constant 1+(R2/R1) set by the two resistors. The output signal is in phase with the input (not inverted). With this type of amplifier you can only increase (never reduce) the input signal.'
+      ''
+      ''
+      'Adder circuits.'
+      '==============='
+      ''
+      'An adder circuit gives us a weighted sum of the input voltages with the weighting determined by the resistor values. If we want a simple unweighted sum, we simply choose all the resistor values to be the same. Note, that the adder circuits'' output signal is inverted.'
+      ''
+      'Adder circuits may have any number of inputs, each of them adding the value Vi∙(Rf/Ri) to the output. The "OpAmplifiers" application lets the user choose between 2 or 3 input voltages ("Options" menu).'
+      ''
+      'Differential amplifiers.'
+      '========================'
+      ''
+      'Differential amplifiers can be used to subtract two voltages. The output voltage gives the difference between the voltage at the non-inverting and the inverting input, weighted by the factor R2/R1. For R1 = R2, the circuit acts as a real voltage subtractor.'
+      ''
+      'Comparators.'
+      '============'
+      ''
+      'Comparators are circuits where the input voltage is compared to a preset value. If it is higher, the output saturates to Vsat+; if it is lower, the output saturates to Vsat-.'
+      ''
+      'In order to saturate the output, a minimum voltage difference must exist between the op-amps inputs. For the LM741 used in the application, this difference is 70µV. Using manual input, you can try entering an input voltage less than 70µV above or below the compare voltage; in this case, the output voltage will be the amplified difference between the non-inverting and the inverting op-amp inputs (the Aol value of the LM741 being about 200000).'
+      ''
+      'Astable multivibrators.'
+      '======================='
+      ''
+      'An astable multivibrator is a circuit, that has an output oscillating periodically between two states. In the case of an op-amp based astable multivibrator these states are Vsat+ and Vsat-. If the output current flows through to 2 LEDs, connected in opposite directions, you get an alternate LED blinker.'
+      ''
+      'The moment, where the circuit switches from one state into the other, is reached, when the voltage at the inverting input (i.e. the voltage of the capacitor) exceeds the voltage at the non-inverting input. Thus, the oscillation period (and the LEDs blinking frequency) depends:'
+      '  1. on the switch voltage (determined by R1 and R2).'
+      '  2. on the charging time of the capacitor (determined by Rf and C). '
+      'Example: for R1 = R2 = Rf = 1kΩ and C = 470µF, the LEDs blinking frequency is 0.97Hz (thus, green LED on for about 0.5sec, red LED on for about 0.5sec and so on).'
+      ''
+      'Note that VB has a stable value (with sign depending on Vout), which is a portion of ±Vsat; this is also the value of VA, for which the oscillator switches its state. VA is the charging voltage of the capacitor, thus, varies exponentially in time.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 944
+    Height = 31
+    Top = 632
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

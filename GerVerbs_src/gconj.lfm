@@ -1,0 +1,193 @@
+object fConj: TfConj
+  Left = 290
+  Height = 645
+  Top = 120
+  Width = 942
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Konjugation: Deutsche Verben'
+  ClientHeight = 645
+  ClientWidth = 942
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object StaticText1: TStaticText
+    Left = 10
+    Height = 29
+    Top = 80
+    Width = 150
+    Caption = 'Präsens'
+    Font.Height = -18
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object sgConjPT: TStringGrid
+    Left = 10
+    Height = 112
+    Top = 120
+    Width = 925
+    ColCount = 3
+    Font.Height = -17
+    ParentFont = False
+    RowCount = 4
+    TabOrder = 2
+    TabStop = False
+    TitleFont.Height = -17
+    ColWidths = (
+      96
+      413
+      412
+    )
+    RowHeights = (
+      27
+      27
+      27
+      27
+    )
+    Cells = (
+      5
+      0
+      1
+      '1. Person'
+      0
+      2
+      '2. Person'
+      0
+      3
+      '3. Person'
+      1
+      0
+      'Singular'
+      2
+      0
+      'Plural'
+    )
+  end
+  object btClose: TButton
+    Left = 841
+    Height = 31
+    Top = 608
+    Width = 94
+    Caption = 'Schließen'
+    OnClick = btCloseClick
+    TabOrder = 1
+  end
+  object StaticText2: TStaticText
+    Left = 10
+    Height = 29
+    Top = 256
+    Width = 150
+    Caption = 'Präteritum'
+    Font.Height = -18
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+  end
+  object StaticText3: TStaticText
+    Left = 10
+    Height = 29
+    Top = 432
+    Width = 150
+    Caption = 'Perfekt'
+    Font.Height = -18
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 6
+  end
+  object sgConjSP: TStringGrid
+    Left = 10
+    Height = 112
+    Top = 296
+    Width = 925
+    ColCount = 3
+    Font.Height = -17
+    ParentFont = False
+    RowCount = 4
+    TabOrder = 3
+    TabStop = False
+    TitleFont.Height = -17
+    ColWidths = (
+      96
+      413
+      412
+    )
+    RowHeights = (
+      27
+      27
+      27
+      27
+    )
+    Cells = (
+      5
+      0
+      1
+      '1. Person'
+      0
+      2
+      '2. Person'
+      0
+      3
+      '3. Person'
+      1
+      0
+      'Singular'
+      2
+      0
+      'Plural'
+    )
+  end
+  object sgConjPF: TStringGrid
+    Left = 10
+    Height = 112
+    Top = 472
+    Width = 925
+    ColCount = 3
+    Font.Height = -17
+    ParentFont = False
+    RowCount = 4
+    TabOrder = 4
+    TabStop = False
+    TitleFont.Height = -17
+    ColWidths = (
+      96
+      412
+      412
+    )
+    RowHeights = (
+      27
+      27
+      27
+      27
+    )
+    Cells = (
+      5
+      0
+      1
+      '1. Person'
+      0
+      2
+      '2. Person'
+      0
+      3
+      '3. Person'
+      1
+      0
+      'Singular'
+      2
+      0
+      'Plural'
+    )
+  end
+  object stTitle: TStaticText
+    Left = 24
+    Height = 32
+    Top = 24
+    Width = 895
+    Alignment = taCenter
+    Caption = 'Konjugation.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 7
+  end
+end

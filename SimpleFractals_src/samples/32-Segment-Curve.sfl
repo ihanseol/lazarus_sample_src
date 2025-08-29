@@ -1,0 +1,9 @@
+# 32-Segment-Curve
+
+origin = (350,200)
+displacement = 4
+
+axiom = "0F+1F+2F+3F"
+rules = { "F": "-F+F-F-F+F+FF-F+F+FF+F-F-FF+FF-FF+F+F-FF-F-F+FF-F-F+F+F-F+" }
+iterations = 2
+angle = 90

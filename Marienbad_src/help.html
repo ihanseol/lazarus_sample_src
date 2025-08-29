@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <title>Marienbad help</title>
+  <meta name="description" content="Help text for Lazarus/Free Pascal application 'Marienbad'"/>
+  <style type="text/css"><!--
+    a:link { color:#000000; text-decoration: none }
+    a:hover { font-weight: bold }
+  //--></style>
+</head>
+
+<body style="margin: 0; padding: 0; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.9em; background-color: #FFEBCD; color: #000000;">
+  <div id="nav" style="float: left; padding: 8px; width: 15%; position: fixed">
+  <p style="text-decoration: underline">
+    <a href="#top">Content:</a>
+  </p>
+  <p style="padding-top:10px">
+    <a href="#game">Menu: Game</a>
+  </p>
+  <p>
+    <a href="#options">Menu: Options</a>
+  </p>
+  <p>
+    <a href="#help">Menu: Help</a>
+  </p>
+  <p style="padding-top:10px">
+    <a href="#run">Playing the game</a>
+  </p>
+  <p style="padding-top:10px">
+    <a href="#strength">Computer strength</a>
+  </p>
+  <p style="padding-top:10px">
+    <a href="#contact">Contact</a>
+  </p>
+  </div>
+  <div id="content" style="float: right; padding: 8px; width: 85%; background-color: #FFF8DC">
+  <a name="top"><h1 style="margin: 0; padding: 0"><span style="font-style: italic">Marienbad</span> Help.</h1></a>
+  <p style="padding-top:10px; text-align: justify">
+    The Marienbad game is a variant of the classic Nim game and the application <span style="font-style: italic">Marienbad</span> is a free implementation of this game for PC.
+    The rules of Marienbad are as follows:
+    <ul>
+      <li>16 matches are placed in 4 rows (on 4 heaps), the number of matches per row being respectively: 1, 3, 5, 7.</li>
+      <li>The two players alternately remove one or more matches.</li>
+      <li>Matches may only be removed from a single row.</li>
+      <li>It is up to the player to decide how many matches they take: at least one, at most all (the whole row).</li>
+      <li>In one of the versions of the game (called <span style="font-style: italic">Nim</span> variant in the application), the player, who takes the last match, wins.</li>
+      <li>In another version of the game (called <span style="font-style: italic">Misere</span> variant in the application), the player, who takes the last match, looses.</li>
+    </ul>
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="game">Menu: Game.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration: underline">
+    New.
+  </p>
+  <p style="text-align: justify">
+    Start a new Marienbad game with the options actually selected.
+  </p>
+  <p style="padding-top:5px; text-decoration: underline">
+    Exit.
+  </p>
+  <p style="text-align: justify">
+    Exit the <span style="font-style: italic">Marienbad</span> application.
+  </p>
+  <p style="padding-top:10px; font-weight: bold; text-decoration:underline">
+    <a name="options">Menu: Options.</a>
+  </p>
+  <p style="padding-top:5px">
+    Game options, in particular if you want to play the <span style="font-style: italic">Nim</span> or the <span style="font-style: italic">Misere</span> variant of the game.
+    Note, that new settings in the options menu only become active, after a new game has been started in the <span style="font-style: italic">New</span> menu.
+  </p>
+  <p style="padding-top:5px; text-decoration: underline">
+    Game variant.
+  </p>
+  <p style="text-align: justify">
+    Select, if you want to play the <span style="font-style: italic">Nim</span> variant (last match wins) or the <span style="font-style: italic">Misere</span> variant (last
+    match looses). Default at application startup: Nim.
+  </p>
+  <p style="padding-top:5px; text-decoration: underline">
+    Computer strength.
+  </p>
+  <p style="text-align: justify">
+    Select the strength (level) with which the application should play. Possible options: Beginner, Intermediate, Expert (cf. <a href="#strength"><span
+    style="color: blue; text-decoration: underline">Computer strength</span></a> for details). Default at application startup: Intermediate.
+  </p>
+  <p style="padding-top:5px; text-decoration: underline">
+    First move.
+  </p>
+  <p style="text-align: justify">
+    Select who should move first. Possible options: Computer (the program), Player (yourself) and Random (the application randomly chooses if the program or the player plays first).
+    Default at application startup: Computer.
+  </p>
+  <p style="padding-top:5px; text-decoration: underline">
+    Matches removal.
+  </p>
+  <p style="text-align: justify">
+    Select, what happens if you remove a match. If <span style="font-style: italic">Remove</span> is selected, the match is effectively removed; using this option makes the
+    application look more realistic (as if you played with real matches). If <span style="font-style: italic">Strike through</span> is selected, the match remains where it was,
+    but is stroked through to mark that it has been removed; using this option, makes it easier to mentally calculate the Nim sums in order to determine the winning move. But,
+    it has another advantage, offering an <span style="font-weight: bold">Undo functionality</span> (cf. <a href="#run"><span style="color: blue; text-decoration:
+    underline">Playing the game</a> for details). Default at application startup: Strike through.
+  </p>
+  <p style="padding-top:10px; font-weight: bold; text-decoration:underline">
+    <a name="help">Menu: Help.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration: underline">
+    Help.
+  </p>
+  <p style="text-align: justify">
+    Displays usage help for the <span style="font-style: italic">Marienbad</span> application (this text) in your web browser.
+  </p>
+  <p style="padding-top:5px; text-decoration: underline">
+    About.
+  </p>
+  <p style="text-align: justify">
+    Displays version, author and date-written of the <span style="font-style: italic">Marienbad</span> application.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="run">Playing the game.</a>
+  </p>
+  <p style="padding-top:5px; text-align: justify">
+    Select the game settings (in particular if you want to play the <span style="font-style: italic">Nim</span> or the <span style="font-style: italic">Misere</span> variant)
+    and choose <span style="font-style: italic">New</span> in the <span style="font-style: italic">Game</span> menu. If the computer plays first, push the <span style="font-style:
+    italic">Start</span> button to make the computer make the move. If the player plays first, and after the first computer move, the button is labeled <span style="font-style:
+    italic">Nim</span>. Click the matches, that you want to remove. If <span style="font-style: italic">Matches removal</span> is set to <span style="font-style:
+    italic">Remove</span>, the clicked match is removed, otherwise it is stroked through with a red bar (cf. below). When you are done, push the <span style="font-style:
+    italic">Nim</span> button. If the last match has been removed, you are told if you win or loose, otherwise the computer (immediately, without any button push) makes the
+    next move. If this removes the last match, you are told who wins, otherwise, it's your turn again.
+  </p>
+  <p style="text-align: justify">
+    If <span style="font-style: italic">Matches removal</span> is set to <span style="font-style: italic">Strike through</span>, the removed matches remain present, but are
+    stroked through with a colored bar. Matches removed by the computer are marked with a blue bar, matches actually being removed by the player with a red one, matches that
+    have been removed by the player during the previous turns by a black one. The <span style="font-style: italic">Strike through</span> display includes an <span
+    style="font-weight: bold">Undo functionality</span>: If you click a match actually removed (i.e. marked with a red color bar), the removal is undone, the match being
+    made part of the game again.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="strength">Computer strength.</a>
+  </p>
+  <p style="padding-top:5px; text-align: justify">
+    The Nim game in general and the Marienbad game in particular are games where one of the players, when playing without making any mistake, always wins (thus, the other one
+    always looses). For both variants of Marienbad, <span style="font-weight: bold">the player, who starts the game, will always loose, if the other player makes the optimal
+    moves</span>. Marienbad may be mathematically solved and so it is possible to write a winning algorithm, that allows the computer to win all games, where the player makes
+    the first move. To give the player a possibility to win such games, the program must support several game levels, where the computer plays with different strength. Except
+    for the full strength level, the program more or less often makes a mistake, by making a <span style="font-weight: bold">random move</span> instead of making the one, that
+    would win the game.
+  </p>
+  <p style="text-align: justify">
+    The <span style="font-style: italic">Marienbad</span> PC application allows to make the computer play with one of three different strengths:
+    <ul>
+      <li style="text-align: justify"><span style="font-weight: bold">Expert</span>: The computer plays at full strength (following the winning algorithm for all moves). Thus,
+      if the player starts the game, they always loose; if the computer starts the game, the player wins if they play without mistake, but making one single mistake, the computer
+      will win the game.</li>
+      <li style="text-align: justify"><span style="font-weight: bold">Beginner</span>: This level, intended for people that never played Nim before or for young children, is
+      somewhat the contrary of  <span style="font-style: italic">Expert</span>: The program makes random moves during the entire game and the player has all chances to win. Not
+      entirely true: If there is one single row of matches left and the number of matches is such that the program will win when making the correct move, it will make it.</li>
+      <li style="text-align: justify"><span style="font-weight: bold">Intermediate</span>: Strong players would probably prefer to play the game with the computer beginning the
+      game and playing at full strength, giving them the possibility to always win, but only if they play without making any mistake. Less strong players should select the <span
+      style="font-style: italic">Intermediate</span> computer strength. Except, towards the end of the game, the program makes at a ca 50% ratio a random move (and, if there
+      actually is one, the winning move for the other 50%). When there are only two rows of matches left or when all rows contain exactly one match, the program doesn't make
+      random moves anymore, i.e. plays at the full strength.</li>
+    </ul>
+  </p>
+  <p style="padding-top:5px; font-weight:bold; text-decoration:underline">
+    <a name="contact">Contact the author.</a>
+  </p>
+  <p style="padding-top:5px; text-align: justify">
+    For any suggestions or comments, please send me an <a href="mailto:info@streetinfo.lu"><span style="color: blue; text-decoration: underline">email</span></a>. This is in
+    particular true, if you should win a game in the case where the program plays with <span style="font-style: italic">Expert</span> strength and you made the first move. This
+    should not be possible and if it nevertheless happened, it would mean that there is a bug in my winning algorithm.
+  </p><br/><br/>
+  </div>
+</body>
+
+</html>

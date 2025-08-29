@@ -1,0 +1,2369 @@
+object fWords: TfWords
+  Left = 85
+  Height = 630
+  Top = 50
+  Width = 663
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Wörterrätsel'
+  ClientHeight = 605
+  ClientWidth = 663
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object StaticText1: TStaticText
+    Left = 149
+    Height = 30
+    Top = 10
+    Width = 369
+    Alignment = taCenter
+    Caption = 'Wörterrätsel'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object shLetter1: TShape
+    Left = 8
+    Height = 40
+    Top = 64
+    Width = 40
+    OnMouseDown = shLetter1MouseDown
+  end
+  object Label1: TLabel
+    Left = 23
+    Height = 23
+    Top = 73
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter2: TShape
+    Left = 48
+    Height = 40
+    Top = 64
+    Width = 40
+    OnMouseDown = shLetter2MouseDown
+  end
+  object Label2: TLabel
+    Left = 63
+    Height = 23
+    Top = 73
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter3: TShape
+    Left = 88
+    Height = 40
+    Top = 64
+    Width = 40
+    OnMouseDown = shLetter3MouseDown
+  end
+  object Label3: TLabel
+    Left = 103
+    Height = 23
+    Top = 73
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter4: TShape
+    Left = 128
+    Height = 40
+    Top = 64
+    Width = 40
+    OnMouseDown = shLetter4MouseDown
+  end
+  object Label4: TLabel
+    Left = 143
+    Height = 23
+    Top = 73
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter5: TShape
+    Left = 168
+    Height = 40
+    Top = 64
+    Width = 40
+    OnMouseDown = shLetter5MouseDown
+  end
+  object Label5: TLabel
+    Left = 183
+    Height = 23
+    Top = 73
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter6: TShape
+    Left = 208
+    Height = 40
+    Top = 64
+    Width = 40
+    OnMouseDown = shLetter6MouseDown
+  end
+  object Label6: TLabel
+    Left = 223
+    Height = 23
+    Top = 73
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter7: TShape
+    Left = 248
+    Height = 40
+    Top = 64
+    Width = 40
+    OnMouseDown = shLetter7MouseDown
+  end
+  object Label7: TLabel
+    Left = 263
+    Height = 23
+    Top = 73
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter8: TShape
+    Left = 288
+    Height = 40
+    Top = 64
+    Width = 40
+    OnMouseDown = shLetter8MouseDown
+  end
+  object Label8: TLabel
+    Left = 303
+    Height = 23
+    Top = 73
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter9: TShape
+    Left = 328
+    Height = 40
+    Top = 64
+    Width = 40
+    OnMouseDown = shLetter9MouseDown
+  end
+  object Label9: TLabel
+    Left = 343
+    Height = 23
+    Top = 73
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter10: TShape
+    Left = 368
+    Height = 40
+    Top = 64
+    Width = 40
+    OnMouseDown = shLetter10MouseDown
+  end
+  object Label10: TLabel
+    Left = 383
+    Height = 23
+    Top = 73
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter11: TShape
+    Left = 408
+    Height = 40
+    Top = 64
+    Width = 40
+    OnMouseDown = shLetter11MouseDown
+  end
+  object Label11: TLabel
+    Left = 423
+    Height = 23
+    Top = 73
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter12: TShape
+    Left = 448
+    Height = 40
+    Top = 64
+    Width = 40
+    OnMouseDown = shLetter12MouseDown
+  end
+  object Label12: TLabel
+    Left = 463
+    Height = 23
+    Top = 73
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter13: TShape
+    Left = 8
+    Height = 40
+    Top = 104
+    Width = 40
+    OnMouseDown = shLetter13MouseDown
+  end
+  object Label13: TLabel
+    Left = 23
+    Height = 23
+    Top = 113
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter14: TShape
+    Left = 48
+    Height = 40
+    Top = 104
+    Width = 40
+    OnMouseDown = shLetter14MouseDown
+  end
+  object Label14: TLabel
+    Left = 63
+    Height = 23
+    Top = 113
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter15: TShape
+    Left = 88
+    Height = 40
+    Top = 104
+    Width = 40
+    OnMouseDown = shLetter15MouseDown
+  end
+  object Label15: TLabel
+    Left = 103
+    Height = 23
+    Top = 113
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter16: TShape
+    Left = 128
+    Height = 40
+    Top = 104
+    Width = 40
+    OnMouseDown = shLetter16MouseDown
+  end
+  object Label16: TLabel
+    Left = 143
+    Height = 23
+    Top = 113
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter17: TShape
+    Left = 168
+    Height = 40
+    Top = 104
+    Width = 40
+    OnMouseDown = shLetter17MouseDown
+  end
+  object Label17: TLabel
+    Left = 183
+    Height = 23
+    Top = 113
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter18: TShape
+    Left = 208
+    Height = 40
+    Top = 104
+    Width = 40
+    OnMouseDown = shLetter18MouseDown
+  end
+  object Label18: TLabel
+    Left = 223
+    Height = 23
+    Top = 113
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter19: TShape
+    Left = 248
+    Height = 40
+    Top = 104
+    Width = 40
+    OnMouseDown = shLetter19MouseDown
+  end
+  object Label19: TLabel
+    Left = 263
+    Height = 23
+    Top = 113
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter20: TShape
+    Left = 288
+    Height = 40
+    Top = 104
+    Width = 40
+    OnMouseDown = shLetter20MouseDown
+  end
+  object Label20: TLabel
+    Left = 303
+    Height = 23
+    Top = 113
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter21: TShape
+    Left = 328
+    Height = 40
+    Top = 104
+    Width = 40
+    OnMouseDown = shLetter21MouseDown
+  end
+  object Label21: TLabel
+    Left = 343
+    Height = 23
+    Top = 113
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter22: TShape
+    Left = 368
+    Height = 40
+    Top = 104
+    Width = 40
+    OnMouseDown = shLetter22MouseDown
+  end
+  object Label22: TLabel
+    Left = 383
+    Height = 23
+    Top = 113
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter23: TShape
+    Left = 408
+    Height = 40
+    Top = 104
+    Width = 40
+    OnMouseDown = shLetter23MouseDown
+  end
+  object Label23: TLabel
+    Left = 423
+    Height = 23
+    Top = 113
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter24: TShape
+    Left = 448
+    Height = 40
+    Top = 104
+    Width = 40
+    OnMouseDown = shLetter24MouseDown
+  end
+  object Label24: TLabel
+    Left = 463
+    Height = 23
+    Top = 113
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter25: TShape
+    Left = 8
+    Height = 40
+    Top = 144
+    Width = 40
+    OnMouseDown = shLetter25MouseDown
+  end
+  object Label25: TLabel
+    Left = 23
+    Height = 23
+    Top = 153
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter26: TShape
+    Left = 48
+    Height = 40
+    Top = 144
+    Width = 40
+    OnMouseDown = shLetter26MouseDown
+  end
+  object Label26: TLabel
+    Left = 63
+    Height = 23
+    Top = 153
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter27: TShape
+    Left = 88
+    Height = 40
+    Top = 144
+    Width = 40
+    OnMouseDown = shLetter27MouseDown
+  end
+  object Label27: TLabel
+    Left = 103
+    Height = 23
+    Top = 153
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter28: TShape
+    Left = 128
+    Height = 40
+    Top = 144
+    Width = 40
+    OnMouseDown = shLetter28MouseDown
+  end
+  object Label28: TLabel
+    Left = 143
+    Height = 23
+    Top = 153
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter29: TShape
+    Left = 168
+    Height = 40
+    Top = 144
+    Width = 40
+    OnMouseDown = shLetter29MouseDown
+  end
+  object Label29: TLabel
+    Left = 183
+    Height = 23
+    Top = 153
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter30: TShape
+    Left = 208
+    Height = 40
+    Top = 144
+    Width = 40
+    OnMouseDown = shLetter30MouseDown
+  end
+  object Label30: TLabel
+    Left = 223
+    Height = 23
+    Top = 153
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter31: TShape
+    Left = 248
+    Height = 40
+    Top = 144
+    Width = 40
+    OnMouseDown = shLetter31MouseDown
+  end
+  object Label31: TLabel
+    Left = 263
+    Height = 23
+    Top = 153
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter32: TShape
+    Left = 288
+    Height = 40
+    Top = 144
+    Width = 40
+    OnMouseDown = shLetter32MouseDown
+  end
+  object Label32: TLabel
+    Left = 303
+    Height = 23
+    Top = 153
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter33: TShape
+    Left = 328
+    Height = 40
+    Top = 144
+    Width = 40
+    OnMouseDown = shLetter33MouseDown
+  end
+  object Label33: TLabel
+    Left = 343
+    Height = 23
+    Top = 153
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter34: TShape
+    Left = 368
+    Height = 40
+    Top = 144
+    Width = 40
+    OnMouseDown = shLetter34MouseDown
+  end
+  object Label34: TLabel
+    Left = 383
+    Height = 23
+    Top = 153
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter35: TShape
+    Left = 408
+    Height = 40
+    Top = 144
+    Width = 40
+    OnMouseDown = shLetter35MouseDown
+  end
+  object Label35: TLabel
+    Left = 423
+    Height = 23
+    Top = 153
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter36: TShape
+    Left = 448
+    Height = 40
+    Top = 144
+    Width = 40
+    OnMouseDown = shLetter36MouseDown
+  end
+  object Label36: TLabel
+    Left = 463
+    Height = 23
+    Top = 153
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter37: TShape
+    Left = 8
+    Height = 40
+    Top = 184
+    Width = 40
+    OnMouseDown = shLetter37MouseDown
+  end
+  object Label37: TLabel
+    Left = 23
+    Height = 23
+    Top = 193
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter38: TShape
+    Left = 48
+    Height = 40
+    Top = 184
+    Width = 40
+    OnMouseDown = shLetter38MouseDown
+  end
+  object Label38: TLabel
+    Left = 63
+    Height = 23
+    Top = 193
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter39: TShape
+    Left = 88
+    Height = 40
+    Top = 184
+    Width = 40
+    OnMouseDown = shLetter39MouseDown
+  end
+  object Label39: TLabel
+    Left = 103
+    Height = 23
+    Top = 193
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter40: TShape
+    Left = 128
+    Height = 40
+    Top = 184
+    Width = 40
+    OnMouseDown = shLetter40MouseDown
+  end
+  object Label40: TLabel
+    Left = 143
+    Height = 23
+    Top = 193
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter41: TShape
+    Left = 168
+    Height = 40
+    Top = 184
+    Width = 40
+    OnMouseDown = shLetter41MouseDown
+  end
+  object Label41: TLabel
+    Left = 183
+    Height = 23
+    Top = 193
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter42: TShape
+    Left = 208
+    Height = 40
+    Top = 184
+    Width = 40
+    OnMouseDown = shLetter42MouseDown
+  end
+  object Label42: TLabel
+    Left = 223
+    Height = 23
+    Top = 193
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter43: TShape
+    Left = 248
+    Height = 40
+    Top = 184
+    Width = 40
+    OnMouseDown = shLetter43MouseDown
+  end
+  object Label43: TLabel
+    Left = 263
+    Height = 23
+    Top = 193
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter44: TShape
+    Left = 288
+    Height = 40
+    Top = 184
+    Width = 40
+    OnMouseDown = shLetter44MouseDown
+  end
+  object Label44: TLabel
+    Left = 303
+    Height = 23
+    Top = 193
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter45: TShape
+    Left = 328
+    Height = 40
+    Top = 184
+    Width = 40
+    OnMouseDown = shLetter45MouseDown
+  end
+  object Label45: TLabel
+    Left = 343
+    Height = 23
+    Top = 193
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter46: TShape
+    Left = 368
+    Height = 40
+    Top = 184
+    Width = 40
+    OnMouseDown = shLetter46MouseDown
+  end
+  object Label46: TLabel
+    Left = 383
+    Height = 23
+    Top = 193
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter47: TShape
+    Left = 408
+    Height = 40
+    Top = 184
+    Width = 40
+    OnMouseDown = shLetter47MouseDown
+  end
+  object Label47: TLabel
+    Left = 423
+    Height = 23
+    Top = 193
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter48: TShape
+    Left = 448
+    Height = 40
+    Top = 184
+    Width = 40
+    OnMouseDown = shLetter48MouseDown
+  end
+  object Label48: TLabel
+    Left = 463
+    Height = 23
+    Top = 193
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter49: TShape
+    Left = 8
+    Height = 40
+    Top = 224
+    Width = 40
+    OnMouseDown = shLetter49MouseDown
+  end
+  object Label49: TLabel
+    Left = 23
+    Height = 23
+    Top = 233
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter50: TShape
+    Left = 48
+    Height = 40
+    Top = 224
+    Width = 40
+    OnMouseDown = shLetter50MouseDown
+  end
+  object Label50: TLabel
+    Left = 63
+    Height = 23
+    Top = 233
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter51: TShape
+    Left = 88
+    Height = 40
+    Top = 224
+    Width = 40
+    OnMouseDown = shLetter51MouseDown
+  end
+  object Label51: TLabel
+    Left = 103
+    Height = 23
+    Top = 233
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter52: TShape
+    Left = 128
+    Height = 40
+    Top = 224
+    Width = 40
+    OnMouseDown = shLetter52MouseDown
+  end
+  object Label52: TLabel
+    Left = 143
+    Height = 23
+    Top = 233
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter53: TShape
+    Left = 168
+    Height = 40
+    Top = 224
+    Width = 40
+    OnMouseDown = shLetter53MouseDown
+  end
+  object Label53: TLabel
+    Left = 183
+    Height = 23
+    Top = 233
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter54: TShape
+    Left = 208
+    Height = 40
+    Top = 224
+    Width = 40
+    OnMouseDown = shLetter54MouseDown
+  end
+  object Label54: TLabel
+    Left = 223
+    Height = 23
+    Top = 233
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter55: TShape
+    Left = 248
+    Height = 40
+    Top = 224
+    Width = 40
+    OnMouseDown = shLetter55MouseDown
+  end
+  object Label55: TLabel
+    Left = 263
+    Height = 23
+    Top = 233
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter56: TShape
+    Left = 288
+    Height = 40
+    Top = 224
+    Width = 40
+    OnMouseDown = shLetter56MouseDown
+  end
+  object Label56: TLabel
+    Left = 303
+    Height = 23
+    Top = 233
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter57: TShape
+    Left = 328
+    Height = 40
+    Top = 224
+    Width = 40
+    OnMouseDown = shLetter57MouseDown
+  end
+  object Label57: TLabel
+    Left = 343
+    Height = 23
+    Top = 233
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter58: TShape
+    Left = 368
+    Height = 40
+    Top = 224
+    Width = 40
+    OnMouseDown = shLetter58MouseDown
+  end
+  object Label58: TLabel
+    Left = 383
+    Height = 23
+    Top = 233
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter59: TShape
+    Left = 408
+    Height = 40
+    Top = 224
+    Width = 40
+    OnMouseDown = shLetter59MouseDown
+  end
+  object Label59: TLabel
+    Left = 423
+    Height = 23
+    Top = 233
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter60: TShape
+    Left = 448
+    Height = 40
+    Top = 224
+    Width = 40
+    OnMouseDown = shLetter60MouseDown
+  end
+  object Label60: TLabel
+    Left = 463
+    Height = 23
+    Top = 233
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter61: TShape
+    Left = 8
+    Height = 40
+    Top = 264
+    Width = 40
+    OnMouseDown = shLetter61MouseDown
+  end
+  object Label61: TLabel
+    Left = 23
+    Height = 23
+    Top = 273
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter62: TShape
+    Left = 48
+    Height = 40
+    Top = 264
+    Width = 40
+    OnMouseDown = shLetter62MouseDown
+  end
+  object Label62: TLabel
+    Left = 63
+    Height = 23
+    Top = 273
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter63: TShape
+    Left = 88
+    Height = 40
+    Top = 264
+    Width = 40
+    OnMouseDown = shLetter63MouseDown
+  end
+  object Label63: TLabel
+    Left = 103
+    Height = 23
+    Top = 273
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter64: TShape
+    Left = 128
+    Height = 40
+    Top = 264
+    Width = 40
+    OnMouseDown = shLetter64MouseDown
+  end
+  object Label64: TLabel
+    Left = 143
+    Height = 23
+    Top = 273
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter65: TShape
+    Left = 168
+    Height = 40
+    Top = 264
+    Width = 40
+    OnMouseDown = shLetter65MouseDown
+  end
+  object Label65: TLabel
+    Left = 183
+    Height = 23
+    Top = 273
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter66: TShape
+    Left = 208
+    Height = 40
+    Top = 264
+    Width = 40
+    OnMouseDown = shLetter66MouseDown
+  end
+  object Label66: TLabel
+    Left = 223
+    Height = 23
+    Top = 273
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter67: TShape
+    Left = 248
+    Height = 40
+    Top = 264
+    Width = 40
+    OnMouseDown = shLetter67MouseDown
+  end
+  object Label67: TLabel
+    Left = 263
+    Height = 23
+    Top = 273
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter68: TShape
+    Left = 288
+    Height = 40
+    Top = 264
+    Width = 40
+    OnMouseDown = shLetter68MouseDown
+  end
+  object Label68: TLabel
+    Left = 303
+    Height = 23
+    Top = 273
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter69: TShape
+    Left = 328
+    Height = 40
+    Top = 264
+    Width = 40
+    OnMouseDown = shLetter69MouseDown
+  end
+  object Label69: TLabel
+    Left = 343
+    Height = 23
+    Top = 273
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter70: TShape
+    Left = 368
+    Height = 40
+    Top = 264
+    Width = 40
+    OnMouseDown = shLetter70MouseDown
+  end
+  object Label70: TLabel
+    Left = 383
+    Height = 23
+    Top = 273
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter71: TShape
+    Left = 408
+    Height = 40
+    Top = 264
+    Width = 40
+    OnMouseDown = shLetter71MouseDown
+  end
+  object Label71: TLabel
+    Left = 423
+    Height = 23
+    Top = 273
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter72: TShape
+    Left = 448
+    Height = 40
+    Top = 264
+    Width = 40
+    OnMouseDown = shLetter72MouseDown
+  end
+  object Label72: TLabel
+    Left = 463
+    Height = 23
+    Top = 273
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter73: TShape
+    Left = 8
+    Height = 40
+    Top = 304
+    Width = 40
+    OnMouseDown = shLetter73MouseDown
+  end
+  object Label73: TLabel
+    Left = 23
+    Height = 23
+    Top = 313
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter74: TShape
+    Left = 48
+    Height = 40
+    Top = 304
+    Width = 40
+    OnMouseDown = shLetter74MouseDown
+  end
+  object Label74: TLabel
+    Left = 63
+    Height = 23
+    Top = 313
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter75: TShape
+    Left = 88
+    Height = 40
+    Top = 304
+    Width = 40
+    OnMouseDown = shLetter75MouseDown
+  end
+  object Label75: TLabel
+    Left = 103
+    Height = 23
+    Top = 313
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter76: TShape
+    Left = 128
+    Height = 40
+    Top = 304
+    Width = 40
+    OnMouseDown = shLetter76MouseDown
+  end
+  object Label76: TLabel
+    Left = 143
+    Height = 23
+    Top = 313
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter77: TShape
+    Left = 168
+    Height = 40
+    Top = 304
+    Width = 40
+    OnMouseDown = shLetter77MouseDown
+  end
+  object Label77: TLabel
+    Left = 183
+    Height = 23
+    Top = 313
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter78: TShape
+    Left = 208
+    Height = 40
+    Top = 304
+    Width = 40
+    OnMouseDown = shLetter78MouseDown
+  end
+  object Label78: TLabel
+    Left = 223
+    Height = 23
+    Top = 313
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter79: TShape
+    Left = 248
+    Height = 40
+    Top = 304
+    Width = 40
+    OnMouseDown = shLetter79MouseDown
+  end
+  object Label79: TLabel
+    Left = 263
+    Height = 23
+    Top = 313
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter80: TShape
+    Left = 288
+    Height = 40
+    Top = 304
+    Width = 40
+    OnMouseDown = shLetter80MouseDown
+  end
+  object Label80: TLabel
+    Left = 303
+    Height = 23
+    Top = 313
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter81: TShape
+    Left = 328
+    Height = 40
+    Top = 304
+    Width = 40
+    OnMouseDown = shLetter81MouseDown
+  end
+  object Label81: TLabel
+    Left = 343
+    Height = 23
+    Top = 313
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter82: TShape
+    Left = 368
+    Height = 40
+    Top = 304
+    Width = 40
+    OnMouseDown = shLetter82MouseDown
+  end
+  object Label82: TLabel
+    Left = 383
+    Height = 23
+    Top = 313
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter83: TShape
+    Left = 408
+    Height = 40
+    Top = 304
+    Width = 40
+    OnMouseDown = shLetter83MouseDown
+  end
+  object Label83: TLabel
+    Left = 423
+    Height = 23
+    Top = 313
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter84: TShape
+    Left = 448
+    Height = 40
+    Top = 304
+    Width = 40
+    OnMouseDown = shLetter84MouseDown
+  end
+  object Label84: TLabel
+    Left = 463
+    Height = 23
+    Top = 313
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter85: TShape
+    Left = 8
+    Height = 40
+    Top = 344
+    Width = 40
+    OnMouseDown = shLetter85MouseDown
+  end
+  object Label85: TLabel
+    Left = 23
+    Height = 23
+    Top = 353
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter86: TShape
+    Left = 48
+    Height = 40
+    Top = 344
+    Width = 40
+    OnMouseDown = shLetter86MouseDown
+  end
+  object Label86: TLabel
+    Left = 63
+    Height = 23
+    Top = 353
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter87: TShape
+    Left = 88
+    Height = 40
+    Top = 344
+    Width = 40
+    OnMouseDown = shLetter87MouseDown
+  end
+  object Label87: TLabel
+    Left = 103
+    Height = 23
+    Top = 353
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter88: TShape
+    Left = 128
+    Height = 40
+    Top = 344
+    Width = 40
+    OnMouseDown = shLetter88MouseDown
+  end
+  object Label88: TLabel
+    Left = 143
+    Height = 23
+    Top = 353
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter89: TShape
+    Left = 168
+    Height = 40
+    Top = 344
+    Width = 40
+    OnMouseDown = shLetter89MouseDown
+  end
+  object Label89: TLabel
+    Left = 183
+    Height = 23
+    Top = 353
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter90: TShape
+    Left = 208
+    Height = 40
+    Top = 344
+    Width = 40
+    OnMouseDown = shLetter90MouseDown
+  end
+  object Label90: TLabel
+    Left = 223
+    Height = 23
+    Top = 353
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter91: TShape
+    Left = 248
+    Height = 40
+    Top = 344
+    Width = 40
+    OnMouseDown = shLetter91MouseDown
+  end
+  object Label91: TLabel
+    Left = 263
+    Height = 23
+    Top = 353
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter92: TShape
+    Left = 288
+    Height = 40
+    Top = 344
+    Width = 40
+    OnMouseDown = shLetter92MouseDown
+  end
+  object Label92: TLabel
+    Left = 303
+    Height = 23
+    Top = 353
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter93: TShape
+    Left = 328
+    Height = 40
+    Top = 344
+    Width = 40
+    OnMouseDown = shLetter93MouseDown
+  end
+  object Label93: TLabel
+    Left = 343
+    Height = 23
+    Top = 353
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter94: TShape
+    Left = 368
+    Height = 40
+    Top = 344
+    Width = 40
+    OnMouseDown = shLetter94MouseDown
+  end
+  object Label94: TLabel
+    Left = 383
+    Height = 23
+    Top = 353
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter95: TShape
+    Left = 408
+    Height = 40
+    Top = 344
+    Width = 40
+    OnMouseDown = shLetter95MouseDown
+  end
+  object Label95: TLabel
+    Left = 423
+    Height = 23
+    Top = 353
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter96: TShape
+    Left = 448
+    Height = 40
+    Top = 344
+    Width = 40
+    OnMouseDown = shLetter96MouseDown
+  end
+  object Label96: TLabel
+    Left = 463
+    Height = 23
+    Top = 353
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter97: TShape
+    Left = 8
+    Height = 40
+    Top = 384
+    Width = 40
+    OnMouseDown = shLetter97MouseDown
+  end
+  object Label97: TLabel
+    Left = 23
+    Height = 23
+    Top = 393
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter98: TShape
+    Left = 48
+    Height = 40
+    Top = 384
+    Width = 40
+    OnMouseDown = shLetter98MouseDown
+  end
+  object Label98: TLabel
+    Left = 63
+    Height = 23
+    Top = 393
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter99: TShape
+    Left = 88
+    Height = 40
+    Top = 384
+    Width = 40
+    OnMouseDown = shLetter99MouseDown
+  end
+  object Label99: TLabel
+    Left = 103
+    Height = 23
+    Top = 393
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter100: TShape
+    Left = 128
+    Height = 40
+    Top = 384
+    Width = 40
+    OnMouseDown = shLetter100MouseDown
+  end
+  object Label100: TLabel
+    Left = 143
+    Height = 23
+    Top = 393
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter101: TShape
+    Left = 168
+    Height = 40
+    Top = 384
+    Width = 40
+    OnMouseDown = shLetter101MouseDown
+  end
+  object Label101: TLabel
+    Left = 183
+    Height = 23
+    Top = 393
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter102: TShape
+    Left = 208
+    Height = 40
+    Top = 384
+    Width = 40
+    OnMouseDown = shLetter102MouseDown
+  end
+  object Label102: TLabel
+    Left = 223
+    Height = 23
+    Top = 393
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter103: TShape
+    Left = 248
+    Height = 40
+    Top = 384
+    Width = 40
+    OnMouseDown = shLetter103MouseDown
+  end
+  object Label103: TLabel
+    Left = 263
+    Height = 23
+    Top = 393
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter104: TShape
+    Left = 288
+    Height = 40
+    Top = 384
+    Width = 40
+    OnMouseDown = shLetter104MouseDown
+  end
+  object Label104: TLabel
+    Left = 303
+    Height = 23
+    Top = 393
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter105: TShape
+    Left = 328
+    Height = 40
+    Top = 384
+    Width = 40
+    OnMouseDown = shLetter105MouseDown
+  end
+  object Label105: TLabel
+    Left = 343
+    Height = 23
+    Top = 393
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter106: TShape
+    Left = 368
+    Height = 40
+    Top = 384
+    Width = 40
+    OnMouseDown = shLetter106MouseDown
+  end
+  object Label106: TLabel
+    Left = 383
+    Height = 23
+    Top = 393
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter107: TShape
+    Left = 408
+    Height = 40
+    Top = 384
+    Width = 40
+    OnMouseDown = shLetter107MouseDown
+  end
+  object Label107: TLabel
+    Left = 423
+    Height = 23
+    Top = 393
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter108: TShape
+    Left = 448
+    Height = 40
+    Top = 384
+    Width = 40
+    OnMouseDown = shLetter108MouseDown
+  end
+  object Label108: TLabel
+    Left = 463
+    Height = 23
+    Top = 393
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter109: TShape
+    Left = 8
+    Height = 40
+    Top = 424
+    Width = 40
+    OnMouseDown = shLetter109MouseDown
+  end
+  object Label109: TLabel
+    Left = 23
+    Height = 23
+    Top = 433
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter110: TShape
+    Left = 48
+    Height = 40
+    Top = 424
+    Width = 40
+    OnMouseDown = shLetter110MouseDown
+  end
+  object Label110: TLabel
+    Left = 63
+    Height = 23
+    Top = 433
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter111: TShape
+    Left = 88
+    Height = 40
+    Top = 424
+    Width = 40
+    OnMouseDown = shLetter111MouseDown
+  end
+  object Label111: TLabel
+    Left = 103
+    Height = 23
+    Top = 433
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter112: TShape
+    Left = 128
+    Height = 40
+    Top = 424
+    Width = 40
+    OnMouseDown = shLetter112MouseDown
+  end
+  object Label112: TLabel
+    Left = 143
+    Height = 23
+    Top = 433
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter113: TShape
+    Left = 168
+    Height = 40
+    Top = 424
+    Width = 40
+    OnMouseDown = shLetter113MouseDown
+  end
+  object Label113: TLabel
+    Left = 183
+    Height = 23
+    Top = 433
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter114: TShape
+    Left = 208
+    Height = 40
+    Top = 424
+    Width = 40
+    OnMouseDown = shLetter114MouseDown
+  end
+  object Label114: TLabel
+    Left = 223
+    Height = 23
+    Top = 433
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter115: TShape
+    Left = 248
+    Height = 40
+    Top = 424
+    Width = 40
+    OnMouseDown = shLetter115MouseDown
+  end
+  object Label115: TLabel
+    Left = 263
+    Height = 23
+    Top = 433
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter116: TShape
+    Left = 288
+    Height = 40
+    Top = 424
+    Width = 40
+    OnMouseDown = shLetter116MouseDown
+  end
+  object Label116: TLabel
+    Left = 303
+    Height = 23
+    Top = 433
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter117: TShape
+    Left = 328
+    Height = 40
+    Top = 424
+    Width = 40
+    OnMouseDown = shLetter117MouseDown
+  end
+  object Label117: TLabel
+    Left = 343
+    Height = 23
+    Top = 433
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter118: TShape
+    Left = 368
+    Height = 40
+    Top = 424
+    Width = 40
+    OnMouseDown = shLetter118MouseDown
+  end
+  object Label118: TLabel
+    Left = 383
+    Height = 23
+    Top = 433
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter119: TShape
+    Left = 408
+    Height = 40
+    Top = 424
+    Width = 40
+    OnMouseDown = shLetter119MouseDown
+  end
+  object Label119: TLabel
+    Left = 423
+    Height = 23
+    Top = 433
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter120: TShape
+    Left = 448
+    Height = 40
+    Top = 424
+    Width = 40
+    OnMouseDown = shLetter120MouseDown
+  end
+  object Label120: TLabel
+    Left = 463
+    Height = 23
+    Top = 433
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter121: TShape
+    Left = 8
+    Height = 40
+    Top = 464
+    Width = 40
+    OnMouseDown = shLetter121MouseDown
+  end
+  object Label121: TLabel
+    Left = 23
+    Height = 23
+    Top = 473
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter122: TShape
+    Left = 48
+    Height = 40
+    Top = 464
+    Width = 40
+    OnMouseDown = shLetter122MouseDown
+  end
+  object Label122: TLabel
+    Left = 63
+    Height = 23
+    Top = 473
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter123: TShape
+    Left = 88
+    Height = 40
+    Top = 464
+    Width = 40
+    OnMouseDown = shLetter123MouseDown
+  end
+  object Label123: TLabel
+    Left = 103
+    Height = 23
+    Top = 473
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter124: TShape
+    Left = 128
+    Height = 40
+    Top = 464
+    Width = 40
+    OnMouseDown = shLetter124MouseDown
+  end
+  object Label124: TLabel
+    Left = 143
+    Height = 23
+    Top = 473
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter125: TShape
+    Left = 168
+    Height = 40
+    Top = 464
+    Width = 40
+    OnMouseDown = shLetter125MouseDown
+  end
+  object Label125: TLabel
+    Left = 183
+    Height = 23
+    Top = 473
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter126: TShape
+    Left = 208
+    Height = 40
+    Top = 464
+    Width = 40
+    OnMouseDown = shLetter126MouseDown
+  end
+  object Label126: TLabel
+    Left = 223
+    Height = 23
+    Top = 473
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter127: TShape
+    Left = 248
+    Height = 40
+    Top = 464
+    Width = 40
+    OnMouseDown = shLetter127MouseDown
+  end
+  object Label127: TLabel
+    Left = 263
+    Height = 23
+    Top = 473
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter128: TShape
+    Left = 288
+    Height = 40
+    Top = 464
+    Width = 40
+    OnMouseDown = shLetter128MouseDown
+  end
+  object Label128: TLabel
+    Left = 303
+    Height = 23
+    Top = 473
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter129: TShape
+    Left = 328
+    Height = 40
+    Top = 464
+    Width = 40
+    OnMouseDown = shLetter129MouseDown
+  end
+  object Label129: TLabel
+    Left = 343
+    Height = 23
+    Top = 473
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter130: TShape
+    Left = 368
+    Height = 40
+    Top = 464
+    Width = 40
+    OnMouseDown = shLetter130MouseDown
+  end
+  object Label130: TLabel
+    Left = 383
+    Height = 23
+    Top = 473
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter131: TShape
+    Left = 408
+    Height = 40
+    Top = 464
+    Width = 40
+    OnMouseDown = shLetter131MouseDown
+  end
+  object Label131: TLabel
+    Left = 423
+    Height = 23
+    Top = 473
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter132: TShape
+    Left = 448
+    Height = 40
+    Top = 464
+    Width = 40
+    OnMouseDown = shLetter132MouseDown
+  end
+  object Label132: TLabel
+    Left = 463
+    Height = 23
+    Top = 473
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter133: TShape
+    Left = 8
+    Height = 40
+    Top = 504
+    Width = 40
+    Pen.Color = clDefault
+    OnMouseDown = shLetter133MouseDown
+  end
+  object Label133: TLabel
+    Left = 23
+    Height = 23
+    Top = 513
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter134: TShape
+    Left = 48
+    Height = 40
+    Top = 504
+    Width = 40
+    OnMouseDown = shLetter134MouseDown
+  end
+  object Label134: TLabel
+    Left = 63
+    Height = 23
+    Top = 513
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter135: TShape
+    Left = 88
+    Height = 40
+    Top = 504
+    Width = 40
+    OnMouseDown = shLetter135MouseDown
+  end
+  object Label135: TLabel
+    Left = 103
+    Height = 23
+    Top = 513
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter136: TShape
+    Left = 128
+    Height = 40
+    Top = 504
+    Width = 40
+    OnMouseDown = shLetter136MouseDown
+  end
+  object Label136: TLabel
+    Left = 143
+    Height = 23
+    Top = 513
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter137: TShape
+    Left = 168
+    Height = 40
+    Top = 504
+    Width = 40
+    OnMouseDown = shLetter137MouseDown
+  end
+  object Label137: TLabel
+    Left = 183
+    Height = 23
+    Top = 513
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter138: TShape
+    Left = 208
+    Height = 40
+    Top = 504
+    Width = 40
+    OnMouseDown = shLetter138MouseDown
+  end
+  object Label138: TLabel
+    Left = 223
+    Height = 23
+    Top = 513
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter139: TShape
+    Left = 248
+    Height = 40
+    Top = 504
+    Width = 40
+    OnMouseDown = shLetter139MouseDown
+  end
+  object Label139: TLabel
+    Left = 263
+    Height = 23
+    Top = 513
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter140: TShape
+    Left = 288
+    Height = 40
+    Top = 504
+    Width = 40
+    OnMouseDown = shLetter140MouseDown
+  end
+  object Label140: TLabel
+    Left = 303
+    Height = 23
+    Top = 513
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter141: TShape
+    Left = 328
+    Height = 40
+    Top = 504
+    Width = 40
+    OnMouseDown = shLetter141MouseDown
+  end
+  object Label141: TLabel
+    Left = 343
+    Height = 23
+    Top = 513
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter142: TShape
+    Left = 368
+    Height = 40
+    Top = 504
+    Width = 40
+    OnMouseDown = shLetter142MouseDown
+  end
+  object Label142: TLabel
+    Left = 383
+    Height = 23
+    Top = 513
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter143: TShape
+    Left = 408
+    Height = 40
+    Top = 504
+    Width = 40
+    OnMouseDown = shLetter143MouseDown
+  end
+  object Label143: TLabel
+    Left = 423
+    Height = 23
+    Top = 513
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object shLetter144: TShape
+    Left = 448
+    Height = 40
+    Top = 504
+    Width = 40
+    OnMouseDown = shLetter144MouseDown
+  end
+  object Label144: TLabel
+    Left = 463
+    Height = 23
+    Top = 513
+    Width = 11
+    Caption = 'A'
+    ParentColor = False
+  end
+  object Label145: TLabel
+    Left = 560
+    Height = 23
+    Top = 73
+    Width = 56
+    Caption = 'Wörter:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edWord1: TEdit
+    Left = 520
+    Height = 31
+    Top = 109
+    Width = 136
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+  object edWord2: TEdit
+    Left = 520
+    Height = 31
+    Top = 149
+    Width = 136
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object edWord3: TEdit
+    Left = 520
+    Height = 31
+    Top = 189
+    Width = 136
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object edWord4: TEdit
+    Left = 520
+    Height = 31
+    Top = 229
+    Width = 136
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object edWord5: TEdit
+    Left = 520
+    Height = 31
+    Top = 269
+    Width = 136
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object edWord6: TEdit
+    Left = 520
+    Height = 31
+    Top = 309
+    Width = 136
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object edWord7: TEdit
+    Left = 520
+    Height = 31
+    Top = 349
+    Width = 136
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+  end
+  object edWord8: TEdit
+    Left = 520
+    Height = 31
+    Top = 389
+    Width = 136
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+  end
+  object btStart: TButton
+    Left = 562
+    Height = 31
+    Top = 569
+    Width = 94
+    Caption = 'Neu'
+    OnClick = btStartClick
+    TabOrder = 0
+  end
+  object btClear: TButton
+    Left = 562
+    Height = 31
+    Top = 509
+    Width = 94
+    Caption = 'Löschen'
+    Font.Height = -17
+    OnClick = btClearClick
+    ParentFont = False
+    TabOrder = 10
+  end
+  object edUserWord: TEdit
+    Left = 520
+    Height = 31
+    Top = 469
+    Width = 136
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object StaticText2: TStaticText
+    Left = 8
+    Height = 40
+    Top = 560
+    Width = 480
+    Caption = 'Felder in der korrekter Buchstabenreihenfolge mit der linken Maustaste anklicken. Mit einem Rechtsklick in ein Feld des Wortes wird dieses übernommen.'
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 12
+  end
+  object mMenu: TMainMenu
+    left = 16
+    object mPuzzle: TMenuItem
+      Caption = 'Rätsel'
+      object mPuzzleExit: TMenuItem
+        Caption = 'Verlassen'
+        OnClick = mPuzzleExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Einstellungen'
+      object mSettingsDiag: TMenuItem
+        Caption = 'Diagonale Wörter erlauben'
+        object mSettingsDiagLR: TMenuItem
+          Caption = 'Von links nach rechts'
+          Checked = True
+          OnClick = mSettingsDiagLRClick
+        end
+        object mSettingsDiagRL: TMenuItem
+          Caption = 'Von rechts nach links'
+          OnClick = mSettingsDiagRLClick
+        end
+      end
+      object mSettingsInv: TMenuItem
+        Caption = 'Invertierte Wörter erlauben'
+        object mSettingsInvH: TMenuItem
+          Caption = 'Horizontal'
+          OnClick = mSettingsInvHClick
+        end
+        object mSettingsInvV: TMenuItem
+          Caption = 'Vertikal'
+          OnClick = mSettingsInvVClick
+        end
+        object mSettingsInvD: TMenuItem
+          Caption = 'Diagonal'
+          OnClick = mSettingsInvDClick
+        end
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object mSettingsShow: TMenuItem
+        Caption = 'Wörter anzeigen'
+        Enabled = False
+        OnClick = mSettingsShowClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Hilfe'
+      object mHelpHelp: TMenuItem
+        Caption = 'Hilfe'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'Über'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

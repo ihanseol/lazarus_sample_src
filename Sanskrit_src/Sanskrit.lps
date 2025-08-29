@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="Sanskrit.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="52"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="sanskrit_u1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fSanskrit"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="52"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="313" Column="29" TopLine="305"/>
+      </Position1>
+      <Position2>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="324" Column="28" TopLine="305"/>
+      </Position2>
+      <Position3>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="323" Column="28" TopLine="304"/>
+      </Position3>
+      <Position4>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="484" Column="27" TopLine="462"/>
+      </Position4>
+      <Position5>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="496" Column="28" TopLine="483"/>
+      </Position5>
+      <Position6>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="506" Column="35" TopLine="499"/>
+      </Position6>
+      <Position7>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="445" Column="63" TopLine="436"/>
+      </Position7>
+      <Position8>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="461" Column="10" TopLine="444"/>
+      </Position8>
+      <Position9>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="468" Column="11" TopLine="442"/>
+      </Position9>
+      <Position10>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="492" Column="38" TopLine="207"/>
+      </Position10>
+      <Position11>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="216" Column="95" TopLine="200"/>
+      </Position11>
+      <Position12>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="302" Column="50" TopLine="300"/>
+      </Position12>
+      <Position13>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="531" Column="40" TopLine="526"/>
+      </Position13>
+      <Position14>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="206" Column="24" TopLine="194"/>
+      </Position14>
+      <Position15>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="213" Column="24" TopLine="194"/>
+      </Position15>
+      <Position16>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="206" Column="24" TopLine="194"/>
+      </Position16>
+      <Position17>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="56" Column="29" TopLine="44"/>
+      </Position17>
+      <Position18>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="327" Column="32" TopLine="308"/>
+      </Position18>
+      <Position19>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="301" Column="57" TopLine="284"/>
+      </Position19>
+      <Position20>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="302" Column="57" TopLine="285"/>
+      </Position20>
+      <Position21>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="193" Column="85" TopLine="174"/>
+      </Position21>
+      <Position22>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="305" Column="44" TopLine="300"/>
+      </Position22>
+      <Position23>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="238" TopLine="222"/>
+      </Position23>
+      <Position24>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="455" Column="10" TopLine="450"/>
+      </Position24>
+      <Position25>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="583" Column="27" TopLine="557"/>
+      </Position25>
+      <Position26>
+        <Filename Value="sanskrit_u1.pas"/>
+      </Position26>
+      <Position27>
+        <Filename Value="Sanskrit.lpr"/>
+        <Caret Line="3" Column="30"/>
+      </Position27>
+      <Position28>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="469" Column="10" TopLine="455"/>
+      </Position28>
+      <Position29>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="568" TopLine="551"/>
+      </Position29>
+      <Position30>
+        <Filename Value="sanskrit_u1.pas"/>
+        <Caret Line="865" TopLine="839"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

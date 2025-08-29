@@ -1,0 +1,117 @@
+object fHelp: TfHelp
+  Left = 157
+  Height = 579
+  Top = 139
+  Width = 1218
+  BorderIcons = [biSystemMenu]
+  Caption = 'Pendulum'
+  ClientHeight = 579
+  ClientWidth = 1218
+  DesignTimePPI = 120
+  Font.Height = -17
+  LCLVersion = '1.8.4.0'
+  object Memo1: TMemo
+    Left = 9
+    Height = 521
+    Top = 10
+    Width = 1201
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"Pendulum" application help.'
+      '============================'
+      ''
+      '"Pendulum" is a physics application, dealing with simple pendulums. For a pendulum given by its mass m, length L and displacement angle θ, it calculates all relevant values, including the restoring force, the maximum velocity and the (total) energy. The movement of the pendulum can then be simulated, in real time or in slow motion. Not only the x- and y-displacement, but also the velocity being, what they are in reality, i.e. functions of time. Also, the potential and kinetic energy are updated with each simulation step.'
+      ''
+      'It is possible to pause the simulation at any moment and view the actual pendulum movement values. There is also an option to pause the simulation automatically, when the pendulum reaches the maximum displacement positions (actual angle = ±θ), or when it passes throuh the lowest position (actual angle = 0). Please, note that this does not always work. Because of the increased velocity of the pendulum, the pause at angle = 0 is often missed. Running the simulation slower should help.'
+      ''
+      'Menu "Simulation".'
+      '=================='
+      ''
+      'Exit.'
+      '-----'
+      'Exit simulation.'
+      ''
+      'Menu "Settings".'
+      '================'
+      ''
+      'Settings may be changed during simulation. Doing so, may however result in an unpredictable pendelum movement in some cases. More proper to stop the simulation, before entering new settings.'
+      ''
+      'Pendulum display.'
+      '-----------------'
+      'User entry of the pendulum display length, i.e. the number of display pixles for 1cm pendulum length; default is 5px. This allows to make fit longer pendulums on the screen, as well as getting wider displacements for short pendulums. If, with the actual settings, the pendulum is to long to be displayed, a message pops up. The user has the choice to change settings, or do the calculations (without simulation).'
+      ''
+      'Simulation time.'
+      '----------------'
+      'User entry of the simulation time to real time correspondance, i.e. the number of simulation seconds for 1s real time; default is 1 to 1, thus a real time simulation. Entering higher values, slows down the simulation and gives the user more time to watch the pendulum moving, in particular to notice the variation of velocity (in fact a cosine function of time). As said above, running the simulation slower also helps to avoid missing to automatically pause, when the pendulum passes through its lowest point. Speeding up the simulation is also possible, but has no real sense, as the movement period is just some seconds; doing so may also result in incorrect value updates or other issues.'
+      ''
+      'Decimal digits.'
+      '---------------'
+      'User entry of the number of decimal digits displayed. This setting becomes important if the global values are to small to be displayed with 2 decimal digits (the default). In particular, the energy values for small masses or small displacement angles will be displayed as 0, if you don''t choose an adequate number of decimals displayed. Options: 2, 3, 4 or 7 decimal digits.'
+      ''
+      'Display reference lines.'
+      '------------------------'
+      'Toggle of the display of lines, that help to identify the position of the pendulum highest and lowest passing-through points.'
+      ''
+      'Pause at reference lines.'
+      '-------------------------'
+      'If this option is checked, the simulation is automatically paused, when the pendulum passes through its lowest or highest positions. This allows the user to view the different movement values for these particular positions (cf. below).'
+      ''
+      'Menu "Help".'
+      '============'
+      ''
+      'Help.'
+      '-----'
+      'Display of the "Pendulum" application usage help text (this document).'
+      ''
+      'About.'
+      '------'
+      'Display of the "Pendulum" application version, author and date-written.'
+      ''
+      'Running the pendulum application.'
+      '================================='
+      ''
+      'Enter the mass, length and displacement angle of the pendulum (and change the acceleration of gravity, if you want) and push the "Compute" button. If the values, that you entered are valid, calculations are done and the "Start" button is enabled (except, if the pendulum is to long to be displayed; cf. above). To start the simulation, push the corresponding button. You can pause the simulation at any moment by pushing "Pause" (push "Resume" to continue). The "Stop" button ends the simualtion; the button will be disabled until a new calculation has be done.'
+      ''
+      'Some hints:'
+      '-----------'
+      'For long pendulums to fit in the window, choose a smaller pendulum display value; to get wider movements with short pendulums, choose a bigger value.'
+      'To be able to better observe the pendulum movement and view the movement values, run the simulation slower, by choosing a bigger simulation time value.'
+      'If values (like total energy or y-displacement) are displayed as zero, increase the number of decinal digits to be displayed.'
+      'Automatically pausing at the lowest pendulum position is actually mostly missed (I''ll try to fix this in a future version of the application). You may just wait a while, normally it pauses by itself from time to time. Another possibility to get the simulation paused at this point, is to run it slower.'
+      ''
+      'Physics of the simple pendulum.'
+      '==============================='
+      ''
+      'For details, concerning the physics of simple pendulums and the formulae used to calculate the different movement values, please, have a look at a physics book or website. Here, just some explanations:'
+      'A pendulum, with mass, length and displacement angle known, performs a periodic movement with a given displacement (arc of a circle). The movement may be considered as an oscillation, the y-displacement as a sine function of time, the amplitude of the oscillation being equal to the highest pendulum position ymax. The velocity of the pendulum is not a constant, but a cosine function of time, V being 0, if the actual angle equals ±θ, and being Vmax, if the angle is 0.'
+      'A given pendulum has a givem restoring force and a given energy. This energy is the sum of potential and kinetic energy, both varying depending on the pendulum''s position.'
+      ''
+      '"Special" pendulum positions during its movement.'
+      '-------------------------------------------------'
+      'The lowest and the two highest points, where the pendulum passes through during its movent are of particular interest; that''s why there is an option to automatically pause the simulation, if the pendulum approaches these points, the user thus having the possibility to view and understand the values of the pendulum movement.'
+      'At the lowest point (actual angle = 0), the x- and y-displacements are 0 (as this point is considered as origin), the velocity has its maximum value, as calculated for this pendulum. The potential energy at this point is 0, the kinetic energy has its maximum value, equal to the energy value, calculated for the given pendulum.'
+      'At the highest points (actual angle = ±θ), the absolute value of the x-displacement is somewhat less than the value of the pendulum displacement s (less, because x is the length of a horizontal line, whereas s is the length of the arc, the pendulum travells through) and y = ymax, that equals the amplitude of the pendulum oscillation (cf. y-displacement equation). The velocity at this point is 0, so is the kinetic energy; the potential energy at this point has its maximum value, equal to the energy value, calculated for the given pendulum.'
+      ''
+      'During the pendulum movement, the different movement values vary periodically as a function of time. x varies from -xmax to xmax (xmax somewhat less than s), y varies from 0 to ymax. Angular and linear velocities vary from minus to plus their maximum values (the negative sign meaning, that the pendulum moves to the left). Potential and kinetic energy vary from 0 to a maximum value, their sum always being equal to the energy calculated for this pendulum.'
+      ''
+      'Note:'
+      '-----'
+      'The formulae used are only valid for small angles; that''s why the maximum angle accepted by the application is 15°.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 1116
+    Height = 31
+    Top = 544
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

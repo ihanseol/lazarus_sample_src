@@ -1,0 +1,386 @@
+object fTempHeat: TfTempHeat
+  Left = 52
+  Height = 365
+  Top = 50
+  Width = 1077
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Temperature and Heat'
+  ClientHeight = 340
+  ClientWidth = 1077
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object StaticText1: TStaticText
+    Left = 196
+    Height = 29
+    Top = 10
+    Width = 646
+    Alignment = taCenter
+    Caption = 'Some simple calculations, concerning temperature and heat.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 12
+  end
+  object laCalculation: TLabel
+    Left = 10
+    Height = 23
+    Top = 56
+    Width = 89
+    Caption = 'Calculation:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laTemperature: TLabel
+    Left = 10
+    Height = 23
+    Top = 108
+    Width = 110
+    Caption = 'Temperature 1'
+    ParentColor = False
+  end
+  object edTemperature: TEdit
+    Left = 127
+    Height = 31
+    Hint = 'Temperature of the object'
+    Top = 104
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 0
+  end
+  object laScale: TLabel
+    Left = 485
+    Height = 23
+    Top = 108
+    Width = 39
+    Caption = 'Scale'
+    ParentColor = False
+  end
+  object cobScales: TComboBox
+    Left = 547
+    Height = 31
+    Top = 104
+    Width = 125
+    ItemHeight = 23
+    ItemIndex = 0
+    Items.Strings = (
+      'Celsius'
+      'Fahrenheit'
+      'Kelvin'
+    )
+    OnChange = cobScalesChange
+    Style = csDropDownList
+    TabOrder = 2
+    TabStop = False
+    Text = 'Celsius'
+  end
+  object sgScale: TStringGrid
+    Left = 766
+    Height = 85
+    Top = 104
+    Width = 304
+    ColCount = 3
+    DefaultColWidth = 100
+    FixedCols = 0
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 3
+    TabOrder = 13
+    TabStop = False
+    TitleFont.Height = -17
+    TitleFont.Name = 'Consolas'
+    Cells = (
+      3
+      0
+      0
+      'Celsius'
+      1
+      0
+      'Fahrenheit'
+      2
+      0
+      'Kelvin'
+    )
+  end
+  object btCalc: TButton
+    Left = 970
+    Height = 31
+    Top = 304
+    Width = 100
+    Caption = 'Calculation'
+    OnClick = btCalcClick
+    TabOrder = 11
+  end
+  object laTemperature2: TLabel
+    Left = 248
+    Height = 23
+    Top = 108
+    Width = 110
+    Caption = 'Temperature 2'
+    ParentColor = False
+  end
+  object edTemperature2: TEdit
+    Left = 365
+    Height = 31
+    Hint = 'Temperature of the environment'
+    Top = 104
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 1
+  end
+  object rbSelect1: TRadioButton
+    Left = 10
+    Height = 27
+    Top = 165
+    Width = 157
+    Caption = ' Linear expansion'
+    Checked = True
+    OnChange = rbSelect1Change
+    TabOrder = 3
+    TabStop = True
+  end
+  object rbSelect2: TRadioButton
+    Left = 248
+    Height = 27
+    Top = 165
+    Width = 170
+    Caption = ' Volume expansion'
+    OnChange = rbSelect2Change
+    TabOrder = 4
+  end
+  object laMaterial: TLabel
+    Left = 10
+    Height = 23
+    Top = 218
+    Width = 62
+    Caption = 'Material'
+    ParentColor = False
+  end
+  object cobMaterial: TComboBox
+    Left = 127
+    Height = 31
+    Top = 214
+    Width = 260
+    ItemHeight = 23
+    OnChange = cobMaterialChange
+    Style = csDropDownList
+    TabOrder = 5
+    TabStop = False
+  end
+  object laQuantity: TLabel
+    Left = 485
+    Height = 23
+    Top = 218
+    Width = 53
+    Caption = 'Length'
+    ParentColor = False
+  end
+  object edQuantity: TEdit
+    Left = 592
+    Height = 31
+    Top = 214
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 8
+  end
+  object laConstant: TLabel
+    Left = 10
+    Height = 23
+    Top = 268
+    Width = 230
+    Caption = 'Coefficient of linear expansion'
+    ParentColor = False
+  end
+  object edConstant: TEdit
+    Left = 307
+    Height = 31
+    Top = 264
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 7
+  end
+  object laCalcResult: TLabel
+    Left = 766
+    Height = 23
+    Top = 218
+    Width = 128
+    Caption = 'Linear expansion'
+    ParentColor = False
+  end
+  object edCalcResult: TEdit
+    Left = 942
+    Height = 31
+    Top = 214
+    Width = 90
+    Alignment = taRightJustify
+    Color = clYellow
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object laConstant2: TLabel
+    Left = 10
+    Height = 23
+    Top = 308
+    Width = 103
+    Caption = 'Melting point'
+    ParentColor = False
+  end
+  object edConstant2: TEdit
+    Left = 307
+    Height = 31
+    Top = 304
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 10
+  end
+  object laQuantity2: TLabel
+    Left = 485
+    Height = 23
+    Top = 268
+    Width = 72
+    Caption = 'Thickness'
+    ParentColor = False
+  end
+  object edQuantity2: TEdit
+    Left = 592
+    Height = 31
+    Top = 264
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 9
+  end
+  object laObject: TLabel
+    Left = 10
+    Height = 23
+    Top = 218
+    Width = 50
+    Caption = 'Object'
+    ParentColor = False
+  end
+  object cobObject: TComboBox
+    Left = 127
+    Height = 31
+    Top = 214
+    Width = 260
+    ItemHeight = 23
+    ItemIndex = 5
+    Items.Strings = (
+      '“blackbody” radiator'
+      'perfect reflector'
+      'tungsten light bulb filaments'
+      'carbon black'
+      'human skin (infrared)'
+      '--custom--'
+    )
+    OnChange = cobObjectChange
+    Style = csDropDownList
+    TabOrder = 6
+    TabStop = False
+    Text = '--custom--'
+  end
+  object laUQuantity: TLabel
+    Left = 680
+    Height = 23
+    Top = 218
+    Width = 15
+    Caption = 'm'
+    ParentColor = False
+  end
+  object laUQuantity2: TLabel
+    Left = 680
+    Height = 23
+    Top = 268
+    Width = 23
+    Caption = 'cm'
+    ParentColor = False
+  end
+  object laUCalcResult: TLabel
+    Left = 1040
+    Height = 23
+    Top = 218
+    Width = 30
+    Caption = 'mm'
+    ParentColor = False
+  end
+  object laPhase: TLabel
+    Left = 485
+    Height = 23
+    Top = 308
+    Width = 139
+    Caption = 'Phase for actual t°'
+    ParentColor = False
+  end
+  object laUConstant2: TLabel
+    Left = 394
+    Height = 23
+    Top = 308
+    Width = 17
+    Caption = '°C'
+    ParentColor = False
+  end
+  object mMenu: TMainMenu
+    left = 984
+    top = 8
+    object mCalc: TMenuItem
+      Caption = 'Calculation'
+      object mCalcScales: TMenuItem
+        Caption = 'Temperature scales'
+        OnClick = mCalcScalesClick
+      end
+      object mCalcExpansion: TMenuItem
+        Caption = 'Thermal expansion'
+        OnClick = mCalcExpansionClick
+      end
+      object mCalcTransfer: TMenuItem
+        Caption = 'Heat transfer'
+        OnClick = mCalcTransferClick
+      end
+      object mCalcPhases: TMenuItem
+        Caption = 'Phase changes'
+        OnClick = mCalcPhasesClick
+      end
+      object mCalcConduction: TMenuItem
+        Caption = 'Heat conduction'
+        OnClick = mCalcConductionClick
+      end
+      object mCalcRadiation: TMenuItem
+        Caption = 'Heat radiation'
+        OnClick = mCalcRadiationClick
+      end
+      object mCalcExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mCalcExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Settings'
+      object mSettingsKcal: TMenuItem
+        Caption = 'Heat quantities in kcal'
+        OnClick = mSettingsKcalClick
+      end
+      object mSettingsNoConstCheck: TMenuItem
+        Caption = 'Disable material constants checking'
+        OnClick = mSettingsNoConstCheckClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

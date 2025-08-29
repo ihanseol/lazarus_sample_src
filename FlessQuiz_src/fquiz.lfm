@@ -1,0 +1,247 @@
+object fFQuiz: TfFQuiz
+  Left = 262
+  Height = 300
+  Top = 146
+  Width = 582
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'D''Flëss zu Lëtzebuerg'
+  ClientHeight = 275
+  ClientWidth = 582
+  DesignTimePPI = 120
+  Menu = mFQuiz
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object Title: TStaticText
+    Left = 15
+    Height = 41
+    Top = 10
+    Width = 568
+    Alignment = taCenter
+    Caption = 'D''Flëss zu Lëtzebuerg: Mündung (Floss)'
+    Font.Height = -23
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 189
+    Height = 17
+    Top = 84
+    Width = 31
+    Caption = 'Floss'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edRiver: TEdit
+    Left = 256
+    Height = 25
+    Top = 80
+    Width = 144
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 1
+  end
+  object edQuiz: TLabel
+    Left = 189
+    Height = 17
+    Top = 132
+    Width = 60
+    Caption = 'Mündung'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object cbAnswer: TComboBox
+    Left = 256
+    Height = 28
+    Top = 128
+    Width = 144
+    Font.Height = -13
+    ItemHeight = 17
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Image1: TImage
+    Left = 14
+    Height = 76
+    Top = 80
+    Width = 127
+    Picture.Data = {
+      0A544A706567496D616765F2020000FFD8FFE000104A46494600010101007800
+      780000FFDB00430006040506050406060506070706080A100A0A09090A140E0F
+      0C1017141818171416161A1D251F1A1B231C1616202C20232627292A29191F2D
+      302D283025282928FFDB0043010707070A080A130A0A13281A161A2828282828
+      2828282828282828282828282828282828282828282828282828282828282828
+      28282828282828282828282828FFC0001108004C007F03012200021101031101
+      FFC40017000101010100000000000000000000000000060807FFC4001D100100
+      0103050000000000000000000000000401069316175255E1FFC4001801010003
+      010000000000000000000000000004060705FFC4002011000102050500000000
+      000000000000000002040114155391165152A1D1FFDA000C0301000211031100
+      3F009C015A37000000000000000000000000000D55A22D9E8E0E2A1A22D9E8E0
+      E2A3A14F5EF02A1AC1B5B575E99546AAD116CF4707150D116CF4707150A7AF78
+      0D60DADABAF4CAA355688B67A3838A8688B67A3838A853D7BC06B06D6D5D7A65
+      51AAB445B3D1C1C543445B3D1C1C5429EBDE035836B6AEBD32A8D55A22D9E8E0
+      E2A1A22D9E8E0E2A14F5EF01AC1B5B575E99546AAD116CF4707150D116CF4707
+      150A7AF780D60DADABAF4CAA355688B67A3838A8688B67A3838A853D7BC06B06
+      D6D5D7A6551AAB445B3D1C1C543445B3D1C1C5429EBDE035836B6AEBD2880754
+      CF80000000000000000000000003836E85C7CE261F4DD0B8F9C4C3EA185DE45B
+      F0860CB2AAF6EAB25CEE85C7CE261F4DD0B8F9C4C3EA18245BF0860555EDD564
+      B9DD0B8F9C4C3E9BA171F38987D43048B7E10C0AABDBAAC973BA171F38987D37
+      42E3E7130FA860916FC2181557B75592E7742E3E7130FA6E85C7CE261F50C122
+      DF84302AAF6EAB25CEE85C7CE261F4DD0B8F9C4C3EA18245BF0860555EDD564B
+      9DD0B8F9C4C3E9BA171F38987D43048B7E10C0AABDBAAC973BA171F38987D374
+      2E3E7130FA860916FC2181557B755900251000000000000000000000000003FF
+      D9
+    }
+  end
+  object edEval: TEdit
+    Left = 189
+    Height = 25
+    Top = 176
+    Width = 211
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    Left = 448
+    Height = 17
+    Top = 84
+    Width = 20
+    Caption = 'Fro'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edQuestion: TEdit
+    Left = 504
+    Height = 25
+    Top = 80
+    Width = 64
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object Label3: TLabel
+    Left = 448
+    Height = 17
+    Top = 132
+    Width = 46
+    Caption = 'Richteg'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edCorrect: TEdit
+    Left = 504
+    Height = 25
+    Top = 128
+    Width = 64
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object Label4: TLabel
+    Left = 448
+    Height = 17
+    Top = 180
+    Width = 48
+    Caption = 'Erfolleg'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edSuccess: TEdit
+    Left = 504
+    Height = 25
+    Top = 176
+    Width = 64
+    Alignment = taRightJustify
+    Color = clForm
+    Font.Height = -13
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object bButton: TButton
+    Left = 488
+    Height = 30
+    Top = 232
+    Width = 81
+    Caption = 'Start'
+    OnClick = bButtonClick
+    TabOrder = 7
+  end
+  object mFQuiz: TMainMenu
+    left = 24
+    top = 16
+    object mQuiz: TMenuItem
+      Caption = 'Quiz'
+      object mQuizNew: TMenuItem
+        Caption = 'Neie Quiz'
+        OnClick = mQuizNewClick
+      end
+      object mQuizExit: TMenuItem
+        Caption = 'Zoumaachen'
+        OnClick = mQuizExitClick
+      end
+    end
+    object mQuestions: TMenuItem
+      Caption = 'Froën'
+      object mQuestions1: TMenuItem
+        Caption = 'Quell (Land)'
+        OnClick = mQuestions1Click
+      end
+      object mQuestions2: TMenuItem
+        Caption = 'Quell (Uertschaft)'
+        OnClick = mQuestions2Click
+      end
+      object mQuestions3: TMenuItem
+        Caption = 'Mündung (Land)'
+        OnClick = mQuestions3Click
+      end
+      object mQuestions4: TMenuItem
+        Caption = 'Mündung (Uertschaft)'
+        OnClick = mQuestions4Click
+      end
+      object mQuestions5: TMenuItem
+        Caption = 'Mündung (Floss)'
+        Checked = True
+        OnClick = mQuestions5Click
+      end
+    end
+    object mAnswers: TMenuItem
+      Caption = 'Äntwerten'
+      object mAnswers1: TMenuItem
+        Caption = 'Auswielen'
+        Checked = True
+        OnClick = mAnswers1Click
+      end
+      object mAnswers2: TMenuItem
+        Caption = 'Aginn'
+        OnClick = mAnswers2Click
+      end
+    end
+  end
+end

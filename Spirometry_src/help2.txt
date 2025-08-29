@@ -1,0 +1,19 @@
+This application calculates the lung volumes and capacities based on the values read on a spirogram. Move the mouse over the volume/capacity labels to get a hint what they actually represent.
+
+Spirometry has the disadvantage that it is not possible to measure the residual volume. The program offers 2 possibilities to specify RV:
+
+  * Calculate it based on the functional residual capacity, supposed to be known;
+      - Enter the FRC value directly.
+      - Calculate it, based on the values measured (by the helium dilution technique or the nitrogen washout method).
+
+  * Estimate it by the approximation formula: RV = 0,24 * VC (men) resp. RV = 0,28 * VC (women)
+
+Volumes have normally to be entered in ml, unless you change to L in the "Settings" menu. Concentrations for FRC calculation are expected to be in percent (you may or may not enter the % sign).
+
+"File" menu:
+------------
+
+  - New calculation: Clears all input and result fields.
+  - Average values : Uses average values (depending on sex actually selected) as input.
+
+For help concerning the physiology aspects, including average normal values and formulas, choose "Physiology help" in the "Help" menu.

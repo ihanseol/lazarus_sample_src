@@ -1,0 +1,82 @@
+object fHelp: TfHelp
+  Left = 242
+  Height = 494
+  Top = 209
+  Width = 900
+  BorderIcons = [biSystemMenu]
+  Caption = 'Physics: Static Equilibrium'
+  ClientHeight = 494
+  ClientWidth = 900
+  DesignTimePPI = 120
+  Font.Height = -18
+  LCLVersion = '2.2.0.4'
+  object Memo1: TMemo
+    Left = 8
+    Height = 430
+    Top = 10
+    Width = 883
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '======================'
+      '= "Equilibrium" help ='
+      '======================'
+      ''
+      'When all the forces that act upon an object are balanced, then the object is said to be in a state of equilibrium. The forces are considered to be balanced if the rightward forces are balanced by the leftward forces and the upward forces are balanced by the downward forces.'
+      ''
+      'The "Equilibrium" application generates physics exercises, that consist in calculating the horizontal (E-W) and vertical (N-S) force that balance the force or forces acting upon an object (if this object is at rest, this situation is called a static equilibrium). The program gives the magnitude and angle of the acting forces, the student has to find the magnitude and the angle of the net force, the force that balances this force, and the corresponding E-W and N-S forces. Please, note that all values have to be entered with 3 significant digital digits and that all angles have to be given in the interval [0°, 360°[.'
+      ''
+      'The application has 5 difficulty levels:'
+      ' - Level 1: 1 angled vector is given.'
+      ' - Level 2: 1 angled vector and 1 vector lying along an axis are given.'
+      ' - Level 3: 2 angled vectors are given.'
+      ' - Level 4: 2 angled vectors and 1 vector lying along an axis are given.'
+      ' - Level 5: 3 angled vectors are given.'
+      ' '
+      'To generate a new question, push the "Question" button, to check your answer values, push "Answer". The button "Show" may be used to display the graphical resolution of the exercise.'
+      ''
+      'Menu item "File".'
+      '================='
+      ''
+      'New.'
+      '----'
+      'Start new series of exercises. This command has to be executed after you have changed the exercise level.'
+      ''
+      'Exit.'
+      '-----'
+      'Exit the application.'
+      ''
+      'Menu item "Options".'
+      '===================='
+      ''
+      'Level.'
+      '------'
+      'Choose the exercise difficulty level (1 – 5, as described above).'
+      ''
+      'Menu item "Help".'
+      '================='
+      ''
+      'Help.'
+      '-----'
+      'Display of help concerning the usage of the "Equilibrium" application (this text).'
+      ''
+      'About.'
+      '------'
+      'Display of the author, the version and the date-written of the "Equilibrium" application.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 797
+    Height = 31
+    Top = 456
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

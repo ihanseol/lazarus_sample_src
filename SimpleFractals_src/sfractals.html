@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <title>SimpleFractals help</title>
+  <meta name="description" content="Help text for Lazarus/Free Pascal application 'SimpleFractals'"/>
+  <style type="text/css"><!--
+    a:link { color:#000000; text-decoration: none }
+    a:hover { font-weight: bold }
+  //--></style>
+</head>
+
+<body style="margin: 0; padding: 0; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.9em; background-color: #FFEBCD; color: #000000;">
+  <div id="nav" style="float: left; padding: 8px; width: 15%; position: fixed">
+  <p style="text-decoration: underline">
+    <a href="#top">Content:</a>
+  </p>
+  <p style="padding-top:15px">
+    <a href="#fractal">Menu: Fractal</a>
+  </p>
+  <p>
+    <a href="#options">Menu: Options</a>
+  </p>
+  <p>
+    <a href="#help">Menu: Help</a>
+  </p>
+  <p style="padding-top:15px">
+    <a href="#drawing">Drawing fractals</a>
+  </p>
+  <p style="padding-top:15px">
+    <a href="#fassoc">File association</a>
+  </p>
+  </p>
+  <p style="padding-top:15px">
+    <a href="mailto:info@streetinfo.lu">Contact</a>
+  </p>
+  </div>
+  <div id="content" style="float: right; padding: 8px; width: 85%; background-color: #FFF8DC">
+  <a name="top"><h1 style="margin: 0; padding: 0"><span style="font-style: italic">SimpleFractals</span> Help.</h1></a>
+  <p style="padding-top:10px; text-align: justify">
+    <span style="font-style: italic">SimpleFractals</span> is a free PC application, that you can use to draw simple fractals, described by basic L-systems. Have a look
+    at the <span style="font-style: italic">Fractals and L-systems help</span> text for details about the theoretical background.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="fractal">Menu: Fractal.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    New.
+  </p>
+  <p style="text-align: justify">
+    Start a new fractal drawing. Does nothing else but clearing the form's input fields.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Open.
+  </p>
+  <p style="text-align: justify">
+    Load a new fractal definition (L-systems) by opening a <span style="font-weight:bold">SimpleFractals L-system (.sfl) file</span>. If the definition contains an origin
+    and displacement parameter, these are set for the actual fractal drawing, otherwise the user has to enter them into the corresponding edit fields. If color drawing is
+    disabled and the L-system contains color codes, these are automatically removed, when the L-system is loaded.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Save As...
+  </p>
+  <p style="text-align: justify">
+    Save actual L-system to file. The extension of these files should be .sfl (cf. below). Note, that <span style="font-style: italic">SimpleFractals L-system files</span>
+    are text files, that you can open and edit with a text editor as for example Notepad++.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Exit.
+  </p>
+  <p style="text-align: justify">
+    Exit the <span style="font-style: italic">SimpleFractals</span> application.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="options">Menu: Options.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Alphabet: Use - to turn right, + to turn left.
+  </p>
+  <p style="text-align: justify">
+    By default (and for all L-system samples, included in the SimpleFractals download archive), + turns the turtle to the right and - turns it to the left. Other L-systems
+    prefer viewing the turning angle as mathematicians do (positive angle to the right) and use - to turn the turtle to the right and + to turn it to the left. To be able
+    to run such L-systems without having to change them, check this option.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Alphabet: Use f to move without drawing.
+  </p>
+  <p style="text-align: justify">
+    <span style="font-style: italic">SimpleFractals</span> uses the symbol G for moving the turtle without drawing. To be able to run L-systems, that use f for this command
+    without having to change them, check this option.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Alphabet: Enable alphabet color codes.
+  </p>
+  <p style="text-align: justify">
+    The alphabet color codes 0..9 are not standard symbols (commands) in L-systems. I "invented" them, in order to have a simple method to create colored fractals. In order
+    to use this feature, this option has to be checked. If unchecked, and the L-system contains color symbols, an error message is displayed.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Drawing (and subitems).
+  </p>
+  <p style="text-align: justify">
+    Definition of fractal and background colors of the drawing. Options are: Black on white, white on black, green on black and colored on black. To used this last option, <span
+    style="font-style: italic">Enable alphabet color codes</span> must be checked. The colors of the fractal will then depend on the color symbols included within the axiom and/or
+    rule(s) of the actual L-system.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="help">Menu: Help.</a>
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    L-systems.
+  </p>
+  <p style="text-align: justify">
+    Displays an introductory help text, concerning fractals and L-systems in your webbrowser.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    Help.
+  </p>
+  <p style="text-align: justify">
+    Displays usage help for the <span style="font-style: italic">SimpleFractals</span> application (this text) in your webbrowser.
+  </p>
+  <p style="padding-top:5px; text-decoration:underline">
+    About.
+  </p>
+  <p style="text-align: justify">
+    Displays version, author and date-written of the <span style="font-style: italic">SimpleFractals</span> application.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="lsystems">Drawing fractals.</a>
+  </p>
+  <p style="padding-top:5px; text-align: justify">
+    The fractal to be drawn has to be defined by a valid L-system. The <span style="font-style: italic">SimpleFractals</span> L-systems parameters (including the non-standard
+    origin and displacement parameters) and the alphabet used (including the non-standard color symbols 0..9) are described in the <span style="font-style: italic">Fractals and
+    L-systems help</span> text. If the L-system doesn't contain an origin and displacement parameter, the user has to enter their values in the corresponding edit fields. Also
+    note, that in the case of multiple rules L-systems, the rules have to be written one per line on subsequent lines. Use the <span style="font-style: italic">Save As...</span>
+    item in the <span style="font-style: italic">Fractals</span> menu to save the L-system to a file, so that you can load it later.
+  </p>
+  <p style="padding-top:10px; font-weight:bold; text-decoration:underline">
+    <a name="fassoc">Windows file association.</a>
+  </p>
+  <p style="padding-top:5px; text-align: justify">
+    If you want, you can associate .sfl files with the <span style="font-style: italic">SimpleFractals</span> application. One way to do this, is right-clicking a .sfl file
+    and, in the context menu showing up, choosing <span style="font-weight:bold">Open with</span>. Enable the <span style="font-weight:bold">Always use this app to open .sfl
+	files</span> checkbox, browse to the SimpleFractals.exe file and select it as associated application. You'll be now able to open L-system files (starting <span
+	style="font-style: italic">SimpleFractals</span> with a given L-system loaded) by simply double-clicking a .sfl file.
+  </p>
+  <p style="padding-top:5px; text-align: justify">
+    Another way to associate the .sfl files with <span style="font-style: italic">SimpleFractals</span>, is to use my Lazarus/Free Pascal application <a
+	href="http://www.streetinfo.lu/computing/lazarus/doc/WinFileAssociation.html"><span style="color: blue">WinFileAssociation</span></a>.
+  </p>
+  </div>
+</body>
+
+</html>

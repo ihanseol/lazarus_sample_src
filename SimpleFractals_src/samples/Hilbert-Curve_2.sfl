@@ -1,0 +1,10 @@
+# Hilbert-Curve II
+
+origin = (220,50)
+displacement = 7
+
+axiom = "2X"
+rules = { "X": "XFYFX+F+YFXFY-F-XFYFX",
+          "Y": "YFXFY-F-XFYFX+F+YFXFY" }
+iterations = 4
+angle = 90

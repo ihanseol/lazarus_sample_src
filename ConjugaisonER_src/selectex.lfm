@@ -1,0 +1,418 @@
+object fSelectEx: TfSelectEx
+  Left = 50
+  Height = 650
+  Top = 88
+  Width = 1218
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Conjugaison des verbes en -er'
+  ClientHeight = 650
+  ClientWidth = 1218
+  DesignTimePPI = 120
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object cbRegular: TCheckBox
+    Left = 32
+    Height = 27
+    Top = 56
+    Width = 151
+    Caption = ' Verbes réguliers'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 0
+  end
+  object laIrreg: TLabel
+    Left = 32
+    Height = 23
+    Top = 96
+    Width = 131
+    Caption = 'Verbes irréguliers'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+    OnClick = laIrregClick
+  end
+  object StaticText1: TStaticText
+    Left = 16
+    Height = 21
+    Top = 16
+    Width = 81
+    Caption = 'Verbes:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object cbAller: TCheckBox
+    Left = 32
+    Height = 27
+    Top = 128
+    Width = 292
+    Caption = ' Verbes ALLER/Y ALLER/S''EN ALLER'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 2
+  end
+  object cbEnvoyer: TCheckBox
+    Left = 456
+    Height = 27
+    Top = 128
+    Width = 251
+    Caption = ' Verbes ENVOYER/RENVOYER'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 3
+  end
+  object laExcept: TLabel
+    Left = 32
+    Height = 23
+    Top = 168
+    Width = 101
+    Caption = 'Cas spéciaux:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+    OnClick = laExceptClick
+  end
+  object cbCER: TCheckBox
+    Left = 32
+    Height = 27
+    Top = 200
+    Width = 147
+    Caption = ' Verbes en -CER'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 4
+  end
+  object cbE_ER: TCheckBox
+    Left = 216
+    Height = 27
+    Top = 200
+    Width = 201
+    Caption = ' Verbes en -E*ER/-É*ER'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 5
+  end
+  object cbGER: TCheckBox
+    Left = 456
+    Height = 27
+    Top = 200
+    Width = 202
+    Caption = ' Verbes en -GER/-ÉGER'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 6
+  end
+  object cbELER: TCheckBox
+    Left = 704
+    Height = 27
+    Top = 200
+    Width = 197
+    Caption = ' Verbes en -ELER/ETER'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 7
+  end
+  object cbAYER: TCheckBox
+    Left = 944
+    Height = 27
+    Top = 200
+    Width = 265
+    Caption = ' Verbes en -AYER/-OYER/-UYER'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 8
+  end
+  object stVoix: TStaticText
+    Left = 16
+    Height = 21
+    Top = 248
+    Width = 81
+    Caption = 'Voix:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stVoixClick
+    ParentFont = False
+    TabOrder = 9
+  end
+  object cbActif: TCheckBox
+    Left = 32
+    Height = 27
+    Top = 280
+    Width = 106
+    Caption = 'Voix active'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 10
+  end
+  object cbPassif: TCheckBox
+    Left = 216
+    Height = 27
+    Top = 280
+    Width = 121
+    Caption = ' Voix passive'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 11
+  end
+  object cbPron: TCheckBox
+    Left = 456
+    Height = 27
+    Top = 280
+    Width = 164
+    Caption = ' Voix pronominale'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 12
+  end
+  object stModes: TStaticText
+    Left = 16
+    Height = 21
+    Top = 320
+    Width = 81
+    Caption = 'Modes:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stModesClick
+    ParentFont = False
+    TabOrder = 13
+  end
+  object cbInd: TCheckBox
+    Left = 32
+    Height = 27
+    Top = 352
+    Width = 90
+    Caption = ' Indicatif'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 14
+  end
+  object cbSubj: TCheckBox
+    Left = 216
+    Height = 27
+    Top = 352
+    Width = 105
+    Caption = ' Subjonctif'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 15
+  end
+  object cbMOthers: TCheckBox
+    Left = 456
+    Height = 27
+    Top = 352
+    Width = 229
+    Caption = 'Infinitif, participe, impératif'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 16
+  end
+  object stTemps: TStaticText
+    Left = 16
+    Height = 21
+    Top = 392
+    Width = 81
+    Caption = 'Temps:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stTempsClick
+    ParentFont = False
+    TabOrder = 17
+  end
+  object cbTSimp: TCheckBox
+    Left = 32
+    Height = 27
+    Top = 424
+    Width = 140
+    Caption = ' Temps simples'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 18
+  end
+  object cbTComp: TCheckBox
+    Left = 216
+    Height = 27
+    Top = 424
+    Width = 160
+    Caption = ' Temps composés'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 19
+  end
+  object stFormes: TStaticText
+    Left = 16
+    Height = 21
+    Hint = 'La forme du verbe n''est pas implémentée dans cette version!'
+    Top = 464
+    Width = 81
+    Caption = 'Forme:'
+    Enabled = False
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stFormesClick
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 20
+  end
+  object cbFAff: TCheckBox
+    Left = 32
+    Height = 27
+    Top = 496
+    Width = 162
+    Caption = ' Forme affirmative'
+    Checked = True
+    Enabled = False
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 21
+  end
+  object cbFNeg: TCheckBox
+    Left = 216
+    Height = 27
+    Top = 496
+    Width = 147
+    Caption = ' Forme négative'
+    Enabled = False
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 22
+  end
+  object cbFInt: TCheckBox
+    Left = 456
+    Height = 27
+    Top = 496
+    Width = 179
+    Caption = ' Forme intérrogative'
+    Enabled = False
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 23
+  end
+  object cbFIntNeg: TCheckBox
+    Left = 704
+    Height = 27
+    Top = 496
+    Width = 251
+    Caption = ' Forme intérrogative-négative'
+    Enabled = False
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 24
+  end
+  object stGenres: TStaticText
+    Left = 16
+    Height = 21
+    Top = 536
+    Width = 81
+    Caption = 'Genre:'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    OnClick = stGenresClick
+    ParentFont = False
+    TabOrder = 25
+  end
+  object cbMasc: TCheckBox
+    Left = 32
+    Height = 27
+    Top = 568
+    Width = 96
+    Caption = ' Masculin'
+    Checked = True
+    Font.Height = -17
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 26
+  end
+  object cbFem: TCheckBox
+    Left = 216
+    Height = 27
+    Top = 568
+    Width = 89
+    Caption = ' Féminin'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 27
+  end
+  object btAll: TButton
+    Left = 624
+    Height = 31
+    Top = 608
+    Width = 150
+    Caption = 'Sélectionnez tout'
+    OnClick = btAllClick
+    TabOrder = 28
+  end
+  object btNone: TButton
+    Left = 792
+    Height = 31
+    Top = 608
+    Width = 150
+    Caption = 'Désélectionnez tout'
+    OnClick = btNoneClick
+    TabOrder = 29
+  end
+  object btOK: TButton
+    Left = 1115
+    Height = 31
+    Top = 608
+    Width = 94
+    Caption = 'OK'
+    Font.Style = [fsBold]
+    OnClick = btOKClick
+    ParentFont = False
+    TabOrder = 30
+  end
+  object btDefaults: TButton
+    Left = 456
+    Height = 31
+    Top = 608
+    Width = 150
+    Caption = 'Sélectionnez défauts'
+    OnClick = btDefaultsClick
+    TabOrder = 31
+  end
+  object btCancel: TButton
+    Left = 1000
+    Height = 31
+    Top = 608
+    Width = 94
+    Caption = 'Cancel'
+    OnClick = btCancelClick
+    ParentFont = False
+    TabOrder = 32
+  end
+end

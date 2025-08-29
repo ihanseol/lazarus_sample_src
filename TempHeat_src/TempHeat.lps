@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="TempHeat.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="74"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="tempheat_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fTempHeat"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="74"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="tempheat_help.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="c:\Programs\lazarus\win64\lcl\interfaces\win32\win32listsl.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="139"/>
+        <CursorPos Y="153"/>
+        <UsageCount Value="9"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="c:\Programs\lazarus\win64\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="446"/>
+        <CursorPos Y="460"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="315" Column="32" TopLine="300"/>
+      </Position1>
+      <Position2>
+        <Filename Value="tempheat_help.pas"/>
+        <Caret Line="39" Column="11" TopLine="28"/>
+      </Position2>
+      <Position3>
+        <Filename Value="tempheat_help.pas"/>
+        <Caret Line="64" TopLine="37"/>
+      </Position3>
+      <Position4>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="459" TopLine="435"/>
+      </Position4>
+      <Position5>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="425" Column="36" TopLine="420"/>
+      </Position5>
+      <Position6>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="336" Column="24" TopLine="324"/>
+      </Position6>
+      <Position7>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="560" TopLine="533"/>
+      </Position7>
+      <Position8>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="778" Column="19" TopLine="771"/>
+      </Position8>
+      <Position9>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="1052" Column="41" TopLine="1037"/>
+      </Position9>
+      <Position10>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="1066" TopLine="1039"/>
+      </Position10>
+      <Position11>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="825" Column="82" TopLine="799"/>
+      </Position11>
+      <Position12>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="826" Column="43" TopLine="819"/>
+      </Position12>
+      <Position13>
+        <Filename Value="tempheat_main.pas"/>
+      </Position13>
+      <Position14>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="38" Column="98" TopLine="15"/>
+      </Position14>
+      <Position15>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="222" Column="65" TopLine="200"/>
+      </Position15>
+      <Position16>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="230" Column="70" TopLine="208"/>
+      </Position16>
+      <Position17>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="268" Column="25" TopLine="246"/>
+      </Position17>
+      <Position18>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="944" TopLine="922"/>
+      </Position18>
+      <Position19>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="133" Column="20" TopLine="116"/>
+      </Position19>
+      <Position20>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="244" Column="65" TopLine="222"/>
+      </Position20>
+      <Position21>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="252" Column="70" TopLine="230"/>
+      </Position21>
+      <Position22>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="290" Column="25" TopLine="268"/>
+      </Position22>
+      <Position23>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="966" Column="30" TopLine="944"/>
+      </Position23>
+      <Position24>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="120" Column="15" TopLine="111"/>
+      </Position24>
+      <Position25>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="966" Column="31" TopLine="952"/>
+      </Position25>
+      <Position26>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="377" Column="46" TopLine="354"/>
+      </Position26>
+      <Position27>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="514" Column="54" TopLine="509"/>
+      </Position27>
+      <Position28>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="509" TopLine="509"/>
+      </Position28>
+      <Position29>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="967" Column="65" TopLine="952"/>
+      </Position29>
+      <Position30>
+        <Filename Value="tempheat_main.pas"/>
+        <Caret Line="118" TopLine="111"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

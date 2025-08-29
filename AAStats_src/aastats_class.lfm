@@ -1,0 +1,226 @@
+object fAAClass: TfAAClass
+  Left = 249
+  Height = 413
+  Top = 143
+  Width = 1137
+  BorderIcons = [biSystemMenu]
+  Caption = 'Proteins: Amino acids by structure'
+  ClientHeight = 413
+  ClientWidth = 1137
+  DesignTimePPI = 120
+  OnActivate = FormActivate
+  LCLVersion = '1.8.4.0'
+  object sgCounts: TStringGrid
+    Left = 10
+    Height = 220
+    Top = 96
+    Width = 373
+    ColCount = 4
+    FixedCols = 2
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 8
+    TabOrder = 0
+    TabStop = False
+    TitleFont.Height = -15
+    TitleFont.Name = 'Consolas'
+    ColWidths = (
+      84
+      150
+      76
+      59
+    )
+    RowHeights = (
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+      27
+    )
+    Cells = (
+      18
+      0
+      0
+      'Class'
+      0
+      1
+      'Class I'
+      0
+      2
+      'Class II'
+      0
+      3
+      'Class III'
+      0
+      4
+      'Class IV'
+      0
+      5
+      'Class V'
+      0
+      6
+      'Class VI'
+      0
+      7
+      'Class VII'
+      1
+      0
+      'Structure'
+      1
+      1
+      'aliphatic'
+      1
+      2
+      'sulfur-containing'
+      1
+      3
+      'aromatic'
+      1
+      4
+      'neutral'
+      1
+      5
+      'acidic'
+      1
+      6
+      'basic'
+      1
+      7
+      'cyclic'
+      2
+      0
+      '  Count'
+      3
+      0
+      '  %'
+    )
+  end
+  object stProtein: TStaticText
+    Left = 10
+    Height = 21
+    Top = 16
+    Width = 1108
+    Caption = 'Unknown protein'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object laClassification: TLabel
+    Left = 10
+    Height = 23
+    Top = 56
+    Width = 189
+    Caption = 'Amino acids by structure'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object chPercents: TChart
+    Left = 832
+    Height = 300
+    Top = 56
+    Width = 300
+    AxisList = <    
+      item
+        Visible = False
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Visible = False
+        Alignment = calBottom
+        Marks.LabelBrush.Style = bsClear
+        Marks.Source = lcsLabels
+        Minors = <>
+        Title.LabelBrush.Style = bsClear
+      end>
+    BackColor = clCream
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    object chPercentsPies: TPieSeries
+    end
+  end
+  object chCounts: TChart
+    Left = 408
+    Height = 318
+    Top = 56
+    Width = 400
+    AxisList = <    
+      item
+        Visible = False
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Grid.Visible = False
+        Alignment = calBottom
+        Marks.Format = '%2:s'
+        Marks.LabelBrush.Style = bsClear
+        Marks.Range.Max = 7
+        Marks.Range.Min = 1
+        Marks.Range.UseMax = True
+        Marks.Range.UseMin = True
+        Marks.Source = lcsLabels
+        Marks.Style = smsLabel
+        Minors = <>
+        Range.Max = 8
+        Range.UseMax = True
+        Range.UseMin = True
+        Title.LabelBrush.Style = bsClear
+      end>
+    BackColor = clCream
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    object chBarCounts: TBarSeries
+      BarBrush.Color = clBlue
+      BarWidthStyle = bwPercentMin
+      Source = lcsData
+    end
+  end
+  object btClose: TButton
+    Left = 1038
+    Height = 31
+    Top = 376
+    Width = 94
+    Caption = 'Close'
+    OnClick = btCloseClick
+    TabOrder = 4
+  end
+  object lcsData: TListChartSource
+    left = 1064
+    top = 80
+  end
+  object lcsLabels: TListChartSource
+    DataPoints.Strings = (
+      '1|1|$0080FF|aliph'
+      '2|2|$00FFFF|sulf'
+      '3|3|$00FF00|arom'
+      '4|4|$FFFFFF|neut'
+      '5|5|$0000FF|acid'
+      '6|6|$FF0000|bas'
+      '7|7|$008000|cycl'
+    )
+    left = 1064
+    top = 160
+  end
+end

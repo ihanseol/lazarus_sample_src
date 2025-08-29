@@ -1,0 +1,52 @@
+################################
+# "Adjectifs" - Aide programme #
+################################
+
+"Adjectifs" est un entraîneur (générateur d'exercices) de grammaire française, qui permet à l'étudiant de tester son savoir concernant les terminaisons des adjectifs.
+
+Pour utiliser le programme, pousser le bouton "Commencer" resp. "Question" pour générer une nouvelle question, entrer la réponse et pousser "Réponse" pour la vérifier. Pour chaque fausse réponse, la correcte est affichée. Les compteurs d'évaluation sont mis à jour après chaque réponse entrée.
+
+Les boutons à lettres permettent d'entrer la lettre correspondante dans le champ de réponse actuel; cela permet d'entrer les caractères français, pas disponibles sur le clavier.
+
+Menu "Exercice".
+================
+
+Nouveau.
+--------
+Lancement d'un nouvel exercice, avec remise à zéro des compteurs d`évaluation.
+
+Quitter.
+--------
+Quitter l'application.
+
+Menu "Options".
+===============
+
+Choix des options pour les questions des exercices. Attention: Les changements conc. le nombre de questions et l'exclusion des adjectifs réguliers ne seront pris en compte qu'après avoir démarré un nouvel exercice (entrée "Nouveau" dans le menu "Exercices").
+
+Nombre de questions ...
+-----------------------
+Choix du nombre de questions pour un exercice (minimum 10).
+
+Terminaisons à trouver.
+-----------------------
+Sélection sur quelles terminaisons les questions de l'exercice devront porter: féminin singulier, masculin pluriel et/ou féminin pluriel. Cette option peut être modifiée durant l'exercice.
+
+Exclure adjectifs réguliers.
+----------------------------
+Si cette option est sélectionnée, les questions ne comportent que des adjectifs à terminaisons irrégulières (en fait, faisant partie d'un des groupes à féminin ou pluriel non régulier).
+
+Menu "Aide".
+============
+
+Aide grammaire.
+---------------
+Affichage de quelques détails concernant les terminaisons des adjectifs français.
+
+Aide programme.
+---------------
+Affichage de l'aide d'utilisation de "Adjectifs" (ce texte).
+
+Info programme.
+---------------
+Affichage de la version, de l'auteur et de la date de développement du programme "Adjectifs".

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="Biorhythm.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="32"/>
+        <UsageCount Value="40"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="biorhythm_u1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fBiorhythm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="40"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="109" Column="20" TopLine="81"/>
+      </Position1>
+      <Position2>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="90" Column="47" TopLine="81"/>
+      </Position2>
+      <Position3>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="94" Column="63" TopLine="87"/>
+      </Position3>
+      <Position4>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="107" Column="13" TopLine="92"/>
+      </Position4>
+      <Position5>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="202" Column="51" TopLine="198"/>
+      </Position5>
+      <Position6>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="105" Column="20" TopLine="79"/>
+      </Position6>
+      <Position7>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="182" Column="26" TopLine="180"/>
+      </Position7>
+      <Position8>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="171" Column="19" TopLine="137"/>
+      </Position8>
+      <Position9>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="186" Column="25" TopLine="168"/>
+      </Position9>
+      <Position10>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="183" Column="33" TopLine="170"/>
+      </Position10>
+      <Position11>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="229" Column="28" TopLine="195"/>
+      </Position11>
+      <Position12>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="231" Column="66" TopLine="209"/>
+      </Position12>
+      <Position13>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="226" Column="54" TopLine="218"/>
+      </Position13>
+      <Position14>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="230" Column="68" TopLine="218"/>
+      </Position14>
+      <Position15>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="226" Column="60" TopLine="218"/>
+      </Position15>
+      <Position16>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="97" Column="11" TopLine="97"/>
+      </Position16>
+      <Position17>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="234" Column="32" TopLine="212"/>
+      </Position17>
+      <Position18>
+        <Filename Value="biorhythm_u1.pas"/>
+      </Position18>
+      <Position19>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="233" Column="86" TopLine="208"/>
+      </Position19>
+      <Position20>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="234" Column="6" TopLine="214"/>
+      </Position20>
+      <Position21>
+        <Filename Value="biorhythm_u1.pas"/>
+      </Position21>
+      <Position22>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="234" Column="24" TopLine="209"/>
+      </Position22>
+      <Position23>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="235" Column="25" TopLine="210"/>
+      </Position23>
+      <Position24>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="15" Column="31" TopLine="15"/>
+      </Position24>
+      <Position25>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="142" Column="13" TopLine="115"/>
+      </Position25>
+      <Position26>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="322" Column="10" TopLine="295"/>
+      </Position26>
+      <Position27>
+        <Filename Value="biorhythm_u1.pas"/>
+      </Position27>
+      <Position28>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="178" Column="29" TopLine="172"/>
+      </Position28>
+      <Position29>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="209" Column="25" TopLine="192"/>
+      </Position29>
+      <Position30>
+        <Filename Value="biorhythm_u1.pas"/>
+        <Caret Line="235" Column="65" TopLine="226"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

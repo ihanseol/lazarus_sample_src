@@ -1,0 +1,33 @@
+"FunctionPlotter" Help.
+=======================
+
+"FunctionPlotter" is a Lazarus/Free Pascal application that can be used to draw simple graphs (functions). In fact, the drawing is done by running the freeware program Gnuplot (that you'll have to download and install in order to use "FunctionPlotter"). The user can enter the function(s) as simple string(s), as for example: sin(x). Other graph properties or parameters can also be set, in particular the range of the x- and y-axis values. To draw the graph(s), choose if you want to draw one single or two functions, and push the "Draw" button. This will open a new window that shows the plot. In this window, you can use the button "Save" to save the graph as PNG graphics file. In the main window, you find a text field, that when the "Draw" button is pushed, is filled with the Gnuplot commands that are used to draw the graph. You can save these commands as PLT file using the "Save" button.
+
+The only input, that is mandatory, is the function to draw. For all other properties and parameters default values are used.
+
+Property/Parameter     Description                             Default                              Check
+-----------------------------------------------------------------------------------------------------------
+Graph title            Main title of the plot                  <no title>                           <none>
+Function (*)           The function definition (as string)     <none>                               cf. [1]
+Function label (*)     Label used in the legend display        the function itself                  <none>
+Function color (*)     Color of the function plot              Gnuplot default color                cf. [2]
+X-values range         Range of the values on the x-axis       from -10 to 10                       cf. [3]
+Y-values range         Range of the values on the y-axis       from function minimum to maximum     cf. [3]
+X-axis label           Label of the x-axis                     <no label>                           <none>
+Y-axis label           Label of the y-axis                     <no label>                           <none>
+Line width             Thickness of the function plot          1 pixel                              cf. [4]
+Legend position        Position of the legend                  top right                            <none>
+Draw X-zeroaxis        Draw a dotted line for y = 0            <not drawn>                          <none>
+Draw Y-zeroaxis        Draw a dotted line for x = 0            <not drawn>                          <none>
+Draw grid              Draw dotted lines at x- and y-ticks     <not drawn>                          <none>
+
+(*) These items must/may be set for a two functions plot.
+
+User input validity check.
+--------------------------
+
+[1] The function field must not be empty. Invalid functions will result in a Gnuplot error!
+[2] If the color input starts with a # sign, it is checked to be a valid RGB string (ex: #FFFF00 = yellow).
+    Otherwise it is supposed to be a color name and not checked; this may result in a Gnuplot error!
+[3] The range must be of the form [a ; b] or [a : b], where a and b have to be numeric.
+[4] The line width must be numeric.

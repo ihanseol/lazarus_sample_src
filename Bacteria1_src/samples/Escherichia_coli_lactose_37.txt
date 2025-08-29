@@ -1,0 +1,4 @@
+Bacteria=Escherichia coli
+Nutrient=lactose at 37 ºC
+R=0.8
+A=20 (mg/l)

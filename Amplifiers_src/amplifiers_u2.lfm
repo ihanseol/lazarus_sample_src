@@ -1,0 +1,239 @@
+object fData: TfData
+  Left = 520
+  Height = 408
+  Top = 308
+  Width = 542
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Transistor amplifiers'
+  ClientHeight = 408
+  ClientWidth = 542
+  DesignTimePPI = 120
+  OnActivate = FormActivate
+  LCLVersion = '1.8.4.0'
+  object StaticText1: TStaticText
+    Left = 16
+    Height = 25
+    Top = 16
+    Width = 232
+    Caption = 'Please, enter circuit data:'
+    Font.Height = -17
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 17
+    Top = 56
+    Width = 83
+    Caption = 'Circuit layout'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object rbCircuit1: TRadioButton
+    Left = 16
+    Height = 23
+    Top = 80
+    Width = 122
+    Caption = ' Simple amplifier'
+    Checked = True
+    Font.Height = -13
+    OnChange = rbCircuit1Change
+    ParentFont = False
+    TabOrder = 0
+    TabStop = True
+  end
+  object rbCircuit2: TRadioButton
+    Left = 232
+    Height = 23
+    Top = 80
+    Width = 120
+    Caption = ' Emitter follower'
+    Font.Height = -13
+    OnChange = rbCircuit2Change
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 17
+    Top = 128
+    Width = 111
+    Caption = 'Source voltage VS'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edVS: TEdit
+    Left = 16
+    Height = 25
+    Hint = 'Source voltage'
+    Top = 156
+    Width = 48
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 72
+    Height = 17
+    Top = 160
+    Width = 8
+    Caption = 'V'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object laV: TLabel
+    Left = 16
+    Height = 17
+    Top = 304
+    Width = 135
+    Caption = 'DC output voltage VC'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edV: TEdit
+    Left = 16
+    Height = 25
+    Hint = 'DC output voltage (bias point)'
+    Top = 332
+    Width = 48
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 5
+  end
+  object laUV: TLabel
+    Left = 72
+    Height = 17
+    Top = 336
+    Width = 8
+    Caption = 'V'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object btOK: TButton
+    Left = 367
+    Height = 25
+    Top = 376
+    Width = 75
+    Caption = 'OK'
+    OnClick = btOKClick
+    TabOrder = 8
+  end
+  object btCancel: TButton
+    Left = 457
+    Height = 25
+    Top = 376
+    Width = 75
+    Caption = 'Cancel'
+    OnClick = btCancelClick
+    TabOrder = 7
+    TabStop = False
+  end
+  object laR: TLabel
+    Left = 232
+    Height = 17
+    Top = 128
+    Width = 84
+    Caption = 'Resistance RC'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edR: TEdit
+    Left = 232
+    Height = 25
+    Hint = 'Collector resistance'
+    Top = 156
+    Width = 48
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
+  end
+  object laUR: TLabel
+    Left = 288
+    Height = 17
+    Top = 160
+    Width = 16
+    Caption = 'kΩ'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 17
+    Top = 200
+    Width = 104
+    Caption = 'Transistor gain β'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edBeta: TEdit
+    Left = 16
+    Height = 25
+    Hint = 'Transistor current gain'
+    Top = 228
+    Width = 48
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 4
+  end
+  object laBias: TLabel
+    Left = 16
+    Height = 17
+    Top = 272
+    Width = 516
+    Caption = 'Biasing the circuit to specified DC output voltage (VC) and specified AC voltage gain (AV)'
+    Font.Color = clBlue
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object laAV: TLabel
+    Left = 232
+    Height = 17
+    Top = 304
+    Width = 99
+    Caption = 'Voltage gain AV'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edAV: TEdit
+    Left = 232
+    Height = 25
+    Hint = 'AC voltage gain'
+    Top = 332
+    Width = 48
+    Alignment = taRightJustify
+    Font.Height = -13
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 6
+  end
+end

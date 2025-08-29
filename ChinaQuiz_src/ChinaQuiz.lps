@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="ChinaQuiz.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="72"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="quiz.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fChinaQuiz"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="72"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="usflagseals.pas"/>
+        <ComponentName Value="fUSAFlagSeals"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="44"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="470" Column="3" TopLine="444"/>
+      </Position1>
+      <Position2>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="466" Column="3" TopLine="450"/>
+      </Position2>
+      <Position3>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="324" Column="3" TopLine="322"/>
+      </Position3>
+      <Position4>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="330" Column="3" TopLine="323"/>
+      </Position4>
+      <Position5>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="522" TopLine="496"/>
+      </Position5>
+      <Position6>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="83" TopLine="57"/>
+      </Position6>
+      <Position7>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="19" Column="20" TopLine="11"/>
+      </Position7>
+      <Position8>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="126" Column="83" TopLine="113"/>
+      </Position8>
+      <Position9>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="138" Column="22" TopLine="125"/>
+      </Position9>
+      <Position10>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="207" Column="38" TopLine="193"/>
+      </Position10>
+      <Position11>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="129" Column="15" TopLine="109"/>
+      </Position11>
+      <Position12>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="259" Column="30" TopLine="244"/>
+      </Position12>
+      <Position13>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="256" Column="46" TopLine="243"/>
+      </Position13>
+      <Position14>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="258" Column="26" TopLine="56"/>
+      </Position14>
+      <Position15>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="256" Column="42" TopLine="245"/>
+      </Position15>
+      <Position16>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="250" Column="71" TopLine="244"/>
+      </Position16>
+      <Position17>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="306" Column="10" TopLine="291"/>
+      </Position17>
+      <Position18>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="172" Column="24" TopLine="162"/>
+      </Position18>
+      <Position19>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="471" Column="12" TopLine="459"/>
+      </Position19>
+      <Position20>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="41" Column="5" TopLine="40"/>
+      </Position20>
+      <Position21>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="476" Column="54" TopLine="459"/>
+      </Position21>
+      <Position22>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="97" Column="61" TopLine="77"/>
+      </Position22>
+      <Position23>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="207" Column="31" TopLine="202"/>
+      </Position23>
+      <Position24>
+        <Filename Value="ChinaQuiz.lpr"/>
+        <Caret Line="16" Column="41"/>
+      </Position24>
+      <Position25>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="394" TopLine="369"/>
+      </Position25>
+      <Position26>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="410" Column="66" TopLine="400"/>
+      </Position26>
+      <Position27>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="539" TopLine="513"/>
+      </Position27>
+      <Position28>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="195" Column="44" TopLine="191"/>
+      </Position28>
+      <Position29>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="128" Column="119" TopLine="109"/>
+      </Position29>
+      <Position30>
+        <Filename Value="quiz.pas"/>
+        <Caret Line="404" Column="45" TopLine="379"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

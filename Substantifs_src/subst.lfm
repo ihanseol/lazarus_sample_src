@@ -1,0 +1,302 @@
+object fSubst: TfSubst
+  Left = 301
+  Height = 328
+  Top = 77
+  Width = 815
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Grammaire français.e'
+  ClientHeight = 303
+  ClientWidth = 815
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object StaticText1: TStaticText
+    Left = 179
+    Height = 37
+    Top = 8
+    Width = 456
+    Alignment = taCenter
+    Caption = 'Le pluriel des substantifs.'
+    Font.Height = -22
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object laQuestion: TLabel
+    Left = 10
+    Height = 23
+    Top = 56
+    Width = 73
+    Caption = 'Question:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 23
+    Top = 108
+    Width = 66
+    Caption = 'Singulier'
+    ParentColor = False
+  end
+  object edSg: TEdit
+    Left = 83
+    Height = 31
+    Top = 104
+    Width = 243
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    Left = 355
+    Height = 23
+    Top = 108
+    Width = 47
+    Caption = 'Pluriel'
+    ParentColor = False
+  end
+  object edPl: TEdit
+    Left = 411
+    Height = 31
+    Top = 104
+    Width = 192
+    TabOrder = 1
+  end
+  object Label5: TLabel
+    Left = 664
+    Height = 23
+    Top = 56
+    Width = 83
+    Caption = 'Evaluation:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 664
+    Height = 23
+    Top = 108
+    Width = 76
+    Caption = 'Questions'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 664
+    Height = 23
+    Top = 144
+    Width = 56
+    Caption = 'Correct'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 664
+    Height = 23
+    Top = 180
+    Width = 34
+    Caption = 'Faux'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 664
+    Height = 23
+    Top = 217
+    Width = 51
+    Caption = 'Succès'
+    ParentColor = False
+  end
+  object edQuestions: TEdit
+    Left = 752
+    Height = 31
+    Top = 104
+    Width = 56
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object edCorrect: TEdit
+    Left = 752
+    Height = 31
+    Top = 140
+    Width = 56
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 5
+  end
+  object edFalse: TEdit
+    Left = 752
+    Height = 31
+    Top = 176
+    Width = 56
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object edSuccess: TEdit
+    Left = 752
+    Height = 31
+    Top = 213
+    Width = 56
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object btQuestion: TButton
+    Left = 688
+    Height = 31
+    Top = 264
+    Width = 120
+    Caption = 'Commencer'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object btEaigu: TButton
+    Left = 79
+    Height = 31
+    Top = 152
+    Width = 40
+    Caption = 'é'
+    OnClick = btEaiguClick
+    TabOrder = 8
+    TabStop = False
+  end
+  object btEgrave: TButton
+    Left = 148
+    Height = 31
+    Top = 152
+    Width = 40
+    Caption = 'è'
+    OnClick = btEgraveClick
+    TabOrder = 9
+    TabStop = False
+  end
+  object btEtrema: TButton
+    Left = 286
+    Height = 31
+    Top = 152
+    Width = 40
+    Caption = 'ë'
+    OnClick = btEtremaClick
+    TabOrder = 10
+    TabStop = False
+  end
+  object btItrema: TButton
+    Left = 424
+    Height = 31
+    Top = 152
+    Width = 40
+    Caption = 'ï'
+    OnClick = btItremaClick
+    TabOrder = 11
+    TabStop = False
+  end
+  object btCcedil: TButton
+    Left = 563
+    Height = 31
+    Top = 152
+    Width = 40
+    Caption = 'ç'
+    OnClick = btCcedilClick
+    TabOrder = 12
+    TabStop = False
+  end
+  object btEcirc: TButton
+    Left = 217
+    Height = 31
+    Top = 152
+    Width = 40
+    Caption = 'ê'
+    OnClick = btEcircClick
+    TabOrder = 14
+    TabStop = False
+  end
+  object btIcirc: TButton
+    Left = 355
+    Height = 31
+    Top = 152
+    Width = 40
+    Caption = 'î'
+    OnClick = btIcircClick
+    TabOrder = 15
+    TabStop = False
+  end
+  object btUcirc: TButton
+    Left = 493
+    Height = 31
+    Top = 152
+    Width = 40
+    Caption = 'û'
+    OnClick = btUcircClick
+    TabOrder = 16
+    TabStop = False
+  end
+  object btAcirc: TButton
+    Left = 10
+    Height = 31
+    Top = 152
+    Width = 40
+    Caption = 'â'
+    OnClick = btAcircClick
+    TabOrder = 13
+    TabStop = False
+  end
+  object edEval: TEdit
+    Left = 10
+    Height = 31
+    Top = 213
+    Width = 593
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 17
+  end
+  object mMenu: TMainMenu
+    left = 168
+    top = 8
+    object mExercise: TMenuItem
+      Caption = 'Exercice'
+      object mExerciseNew: TMenuItem
+        Caption = 'Nouveau'
+        OnClick = mExerciseNewClick
+      end
+      object mExerciseExit: TMenuItem
+        Caption = 'Quitter'
+        OnClick = mExerciseExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsQuestions: TMenuItem
+        Caption = 'Nombre de questions ...'
+        OnClick = mOptionsQuestionsClick
+      end
+      object mOptionsRegExclude: TMenuItem
+        Caption = 'Exclure substantifs réguliers'
+        OnClick = mOptionsRegExcludeClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Aide'
+      object mHelpGrammar: TMenuItem
+        Caption = 'Aide grammaire'
+        OnClick = mHelpGrammarClick
+      end
+      object mHelpHelp: TMenuItem
+        Caption = 'Aide programme'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'Info programme'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

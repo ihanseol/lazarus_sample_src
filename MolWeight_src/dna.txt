@@ -1,0 +1,15 @@
+Adenine         a      313.2100
+Guanine         g      329.2100
+Cytosine        c      289.1800
+Thymine         t      304.2000
+a, or c         m      --------
+a, or g         r      --------
+a, or t         w      --------
+c, or g         s      --------
+c, or t         y      --------
+g, or t         k      --------
+a, c, or g      v      --------
+a, c, or t      h      --------
+a, g, or t      d      --------
+c, g, or t      b      --------
+a, c, g, or t   n      --------

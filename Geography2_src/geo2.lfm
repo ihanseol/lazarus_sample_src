@@ -1,0 +1,350 @@
+object fGeo2: TfGeo2
+  Left = 203
+  Height = 309
+  Top = 211
+  Width = 1152
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Geography quiz'
+  ClientHeight = 284
+  ClientWidth = 1152
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object stTitle: TStaticText
+    Left = 168
+    Height = 38
+    Top = 5
+    Width = 816
+    Alignment = taCenter
+    Caption = 'Geography quiz: World mountains - Mountain elevation.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 23
+    Top = 68
+    Width = 74
+    Caption = 'Mountain'
+    ParentColor = False
+  end
+  object edName: TEdit
+    Left = 93
+    Height = 31
+    Top = 64
+    Width = 250
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 1
+  end
+  object laElevation: TLabel
+    Left = 518
+    Height = 23
+    Top = 68
+    Width = 69
+    Caption = 'Elevation'
+    ParentColor = False
+  end
+  object laUElevation: TLabel
+    Left = 852
+    Height = 23
+    Top = 68
+    Width = 15
+    Caption = 'm'
+    ParentColor = False
+  end
+  object laRegion: TLabel
+    Left = 398
+    Height = 23
+    Top = 104
+    Width = 179
+    Caption = 'Mountain range/region'
+    ParentColor = False
+  end
+  object edRegion: TEdit
+    Left = 591
+    Height = 31
+    Top = 100
+    Width = 266
+    TabOrder = 2
+  end
+  object cobElevation: TComboBox
+    Left = 601
+    Height = 31
+    Top = 64
+    Width = 240
+    ItemHeight = 23
+    Style = csDropDownList
+    TabOrder = 3
+  end
+  object laContinent: TLabel
+    Left = 622
+    Height = 23
+    Top = 140
+    Width = 76
+    Caption = 'Continent'
+    ParentColor = False
+  end
+  object cobContinent: TComboBox
+    Left = 713
+    Height = 31
+    Top = 136
+    Width = 154
+    ItemHeight = 23
+    ItemIndex = 0
+    Items.Strings = (
+      'Africa'
+      'Asia'
+      'Australia'
+      'Europe'
+      'North America'
+      'South America'
+    )
+    Style = csDropDownList
+    TabOrder = 4
+    Text = 'Africa'
+  end
+  object cobRegion: TComboBox
+    Left = 591
+    Height = 31
+    Top = 100
+    Width = 276
+    ItemHeight = 23
+    Style = csDropDownList
+    TabOrder = 5
+  end
+  object edEval: TEdit
+    Left = 10
+    Height = 28
+    Top = 232
+    Width = 857
+    Font.Height = -15
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object btQuestion: TButton
+    Left = 1050
+    Height = 28
+    Top = 232
+    Width = 94
+    Caption = 'Start'
+    OnClick = btQuestionClick
+    TabOrder = 7
+  end
+  object sgEval: TStringGrid
+    Left = 984
+    Height = 112
+    Top = 106
+    Width = 160
+    ColCount = 2
+    FixedRows = 0
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    RowCount = 4
+    TabOrder = 8
+    ColWidths = (
+      95
+      61
+    )
+    Cells = (
+      4
+      0
+      0
+      'Questions'
+      0
+      1
+      'Correct'
+      0
+      2
+      'False'
+      0
+      3
+      'Success'
+    )
+  end
+  object laEval: TLabel
+    Left = 984
+    Height = 23
+    Top = 64
+    Width = 83
+    Caption = 'Evaluation:'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object cbCountry1: TCheckBox
+    Left = 10
+    Height = 23
+    Top = 152
+    Width = 84
+    Caption = ' Country 1'
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 9
+  end
+  object cbCountry2: TCheckBox
+    Left = 181
+    Height = 23
+    Top = 152
+    Width = 84
+    Caption = ' Country 2'
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 10
+  end
+  object cbCountry3: TCheckBox
+    Left = 352
+    Height = 23
+    Top = 152
+    Width = 84
+    Caption = ' Country 3'
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 11
+  end
+  object cbCountry4: TCheckBox
+    Left = 10
+    Height = 23
+    Top = 184
+    Width = 84
+    Caption = ' Country 4'
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 12
+  end
+  object cbCountry5: TCheckBox
+    Left = 181
+    Height = 23
+    Top = 184
+    Width = 84
+    Caption = ' Country 5'
+    Font.Height = -13
+    ParentFont = False
+    TabOrder = 13
+  end
+  object laCountries: TLabel
+    Left = 10
+    Height = 23
+    Top = 120
+    Width = 77
+    Caption = 'Countries:'
+    ParentColor = False
+  end
+  object btCancel: TButton
+    Left = 928
+    Height = 28
+    Top = 232
+    Width = 94
+    Caption = 'Cancel'
+    OnClick = btCancelClick
+    TabOrder = 14
+  end
+  object mMenu: TMainMenu
+    Left = 1096
+    Top = 8
+    object mQuiz: TMenuItem
+      Caption = 'Quiz'
+      object mQuizElevation: TMenuItem
+        Caption = 'Mountain elevation'
+        OnClick = mQuizElevationClick
+      end
+      object mQuizRegion: TMenuItem
+        Caption = 'Mountain range/region'
+        OnClick = mQuizRegionClick
+      end
+      object mQuizContinent: TMenuItem
+        Caption = 'Mountain continent'
+        OnClick = mQuizContinentClick
+      end
+      object mQuizCountries: TMenuItem
+        Caption = 'Mountain contries'
+        OnClick = mQuizCountriesClick
+      end
+      object mQuizExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mQuizExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsQuestions: TMenuItem
+        Caption = 'Number of questions ...'
+        OnClick = mOptionsQuestionsClick
+      end
+      object mOptionsList: TMenuItem
+        Caption = 'Mountains list'
+        object mOptionsListAF: TMenuItem
+          Caption = 'Mountains of Africa'
+          OnClick = mOptionsListAFClick
+        end
+        object moptionsListAS: TMenuItem
+          Caption = 'Mountains of Asia I'
+          OnClick = moptionsListASClick
+        end
+        object moptionsListAS2: TMenuItem
+          Caption = 'Mountains of Asia II'
+          OnClick = moptionsListAS2Click
+        end
+        object moptionsListAU: TMenuItem
+          Caption = 'Mountains of Australia'
+          OnClick = moptionsListAUClick
+        end
+        object moptionsListEU: TMenuItem
+          Caption = 'Mountains of Europe'
+          Checked = True
+          OnClick = moptionsListEUClick
+        end
+        object mOptionsListNA: TMenuItem
+          Caption = 'Mountains of North America'
+          OnClick = mOptionsListNAClick
+        end
+        object mOptionsListSA: TMenuItem
+          Caption = 'Mountains of South America'
+          OnClick = mOptionsListSAClick
+        end
+        object mOptionsListAll: TMenuItem
+          Caption = 'World mountains (full list)'
+          OnClick = mOptionsListAllClick
+        end
+      end
+      object mOptionsRegion: TMenuItem
+        Caption = 'Region entry'
+        object mOptionsRegionManual: TMenuItem
+          Caption = 'Manual entry'
+          OnClick = mOptionsRegionManualClick
+        end
+        object mOptionsRegionSelection: TMenuItem
+          Caption = 'Selection list'
+          Checked = True
+          OnClick = mOptionsRegionSelectionClick
+        end
+      end
+      object MenuItem2: TMenuItem
+        Caption = '-'
+      end
+      object mOptionsFeet: TMenuItem
+        Caption = 'Mountain elevation in feet'
+        OnClick = mOptionsFeetClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

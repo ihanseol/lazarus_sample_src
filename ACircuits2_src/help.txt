@@ -1,0 +1,41 @@
+"ACircuits2" is a simple exercise generator, concerning resonance in alternate current RLC circuits, i.e. circuits whose components are resistors, inductors and capacitors. The circuits proposed are either series or parallel or both (selection done in the "Circuits" menu). For a given circuit, the application randomly gives some values, the others having to be entered by the user. Please note, that the program awaits values with a precision of 2 decimals! The user answer is considered to be correct, if all values entered are correct.
+
+Menu "Test".
+============
+
+New.
+---
+Start a new test, i.e. reset evaluation counters.
+
+Exit.
+-----
+Exit the application.
+
+Menu "Circuits".
+================
+
+Series RLC.
+-----------
+Include resonance in series RLC circuits questions.
+
+Parallel RLC.
+-------------
+Include resonance in parallel RLC circuits questions.
+
+Menu "Options".
+===============
+
+View results.
+-------------
+If this option is checked, the application shows all results by itself. Unchecked, the application runs as a real test, where the user has to enter the different values.
+
+Menu "Help".
+============
+
+Help.
+-----
+Display of application usage help (this text).
+
+About.
+------
+Display of application version, author and date-written.

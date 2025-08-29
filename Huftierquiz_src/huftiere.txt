@@ -1,0 +1,90 @@
+Alpaka                        --3 -
+Alpensteinbock                123 Steinbock
+Amerikanischer Bison          123 Bison
+Asiatischer Esel              -23 Esel
+Banteng                       --3 -
+Bartschwein                   --3 -
+Berg-Anoa                     --- -
+Bergnyala                     --- -
+Bergriedbock                  --- -
+Bergtapir                     -23 Tapir
+Blauducker                    -23 -
+Blauschaf                     --3 -
+Bongo                         -23 -
+Breitmaulnashorn              123 Nashorn
+Buntbock                      -23 -
+Chaco-Pekari                  --- -
+Dall-Schaf                    --3 -
+Damagazelle                   --- -
+Damhirsch                     -23 -
+Davidshirsch                  --- -
+Defassa-Wasserbock            --- -
+Dorkasgazelle                 -23 Gazelle
+Dromedar                      -23 -
+Dünengazelle                  --- -
+Europäischer Elch             123 Elch
+Flachland-Anoa                --- -
+Flachlandtapir                123 Tapir
+Flusspferd                    123 -
+Gabelbock                     -23 -
+Gaur                          --3 -
+Goldtakin                     --3 -
+Guanako                       --- -
+Günther-Dikdik                --- -
+Hausesel                      123 Esel
+Hauspferd                     123 Pferd
+Hausrind                      123 Rind
+Hausschaf                     123 Schaf
+Hausschwein                   123 Schwein
+Hausziege                     123 Ziege
+Hirschziegenantilope          --- -
+Indien-Kantschil              --- -
+Indischer Muntjak             --- -
+Japanischer Serau             --- -
+Kaffernbüffel                 -23 -
+Kiang                         --- -
+Kronenducker                  --- -
+Lama                          123 -
+Langschwanzgoral              --3 Goral
+Maxwell-Ducker                --- -
+Mendesantilope                123 Antilope
+Mittelamerikanischer Tapir    --- -
+Moschusochse                  -23 -
+Panzernashorn                 -23 Nashorn
+Pferdeantilope                --- -
+Puku                          --3 -
+Reh                           123 -
+Ren                           123 -
+Riesenwaldschwein             --- -
+Rotbüffel                     --3 -
+Rothirsch                     123 Hirsch
+Säbelantilope                 --3 -
+Saiga                         --3 -
+Schabrackentapir              --- -
+Schneeziege                   -23 -
+Schraubenziege                --3 -
+Sitatunga                     --3 -
+Spießbock                     --- -
+Spitzmaulnashorn              -23 Nashorn
+Steppenzebra                  123 Zebra
+Streifengnu                   -23 Gnu
+Südliche Grant-Gazelle        --- -
+Südlicher Serau               --- -
+Südpundu                      --3 Pundu
+Sulawesi-Hirscheber           --- -
+Sumatra-Nashorn               -23 Nashorn
+Tamarau                       --3 -
+Trampeltier                   123 Kamel
+Uganda-Grasantilope           --- -
+Vikunja                       --- -
+Wapiti                        --3 -
+Wasserbüffel                  -23 -
+Weißschwanzgnu                --3 Gnu
+Weißwedelhirsch               --- -
+Westafrika-Kuhantilope        --3 Kuhantilope
+Wildpferd                     -23 Pferd
+Wildschwein                   123 -
+Wisent                        -23 -
+Yak                           -23 -
+Zwergflusspferd               --- -
+Zwergwildschwein              --3 -

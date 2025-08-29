@@ -1,0 +1,56 @@
+object HelpForm: THelpForm
+  Left = 534
+  Height = 414
+  Top = 327
+  Width = 856
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Time Calculator Help'
+  ClientHeight = 414
+  ClientWidth = 856
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object HelpText: TMemo
+    Left = 16
+    Height = 344
+    Top = 16
+    Width = 824
+    Font.Height = -13
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      'TimeCalculator v1.1.'
+      '===================='
+      ''
+      'TimeCalculator may be used to add or subtract time values. The values may be entered as hours/minutes/[seconds] or minutes/seconds. Use "h" button as hours-minutes, ":" button as minutes-seconds separator.'
+      ''
+      'Examples: 5h20, 5h20:30, 20:30.'
+      ''
+      'Use "+" for addition, "-" for subtraction. Note that negative time values are not supported!'
+      ''
+      'Clear buttons:'
+      '--------------'
+      '  C      Clear all       resets the calculation'
+      '  CE     Clear entry     clears the actual time value'
+      '  <-     Backspace       clears the last character (digit or separator) entered'
+      ''
+      'Conversion buttons:'
+      '-------------------'
+      '  -> hh      converts a time value (in minutes) to hours'
+      '  -> mm      converts a time value (in hours) to minutes'
+      '  -> dec     converts a time value to a decimal number; e.g. 1h30 -> 1,5'
+      '             decimal numbers may not be used in calculations!'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object ButtonClose: TButton
+    Left = 765
+    Height = 25
+    Top = 376
+    Width = 75
+    Caption = 'Close'
+    OnClick = ButtonCloseClick
+    TabOrder = 1
+  end
+end

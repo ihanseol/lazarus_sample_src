@@ -1,0 +1,45 @@
+object fGameOver: TfGameOver
+  Left = 419
+  Height = 148
+  Top = 337
+  Width = 400
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Snake2'
+  ClientHeight = 148
+  ClientWidth = 400
+  Color = clWhite
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object imGameOver: TImage
+    Left = 10
+    Height = 128
+    Top = 10
+    Width = 128
+    Center = True
+  end
+  object stGameOver1: TStaticText
+    Left = 180
+    Height = 38
+    Top = 24
+    Width = 177
+    Alignment = taCenter
+    Caption = 'Game over'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object stGameOver2: TStaticText
+    Left = 152
+    Height = 38
+    Top = 80
+    Width = 236
+    Alignment = taCenter
+    Caption = 'Game over'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+end

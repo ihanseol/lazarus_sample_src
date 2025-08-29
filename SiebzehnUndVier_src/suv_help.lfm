@@ -1,0 +1,109 @@
+object fHelp: TfHelp
+  Left = 122
+  Height = 695
+  Top = 22
+  Width = 1171
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = '17 + 4'
+  ClientHeight = 695
+  ClientWidth = 1171
+  DesignTimePPI = 120
+  Font.Height = -18
+  LCLVersion = '2.2.0.4'
+  object StaticText1: TStaticText
+    Left = 280
+    Height = 29
+    Top = 10
+    Width = 611
+    Alignment = taCenter
+    Caption = '"SiebzehnUndVier" Hilfe.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 5
+    Height = 585
+    Top = 63
+    Width = 1160
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"SiebzehnUndVier" ist ein gratis Free Pascal "17 + 4" Würfelspiel für 1 bis 3 Spieler (bei einem Spieler, spielt dieser gegen den Computer). Ziel des Spiels ist mit der Summe der Würfelaugen die Zahl 21 zu erreichen oder ihr so nahe wie möglich zu kommen.'
+      ''
+      'Das Spiel ist in erster Linie für Kinder gedacht. Deshalb gibt die Anwendung die Möglichkeit mit echten Würfeln zu spielen (anstelle dass das Würfeln vom Programm vorgenommen wird). In diesem Falle müssen die erwürfelten Augen natürlich eingegeben werden. Das Zusammenzählen der Augen der einzelnen Würfe, sowie die Auswertung der Runden (Punkte-Verteilung) wird in allen Fällen von der Anwendung durchgeführt.'
+      ''
+      'Menü "Spiel".'
+      '============='
+      ''
+      'Neu.'
+      '----'
+      'Ein neues 17 + 4 Spiel starten. Hiermit werden die Punktezähler der Spieler auf Null zurückgesetzt. Änderungen im Menü "Einstellungen > Anzahl der Spieler" starten automatisch ein neues Spiel.'
+      ''
+      'Verlassen.'
+      '----------'
+      'Die Anwendung beenden.'
+      ''
+      'Menü "Einstellungen".'
+      '====================='
+      ''
+      'Anzahl der Spieler.'
+      '-------------------'
+      'Auswählen der Anzahl der Spieler (2 oder 3). Ist man allein, spielt man gegen den Computer; bei 2 menschlichen Spielern, kann man den Computer mitspielen lassen oder nicht; bei drei menschlichen Spielern, spielt der Computer nicht mit.'
+      ''
+      'Würfelmethode.'
+      '--------------'
+      'Auswählen, wie das Rollen der Würfel erfolgen soll:'
+      '  - Anwendung:    Das Würfeln wird von der Anwendung durchgeführt.'
+      '  - Interaktiv:   Wie vorhin, aber der Spieler verfügt über einen "Stopp" Knopf um das Rollen der Würfel zu stoppen.'
+      '  - Echte Würfel: Das Würfeln erfolgt mit richtigen Würfeln; der Spieler muss die erwürfelten Augen ins Programm eingeben.'
+      'Ist "1. Wurf automatisch" angekreuzt, erfolgt der 1. Wurf beim Öffnen des Würfelfensters, ohne dass man den "Würfeln" Knopf hier drücken muss.'
+      ''
+      'Runden-Wertung.'
+      '---------------'
+      'Auswählen wie die Runden bewertet werden sollen:'
+      ' - 1 0 [0]:   Der Gewinner bekommt 1 Punkt, der (die) anderen Spieler keinen.'
+      ' - 1/2 0 [0]: Wie vorhin, aber 2 Punkte wenn man genau 21 erreicht hat.'
+      ' - 2 1 0:     Der Gewinner bekommt 2 Punkte, der zweitplatzierte 1 Punkt, der letzte keinen.'
+      ' - 2/3 1 0:   Wie vorhin, aber 3 Punkte wenn man genau 21 erreicht hat.'
+      'Zu beachten, dass ein Spieler, der mehr als 21 erwürfelt hat, nie einen Punkt kriegt.'
+      ''
+      'Menü "Hilfe".'
+      '============='
+      ''
+      'Hilfe.'
+      '------'
+      'Hilfe zum Benutzen der "SiebzehnUndVier" Anwendung (dieser Text).'
+      ''
+      'Über.'
+      '-----'
+      'Version, Autor und Datum der "SiebzehnUndVier" Anwendung.'
+      ''
+      '"SiebzehnUndVier" spielen.'
+      '=========================='
+      ''
+      'Am Anfang des Spiels ist auszuwählen, ob das Spiel zu zweit oder dritt gespielt werden soll und ob der Computer mitspielt oder nicht. Die Spieler können dazu ihre Namen in die Spieler-Felder eingeben. Dann wird in jeder Runde abwechselnd gewürfelt. Die Schrift des "Würfeln"-Knopfes des Spielers, der gerade an der Reihe ist, erscheint fett gedruckt. Die Runde wird immer mit Spieler 2 eröffnet, der Computer (falls er mitspielt) würfelt immer als letzter.'
+      'Ist die Würfelmethode auf "Anwendung" oder "Interaktiv" gestellt, öffnet sich das Würfelfenster. Hier kann der Spieler würfeln, indem er den entsprechenden Knopf drückt. Bei "Anwendung" rollen die Würfel eine gewisse Zeit und stoppen dann vom selbst. Bei "Interaktiv" rollen die Würfel bis der Spieler den "Stopp"-Knopf drückt. Der erste Wurf erfolgt immer mit 3 Würfeln. Danach kann der Spieler entscheiden, ob er einen, zwei oder drei Würfel werfen möchte. Es muss in jedem Falle mindestens drei mal gewürfelt werden; der vierte Wurf ist fakultativ.'
+      'Ist die Würfelmethode auf "Echte Würfel" gestellt, öffnet sich das Würfelaugen-Eingabefenster. Hier kann der Spieler für jeden seiner drei (oder vier) Würfe, die Augen der Würfel eingeben.'
+      'Haben alle Spieler gewürfelt, ist die Runde zu Ende. Die Anwendung ermittelt den Gewinner und verteilt die Punkte abhängig von der eingestellten Runden-Wertung.'
+      ''
+      'Viel Glück beim Würfeln und viel Spaß mit meinem "SiebzehnUndVier"!'
+    )
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 2
+    TabStop = False
+  end
+  object btClose: TButton
+    Left = 1071
+    Height = 31
+    Top = 660
+    Width = 94
+    Caption = 'Schließen'
+    OnClick = btCloseClick
+    TabOrder = 0
+  end
+end

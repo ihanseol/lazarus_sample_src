@@ -1,0 +1,59 @@
+"Skyscrapers" is a free PC application, generating classic Skyscrapers number puzzles. The rules used are the most common ones, in there simplest form; cf. "Rules" in the "Help" menu.
+
+Menu "Skyscrapers".
+===================
+
+New 4x4 grid.
+-------------
+Start a new puzzle with 4 rows and 4 columns grid.
+
+New 5x5 grid.
+-------------
+Start a new puzzle with 5 rows and 5 columns grid.
+
+Cancel.
+-------
+Terminates the current puzzle, without solving it.
+
+Exit.
+-----
+Exit the "Skyscrapers" application.
+
+Menu "Options".
+===============
+
+The game options can only be set at the beginning of a game. When the "Start" button is pushed, this menu is disabled.
+
+Allow fill-in help (hints).
+---------------------------
+If this option is checked, the user may enter the letter "H" instead of the building's height and the field is filled-in by the application. The number of hints is limited to 2 for 4x4 grids and to 4 for 5x5 grids.
+
+Highlight correct entries.
+--------------------------
+If this option is checked, and the number (building height), that you enter, corresponds to the actual building in this field, the field background is colored in green. This may be a precious help for real Skyscrapers newbies, on the other side, checking this option makes the game less interesting, of course. Also note, that a given puzzle may have several correct solutions, thus, if your field isn't highlighted will not mean, that the number, you entered is necessarily false (in order to solve the puzzle).
+
+Menu "Help".
+============
+
+Rules.
+------
+Short text, explaining the Skyscrapers rules, as they are implemented in the actual version of the "Skyscrapers" PC application.
+
+Help.
+-----
+Help text, that explains how to use the "Skyscrapers" application (this document).
+
+Copyright.
+----------
+Notice, concerning the copyright of the Skyscrapers number puzzle itself and the "Skyscrapers" PC application.
+
+About.
+------
+Version, author and date-written of the "Skyscrapers" PC application.
+
+Doing the "Skyscrapers" puzzle.
+===============================
+
+In the "Skyscrapers" menu choose "New 4x4 grid" or "New 5x5 grid", select the help options and push the "Start" button. Now you can fill in the buildings (a number from 1 to 4 resp. 5, representing their height). The application immediately checks the user entry, invalid numbers and illegal characters being ignored, doubles in a row or column not accepted (warning message and reset of the field's content). If "Allow fill-in help (hints)" is checked, you can enter "H" to get the field filled in by the application; such fields will be highlighted in aqua. If all hints, have been used, "H" is ignored as any other illegal character. If "Highlight correct entries" is checked and the building height entered equals the building number of the application's puzzle solution, the field is highlighted in green. Note, that a puzzle may have several solutions, what means that the numbers in non-highlighted field may not be wrong answers, but part of a solution, different from the application one's.
+
+When all fields have been filled in, the "Check" button is enabled and pushing it will tell you if your solution is correct or not. To quit a puzzle without solving it, use "Cancel" in the "Skyscrapers" menu.

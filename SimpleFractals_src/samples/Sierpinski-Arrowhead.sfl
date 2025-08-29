@@ -1,0 +1,10 @@
+# Sierpinski-Arrowhead
+
+origin = (175,575)
+displacement = 5
+
+axiom = "4YF"
+rules = { "X": "YF+XF+Y",
+          "Y": "XF-YF-X" }
+iterations = 7
+angle = 60

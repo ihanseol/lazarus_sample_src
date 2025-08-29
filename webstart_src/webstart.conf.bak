@@ -1,0 +1,39 @@
+###########################################
+# Configuration file for webstart utility #
+###########################################
+
+# Copying the file (e.g. from your development library) to the (Apache) webserver #
+# ------------------------------------------------------------------------------- #
+
+# Set FileCopy to true if you want to copy the file, to false if the file is already on the server
+FileCopy=true
+# ServerPath: path to the server root directory (only considered for FileCopy=true)
+ServerPath=C:\Programs\Apache24
+# CGIPath and PHPPath: paths that will be added to ServerPath when copying CGI scripts resp. PHP scripts
+CGIPath=cgi-bin
+PHPPath=htdocs\php
+# Set CGISubdirectory/PHPSubdirectory to true, if the last subdirectory of the source file path has to
+# be included as subdirectory in the server file path and server file URL (in CGIPath resp. PHPPath)
+CGISubdirectory=true
+PHPSubdirectory=false
+
+# Server settings #
+# --------------- #
+
+# SeverName: DNS name or IP address of the webserver
+SeverName=localhost
+# ServerProtocol: Protocol to be used to access the webserver (HTTP or HTTPS)
+ServerProtocol=HTTP
+# ServerPort: Port, the webserver listens to (normally 80)
+ServerPort=80
+# CGIExtensions/PHPExtensions: extensions used for CGI resp. PHP scripts
+CGIExtensions=.pl;.pm
+PHPExtensions=.php
+
+# Webbrowser settings #
+# ------------------- #
+
+# BrowserPath: file path where the webbrowser to be started is located
+BrowserPath="C:\Program Files\Mozilla Firefox"
+# BrowserProgram: program name of the webbrowser
+BrowserProgram=firefox.exe

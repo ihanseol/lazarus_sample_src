@@ -1,0 +1,1441 @@
+object fRSpill: TfRSpill
+  Left = 23
+  Height = 592
+  Top = 52
+  Width = 1382
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Reche-Wierfelspill'
+  ClientHeight = 567
+  ClientWidth = 1382
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object Shape1: TShape
+    Left = 4
+    Height = 504
+    Top = 57
+    Width = 749
+    Brush.Color = clSilver
+  end
+  object shField1: TShape
+    Left = 10
+    Height = 80
+    Top = 64
+    Width = 80
+    Brush.Color = clForm
+    Shape = stRoundSquare
+  end
+  object StaticText1: TStaticText
+    Left = 170
+    Height = 29
+    Top = 10
+    Width = 417
+    Alignment = taCenter
+    Caption = 'Reche-Wierfelspill fir Kanner.'
+    Font.Height = -22
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object shField2: TShape
+    Left = 92
+    Height = 80
+    Top = 64
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField3: TShape
+    Left = 174
+    Height = 80
+    Top = 64
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField4: TShape
+    Left = 256
+    Height = 80
+    Top = 64
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField5: TShape
+    Left = 338
+    Height = 80
+    Top = 64
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField6: TShape
+    Left = 420
+    Height = 80
+    Top = 64
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField7: TShape
+    Left = 502
+    Height = 80
+    Top = 64
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField8: TShape
+    Left = 584
+    Height = 80
+    Top = 64
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField9: TShape
+    Left = 666
+    Height = 80
+    Top = 64
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField10: TShape
+    Left = 666
+    Height = 80
+    Top = 146
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField11: TShape
+    Left = 666
+    Height = 80
+    Top = 228
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField12: TShape
+    Left = 584
+    Height = 80
+    Top = 228
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField13: TShape
+    Left = 502
+    Height = 80
+    Top = 228
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField14: TShape
+    Left = 420
+    Height = 80
+    Top = 228
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField15: TShape
+    Left = 338
+    Height = 80
+    Top = 228
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField16: TShape
+    Left = 256
+    Height = 80
+    Top = 228
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField17: TShape
+    Left = 174
+    Height = 80
+    Top = 228
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField18: TShape
+    Left = 92
+    Height = 80
+    Top = 228
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField19: TShape
+    Left = 10
+    Height = 80
+    Top = 228
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField20: TShape
+    Left = 10
+    Height = 80
+    Top = 310
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField21: TShape
+    Left = 10
+    Height = 80
+    Top = 392
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField22: TShape
+    Left = 10
+    Height = 80
+    Top = 474
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField23: TShape
+    Left = 92
+    Height = 80
+    Top = 474
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField24: TShape
+    Left = 174
+    Height = 80
+    Top = 474
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField25: TShape
+    Left = 256
+    Height = 80
+    Top = 474
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField26: TShape
+    Left = 338
+    Height = 80
+    Top = 474
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField27: TShape
+    Left = 420
+    Height = 80
+    Top = 474
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField28: TShape
+    Left = 502
+    Height = 80
+    Top = 474
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField29: TShape
+    Left = 584
+    Height = 80
+    Top = 474
+    Width = 80
+    Shape = stRoundSquare
+  end
+  object shField30: TShape
+    Left = 666
+    Height = 80
+    Top = 474
+    Width = 80
+    Brush.Color = clForm
+    Shape = stRoundSquare
+  end
+  object Label1: TLabel
+    Left = 792
+    Height = 23
+    Top = 10
+    Width = 46
+    Caption = 'Spiller'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edPlayer1: TEdit
+    Left = 800
+    Height = 31
+    Top = 42
+    Width = 31
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+    Text = '1'
+  end
+  object edPlayer2: TEdit
+    Left = 800
+    Height = 31
+    Top = 77
+    Width = 31
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+    Text = '2'
+  end
+  object edPlayer3: TEdit
+    Left = 800
+    Height = 31
+    Top = 112
+    Width = 31
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 8
+    Text = '3'
+    Visible = False
+  end
+  object edPlayer4: TEdit
+    Left = 800
+    Height = 31
+    Top = 147
+    Width = 31
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 9
+    Text = '4'
+    Visible = False
+  end
+  object Label2: TLabel
+    Left = 873
+    Height = 23
+    Top = 10
+    Width = 53
+    Caption = 'Numm'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edName1: TEdit
+    Left = 873
+    Height = 31
+    Top = 42
+    Width = 120
+    OnEditingDone = edName1EditingDone
+    TabOrder = 2
+    Text = 'Spiller 1'
+  end
+  object edName2: TEdit
+    Left = 873
+    Height = 31
+    Top = 77
+    Width = 120
+    OnEditingDone = edName2EditingDone
+    TabOrder = 3
+    Text = 'Spiller 2'
+  end
+  object edName3: TEdit
+    Left = 873
+    Height = 31
+    Top = 112
+    Width = 120
+    OnEditingDone = edName3EditingDone
+    TabOrder = 4
+    Text = 'Spiller 3'
+    Visible = False
+  end
+  object edName4: TEdit
+    Left = 873
+    Height = 31
+    Top = 147
+    Width = 120
+    OnEditingDone = edName4EditingDone
+    TabOrder = 5
+    Text = 'Spiller 4'
+    Visible = False
+  end
+  object Label3: TLabel
+    Left = 1032
+    Height = 23
+    Top = 10
+    Width = 36
+    Caption = 'Faarf'
+    Font.Height = -17
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object shColor1: TShape
+    Left = 1035
+    Height = 31
+    Top = 42
+    Width = 31
+    Brush.Color = clRed
+    OnMouseDown = shColor1MouseDown
+  end
+  object shColor2: TShape
+    Left = 1035
+    Height = 31
+    Top = 77
+    Width = 31
+    Brush.Color = clBlue
+    OnMouseDown = shColor2MouseDown
+  end
+  object shColor3: TShape
+    Left = 1035
+    Height = 31
+    Top = 112
+    Width = 31
+    Brush.Color = clLime
+    OnMouseDown = shColor3MouseDown
+    Visible = False
+  end
+  object shColor4: TShape
+    Left = 1035
+    Height = 31
+    Top = 147
+    Width = 31
+    Brush.Color = clYellow
+    OnMouseDown = shColor4MouseDown
+    Visible = False
+  end
+  object btStart: TButton
+    Left = 972
+    Height = 31
+    Top = 530
+    Width = 94
+    Caption = 'Start'
+    OnClick = btStartClick
+    TabOrder = 0
+  end
+  object cobColors: TColorBox
+    Left = 873
+    Height = 26
+    Top = 194
+    Width = 193
+    Style = [cbStandardColors, cbExtendedColors, cbPrettyNames]
+    ItemHeight = 20
+    OnChange = cobColorsChange
+    TabOrder = 10
+    Visible = False
+  end
+  object laColors: TLabel
+    Left = 800
+    Height = 23
+    Top = 197
+    Width = 36
+    Caption = 'Faarf'
+    ParentColor = False
+    Visible = False
+  end
+  object laPlayer: TLabel
+    Left = 1096
+    Height = 23
+    Top = 10
+    Width = 46
+    Caption = 'Ronn.'
+    Font.Height = -17
+    Font.Style = [fsBold, fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object laDice: TLabel
+    Left = 1096
+    Height = 23
+    Top = 50
+    Width = 94
+    Caption = '1. Wierfelen.'
+    ParentColor = False
+  end
+  object imDice: TImage
+    Left = 1096
+    Height = 50
+    Top = 80
+    Width = 50
+    Picture.Data = {
+      0A544A706567496D616765F5030000FFD8FFE000104A46494600010101012C01
+      2C0000FFDB00430007050506050407060506080707080A110B0A09090A150F10
+      0C1118151A19181518171B1E27211B1D251D1718222E222528292B2C2B1A202F
+      332F2A32272A2B2AFFDB0043010708080A090A140B0B142A1C181C2A2A2A2A2A
+      2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A
+      2A2A2A2A2A2A2A2A2A2A2A2A2AFFC00011080032003203012200021101031101
+      FFC4001B00010003000301000000000000000000000004060701050803FFC400
+      2B10000104020103040103050000000000000100020304050611071231132141
+      5114324261435271A1D1FFC40015010101000000000000000000000000000005
+      00FFC40027110002020102050305000000000000000000010204031122121314
+      217131A1F0233241B1D1FFDA000C03010002110311003F00F39D3A762FDB8EAD
+      389D34F2BBB58C6F92558331D3FD83098DFCEB950185A3990C6E0E31FF0094E9
+      FE62A6136FAD6B21C36120B0C87FA64FCAD776ADAF095757B87F3AB5874F03A3
+      8E28A40E2F2E1C0F61F08FB1632E3CB18C63AA639468D6CF5A59324B46BD8F3E
+      221F72890033B9D7F54CB6CB2BDB8BAFDEC8FF005C8E3C35BFC72BE39CD7B25A
+      EDD15B2B5CC4E70E58E0796BC7D82B4AE93EC78AAD839B1B6EC4356C36632032
+      BBB448081F27E575DD5BD831B92752A34268ECC90173E49233C86F3FB7947AB1
+      95D8E5F0F61D951ACA82CEA7BBE76D0CCD11120044FC261ED67B2F0E3E8B4196
+      53E5DE1A3E49572CF749EF6270D25EAD79970C0CEF9630CED21A3C91EFEEAB7A
+      76C0DD6B648321246648802C91A3CF69FA5A5ECBD51C23F5FB10E2A47D9B3622
+      31B5A585A19C8E393CFD23EC4EC472C5635D8768E1A33AD29677BBCFE97E4C5D
+      109E4A24008B6E9DA0DCDB2296CB6C36AD58DDD9EAB9BDC5CEFA0145DBF4CB9A
+      95A89B3C8DB15E6E7D399A38E78F208F82ACDD38DF71F81C6CB8CCC17451FA86
+      48E66B4B87B8F704050BA93BAD3D964AD53161CEAD5C97195C38EF71FA1F48F5
+      3B1D470B5B4765868F40A69EFF003DF5F050D1112004773AA6BEFD9760831ED9
+      3D263B9748FF00ED68F2B44D8FA4F8DAD819ECE227B0DB35E332712B81120039
+      23F82B35D7B39635DCDC191A8039F11F763BC3C1F215E360EAD9C96125A58FA0
+      EAF258618DF23DFCF683E78FFA8FB0AC3CB1E5FA0ED19D055A4B3ADDF3D0CD08
+      E0A2224008D0BA7DD3EADB1D09723959656D70FF004E38E23C1711E493F4A175
+      07478B559ABD8A12BE4A9609686C9EEE6387C73F2171A475064D56BCB4EC5636
+      6AC8FF0051A1AEE1CC771FEC28BBB6ED36DD6616B60FC6AB5F9EC8FBB9249F92
+      8F4AC751ABFB47653A1D02497D4F7D7F85551112004111144111144111144111
+      1447FFD9
+    }
+  end
+  object laCalc: TLabel
+    Left = 1096
+    Height = 23
+    Top = 228
+    Width = 179
+    Caption = '3. Rechenaufgab léisen.'
+    ParentColor = False
+  end
+  object edCalc: TEdit
+    Left = 1096
+    Height = 31
+    Top = 258
+    Width = 280
+    Alignment = taCenter
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 11
+  end
+  object laResult: TLabel
+    Left = 1096
+    Height = 23
+    Top = 306
+    Width = 211
+    Caption = '4. Resultat duurchsträichen.'
+    Font.Height = -17
+    ParentColor = False
+    ParentFont = False
+  end
+  object edResult: TEdit
+    Left = 1096
+    Height = 31
+    Top = 334
+    Width = 280
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 12
+  end
+  object btDice: TButton
+    Left = 1282
+    Height = 31
+    Top = 90
+    Width = 94
+    Caption = 'Wierfelen'
+    Enabled = False
+    OnClick = btDiceClick
+    TabOrder = 13
+  end
+  object laMoveBack: TLabel
+    Left = 1096
+    Height = 23
+    Top = 388
+    Width = 126
+    Caption = '5. Zréckréckelen.'
+    ParentColor = False
+  end
+  object edMoveBack: TEdit
+    Left = 1096
+    Height = 31
+    Top = 416
+    Width = 280
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 14
+  end
+  object shPlayer1: TShape
+    Left = 20
+    Height = 30
+    Top = 69
+    Width = 25
+    Brush.Color = clRed
+    Shape = stTriangle
+  end
+  object shPlayer2: TShape
+    Left = 55
+    Height = 30
+    Top = 69
+    Width = 25
+    Brush.Color = clBlue
+    Shape = stTriangle
+  end
+  object shPlayer3: TShape
+    Left = 20
+    Height = 30
+    Top = 104
+    Width = 25
+    Brush.Color = clLime
+    Shape = stTriangle
+    Visible = False
+  end
+  object shPlayer4: TShape
+    Left = 55
+    Height = 30
+    Top = 104
+    Width = 25
+    Brush.Color = clYellow
+    Shape = stTriangle
+    Visible = False
+  end
+  object shSum1: TShape
+    Left = 792
+    Height = 36
+    Top = 256
+    Width = 36
+  end
+  object shSum2: TShape
+    Left = 832
+    Height = 36
+    Top = 256
+    Width = 36
+  end
+  object shSum3: TShape
+    Left = 872
+    Height = 36
+    Top = 256
+    Width = 36
+  end
+  object shSum4: TShape
+    Left = 912
+    Height = 36
+    Top = 256
+    Width = 36
+  end
+  object shSum5: TShape
+    Left = 952
+    Height = 36
+    Top = 256
+    Width = 36
+  end
+  object shSum6: TShape
+    Left = 992
+    Height = 36
+    Top = 256
+    Width = 36
+  end
+  object shSum7: TShape
+    Left = 1032
+    Height = 36
+    Top = 256
+    Width = 36
+  end
+  object stSum1: TStaticText
+    Left = 792
+    Height = 36
+    Top = 256
+    Width = 36
+    Alignment = taCenter
+    Caption = '11'
+    Font.Height = -23
+    OnClick = stSum1Click
+    ParentFont = False
+    TabOrder = 15
+  end
+  object stSum2: TStaticText
+    Left = 832
+    Height = 36
+    Top = 256
+    Width = 36
+    Alignment = taCenter
+    Caption = '11'
+    Font.Height = -23
+    OnClick = stSum2Click
+    ParentFont = False
+    TabOrder = 16
+  end
+  object stSum3: TStaticText
+    Left = 872
+    Height = 36
+    Top = 256
+    Width = 36
+    Alignment = taCenter
+    Caption = '16'
+    Font.Height = -23
+    OnClick = stSum3Click
+    ParentFont = False
+    TabOrder = 17
+  end
+  object stSum4: TStaticText
+    Left = 912
+    Height = 36
+    Top = 256
+    Width = 36
+    Alignment = taCenter
+    Caption = '16'
+    Font.Height = -23
+    OnClick = stSum4Click
+    ParentFont = False
+    TabOrder = 18
+  end
+  object stSum5: TStaticText
+    Left = 952
+    Height = 36
+    Top = 256
+    Width = 36
+    Alignment = taCenter
+    Caption = '22'
+    Font.Height = -23
+    OnClick = stSum5Click
+    ParentFont = False
+    TabOrder = 19
+  end
+  object stSum6: TStaticText
+    Left = 992
+    Height = 36
+    Top = 256
+    Width = 36
+    Alignment = taCenter
+    Caption = '22'
+    Font.Height = -23
+    OnClick = stSum6Click
+    ParentFont = False
+    TabOrder = 20
+  end
+  object stSum7: TStaticText
+    Left = 1032
+    Height = 36
+    Top = 256
+    Width = 36
+    Alignment = taCenter
+    Caption = '28'
+    Font.Height = -23
+    OnClick = stSum7Click
+    ParentFont = False
+    TabOrder = 21
+  end
+  object shSum8: TShape
+    Left = 792
+    Height = 36
+    Top = 296
+    Width = 36
+  end
+  object shSum9: TShape
+    Left = 832
+    Height = 36
+    Top = 296
+    Width = 36
+  end
+  object shSum10: TShape
+    Left = 872
+    Height = 36
+    Top = 296
+    Width = 36
+  end
+  object shSum11: TShape
+    Left = 912
+    Height = 36
+    Top = 296
+    Width = 36
+  end
+  object shSum12: TShape
+    Left = 952
+    Height = 36
+    Top = 296
+    Width = 36
+  end
+  object shSum13: TShape
+    Left = 992
+    Height = 36
+    Top = 296
+    Width = 36
+  end
+  object shSum14: TShape
+    Left = 1032
+    Height = 36
+    Top = 296
+    Width = 36
+  end
+  object stSum8: TStaticText
+    Left = 792
+    Height = 36
+    Top = 296
+    Width = 36
+    Alignment = taCenter
+    Caption = '12'
+    Font.Height = -23
+    OnClick = stSum8Click
+    ParentFont = False
+    TabOrder = 22
+  end
+  object stSum9: TStaticText
+    Left = 832
+    Height = 36
+    Top = 296
+    Width = 36
+    Alignment = taCenter
+    Caption = '12'
+    Font.Height = -23
+    OnClick = stSum9Click
+    ParentFont = False
+    TabOrder = 23
+  end
+  object stSum10: TStaticText
+    Left = 872
+    Height = 36
+    Top = 296
+    Width = 36
+    Alignment = taCenter
+    Caption = '17'
+    Font.Height = -23
+    OnClick = stSum10Click
+    ParentFont = False
+    TabOrder = 24
+  end
+  object stSum11: TStaticText
+    Left = 912
+    Height = 36
+    Top = 296
+    Width = 36
+    Alignment = taCenter
+    Caption = '17'
+    Font.Height = -23
+    OnClick = stSum11Click
+    ParentFont = False
+    TabOrder = 25
+  end
+  object stSum12: TStaticText
+    Left = 952
+    Height = 36
+    Top = 296
+    Width = 36
+    Alignment = taCenter
+    Caption = '23'
+    Font.Height = -23
+    OnClick = stSum12Click
+    ParentFont = False
+    TabOrder = 26
+  end
+  object stSum13: TStaticText
+    Left = 992
+    Height = 36
+    Top = 296
+    Width = 36
+    Alignment = taCenter
+    Caption = '23'
+    Font.Height = -23
+    OnClick = stSum13Click
+    ParentFont = False
+    TabOrder = 27
+  end
+  object stSum14: TStaticText
+    Left = 1032
+    Height = 36
+    Top = 296
+    Width = 36
+    Alignment = taCenter
+    Caption = '28'
+    Font.Height = -23
+    OnClick = stSum14Click
+    ParentFont = False
+    TabOrder = 28
+  end
+  object shSum15: TShape
+    Left = 792
+    Height = 36
+    Top = 336
+    Width = 36
+  end
+  object shSum16: TShape
+    Left = 832
+    Height = 36
+    Top = 336
+    Width = 36
+  end
+  object shSum17: TShape
+    Left = 872
+    Height = 36
+    Top = 336
+    Width = 36
+  end
+  object shSum18: TShape
+    Left = 912
+    Height = 36
+    Top = 336
+    Width = 36
+  end
+  object shSum19: TShape
+    Left = 952
+    Height = 36
+    Top = 336
+    Width = 36
+  end
+  object shSum20: TShape
+    Left = 992
+    Height = 36
+    Top = 336
+    Width = 36
+  end
+  object shSum21: TShape
+    Left = 1032
+    Height = 36
+    Top = 336
+    Width = 36
+  end
+  object stSum15: TStaticText
+    Left = 792
+    Height = 36
+    Top = 336
+    Width = 36
+    Alignment = taCenter
+    Caption = '13'
+    Font.Height = -23
+    OnClick = stSum15Click
+    ParentFont = False
+    TabOrder = 29
+  end
+  object stSum16: TStaticText
+    Left = 832
+    Height = 36
+    Top = 336
+    Width = 36
+    Alignment = taCenter
+    Caption = '13'
+    Font.Height = -23
+    OnClick = stSum16Click
+    ParentFont = False
+    TabOrder = 30
+  end
+  object stSum17: TStaticText
+    Left = 872
+    Height = 36
+    Top = 336
+    Width = 36
+    Alignment = taCenter
+    Caption = '18'
+    Font.Height = -23
+    OnClick = stSum17Click
+    ParentFont = False
+    TabOrder = 31
+  end
+  object stSum18: TStaticText
+    Left = 912
+    Height = 36
+    Top = 336
+    Width = 36
+    Alignment = taCenter
+    Caption = '18'
+    Font.Height = -23
+    OnClick = stSum18Click
+    ParentFont = False
+    TabOrder = 32
+  end
+  object stSum19: TStaticText
+    Left = 952
+    Height = 36
+    Top = 336
+    Width = 36
+    Alignment = taCenter
+    Caption = '24'
+    Font.Height = -23
+    OnClick = stSum19Click
+    ParentFont = False
+    TabOrder = 33
+  end
+  object stSum20: TStaticText
+    Left = 992
+    Height = 36
+    Top = 336
+    Width = 36
+    Alignment = taCenter
+    Caption = '24'
+    Font.Height = -23
+    OnClick = stSum20Click
+    ParentFont = False
+    TabOrder = 34
+  end
+  object stSum21: TStaticText
+    Left = 1032
+    Height = 36
+    Top = 336
+    Width = 36
+    Alignment = taCenter
+    Caption = '29'
+    Font.Height = -23
+    OnClick = stSum21Click
+    ParentFont = False
+    TabOrder = 35
+  end
+  object shSum22: TShape
+    Left = 792
+    Height = 36
+    Top = 376
+    Width = 36
+  end
+  object shSum23: TShape
+    Left = 832
+    Height = 36
+    Top = 376
+    Width = 36
+  end
+  object shSum24: TShape
+    Left = 872
+    Height = 36
+    Top = 376
+    Width = 36
+  end
+  object shSum25: TShape
+    Left = 912
+    Height = 36
+    Top = 376
+    Width = 36
+  end
+  object shSum26: TShape
+    Left = 952
+    Height = 36
+    Top = 376
+    Width = 36
+  end
+  object shSum27: TShape
+    Left = 992
+    Height = 36
+    Top = 376
+    Width = 36
+  end
+  object shSum28: TShape
+    Left = 1032
+    Height = 36
+    Top = 376
+    Width = 36
+  end
+  object stSum22: TStaticText
+    Left = 792
+    Height = 36
+    Top = 376
+    Width = 36
+    Alignment = taCenter
+    Caption = '14'
+    Font.Height = -23
+    OnClick = stSum22Click
+    ParentFont = False
+    TabOrder = 36
+  end
+  object stSum23: TStaticText
+    Left = 832
+    Height = 36
+    Top = 376
+    Width = 36
+    Alignment = taCenter
+    Caption = '14'
+    Font.Height = -23
+    OnClick = stSum23Click
+    ParentFont = False
+    TabOrder = 37
+  end
+  object stSum24: TStaticText
+    Left = 872
+    Height = 36
+    Top = 376
+    Width = 36
+    Alignment = taCenter
+    Caption = '19'
+    Font.Height = -23
+    OnClick = stSum24Click
+    ParentFont = False
+    TabOrder = 38
+  end
+  object stSum25: TStaticText
+    Left = 912
+    Height = 36
+    Top = 376
+    Width = 36
+    Alignment = taCenter
+    Caption = '19'
+    Font.Height = -23
+    OnClick = stSum25Click
+    ParentFont = False
+    TabOrder = 39
+  end
+  object stSum26: TStaticText
+    Left = 952
+    Height = 36
+    Top = 376
+    Width = 36
+    Alignment = taCenter
+    Caption = '25'
+    Font.Height = -23
+    OnClick = stSum26Click
+    ParentFont = False
+    TabOrder = 40
+  end
+  object stSum27: TStaticText
+    Left = 992
+    Height = 36
+    Top = 376
+    Width = 36
+    Alignment = taCenter
+    Caption = '25'
+    Font.Height = -23
+    OnClick = stSum27Click
+    ParentFont = False
+    TabOrder = 41
+  end
+  object stSum28: TStaticText
+    Left = 1032
+    Height = 36
+    Top = 376
+    Width = 36
+    Alignment = taCenter
+    Caption = '29'
+    Font.Height = -23
+    OnClick = stSum28Click
+    ParentFont = False
+    TabOrder = 42
+  end
+  object shSum29: TShape
+    Left = 792
+    Height = 36
+    Top = 416
+    Width = 36
+  end
+  object shSum30: TShape
+    Left = 832
+    Height = 36
+    Top = 416
+    Width = 36
+  end
+  object shSum31: TShape
+    Left = 872
+    Height = 36
+    Top = 416
+    Width = 36
+  end
+  object shSum32: TShape
+    Left = 912
+    Height = 36
+    Top = 416
+    Width = 36
+  end
+  object shSum33: TShape
+    Left = 952
+    Height = 36
+    Top = 416
+    Width = 36
+  end
+  object shSum34: TShape
+    Left = 992
+    Height = 36
+    Top = 416
+    Width = 36
+  end
+  object shSum35: TShape
+    Left = 1032
+    Height = 36
+    Top = 416
+    Width = 36
+  end
+  object stSum29: TStaticText
+    Left = 792
+    Height = 36
+    Top = 416
+    Width = 36
+    Alignment = taCenter
+    Caption = '15'
+    Font.Height = -23
+    OnClick = stSum29Click
+    ParentFont = False
+    TabOrder = 43
+  end
+  object stSum30: TStaticText
+    Left = 832
+    Height = 36
+    Top = 416
+    Width = 36
+    Alignment = taCenter
+    Caption = '15'
+    Font.Height = -23
+    OnClick = stSum30Click
+    ParentFont = False
+    TabOrder = 44
+  end
+  object stSum31: TStaticText
+    Left = 872
+    Height = 36
+    Top = 416
+    Width = 36
+    Alignment = taCenter
+    Caption = '20'
+    Font.Height = -23
+    OnClick = stSum31Click
+    ParentFont = False
+    TabOrder = 45
+  end
+  object stSum32: TStaticText
+    Left = 912
+    Height = 36
+    Top = 416
+    Width = 36
+    Alignment = taCenter
+    Caption = '20'
+    Font.Height = -23
+    OnClick = stSum32Click
+    ParentFont = False
+    TabOrder = 46
+  end
+  object stSum33: TStaticText
+    Left = 952
+    Height = 36
+    Top = 416
+    Width = 36
+    Alignment = taCenter
+    Caption = '26'
+    Font.Height = -23
+    OnClick = stSum33Click
+    ParentFont = False
+    TabOrder = 47
+  end
+  object stSum34: TStaticText
+    Left = 992
+    Height = 36
+    Top = 416
+    Width = 36
+    Alignment = taCenter
+    Caption = '26'
+    Font.Height = -23
+    OnClick = stSum34Click
+    ParentFont = False
+    TabOrder = 48
+  end
+  object stSum35: TStaticText
+    Left = 1032
+    Height = 36
+    Top = 416
+    Width = 36
+    Alignment = taCenter
+    Caption = '30'
+    Font.Height = -23
+    OnClick = stSum35Click
+    ParentFont = False
+    TabOrder = 49
+  end
+  object shSum36: TShape
+    Left = 792
+    Height = 36
+    Top = 456
+    Width = 36
+  end
+  object shSum37: TShape
+    Left = 832
+    Height = 36
+    Top = 456
+    Width = 36
+  end
+  object shSum38: TShape
+    Left = 872
+    Height = 36
+    Top = 456
+    Width = 36
+  end
+  object shSum39: TShape
+    Left = 912
+    Height = 36
+    Top = 456
+    Width = 36
+  end
+  object shSum40: TShape
+    Left = 952
+    Height = 36
+    Top = 456
+    Width = 36
+  end
+  object shSum41: TShape
+    Left = 992
+    Height = 36
+    Top = 456
+    Width = 36
+  end
+  object shSum42: TShape
+    Left = 1032
+    Height = 36
+    Top = 456
+    Width = 36
+  end
+  object stSum36: TStaticText
+    Left = 792
+    Height = 36
+    Top = 456
+    Width = 36
+    Alignment = taCenter
+    Caption = '15'
+    Font.Height = -23
+    OnClick = stSum36Click
+    ParentFont = False
+    TabOrder = 50
+  end
+  object stSum37: TStaticText
+    Left = 832
+    Height = 36
+    Top = 456
+    Width = 36
+    Alignment = taCenter
+    Caption = '15'
+    Font.Height = -23
+    OnClick = stSum37Click
+    ParentFont = False
+    TabOrder = 51
+  end
+  object stSum38: TStaticText
+    Left = 872
+    Height = 36
+    Top = 456
+    Width = 36
+    Alignment = taCenter
+    Caption = '21'
+    Font.Height = -23
+    OnClick = stSum38Click
+    ParentFont = False
+    TabOrder = 52
+  end
+  object stSum39: TStaticText
+    Left = 912
+    Height = 36
+    Top = 456
+    Width = 36
+    Alignment = taCenter
+    Caption = '21'
+    Font.Height = -23
+    OnClick = stSum39Click
+    ParentFont = False
+    TabOrder = 53
+  end
+  object stSum40: TStaticText
+    Left = 952
+    Height = 36
+    Top = 456
+    Width = 36
+    Alignment = taCenter
+    Caption = '27'
+    Font.Height = -23
+    OnClick = stSum40Click
+    ParentFont = False
+    TabOrder = 54
+  end
+  object stSum41: TStaticText
+    Left = 992
+    Height = 36
+    Top = 456
+    Width = 36
+    Alignment = taCenter
+    Caption = '27'
+    Font.Height = -23
+    OnClick = stSum41Click
+    ParentFont = False
+    TabOrder = 55
+  end
+  object stSum42: TStaticText
+    Left = 1032
+    Height = 36
+    Top = 456
+    Width = 36
+    Alignment = taCenter
+    Caption = '30'
+    Font.Height = -23
+    OnClick = stSum42Click
+    ParentFont = False
+    TabOrder = 56
+  end
+  object laMove: TLabel
+    Left = 1096
+    Height = 23
+    Top = 150
+    Width = 89
+    Caption = '2. Réckelen.'
+    ParentColor = False
+  end
+  object edMove: TEdit
+    Left = 1096
+    Height = 31
+    Top = 180
+    Width = 280
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 57
+  end
+  object mMenu: TMainMenu
+    Left = 696
+    Top = 360
+    object mGame: TMenuItem
+      Caption = 'Spill'
+      object mGameNew: TMenuItem
+        Caption = 'Neit Spill'
+        OnClick = mGameNewClick
+      end
+      object mGameExit: TMenuItem
+        Caption = 'Verloossen'
+        OnClick = mGameExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Astellungen'
+      object mOptionsPlayers: TMenuItem
+        Caption = 'Spiller'
+        object mOptionsPlayers1: TMenuItem
+          Caption = '1 Spiller'
+          OnClick = mOptionsPlayers1Click
+        end
+        object mOptionsPlayers2: TMenuItem
+          Caption = '2 Spiller'
+          Checked = True
+          OnClick = mOptionsPlayers2Click
+        end
+        object mOptionsPlayers3: TMenuItem
+          Caption = '3 Spiller'
+          OnClick = mOptionsPlayers3Click
+        end
+        object mOptionsPlayers4: TMenuItem
+          Caption = '4 Spiller'
+          OnClick = mOptionsPlayers4Click
+        end
+      end
+      object mOptionsMistake: TMenuItem
+        Caption = 'Rechefeeler'
+        object mOptionsMistake1: TMenuItem
+          Caption = '2 Felder zréckréckelen'
+          Checked = True
+          OnClick = mOptionsMistake1Click
+        end
+        object mOptionsMistake2: TMenuItem
+          Caption = '3 Felder zréckréckelen'
+          OnClick = mOptionsMistake2Click
+        end
+        object mOptionsMistake3: TMenuItem
+          Caption = 'Zréck op d''Feld vu virdrun'
+          OnClick = mOptionsMistake3Click
+        end
+      end
+      object mOptionsArrival: TMenuItem
+        Caption = 'Am Zil ukommen'
+        object mOptionsArrivalPass: TMenuItem
+          Caption = 'D''Zil passéieren däerfen'
+          Checked = True
+          OnClick = mOptionsArrivalPassClick
+        end
+        object mOptionsArrivalWait: TMenuItem
+          Caption = 'Genau Wierfelpunkten'
+          OnClick = mOptionsArrivalWaitClick
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Hëllef'
+      object mHelpHelp: TMenuItem
+        Caption = 'Hëllef'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'Info'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+  object tiRSpill: TTimer
+    Enabled = False
+    Interval = 50
+    OnTimer = tiRSpillTimer
+    Left = 624
+    Top = 360
+  end
+end

@@ -1,0 +1,78 @@
+*********************
+* Muscle physiology *
+*********************
+
+Hill's muscle model.
+====================
+
+Muscles shorten faster against light loads than they do against heavy loads. The hyperbolic equation first used by A.V. Hill over seven decades ago to illustrate the relationship between shortening velocity and load is still the predominant method used to characterize muscle performance.
+
+Muscle force versus shortening velocity can be described mathematically by Hill's equations for tetanized muscle contraction:
+  -----------------------
+  | (F + a)∙(V + b) = c |
+  -----------------------
+where F and V are force and velocity, and a, b, and c are constants. The constant a is called coefficient of shortening heat; b = a∙Vmax / Fmax, c = b∙(Fmax + a), with Fmax is the maximum isometric tension (or load) generated in the muscle and Vmax is the maximum velocity, when F = 0.
+
+The muscle output power for given load and velocity can be calculated by the formula:
+  -----------
+  | P = F∙V |
+  -----------
+with a maximum Pmax for a muscle tension close to 1/3 Fmax.
+
+Because maximal velocity (Vmax) occurs when externally applied force (F) is zero, and because at maximum isometric force (Fmax) the shortening velocity (V) is zero, a/Fmax = b/Vmax = K. Therefore, Hill's equation may be rewritten in a normalized form:
+  ------------------------------
+  | F' = K∙(1 - V') / (K + V') |
+  ------------------------------
+where F' = F/Fmax and V' = V/Vmax.
+
+Cross-bridge kinetics model.
+============================
+
+The simplest cross-bridge kinetic model is a two-state model, where the entire cross-bridge population is assumed to reside in either the attached state S1 or the detached state S2. Force–velocity relations can be obtained from such models because of the intimate relationship between force and the fraction of attached cross-bridges, and between velocity and the transition rates between the states (Huxley, 1957).
+
+The rate of change of the fraction of cross-bridges in each state may be described by two linear first-order differential equations, that may be solved considering that in a steady state, the rates of change are zero and that the sum of the attached and detached fraction equals 1. The solution for the population of attached states is given by:
+  ----------------------------
+  | A = fApp / (gApp + fApp) |
+  ----------------------------
+where fApp and gApp are the apparent forward and reverse transition rates.
+
+The total force produced by the muscle is given by:
+  ---------------------------------------
+  | F' = p∙A = p∙[fApp / (gApp + fApp)] |
+  ---------------------------------------
+where p is the force per attached cross-bridge.
+
+To convert this equation to a hyperbolic function of velocity, three assumptions need to be made:
+  (1) the detachment rate is linearly proportional to the shortening velocity: gAPP = k∙V'
+  (2) the attachment rate is independent of shortening velocity: fApp is a constant
+  (3) the force per bridge declines linearly with shortening velocity: p = 1 − V'.
+
+With the above assumptions, the kinetics equation may be rewritten as:
+  ---------------------------------------
+  | F' = (1 - V')∙[fApp / (kV' + fApp)] |
+  ---------------------------------------
+
+By defining K = fAPP/k, this equation becomes exactly the same, as the one described by Hill.
+
+A more realistic approach to describe the cyclic actomyosin interaction is to use a three-state model, with a detached state S1, an attached before power stroke (nonforce-generating) state S2 and an attached after power stroke (force-generating) state S3. As above, the model may be described by differential equations, that may be solved, considering that in steady state dSᵢ/dt = 0 and that S1 + S2 + S3 = 1.
+
+If we assume that the transition from S3 to S1 (detachment of cross-bridge by ATP after the power stroke) is irreversible (i.e. c13 = 0) and setting c12∙c23 = fApp, S3 is given by:
+  --------------------------------------------------------------------------
+  | S3 = fApp / [(c12∙c31 + c12∙c32 + c21∙c31 + c21∙c32 + c23∙c31) + fApp] |
+  --------------------------------------------------------------------------
+what is essentially the same as the equation for A, when using the two-state model. Proceeding as above (in particular making the same simplifying assumptions) and setting fApp = c12∙c23, we get the same hyperbolic load-velocity function as for the two-state model, as well as, defining K = fAPP/k, the equivalent of Hill's equation.
+
+Deviations from the Hill hyperbola.
+===================================
+
+The three assumptions involved in the transformation of the kinetic equation to the Hill equation, as described above, are not entirely correct. The discrepancies are concentrated in the low velocity region. Therefore, at low velocity (at high load), the Hill hyperbola deviates from the "real life" force–velocity data.
+
+Deviations from the Hill hyperbola may be explained by the following:
+  - Under isometric condition, there is a small detachment rate gᵢ ≠ 0.
+  - The attachment rate fAPP is only constant with a minimum velocity (smaller if V is low).
+  - The decline of the force per bridge is only linear with a minimum velocity (smaller if V is low).
+
+Note:
+=====
+
+The major part of this text, in particular the muscle contraction formulas, are taken from an article by Chun Y. Seow, published in "Journal of General Physiology", December 2013.

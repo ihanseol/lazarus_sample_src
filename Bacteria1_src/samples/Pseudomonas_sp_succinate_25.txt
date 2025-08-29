@@ -1,0 +1,4 @@
+Bacteria=Pseudomonas sp.
+Nutrient=succinate at 25 ºC
+R=0.38
+A=80 (mg/l)

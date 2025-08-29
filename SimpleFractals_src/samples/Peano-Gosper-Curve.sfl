@@ -1,0 +1,10 @@
+# Peano-Gosper-Curve
+
+origin = (575,50)
+displacement = 10
+
+axiom = "7FX"
+rules = { "X": "X+YF++YF-FX--FXFX-YF+",
+          "Y": "-FX+YFYF++YF+FX--FX-Y" }
+iterations = 4
+angle = 60

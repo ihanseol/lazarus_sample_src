@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="test_display.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="19" Y="9"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="7">
+      <Position>
+        <Filename Value="test_display.lpr"/>
+        <Caret Line="17" Column="43"/>
+      </Position>
+      <Position>
+        <Filename Value="test_display.lpr"/>
+        <Caret Line="15" Column="37"/>
+      </Position>
+      <Position>
+        <Filename Value="test_display.lpr"/>
+        <Caret Line="21" Column="21"/>
+      </Position>
+      <Position>
+        <Filename Value="test_display.lpr"/>
+        <Caret Line="14" Column="82"/>
+      </Position>
+      <Position>
+        <Filename Value="test_display.lpr"/>
+        <Caret Line="13" Column="49"/>
+      </Position>
+      <Position>
+        <Filename Value="test_display.lpr"/>
+        <Caret Line="38" Column="22" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="test_display.lpr"/>
+        <Caret Line="9" Column="26"/>
+      </Position>
+      <Position>
+        <Filename Value="test_display.lpr"/>
+        <Caret Line="65" TopLine="38"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

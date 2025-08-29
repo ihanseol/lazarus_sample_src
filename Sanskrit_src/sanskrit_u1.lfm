@@ -1,0 +1,792 @@
+object fSanskrit: TfSanskrit
+  Left = 66
+  Height = 520
+  Top = 189
+  Width = 1405
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Sanskrit'
+  ClientHeight = 495
+  ClientWidth = 1405
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object StaticText1: TStaticText
+    Left = 491
+    Height = 35
+    Top = 5
+    Width = 422
+    Alignment = taCenter
+    Caption = 'Learn the Sanskrit letters.'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 46
+  end
+  object laLetterGiven: TLabel
+    Left = 10
+    Height = 23
+    Top = 71
+    Width = 98
+    Caption = 'Transcription'
+    ParentColor = False
+  end
+  object edLetterGiven: TEdit
+    Left = 115
+    Height = 36
+    Top = 64
+    Width = 75
+    Alignment = taCenter
+    Font.Height = -20
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 1
+  end
+  object laLetterUser: TLabel
+    Left = 256
+    Height = 23
+    Top = 71
+    Width = 44
+    Caption = 'Letter'
+    ParentColor = False
+  end
+  object edLetterUser: TEdit
+    Left = 307
+    Height = 53
+    Top = 56
+    Width = 60
+    Alignment = taCenter
+    Font.Height = -33
+    ParentFont = False
+    TabOrder = 2
+  end
+  object bt01: TButton
+    Left = 10
+    Height = 53
+    Top = 125
+    Width = 53
+    Caption = 'bt01'
+    Font.Height = -33
+    OnClick = bt01Click
+    ParentFont = False
+    TabOrder = 35
+    TabStop = False
+  end
+  object bt02: TButton
+    Left = 75
+    Height = 53
+    Top = 125
+    Width = 53
+    Caption = 'bt02'
+    Font.Height = -33
+    OnClick = bt02Click
+    ParentFont = False
+    TabOrder = 36
+    TabStop = False
+  end
+  object bt03: TButton
+    Left = 140
+    Height = 53
+    Top = 125
+    Width = 53
+    Caption = 'bt03'
+    Font.Height = -33
+    OnClick = bt03Click
+    ParentFont = False
+    TabOrder = 37
+    TabStop = False
+  end
+  object bt04: TButton
+    Left = 205
+    Height = 53
+    Top = 125
+    Width = 53
+    Caption = 'bt04'
+    Font.Height = -33
+    OnClick = bt04Click
+    ParentFont = False
+    TabOrder = 38
+    TabStop = False
+  end
+  object bt05: TButton
+    Left = 270
+    Height = 53
+    Top = 125
+    Width = 53
+    Caption = 'bt05'
+    Font.Height = -33
+    OnClick = bt05Click
+    ParentFont = False
+    TabOrder = 39
+    TabStop = False
+  end
+  object bt06: TButton
+    Left = 335
+    Height = 53
+    Top = 125
+    Width = 53
+    Caption = 'bt06'
+    Font.Height = -33
+    OnClick = bt06Click
+    ParentFont = False
+    TabOrder = 40
+    TabStop = False
+  end
+  object bt07: TButton
+    Left = 400
+    Height = 53
+    Top = 125
+    Width = 53
+    Caption = 'bt07'
+    Font.Height = -33
+    OnClick = bt07Click
+    ParentFont = False
+    TabOrder = 41
+    TabStop = False
+  end
+  object bt08: TButton
+    Left = 465
+    Height = 53
+    Top = 125
+    Width = 53
+    Caption = 'bt08'
+    Font.Height = -33
+    OnClick = bt08Click
+    ParentFont = False
+    TabOrder = 42
+    TabStop = False
+  end
+  object bt09: TButton
+    Left = 530
+    Height = 53
+    Top = 125
+    Width = 53
+    Caption = 'bt09'
+    Font.Height = -33
+    OnClick = bt09Click
+    ParentFont = False
+    TabOrder = 9
+    TabStop = False
+  end
+  object bt10: TButton
+    Left = 595
+    Height = 53
+    Top = 125
+    Width = 53
+    Caption = 'bt10'
+    Font.Height = -33
+    OnClick = bt10Click
+    ParentFont = False
+    TabOrder = 43
+    TabStop = False
+  end
+  object bt11: TButton
+    Left = 10
+    Height = 53
+    Top = 190
+    Width = 53
+    Caption = 'bt11'
+    Font.Height = -33
+    OnClick = bt11Click
+    ParentFont = False
+    TabOrder = 44
+    TabStop = False
+  end
+  object bt12: TButton
+    Left = 75
+    Height = 53
+    Top = 190
+    Width = 53
+    Caption = 'bt12'
+    Font.Height = -33
+    OnClick = bt12Click
+    ParentFont = False
+    TabOrder = 45
+    TabStop = False
+  end
+  object btQuestion: TButton
+    Left = 554
+    Height = 31
+    Top = 456
+    Width = 94
+    Caption = 'Start'
+    OnClick = btQuestionClick
+    TabOrder = 0
+  end
+  object edEval: TEdit
+    Left = 10
+    Height = 31
+    Top = 456
+    Width = 313
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 52
+  end
+  object bt13: TButton
+    Left = 140
+    Height = 53
+    Top = 190
+    Width = 53
+    Caption = 'bt13'
+    Font.Height = -33
+    OnClick = bt13Click
+    ParentFont = False
+    TabOrder = 5
+    TabStop = False
+  end
+  object bt14: TButton
+    Left = 205
+    Height = 53
+    Top = 190
+    Width = 53
+    Caption = 'bt14'
+    Font.Height = -33
+    OnClick = bt14Click
+    ParentFont = False
+    TabOrder = 47
+    TabStop = False
+  end
+  object bt15: TButton
+    Left = 270
+    Height = 53
+    Top = 190
+    Width = 53
+    Caption = 'bt15'
+    Font.Height = -33
+    OnClick = bt15Click
+    ParentFont = False
+    TabOrder = 48
+    TabStop = False
+  end
+  object bt16: TButton
+    Left = 335
+    Height = 53
+    Top = 190
+    Width = 53
+    Caption = 'bt16'
+    Font.Height = -33
+    OnClick = bt16Click
+    ParentFont = False
+    TabOrder = 49
+    TabStop = False
+  end
+  object bt17: TButton
+    Left = 400
+    Height = 53
+    Top = 190
+    Width = 53
+    Caption = 'bt17'
+    Font.Height = -33
+    OnClick = bt17Click
+    ParentFont = False
+    TabOrder = 50
+    TabStop = False
+  end
+  object bt18: TButton
+    Left = 465
+    Height = 53
+    Top = 190
+    Width = 53
+    Caption = 'bt18'
+    Font.Height = -33
+    OnClick = bt18Click
+    ParentFont = False
+    TabOrder = 10
+    TabStop = False
+  end
+  object bt19: TButton
+    Left = 530
+    Height = 53
+    Top = 190
+    Width = 53
+    Caption = 'bt19'
+    Font.Height = -33
+    OnClick = bt19Click
+    ParentFont = False
+    TabOrder = 11
+    TabStop = False
+  end
+  object bt20: TButton
+    Left = 595
+    Height = 53
+    Top = 190
+    Width = 53
+    Caption = 'bt20'
+    Font.Height = -33
+    OnClick = bt20Click
+    ParentFont = False
+    TabOrder = 12
+    TabStop = False
+  end
+  object bt21: TButton
+    Left = 10
+    Height = 53
+    Top = 255
+    Width = 53
+    Caption = 'bt21'
+    Font.Height = -33
+    OnClick = bt21Click
+    ParentFont = False
+    TabOrder = 13
+    TabStop = False
+  end
+  object bt22: TButton
+    Left = 75
+    Height = 53
+    Top = 255
+    Width = 53
+    Caption = 'bt22'
+    Font.Height = -33
+    OnClick = bt22Click
+    ParentFont = False
+    TabOrder = 14
+    TabStop = False
+  end
+  object bt23: TButton
+    Left = 140
+    Height = 53
+    Top = 255
+    Width = 53
+    Caption = 'bt23'
+    Font.Height = -33
+    OnClick = bt23Click
+    ParentFont = False
+    TabOrder = 20
+    TabStop = False
+  end
+  object bt24: TButton
+    Left = 205
+    Height = 53
+    Top = 255
+    Width = 53
+    Caption = 'bt24'
+    Font.Height = -33
+    OnClick = bt24Click
+    ParentFont = False
+    TabOrder = 27
+    TabStop = False
+  end
+  object bt25: TButton
+    Left = 270
+    Height = 53
+    Top = 255
+    Width = 53
+    Caption = 'bt25'
+    Font.Height = -33
+    OnClick = bt25Click
+    ParentFont = False
+    TabOrder = 51
+    TabStop = False
+  end
+  object bt26: TButton
+    Left = 335
+    Height = 53
+    Top = 255
+    Width = 53
+    Caption = 'bt26'
+    Font.Height = -33
+    OnClick = bt26Click
+    ParentFont = False
+    TabOrder = 8
+    TabStop = False
+  end
+  object bt27: TButton
+    Left = 400
+    Height = 53
+    Top = 255
+    Width = 53
+    Caption = 'bt27'
+    Font.Height = -33
+    OnClick = bt27Click
+    ParentFont = False
+    TabOrder = 53
+    TabStop = False
+  end
+  object bt28: TButton
+    Left = 465
+    Height = 53
+    Top = 255
+    Width = 53
+    Caption = 'bt28'
+    Font.Height = -33
+    OnClick = bt28Click
+    ParentFont = False
+    TabOrder = 33
+    TabStop = False
+  end
+  object bt29: TButton
+    Left = 530
+    Height = 53
+    Top = 255
+    Width = 53
+    Caption = 'bt29'
+    Font.Height = -33
+    OnClick = bt29Click
+    ParentFont = False
+    TabOrder = 34
+    TabStop = False
+  end
+  object bt30: TButton
+    Left = 595
+    Height = 53
+    Top = 255
+    Width = 53
+    Caption = 'bt30'
+    Font.Height = -33
+    OnClick = bt30Click
+    ParentFont = False
+    TabOrder = 4
+    TabStop = False
+  end
+  object bt31: TButton
+    Left = 10
+    Height = 53
+    Top = 320
+    Width = 53
+    Caption = 'bt31'
+    Font.Height = -33
+    OnClick = bt31Click
+    ParentFont = False
+    TabOrder = 17
+    TabStop = False
+  end
+  object bt32: TButton
+    Left = 75
+    Height = 53
+    Top = 320
+    Width = 53
+    Caption = 'bt32'
+    Font.Height = -33
+    OnClick = bt32Click
+    ParentFont = False
+    TabOrder = 19
+    TabStop = False
+  end
+  object bt33: TButton
+    Left = 140
+    Height = 53
+    Top = 320
+    Width = 53
+    Caption = 'bt33'
+    Font.Height = -33
+    OnClick = bt33Click
+    ParentFont = False
+    TabOrder = 28
+    TabStop = False
+  end
+  object bt34: TButton
+    Left = 205
+    Height = 53
+    Top = 320
+    Width = 53
+    Caption = 'bt34'
+    Font.Height = -33
+    OnClick = bt34Click
+    ParentFont = False
+    TabOrder = 26
+    TabStop = False
+  end
+  object bt35: TButton
+    Left = 270
+    Height = 53
+    Top = 320
+    Width = 53
+    Caption = 'bt35'
+    Font.Height = -33
+    OnClick = bt35Click
+    ParentFont = False
+    TabOrder = 29
+    TabStop = False
+  end
+  object bt36: TButton
+    Left = 335
+    Height = 53
+    Top = 320
+    Width = 53
+    Caption = 'bt36'
+    Font.Height = -33
+    OnClick = bt36Click
+    ParentFont = False
+    TabOrder = 7
+    TabStop = False
+  end
+  object bt37: TButton
+    Left = 400
+    Height = 53
+    Top = 320
+    Width = 53
+    Caption = 'bt37'
+    Font.Height = -33
+    OnClick = bt37Click
+    ParentFont = False
+    TabOrder = 30
+    TabStop = False
+  end
+  object bt38: TButton
+    Left = 465
+    Height = 53
+    Top = 320
+    Width = 53
+    Caption = 'bt38'
+    Font.Height = -33
+    OnClick = bt38Click
+    ParentFont = False
+    TabOrder = 31
+    TabStop = False
+  end
+  object bt39: TButton
+    Left = 530
+    Height = 53
+    Top = 320
+    Width = 53
+    Caption = 'bt39'
+    Font.Height = -33
+    OnClick = bt39Click
+    ParentFont = False
+    TabOrder = 32
+    TabStop = False
+  end
+  object bt40: TButton
+    Left = 595
+    Height = 53
+    Top = 320
+    Width = 53
+    Caption = 'bt40'
+    Font.Height = -33
+    OnClick = bt40Click
+    ParentFont = False
+    TabOrder = 3
+    TabStop = False
+  end
+  object bt41: TButton
+    Left = 10
+    Height = 53
+    Top = 385
+    Width = 53
+    Caption = 'bt41'
+    Font.Height = -33
+    OnClick = bt41Click
+    ParentFont = False
+    TabOrder = 15
+    TabStop = False
+  end
+  object bt42: TButton
+    Left = 75
+    Height = 53
+    Top = 385
+    Width = 53
+    Caption = 'bt42'
+    Font.Height = -33
+    OnClick = bt42Click
+    ParentFont = False
+    TabOrder = 16
+    TabStop = False
+  end
+  object bt43: TButton
+    Left = 140
+    Height = 53
+    Top = 385
+    Width = 53
+    Caption = 'bt43'
+    Font.Height = -33
+    OnClick = bt43Click
+    ParentFont = False
+    TabOrder = 25
+    TabStop = False
+  end
+  object bt44: TButton
+    Left = 205
+    Height = 53
+    Top = 385
+    Width = 53
+    Caption = 'bt44'
+    Font.Height = -33
+    OnClick = bt44Click
+    ParentFont = False
+    TabOrder = 18
+    TabStop = False
+  end
+  object bt45: TButton
+    Left = 270
+    Height = 53
+    Top = 385
+    Width = 53
+    Caption = 'bt45'
+    Font.Height = -33
+    OnClick = bt45Click
+    ParentFont = False
+    TabOrder = 23
+    TabStop = False
+  end
+  object bt46: TButton
+    Left = 335
+    Height = 53
+    Top = 385
+    Width = 53
+    Caption = 'bt46'
+    Font.Height = -33
+    OnClick = bt46Click
+    ParentFont = False
+    TabOrder = 6
+    TabStop = False
+  end
+  object bt47: TButton
+    Left = 400
+    Height = 53
+    Top = 385
+    Width = 53
+    Caption = 'bt47'
+    Font.Height = -33
+    OnClick = bt47Click
+    ParentFont = False
+    TabOrder = 21
+    TabStop = False
+  end
+  object bt48: TButton
+    Left = 465
+    Height = 53
+    Top = 385
+    Width = 53
+    Caption = 'bt48'
+    Font.Height = -33
+    OnClick = bt48Click
+    ParentFont = False
+    TabOrder = 22
+    TabStop = False
+  end
+  object bt49: TButton
+    Left = 530
+    Height = 53
+    Top = 385
+    Width = 53
+    Caption = 'bt49'
+    Font.Height = -33
+    OnClick = bt49Click
+    ParentFont = False
+    TabOrder = 24
+    TabStop = False
+  end
+  object Memo1: TMemo
+    Left = 672
+    Height = 313
+    Top = 125
+    Width = 725
+    Color = clCream
+    Font.Height = -15
+    Font.Name = 'Consolas'
+    Lines.Strings = (
+      '"Sanskrit" Help.'
+      '================'
+      ''
+      'Learn the Sanskrit letters, with two kinds of test available:'
+      ' - Sanskrit letters: Find the Sanskrit letters with Latin transcription/phonetics given.'
+      ' - Latin letters:    Find the Latin transcription/phonetics of the Sanskrit letter given.'
+      'The test may include the 49 Sanskrit letters, or a part of them (vowels, alpaprāṇa consonants or mahāprāṇa consonants.'
+      'If the "Disable vowels/consonants buttons" checkbox is selected, consonants buttons will be disabled for Latin letters tests about vowels only and vice-versa. If the "Disable alpaprāṇa/mahāprāṇa buttons" checkbox is selected, alpaprāṇa resp. mahāprāṇa consonants buttons will be disabled for Latin letters tests, that do not include these letters.'
+      'Please, note that the "Options" menu is disabled when the test has been started. Options become available again if all letters have been done or if you start a new test.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 54
+    TabStop = False
+  end
+  object laFont12: TLabel
+    Left = 1310
+    Height = 28
+    Top = 5
+    Width = 77
+    Caption = 'laFont12'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object laFont20: TLabel
+    Left = 1271
+    Height = 45
+    Top = 37
+    Width = 126
+    Caption = 'laFont20'
+    Font.Height = -33
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object mMenu: TMainMenu
+    Left = 16
+    Top = 8
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileSanskrit: TMenuItem
+        Caption = 'Sanskrit letters'
+        OnClick = mFileSanskritClick
+      end
+      object mFileLatin: TMenuItem
+        Caption = 'Latin letters'
+        OnClick = mFileLatinClick
+      end
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsSanskrit: TMenuItem
+        Caption = 'Sanskrit letters'
+        object mOptionsLettersVowels: TMenuItem
+          Caption = 'Vowels (short and long)'
+          Checked = True
+          OnClick = mOptionsLettersVowelsClick
+        end
+        object mOptionsLettersConsonants1: TMenuItem
+          Caption = 'Consonants (alpaprāṇa)'
+          Checked = True
+          OnClick = mOptionsLettersConsonants1Click
+        end
+        object mOptionsLettersConsonants2: TMenuItem
+          Caption = 'Consonants (mahāprāṇa)'
+          Checked = True
+          OnClick = mOptionsLettersConsonants2Click
+        end
+      end
+      object mOptionsLatin: TMenuItem
+        Caption = 'Latin letters'
+        object mOptionsLatinTrans: TMenuItem
+          Caption = 'Transcription'
+          Checked = True
+          OnClick = mOptionsLatinTransClick
+        end
+        object mOptionsLatinPhon: TMenuItem
+          Caption = 'Phonetics'
+          OnClick = mOptionsLatinPhonClick
+        end
+      end
+      object mOptionsDisableVC: TMenuItem
+        Caption = 'Disable vowels/consonants buttons'
+        Checked = True
+        OnClick = mOptionsDisableVCClick
+      end
+      object mOptionsDisableAM: TMenuItem
+        Caption = 'Disable alpaprāṇa/mahāprāṇa buttons'
+        OnClick = mOptionsDisableAMClick
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object mOptionsRepeat: TMenuItem
+        Caption = 'Repeat wrong answers'
+        OnClick = mOptionsRepeatClick
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

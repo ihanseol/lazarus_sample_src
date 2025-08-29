@@ -1,0 +1,1233 @@
+object fGrades: TfGrades
+  Left = 292
+  Height = 734
+  Top = 25
+  Width = 1102
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Grades'
+  ClientHeight = 709
+  ClientWidth = 1102
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object StaticText1: TStaticText
+    Left = 348
+    Height = 30
+    Top = 6
+    Width = 406
+    Alignment = taCenter
+    Caption = 'Logic game: Grades.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edRules: TMemo
+    Left = 6
+    Height = 173
+    Top = 51
+    Width = 1090
+    Color = clCream
+    Lines.Strings = (
+      'Grades rules:'
+      ''
+      '1. Write a number between 1 and 9 in some of the fields.'
+      ''
+      '2. The numbers at the left and at the top of the grid indicate, how many numbers there are in the corresponging row resp. column.'
+      ''
+      '3. The numbers at the right and at the bottom of the grid indicate the sum of the numbers of the corresponding row resp. column.'
+    )
+    ReadOnly = True
+    TabOrder = 2
+    TabStop = False
+  end
+  object shGrid00: TShape
+    Left = 56
+    Height = 60
+    Top = 288
+    Width = 60
+  end
+  object shGrid01: TShape
+    Left = 116
+    Height = 60
+    Top = 288
+    Width = 60
+  end
+  object shGrid02: TShape
+    Left = 176
+    Height = 60
+    Top = 288
+    Width = 60
+  end
+  object shGrid03: TShape
+    Left = 236
+    Height = 60
+    Top = 288
+    Width = 60
+  end
+  object shGrid04: TShape
+    Left = 296
+    Height = 60
+    Top = 288
+    Width = 60
+  end
+  object shGrid05: TShape
+    Left = 356
+    Height = 60
+    Top = 288
+    Width = 60
+  end
+  object shGrid10: TShape
+    Left = 56
+    Height = 60
+    Top = 348
+    Width = 60
+  end
+  object shGrid11: TShape
+    Left = 116
+    Height = 60
+    Top = 348
+    Width = 60
+  end
+  object shGrid12: TShape
+    Left = 176
+    Height = 60
+    Top = 348
+    Width = 60
+  end
+  object shGrid13: TShape
+    Left = 236
+    Height = 60
+    Top = 348
+    Width = 60
+  end
+  object shGrid14: TShape
+    Left = 296
+    Height = 60
+    Top = 348
+    Width = 60
+  end
+  object shGrid15: TShape
+    Left = 356
+    Height = 60
+    Top = 348
+    Width = 60
+  end
+  object shGrid20: TShape
+    Left = 56
+    Height = 60
+    Top = 408
+    Width = 60
+  end
+  object shGrid21: TShape
+    Left = 116
+    Height = 60
+    Top = 408
+    Width = 60
+  end
+  object shGrid22: TShape
+    Left = 176
+    Height = 60
+    Top = 408
+    Width = 60
+  end
+  object shGrid23: TShape
+    Left = 236
+    Height = 60
+    Top = 408
+    Width = 60
+  end
+  object shGrid24: TShape
+    Left = 296
+    Height = 60
+    Top = 408
+    Width = 60
+  end
+  object shGrid25: TShape
+    Left = 356
+    Height = 60
+    Top = 408
+    Width = 60
+  end
+  object shGrid30: TShape
+    Left = 56
+    Height = 60
+    Top = 468
+    Width = 60
+  end
+  object shGrid31: TShape
+    Left = 116
+    Height = 60
+    Top = 468
+    Width = 60
+  end
+  object shGrid32: TShape
+    Left = 176
+    Height = 60
+    Top = 468
+    Width = 60
+  end
+  object shGrid33: TShape
+    Left = 236
+    Height = 60
+    Top = 468
+    Width = 60
+  end
+  object shGrid34: TShape
+    Left = 296
+    Height = 60
+    Top = 468
+    Width = 60
+  end
+  object shGrid35: TShape
+    Left = 356
+    Height = 60
+    Top = 468
+    Width = 60
+  end
+  object shGrid40: TShape
+    Left = 56
+    Height = 60
+    Top = 528
+    Width = 60
+  end
+  object shGrid41: TShape
+    Left = 116
+    Height = 60
+    Top = 528
+    Width = 60
+  end
+  object shGrid42: TShape
+    Left = 176
+    Height = 60
+    Top = 528
+    Width = 60
+  end
+  object shGrid43: TShape
+    Left = 236
+    Height = 60
+    Top = 528
+    Width = 60
+  end
+  object shGrid44: TShape
+    Left = 296
+    Height = 60
+    Top = 528
+    Width = 60
+  end
+  object shGrid45: TShape
+    Left = 356
+    Height = 60
+    Top = 528
+    Width = 60
+  end
+  object shGrid50: TShape
+    Left = 56
+    Height = 60
+    Top = 588
+    Width = 60
+  end
+  object shGrid51: TShape
+    Left = 116
+    Height = 60
+    Top = 588
+    Width = 60
+  end
+  object shGrid52: TShape
+    Left = 176
+    Height = 60
+    Top = 588
+    Width = 60
+  end
+  object shGrid53: TShape
+    Left = 236
+    Height = 60
+    Top = 588
+    Width = 60
+  end
+  object shGrid54: TShape
+    Left = 296
+    Height = 60
+    Top = 588
+    Width = 60
+  end
+  object shGrid55: TShape
+    Left = 356
+    Height = 60
+    Top = 588
+    Width = 60
+  end
+  object laGrid00: TStaticText
+    Left = 56
+    Height = 40
+    Top = 298
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid00Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object laGrid01: TStaticText
+    Left = 116
+    Height = 40
+    Top = 298
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid01Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object laGrid02: TStaticText
+    Left = 176
+    Height = 40
+    Top = 298
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid02Click
+    ParentFont = False
+    TabOrder = 5
+  end
+  object laGrid03: TStaticText
+    Left = 236
+    Height = 40
+    Top = 298
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid03Click
+    ParentFont = False
+    TabOrder = 6
+  end
+  object laGrid04: TStaticText
+    Left = 296
+    Height = 40
+    Top = 298
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid04Click
+    ParentFont = False
+    TabOrder = 7
+  end
+  object laGrid05: TStaticText
+    Left = 356
+    Height = 40
+    Top = 298
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid05Click
+    ParentFont = False
+    TabOrder = 8
+  end
+  object laGrid10: TStaticText
+    Left = 56
+    Height = 40
+    Top = 358
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid10Click
+    ParentFont = False
+    TabOrder = 9
+  end
+  object laGrid11: TStaticText
+    Left = 116
+    Height = 40
+    Top = 358
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid11Click
+    ParentFont = False
+    TabOrder = 10
+  end
+  object laGrid12: TStaticText
+    Left = 176
+    Height = 40
+    Top = 358
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid12Click
+    ParentFont = False
+    TabOrder = 11
+  end
+  object laGrid13: TStaticText
+    Left = 236
+    Height = 40
+    Top = 358
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid13Click
+    ParentFont = False
+    TabOrder = 12
+  end
+  object laGrid14: TStaticText
+    Left = 296
+    Height = 40
+    Top = 358
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid14Click
+    ParentFont = False
+    TabOrder = 13
+  end
+  object laGrid15: TStaticText
+    Left = 356
+    Height = 40
+    Top = 358
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid15Click
+    ParentFont = False
+    TabOrder = 14
+  end
+  object laGrid20: TStaticText
+    Left = 56
+    Height = 40
+    Top = 418
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid20Click
+    ParentFont = False
+    TabOrder = 15
+  end
+  object laGrid21: TStaticText
+    Left = 116
+    Height = 40
+    Top = 418
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid21Click
+    ParentFont = False
+    TabOrder = 16
+  end
+  object laGrid22: TStaticText
+    Left = 176
+    Height = 40
+    Top = 418
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid22Click
+    ParentFont = False
+    TabOrder = 17
+  end
+  object laGrid23: TStaticText
+    Left = 236
+    Height = 40
+    Top = 418
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid23Click
+    ParentFont = False
+    TabOrder = 18
+  end
+  object laGrid24: TStaticText
+    Left = 296
+    Height = 40
+    Top = 418
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid24Click
+    ParentFont = False
+    TabOrder = 19
+  end
+  object laGrid25: TStaticText
+    Left = 356
+    Height = 40
+    Top = 418
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid25Click
+    ParentFont = False
+    TabOrder = 20
+  end
+  object laGrid30: TStaticText
+    Left = 56
+    Height = 40
+    Top = 478
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid30Click
+    ParentFont = False
+    TabOrder = 21
+  end
+  object laGrid31: TStaticText
+    Left = 116
+    Height = 40
+    Top = 478
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid31Click
+    ParentFont = False
+    TabOrder = 22
+  end
+  object laGrid32: TStaticText
+    Left = 176
+    Height = 40
+    Top = 478
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid32Click
+    ParentFont = False
+    TabOrder = 23
+  end
+  object laGrid33: TStaticText
+    Left = 236
+    Height = 40
+    Top = 478
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid33Click
+    ParentFont = False
+    TabOrder = 24
+  end
+  object laGrid34: TStaticText
+    Left = 296
+    Height = 40
+    Top = 478
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid34Click
+    ParentFont = False
+    TabOrder = 25
+  end
+  object laGrid35: TStaticText
+    Left = 356
+    Height = 40
+    Top = 478
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid35Click
+    ParentFont = False
+    TabOrder = 26
+  end
+  object laGrid40: TStaticText
+    Left = 56
+    Height = 40
+    Top = 538
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid40Click
+    ParentFont = False
+    TabOrder = 27
+  end
+  object laGrid41: TStaticText
+    Left = 116
+    Height = 40
+    Top = 538
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid41Click
+    ParentFont = False
+    TabOrder = 28
+  end
+  object laGrid42: TStaticText
+    Left = 176
+    Height = 40
+    Top = 538
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid42Click
+    ParentFont = False
+    TabOrder = 29
+  end
+  object laGrid43: TStaticText
+    Left = 236
+    Height = 40
+    Top = 538
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid43Click
+    ParentFont = False
+    TabOrder = 30
+  end
+  object laGrid44: TStaticText
+    Left = 296
+    Height = 40
+    Top = 538
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid44Click
+    ParentFont = False
+    TabOrder = 31
+  end
+  object laGrid45: TStaticText
+    Left = 356
+    Height = 40
+    Top = 538
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid45Click
+    ParentFont = False
+    TabOrder = 32
+  end
+  object laGrid50: TStaticText
+    Left = 56
+    Height = 40
+    Top = 598
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid50Click
+    ParentFont = False
+    TabOrder = 33
+  end
+  object laGrid51: TStaticText
+    Left = 116
+    Height = 40
+    Top = 598
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid51Click
+    ParentFont = False
+    TabOrder = 34
+  end
+  object laGrid52: TStaticText
+    Left = 176
+    Height = 40
+    Top = 598
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid52Click
+    ParentFont = False
+    TabOrder = 35
+  end
+  object laGrid53: TStaticText
+    Left = 236
+    Height = 40
+    Top = 598
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid53Click
+    ParentFont = False
+    TabOrder = 36
+  end
+  object laGrid54: TStaticText
+    Left = 296
+    Height = 40
+    Top = 598
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid54Click
+    ParentFont = False
+    TabOrder = 37
+  end
+  object laGrid55: TStaticText
+    Left = 356
+    Height = 40
+    Top = 598
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    OnClick = laGrid55Click
+    ParentFont = False
+    TabOrder = 38
+  end
+  object laTop0: TStaticText
+    Left = 56
+    Height = 40
+    Top = 240
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 39
+  end
+  object laTop1: TStaticText
+    Left = 116
+    Height = 40
+    Top = 240
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 40
+  end
+  object laTop2: TStaticText
+    Left = 176
+    Height = 40
+    Top = 240
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 41
+  end
+  object laTop3: TStaticText
+    Left = 236
+    Height = 40
+    Top = 240
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 42
+  end
+  object laTop4: TStaticText
+    Left = 296
+    Height = 40
+    Top = 240
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 43
+  end
+  object laTop5: TStaticText
+    Left = 356
+    Height = 40
+    Top = 240
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 44
+  end
+  object laLeft0: TStaticText
+    Left = 6
+    Height = 40
+    Top = 298
+    Width = 40
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 45
+  end
+  object laLeft1: TStaticText
+    Left = 6
+    Height = 40
+    Top = 358
+    Width = 40
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 46
+  end
+  object laLeft2: TStaticText
+    Left = 6
+    Height = 40
+    Top = 418
+    Width = 40
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 47
+  end
+  object laLeft3: TStaticText
+    Left = 6
+    Height = 40
+    Top = 478
+    Width = 40
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 48
+  end
+  object laLeft4: TStaticText
+    Left = 6
+    Height = 40
+    Top = 538
+    Width = 40
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 49
+  end
+  object laLeft5: TStaticText
+    Left = 6
+    Height = 40
+    Top = 598
+    Width = 40
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 50
+  end
+  object edHelp: TMemo
+    Left = 480
+    Height = 195
+    Top = 288
+    Width = 616
+    Color = clCream
+    Lines.Strings = (
+      'Grades application help:'
+      ''
+      'Click the field, where you want to place a number, then click a number button to write it into the selected field. Use the "Clear" button to clear the selected field.'
+      ''
+      'When you have written all your numbers, push the "Done" button to check the solution.'
+    )
+    ReadOnly = True
+    TabOrder = 51
+    TabStop = False
+  end
+  object btShow: TButton
+    Left = 1002
+    Height = 31
+    Top = 665
+    Width = 94
+    Caption = 'Show'
+    OnClick = btShowClick
+    TabOrder = 52
+    TabStop = False
+  end
+  object btDone: TButton
+    Left = 1002
+    Height = 31
+    Top = 620
+    Width = 94
+    Caption = 'Done'
+    OnClick = btDoneClick
+    TabOrder = 0
+  end
+  object laBottom0: TStaticText
+    Left = 56
+    Height = 40
+    Top = 656
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 53
+  end
+  object laBottom1: TStaticText
+    Left = 116
+    Height = 40
+    Top = 656
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 54
+  end
+  object laBottom2: TStaticText
+    Left = 176
+    Height = 40
+    Top = 656
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 55
+  end
+  object laBottom3: TStaticText
+    Left = 236
+    Height = 40
+    Top = 656
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 56
+  end
+  object laBottom4: TStaticText
+    Left = 296
+    Height = 40
+    Top = 656
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 57
+  end
+  object laBottom5: TStaticText
+    Left = 356
+    Height = 40
+    Top = 656
+    Width = 60
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 58
+  end
+  object laRight0: TStaticText
+    Left = 426
+    Height = 40
+    Top = 298
+    Width = 40
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 59
+  end
+  object laRight1: TStaticText
+    Left = 426
+    Height = 40
+    Top = 358
+    Width = 40
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 60
+  end
+  object laRight2: TStaticText
+    Left = 426
+    Height = 40
+    Top = 418
+    Width = 40
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 61
+  end
+  object laRight3: TStaticText
+    Left = 426
+    Height = 40
+    Top = 478
+    Width = 40
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 62
+  end
+  object laRight4: TStaticText
+    Left = 426
+    Height = 40
+    Top = 538
+    Width = 40
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 63
+  end
+  object laRight5: TStaticText
+    Left = 426
+    Height = 40
+    Top = 598
+    Width = 40
+    Alignment = taCenter
+    Caption = '1'
+    Font.Color = clBlue
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 64
+  end
+  object bt1: TButton
+    Left = 480
+    Height = 31
+    Top = 504
+    Width = 31
+    Caption = '1'
+    OnClick = bt1Click
+    TabOrder = 65
+  end
+  object bt2: TButton
+    Left = 523
+    Height = 31
+    Top = 504
+    Width = 31
+    Caption = '2'
+    OnClick = bt2Click
+    TabOrder = 66
+  end
+  object bt3: TButton
+    Left = 566
+    Height = 31
+    Top = 504
+    Width = 31
+    Caption = '3'
+    OnClick = bt3Click
+    TabOrder = 67
+  end
+  object bt4: TButton
+    Left = 609
+    Height = 31
+    Top = 504
+    Width = 31
+    Caption = '4'
+    OnClick = bt4Click
+    TabOrder = 68
+  end
+  object bt5: TButton
+    Left = 652
+    Height = 31
+    Top = 504
+    Width = 31
+    Caption = '5'
+    OnClick = bt5Click
+    TabOrder = 69
+  end
+  object bt6: TButton
+    Left = 695
+    Height = 31
+    Top = 504
+    Width = 31
+    Caption = '6'
+    OnClick = bt6Click
+    TabOrder = 70
+  end
+  object bt7: TButton
+    Left = 738
+    Height = 31
+    Top = 504
+    Width = 31
+    Caption = '7'
+    OnClick = bt7Click
+    TabOrder = 71
+  end
+  object bt8: TButton
+    Left = 781
+    Height = 31
+    Top = 504
+    Width = 31
+    Caption = '8'
+    OnClick = bt8Click
+    TabOrder = 72
+  end
+  object bt9: TButton
+    Left = 824
+    Height = 31
+    Top = 504
+    Width = 31
+    Caption = '9'
+    OnClick = bt9Click
+    TabOrder = 73
+  end
+  object btClear: TButton
+    Left = 867
+    Height = 31
+    Top = 504
+    Width = 94
+    Caption = 'Clear'
+    OnClick = btClearClick
+    TabOrder = 74
+  end
+  object btClearAll: TButton
+    Left = 1002
+    Height = 31
+    Top = 504
+    Width = 94
+    Caption = 'Clear all'
+    OnClick = btClearAllClick
+    TabOrder = 75
+  end
+  object mMenu: TMainMenu
+    left = 1040
+    top = 8
+    object mPuzzle: TMenuItem
+      Caption = 'Puzzle'
+      object mPuzzleNew: TMenuItem
+        Caption = 'New'
+        OnClick = mPuzzleNewClick
+      end
+      object mPuzzleExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mPuzzleExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsSize: TMenuItem
+        Caption = 'Puzzle size'
+        object mOptionsSize4: TMenuItem
+          Caption = '4 x 4'
+          OnClick = mOptionsSize4Click
+        end
+        object mOptionsSize5: TMenuItem
+          Caption = '5 x 5'
+          Checked = True
+          OnClick = mOptionsSize5Click
+        end
+        object mOptionsSize6: TMenuItem
+          Caption = '6 x 6'
+          OnClick = mOptionsSize6Click
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpCopyright: TMenuItem
+        Caption = 'Source and copyright'
+        OnClick = mHelpCopyrightClick
+      end
+      object mHelpWebsite: TMenuItem
+        Caption = '"Rätsel und Puzzles" website'
+        OnClick = mHelpWebsiteClick
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object mHelpRules: TMenuItem
+        Caption = 'Original game'
+        OnClick = mHelpRulesClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

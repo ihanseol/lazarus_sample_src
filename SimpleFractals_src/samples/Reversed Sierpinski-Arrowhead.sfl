@@ -1,0 +1,10 @@
+# Reversed Sierpinski-Arrowhead
+
+origin = (150,75)
+displacement = 5
+
+axiom = "4YF"
+rules = { "X": "YF-XF-Y",
+          "Y": "XF+YF+X" }
+iterations = 7
+angle = 60

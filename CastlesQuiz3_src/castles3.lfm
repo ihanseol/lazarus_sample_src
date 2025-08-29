@@ -1,0 +1,325 @@
+object fCQuiz3: TfCQuiz3
+  Left = 121
+  Height = 507
+  Top = 107
+  Width = 760
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Castle Quiz'
+  ClientHeight = 482
+  ClientWidth = 760
+  DesignTimePPI = 120
+  Font.Height = -17
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object imCastle: TImage
+    Left = 10
+    Height = 300
+    Top = 10
+    Width = 400
+    Center = True
+  end
+  object edName1: TEdit
+    Left = 424
+    Height = 31
+    Top = 56
+    Width = 228
+    Color = clAqua
+    Font.Height = -17
+    ParentFont = False
+    TabStop = False
+    TabOrder = 1
+    Text = 'Player 1'
+  end
+  object edScore1: TEdit
+    Left = 664
+    Height = 31
+    Top = 56
+    Width = 88
+    Alignment = taRightJustify
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 3
+  end
+  object edName2: TEdit
+    Left = 424
+    Height = 31
+    Top = 96
+    Width = 228
+    Enabled = False
+    Font.Height = -17
+    ParentFont = False
+    TabStop = False
+    TabOrder = 2
+    Text = 'Player 2'
+  end
+  object edScore2: TEdit
+    Left = 664
+    Height = 31
+    Top = 96
+    Width = 88
+    Alignment = taRightJustify
+    Enabled = False
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 4
+  end
+  object cobAnswers: TComboBox
+    Left = 10
+    Height = 31
+    Top = 328
+    Width = 334
+    Font.Height = -17
+    ItemHeight = 23
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 5
+  end
+  object btStart: TButton
+    Left = 658
+    Height = 31
+    Top = 448
+    Width = 94
+    Caption = 'Start'
+    OnClick = btStartClick
+    TabOrder = 0
+  end
+  object edAnswer: TEdit
+    Left = 424
+    Height = 31
+    Top = 152
+    Width = 328
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 6
+  end
+  object edAnswer2: TEdit
+    Left = 424
+    Height = 31
+    Top = 192
+    Width = 328
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 7
+  end
+  object stQuiz: TStaticText
+    Left = 424
+    Height = 21
+    Top = 10
+    Width = 328
+    Caption = 'QUIZ'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 8
+  end
+  object stSlide: TStaticText
+    Left = 424
+    Height = 21
+    Top = 247
+    Width = 328
+    Caption = 'Slideshow'
+    Font.Height = -17
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 9
+  end
+  object edSlide: TEdit
+    Left = 424
+    Height = 31
+    Top = 279
+    Width = 328
+    Font.Height = -17
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 10
+  end
+  object btPause: TButton
+    Left = 552
+    Height = 31
+    Top = 448
+    Width = 94
+    Caption = 'Pause'
+    OnClick = btPauseClick
+    TabOrder = 11
+    TabStop = False
+    Visible = False
+  end
+  object rbAnswer1: TRadioButton
+    Left = 10
+    Height = 27
+    Top = 328
+    Width = 98
+    Caption = ' Answer 1'
+    TabOrder = 12
+  end
+  object rbAnswer4: TRadioButton
+    Left = 378
+    Height = 27
+    Top = 328
+    Width = 98
+    Caption = ' Answer 4'
+    TabOrder = 13
+  end
+  object rbAnswer2: TRadioButton
+    Left = 10
+    Height = 27
+    Top = 368
+    Width = 98
+    Caption = ' Answer 2'
+    TabOrder = 14
+  end
+  object rbAnswer5: TRadioButton
+    Left = 378
+    Height = 27
+    Top = 368
+    Width = 98
+    Caption = ' Answer 5'
+    TabOrder = 15
+  end
+  object rbAnswer3: TRadioButton
+    Left = 10
+    Height = 27
+    Top = 408
+    Width = 98
+    Caption = ' Answer 3'
+    TabOrder = 16
+  end
+  object rbAnswer6: TRadioButton
+    Left = 378
+    Height = 27
+    Top = 408
+    Width = 98
+    Caption = ' Answer 6'
+    TabOrder = 17
+  end
+  object mMenu: TMainMenu
+    Left = 24
+    Top = 24
+    object mFile: TMenuItem
+      Caption = 'File'
+      object mFileNew: TMenuItem
+        Caption = 'New quiz'
+        OnClick = mFileNewClick
+      end
+      object mFileSlideshow: TMenuItem
+        Caption = 'Slideshow'
+        OnClick = mFileSlideshowClick
+      end
+      object mFileExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mFileExitClick
+      end
+    end
+    object mSettings: TMenuItem
+      Caption = 'Options'
+      object mSettingsPlayers: TMenuItem
+        Caption = 'Number of players'
+        object mSettingsPlayers1: TMenuItem
+          Caption = '1 player'
+          Checked = True
+          OnClick = mSettingsPlayers1Click
+        end
+        object mSettingsPlayers2: TMenuItem
+          Caption = '2 players'
+          OnClick = mSettingsPlayers2Click
+        end
+      end
+      object mSettingsRegion: TMenuItem
+        Caption = 'Country/Region'
+        object mSettingsRegionSCO: TMenuItem
+          Caption = 'Scotland (35 photos)'
+          OnClick = mSettingsRegionSCOClick
+        end
+        object mSettingsRegionENG: TMenuItem
+          Caption = 'England (49 photos)'
+          OnClick = mSettingsRegionENGClick
+        end
+        object mSettingsRegionNWEUR1: TMenuItem
+          Caption = 'North-West Europe I (50 photos)'
+          Checked = True
+          OnClick = mSettingsRegionNWEUR1Click
+        end
+        object mSettingsRegionNWEUR2: TMenuItem
+          Caption = 'North-West Europe II (104 photos)'
+          OnClick = mSettingsRegionNWEUR2Click
+        end
+      end
+      object mSettingsAnswers: TMenuItem
+        Caption = 'Answer proposals'
+        object mSettingsAnswers5: TMenuItem
+          Caption = '  5 réponses'
+          Checked = True
+          OnClick = mSettingsAnswers5Click
+        end
+        object mSettingsAnswers10: TMenuItem
+          Caption = '10 responses'
+          OnClick = mSettingsAnswers10Click
+        end
+        object mSettingsAnswers20: TMenuItem
+          Caption = '20 responses'
+          OnClick = mSettingsAnswers20Click
+        end
+      end
+      object mOptionsNoAnswer: TMenuItem
+        Caption = 'Enable "No correct answer"'
+        Checked = True
+        OnClick = mOptionsNoAnswerClick
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object mSettingsSlideshow: TMenuItem
+        Caption = 'Slideshow interval'
+        object mSettingsSlideshow1: TMenuItem
+          Caption = '1,0 sec'
+          OnClick = mSettingsSlideshow1Click
+        end
+        object mSettingsSlideshow2: TMenuItem
+          Caption = '1,5 sec'
+          Checked = True
+          OnClick = mSettingsSlideshow2Click
+        end
+        object mSettingsSlideshow3: TMenuItem
+          Caption = '2,0 sec'
+          OnClick = mSettingsSlideshow3Click
+        end
+        object mSettingsSlideshow4: TMenuItem
+          Caption = '3,0 sec'
+          OnClick = mSettingsSlideshow4Click
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mHelpHelpClick
+      end
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+      object mHelpPhotos: TMenuItem
+        Caption = 'Data/photos'
+        OnClick = mHelpPhotosClick
+      end
+    end
+  end
+  object tiRQ: TTimer
+    Enabled = False
+    Interval = 1500
+    OnTimer = tiVQTimer
+    Left = 160
+    Top = 24
+  end
+end

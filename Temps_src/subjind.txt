@@ -1,0 +1,6 @@
+je nie, *, $, #
+je doute, *, $, #
+
+il semble, *, $, #
+il est faux, *, $, #
+il est douteux, *, $, #

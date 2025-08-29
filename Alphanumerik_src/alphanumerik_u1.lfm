@@ -1,0 +1,667 @@
+object fAlphanumerik: TfAlphanumerik
+  Left = 296
+  Height = 748
+  Top = 56
+  Width = 675
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Alphanumerik'
+  ClientHeight = 723
+  ClientWidth = 675
+  DesignTimePPI = 120
+  Font.Height = -18
+  Menu = mMenu
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object StaticText1: TStaticText
+    Left = 17
+    Height = 30
+    Top = 10
+    Width = 630
+    Alignment = taCenter
+    Caption = 'Alphanumerik - A cellphone word search game.'
+    Font.Height = -20
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 384
+    Height = 560
+    Top = 56
+    Width = 284
+    Color = clCream
+    Lines.Strings = (
+      'Considering  the correspondance between  the  numbers  and  the letters,  find  the  word that does correspond to the number shown.'
+      ''
+      'Enter  the  letters by  pushing the  corresponding  button,  as you''d do on an  old cellphone. To  clear  the  letter  before the cursor,  use the right button.'
+      ''
+      'When  done,  push the  center of the middle button  to check  your solution.'
+      ''
+      'The  left and  right borders of the middle button  may  be  used  to move the cursor.'
+      ''
+      'To  generate  a  new  word,  push the left button.'
+    )
+    ReadOnly = True
+    TabOrder = 1
+    TabStop = False
+  end
+  object Shape1: TShape
+    Left = 10
+    Height = 660
+    Top = 56
+    Width = 351
+    Brush.Color = clYellow
+    Pen.Width = 15
+  end
+  object Shape2: TShape
+    Left = 25
+    Height = 230
+    Top = 71
+    Width = 322
+  end
+  object shN1: TShape
+    Left = 35
+    Height = 51
+    Top = 461
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    Shape = stEllipse
+  end
+  object stN1: TStaticText
+    Left = 47
+    Height = 41
+    Top = 467
+    Width = 51
+    Alignment = taCenter
+    Caption = '1'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    OnClick = stN1Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object shN2: TShape
+    Left = 145
+    Height = 51
+    Top = 461
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    Shape = stEllipse
+  end
+  object stN2: TStaticText
+    Left = 160
+    Height = 41
+    Top = 467
+    Width = 51
+    Alignment = taCenter
+    Caption = '2'#13#10'ABC'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    OnClick = stN2Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object shN3: TShape
+    Left = 255
+    Height = 51
+    Top = 461
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    Shape = stEllipse
+  end
+  object stN3: TStaticText
+    Left = 270
+    Height = 41
+    Top = 467
+    Width = 51
+    Alignment = taCenter
+    Caption = '3'#13#10'DEF'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    OnClick = stN3Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object shN4: TShape
+    Left = 35
+    Height = 51
+    Top = 521
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    Shape = stEllipse
+  end
+  object stN4: TStaticText
+    Left = 50
+    Height = 41
+    Top = 526
+    Width = 51
+    Alignment = taCenter
+    Caption = '4'#13#10'GHI'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    OnClick = stN4Click
+    ParentFont = False
+    TabOrder = 5
+  end
+  object shN5: TShape
+    Left = 145
+    Height = 51
+    Top = 521
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    Shape = stEllipse
+  end
+  object stN5: TStaticText
+    Left = 160
+    Height = 41
+    Top = 526
+    Width = 51
+    Alignment = taCenter
+    Caption = '5'#13#10'JKL'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    OnClick = stN5Click
+    ParentFont = False
+    TabOrder = 6
+  end
+  object shN6: TShape
+    Left = 255
+    Height = 51
+    Top = 521
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    Shape = stEllipse
+  end
+  object stN6: TStaticText
+    Left = 270
+    Height = 41
+    Top = 526
+    Width = 51
+    Alignment = taCenter
+    Caption = '6'#13#10'MNO'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    OnClick = stN6Click
+    ParentFont = False
+    TabOrder = 7
+  end
+  object shN7: TShape
+    Left = 35
+    Height = 51
+    Top = 581
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    Shape = stEllipse
+  end
+  object stN7: TStaticText
+    Left = 50
+    Height = 41
+    Top = 586
+    Width = 51
+    Alignment = taCenter
+    Caption = '7'#13#10'PQRS'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    OnClick = stN7Click
+    ParentFont = False
+    TabOrder = 8
+  end
+  object shN8: TShape
+    Left = 145
+    Height = 51
+    Top = 581
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    Shape = stEllipse
+  end
+  object stN8: TStaticText
+    Left = 160
+    Height = 41
+    Top = 586
+    Width = 51
+    Alignment = taCenter
+    Caption = '8'#13#10'TUV'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    OnClick = stN8Click
+    ParentFont = False
+    TabOrder = 9
+  end
+  object shN9: TShape
+    Left = 255
+    Height = 51
+    Top = 581
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    Shape = stEllipse
+  end
+  object stN9: TStaticText
+    Left = 270
+    Height = 41
+    Top = 586
+    Width = 51
+    Alignment = taCenter
+    Caption = '9'#13#10'WXYZ'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    OnClick = stN9Click
+    ParentFont = False
+    TabOrder = 10
+  end
+  object shN0: TShape
+    Left = 145
+    Height = 51
+    Top = 641
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    Shape = stEllipse
+  end
+  object stN0: TStaticText
+    Left = 160
+    Height = 41
+    Top = 646
+    Width = 51
+    Alignment = taCenter
+    Caption = '0'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    OnClick = stN0Click
+    ParentFont = False
+    TabOrder = 11
+  end
+  object shStar: TShape
+    Left = 35
+    Height = 51
+    Top = 641
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    Shape = stEllipse
+  end
+  object stStar: TStaticText
+    Left = 50
+    Height = 41
+    Top = 646
+    Width = 51
+    Alignment = taCenter
+    Caption = '*'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    OnClick = stStarClick
+    ParentFont = False
+    TabOrder = 12
+  end
+  object shNumberSign: TShape
+    Left = 255
+    Height = 51
+    Top = 641
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    Shape = stEllipse
+  end
+  object stNumberSign: TStaticText
+    Left = 270
+    Height = 41
+    Top = 646
+    Width = 51
+    Alignment = taCenter
+    Caption = '#'
+    Font.Height = -15
+    Font.Style = [fsBold]
+    OnClick = stNumberSignClick
+    ParentFont = False
+    TabOrder = 13
+  end
+  object shRight: TShape
+    Left = 255
+    Height = 51
+    Top = 341
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    OnMouseDown = shRightMouseDown
+    Shape = stEllipse
+  end
+  object shLeft: TShape
+    Left = 35
+    Height = 51
+    Top = 341
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    OnMouseDown = shLeftMouseDown
+    Shape = stEllipse
+  end
+  object shMiddle: TShape
+    Left = 125
+    Height = 111
+    Top = 341
+    Width = 121
+    Brush.Color = clYellow
+    Pen.Width = 2
+    OnMouseDown = shMiddleMouseDown
+    Shape = stEllipse
+  end
+  object shPhoneUp: TShape
+    Left = 35
+    Height = 51
+    Top = 401
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    OnMouseDown = shPhoneUpMouseDown
+    Shape = stEllipse
+  end
+  object shPhoneDown: TShape
+    Left = 255
+    Height = 51
+    Top = 401
+    Width = 81
+    Brush.Color = clYellow
+    Pen.Width = 2
+    OnMouseDown = shPhoneDownMouseDown
+    Shape = stEllipse
+  end
+  object Shape3: TShape
+    Left = 25
+    Height = 30
+    Top = 300
+    Width = 322
+  end
+  object StaticText15: TStaticText
+    Left = 255
+    Height = 21
+    Top = 304
+    Width = 81
+    Alignment = taCenter
+    Caption = 'Clear'
+    TabOrder = 14
+  end
+  object StaticText16: TStaticText
+    Left = 145
+    Height = 21
+    Top = 304
+    Width = 81
+    Alignment = taCenter
+    Caption = 'Done'
+    TabOrder = 15
+  end
+  object StaticText17: TStaticText
+    Left = 35
+    Height = 21
+    Top = 304
+    Width = 81
+    Alignment = taCenter
+    Caption = 'New'
+    TabOrder = 16
+  end
+  object Label2: TLabel
+    Left = 384
+    Height = 25
+    Top = 690
+    Width = 73
+    Caption = 'Numbers'
+  end
+  object edNumbers: TEdit
+    Left = 464
+    Height = 28
+    Top = 688
+    Width = 204
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 17
+  end
+  object laLetter1: TLabel
+    Left = 35
+    Height = 38
+    Top = 86
+    Width = 18
+    Caption = '-'
+    Font.Height = -33
+    Font.Name = 'Consolas'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object laLetter2: TLabel
+    Left = 55
+    Height = 38
+    Top = 86
+    Width = 18
+    Caption = '-'
+    Font.Height = -33
+    Font.Name = 'Consolas'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object laLetter3: TLabel
+    Left = 75
+    Height = 38
+    Top = 86
+    Width = 18
+    Caption = '-'
+    Font.Height = -33
+    Font.Name = 'Consolas'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object laLetter4: TLabel
+    Left = 95
+    Height = 38
+    Top = 86
+    Width = 18
+    Caption = '-'
+    Font.Height = -33
+    Font.Name = 'Consolas'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object laLetter5: TLabel
+    Left = 115
+    Height = 38
+    Top = 86
+    Width = 18
+    Caption = '-'
+    Font.Height = -33
+    Font.Name = 'Consolas'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object laLetter6: TLabel
+    Left = 135
+    Height = 38
+    Top = 86
+    Width = 18
+    Caption = '-'
+    Font.Height = -33
+    Font.Name = 'Consolas'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object laLetter7: TLabel
+    Left = 155
+    Height = 38
+    Top = 86
+    Width = 18
+    Caption = '-'
+    Font.Height = -33
+    Font.Name = 'Consolas'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object laLetter8: TLabel
+    Left = 175
+    Height = 38
+    Top = 86
+    Width = 18
+    Caption = '-'
+    Font.Height = -33
+    Font.Name = 'Consolas'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object laLetter9: TLabel
+    Left = 195
+    Height = 38
+    Top = 86
+    Width = 18
+    Caption = '-'
+    Font.Height = -33
+    Font.Name = 'Consolas'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object laLetter10: TLabel
+    Left = 215
+    Height = 38
+    Top = 86
+    Width = 18
+    Caption = '-'
+    Font.Height = -33
+    Font.Name = 'Consolas'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object laLetter11: TLabel
+    Left = 235
+    Height = 38
+    Top = 86
+    Width = 18
+    Caption = '-'
+    Font.Height = -33
+    Font.Name = 'Consolas'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object laLetter12: TLabel
+    Left = 255
+    Height = 38
+    Top = 86
+    Width = 18
+    Caption = '-'
+    Font.Height = -33
+    Font.Name = 'Consolas'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object shCursor: TShape
+    Left = 33
+    Height = 30
+    Top = 94
+    Width = 2
+    Brush.Color = clBlack
+  end
+  object edWord: TEdit
+    Left = 464
+    Height = 28
+    Top = 648
+    Width = 204
+    Font.Height = -17
+    Font.Name = 'Consolas'
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 18
+  end
+  object Label1: TLabel
+    Left = 384
+    Height = 25
+    Top = 650
+    Width = 44
+    Caption = 'Word'
+  end
+  object mMenu: TMainMenu
+    Left = 624
+    Top = 8
+    object mGame: TMenuItem
+      Caption = 'Game'
+      object mGameNew: TMenuItem
+        Caption = 'New'
+        OnClick = mGameNewClick
+      end
+      object mGameExit: TMenuItem
+        Caption = 'Exit'
+        OnClick = mGameExitClick
+      end
+    end
+    object mOptions: TMenuItem
+      Caption = 'Options'
+      object mOptionsLanguage: TMenuItem
+        Caption = 'Language'
+        object mOptionsLanguageEng: TMenuItem
+          Caption = 'English'
+          Checked = True
+          OnClick = mOptionsLanguageEngClick
+        end
+        object mOptionsLanguageFRA: TMenuItem
+          Caption = 'French'
+          OnClick = mOptionsLanguageFRAClick
+        end
+        object mOptionsLanguageGER: TMenuItem
+          Caption = 'German'
+          OnClick = mOptionsLanguageGERClick
+        end
+        object mOptionsLanguageLUX: TMenuItem
+          Caption = 'Luxembourgish'
+          OnClick = mOptionsLanguageLUXClick
+        end
+      end
+      object mOptionsWordLength: TMenuItem
+        Caption = 'Word length'
+        object mOptionsWordLength8: TMenuItem
+          Caption = '  8 characters'
+          Checked = True
+          OnClick = mOptionsWordLength8Click
+        end
+        object mOptionsWordLength9: TMenuItem
+          Caption = '  9 characters'
+          OnClick = mOptionsWordLength9Click
+        end
+        object mOptionsWordLength10: TMenuItem
+          Caption = '10 characters'
+          OnClick = mOptionsWordLength10Click
+        end
+        object mOptionsWordLength12: TMenuItem
+          Caption = '12 characters'
+          OnClick = mOptionsWordLength12Click
+        end
+      end
+      object mOptionsGivenChars: TMenuItem
+        Caption = 'Given characters'
+        object mOptionsGivenChars3: TMenuItem
+          Caption = '3 characters'
+          Checked = True
+          OnClick = mOptionsGivenChars3Click
+        end
+        object mOptionsGivenChars4: TMenuItem
+          Caption = '4 characters'
+          OnClick = mOptionsGivenChars4Click
+        end
+        object mOptionsGivenChars5: TMenuItem
+          Caption = '5 characters'
+          OnClick = mOptionsGivenChars5Click
+        end
+      end
+    end
+    object mHelp: TMenuItem
+      Caption = 'Help'
+      object mHelpAbout: TMenuItem
+        Caption = 'About'
+        OnClick = mHelpAboutClick
+      end
+    end
+  end
+end

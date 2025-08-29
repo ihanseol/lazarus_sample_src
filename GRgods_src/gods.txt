@@ -1,0 +1,26 @@
+Jupiter        Zeus           m king of the gods, ruler of mankind                          O eagle, oak, thunderbolt
+Neptune        Poseidon       m god of the sea, horses and earthquakes                      O dolphin, horses, trident
+Pluto          Hades          m god of the underworld, king of the dead                     - Cerberus, cypress tree, invisibility helmet
+Juno           Hera           f queen of the gods, goddess of marriage and childbirth       O pomegranate, peacock, cockoo
+Vesta          Hestia         f goddess of home, hearth and family                          O hearth, fire, home
+Mars           Ares           m god of war                                                  O vulture, attack dogs, sword, shield
+Minerva        Athena         f goddess of wisdom, warcraft and weaving                     O owl, olive tree, shield
+Apollo         Apollo         m god of truth, poetry and medicine                           O sun chariot, bow and arrows, lyre
+Venus          Aphrodite      f goddess of love and beauty                                  O dove, sparrows
+Mercury        Hermes         m messenger of the gods, god of the thieves and commerce      O caduceus, winged sandals, helmet
+Diana          Artemis        f goddess of the hunt                                         O crescent, stag, bow and arrow
+Vulcan         Hephaestus     m blacksmith of the gods, god of workers and metal            O fire, forge, hammer and anvil
+Bacchus        Dionysus       m god of wine and revelry                                     - grapevines, tigers and lions
+Ceres          Demeter        f goddess of agriculture and nature                           O sheaf of wheat, poppies, cornucopia
+
+Voluptas       Hedone         f goddess of pleasure, enjoyment, and delight                 -
+Victoria       Nike           f goddess of victory                                          -
+Faunus         Pan            m god of the forest, plains and fields                        -
+Pax            Eirene         f goddess of peace                                            -
+Nox            Nyx            f goddess of the night                                        -
+Juventas       Hebe           f goddess of youth and rejuvenation                           -
+Justitia       Dike           f goddess of justice                                          -
+Fortuna        Tyche          f goddess of fortune                                          -
+Cupid          Eros           m god of love and sex                                         -
+Clementia      Eleos          f goddess of mercy and forgiveness                            -
+Flora          Chloris        f goddess of flowers                                          -

@@ -1,0 +1,278 @@
+# Unregelmäßige und starke deutsche Verben - Sprachniveau C1
+# https://deutschlernerblog.de/1100-unregelmaessige-und-starke-deutsche-verben-nach-sprachniveau-a1-c2/
+
+bewegen             bewegt              bewog               bewogen             R H - ein Grund sein für
+bewegen             bewegt              bewegte             bewegt              R H - in Bewegung setzen
+dringen             dringt              drang               gedrungen           R X -
+erlöschen           erlischt            erlosch             erloschen           S S -
+fechten             ficht               focht               gefochten           S H -
+gedeihen            gedeiht             gedieh              gediehen            R S -
+genesen             genest              genas               genesen             R S -
+gleiten             gleitet             glitt               geglitten           R S -
+klimmen             klimmt              klomm/klimmte       geklommen/geklimmt  R S -
+kneifen             kneift              kniff               gekniffen           R H -
+kriechen            kriecht             kroch               gekrochen           R S -
+melken              melkt               molk                gemolken            R H -
+preisen             preist              pries               gepriesen           R H -
+quellen             quillt              quoll               gequollen           S S -
+rinnen              rinnt               rann                geronnen            R S -
+saugen              saugt               sog/saugte          gesogen/gesaugt     R H -
+schleichen          schleicht           schlich             geschlichen         R S -
+schleifen_1         schleift            schliff             geschliffen         R H - scharf machen
+schleifen_2         schleift            schleifte           geschleift          R H - über den Boden zerren
+schlingen           schlingt            schlang             geschlungen         R H -
+schwingen           schwingt            schwang             geschwungen         R X -
+sinnen              sinnt               sann                gesonnen            R H -
+sprießen            sprießt             sproß               gesprossen          R S -
+wringen             wringt              wrang               gewrungen           R H -
+ab-be-rufen                                                                     T H -
+ab-bitten                                                                       T H -
+ab-blasen                                                                       T H -
+ab-fließen                                                                      T S -
+ab-gleiten                                                                      T S -
+ab-graben                                                                       T H -
+ab-helfen                                                                       T H -
+ab-lassen                                                                       T H -
+ab-reiben                                                                       T H -
+ab-ringen                                                                       T H -
+ab-schleifen                                                                    T H -
+ab-schwören                                                                     T H -
+ab-sitzen                                                                       T H -
+ab-stechen                                                                      T H -
+ab-stehen                                                                       T H -
+ab-stoßen                                                                       T H -
+ab-streichen                                                                    T H -
+ab-tragen                                                                       T H -
+ab-trinken                                                                      T H -
+ab-tun                                                                          T H -
+ab-werben                                                                       T H -
+an-beißen                                                                       T H -
+an-bringen                                                                      T H -
+an-fechten                                                                      T H -
+an-fliegen                                                                      T X -
+an-fressen                                                                      T H -
+an-heben                                                                        T H -
+an-klingen                                                                      T S -
+an-lassen                                                                       T H -
+an-messen                                                                       T H -
+an-preisen                                                                      T H -
+an-reißen                                                                       T H -
+an-rennen                                                                       T S -
+an-scheißen                                                                     T H -
+an-schlagen                                                                     T H -
+an-schleichen                                                                   T S -
+sich an-schweigen                                                               T H P
+an-stechen                                                                      T H -
+an-tragen                                                                       T H -
+an-trinken                                                                      T H -
+an-werben                                                                       T H -
+an-werfen                                                                       T H -
+auf-binden                                                                      T H -
+auf-bringen                                                                     T H -
+auf-gießen                                                                      T H -
+auf-laufen                                                                      T S -
+auf-lesen                                                                       T H -
+auf-quellen                                                                     T S -
+auf-reiben                                                                      T H -
+auf-schreien                                                                    T H -
+auf-sitzen                                                                      T H -
+auf-stechen                                                                     T H -
+auf-tun                                                                         T H -
+auf-wenden_?                                                                    T H -
+auf-wiegen                                                                      T H -
+auf-zwingen                                                                     T H -
+aus-bitten                                                                      T H -
+aus-blasen                                                                      T H -
+aus-brennen                                                                     T S -
+aus-er-sehen                                                                    T H -
+aus-fliegen                                                                     T X -
+aus-gleiten                                                                     T S -
+aus-heben                                                                       T H -
+aus-klingen                                                                     T X -
+aus-nehmen                                                                      T H -
+aus-reiten                                                                      T S -
+aus-saugen                                                                      T H -
+aus-schreiben                                                                   T H -
+aus-schreiten                                                                   T S -
+sich aus-schweigen                                                              T H -
+aus-senden                                                                      T H -
+aus-stoßen                                                                      T H -
+aus-streichen                                                                   T H -
+aus-treiben                                                                     T H -
+aus-wachsen                                                                     T S -
+aus-werfen                                                                      T H -
+aus-wringen                                                                     T H -
+be-fahren                                                                       N H -
+be-fallen                                                                       N H -
+sich be-helfen_D                                                                N H -
+bei-geben                                                                       T H -
+bei-kommen                                                                      T S -
+bei-springen                                                                    T S -
+be-lassen                                                                       N H -
+be-leihen                                                                       N H -
+be-messen                                                                       N H -
+be-scheiden                                                                     N H -
+be-scheinen                                                                     N H -
+be-schlagen                                                                     N H -
+be-schneiden                                                                    N H -
+be-schreiten                                                                    N H -
+be-schwören                                                                     N H -
+be-sehen                                                                        N H -
+be-singen                                                                       N H -
+sich besinnen                                                                   N H -
+dar-bringen                                                                     T H -
+durch-biegen                                                                    T H -
+durch-braten                                                                    T H -
+durch-brennen                                                                   T S -
+durch-dringen                                                                   T H -
+durch-fliegen_a                                                                 T S - bei einer Prüfung durchfliegen
+durch-fliegen_b                                                                 N H - mit einem Flugzeug durchfliegen
+durch-hängen_?                                                                  X H -
+durch-klingen_?                                                                 ? H -
+sich durch-ringen                                                               T H -
+durch-scheinen                                                                  T H -
+durch-schießen_?                                                                X H -
+durch-schlagen_?                                                                X H -
+durch-stoßen_?                                                                  X H -
+ein-be-halten                                                                   T H -
+ein-dringen                                                                     T S -
+ein-fahren                                                                      T X -
+sich ein-fressen                                                                T H -
+ein-gehen                                                                       T S -
+ein-lassen                                                                      T H -
+sich ein-lesen                                                                  T H -
+ein-reißen                                                                      T H -
+ein-rennen                                                                      T H -
+ein-schieben                                                                    T H -
+sich ein-schießen                                                               T H -
+sich ein-schleichen                                                             T H -
+ein-schneiden                                                                   T H -
+ein-sinken                                                                      T S -
+ein-stehen                                                                      T H -
+ein-streichen                                                                   T H -
+ein-treiben                                                                     T H -
+empor-schießen                                                                  T S -
+empor-steigen                                                                   T S -
+ent-fahren                                                                      N S -
+ent-fliegen                                                                     N S -
+entgegen-bringen                                                                T H -
+entgegen-schlagen                                                               T H -
+entgegen-sehen                                                                  T H -
+ent-gleiten                                                                     N S -
+ent-laden                                                                       N H -
+ent-schwinden                                                                   N S -
+sich ent-sinnen                                                                 N H -
+ent-springen                                                                    N S -
+ent-weichen                                                                     N S -
+sich er-gießen                                                                  N H -
+er-klimmen                                                                      N H -
+er-lassen                                                                       N H -
+er-löschen                                                                      N S -
+er-messen                                                                       N H -
+er-saufen                                                                       N S -
+er-schließen                                                                    N H -
+er-sehen                                                                        N H -
+er-stechen                                                                      N H -
+er-stehen                                                                       N H -
+er-sterben                                                                      N S -
+er-streiten                                                                     N H -
+er-wachsen                                                                      N S -
+fort-denken                                                                     T H -
+ge-brechen                                                                      N H -
+gut-schreiben                                                                   T H -
+heran-wachsen                                                                   T S -
+heraus-schlagen                                                                 T H -
+heraus-streichen                                                                T H -
+herein-brechen                                                                  T S -
+her-gehen                                                                       T S -
+herum-kommen                                                                    T S -
+herum-reiten                                                                    T S -
+herunter-schlingen                                                              T H -
+hin-reißen                                                                      T H -
+hinter-gehen                                                                    N H -
+hinter-treiben                                                                  N H -
+hinter-ziehen                                                                   N H -
+hoch-nehmen                                                                     T H -
+ineinander-laufen                                                               T S P
+inne-halten                                                                     T H -
+los-brechen                                                                     T S -
+los-schlagen                                                                    T H -
+mit-schwingen                                                                   T H -
+nach-sinnen                                                                     T H -
+nieder-brennen                                                                  T H -
+nieder-kommen                                                                   T S -
+nieder-schreiben                                                                T H -
+über-be-kommen                                                                  T H -
+über-fließen                                                                    T S -
+über-gehen                                                                      N H -
+über-greifen                                                                    N H -
+über-haben                                                                      T H -
+über-kommen                                                                     N H -
+über-laden                                                                      N H -
+über-quellen                                                                    T S -
+über-rennen                                                                     N H -
+über-senden                                                                     N H -
+über-werfen_?                                                                   X H -
+um-graben                                                                       T H -
+um-schlagen                                                                     T H -
+um-schließen                                                                    N H -
+um-stehen                                                                       N H P
+um-wenden_?                                                                     T H -
+unter-bieten_?                                                                  ? H -
+unter-graben_a                                                                  N H - gefährden
+unter-graben_b                                                                  T H - aushöhlen
+unter-schieben_?                                                                X H -
+unter-stehen_?                                                                  X H -
+unter-ziehen                                                                    N H -
+ver-denken                                                                      N H -
+sich ver-fangen                                                                 N H -
+ver-gelten                                                                      N H -
+ver-gießen                                                                      N H -
+sich ver-greifen                                                                N H -
+ver-heißen                                                                      N H -
+ver-kennen                                                                      N H -
+ver-klingen                                                                     N S -
+ver-kommen                                                                      N S -
+sich verkriechen                                                                N H -
+ver-laden                                                                       N H -
+sich ver-lesen                                                                  N H -
+ver-nehmen                                                                      N H -
+ver-pfeifen                                                                     N H -
+ver-reiben                                                                      N H -
+sich ver-reißen                                                                 N H -
+ver-rinnen                                                                      N S -
+sich ver-saufen                                                                 N H -
+ver-scheiden                                                                    N S -
+ver-schlagen                                                                    N H -
+ver-schlingen                                                                   N H -
+ver-schmelzen                                                                   N S -
+sich ver-schneiden                                                              N H -
+sich ver-sehen                                                                  N H -
+ver-streichen                                                                   N S -
+sich ver-trinken                                                                N H -
+ver-winden                                                                      N H -
+voll-scheißen                                                                   T H -
+vor-laden                                                                       T H -
+vor-schieben                                                                    T H -
+vor-schießen                                                                    T X -
+vor-sprechen                                                                    T H -
+vor-stehen                                                                      T H -
+vor-stoßen                                                                      T S -
+wider-rufen                                                                     N H -
+zer-fallen                                                                      N S -
+zer-schießen                                                                    N H -
+zer-schlagen                                                                    N H -
+zer-springen                                                                    N S -
+zer-treten                                                                      N H -
+zu-bringen                                                                      T H -
+zu-fliegen                                                                      T S -
+zu-kommen                                                                       T S -
+zusammen-beißen                                                                 T H -
+zusammen-fahren                                                                 T S -
+zusammen-fallen                                                                 T S -
+zusammen-reißen                                                                 T H -
+zusammen-streichen                                                              T H -
+zu-schneiden                                                                    T H -
+zu-sprechen                                                                     T H -
+zu-trinken                                                                      T H -
+zu-tun                                                                          T H -
